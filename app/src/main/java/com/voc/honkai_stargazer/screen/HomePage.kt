@@ -266,11 +266,11 @@ public val homePageItems = arrayListOf<HomePageBlocks.HomePageBlockItem>(
     ),
     HomePageBlocks.HomePageBlockItem(
         itemTitle = "混沌回憶",
-        itemIconId = R.drawable.phorphos_alien_fill
+        itemIconId = R.drawable.phorphos_medal_military_fill
     ),
     HomePageBlocks.HomePageBlockItem(
         itemTitle = "虛構敘事",
-        itemIconId = R.drawable.phorphos_alien_fill
+        itemIconId = R.drawable.phorphos_atom_fill
     ),
     HomePageBlocks.HomePageBlockItem(
         itemTitle = "活動",
@@ -326,6 +326,11 @@ fun MenuScrollView(modifier: Modifier = Modifier) {
             }
         }
     }
+}
+
+@Composable
+fun BottomView(modifier: Modifier = Modifier){
+
 }
 
 @Preview(showBackground = true, showSystemUi = true)

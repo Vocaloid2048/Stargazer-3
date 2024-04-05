@@ -101,7 +101,7 @@ public fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                     .align(Alignment.CenterHorizontally),
                 color = TextColorNormal,
                 style = FontSizeNormalSmall,
-                maxLines = 1
+                textAlign = TextAlign.Center,
             )
         }
     }
@@ -137,7 +137,7 @@ public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                         .align(Alignment.CenterHorizontally),
                     color = TextColorNormal,
                     style = FontSizeNormalSmall,
-                    maxLines = 1
+                    textAlign = TextAlign.Center,
                 )
             }
             Spacer(Modifier.width(32.dp))
@@ -151,16 +151,14 @@ public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                         Modifier.height(IntrinsicSize.Max),
                         color = TextColorNormal,
                         style = FontSizeNormalLarge,
-                        textAlign = TextAlign.End,
-                        maxLines = 1
+                        textAlign = TextAlign.Center,
                     )
                     Text(
                         text = blockData.itemTop,
                         Modifier.height(IntrinsicSize.Max),
                         color = TextColorNormal,
                         style = FontSizeNormal16,
-                        textAlign = TextAlign.End,
-                        maxLines = 1
+                        textAlign = TextAlign.Center,
                     )
                 }
                 Spacer(modifier = Modifier.height(7.dp))
@@ -170,7 +168,6 @@ public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                         .align(Alignment.CenterHorizontally),
                     color = TextColorNormal,
                     style = FontSizeNormalSmall,
-                    maxLines = 1
                 )
             }
         }
@@ -184,7 +181,7 @@ fun HomePageBlockPreview() {
         Row(Modifier.background(Color(0xFF000000))) {
             HomePageBlock1x1(
                 HomePageBlocks.HomePageBlockItem(
-                    itemTitle = "角色",
+                    itemTitle = "角色aaaaaaaaaaaaaaaa",
                     itemIconId = R.drawable.phorphos_person_fill
                 )
             )
