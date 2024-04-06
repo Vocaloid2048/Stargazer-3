@@ -1,52 +1,37 @@
 package com.voc.honkai_stargazer.component
 
+import android.view.View
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.blur
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
-import androidx.compose.ui.graphics.RectangleShape
-import androidx.compose.ui.graphics.painter.Painter
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.voc.honkai_stargazer.R
-import com.voc.honkai_stargazer.screen.gradient
-import com.voc.honkai_stargazer.ui.theme.Black
 import com.voc.honkai_stargazer.ui.theme.BlackAlpha20
 import com.voc.honkai_stargazer.ui.theme.BlackAlpha80
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormal
 import com.voc.honkai_stargazer.ui.theme.FontSizeNormal16
 import com.voc.honkai_stargazer.ui.theme.FontSizeNormalLarge
 import com.voc.honkai_stargazer.ui.theme.FontSizeNormalSmall
 import com.voc.honkai_stargazer.ui.theme.Stargazer3Theme
-import com.voc.honkai_stargazer.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.ui.theme.TextColorNormal
 
 class HomePageBlocks {
@@ -54,9 +39,10 @@ class HomePageBlocks {
         var itemTitle: String = "",
         var itemIconId: Int = R.drawable.phorphos_cake_fill,
         var itemType: HomePageBlockItemType = HomePageBlockItemType.W1H1,
-        var itemTopHighlight: String = "",
-        var itemTop: String = "",
-        var itemBottom: String = "",
+        var itemTopHighlight: String? = "",
+        var itemTop: String? = "",
+        var itemBottom: String? = "",
+        var itemOnClick: () -> Unit? = {},
     ) {
         enum class HomePageBlockItemType {
             W1H1, W2H1
@@ -74,10 +60,10 @@ val gradient = Brush.verticalGradient(
     )
 )
 @Composable
-public fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
+fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
     OutlinedButton(
         contentPadding = PaddingValues(10.dp),
-        onClick = {},
+        onClick = { blockData.itemOnClick},
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20)
@@ -108,10 +94,10 @@ public fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
 }
 
 @Composable
-public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
+fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
     OutlinedButton(
         contentPadding = PaddingValues(10.dp),
-        onClick = {},
+        onClick = { blockData.itemOnClick },
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20)
@@ -147,14 +133,14 @@ public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                     verticalAlignment = Alignment.Bottom
                 ) {
                     Text(
-                        text = blockData.itemTopHighlight,
+                        text = blockData.itemTopHighlight!!,
                         Modifier.height(IntrinsicSize.Max),
                         color = TextColorNormal,
                         style = FontSizeNormalLarge,
                         textAlign = TextAlign.Center,
                     )
                     Text(
-                        text = blockData.itemTop,
+                        text = blockData.itemTop!!,
                         Modifier.height(IntrinsicSize.Max),
                         color = TextColorNormal,
                         style = FontSizeNormal16,
@@ -163,7 +149,7 @@ public fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifie
                 }
                 Spacer(modifier = Modifier.height(7.dp))
                 Text(
-                    text = blockData.itemBottom,
+                    text = blockData.itemBottom!!,
                     Modifier
                         .align(Alignment.CenterHorizontally),
                     color = TextColorNormal,

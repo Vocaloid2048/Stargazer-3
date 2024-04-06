@@ -60,6 +60,7 @@ import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.component.HomePageBlock1x1
 import com.voc.honkai_stargazer.component.HomePageBlock2x1
 import com.voc.honkai_stargazer.component.HomePageBlocks
+import com.voc.honkai_stargazer.constants.Constants.Companion.HOME_PAGE_ITEMS
 import com.voc.honkai_stargazer.ui.theme.BlackAlpha30
 import com.voc.honkai_stargazer.ui.theme.FontSizeNormal
 import com.voc.honkai_stargazer.ui.theme.FontSizeNormalLarge
@@ -223,84 +224,6 @@ fun Header(modifier: Modifier = Modifier) {
     }
 }
 
-public val homePageItems = arrayListOf<HomePageBlocks.HomePageBlockItem>(
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "角色",
-        itemIconId = R.drawable.phorphos_person_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "光錐",
-        itemIconId = R.drawable.phorphos_sword_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "遺器",
-        itemIconId = R.drawable.phorphos_baseball_cap_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "UID查詢",
-        itemIconId = R.drawable.phorphos_alien_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "開拓力",
-        itemIconId = R.drawable.phorphos_moon_fill,
-        itemType = HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1,
-        itemTopHighlight = "116",
-        itemTop = "/240",
-        itemBottom = "今天18:16"
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "100/500",
-        itemIconId = R.drawable.phorphos_calendar_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "2.4K/14K",
-        itemIconId = R.drawable.phorphos_planet_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "派遣",
-        itemIconId = R.drawable.phorphos_users_fill,
-        itemType = HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1,
-        itemTopHighlight = "4",
-        itemTop = "/4",
-        itemBottom = "已完成"
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "混沌回憶",
-        itemIconId = R.drawable.phorphos_medal_military_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "虛構敘事",
-        itemIconId = R.drawable.phorphos_atom_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "活動",
-        itemIconId = R.drawable.phorphos_film_slate_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "練度排行榜",
-        itemIconId = R.drawable.phorphos_trophy_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "混沌排行榜",
-        itemIconId = R.drawable.phorphos_chart_bar_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "虛構排行榜",
-        itemIconId = R.drawable.phorphos_chart_bar_horizontal_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "地圖",
-        itemIconId = R.drawable.phorphos_map_trifold_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "躍遷模擬",
-        itemIconId = R.drawable.phorphos_star_of_david_fill
-    ),
-    HomePageBlocks.HomePageBlockItem(
-        itemTitle = "躍遷分析",
-        itemIconId = R.drawable.phorphos_shooting_star_fill
-    ),
-)
 
 @Composable
 fun MenuScrollView(modifier: Modifier = Modifier) {
@@ -310,13 +233,13 @@ fun MenuScrollView(modifier: Modifier = Modifier) {
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            items(count = homePageItems.size, span = { index ->
-                when (homePageItems[index].itemType) {
+            items(count = HOME_PAGE_ITEMS.size, span = { index ->
+                when (HOME_PAGE_ITEMS[index].itemType) {
                     HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W1H1 -> GridItemSpan(1)
                     HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1 -> GridItemSpan(2)
                 }
             }) { index ->
-                val blockData: HomePageBlocks.HomePageBlockItem = homePageItems[index];
+                val blockData: HomePageBlocks.HomePageBlockItem = HOME_PAGE_ITEMS[index];
                 Box{
                     when (blockData.itemType) {
                         HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W1H1 -> HomePageBlock1x1(blockData)
