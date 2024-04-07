@@ -1,3 +1,9 @@
+/*
+ * Project Honkai Stargazer and app Stargazer (星穹觀星者) were
+ * Organized & Develop by Coding Band.
+ * Copyright © 2024 Coding Band 版權所有
+ */
+
 package com.voc.honkai_stargazer.component
 
 import androidx.compose.foundation.BorderStroke
@@ -18,6 +24,7 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.GenericShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -30,6 +37,7 @@ import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
@@ -42,6 +50,7 @@ import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 import dev.chrisbanes.haze.HazeState
+import dev.chrisbanes.haze.HazeStyle
 import dev.chrisbanes.haze.haze
 import dev.chrisbanes.haze.hazeChild
 
@@ -59,14 +68,20 @@ fun ListHeader(
     onForward: (() -> Unit) = {},
     forwardIconId: Int = R.drawable.bg_transparent,
     title: String = "?",
-    titleIconId: Int = R.drawable.phorphos_sun_dim_fill
+    titleIconId: Int = R.drawable.phorphos_sun_dim_fill,
+    //hazeState: HazeState = HazeState()
 ) {
-    val hazeState = remember { HazeState() }
     //Background
     Box(
         Modifier
             .background(Color(0x66FFFFFF))
-            .padding(bottom = 8.dp)
+        /*
+            .hazeChild(
+                state = hazeState,
+                shape = RoundedCornerShape(16.dp),
+                style = HazeStyle(Color.Unspecified, 20.dp, Float.MIN_VALUE)
+            )
+         */
     ) {
         //BlurView can place in there
         //Now will use Pure Color Background
@@ -74,7 +89,6 @@ fun ListHeader(
             Modifier
                 .statusBarsPadding()
                 .padding(start = 16.dp, end = 16.dp)
-                .haze(state = hazeState)
         ) {
             OutlinedButton(
                 contentPadding = PaddingValues(0.dp),

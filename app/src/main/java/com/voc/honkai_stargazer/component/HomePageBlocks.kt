@@ -1,3 +1,9 @@
+/*
+ * Project Honkai Stargazer and app Stargazer (星穹觀星者) were
+ * Organized & Develop by Coding Band.
+ * Copyright © 2024 Coding Band 版權所有
+ */
+
 package com.voc.honkai_stargazer.component
 
 import android.content.res.Configuration
@@ -18,7 +24,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
@@ -30,7 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.voc.honkai_stargazer.R
-import com.voc.honkai_stargazer.constants.Constants
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha20
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha80
 import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal16

@@ -1,3 +1,9 @@
+/*
+ * Project Honkai Stargazer and app Stargazer (星穹觀星者) were
+ * Organized & Develop by Coding Band.
+ * Copyright © 2024 Coding Band 版權所有
+ */
+
 package com.voc.honkai_stargazer.screen
 
 import android.widget.Toast
@@ -14,7 +20,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
@@ -27,7 +32,6 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -39,7 +43,6 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.layoutId
-import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -47,19 +50,17 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.component.HomePageBlock1x1
 import com.voc.honkai_stargazer.component.HomePageBlock2x1
 import com.voc.honkai_stargazer.component.HomePageBlocks
-import com.voc.honkai_stargazer.constants.Constants.Companion.HOME_PAGE_ITEMS
+import com.voc.honkai_stargazer.types.Constants.Companion.HOME_PAGE_ITEMS
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha30
 import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal
 import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormalLarge
 import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelBackground
 import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelPrimary
-import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 import com.voc.honkai_stargazer.util.RootContent
