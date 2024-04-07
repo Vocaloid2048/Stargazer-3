@@ -82,4 +82,8 @@ dependencies {
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //implementation("com.github.Dimezis:BlurView:version-2.0.3") //BlurView
+    implementation("androidx.navigation:navigation-compose:2.7.7") //Navigation Compose
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0") //System UI Controller
 }

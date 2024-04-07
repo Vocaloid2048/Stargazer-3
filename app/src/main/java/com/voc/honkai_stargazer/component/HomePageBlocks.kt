@@ -1,6 +1,6 @@
 package com.voc.honkai_stargazer.component
 
-import android.view.View
+import android.content.res.Configuration
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -18,21 +18,27 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.voc.honkai_stargazer.R
-import com.voc.honkai_stargazer.ui.theme.BlackAlpha20
-import com.voc.honkai_stargazer.ui.theme.BlackAlpha80
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormal16
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormalLarge
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormalSmall
-import com.voc.honkai_stargazer.ui.theme.Stargazer3Theme
-import com.voc.honkai_stargazer.ui.theme.TextColorNormal
+import com.voc.honkai_stargazer.constants.Constants
+import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha20
+import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha80
+import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal16
+import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormalLarge
+import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormalSmall
+import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
+import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
+import com.voc.honkai_stargazer.util.Screen
 
 class HomePageBlocks {
     class HomePageBlockItem(
@@ -42,10 +48,11 @@ class HomePageBlocks {
         var itemTopHighlight: String? = "",
         var itemTop: String? = "",
         var itemBottom: String? = "",
-        var itemOnClick: () -> Unit? = {},
+        var itemOnClickAction: (() -> Unit)? = null,
+        var itemOnClickToNavigate: Screen? = null,
     ) {
-        enum class HomePageBlockItemType {
-            W1H1, W2H1
+        enum class HomePageBlockItemType(val width: Int, val height: Int) {
+            W1H1( 1, 1), W2H1(2, 1)
         }
 
         override fun toString(): String {
@@ -53,23 +60,42 @@ class HomePageBlocks {
         }
     }
 }
+
 val gradient = Brush.verticalGradient(
     colors = listOf(
         BlackAlpha80,
         Color.Transparent,
     )
 )
+
 @Composable
-fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
+fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier, navController: NavController) {
+    val config = LocalConfiguration.current
+    var isLandscape = false;
+
+    when (config.orientation) {
+        Configuration.ORIENTATION_LANDSCAPE -> {
+            isLandscape = true
+        }
+    }
+
     OutlinedButton(
         contentPadding = PaddingValues(10.dp),
-        onClick = { blockData.itemOnClick},
+        onClick = {
+            if (blockData.itemOnClickToNavigate !== null) {
+                println("Ok I'm Navigating to "+blockData.itemOnClickToNavigate)
+                navController.navigate(blockData.itemOnClickToNavigate!!.route)
+            } else {
+                println("Ok I'm OnClick la")
+                blockData.itemOnClickAction;
+            }
+        },
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
-            .background(BlackAlpha20)
+            .background(BlackAlpha20, RoundedCornerShape(8.dp))
             .height(90.dp)
             .width(80.dp),
-        border = BorderStroke(1.dp, Color(0x66907C54))
+        border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
         Column {
             Image(
@@ -94,16 +120,32 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
 }
 
 @Composable
-fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier) {
+fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier, navController: NavController) {
+    val navController = rememberNavController();
+    val config = LocalConfiguration.current
+    var isLandscape = false;
+
+    when (config.orientation) {
+        Configuration.ORIENTATION_LANDSCAPE -> {
+            isLandscape = true
+        }
+    }
+
     OutlinedButton(
         contentPadding = PaddingValues(10.dp),
-        onClick = { blockData.itemOnClick },
+        onClick = {
+            if (blockData.itemOnClickToNavigate !== null) {
+                //navController.navigate(NavigateController.NavPath.HomePage.name)
+            } else {
+                blockData.itemOnClickAction;
+            }
+        },
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
-            .background(BlackAlpha20)
+            .background(BlackAlpha20, RoundedCornerShape(8.dp))
             .height(90.dp)
             .width(172.dp),
-        border = BorderStroke(1.dp, Color(0x66907C54))
+        border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
         Row {
             //icon & name
@@ -168,8 +210,9 @@ fun HomePageBlockPreview() {
             HomePageBlock1x1(
                 HomePageBlocks.HomePageBlockItem(
                     itemTitle = "角色aaaaaaaaaaaaaaaa",
-                    itemIconId = R.drawable.phorphos_person_fill
-                )
+                    itemIconId = R.drawable.phorphos_person_fill,
+                ),
+                navController = rememberNavController()
             )
             HomePageBlock2x1(
                 HomePageBlocks.HomePageBlockItem(
@@ -180,6 +223,7 @@ fun HomePageBlockPreview() {
                     itemTop = "/240",
                     itemBottom = "今天18:16"
                 ),
+                navController = rememberNavController()
             )
         }
     }

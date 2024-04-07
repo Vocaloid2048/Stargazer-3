@@ -1,21 +1,21 @@
 package com.voc.honkai_stargazer.constants
 
-import android.view.View
-import android.widget.Toast
 import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.component.HomePageBlocks
+import com.voc.honkai_stargazer.util.Screen
 
 class Constants {
     companion object {
-        val HOME_PAGE_ITEMS = arrayListOf<HomePageBlocks.HomePageBlockItem>(
+        var HOME_PAGE_ITEMS = arrayListOf<HomePageBlocks.HomePageBlockItem>(
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "角色",
                 itemIconId = R.drawable.phorphos_person_fill,
-                itemOnClick = { System.out.println("WTFFFF") }
+                itemOnClickToNavigate = Screen.CharacterListPage,
             ),
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "光錐",
-                itemIconId = R.drawable.phorphos_sword_fill
+                itemIconId = R.drawable.phorphos_sword_fill,
+                itemOnClickAction = { println("WTFFFF") },
             ),
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "遺器",

@@ -1,109 +1,81 @@
 package com.voc.honkai_stargazer.screen
 
-import android.app.Activity
-import android.content.Context
-import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.gestures.ScrollableDefaults
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentSize
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
-import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
-import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.layoutId
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.component.HomePageBlock1x1
 import com.voc.honkai_stargazer.component.HomePageBlock2x1
 import com.voc.honkai_stargazer.component.HomePageBlocks
 import com.voc.honkai_stargazer.constants.Constants.Companion.HOME_PAGE_ITEMS
-import com.voc.honkai_stargazer.ui.theme.BlackAlpha30
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormal
-import com.voc.honkai_stargazer.ui.theme.FontSizeNormalLarge
-import com.voc.honkai_stargazer.ui.theme.ProgressLevelBackground
-import com.voc.honkai_stargazer.ui.theme.ProgressLevelPrimary
-import com.voc.honkai_stargazer.ui.theme.Stargazer3Theme
-import com.voc.honkai_stargazer.ui.theme.TextColorLevel
-import com.voc.honkai_stargazer.ui.theme.TextColorNormal
-
-class HomePage : ComponentActivity() {
-    private lateinit var activity: Activity
-    private lateinit var context: Context
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        activity = this;
-        context = this;
-        setContent {
-            Stargazer3Theme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    RootContent()
-                }
-            }
-        }
-    }
-}
+import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha30
+import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal
+import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormalLarge
+import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelBackground
+import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelPrimary
+import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
+import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
+import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 
 @Composable
-fun RootContent(modifier: Modifier = Modifier) {
+fun HomePage(modifier: Modifier = Modifier, navController: NavController) {
     Box {
-        MakeBackground()
-        Column() {
-            Header()
-            MenuScrollView()
+        //兩句話搞定RN的寫法...
+        Column {
+            Header(navController = navController)
+            MenuScrollView(navController = navController)
         }
     }
 }
 
 @Composable
-fun UserHelpTeamIcon(icon: Painter, modifier: Modifier = Modifier) {
+fun UserHelpTeamIcon(icon: Painter, modifier: Modifier = Modifier,navController: NavController) {
     Image(
         painter = icon, contentDescription = "", contentScale = ContentScale.Crop,
         modifier = Modifier
@@ -117,10 +89,10 @@ fun UserHelpTeamIcon(icon: Painter, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun Header(modifier: Modifier = Modifier) {
+fun Header(modifier: Modifier = Modifier, navController: NavController) {
     Box(
         modifier = Modifier
-            .padding(start = 16.dp, end = 16.dp, top = 16.dp)
+            .padding(start = 16.dp, end = 16.dp, top = 4.dp)
             .fillMaxWidth()
             .wrapContentHeight()
     ) {
@@ -172,11 +144,11 @@ fun Header(modifier: Modifier = Modifier) {
                                 .height(30.dp)
                                 .fillMaxWidth()
                         ) {
-                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_1))
-                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_2))
-                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_3))
-                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_4))
-                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_5))
+                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_1), navController = navController)
+                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_2), navController = navController)
+                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_3), navController = navController)
+                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_4), navController = navController)
+                            UserHelpTeamIcon(painterResource(id = R.drawable.test_char_5), navController = navController)
                         }
                     }
                     Column(
@@ -226,40 +198,65 @@ fun Header(modifier: Modifier = Modifier) {
 
 
 @Composable
-fun MenuScrollView(modifier: Modifier = Modifier) {
-    Box(modifier = Modifier.padding(start = 16.dp, end = 16.dp)) {
+fun MenuScrollView(modifier: Modifier = Modifier, navController: NavController) {
+    val config = LocalConfiguration.current
+    Column {
         LazyVerticalGrid(
+            modifier = Modifier
+                .padding(start = 16.dp, end = 16.dp)
+                .weight(1f),
             columns = GridCells.Adaptive(80.dp),
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            var finalBlockData = HOME_PAGE_ITEMS;
             items(count = HOME_PAGE_ITEMS.size, span = { index ->
-                when (HOME_PAGE_ITEMS[index].itemType) {
+                if(finalBlockData[index].itemType.width > (maxCurrentLineSpan - ((index+1) % maxCurrentLineSpan))){
+                    val tmpExchange = finalBlockData[index]
+                    finalBlockData[index] = finalBlockData[index+1]
+                    finalBlockData[index+1] = tmpExchange
+                }
+                when (finalBlockData[index].itemType) {
                     HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W1H1 -> GridItemSpan(1)
                     HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1 -> GridItemSpan(2)
                 }
             }) { index ->
-                val blockData: HomePageBlocks.HomePageBlockItem = HOME_PAGE_ITEMS[index];
-                Box{
+                var blockData: HomePageBlocks.HomePageBlockItem = finalBlockData[index];
+                Box(Modifier.layoutId("HomePageItemBox")){
                     when (blockData.itemType) {
-                        HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W1H1 -> HomePageBlock1x1(blockData)
-                        HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1 -> HomePageBlock2x1(blockData)
+                        HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W1H1 -> HomePageBlock1x1(blockData,navController = navController)
+                        HomePageBlocks.HomePageBlockItem.HomePageBlockItemType.W2H1 -> HomePageBlock2x1(blockData,navController = navController)
                     }
                 }
             }
         }
+        BottomView()
     }
 }
 
 @Composable
 fun BottomView(modifier: Modifier = Modifier){
-
+    Box(modifier = Modifier
+        .heightIn(64.dp, 100.dp)){
+        Image(
+            modifier = Modifier.fillMaxWidth(),
+            painter = painterResource(id = R.drawable.donate_ad_bg),
+            contentDescription = "Donate Us",
+            contentScale = ContentScale.Crop,
+            colorFilter = ColorFilter.tint(Color(0xCCFFFFFF), BlendMode.Lighten)
+        )
+    }
 }
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun HomePagePreview() {
     Stargazer3Theme {
-        RootContent()
+        MakeBackground()
+        Box(modifier = Modifier
+            .statusBarsPadding()
+            .navigationBarsPadding()){
+            HomePage(navController = rememberNavController())
+        }
     }
 }

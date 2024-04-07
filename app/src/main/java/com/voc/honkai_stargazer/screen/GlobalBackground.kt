@@ -16,26 +16,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.voc.honkai_stargazer.R
-import com.voc.honkai_stargazer.ui.theme.BlackAlpha20
-import com.voc.honkai_stargazer.ui.theme.BlackAlpha80
-import com.voc.honkai_stargazer.ui.theme.Stargazer3Theme
+import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha20
+import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha80
+import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
 
-class GlobalBackground : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            Stargazer3Theme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    MakeBackground()
-                }
-            }
-        }
-    }
-}
 
 val gradient = Brush.verticalGradient(
     colors = listOf(
