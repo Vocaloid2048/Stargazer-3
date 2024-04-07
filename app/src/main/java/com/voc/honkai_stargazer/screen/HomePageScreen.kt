@@ -62,14 +62,16 @@ import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelPrimary
 import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
+import com.voc.honkai_stargazer.util.RootContent
 
 @Composable
 fun HomePage(modifier: Modifier = Modifier, navController: NavController) {
-    Box {
-        //兩句話搞定RN的寫法...
+    Box(modifier = Modifier
+        .statusBarsPadding()
+    ) {
         Column {
-            Header(navController = navController)
-            MenuScrollView(navController = navController)
+            HomePageHeader(navController = navController)
+            HomePageMenuScrollView(navController = navController)
         }
     }
 }
@@ -89,7 +91,7 @@ fun UserHelpTeamIcon(icon: Painter, modifier: Modifier = Modifier,navController:
 }
 
 @Composable
-fun Header(modifier: Modifier = Modifier, navController: NavController) {
+fun HomePageHeader(modifier: Modifier = Modifier, navController: NavController) {
     Box(
         modifier = Modifier
             .padding(start = 16.dp, end = 16.dp, top = 4.dp)
@@ -198,8 +200,7 @@ fun Header(modifier: Modifier = Modifier, navController: NavController) {
 
 
 @Composable
-fun MenuScrollView(modifier: Modifier = Modifier, navController: NavController) {
-    val config = LocalConfiguration.current
+fun HomePageMenuScrollView(modifier: Modifier = Modifier, navController: NavController) {
     Column {
         LazyVerticalGrid(
             modifier = Modifier
@@ -251,12 +252,5 @@ fun BottomView(modifier: Modifier = Modifier){
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun HomePagePreview() {
-    Stargazer3Theme {
-        MakeBackground()
-        Box(modifier = Modifier
-            .statusBarsPadding()
-            .navigationBarsPadding()){
-            HomePage(navController = rememberNavController())
-        }
-    }
+    RootContent(navController = rememberNavController(), page = { HomePage(navController = rememberNavController())})
 }

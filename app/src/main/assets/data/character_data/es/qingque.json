@@ -1,0 +1,2969 @@
+{
+ "spRequirement": 140,
+ "iconPath": "62bbed3f4fa89607c950e0c37b287cd629c6dc011b81bd99cf3354a4dd3cb55e",
+ "bgPath": "d82b845f86f056ebc33528c4e14f8dcf0d93fc67de5085a5c516e2ecaa8122ff",
+ "figPath": "64b09bba9b3bbdaaccaa720f85047a4a42fd05d52605ef3e96e571d4d8244e6e",
+ "fgPath": "939573cb980ac84a1ca1ac5e9b4503698ec38a52c4d17a4f300e98499de70b9a",
+ "splashIconPath": "72cee71be6fe4de63b6bdecb1a1b69cb95724bc8f3cc89468c68343e5937c7dc",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRtACAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAUBAAABkLJt+/m/8u+/bVvRStrimm170WprttUU/6v/l7ClLXrJ+5vf7/e+wg8RMQGSlCIVtyklrTQjRQlTpHV1B7cq8+JySelxpCcfTkxPvX44uunFfSkrJvUls/B7Af7AqxtvMpSuTQSEXphZMmEEE5WSzhLYBmx7iZ95qrz6C9vYxhDxSToMJtbYOOSd1LFo2wkc8f5yqvaGmLgG2wvn1BgQ4TjYsMhxNf8lMjaOz/8B6SEBBhPrgNtK0yYWjY1jiZjukqr+EZgkFtmlFPWMERpjQwiskFKkt4SBoyCMlpj6cSlPUpp0H0zsx/5sxU2RVo4xeX/0y9V8KTWOUlKkwfaaVEmpkgQAVlA4IKQBAABQCACdASoUABQAPm0wk0ckIqGhKAqogA2JbACdMoR2iP3sJABLAHoAeWP+x3wV/5nzZimD+L7NX3wAOK5RH8JXtP8c2igGEGOSoAAA/pRKUuAwH5vGJIBA5buIbO3r/DWHcBC8JZpDfYiyM9A+TzJ1SvVbTr9/5m9V5xnrWwiCa2ur9KnZAD4wo9ebbTGyUxngw2i4n1JWVDtX6Hmx2qEZr63H6f9dBwmseTp2bNQzgGmm+KzqWWWwlFj+ZinV3opdnHpaHI+5mYJXBLvkgwQn4RqhX9bDlgNtZAdWrMkDkJ7lzFBxLr95utvv4eAPsluwv/pL1zFVOxJd4MsU+WMEV/hE+2XosW8qAswohM8eu+8B9XX1WRolibrv4u4rOSzCaDFtBVZnodN7/pHV6u26GmnF9/qd78X/ForIUUU6Yr8IgDSOYxDpa0hwkUT4+f386Eznv6M7r/aP/B6avVwKJ3jCor2H3Rmv+9vi53GWz9Kv+gx7zTmleg7HcXF8wtPUK2op3uU/r8f+sl/DyISv9WpnM5dOxR5kcmxJHM3GEPEAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "4ee4d46a01c45f662c4a193c5823f29be35cc4c19ba38ea2fd6f35a00a053d46",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Huellas del destino",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Un fracaso tras otro garantiza la victoria final. Un paso tras otro acaba llevándote al punto de inflexión de tu destino.",
+   "purpose": "Material de Rastros",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensa de puntos del Universo Simulado",
+    "Honor anónimo",
+    "Canjeo de Ascuas",
+    "Canjeo de Cosmiluz",
+    "Recompensa de evento de duración limitada"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "e45d41312c347a0e92a83719307e7cad0367aa98023d7b4627daa452423892ca",
+   "name": "Lamento de la Guardiana",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Esta máscara no es lo único que está roto; la acompaña el deseo retorcido de una Guardiana.<br />Su intención era abrir un camino para que su pueblo pudiera escapar del invierno eterno, pero terminó siendo una marioneta cuyos hilos movía una fuerza superior.<br /><br />\"Guardiana Suprema, el título que heredaron generaciones de gobernantes de Belobog, quienes protegen al pueblo. ¿Quién hubiera sabido que nadie las protegía a ellas?\".",
+   "purpose": "Material de Rastros",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Ecos de la guerra de la Colina del Siempreinvierno"
+   ]
+  },
+  "351746": {
+   "id": 351746,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "2c6914a16ae349627baca5f84218db8fe270ccf2c80246f9b83acf8e72f7f92a",
+   "name": "Hierro forjado del Vacío",
+   "desc": "Herradura de un Aplastador del Vacío. Material de ascensión para los personajes de tipo Cuántico.",
+   "lore": "Cuando un Aplastador de la Legión Antimateria es derrotado, hay una pequeña probabilidad de obtener esta herradura. Cuando nadie mira, pasa regularmente de existir a no existir.<br /><br />\"¿Que cómo se llama este experimento? Herradura del Aplastador...\".",
+   "purpose": "Material de ascensión de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/351746",
+   "comeFrom": [
+    "Sombra paralizada de la zona de la base",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Guía del espíritu viajero",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>20</nobr> <nobr>000</nobr> pts. de EXP.",
+   "lore": "Lectura indispensable para la exploración. Pulsa el botón Leer y una voz atractiva empezará a hablar en un idioma que entiendes y te contará las vivencias legendarias de aventureros famosos de distintos mundos, así como los valiosos conocimientos que adquirieron.<br /><br />\"El nuevo volumen de la serie Guía del espíritu viajero, titulado «Manual de gastronomía intergaláctica», saldrá a la venta muy pronto\".<br />\"Para enviar un artículo, conéctese a la baliza sinestésica ERD<nobr>-23</nobr>θ y contacte con un representante de la Sociedad del Conocimiento. Puede elegir la forma de pago más conveniente para usted\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Salón olvidado"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Registro de aventuras",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>5000</nobr> pts. de EXP.",
+   "lore": "Colección de notas instructivas muy bien ordenadas. Contiene numerosas ilustraciones y textos que describen aventuras de principio a fin, así como información valiosa y técnicas de supervivencia.<br /><br />\"¿Por qué no lo digitalizan y lo guardan en un disco fotolítico? Sería mucho más práctico\".<br />\"La tecnología avanzada es mucho más frágil de lo que crees cuando tienes que enfrentarte a tormentas estelares o erupciones de neutrones. Además, seguro que quien escribió este libro quería que la gente lo leyera de la forma más sencilla posible\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Entrenamiento diario",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Noticias del viaje",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>1000</nobr> pts. de EXP.",
+   "lore": "Diario de viaje con una caligrafía ilegible y un contenido completamente aleatorio, por lo que no te sirve de mucho.<br /><br />\"Dan Heng, acaba ya de leerlo y luego tíralo\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Recompensa de encargo"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "15365d10ed38771d99d247bc228b03787e29972cc714a655a9b8feef3031505e",
+   "name": "Instinto del ladrón",
+   "desc": "Pequeña cantidad de antimateria. Material simple que se usa en la potenciación.",
+   "lore": "Pequeña cantidad de antimateria que emana de los Saqueadores del Vacío, como si fuera la materialización de la destrucción.<br /><br />\"Quieren ver arder el mundo, para saltar al fuego y morir con él\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "De la Legión Antimateria",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "3cd4c92ff44d695595377ffc6c0896d6839775f6014e96daf679b256bc0d19cf",
+   "name": "Ambición distorsionada",
+   "desc": "Cantidad moderada de antimateria. Material corriente que se usa en la potenciación.",
+   "lore": "Cantidad moderada de antimateria que flota alrededor de los Distorsionadores del Vacío. Mantiene un delicado equilibrio entre las partículas positivas y las negativas.<br /><br />\"Quieren ver arder el mundo, para saltar al fuego y morir con él\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "De la Legión Antimateria (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "635675": {
+   "id": 635675,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "5d1c50902cff0d2be1eb952d08078e3134c231cdf0c9142c1ef475ec07c42b50",
+   "name": "Llave de la inspiración",
+   "desc": "Llave mítica propiedad de los Académicos Reflexivos. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "Puede desbloquear la inspiración enterrada en las profundidades de la consciencia.<br />Obtener la llave es conseguir la chispa que ilumina el pensamiento y conduce hacia adelante.<br /><br />\"¡Eureka!\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/635675",
+   "comeFrom": [
+    "Cáliz de Villarremache",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "717319": {
+   "id": 717319,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "3c858c8ff4df238403e5443f57850367e4164a62efb508ce359db9c5b7474a19",
+   "name": "Voluntad de conquista",
+   "desc": "Antimateria condensada. Material avanzado que se usa en la potenciación.",
+   "lore": "Antimateria muy condensada presente en el cuerpo de los Aplastadores del Vacío. El momento de la aniquilación es el toque de corneta para la destrucción de una civilización.<br /><br />\"Quieren ver arder el mundo, para saltar al fuego y morir con él\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/717319",
+   "comeFrom": [
+    "De la Legión Antimateria (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "836261": {
+   "id": 836261,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "36e68603fbc67d4b69c02e01d7d5d41a80446ea6c49b1d828b47320f6225825c",
+   "name": "Llave de la sabiduría",
+   "desc": "Llave mítica propiedad de los mejores genios y prodigios de la galaxia. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "Evidencia de la invitación al Templo de la Erudición.<br />Encontrar la puerta que abre esta llave es mucho más complicado que conseguir la llave. Quieres atraviesan los portones sagrados se dan cuenta inmediatamente de que es imposible regresar una vez que pasas al otro lado.<br /><br />\"La sabiduría no tiene todas las respuestas del universo, pero te enseñará cómo hacer las preguntas adecuadas para obtenerlas\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/836261",
+   "comeFrom": [
+    "Cáliz de Villarremache",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "489f5c80b6f0de258e076634803c9540b0504c32e55f556748095c334780289d",
+   "name": "Llave del conocimiento",
+   "desc": "Llave mítica propiedad de los sabios de todos los mundos. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "Puede desvelar los misterios que atrapan las verdades del mundo y otorga una iluminación que es difícil de entender para la comprensión humana.<br />Por mucho que quien la tenga intente mostrar pruebas de su posesión de la llave, nadie más puede ver su forma física. Algunos creen que se trata de un regalo del cielo, mientras que otros opinan que no es más que un síntoma de enfermedad mental.<br /><br />\"Soñé que unas moléculas se enroscaban como una serpiente mordiéndose la cola. Al despertar, me di cuenta de que esta era la respuesta que llevaba tanto tiempo buscando\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "Cáliz de Villarremache",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 88.8,
+   "attackAdd": 4.44,
+   "hpBase": 139.2,
+   "hpAdd": 6.96,
+   "defenseBase": 60,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549437,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 124.32,
+   "attackAdd": 4.44,
+   "hpBase": 194.88,
+   "hpAdd": 6.96,
+   "defenseBase": 84,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549437,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 159.84,
+   "attackAdd": 4.44,
+   "hpBase": 250.56,
+   "hpAdd": 6.96,
+   "defenseBase": 108,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633378,
+     "count": 5
+    },
+    {
+     "id": 351746,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 195.36,
+   "attackAdd": 4.44,
+   "hpBase": 306.24,
+   "hpAdd": 6.96,
+   "defenseBase": 132,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633378,
+     "count": 8
+    },
+    {
+     "id": 351746,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 230.88,
+   "attackAdd": 4.44,
+   "hpBase": 361.92,
+   "hpAdd": 6.96,
+   "defenseBase": 156,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717319,
+     "count": 5
+    },
+    {
+     "id": 351746,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 266.4,
+   "attackAdd": 4.44,
+   "hpBase": 417.6,
+   "hpAdd": 6.96,
+   "defenseBase": 180,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717319,
+     "count": 7
+    },
+    {
+     "id": 351746,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 301.92,
+   "attackAdd": 4.44,
+   "hpBase": 473.28,
+   "hpAdd": 6.96,
+   "defenseBase": 204,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "02f4fb57364e45c092ef1aa50bb02020c2391c34a78480b0f4d2882fe566fbb7",
+   "artPath": "cd1aeacfa47b5165b97c51e9a62a0a4cb8ff38c09572d67d808279e53e6af926",
+   "name": "Peón coronado, premio obtenido",
+   "descHash": "El daño que inflige la habilidad definitiva de Qingque aumenta en un <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "75a125b9bf46e6e13c807cc6a74d125467d743e5aeb8253c59df539874114922",
+   "artPath": "afa8cc1b8f7d13306fe2e05de72d149842efd78f9d2c8de3d7f0dfb2b4059e95",
+   "name": "Hora de la siesta en las fichas",
+   "descHash": "Cada vez que Qingque roba fichas, recupera inmediatamente <nobr>#1[i]</nobr> pt. de energía.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "2135faf8d07f0b2b60ff692b4d305d914beac08dfe6c5096a9fad19d3bcae5aa",
+   "artPath": "2c40f9e54bc1682c28e2a157b2e15e172512a93b771c5ca8cdddda9f26989688",
+   "name": "Confiar en la suerte",
+   "descHash": "Niv. de habilidad definitiva +2 (máximo: nivel <nobr>15</nobr>). Niv. de talento +2 (máximo: nivel <nobr>15</nobr>).",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "ab5657ddac573843dd12b70fbd981dbebfd832b5f23eeeffe9305aa74bfd182b",
+   "artPath": "c4be93f91a8ae5cbf0765127b17d166eeb78d8974ab754302f7395489d6cd5db",
+   "name": "Combo oportuno, la última ficha espera",
+   "descHash": "Tras usar su habilidad básica, Qingque tiene un <nobr>#1[i]%</nobr> de probabilidad fija de obtener Autosuficiencia hasta que termine el turno.<br />En el estado de Autosuficiencia, al usar el ATQ básico o el ATQ básico potenciado, se lanza inmediatamente un ataque adicional que inflige al mismo objetivo u objetivos un Daño Cuántico equivalente al <nobr>100%</nobr> del daño del ATQ básico o del ATQ básico potenciado.",
+   "params": [
+    0.24
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "d74f60c26bbbe9609b995544ef6e5f8a546645e5cce755125039347f6127f2ad",
+   "artPath": "e7a173f5c0c210ea3596a19df162e0e739401b55d6fe9e8045897782f904adb6",
+   "name": "Fichas sacadas, suerte acabada",
+   "descHash": "Niv. de habilidad básica +2 (máximo: nivel <nobr>15</nobr>). Niv. de ATQ básico +1 (máximo: nivel <nobr>10</nobr>).",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "b267c25650966a7e2a2400644774244c174ac43af82f15e3ed26a67cdda253df",
+   "artPath": "d3d1e54d5720d4acf07f6a45ef553e5a6b29afdbf9abe29e694d57b2d52fc051",
+   "name": "Calma y serena, lista para ganar",
+   "descHash": "Tras utilizar el ATQ básico potenciado, recupera 1 pt. de habilidad básica.",
+   "params": []
+  }
+ ],
+ "skillGrouping": [
+  [
+   231495,
+   917194
+  ],
+  [
+   946968
+  ],
+  [
+   30909
+  ],
+  [
+   746382
+  ],
+  [
+   662441
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "ATQ individual",
+   "descHash": "Lanza 1 ficha de jade del palo que menos fichas tenga e inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> del ATQ de Qingque como Daño <span style=\"color:#7788ff;\">Cuántico</span> a un enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 231495,
+   "name": "Combinación oculta",
+   "iconPath": "ac01438912c35e7d766fca6b893ce31b308214a06ca5f8749f3133049734e1fb",
+   "typeDescHash": "ATQ básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "Roba <nobr>#1[i]</nobr> fichas de jade e inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> más de daño hasta que termine el turno. Este efecto se puede acumular hasta <nobr>#3[i]</nobr> veces. Tras usar esta habilidad básica, el turno no termina.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 946968,
+   "name": "Última ficha posible",
+   "iconPath": "d74f60c26bbbe9609b995544ef6e5f8a546645e5cce755125039347f6127f2ad",
+   "typeDescHash": "Habilidad básica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      0.14,
+      4
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.154,
+      4
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.168,
+      4
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.182,
+      4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.196,
+      4
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.21,
+      4
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.2275,
+      4
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.245,
+      4
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.2625,
+      4
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.28,
+      4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.294,
+      4
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.308,
+      4
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.322,
+      4
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.336,
+      4
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.35,
+      4
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ATQ AdE",
+   "descHash": "Inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> del ATQ de Qingque como Daño <span style=\"color:#7788ff;\">Cuántico</span> a todos los enemigos y obtiene 4 fichas de jade del mismo palo.",
+   "ultimateCost": 140,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 30909,
+   "name": "¿Cuatro peces ocultos? ¡Victoria!",
+   "iconPath": "2a35b198bd85ad522b17eb37a3f847e75adb59252d5461b8b0f13cad5f7be688",
+   "typeDescHash": "Habilidad definitiva",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.28
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1.7
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.8
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.9
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.08
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.16
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.24
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.32
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.4
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "Cuando un aliado comienza su turno, Qingque roba 1 ficha de jade al azar de entre 3 fichas de palos distintos. Puede tener 4 fichas de jade como máximo.<br />Si Qingque tiene 4 fichas de jade del mismo palo al comenzar su turno, consume todas las fichas y entra en el estado de Cuarteto oculto.<br />En este estado, Qingque no puede volver a utilizar la habilidad básica y su ATQ aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>, su ATQ básico \"Combinación oculta\" se potencia y se convierte en \"¡Fuera la ficha del muro muerto!\". Cuarteto oculto termina cuando se usa \"¡Fuera la ficha del muro muerto!\".",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 746382,
+   "name": "Jade celestial",
+   "iconPath": "b7715a5ad59d5105b7526cd025210c084e430e1d2f42c2675bf97d4a825562a5",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.36
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.396
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.432
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.468
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.504
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.54
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.585
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.675
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.756
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.792
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.828
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.864
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 545796,
+   "name": "Ataque",
+   "iconPath": "ac01438912c35e7d766fca6b893ce31b308214a06ca5f8749f3133049734e1fb",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "Tras usar la técnica, al entrar en combate Qingque roba <nobr>#1[i]</nobr> fichas de jade.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 662441,
+   "name": "Desafío a mí misma",
+   "iconPath": "ff714a6985d94ba33f4f490d3bdbf60b93bbd8cc9849b9829568c9da11311049",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ráfaga",
+   "descHash": "Qingque inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de su ATQ como Daño <span style=\"color:#7788ff;\">Cuántico</span> a un enemigo y un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de su ATQ como Daño <span style=\"color:#7788ff;\">Cuántico</span> a los enemigos adyacentes.<br />\"¡Fuera la ficha del muro muerto!\" no recupera pts. de habilidad básica.",
+   "ultimateCost": 0,
+   "break": "60 + 30/adjacent",
+   "energy": "20",
+   "id": 917194,
+   "name": "¡Fuera la ficha del muro muerto!",
+   "iconPath": "60f8009789e279de54c3b3bafd6092cc077db2262fec1f49118a2683ffa2c397",
+   "typeDescHash": "ATQ básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.2,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44,
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68,
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.92,
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.16,
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.4,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.64,
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.88,
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.12,
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1201101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1201203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668211,
+        "name": "Bonificación de ATQ",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATQ",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920202,
+          "count": 2
+         },
+         {
+          "id": 633378,
+          "count": 2
+         }
+        ]
+       }
+      },
+      {
+       "id": 1201204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668208,
+        "name": "Bonificación de DEF",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+        "statusList": [
+         {
+          "key": "DEF",
+          "value": 0.05
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920202,
+          "count": 2
+         },
+         {
+          "id": 633378,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 668210,
+      "name": "Bonificación de daño: Cuántico",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "e7c7e4e052302779e7dab274aa39aedc08e59eed4e5e507174ee47aaef770e2a",
+      "statusList": [
+       {
+        "key": "Aumento de Daño <span style=\"color:#7788ff;\">Cuántico</span>",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635675,
+        "count": 2
+       },
+       {
+        "id": 549437,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Al usar la habilidad básica, recupera 1 pt. de habilidad básica. Este efecto solo se puede activar una vez por batalla.",
+    "ultimateCost": 0,
+    "id": 668114,
+    "name": "Pelea por una ficha",
+    "iconPath": "edc7d34b27e8f889d2c7a60ce510183b4727525f4dcafb086697193fa21652e2",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635675,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1201102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1201206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668206,
+        "name": "Bonificación de daño: Cuántico",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "e7c7e4e052302779e7dab274aa39aedc08e59eed4e5e507174ee47aaef770e2a",
+        "statusList": [
+         {
+          "key": "Aumento de Daño <span style=\"color:#7788ff;\">Cuántico</span>",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836261,
+          "count": 2
+         },
+         {
+          "id": 717319,
+          "count": 2
+         }
+        ]
+       }
+      },
+      {
+       "id": 1201207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668207,
+        "name": "Bonificación de ATQ",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATQ",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836261,
+          "count": 2
+         },
+         {
+          "id": 717319,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 668209,
+      "name": "Bonificación de ATQ",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATQ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920202,
+        "count": 4
+       },
+       {
+        "id": 633378,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "La habilidad básica hace que inflija un <nobr>#1[i]%</nobr> más de daño.",
+    "ultimateCost": 0,
+    "id": 668117,
+    "name": "Esperando el palo adecuado",
+    "iconPath": "6273380116de2e9ff97c1a07c7a0a9f6b992b6a8a94e0af1e7679eae9a58511a",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920202,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1201103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 668220,
+      "name": "Bonificación de DEF",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 717319,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1201209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 668221,
+      "name": "Bonificación de daño: Cuántico",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "e7c7e4e052302779e7dab274aa39aedc08e59eed4e5e507174ee47aaef770e2a",
+      "statusList": [
+       {
+        "key": "Aumento de Daño <span style=\"color:#7788ff;\">Cuántico</span>",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 717319,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Tras utilizar el ATQ básico potenciado, la VEL de Qingque aumenta en un <nobr>#1[i]%</nobr> durante 1 turno.",
+    "ultimateCost": 0,
+    "id": 668116,
+    "name": "Robo de cuarteto",
+    "iconPath": "4dbc73bfa50bcd61c3c3dce7285c7148cc2879d44637922fcf6c944b3d04b397",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1201201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 668213,
+    "name": "Bonificación de ATQ",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ATQ",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549437,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1201210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 752153,
+    "name": "Bonificación de ATQ",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ATQ",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 128000
+     },
+     {
+      "id": 836261,
+      "count": 6
+     },
+     {
+      "id": 717319,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Torso",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "Prob. CRIT",
+    "propertyIconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8"
+   },
+   {
+    "relicTypeHash": "Piernas",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "VEL",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Esfera de plano",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "Aumento de Daño Cuántico",
+    "propertyIconPath": "e7c7e4e052302779e7dab274aa39aedc08e59eed4e5e507174ee47aaef770e2a"
+   },
+   {
+    "relicTypeHash": "Cuerda de unión",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ATQ",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primer encuentro",
+   "text": "Soy Qingque, una adivina de la Comisión de Adivinación. ¿Quieres jugar al jade celestial conmigo? De acuerdo, vuelve durante mis horas de trabajo.",
+   "unlockRequirement": "",
+   "cnUrl": "c31bad17aa27c8b4298c9da5023376a98f93c72bc549a65e6eef7a2090302bf2",
+   "jpUrl": "15c3540048258ae2f9029e5186097ac23b5a12205f53d05bb79a08f98dd29370",
+   "enUrl": "03d0bfa26ba0d1fbcd01396599ac8efdefdd8efd43aa34f3f37d5099749a2d0d",
+   "krUrl": "430aea6bf39701655235420e634f4450ba2fe1a271d56ce6af665466e20be072"
+  },
+  {
+   "id": 2,
+   "title": "Saludo",
+   "text": "¿Otra vez estás aquí tan temprano? Qué diligente eres.",
+   "unlockRequirement": "",
+   "cnUrl": "5f8ad885d69cb989f4116cfa5fafd83c6e73efa669ca2ee831098555ba732d64",
+   "jpUrl": "6f75efbb1855b325d127aa7cbe1bffed9686f375bfec28d8e93cc76fdc69ba38",
+   "enUrl": "25532f2f2e854606dd72199f4617c752eeb51014c63bcc808442998e3caca3e3",
+   "krUrl": "810115ee3a74a27e934b2ad8d4008a0bb94f47f5758d37291305fa3841ebabb0"
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "¡Vamos, vamos, es hora de una partida! No estarás pensando en hacer horas extras, ¿verdad?",
+   "unlockRequirement": "",
+   "cnUrl": "7db6eb12509007b22611632c6fd4864fdb26ffa59269d23a9986a54ff2998f35",
+   "jpUrl": "2b420a0d675f703645c69514b248b732ade992772b0af72db3ab9114aa266dfe",
+   "enUrl": "1f6a5dc1e30112f34a977566d5be5cc955a9ff47c9ffc0b7e7f3b89329eb46aa",
+   "krUrl": "8f1561fadf0b85893a983dcc9a52ef604bab151902ff6c6418628d856d2e8953"
+  },
+  {
+   "id": 4,
+   "title": "Acerca de sí misma: actitud ante el trabajo",
+   "text": "El trabajo no va de incrementar el valor, solo retribuye un sueldo. El truco es incrementar el valor para ti a costa de tu empleador.",
+   "unlockRequirement": "",
+   "cnUrl": "32750121b5ff29e0d89a80a6756dcb8c547658c47800e39fad3b9acd0bb2c33a",
+   "jpUrl": "2fefe17ba7da58ab19324887046050a289c2baf153e1b14a1748b9a36f697303",
+   "enUrl": "c9b330405f2d9891ca6d6e56556b97d4bde4042b3a21f9594d872f7aa82a098e",
+   "krUrl": "4ba5562bf3d23ed4b4178727c8923751bed91f6c5f3fa7baecc2c95eb90cf69b"
+  },
+  {
+   "id": 5,
+   "title": "Conversación: la Comisión de Adivinación",
+   "text": "Mi madre dijo que, una vez que entrara en la Comisión de Adivinación y tuviera un trabajo asegurado, podría relajarme. Ahora que estoy dentro, creo que debería hacer más...",
+   "unlockRequirement": "",
+   "cnUrl": "be53b4276619c5ff3e94ab26accfd64de45cbe53be6b4f6a52eee4c4745a3005",
+   "jpUrl": "0a824961d99db603d54b38e3099ef5acc1a0f42afae61243fbc0d400da4adc38",
+   "enUrl": "5da0c79972f830423bdd13da642c99722d13520af0dfcc0d6a0d6e1f3d1afc39",
+   "krUrl": "ecf072b1bde4bac4c5b60d5552134334b534d291103e92afd7c56809cdd8aa25"
+  },
+  {
+   "id": 6,
+   "title": "Aficiones",
+   "text": "¿Mi jefa me regaña? Me voy a jugar unas partidas de Jade celestial. ¿Demasiado trabajo? Me voy a jugar unas partidas de Jade celestial. ¡Ah, el Jade celestial es mi salvador!",
+   "unlockRequirement": "",
+   "cnUrl": "c2fb781dcf356fd8cb384dad933263ff71f99505fd9f04b04b1cbf5cfad44570",
+   "jpUrl": "86ee96ea226881ae35c46d88595dc46346ba3205badbfcaae9be4524e6ee473e",
+   "enUrl": "66040ece388bcdc36f06621bed390311f1c67468009f6c171fe646e2510d1841",
+   "krUrl": "2597b64b1ddab313b1b58728dbd96ffd6723c5ab67c0d54d5109df547f3bc344"
+  },
+  {
+   "id": 7,
+   "title": "Molestias",
+   "text": "No puedo jugar a Jade celestial yo sola. ¿Por qué no eres omnipotente, Jade celestial?",
+   "unlockRequirement": "",
+   "cnUrl": "821c17e9110ad0beed3b7a86558393a701a3c80bfeb53878eab1092daaede2a2",
+   "jpUrl": "d8f742d6d081f3778dfbb4039a9ef50fae5a55256c4d0bdd25a1bbcee0ca630e",
+   "enUrl": "4733d39c8f63f328156bad3053356fc53208d9995e52d503d83984a5feabc6f7",
+   "krUrl": "a5af040db749879943601b17136593967ba208c9dd46f3952feeab56cbdf35f0"
+  },
+  {
+   "id": 8,
+   "title": "Algo que compartir",
+   "text": "Hay tres principios básicos para alcanzar la felicidad en el trabajo: evitar la proactividad, evitar el rechazo y evitar la responsabilidad. ¡Deberías probarlos!",
+   "unlockRequirement": "",
+   "cnUrl": "71843c7b63855be90e7cf341a7289b824acdabf042454658bce9f7e11f7a0a71",
+   "jpUrl": "c24620615831deb2cd3abb9ce1f029a376075a682e375d0b981073d00aeae7bf",
+   "enUrl": "a1a02720f1541ca335efd5bee346c20bb2fed86faa617f214b869cda41d57d3a",
+   "krUrl": "d706059526789d2b12482d1795ae13aad59e477f349b73848813706d8c5d9666"
+  },
+  {
+   "id": 9,
+   "title": "Un dato",
+   "text": "Diversión número uno: saber que en Xianzhou hay libros para pasar el rato. Diversión número dos: hojear esos libros en la librería Tiempo Libre. Diversión número tres (la más divertida): leer esos libros en horas de trabajo.",
+   "unlockRequirement": "",
+   "cnUrl": "09f85ea74f8152dd41859857316038bbcdcc39bfe18e241200524044858771f4",
+   "jpUrl": "2dfa1944413f3d21a754ce94d2b908138dde86d96101c7203d01570121f2db2f",
+   "enUrl": "5ad056dc2d49f804a3aa2a6cdec5e40ec802c8f531dd27463c649a4bd653e13b",
+   "krUrl": "c45a464b97d75be6fa28678a01906e01ee1fb6a6452fbb930fc907b5dfe3a046"
+  },
+  {
+   "id": 10,
+   "title": "Acerca de Jing Yuan",
+   "text": "Dicen que el general a menudo escucha música con los ojos cerrados. ¿Podemos hacer eso en la Comisión de Adivinación? Gracias, general.",
+   "unlockRequirement": "",
+   "cnUrl": "9625fcb58c4b249f0283672115e6f4bc10840718f782045e6b9f4ab58eb16272",
+   "jpUrl": "fb6e27b850358e527d99b1fb5209ba81b92c70c328276804cb3becc192a38892",
+   "enUrl": "b0bcd267cee8b9c7fd1412e252e5403401b3bd9ea772b1571b9ad4a692e6de62",
+   "krUrl": "3024f8b58496c9f7a918314812515c226da6722e39a4d2a2dc0c5e9820dafbec"
+  },
+  {
+   "id": 11,
+   "title": "Acerca de Yanqing",
+   "text": "He oído hablar de él, un prodigio que trabaja todos los días siendo tan joven. Suena agotador.",
+   "unlockRequirement": "",
+   "cnUrl": "adce59338cc10bf6cec7033b800ddf017b863d4af05b1828e568d4bca8023724",
+   "jpUrl": "066498f80b4a05bc72d4b6b1a2c2b81926d3acb9b4e779e98502926373329580",
+   "enUrl": "335aa9a3a949bca51ddf8aec4973866607afc0d9f3e32ca5942daf5a3e51785c",
+   "krUrl": "6e0d9fba00fc19a702b08b80aad4883f4cdb298e4a1206511b9dd054fc05aeec"
+  },
+  {
+   "id": 12,
+   "title": "Acerca de Fu Xuan",
+   "text": "En cuanto tengo un momento libre, la Gran Adivina aparece y me endosa un montón de trabajos tediosos. Parece que tengo que seguir trabajando en mis habilidades de gestión del tiempo...",
+   "unlockRequirement": "",
+   "cnUrl": "763e2e6518131b5f4b0c2251a6a5899ecc01cd86283e170dc94cc8c276b73759",
+   "jpUrl": "80d1533e50d025a08b793e691e09841e731290aed1af0b49a2a76776b70753fc",
+   "enUrl": "ad0a119ce3ec168d498111a57a1dbe03cc1b1ab3a4a5c83ae208a0b6387207c1",
+   "krUrl": "6cf9da169be276c846dc4c62a1cda3adcef371a65099bd85c4bbddd895f4360d"
+  },
+  {
+   "id": 13,
+   "title": "Acerca de Yukong",
+   "text": "Es un pez gordo de la Comisión del Transporte Celeste que no descansa ni cuando se retira de la primera línea. Ser una oficial poderosa no es nada fácil.",
+   "unlockRequirement": "",
+   "cnUrl": "2174733c43d72a0d792e176b06794cf2682eb4275f9720fb7acba7a144bdb90b",
+   "jpUrl": "99bf17633b2186ddb39f21cc1ed4a4b14629e7ba31c4050e02f0be1f247553eb",
+   "enUrl": "b06ce896c9dec73da4c4ed1c53d68f441cb16e7c5c549b2ef3bc640618e192bf",
+   "krUrl": "b2781fe926942bdd6f69d43ab189066d4a08845c102d4145f3d76319dfb495ca"
+  },
+  {
+   "id": 14,
+   "title": "Acerca de Tingyun",
+   "text": "Una vez, vi a Tingyun detenerse delante del salón de juegos y la invité a jugar una partida. Es muy hermosa y su estilo de juego es muy entretenido. Alrededor de la mesa se congregó una multitud y el ambiente era muy animado. El propietario perdió todo su dinero, fue algo digno de ver.",
+   "unlockRequirement": "",
+   "cnUrl": "fb25684dbee687ae4e50ae88d93c6c45dbcab47dbbc7e5fb6d31918a391ff2ac",
+   "jpUrl": "1ade2090d9962e4b8851105ec1d1c03aff930a2add59f57683a30bf52dada2dd",
+   "enUrl": "a58c8a717f8222fec3b34d427f48fadb162a4ee0cc2d2d346e2f7d876417df54",
+   "krUrl": "0b1d39d3b29d8f507f88cbb228e1a0a1a5e418c08c42b5ea7bcc3d49ca34b2eb"
+  },
+  {
+   "id": 15,
+   "title": "Acerca de Luocha",
+   "text": "¿Quién? Por el nombre, no debe ser de aquí. Aquí hay muchos forasteros, los encuentro a menudo en El Espejo de Bronce. La mayoría vienen a buscar la búsqueda de la inmortalidad... Sí, dije \"buscar la búsqueda\".",
+   "unlockRequirement": "",
+   "cnUrl": "ab345af08c59dc8b572e38cfe330d47d264076c1d9bedce1c6936ee919896bd3",
+   "jpUrl": "4d5c59138f140866714817a4239a5dc447318522cd67fbb826c4e05725fc3e10",
+   "enUrl": "f14052b400b1b7f51d6402abc44abea335f608e0a74309a783db1609a6620403",
+   "krUrl": "aa0d95101ed0c8f80a366ad5e87f1e87fb7e13004a42757b624a6da7443b44d8"
+  },
+  {
+   "id": 16,
+   "title": "Acerca de Sushang",
+   "text": "¿Es una recién llegada a los Nimbocaballeros? Ay, sería mejor que se fuera por donde vino. Aquí en el Luofu hay tanta competencia en todo que es imposible ascender.",
+   "unlockRequirement": "",
+   "cnUrl": "21571e04b17b4f952e777dd79eceb744e4ae3307c1fb8b089aa464831f615542",
+   "jpUrl": "f7fac51539092eb1c3249dca1291088be2d88b23a2ddf5682564e8b1f101fdca",
+   "enUrl": "4c22980c73d2368e6a103de6642b35dab412c15f4280532180a19df476c439bb",
+   "krUrl": "06fa171349b27d8aab4ab203dec88e2b75f7cca373521cb2801c5162a5c4492a"
+  },
+  {
+   "id": 17,
+   "title": "Acerca de Bailu",
+   "text": "Una vez me dio una tendinitis jugando a Jade celestial. Me recomendaron ir a verla y al principio tenía mis dudas, pero tras escribir mi receta, sacó un juego de Jade celestial y me dijo que apilara las fichas para mejorar la flexibilidad de mis muñecas. ¡Mi respeto por ella se multiplicó!",
+   "unlockRequirement": "",
+   "cnUrl": "8f234d9dadc7b6925d5b8bf5fca06eb8d289a986f2ac63960e680995d35bef12",
+   "jpUrl": "b2b72222baef6eca7ab9327b0a347bb03605094d02c3acd233a31e9c4dbeeaa1",
+   "enUrl": "4864d3e2566f20469212ea6655c6fcd9529075c42e1a13d156082a609dfeddc9",
+   "krUrl": "17d741a01cb4e10fd16d4677af2b9a3450731d22c564256a9370b66308cd2ba3"
+  },
+  {
+   "id": 18,
+   "title": "Acerca de Guinaifen",
+   "text": "Guinaifen... ¡Ah, te refieres a la Pequeña Gui! Cada vez que pierdo al Jade celestial, voy a ver su espectáculo de acrobacias para animarme. Pero en esos momentos... nunca tengo saetas para darle una propina.",
+   "unlockRequirement": "",
+   "cnUrl": "d1986700848094873433bda0b06019add374ebd6d7836e4144ac3137199dc635",
+   "jpUrl": "19e2db537f7c70b4c19144ecac7c0a4a8fe00a6cf91204ac618b7e160ecd9108",
+   "enUrl": "ecf96f5e151c158481ae9e20deef543950c89538a2026a822beffe5b6040ea62",
+   "krUrl": "f9491b5bdd6a4ca25b67b3de7c336f85d692ff1c473bd48be1ed0573efaad45a"
+  },
+  {
+   "id": 19,
+   "title": "Acerca de Huohuo",
+   "text": "Cada vez que veo a esa niña, no puedo evitar sentir una intensa necesidad de enseñarle a jugar Jade celestial. Tengo que enseñarle todos los detalles...",
+   "unlockRequirement": "",
+   "cnUrl": "542361dd7f192aadb83b9a2e182bc164a831b7c1571f500e6bd4fb2800c711cf",
+   "jpUrl": "2a492c38002ca6ead14a45066548e1944e795e399d72d1d8fe91e9517d0fd663",
+   "enUrl": "4d9c34d070da7d1787c6f2e485e8f0f6ecd88e7cdf0329750ff35fdd350eaf97",
+   "krUrl": "437587c9c08c35af6c09aa4f4abde6e94963763d1494d2d96913a396b12c7373"
+  },
+  {
+   "id": 20,
+   "title": "Acerca de Xueyi",
+   "text": "¿Conoces ese libro, «Un trabajo no apto para marionetas»? No solo lo he leído, también he escrito algunas notas. Lástima que todavía no tengo ni idea de quién lo escribió...",
+   "unlockRequirement": "",
+   "cnUrl": "cd2a22c013fad95d609fdeefcb4efe39e3c30de5922cc7b55d4c8ecc67547867",
+   "jpUrl": "37a54bbda146f48ccd5987302cb4336d101be1c9804a1fe2808dfe1c0f7bde53",
+   "enUrl": "3e426d5308baf4ed6b41280a15fda31d8609834115c17b966b076d3a03c198ea",
+   "krUrl": "e9af12c6f4d8ad3cb666c29e87bf6ad914c2eb51dc890a1d887e6dea1779ff72"
+  },
+  {
+   "id": 21,
+   "title": "Activación de Eidolon",
+   "text": "La vida es como un juego, nunca sabes qué ficha te va a tocar...",
+   "unlockRequirement": "",
+   "cnUrl": "82dfdaf2eea0c17b09b07281479181fe09db7ff8a43e3d3da19f9af6003e6570",
+   "jpUrl": "3dd546907fa5e5b5a8bed285d3469ff56d6d26c20d7c8cb36e0c00c680d018b1",
+   "enUrl": "ad2094ce1ddceea97aee94db61887529e7b530222298c0d00c0d44072ce156ed",
+   "krUrl": "4fe45197dfc4503d67b151b17c24d7e6df0de43b86324f8c358049e894b5cf97"
+  },
+  {
+   "id": 22,
+   "title": "Ascensión de personaje",
+   "text": "Cuando la vida son puras obligaciones, el truco está en \"robar\" un poco de tiempo libre, ¿no?",
+   "unlockRequirement": "",
+   "cnUrl": "1857673feb6da530cdb3c6155529a154cb35c66f080680059d441557456e9fb8",
+   "jpUrl": "79095c952455381b4fc467daada7ee9e0265bcb4d02f7a34d56204410b51c089",
+   "enUrl": "8115b8f446dd445601e890a776980628054d945b00ec98e84bb03c6189a8fa22",
+   "krUrl": "aed0fcec3826f3ab48a9eddc40d15fac99b2a1d890a730dd5d58519c32dba337"
+  },
+  {
+   "id": 23,
+   "title": "Nivel máximo alcanzado",
+   "text": "Tarde o temprano sacarás la ficha que quieres, ¿no?",
+   "unlockRequirement": "",
+   "cnUrl": "869e42fb0da23bfe9dd31d4a541f957845d8b8c16263d84c0b61c84c41408636",
+   "jpUrl": "d26335d51bb63d7e9470be7fa22635002c48197787144e6829a6c5771eddef27",
+   "enUrl": "3ac1fd2372d5d16cc871fd3e41ac955fa4638d13c50cf7e218f25e142ea84883",
+   "krUrl": "5d783d32f85e74e67b9f5dc5208d184448c365984c9ab04cca1594ac6204a956"
+  },
+  {
+   "id": 24,
+   "title": "Activación de Rastro",
+   "text": "Cuando se trata del Jade celestial, todo es cuestión de sinergia y suerte.",
+   "unlockRequirement": "",
+   "cnUrl": "a291af0feb15f79dd8274a31fc170c2eead802957d4b56c52c93c71881b544ca",
+   "jpUrl": "6ec40e872db3d142dc512c168644bdd08b78bcbeb17ca01567d1ccbc897eb0cd",
+   "enUrl": "e15c8c2e3be03b7193ab5836f97c3b98efd51b8d4db392be13c500cf498f6ad8",
+   "krUrl": "b99b223ef9f15d060b7f1eac358b9e66e12257f5483aafca6107b3dbdb765387"
+  },
+  {
+   "id": 25,
+   "title": "Miembro del equipo: Trazacaminos",
+   "text": "Oye, Trazacaminos, ¡tú también estás aquí! Comencemos la partida.",
+   "unlockRequirement": "",
+   "cnUrl": "f453acd9e88f2835f09b0ab37aa142530b65d3f709cd6e37b02fe434bf16bfef",
+   "jpUrl": "05426848bb47a24c31f4ba37b1132b75a3797bd79dbcf1663f49a9c0f9c3763f",
+   "enUrl": "a0169654031a56caef6e3404e6123704695efc4ed0dedeb27317fb65ea225d54",
+   "krUrl": "393ae29e3ba2a50925bb39cee0968273a68a7384e0c7b3b924c82f6329cea6d8"
+  },
+  {
+   "id": 26,
+   "title": "Miembro del equipo: Fu Xuan",
+   "text": "Qué raro, ¿cómo sabía la Gran Adivina que estaría aquí?",
+   "unlockRequirement": "",
+   "cnUrl": "27a6319007064f6862899c731ff0361756c7fde5ee58fb31069bf9d189b6ccd0",
+   "jpUrl": "4de1abe152c5094db725e2d65426b54ec55b4b05477c7d3f57cee7028a57ff14",
+   "enUrl": "981480addee48e649e7643c26b05b7168f3081e5b8bccde35660d0f48367b02a",
+   "krUrl": "b52992df1106f95a4b46cc9d932712932086b6e88160d91d7d6654bb37e7226f"
+  },
+  {
+   "id": 27,
+   "title": "Miembro del equipo: Guinaifen",
+   "text": "¿Una actuación gratuita de la Pequeña Gui? ¡No me la pierdo!",
+   "unlockRequirement": "",
+   "cnUrl": "0f6fc73b62b9b1cb0a58a4c5bc075a424000e536c70dddf93f6e89faec5e8856",
+   "jpUrl": "e5ec92b13c3ce8378af19341b5f41cb4186c83797284604ddbdab555e7d3c97d",
+   "enUrl": "e437089390e24576499d13d00abcc80e95bff1cd8b3f137e67ef1a2631d1831a",
+   "krUrl": "bfc602f72d512051e89bdea035da6142b3daa748c35ce9e75b450bd1fc9e021f"
+  },
+  {
+   "id": 28,
+   "title": "Miembro del equipo: Yanqing",
+   "text": "Increíble, con el ingenio de Yanqing rondando por aquí, ¡puedo tomármelo con calma!",
+   "unlockRequirement": "",
+   "cnUrl": "b3c8e78a386337b5e843128cf837b594530f38979f2f86e54eb01b9086d3ddf3",
+   "jpUrl": "1a76e63c7206f0e56579cbf3eeef6a01d2efb41a1d0c3f4577a911073a3c58bd",
+   "enUrl": "b538d2646aa0ba11593b413b5f0348865f5031124c01220a9f2017bcc545b7a0",
+   "krUrl": "7ea2879c0f76a8a70e82e173cd421ee856b2dc671c5d87978b957f0f587e7afd"
+  },
+  {
+   "id": 29,
+   "title": "Miembro del equipo: Huohuo",
+   "text": "No te preocupes, Huohuo, el trabajo se pasa deprisa cuando te diviertes...",
+   "unlockRequirement": "",
+   "cnUrl": "83ec85da1e495317f793192c598277cd69114ce84664ec913d29645c85149176",
+   "jpUrl": "2761de0a33ffd996f9b76b768249e0c7cf16fc0161a649aaa4652de3fe0d71f1",
+   "enUrl": "3e28a2009c6a6f27486770f224d9828f55b9e216c0bb6469f94fbb03e10014c6",
+   "krUrl": "6b04db1abdaf4c0506b9d4c310b75c497ad5ae2a5bbdc3132c50cd9c0f655b91"
+  },
+  {
+   "id": 51,
+   "title": "Comienzo de la batalla: Ruptura de Debilidad",
+   "text": "Juega con ganas, gana a lo grande, mantén la boca cerrada...",
+   "unlockRequirement": "",
+   "cnUrl": "74d47eb7051ed041ff1e7e9ca27882898fdeb8abf9d93a3cbce1a7e687e7c8de",
+   "jpUrl": "e4728b0cbfb144b447c57ca25b92e4a05ae7f78b9fc3d5aa8ba7277c969eedcc",
+   "enUrl": "aafc6fc38963012afd5a31e78ec4e63c256330d9169756ef59a58bca980be2ec",
+   "krUrl": "74d9f0166ddacfb1b60088a5ce71c0b7e02c6629d4ff28fb7184faeba40a904a"
+  },
+  {
+   "id": 52,
+   "title": "Comienzo de la batalla: alerta de peligro",
+   "text": "Cuando las probabilidades estén en tu contra, tienes que minimizar tus pérdidas.",
+   "unlockRequirement": "",
+   "cnUrl": "63f1efd612dc30ac4861b576df00a9e112af55a86d1f32dee2a9afd7c15bd1b1",
+   "jpUrl": "c6f4fa45de8f5b92c42cb296d16730f41c90880dc9bded790326e8e9da9f77bd",
+   "enUrl": "ec380a62e0382682c40abe3779b79c65c5e43ea6093fa50f24aa0161f5265435",
+   "krUrl": "3aecccdfd81fca934ab7545d1082e3a973f0ffd24d2c4560f1ef2ee1da29498d"
+  },
+  {
+   "id": 53,
+   "title": "Comienzo del turno 1",
+   "text": "Espera a las fichas antes de empezar a contar...",
+   "unlockRequirement": "",
+   "cnUrl": "6c7d2cb78cc112aca094dc439c676f9c826b80ba582d0c3f305b32fad5d61ced",
+   "jpUrl": "2913e295e773a57b213adafd96516237b2d4279a061ef880619da2424c65f401",
+   "enUrl": "9d9d1a9ac49c0012772d8ce4b14ebde724fe22f8d714ad4a661a60f12e86ff89",
+   "krUrl": "c43eec6328a7e30c5510a622299a5060a889a09dff44f16c4a73963ceef3b9e4"
+  },
+  {
+   "id": 54,
+   "title": "Comienzo del turno 2",
+   "text": "Las peleas son como las apuestas: debes elegir bien cuándo atacar.",
+   "unlockRequirement": "",
+   "cnUrl": "55267608879401a4c94f2ad83fe7f0e94ba247e50b2ce80ae3dbc2458c760ed1",
+   "jpUrl": "1e8094bd6b13fd369f7f9f3a66426b476fcb52b8aa945fe569e5355aa5f5f5d6",
+   "enUrl": "ee262c24baf02bf1aac30a98b3a18bd1e94e8c5d03e1c2d1536b331abd5574e8",
+   "krUrl": "8a341aa72c3015b0ef58a9ac32a98076d797c2b0f04879c67b5133614811fe9d"
+  },
+  {
+   "id": 55,
+   "title": "En espera",
+   "text": "No te precipites, el juego está en constante cambio.",
+   "unlockRequirement": "",
+   "cnUrl": "c0ce194f4699aa0d4484ab5d21fe3b821d2e2d1cfc2e2baa2c3773345d348f0a",
+   "jpUrl": "1340869795a8a0ed431eaeab0ec11bb81844e9eaa96ef705f701233edf577432",
+   "enUrl": "83db83bd2b036eeaeae39ee86dc3ef4f800ea369b28852495dad3b18a0de5fea",
+   "krUrl": "709dd2be4b14b07a3c61c3f0be3570ac69968309d93d32ac323c9f029b48ed71"
+  },
+  {
+   "id": 56,
+   "title": "ATQ básico",
+   "text": "No necesito esta ficha...",
+   "unlockRequirement": "",
+   "cnUrl": "c36340f1e260ac2f8f1f7a1bd83d57b36fdfc6cde748859510e4655a9676c690",
+   "jpUrl": "848db1b2ae134faa70624ce70bf043757ee91caa7e41b62e988a0bfabcd33823",
+   "enUrl": "6c09dc89199bc0525baf4143f3230496188b763ba39294354700cb289395f678",
+   "krUrl": "44e0b0dfb8f480df4d7af2296e3308b9284de0257c853152f106822fde7f69f2"
+  },
+  {
+   "id": 57,
+   "title": "ATQ básico potenciado",
+   "text": "¡Hora de ajustar cuentas!",
+   "unlockRequirement": "",
+   "cnUrl": "52466e093076a0e2dbccdeaf9f768f448cf0abdc95b61faf33c9b1a6b7f8d574",
+   "jpUrl": "74d46abe891c119c3d412a0a019e87f7b1f9c66252d0ef4943fb56802bfcd919",
+   "enUrl": "918a17021c4524860cf482e92acf4514d7a3cd00c76c84a39711b6561336ec76",
+   "krUrl": "b9e6f2ed455334ea0c633f4102b7c306dcdd9989022c486409014aa711cd327c"
+  },
+  {
+   "id": 58,
+   "title": "Habilidad básica 1",
+   "text": "¡Te tengo!",
+   "unlockRequirement": "",
+   "cnUrl": "b6239e9f9549bb7d7992045a8cace210a0fce70555ee5d45dadabebe9ea33fc0",
+   "jpUrl": "b54ade0434379422fc81cbc3dfc7b4d4ff97c96216d3e5ec5a0f6b83cc9468a5",
+   "enUrl": "486f503d6276c72a9c8b0fa0b13242eb99a443891184ea264f051b7d885661bc",
+   "krUrl": "8d9ef48cb9339f55e9e7f4c3ddc1c07534b4344c4de9475b0e382c3fca6200e5"
+  },
+  {
+   "id": 59,
+   "title": "Habilidad básica 2",
+   "text": "Mantén la calma...",
+   "unlockRequirement": "",
+   "cnUrl": "d4c3d6b56e5cc82767c65a427ebb30f4263ceb2c2afb8c69c088a8263b0e17f6",
+   "jpUrl": "438c947e4a7f6c258ab538f1d2d4276a11a287a99466dab5abd7047f6cd881c8",
+   "enUrl": "7976ff7241a1252ab2f57586f6e64368ffb102aa3389aaede1fd6efab617b3b4",
+   "krUrl": "2406cd1a9ca6abbb3ae82d6752fa06008433e3f65c460df361449ef96ca61078"
+  },
+  {
+   "id": 60,
+   "title": "Habilidad básica 3",
+   "text": "Vamos...",
+   "unlockRequirement": "",
+   "cnUrl": "fa5d8b815c75ef15b796ec11bd9ba74fca8cb0e5af0b1b6de3fa5e58191b5cd2",
+   "jpUrl": "7d0aa2c2bf456f5912142c319d2e8080038036be039333beae8912f496f03057",
+   "enUrl": "5e10aa54239d69d04e8acfe55374bf9be0377fa60fd02e7b2b1a5fe63f86e09d",
+   "krUrl": "92184829d3d5197b0faa5f371a850f4393fbc8e8cddf413419f74cff42586d12"
+  },
+  {
+   "id": 61,
+   "title": "Habilidad básica 4",
+   "text": "Ooh...",
+   "unlockRequirement": "",
+   "cnUrl": "27ce5fa16162c85f6200b65df20d50c339a66d27e815cfaec51f038284bb8475",
+   "jpUrl": "77454d80246802e9bbdec6b8ebfec748b930ec47751a107dbdd95c7efa3f4ded",
+   "enUrl": "cc73ab047e70e08159587f554c0a333a7ce43c2d723522c4b8f42601912ce7f7",
+   "krUrl": "81846caf3feb4dd6b58af3af441278228a8f47b3db25c780c4b2cf048a7649eb"
+  },
+  {
+   "id": 62,
+   "title": "Habilidad básica 5",
+   "text": "¡Guau!",
+   "unlockRequirement": "",
+   "cnUrl": "b13d00f31c5f31be185ee4ada074b58079af3bcbebfec17a4fc6e24dd5f7a31a",
+   "jpUrl": "afd61143ed71de3382d246e1cef4bac92ef69de51af3f2cf2a56a19457794604",
+   "enUrl": "33a58099f7a174069f31232841d3efd30176d4d3eb7107c4d0861d493139a272",
+   "krUrl": "7960281c528e17056547210035f8a6a26bedc673bde39c23485a2f634dcb16df"
+  },
+  {
+   "id": 63,
+   "title": "Habilidad básica especial",
+   "text": "Esta mano es malísima...",
+   "unlockRequirement": "",
+   "cnUrl": "3c4c9f0cea041506a024acac302f455298228078baaae6954133d99b7038e3d5",
+   "jpUrl": "7b2c801fe93bd8f1535f5bc23716bcee59ed4e54bc36db6d83e7fd781b7342da",
+   "enUrl": "74a34bce09d0329b8cbd7c5daf0512ae57b1cd958c56b23251c3579a7a02cb7c",
+   "krUrl": "fd1fb07038f3b6fe03ce61334104115cfcc7b5fc8556580463743deb14efd999"
+  },
+  {
+   "id": 64,
+   "title": "Al recibir un ataque ligero",
+   "text": "¡Qué chiripa!",
+   "unlockRequirement": "",
+   "cnUrl": "ae8c5eb7f1368900ff8e1e10b35eee1d70c8638ef349740673162205ba8625c1",
+   "jpUrl": "dfc18abca6561d3065257ee0f5fdcb29f6a391a6e5cd1f018f7fc78cedc73a0b",
+   "enUrl": "52a45d7b8c87068ec67cf24795400e533b3c54a5a96b5143d88b3466f8fa7fe0",
+   "krUrl": "f1cbdc23e263c3de2aeb8de8bd04a260225ecf42adff851b2198724fa36e588d"
+  },
+  {
+   "id": 65,
+   "title": "Al recibir un ataque fuerte",
+   "text": "¡Eres un mal perdedor!",
+   "unlockRequirement": "",
+   "cnUrl": "c17ac425aa970fdd463ee80787de90c536e70c1282b12a3e7b106cbef0aa5d3d",
+   "jpUrl": "a6fccb9638c10613508e9bba35c6297bf7f76a0a1915156534a14c36681da4b6",
+   "enUrl": "c20eb4ce7f3311c648a2502d900984d1f5b19cd4c9c70465a4cdf310bbbcdde7",
+   "krUrl": "c35fbabe733da6ad32e9c32566dc75361781100503254416e69cd98b57a50af7"
+  },
+  {
+   "id": 66,
+   "title": "Habilidad definitiva: activación",
+   "text": "¡Que me salga ya!",
+   "unlockRequirement": "",
+   "cnUrl": "be4c48a2d690b6052bfc6d86cfd68de8d00cb5f37af3c51bdf51a994fe3fe440",
+   "jpUrl": "fef280c32fc8f91678d276ee81c68ddf8a8dfe85db4e7a6ea0543244266712b0",
+   "enUrl": "ef1ed3cf5637cc9ed86fee4774bac6a4600c9cd7cde04befd5e1daf597b63f0e",
+   "krUrl": "d38545f42521af9ed13fa907bdbd8106124c5ac799d4035199930ebb516fa4a5"
+  },
+  {
+   "id": 67,
+   "title": "Habilidad definitiva: lanzamiento",
+   "text": "Vamos, vamos, vamos, vamos... ¡Ah! ¡Esto huele a victoria!",
+   "unlockRequirement": "",
+   "cnUrl": "01e93662e928786fb2125045b6a679ed348569a7afcde37dc9296c2a70cf87a8",
+   "jpUrl": "0c26007eed9256895175bc78148fc634ca2173dee533981fe28c8c3e91872757",
+   "enUrl": "3f8cd516de7c07f41fcf5c8ac449e74f83c1886b5775b584bb56261e5cd60808",
+   "krUrl": "8b2bb62b43412ca943610e30a0db0a8afb500d390a98c3feb8915f643a39b626"
+  },
+  {
+   "id": 68,
+   "title": "Talento 1",
+   "text": "¡Más vale tarde que nunca!",
+   "unlockRequirement": "",
+   "cnUrl": "2f9fed55d499e8cd6f5b0b88fccaa545a2bab29c9931f1e67abaed05ab4fe3f6",
+   "jpUrl": "3a27e410950a7f46bd395247f0662f7e9d9f0f69401d7ce061be6d3690bc64bb",
+   "enUrl": "8ba67f636180a64055bef13bd8565c20edfb0c8ffeec3090f2b4a3b0248140a0",
+   "krUrl": "eda1ce038a329739e236096e333f2bda8fe63e3f0b93a528729d4ae3fdb916a0"
+  },
+  {
+   "id": 69,
+   "title": "Talento 2",
+   "text": "¡Vaya set!",
+   "unlockRequirement": "",
+   "cnUrl": "dc010f3d4adf4a03b416bb849b8ebcc08e4e80c4a5e7f5bdd41e52c25cd49d33",
+   "jpUrl": "71b38dadf8687c95a68efa3f7656caa45657b5a1b37336c673d6a67273eaa557",
+   "enUrl": "c4f1be3982b6126823c977b93ba8982e85405c23b9cea67ad5a1b570872a2980",
+   "krUrl": "d9442d4e9b65c0f64dc2aadee3a4a4c846c4b9db0f8b7db1ac2127d7be867ecc"
+  },
+  {
+   "id": 70,
+   "title": "Fuera de combate",
+   "text": "Es hora de tomarme... un día libre...",
+   "unlockRequirement": "",
+   "cnUrl": "1b06b3347dacc9a4799e48d55a95fc65e323e28606b7d7086f02c442dbdc0b46",
+   "jpUrl": "363337be1b66995c10ba5676b7e29a4984e1d3e36b64f2dd123bba21e43d692e",
+   "enUrl": "624cc8ff6961ae3af688d35df6ad38fe413e7c9476ce906e3fded7d3ab789a8f",
+   "krUrl": "ffc513e380659b1320ea08ff3aa2716332321fbc8c051aee93c207bdfc55ce51"
+  },
+  {
+   "id": 71,
+   "title": "Retorno a la batalla",
+   "text": "¿Necesitas un jugador más?",
+   "unlockRequirement": "",
+   "cnUrl": "d466ed70ff7e8de0b1da9b0f0f74de19c52cb95fcbc5640729b6d0a5b000e6b1",
+   "jpUrl": "9e695edb58cdd4008289ffaac1181d01bc777c15cc072cbb6d81a077ae9d2a1c",
+   "enUrl": "331fbc006a27c1827c92d850219f62acbfffa65a2f093072a65faade783a832f",
+   "krUrl": "1f0391c28dd36806b7401be28ea9be033a1e7e448f039fa27c47420fc61da030"
+  },
+  {
+   "id": 72,
+   "title": "Regeneración de PV",
+   "text": "¡Qué sabroso!",
+   "unlockRequirement": "",
+   "cnUrl": "967b7fcee72af0274f40a6f5afe6227fce3235eded14e8f51adc4e0554c756f6",
+   "jpUrl": "b22eddc22d5b827e84db8892727a0218f6b787c730d2f770f1fb6a80da40d10e",
+   "enUrl": "34488fa69b9b500124cb9fc749da64101a1e74eff69e0e8c3fdaa44360a283e1",
+   "krUrl": "efbf96f5deab02041088381fb28e7a2ba729e84a020f3714e0c02fd64638f433"
+  },
+  {
+   "id": 73,
+   "title": "Técnica",
+   "text": "Me siento afortunada...",
+   "unlockRequirement": "",
+   "cnUrl": "81924f9c1c20ca7453136bdfe0422fa4ead70fb12865b8996193cd919ce0aeff",
+   "jpUrl": "46eb9dafb3463fbc9aeab04335d2a6cc9217bb26b864c63c90c35f1bdc39281e",
+   "enUrl": "b3197ebae571351394fdcacb150fa25a9e3b1044adbf81eac7c950aa14e02deb",
+   "krUrl": "48d4349429b81068f027c4dc40ee7576f1f356b4739fe66b0b8dd267fa0a131d"
+  },
+  {
+   "id": 74,
+   "title": "Victoria",
+   "text": "Estamos en racha, je, je...",
+   "unlockRequirement": "",
+   "cnUrl": "62469ba4ccd2e0e57d06d5fefb80a066785f79aee43d2de5a2d33934595204ee",
+   "jpUrl": "593f74b510bbd15b733e88f5301dd5eebf389adb1427873c3c511f8f6b4323b3",
+   "enUrl": "5e810a7a43ef67cf4314736c6c4299ed9c46682ae90e531d7e6371ba72c77a10",
+   "krUrl": "bc6f974e8766491ef376f591f7ca7be44f952ccbc4685e3bf6f893f39fc80052"
+  },
+  {
+   "id": 75,
+   "title": "Al abrir un tesoro 1",
+   "text": "¡Dinerito!",
+   "unlockRequirement": "",
+   "cnUrl": "666de09c80171ea5369095a61ec7841d8cb31c637ca30b9b0706fc9a29634b69",
+   "jpUrl": "4416b2a24808d66216d461dbeb759643802e792e9dd22045ba90e83cf034087e",
+   "enUrl": "dd5455ab82104126af69a2fe8c85e68e968b95ff6eb42246b76f4b96a5e9e191",
+   "krUrl": "e2260b2324e3bcfe766f50f30b83c704300f78d1bbac4523ed9d5cde4f8e9f85"
+  },
+  {
+   "id": 79,
+   "title": "Al abrir un tesoro 2",
+   "text": "Me vendría bien un poco de tu suerte...",
+   "unlockRequirement": "",
+   "cnUrl": "eac751355473b06434df1e31822ccdd17b3cf242f2fd8a1b6f83886c17a4cdbf",
+   "jpUrl": "d6bdd110737792cf18850c8185adb6bb49e88b21b76b26cadc95e486050638c4",
+   "enUrl": "6946fe28e2e6bcdea44250a3b28a88788b953d2453937174ddaa8275f2843dee",
+   "krUrl": "19644af61e8cf52a3feff405e51a7717504dc82e5816a199bd1994035a76e14d"
+  },
+  {
+   "id": 80,
+   "title": "Al abrir un tesoro valioso",
+   "text": "¡Bingo!",
+   "unlockRequirement": "",
+   "cnUrl": "f552a99654474c0e720de4c50c660d9e226ff883c3df8f4640f0ab9cbd16aa2d",
+   "jpUrl": "d344a1f0fd906494cfc92ecfea4e007742b9d78ab4cbc9ad5182353be75612cb",
+   "enUrl": "504f7214c88b9dae8bff85c7644edd9c690d782a5412dacdb478e79fd8e77110",
+   "krUrl": "18e0e4c346dc9f8ad26ca517bfb62809906fadbfac3daf38ddc82d341f63170c"
+  },
+  {
+   "id": 76,
+   "title": "Al resolver un acertijo 1",
+   "text": "¡Ha sido muy fácil!",
+   "unlockRequirement": "",
+   "cnUrl": "a9d08cc14681fd12230d8a477342e4977aa6d5454dab509faec9a58fe36c0746",
+   "jpUrl": "e518ae42777ea212f7e1349208e30c4fde225eb3687b86cb0cf5da863b1e777b",
+   "enUrl": "a4ffcbcae6b8ddc45e52a394d4952e3253ec3b76e852c69f17a4ce9f71935770",
+   "krUrl": "189af1f211900c2b221c465ab66d69bda3e1bdf9f7c277e9c4e1ff72ae9a9ce7"
+  },
+  {
+   "id": 81,
+   "title": "Al resolver un acertijo 2",
+   "text": "¡Listo! ¡No hay necesidad de hacer horas extra!",
+   "unlockRequirement": "",
+   "cnUrl": "db1f5ed67895f288dd639d0cca3bba4c97e4e52b35d6095cf235f6a05b267450",
+   "jpUrl": "fa09678d7f8d8f47cd28df37855499fd53706d97bcbf311184ba1ad81f492645",
+   "enUrl": "cba3ecd18b067e1ebf24adc9a58eef15c8d42a30a443a73b7bf94e289f20da97",
+   "krUrl": "6a960f549e4482901bfcc06cf3348abfaa73bfc6c7c37da00a735c807232cfaf"
+  },
+  {
+   "id": 77,
+   "title": "Objetivo enemigo encontrado",
+   "text": "Una ronda más, ¡tras ellos!",
+   "unlockRequirement": "",
+   "cnUrl": "65c6491995c2d36305ab0600c216a9822c3ee4128f9b54560a1603a4f016307f",
+   "jpUrl": "4d05d7a38520d4296f9ce92b0c754128695cf8dde1d1eb3abdb5b34e9dff908f",
+   "enUrl": "c505c6b5584b48ae5589375fff11a6e5811aa6fca337587b4e3e952c01ca1412",
+   "krUrl": "31463274bc40f1e549d9c3f30c8753d5692978b0678033a1d2301888fe32ff0a"
+  },
+  {
+   "id": 78,
+   "title": "Al regresar a la ciudad",
+   "text": "Solo de pensar en el trabajo, me entran migrañas en el cuerpo entero...",
+   "unlockRequirement": "",
+   "cnUrl": "ef47ba10fa4c7cd0eaf09b5e40e3df2389dbb2947af91efa919de68534879808",
+   "jpUrl": "848d744cf90bf8d022cdb0c2c2c5e621252c29c8bbef21c11ca853e188bd0b83",
+   "enUrl": "bb930e04d054dd3c00b486c1ba45a4bc7c82f39fa79fed9070338566f32a80a4",
+   "krUrl": "fd434cbd4eb720f0d23520bca09f83ba1be38fc0eaad500028ced289557afd08"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalles del personaje",
+   "text": "Una adivinadora ordinaria de la Comisión de Adivinación que nunca flojea cuando se trata de holgazanear.<br />Aprobó el examen de acceso a la Comisión de Adivinación para complacer a sus padres, pero descubrió que lo que pensaba que era un trabajo relajado, en realidad era muy duro e intenso.<br />Tras varios años de experiencia, Qingque por fin ha perfeccionado sus habilidades. Pero no importa a qué departamento se cambie, sigue siendo la adivina de menor rango.<br />\"¿Qué más podría desear en la vida que enterrar la cabeza en libros y jugar antiguos juegos de fichas?\".",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Historia del personaje I",
+   "text": "La leyenda de Qingque comienza en la escuela.<br /><br />Desde su primer año hasta su graduación, cada vez que se publicaban las notas de los exámenes, la palabra Qingque iba siempre seguida del mismo número, escrito con todas las letras: sesenta, un aprobado raspado.<br /><br />Al principio, sus tutores pensaron que Qingque era una estudiante mediocre inadecuada para el mundo académico, por lo que no le dieron importancia. Pero, como el mismo número seguía apareciendo en los resultados de todos los exámenes, empezaron a sospechar que no se trataba de una coincidencia.<br /><br />Muy pronto, las largas conversaciones con los tutores se convirtieron en algo habitual para Qingque. Quien esté familiarizado con este tipo de situaciones reconocerá estas frases hechas: al principio, ella era \"tranquila y bien educada,\" o \"dotada\". Luego, el tono cambiaba a la culpa: \"lástima que ese gran cerebro se desperdicie\", antes del gran final: \"si dedicaras todo ese esfuerzo a tus estudios, entonces bla, bla, bla...\".<br /><br />Pero Qingque sabe el tipo de vida que quiere mucho mejor que sus tutores. Repite una y otra vez \"Oh, sí, sí\" y \"Humm, claro, claro\" antes de darse la vuelta y quedarse dormida en su pupitre, y volver a aprobar el siguiente examen por los pelos. Así responde Qingque a las coacciones y amenazas de sus tutores.<br /><br />Se les terminó acabando la paciencia. Al final, solo pudieron dejar un mensaje de resentimiento en su anuario:<br /><br />\"La excelencia es difícil\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>20</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje II",
+   "text": "Durante sus más de diez años en la Comisión de Adivinación, Qingque ha mantenido una existencia discreta, como la de un pajarito inofensivo.<br /><br />Habiendo cumplido las expectativas de sus padres sobre conseguir un trabajo estable, Qingque pensó que podría respirar aliviada, pero no se dio cuenta de que la Comisión de Adivinación, encargada de recopilar información, era un mar de miseria en el que nunca se alcanzaba a ver el final. Este trabajo de alta intensidad le causó a Qingque un tormento del que no podía escapar.<br /><br />Pero, como dice el refrán, \"lo que no te mata, te hace más fuerte\", y Qingque se convirtió en una profesional experimentada que logró aprender algunos trucos de los perros viejos y astutos. Ha cambiado de departamento y ha visto ir y venir a varios jefes. En todas las ocasiones, siempre es la adivina de menor nivel, y cada vez va más hacia abajo. Se puede decir que esto ha sido... gratificante.<br /><br />No obstante, hay dos cosas que le siguen molestando. Una es la tradición de Año Nuevo de visitar a sus padres para ponerse al día y hablar de la vida y de sus planes para el futuro, porque no tiene ninguno. La otra es su molesta jefa, que es más rápida que un ábaco de jade a la hora de acumular nuevo trabajo cada vez que la pilla holgazaneando.<br /><br />Qingque quiere seguir mejorando sus habilidades de gestión del tiempo y escapar del terror de la persecución de su jefa en la Comisión de Adivinación. Es una pena que Qingque no entienda que el destino supera a la mente: cada uno de sus pensamientos ya ha sido predicho por la omniscia.",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>40</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje III",
+   "text": "Se supone que el Jade celestial ya existía en el antiguo imperio, pero se perdió durante la larga deriva interestelar de la Alianza Xianzhou. Sin embargo, gracias a una adivina anónima de la Comisión de Adivinación, las reglas se recopilaron y devolvieron al Xianzhou de hoy, donde la gente tiene la suerte de poder acceder a este alucinante juego basado en la astrofísica y los fenómenos celestes.<br /><br />Obviamente, las reglas por sí solas no son suficientes. Por eso, la adivina usó los planos de su biblioteca como cebo, para atraer a un colega de la Comisión de Artesanía y que elaborara las fichas y un tablero de juego. Esos tableros son multifuncionales y mezclan y reparten las fichas automáticamente. Así, el Salón de Juegos Cuatritablero tomó forma y rápidamente comenzó a ponerse de moda.<br /><br />En la actualidad, el Jade celestial es uno de los juegos más populares en el Luofu de Xianzhou. La adivina bromeaba sobre esto en las cartas con su compañero artesano: al principio, ella solo quería este juego para su ocio personal, no captar los corazones de millones de personas en Xianzhou. ¡Este es un resultado que nunca hubiera esperado!<br /><br />\"Bueno, no es que sea algo malo...<br />Después de todo, si puedo usar este juego educativo para holgazanear sin tener que esconderme, ¿por qué no hacerlo?\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>60</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje IV",
+   "text": "\"Ser feliz en el trabajo es un arte\".<br /><br />\"Primero, no hagas demasiado rápido ninguna tarea. Los altos cargos quieren ver que sus tareas avanzan constantemente antes de la entrega, así que nunca entregues nada antes de tiempo\".<br /><br />\"Segundo, nunca tomes la iniciativa. Si los superiores no te dicen personalmente lo que quieren que hagas, no es tu problema\".<br /><br />\"Tercero, no luches en solitario y no compitas por llevarte el crédito. Si puedes, intenta arrastrar a alguien para que sufra contigo. Hagas lo que hagas, nunca trabajes sola para intentar demostrar algún tipo de habilidad\".<br /><br />\"Después, puedes dar todo el crédito a tus compañeros, para que te estén agradecidos o como una simple inversión para tu futuro. Pero también como un escudo contra la posibilidad de que los superiores te asciendan: un ascenso significa aún más trabajo\".<br /><br />\"En resumen, estos son los tres principios básicos para alcanzar la felicidad en el trabajo: evitar la proactividad, evitar el rechazo y evitar la responsabilidad. ¿Lo entendiste?\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>80</nobr> de personaje."
+  }
+ ],
+ "archive": {
+  "cvCn": "刘十四",
+  "cvJp": "伊達朱里紗",
+  "cvKr": "서다혜",
+  "cvEn": "Bryn Apprill",
+  "camp": "El Luofu de Xianzhou"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Qingque",
+ "rarity": 4,
+ "descHash": "Adivina de la Comisión de Adivinación del Luofu de Xianzhou y administradora de la biblioteca. Como siempre holgazanea en el trabajo, está a punto de ser degradada a un puesto inferior.",
+ "artPath": "a3c4a87dbec7414cfb034d00b786b505e980f975391972264a7141b45e9834a1",
+ "miniIconPath": "a4c059ae3e42fba63909fef256a5a453033a54e44c9db8af3ce6ea6316f4d5cc",
+ "damageType": {
+  "id": 32,
+  "iconPath": "ddae115334fb14959c5e24b70a5b165c431afc32f9fcf84d4b50e5e0e15bcc1f",
+  "color": "#1C29BA",
+  "name": "Cuántico",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "a1916e75aa6a99295aa01786a946ae601da457b578603446740cbe30bc5fba5a",
+  "altIconPath": "01710b94c5c1a7c525cfaedc0ea8f32901c99aa71a28896a16d52656c3ce3654",
+  "color": "#FFFFFF",
+  "name": "Erudición",
+  "rarity": 0
+ },
+ "pageId": "qingque"
+}

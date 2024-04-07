@@ -1,0 +1,2752 @@
+{
+ "spRequirement": 130,
+ "iconPath": "8a275944ad118eea29bfbbc9eeb86a06e8d864eea59d741b87377d4028e21335",
+ "bgPath": "5e7bd29e61d8366c4f0ea57d56016fbf8f2e3edfde6e41b819a6f4042bbc65a4",
+ "figPath": "7c35aebf10b363241475811ff972e669b951d598825ff2bcfa587643a26f2988",
+ "fgPath": "b5d0c0fca778143dc1b498eed13a93a84f38864c4b98668ee5f6cdfdde8e9b3b",
+ "splashIconPath": "cbc92e82df0318c1c5179c971cc3100369680b18f1101057686255c2e02ff3bb",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRqgCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSP0AAAABkKNt27FH9/t9sZ3Sdmo7pZ2pvAV1tlrPdDlmDbY6lTY6fnzvu/ixhoiYACR3AWSUw3UdF8kdAHOH7k4jXQfY/lz63NoycPDKrqwEB/U3JBv5XijpGgxggMcKYlISA20ACUcVUhQTY38GMI55pFiURMrKdiHxhSyVLNJ1GGDHKU9MIjHWeRgckkSlJPW7G7W+QorpBB1YkKVSkLL6tqVo+5NIVGpKL8aAc4pIMYGk3QeTd1ihJIoUafV6+/7V6rVfCrwgskqg1Yd+ACVzfdsiKYyjmLH38GkXHACo333styRZvUHteg1gXBfA4JnNza3DhwcAZCLRuC5SGmMAAFZQOCCEAQAAkAgAnQEqFAAUAD5tMpRHpCKiISgIAIANiWwAnTKEcDeLW4duC8o57f0AbwB6AH6geaB7mxKd/FHqABLumim04f+wOI4KsuDNy4111NwA/tM+xbxChU1+QroDt4OPsYXz+2vqFOqzAxM6ECLwvtPzY00t+mx+CFid/jIX8IyRuWdHfuyw5E5QAi73xifat6pXwKptsIbFqeVLf6YUT3IL6ytKtke8nOxn62iZxfRA+2Vee31Fq/f6hgk1xFEOUTTontTY8uw6OoDtAQf+RvCK+6dr/3l7t/9Qc/s9fwopWW6+Z+9Dv8IP02zcWV4EEdpfdoV5KJajjVGHre84BeiUHrEoqDSgCqfkH4NcqCL23HB5twoCtHBP0/6088xeP/KI3FjWSmz9slQTRMqrSaC9UekCf3JTGwKuaQkpvRVRZc/TAYy6u+WN8mFwupw7XfkyOV9nt/gk5PIL80tHkpT7uC7Vfyt0vbg3/4wiAiTa7JVGT43ipUoAXOacyMM5nkY6tgAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 4,
+  "iconPath": "55d5339b99655abd5d47c976596bebf22e6e522614fef628f7c875606f3e1abd",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Credit",
+   "desc": "Mata uang yang digunakan saat Interastral Peace Corporation bertransaksi dengan pelanggannya. Kini mata uang ini sudah menjadi mata uang yang umum di perjalanan ruang angkasa.",
+   "lore": "\"Orang-orang berlarian, berkelahi, bertransaksi ... tujuannya cuma untuk angka-angka yang muncul di terminal. Namun benda yang benar-benar berharga tidak dapat dibeli oleh angka-angka perusahaan.\"",
+   "purpose": "Mata uang umum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx \"Great Mine\"",
+    "Calyx (Artisanship Commission)",
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "Hadiah Misi",
+    "Hadiah Tugas",
+    "Penukaran Ember"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Tracks of Destiny",
+   "desc": "Material berkualitas tinggi untuk meningkatkan level Trace.",
+   "lore": "Kekalahan demi kekalahan telah membuatmu menang. Langkah demi langkah ke depan telah membawamu tiba di titik balik nasib.",
+   "purpose": "Material Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Hadiah Poin \"Simulated Universe\"",
+    "Kehormatan Tanpa Nama",
+    "Penukaran Ember",
+    "Penukaran Starlight",
+    "Hadiah Event Waktu Terbatas"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Traveler's Guide",
+   "desc": "Material Experience untuk karakter. Dapat memperoleh <nobr>20.000</nobr> Character EXP.",
+   "lore": "Buku seri yang harus disiapkan saat menjelajahi berbagai dunia. Tekan tombol baca, dan suara magnetik dalam bahasa yang kamu pahami akan menceritakan pengalaman legendaris petualang terkenal di berbagai dunia, serta pengetahuan dan kebijaksanaan berharga yang mereka peroleh di berbagai planet.<br /><br />\"Seri baru Traveler's Guide 'Resep Kuliner Antarbintang' akan segera dijual, ditunggu ya.\"<br />\"Untuk pengiriman, silakan hubungi Synesthesia Beacon ERD<nobr>-230</nobr> untuk terhubung dengan perwakilan Intelligentsia Guild. Pembayaran dapat dilakukan dengan metode apa pun yang praktis untukmu.\"",
+   "purpose": "Material EXP Karakter",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx \"Outlying Snow Plains\"",
+    "Calyx (Cloudford)",
+    "Calyx \"Dream's Edge\"",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Adventure Log",
+   "desc": "Material Experience untuk karakter. Dapat memperoleh <nobr>5.000</nobr> Character EXP.",
+   "lore": "Buku catatan petualangan yang dikemas dengan rapi dan terlihat sangat edukasional. Teks dan gambar sama-sama mendeskripsikan awal dan akhir petualangan, informasi berharga, dan kiat-kiat bertahan hidup.<br /><br />\"Kenapa tidak menjadikannya sebagai data dan masukkan ke disk fotolit? Begitu bakal lebih praktis.\"<br />\"Saat menghadapi badai bintang dan letusan aliran neutron, teknologi tinggi akan menjadi jauh lebih rapuh dari yang kamu bayangkan. Ditambah lagi, penulis buku ini pasti ingin orang-orang membacanya dengan cara yang paling sederhana.\"",
+   "purpose": "Material EXP Karakter",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx \"Outlying Snow Plains\"",
+    "Calyx (Cloudford)",
+    "Calyx \"Dream's Edge\"",
+    "Pelatihan Harian",
+    "Penukaran Ember"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Travel Encounters",
+   "desc": "Material Experience untuk karakter. Dapat memperoleh <nobr>1000</nobr> Character EXP.",
+   "lore": "Buku harian yang mencatat segala penemuan di perjalanan. Tulisannya acak-acakan dan isinya juga ditulis sesuka hati. Tidak banyak gunanya untukmu.<br /><br />\"Cepat buang tumpukan kertas ini setelah dibaca ya, Dan Heng?\"",
+   "purpose": "Material EXP Karakter",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx \"Outlying Snow Plains\"",
+    "Calyx (Cloudford)",
+    "Calyx \"Dream's Edge\"",
+    "Hadiah Tugas"
+   ]
+  },
+  "468391": {
+   "id": 468391,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "136670876f348477c67386d9e545f587913faf2a699b983d967b670be1c1a35c",
+   "name": "Golden Crown of the Past Shadow",
+   "desc": "Tutup kepala yang dikenakan oleh Decaying Shadow. Material Ascension untuk karakter Imaginary.",
+   "lore": "Ornamen yang ditinggalkan oleh sosok Guardian masa lalu, yang menceritakan kisah kota Salju Abadi.<br /><br />\"Alina Sang Pengasih — kebaikannya seluas langit, dan kebaikannya bersinar seperti emas.\"",
+   "purpose": "Material Ascension Karakter",
+   "rarity": 4,
+   "rewardPath": "/material/468391",
+   "comeFrom": [
+    "Stagnant Shadow \"Backwater Pass\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "54d4c5dedbef6b70f526e88708669e94b6a214431c0c9ca55edf9b28b3413fcb",
+   "name": "Artifex's Module",
+   "desc": "Bagian dari pembuatan kecerdasan Xianzhou. Material sederhana yang digunakan untuk peningkatan.",
+   "lore": "Dasar dari teknologi kecerdasan Xianzhou. Konstituen terkecil dari semua bagian mesin. Memecahkannya akan sama dengan menghancurkan struktur seluler makhluk hidup.<br /><br />\"Intelligentsia Guild menawarkan hadiah 2 juta Credit untuk solusi teknis yang dapat membongkar boneka mekanik Xianzhou dengan sempurna.\"<br />\"Kalau kamu kenal Screwllum, maka 2 juta ini pada dasarnya adalah milikmu ....\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "Dijatuhkan Entranced Ingenium",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "Hadiah Tugas",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material",
+    "Calyx (Golden)"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7b31224c48190eebf224b39e2a9df9477f9c67018bc63cb1b20569e6186041c3",
+   "name": "Artifex's Cogwheel",
+   "desc": "Bagian dari pembuatan kecerdasan Xianzhou. Material biasa yang digunakan untuk peningkatan.",
+   "lore": "Benda yang menghubungkan komponen-komponen dalam teknologi kecerdasan Xianzhou. Gigi gerigi yang terhubung dengan halus berukuran kecil seperti biji sesawi, namun saling berhubungan untuk membentuk tubuh yang kompleks, membuat mesin tersebut dapat melewati kehidupan yang sebenarnya.<br /><br />\"Bentuknya terletak dalam harmoni, sejajar dengan alam. Gerakannya berputar, menggemakan kosmos.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "Dijatuhkan Entranced Ingenium pada Level Equilibrium Lv. 2 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "635670": {
+   "id": 635670,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a096383d62b9e5432fbf9a9674cc41041077b151d3473e44509d684eaaccd9bd",
+   "name": "Harmonic Tune",
+   "desc": "Kotak musik kecil yang dibuat oleh pengrajin yang tidak dikenal. Dapat meningkatkan sedikit level Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span>.",
+   "lore": "Benda yang memainkan lagu santai dan menyenangkan.<br />Bahkan melalui nada yang sederhana, siapa pun dengan pemahaman musik sekecil apa pun dapat mengetahui kehebatan komposer lagu tersebut.<br /><br />\"Pegang tangan keluargamu dan menarilah!\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/635670",
+   "comeFrom": [
+    "Calyx \"Robot Settlement\"",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "717385": {
+   "id": 717385,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fcb869b494268ac2b7320d4a3795736698f3a3c5e9bad9c0182c6e11bd343c55",
+   "name": "Artifex's Gyreheart",
+   "desc": "Bagian dari pembuatan kecerdasan Xianzhou. Material kualitas tinggi yang digunakan untuk peningkatan.",
+   "lore": "Inti dari teknologi kecerdasan Xianzhou. Bola dunia bergolak dan bergetar seperti inti hati, membuat mesin itu berpikir seperti makhluk hidup.<br /><br />\"Jangan kaget. Mengambil jantungnya akan membuatnya ... eh, dia? Tidak, membuatnya kehilangan kecerdasannya dan kembali ke sumber mekanisnya.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 4,
+   "rewardPath": "/material/717385",
+   "comeFrom": [
+    "Dijatuhkan Entranced Ingenium pada Level Equilibrium Lv. 4 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "836256": {
+   "id": 836256,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "b423fcc0ae34c8c3b30d0a461af31176b161d5a83f3615756c8f8a91f04ac474",
+   "name": "Stellaris Symphony",
+   "desc": "Kotak musik yang dibuat oleh pengrajin yang tidak dikenal, strukturnya sangat rumit. Dapat meningkatkan banyak level Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span>.",
+   "lore": "Benda ini memainkan simfoni galaksi yang kuat.<br /><br />\"Beberapa astronom percaya bahwa revolusi bola surgawi bekerja sama dengan struktur mekanik yang kompleks. Nada menyenangkan yang dipancarkan selama pergerakan bintang dikenal sebagai 'Harmoni Alam Surgawi.'\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/836256",
+   "comeFrom": [
+    "Calyx \"Robot Settlement\"",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "920197": {
+   "id": 920197,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "b5aa737b728156387ef4ddce10e0a541deb24993d58c4f2eca0aac0ed4301ea8",
+   "name": "Ancestral Hymn",
+   "desc": "Kotak musik yang dibuat oleh pengrajin yang tidak dikenal. Dapat meningkatkan level Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span> dalam jumlah medium.",
+   "lore": "Benda yang memutar sebuah himne yang dinyanyikan oleh sebuah band kecil.<br />Siapa orang yang dipuji lagu ini? Sampai saat ini tidak ada yang bisa memeriksanya..<br /><br />\"Kesengsaraan, cobaan dari Yang Agung! Kekayaan, anugerah dari Yang Agung Satu!\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/920197",
+   "comeFrom": [
+    "Calyx \"Robot Settlement\"",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "985668": {
+   "id": 985668,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "c92e008415ed578b02aeeebec3e4303f0e6c56d05fab48f2cfd79469b64f222b",
+   "name": "Destroyer's Final Road",
+   "desc": "Material berkualitas tinggi untuk meningkatkan level Trace.",
+   "lore": "Meski tubuh Leviathan sudah hancur, tapi tekadnya yang terperangkap di dalam sangkar masih belum mati. Selama tidak ada yang membuka sangkar ini, tekadnya akan terus berada di antara hidup dan mati, menggerakkan mesin Destruction untuk terus menyala.<br /><br />\"Doomsday Beast adalah bencana yang dibuat di Warforge menggunakan sisa-sisa Leviathan dan kerangka-kerangka yang meratap. Dia mengharapkan kemusnahan alam semesta dan juga dirinya sendiri.\"",
+   "purpose": "Material Trace",
+   "rarity": 4,
+   "rewardPath": "/material/985668",
+   "comeFrom": [
+    "Echo of War \"Supply Zone\""
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 81.6,
+   "attackAdd": 4.08,
+   "hpBase": 124.8,
+   "hpAdd": 6.24,
+   "defenseBase": 51,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549503,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 114.24,
+   "attackAdd": 4.08,
+   "hpBase": 174.72,
+   "hpAdd": 6.24,
+   "defenseBase": 71.4,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549503,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 146.88,
+   "attackAdd": 4.08,
+   "hpBase": 224.64,
+   "hpAdd": 6.24,
+   "defenseBase": 91.8,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633444,
+     "count": 5
+    },
+    {
+     "id": 468391,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 179.52,
+   "attackAdd": 4.08,
+   "hpBase": 274.56,
+   "hpAdd": 6.24,
+   "defenseBase": 112.2,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633444,
+     "count": 8
+    },
+    {
+     "id": 468391,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 212.16,
+   "attackAdd": 4.08,
+   "hpBase": 324.48,
+   "hpAdd": 6.24,
+   "defenseBase": 132.6,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717385,
+     "count": 5
+    },
+    {
+     "id": 468391,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 244.8,
+   "attackAdd": 4.08,
+   "hpBase": 374.4,
+   "hpAdd": 6.24,
+   "defenseBase": 153,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717385,
+     "count": 7
+    },
+    {
+     "id": 468391,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 277.44,
+   "attackAdd": 4.08,
+   "hpBase": 424.32,
+   "hpAdd": 6.24,
+   "defenseBase": 173.4,
+   "defenseAdd": 2.55,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "72637e4cb4136c4db0aee135131bfa6718a47dc98ae8c9dfecb087f87e8ff369",
+   "artPath": "a84227049b8c5e1357502f9bc7803558d238a2075d1530730f7a552685067bf8",
+   "name": "Aerial Marshal",
+   "descHash": "Saat memasuki pertempuran, meningkatkan <nobr>#1[i]%</nobr> SPD seluruh rekan tim selama <nobr>#2[i]</nobr> giliran.",
+   "params": [
+    0.1,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "e8c59ef7b45bb4cf6c493e83106652ee32f1d7408b3c0349294f0fdf24469509",
+   "artPath": "7f0f5775c351475f63b46440a3421519ccb62737b332f297931e10adc66bd2bb",
+   "name": "Skyward Command",
+   "descHash": "Saat Energy dari salah satu rekan tim terisi penuh, Yukong akan memulihkan <nobr>#1[i]</nobr> Energy tambahan. Efek ini hanya dapat terpicu 1 kali untuk setiap rekan tim. Setelah Yukong melancarkan Ultimate, jumlah perhitungan efek yang terpicu akan di-reset.",
+   "params": [
+    5
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "e6073afe49032cf165e2506cf2ec86089abd4803f3302068008a123de759e6db",
+   "artPath": "b3b36ad91fdcd90d4ab3e5bd2c338947a49ea52fae087f2495cb80f8ab1f2763",
+   "name": "Torrential Fusillade",
+   "descHash": "Level Skill +2, maksimal Lv. <nobr>15</nobr>. Level Basic ATK +1, maksimal Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "c6f781505d67af1e9ed1ecdd2cf6870f1632fe3406d15deb57ada1b7ed8efef2",
+   "artPath": "e54c4994266351722b3c252c4d65ce588852a8b6da290f60d6e95480ac3e9c31",
+   "name": "Zephyrean Echoes",
+   "descHash": "Saat memiliki \"Roaring Bowstrings\", DMG yang diakibatkan Yukong meningkat <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.3
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "fc4c660d90d24bd482494c2bc10fc338025fcf549549176625c0e33ad3794d94",
+   "artPath": "de267065df98b70fcc2774bccdf82e33c0f17368cbafe3ff2fe522e731cf509b",
+   "name": "August Deadshot",
+   "descHash": "Level Ultimate +2, maksimal Lv. <nobr>15</nobr>. Level Talent +2, maksimal Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "8aac855dfb07a850d1a964ca6d9c44a008e13a2f41581cc4fdfc14dee935bf87",
+   "artPath": "17dd1e402c5db449c546e3b01784b12677e747738dbf4a7fae4827fa96dd4429",
+   "name": "Bowstring Thunderclap",
+   "descHash": "Saat Yukong melancarkan Ultimate, dia akan langsung mendapatkan <nobr>#1[i]</nobr> lapis \"Roaring Bowstrings\" sebelum memulai serangannya.",
+   "params": [
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   256489
+  ],
+  [
+   340430
+  ],
+  [
+   457075
+  ],
+  [
+   541016
+  ],
+  [
+   825543
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Single Target",
+   "descHash": "Mengakibatkan <span style=\"color:#F4D258;\">Imaginary</span> DMG sebesar <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ATK Yukong pada 1 target musuh.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 256489,
+   "name": "Arrowslinger",
+   "iconPath": "dfc9f19e6277130b1b6b4dbb900a8f67e9917e650e7ab463e9ac99f3c51393c0",
+   "typeDescHash": "Basic ATK",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Support",
+   "descHash": "Mendapatkan <nobr>#1[i]</nobr> lapis \"Roaring Bowstrings\", maksimal 2 lapis. Saat Yukong memiliki \"Roaring Bowstrings\", ATK dari seluruh rekan tim akan meningkat <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. Yukong akan kehilangan 1 lapis \"Roaring Bowstrings\" setiap kali giliran dari rekan tim berakhir.<br />Yukong tidak akan kehilangan \"Roaring Bowstrings\" pada giliran dirinya mendapatkan \"Roaring Bowstrings\" dengan cara melancarkan Skill.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 340430,
+   "name": "Emboldening Salvo",
+   "iconPath": "e6073afe49032cf165e2506cf2ec86089abd4803f3302068008a123de759e6db",
+   "typeDescHash": "Skill",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      0.4
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.44
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.48
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.52
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.56
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.6
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.65
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.7
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.75
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.8
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.84
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.88
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.92
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.96
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Single Target",
+   "descHash": "Saat melancarkan Ultimate, jika Yukong memiliki \"Roaring Bowstrings\", seluruh rekan tim akan mendapatkan tambahan <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> CRIT Rate, dan CRIT DMG meningkat <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>. Di saat yang bersamaan, mengakibatkan <span style=\"color:#F4D258;\">Imaginary</span> DMG sebesar <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ATK Yukong pada 1 musuh yang ditargetkan.",
+   "ultimateCost": 130,
+   "break": "90",
+   "energy": "5",
+   "id": 457075,
+   "name": "Diving Kestrel",
+   "iconPath": "651b96380a88ab3546ec9b590f256ff13535e7a56edae80f86630382c9bf4d21",
+   "typeDescHash": "Ultimate",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2.28,
+      0.21,
+      0.39
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.432,
+      0.217,
+      0.416
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.584,
+      0.224,
+      0.442
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.736,
+      0.231,
+      0.468
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.888,
+      0.238,
+      0.494
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.04,
+      0.245,
+      0.52
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      3.23,
+      0.25375,
+      0.5525
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      3.42,
+      0.2625,
+      0.585
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.61,
+      0.27125,
+      0.6175
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.8,
+      0.28,
+      0.65
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.952,
+      0.287,
+      0.676
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.104,
+      0.294,
+      0.702
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.256,
+      0.301,
+      0.728
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.408,
+      0.308,
+      0.754
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.56,
+      0.315,
+      0.78
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Enhance",
+   "descHash": "Basic ATK akan mengakibatkan <span style=\"color:#F4D258;\">Imaginary</span> DMG tambahan sebesar <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ATK Yukong pada target musuh, serta meningkatkan <nobr>#2[i]%</nobr> Toughness-Reducing DMG (DMG terhadap Toughness musuh). Efek ini dapat dipicu lagi setelah <nobr>#3[i]</nobr> giliran.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 541016,
+   "name": "Seven Layers, One Arrow",
+   "iconPath": "f5fb3067600e5fb50660e007d19741f4105f80aa08341636ee05764658416bc8",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      1,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.44,
+      1,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.48,
+      1,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.52,
+      1,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.56,
+      1,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.6,
+      1,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      1,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      1,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.75,
+      1,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8,
+      1,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      1,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.88,
+      1,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.92,
+      1,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.96,
+      1,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Setelah menyerang musuh dan memasuki pertempuran, mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 741602,
+   "name": "Attack",
+   "iconPath": "dfc9f19e6277130b1b6b4dbb900a8f67e9917e650e7ab463e9ac99f3c51393c0",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Enhance",
+   "descHash": "Setelah menggunakan Technique, Yukong akan memasuki status Sprint selama <nobr>#1[i]</nobr> detik. Saat berstatus Sprint, Movement SPD Yukong akan meningkat <nobr>#2[i]%</nobr>. Yukong juga akan mendapatkan <nobr>#3[i]</nobr> lapis \"Roaring Bowstrings\" saat memasuki pertempuran dengan cara menyerang musuh.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 825543,
+   "name": "Chasing the Wind",
+   "iconPath": "356114c0552a7c078ede7d6b99f54b19382641f7cae1d85484ce90bcd4b37a2b",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      0.35,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1207101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1207202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1207203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 693205,
+        "name": "Peningkatan DMG: Imaginary",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Meningkat",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920197,
+          "count": 2
+         },
+         {
+          "id": 633444,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 693204,
+      "name": "Peningkatan HP",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635670,
+        "count": 2
+       },
+       {
+        "id": 549503,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Yukong dapat menahan 1 kali Debuff yang dilancarkan padanya. Efek ini dapat dipicu lagi setelah <nobr>#1[i]</nobr> giliran.",
+    "ultimateCost": 0,
+    "id": 693108,
+    "name": "Archerion",
+    "iconPath": "10b367a14f091028496b303daa31e74176127052512e200779e36409220d9985",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635670,
+        "count": 2
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1207102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1207205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1207206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 693200,
+        "name": "Peningkatan HP",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836256,
+          "count": 2
+         },
+         {
+          "id": 717385,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 693203,
+      "name": "Peningkatan DMG: Imaginary",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Meningkat",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920197,
+        "count": 4
+       },
+       {
+        "id": 633444,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Saat Yukong berada di medan pertempuran, <span style=\"color:#F4D258;\">Imaginary</span> DMG yang diakibatkan seluruh rekan tim meningkat <nobr>#1[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 693111,
+    "name": "Bowmaster",
+    "iconPath": "081addd649069d596b24146d8aaa36cd698c780fce92fe6a5ee5dfb3ada415cf",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920197,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1207103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1207208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1207209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 693215,
+        "name": "Peningkatan HP",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 128000
+         },
+         {
+          "id": 836256,
+          "count": 6
+         },
+         {
+          "id": 717385,
+          "count": 6
+         }
+        ]
+       }
+      },
+      {
+       "id": 1207210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 777147,
+        "name": "Peningkatan DMG: Imaginary",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Meningkat",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 128000
+         },
+         {
+          "id": 836256,
+          "count": 6
+         },
+         {
+          "id": 717385,
+          "count": 6
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 693214,
+      "name": "Peningkatan ATK",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836256,
+        "count": 6
+       },
+       {
+        "id": 717385,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Saat memiliki \"Roaring Bowstrings\", Yukong akan memulihkan <nobr>#1[i]</nobr> Energy tambahan setiap kali rekan tim beraksi.",
+    "ultimateCost": 0,
+    "id": 693110,
+    "name": "Majestas",
+    "iconPath": "013c168ec992ae62d87ea505b450fa3dd364e850c9f0d8363c5613a4e64a9724",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836256,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1207201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1207204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 693202,
+      "name": "Peningkatan ATK",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 8000
+       },
+       {
+        "id": 920197,
+        "count": 2
+       },
+       {
+        "id": 633444,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1207207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 693201,
+      "name": "Peningkatan DMG: Imaginary",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Meningkat",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 36000
+       },
+       {
+        "id": 836256,
+        "count": 2
+       },
+       {
+        "id": 717385,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 693207,
+    "name": "Peningkatan DMG: Imaginary",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Meningkat",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549503,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Badan",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8"
+   },
+   {
+    "relicTypeHash": "Kaki",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "SPD",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "Imaginary DMG Meningkat",
+    "propertyIconPath": "939478539b7b35b55ee48b2e19d6994455dec3403493edcc082140d3a061b14e"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ATK",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Pertemuan Pertama",
+   "text": "Halo, tamu dari Astral Express. Aku Yukong dari Sky-Faring Commission Luofu, selamat datang di Xianzhou.",
+   "unlockRequirement": "",
+   "cnUrl": "42cedece02a16d957c1819153b95658375af1017894dafa764f404696557cab6",
+   "jpUrl": "932d7314ef5903c992b4099e1e9498059ed76801c587f016a635a489884a55ab",
+   "enUrl": "06b6142d197472db2b1f6a66460b38d32f761010ff0ec8ccf6ea6758f3ff19e6",
+   "krUrl": "11ac51fec7fbd69eddab0284f2744433719dccadc62fe6a8f36438fbbf9af831"
+  },
+  {
+   "id": 2,
+   "title": "Menyapa",
+   "text": "Hari yang cocok untuk terbang, kan?",
+   "unlockRequirement": "",
+   "cnUrl": "9ba55fc5e8f339dd568cc7ab428adefca7bc250204ff87dccf281b8db5dbfe0a",
+   "jpUrl": "3ba407758615c728af37bfaf6cd97b5f7394ea9ef94aef9520471495e1be8b9b",
+   "enUrl": "7f69ff9b1f4a14fa788ad89cc36516a6ebd49e366e3814897d75bd579a47dfee",
+   "krUrl": "5f142367de2f129af39fd1abbebff383727d8670231c487adf4d6b2943c61b62"
+  },
+  {
+   "id": 3,
+   "title": "Berpisah",
+   "text": "Lautan bintang sangatlah luas dan perjalanan kita ini panjang dan sulit. Tolong jaga dirimu, di mana pun kamu berada.",
+   "unlockRequirement": "",
+   "cnUrl": "9394a8b2aabd0d63bbcc5c1e4f7afb2147220e0aa162f39e110d76721d180836",
+   "jpUrl": "93f35d30dcf1689149725590554a7697b1f94c8fda8b0bba3cc7f76eb0a66237",
+   "enUrl": "57fc7fec8571f55161dda6146d1aa40dcc3acd0340105e27a0cddff952238022",
+   "krUrl": "266c7a8db3271f1ead329ad4fcbdeccc248e45f7781cd8220aaa70fb73dadf73"
+  },
+  {
+   "id": 4,
+   "title": "Tentang Diriku",
+   "text": "Aku sudah pernah bekerja di semua posisi di Sky-Faring Commission mulai dari petugas pemeliharaan, pilot, tentara cadangan hingga stargazer ... Waktu yang panjang berlalu begitu saja.",
+   "unlockRequirement": "",
+   "cnUrl": "7fe5b483c1a63003e9e7c498016a1a7abc7ffa1a45fbdf83fe733190bd56427a",
+   "jpUrl": "d4397ad9efbf801d221b85d2af838ab2053d61025c7ed564f77541d0cf77256a",
+   "enUrl": "721c9fd617ca72fcffdbc9e5cbf697b3106b0fee2cb33c80eb4dfae4cdef90c3",
+   "krUrl": "f44abb6b29f540c2f2f4ee1482e5c4462c55e7272e5c2098c19ba0b7e9069d56"
+  },
+  {
+   "id": 5,
+   "title": "Mengobrol: Penerbangan",
+   "text": "Suatu penerbangan hanya bisa dibilang sempurna kalau dimulai dengan lepas landas yang lancar dan pendaratan yang bagus.",
+   "unlockRequirement": "",
+   "cnUrl": "1ebea0348c4668cdcee648fd4a43d95b8b5941c50f72ff3c57a87edc6ba46a5d",
+   "jpUrl": "caefde4be414c5f3c9800ceb99930c5e5cabc1a7c552775af8e1ac32536998c3",
+   "enUrl": "69ba5b15ce4db9a4125a84208b686fad6201bb978d5342cf7f556928b52a2832",
+   "krUrl": "be71284c840df4c730d5e2f32922daa76f33a6045ca2b4af0b287359310775dc"
+  },
+  {
+   "id": 6,
+   "title": "Mengobrol: Sky-Faring Commission",
+   "text": "Hubungan antara Sky-Faring Commission di masa lalu dan masa sekarang tidaklah sederhana. Kejadian di masa lalu membentuk kejayaan di masa sekarang.",
+   "unlockRequirement": "",
+   "cnUrl": "c5a6f30066aadd7036b80cbcc2eceea61674559e61b559f31d09725d1f0c7fbc",
+   "jpUrl": "a4d6c7ca87e48b257ba6aceda55dbb5ae202b86a91cd4a1446e6c2ab8f1a89b7",
+   "enUrl": "1b72722d255ea95ef768688778c0d6173af582679b7d1e9817ecdb30ba5eaa34",
+   "krUrl": "9763bef439f2ee2ed17b416ed67b10c9e10990d60d6af53c565974f83bc7bf30"
+  },
+  {
+   "id": 7,
+   "title": "Hobi",
+   "text": "Aku suka melihat awan ... Maksudku, perubahan nebula. Sky-Faring Commission mengatur wilayah udara di Xianzhou, tapi kita cuma jejak sementara yang akan hilang dengan cepat di langit. Nebula adalah penguasa langit yang sebenarnya.",
+   "unlockRequirement": "",
+   "cnUrl": "e6d53dd8987127a9f5840e3def0588e01f5b173dc905e7166a101e775d62012e",
+   "jpUrl": "ac09b1a3a3945e0e6ebd55c755a1789420e29908bb827f29ce4605fa6aba580c",
+   "enUrl": "7224f3625864ee0207ea129ed53f547adc08e0ccb89663544a707f3873ef040c",
+   "krUrl": "6a40af1cfb3fe35e0dfc9ee5532abe1932a2ddb966bd752fb911735f865aba48"
+  },
+  {
+   "id": 8,
+   "title": "Hal yang Memusingkan",
+   "text": "Kalau dibandingkan dengan langit dan bintang, kehidupan kita sama seperti serangga yang mengapung di udara ... Aku harap aku bisa menyaksikan hari di mana Xianzhou benar-benar kembali ke kejayaannya.",
+   "unlockRequirement": "",
+   "cnUrl": "12712b21c88b650316dc799ec54f5e4ce1a3dd9e90d94518f1c235d4b0aa1e7f",
+   "jpUrl": "ebd3b30d375f8105e63a18fa272fdb0cf23a7cc1324d8704db94f922f1337bf3",
+   "enUrl": "2edf90658fdcc043c0a90d691b2f5a6c59b106da78e9725ac7081abb0af15353",
+   "krUrl": "6445bd1a44642a2df4941e66da22a38be49e8a28eaf25cfa5d5e68cb4e216acf"
+  },
+  {
+   "id": 9,
+   "title": "Curhat",
+   "text": "Di masa lalu, Sky-Faring Commission pernah berhadapan langsung <nobr>12</nobr> kali melawan Plagues Author. Tiga kali di antaranya kami hampir diratakan, tapi setiap kali kami selalu bisa bangkit dari kehancuran.",
+   "unlockRequirement": "",
+   "cnUrl": "cfcadd0e34a101d3d8f4798b66e533cc9c96e38ecda76e459e9b2beae929f777",
+   "jpUrl": "731986b04e75973817e801bff4757642e58ddd30056b4526f70553cf12b47201",
+   "enUrl": "d2aba899edac224a87ba85f7e7d37bbb958c59fb15b705d885341b383b800675",
+   "krUrl": "cef9fb7e67108107f58aee93dceeef040ecacb082fef2f797c5a18e24250d06a"
+  },
+  {
+   "id": 10,
+   "title": "Rumor",
+   "text": "Aku sudah pernah melihat cahaya terakhir tepat sebelum sebuah matahari mati, dan detak nadi vulkanik dari darah dan daging sebuah planet yang dihidupkan. Aku sudah pernah melihat panah cahaya dari Reignbow Arbiter terbang dari tempat yang sangat jauh, dan juga gelembung memori pelangi dari Glowswather yang pecah berapi-api ....",
+   "unlockRequirement": "",
+   "cnUrl": "5ea81f3bdc70f8ae7327b4d0071abf5e347f9a30915f03fef0741bed00b02124",
+   "jpUrl": "9c2180f2aa8bca9a1c243ad301563d61fb834788b3f9817a3cd2e48d04148750",
+   "enUrl": "4e5c8e6904d48b93015a70b17b2b736d0b8e483ae677a0108cea887d2e4081e1",
+   "krUrl": "c870f8ae31e0f315abc70624346ffcc2f2fccac104766a1c8d36597b4930addb"
+  },
+  {
+   "id": 11,
+   "title": "Tentang Jing Yuan",
+   "text": "Jenderal memang mungkin terlihat malas, tapi dia punya rencana untuk seluruh pemerintahan Xianzhou.",
+   "unlockRequirement": "",
+   "cnUrl": "ddda22e044c9fa2a1e42bf208958755f83764720ec970257c275c3e08af4dae5",
+   "jpUrl": "5999807440255802d08a4f4afd24c541504a480f91bdc910db753f787c1d654b",
+   "enUrl": "b98e2915fc6174b39c7a152f1f911742227c601ae171350e6c48325939ac44b7",
+   "krUrl": "d1e0fe5bf91a4c8051b2a02b2104381d536491833fbae98bc826132d8efbcf17"
+  },
+  {
+   "id": 12,
+   "title": "Tentang Yanqing",
+   "text": "Sebuah pedang akan bergetar dan memohon untuk dikeluarkan kalau sudah terlalu lama tidak dipakai ... Sekalinya dikeluarkan, pedang itu akan mewarnai medan perang dengan darah, atau menghancurkan dirinya sendiri dalam proses ....",
+   "unlockRequirement": "",
+   "cnUrl": "a5725041dddb89439c1bfb249475326a8268bd6ffe367cd04e3141459838d72c",
+   "jpUrl": "c353937c8d100352f623ff0269f6287a3f63382801361c2ce9c06f50865e0ac5",
+   "enUrl": "9c6e3b845e48f7ecade28462b27a65686e6211f4e7c349da5913d279e519aabe",
+   "krUrl": "1263db44390cdd0b59acb4321b7180f9551022dc820fd73ef8c7a27df9de10d3"
+  },
+  {
+   "id": 13,
+   "title": "Tentang Tingyun",
+   "text": "Xianzhou butuh pejuang berotot dengan pedang dan tombak mereka, tapi juga membutuhkan orang yang bergerak bebas dan sulit ditebak seperti dirinya.",
+   "unlockRequirement": "",
+   "cnUrl": "952c937a58a355933ec81bbe07ddbfb8bc79a5507badbe95a0e1f437deb890ec",
+   "jpUrl": "bfd03ed097d720390721a7cf04047cb35b987d555a2400850f87c9844600deca",
+   "enUrl": "d37791c43552dc85206f7cb9082da1d7400b7e5b1647681ec4007db7a117d3cb",
+   "krUrl": "eb1de7f2320f48d4f35f6e50c44f2e34829822b5747ec5a1538a027b553c58df"
+  },
+  {
+   "id": 14,
+   "title": "Tentang Sushang",
+   "text": "Dia memang ceroboh, tapi dia itu punya hasrat dan semangat. Jangan meremehkan dia, anak muda bisa mencapai banyak hal hanya dengan modal dua hal itu.",
+   "unlockRequirement": "",
+   "cnUrl": "e289312a359d36e9577400fcd579c978ee8580174077fa519349444d724644f8",
+   "jpUrl": "763cc99f2bb65e268f851e80e36e5457742ae8f6630e1fb74b3588b85715c50d",
+   "enUrl": "38ecf7f2e240f829f05d7380419e415a8b928d42e455ac1cbe28fdc1c11c1f2d",
+   "krUrl": "7782aa6014537c4d594c847e3f36012e0cf979d39a42b0d7e02ff48dacc92251"
+  },
+  {
+   "id": 15,
+   "title": "Tentang Bailu",
+   "text": "Meskipun sejak lahir Bailu dianggap sebagai \"Naga Terhormat\", semua itu tidak ada hubungannya dengan kemauan dirinya. Namun gelar \"Gadis Naga Obat\" dia dapatkan karena keterampilan medisnya yang menakjubkan.",
+   "unlockRequirement": "",
+   "cnUrl": "4976485e2059c5bcf989c4c5a47740057b4ae35e1356fc3d8832bd2e3b5d4d7c",
+   "jpUrl": "90c44e63e0b20841499789fbecdc55441d758bfc73aa6c744031fd1f94312806",
+   "enUrl": "908a8aba66fd12bdf5e51a44a575eb8fee0de5a345927bd68f3641c024570c69",
+   "krUrl": "5723b4ee82dad553e7db0b002f2ba1f211ad05a461fe4642b29a59c7e46c0595"
+  },
+  {
+   "id": 16,
+   "title": "Tentang Jingliu",
+   "text": "Kamu sebaiknya jangan menyebut nama ini ... Nama ini sudah lama menjadi kata yang terlarang.",
+   "unlockRequirement": "",
+   "cnUrl": "3d57503ec8399145b860a9e320d07b607b90adb1459cfd981955f6a8eae162c6",
+   "jpUrl": "8dae393e0e9e4bdf5d957403645a80e5f20c572b047d9e98970b4d08a638e7d4",
+   "enUrl": "bb13e96882929e1554c9dd9c8d2c98f02b207679431ddf6cdacad7b7af883e99",
+   "krUrl": "7b0ea8e6eea112eaf4755ecc21b2db39f86c6ca1d450999e2a9840b7e66fe7f3"
+  },
+  {
+   "id": 17,
+   "title": "Tentang Qingni",
+   "text": "Qingni memilih jalan yang dia impikan, seperti ibunya. Tidak ada alasan untuk menyesal ... aku jadi penasaran, siapa yang benar-benar merasa penuh penyesalan?",
+   "unlockRequirement": "Terbuka setelah menyelesaikan Misi Bersama \"Aku Telah Menyentuh Langit\"",
+   "cnUrl": "0738342838fa3d9d2e92f7a017abd6f7590680f9d0b9567480394fa97757ef79",
+   "jpUrl": "65e4b321f33294381c13b67fbadd15c31c7dd1e7c4ffdc3d95c612ea05eff02d",
+   "enUrl": "26cc977f895fc46ad95a653b1461be19034b486661b58da736a42a9ee8377dbc",
+   "krUrl": "48784c078dfe29c32bbdce982b4fa89f47c726b61674354542af676122149d50"
+  },
+  {
+   "id": 18,
+   "title": "Eidolon Diaktifkan",
+   "text": "Langit begitu luas, layang-layang terbang ke arah yang ia inginkan.",
+   "unlockRequirement": "",
+   "cnUrl": "cff551566857bca468cf4dc3a3346dbd3450be599bcc71ef5a243c9aa6748fa0",
+   "jpUrl": "cfe6579e84464c2f5b0d07094b71e6db9af63836855498c5dc3f56692e222a55",
+   "enUrl": "787f1c3d128c5a78434197423a5f00680481af0aafcabf7c85d7bf0b573e5246",
+   "krUrl": "c0519ef06f870541cdb512ce1ea2c3581c0cedd6cae9df638a2986c97ea54168"
+  },
+  {
+   "id": 19,
+   "title": "Ascension Karakter",
+   "text": "Jiwaku tidak pernah menjauh dari luasnya cakrawala ini.",
+   "unlockRequirement": "",
+   "cnUrl": "6103c8a8cd2bf3865a581c76fa030a31fef335dc1a69015aca4a6f6ec19e0b2e",
+   "jpUrl": "936f7eee2a8fc05de255e5f6a63ab6aff31e274b80607750417d32daadf59405",
+   "enUrl": "20d90185a47f7f41b64d9e652275d60cb520139272b9c627b01a0f990c745dcc",
+   "krUrl": "2dbce1368a9c4f365526b7ba8c2f0370d5bcf37d8ba4643077f8d60ef1c804b8"
+  },
+  {
+   "id": 20,
+   "title": "Level Max Karakter",
+   "text": "*Huff* Hari ketika aku dianugerahi penghargaan-penghargaan itu masih sangat jelas dalam ingatanku.",
+   "unlockRequirement": "",
+   "cnUrl": "eb030683d8cb23a1e1e8ef82ac147a53c2724a652feef8e554a287cb6a323778",
+   "jpUrl": "aa4be81887308036484da9542c1e0bf44a936748a791562fb1e49d3505c56cec",
+   "enUrl": "7988f1fdb8c3d84a2ee71af2df6151e2ca991b2815e3340092c27be8655ac6fd",
+   "krUrl": "118806ac8e76060708fa5f665c541924434ebe9735c37d6db3a4d5c93d677318"
+  },
+  {
+   "id": 21,
+   "title": "Trace Diaktifkan",
+   "text": "Kupikir hari-hari mengembara sudah berakhir, tetapi ... masih banyak yang harus aku alami.",
+   "unlockRequirement": "",
+   "cnUrl": "7b5d0ddd234bb342133ae1a53e45aaa0e9b33ea8acd3cc01b3825ef78f9c6fff",
+   "jpUrl": "e1785477626c78c0bd44edb0cb435df9945adcf9c64abe7babcaae01a436fd51",
+   "enUrl": "8d47e5465179bc331a8989d85e6c9056b27d16ef3ebbd03870197dcb30380b75",
+   "krUrl": "fe04bb334c6006342f77388bd18045467dc3b44a6861791706c01b759f0c7364"
+  },
+  {
+   "id": 22,
+   "title": "Edit Tim: Trailblazer",
+   "text": "Kalau kamu membutuhkan bantuan, Trailblazer, kamu hanya perlu meminta.",
+   "unlockRequirement": "",
+   "cnUrl": "d9ad65947b65b649f15dc7582fc6a0e8de9f54941e1cd8d4223fbf8413377e52",
+   "jpUrl": "626e768a07a59b201a087085956215b007b30d4414b56597bad25c675de21c74",
+   "enUrl": "fa4e2e601758daab6711fafbf35d0a7801cc29fd8952b53180703903c1df4e00",
+   "krUrl": "0aa90199de0cca9c9c2f5a3bc914666dcf8a6b95567812f82cc113fbc33345c3"
+  },
+  {
+   "id": 23,
+   "title": "Edit Tim: Tingyun",
+   "text": "Apa kamu mampu mengatasi situasi ini, Tingyun?",
+   "unlockRequirement": "",
+   "cnUrl": "e8a11bc4f64324983c21687e987b04de417bb8e77998f23a5cf6acf55906c5b4",
+   "jpUrl": "70712fd760013836b1d94adbd4c55d9b97e4df52cdbd8585cfedcd671b2a5425",
+   "enUrl": "94351bb6ce4a3e79939e51f23b999c0acc40d774834515c40784a7fb1396c0f9",
+   "krUrl": "61c570c831329bb9c28b4bfc235ddffc297c9b4771c3f6b383d7b002a9c4b854"
+  },
+  {
+   "id": 24,
+   "title": "Edit Tim: Jing Yuan",
+   "text": "Jenderal, busur dan panahku sudah siap, menunggu perintahmu.",
+   "unlockRequirement": "",
+   "cnUrl": "c8a6fe8f2d6b05e5cf637347502926e205a631b20db7a83927b4a2aa5937426c",
+   "jpUrl": "bef04bea268868ae912e79eadf4b0fe83a8ec88d488942231e93109fcb89227d",
+   "enUrl": "373b8d3e09fe7ff99fa81f0cbfcfeeaa7897461e72de1f2d8247be638cbd758f",
+   "krUrl": "559d8780c709dca09cbed4ca7ffdf8338f30ac47d2e452546cc9b0ab10d117fd"
+  },
+  {
+   "id": 25,
+   "title": "Edit Tim: Yanqing",
+   "text": "Yanqing, kemahiran pedangmu tidak memerlukan masukan dariku. Tapi aku mendorong kamu untuk belajar dari teman-temanmu.",
+   "unlockRequirement": "",
+   "cnUrl": "86c5be6e8667d9790ccf704fce33331d38bc945b9cd544817648ad2ac1dc4d03",
+   "jpUrl": "05ec2d63a57bbddf485b2a2387e6fc0c0c716484b9e837a4b78363b340f6c0fe",
+   "enUrl": "5e358949922f968437f41773270ebf6e7ee026321117fcd67dbcd2b92f7a8521",
+   "krUrl": "bff71689082d8f44c108534186016b0191bf1fa3afca4f645f3f52394cd36225"
+  },
+  {
+   "id": 26,
+   "title": "Edit Tim: Sushang",
+   "text": "Berhati-hatilah, Sushang. Medan perang tidak mentolerir kesalahan.",
+   "unlockRequirement": "",
+   "cnUrl": "f4351fd09cfeaac1cc46771778c967d85c54920b8725707f622ab1064db33343",
+   "jpUrl": "628a552bcd8ca23233b5a8897e138e57fe891f5c1aaa284ee8e905d46cf16554",
+   "enUrl": "098c4f8d546eaa75d18f80dc601bd3ae8e898f76a830a32cbb568b9c7a1f3a1a",
+   "krUrl": "db44cf356101f43bb34741287f8dc6a0c4399410185e2111e425d69e1fb8c786"
+  },
+  {
+   "id": 51,
+   "title": "Pertempuran Dimulai: Weakness Break",
+   "text": "Semudah itu.",
+   "unlockRequirement": "",
+   "cnUrl": "ef4b532619e6d2e87311cd135723e0e19a9e2151d9da2c833bf7b928b11db356",
+   "jpUrl": "84f9fcb5d4fe57b454fb5a9176545d49a23cda146db664002abe7c01b94a15ec",
+   "enUrl": "28d3de31ecc0f77eb9652952b920ac8fa9837d1ea99b6cc1dce69ee37cc0baed",
+   "krUrl": "eddef38da67618d38d643b13391d35931433979914bef3d0a0b7061bc6143cc6"
+  },
+  {
+   "id": 52,
+   "title": "Pertempuran Dimulai: Peringatan Bahaya",
+   "text": "Maju melawan arah angin!",
+   "unlockRequirement": "",
+   "cnUrl": "6b66a2f58fdefaa4c266b4c102e42d63b4673fd2b3f3a4049aeff04ad88f88b4",
+   "jpUrl": "9cc3063988b0cafe448f76bf621798694ff821fd0f8f235597a1e4be52e6352b",
+   "enUrl": "7441fb35523516b2b3bd9b5654bb65730c44017a2ee01bb8cddaa414e9efde51",
+   "krUrl": "be4300158a656137f5d5ad992887f99898343e669e04cf37996d015737991419"
+  },
+  {
+   "id": 53,
+   "title": "Giliran Dimulai: 1",
+   "text": "Semangat seorang pilot tidak akan pernah hilang.",
+   "unlockRequirement": "",
+   "cnUrl": "95a8d9715dca59d7781b52fc98a709036741f5458adf620a6ae1d44208501d71",
+   "jpUrl": "0fc345ea2197d22d2a77a2393a18de76088e889fa1c7c42b551ab5c9d118d186",
+   "enUrl": "8d194a0423ca02a40efc8b6cdec969e9c86512ed4727d3c90076667fa2aa2b9d",
+   "krUrl": "7b21a3aad16766603ac214481f26e0d3a2bb547f5c396d61e232e76c81ea7fc2"
+  },
+  {
+   "id": 54,
+   "title": "Giliran Dimulai: 2",
+   "text": "Bersiap untuk menyerang.",
+   "unlockRequirement": "",
+   "cnUrl": "32ce8bb5e430e887fedf20754f810e585bde23b5c26210056c75f126b116f1a7",
+   "jpUrl": "32f701c9159b714aa1b1838ca80e5085402c2ad689da9b9dd5f444fc906cc8ea",
+   "enUrl": "0384346b45d9676d38e928266217bc15ffaebfb359e6bad9a7eb60c64597e6c9",
+   "krUrl": "44fa4dd91467c9e844a5df554dec63d2def3cdd9131edd8745a5363c2e1cfbf7"
+  },
+  {
+   "id": 55,
+   "title": "Menunggu Giliran",
+   "text": "Sekaranglah waktunya, jangan menunda.",
+   "unlockRequirement": "",
+   "cnUrl": "b850ca0c9ae772959fa83fe06f90dc08c6058024fb144fbcf1d59ef6c04deb05",
+   "jpUrl": "c7c02a378a565ae868a8541f1bf2b8538fd35e0436dfa12e2f4a96943f2da22a",
+   "enUrl": "156a0df488d7ab3d1df5ad97bc7bd95b946b98b38e0fc04ed58a024acbb7c1b6",
+   "krUrl": "4636c57d07cbd2118f6916fbedf79221e66d60c389e05c80d06bd6f6aeb504b9"
+  },
+  {
+   "id": 56,
+   "title": "Basic Attack",
+   "text": "Perhatikan baik-baik.",
+   "unlockRequirement": "",
+   "cnUrl": "a8e8d369c9e2c78d719bdfa9ab79a01c22b4559910fc912af748a910e03d632a",
+   "jpUrl": "308ae0f4817fd5be8b4947aca22280f76d242bd5c44ac7ca46b005e0e827e8c4",
+   "enUrl": "164c52eb8cca9a0fc63bb2e12b241ec7c7e746c90f2a8ec0e7b41627549a36aa",
+   "krUrl": "a3cf12c7a80f78335f10ec67c8e961c5cd6ada211a57cf2e44c08172287989ea"
+  },
+  {
+   "id": 57,
+   "title": "Skill: 1",
+   "text": "Kekuatan angin!",
+   "unlockRequirement": "",
+   "cnUrl": "4b036f40468a7c71a4eb16ee9a7e475ca708c806e3674cd91027cd6067ec5edc",
+   "jpUrl": "a336a5cf3068c290a18d54f688cbafb6f151afd90302bd2c096fe5d31895be42",
+   "enUrl": "ea603a8495170e1361bc6822c966a6b06cfffe02a828ef392246d2f432bff2af",
+   "krUrl": "f2f00877c6f68dab88b2902e0616036e51f5fcca937929259efe4f3222d1d1f4"
+  },
+  {
+   "id": 58,
+   "title": "Skill: 2",
+   "text": "Menerjang awan!",
+   "unlockRequirement": "",
+   "cnUrl": "6c1c23068cca6bb648690509946b27473260f3a5449ad22f33b35393e8272f49",
+   "jpUrl": "90cbb146a215187d937ad80f14cc3c277f8f951cecff88432c4eeac210a43958",
+   "enUrl": "5fb655e568c39ffa437f3f9efa727eb96d90e72a54b6d26dddbdefa967f0182c",
+   "krUrl": "5786fb18fcd7a2a1e51be969ff0d46f0b7e56660b2a401d502fa68892acaca0f"
+  },
+  {
+   "id": 59,
+   "title": "Terkena Serangan Ringan",
+   "text": "Aku baik-baik saja.",
+   "unlockRequirement": "",
+   "cnUrl": "cae6a38614cfed502a106c1f92e6d7d190de399ea910217d6b5ad509bc7ea52a",
+   "jpUrl": "6ba3967143cf7ea1e18367d34f077c58692ec7ba618ac8ddc37c91d3b5764fce",
+   "enUrl": "0bcc4a0e56199608ff044358d9c4ba78d51a1e2cf5a3c36d92872c44953f7429",
+   "krUrl": "82e459498ae0c83d3096037d7d3b5b771d1ece174aedfaad3cb195b2123bcdf1"
+  },
+  {
+   "id": 60,
+   "title": "Terkena Serangan Berat",
+   "text": "Argh, semuanya berhati-hatilah!",
+   "unlockRequirement": "",
+   "cnUrl": "12f8897319ae40400d35f6d35e360ed860fcfeaad86e954212058ec728e0402a",
+   "jpUrl": "a1be3c04ad83c4bc50483e01127d314ce7ff5f8270d110d616b27bd2dd716092",
+   "enUrl": "c1e2fb6fbed209778f5af89f0ca81337c8d97169c42ad1f31323cc102c53b336",
+   "krUrl": "f286bdba797f1587629430645742013aeb1ffb20ebec1d105e7aa99d05ae8090"
+  },
+  {
+   "id": 61,
+   "title": "Ultimate: Aktifkan",
+   "text": "Angin mulai bertiup.",
+   "unlockRequirement": "",
+   "cnUrl": "280b271c3922ffebc0077ae818b4bb57ccf6b7197458b471bce5bca8ec4a7f66",
+   "jpUrl": "48a64d7222b8d86be50fe474df8d176f6b916ca221fca12086401873b3a0369f",
+   "enUrl": "76b260284963bf46d7bf2b7b86b0a6dcbbf06c8df9b424ea7d6d32cc9ef19ad0",
+   "krUrl": "400d9c53de30db466931a27f59cc0fed2bb1518551e8ab5b1976643059eff17c"
+  },
+  {
+   "id": 62,
+   "title": "Ultimate: Pelancaran",
+   "text": "Semuanya, formasi! Panah dari langit!",
+   "unlockRequirement": "",
+   "cnUrl": "c1d24e6044142c91dcb03492a4cfbb6582f436b2b66d546c972fbe8b14cb2bec",
+   "jpUrl": "1e626eb206ce845d18e187ee534b467d3b1b418302a732bdd8bb30c33128dd33",
+   "enUrl": "eeeb1dbf11dc1f48b18aa83c30e6b58b34c40c3af456628fe9e3bb2924b67de1",
+   "krUrl": "454b34a55211c288c1b3389f8fcddd78a607382f5399f69e296332d5fa6fc41a"
+  },
+  {
+   "id": 63,
+   "title": "Gugur",
+   "text": "Sungguh memalukan ....",
+   "unlockRequirement": "",
+   "cnUrl": "6775f4b7e7bf33b1a3f0c1ea744173a8c9c6f27c56474257164256155037352c",
+   "jpUrl": "b3d662265a0b5047598677b2d06cd75af0deb193681c0395e97bcab22c5bc09e",
+   "enUrl": "9610f43bf081447c2c596b18ace4743d54f052b9ab2b80c1a324ed506da5103e",
+   "krUrl": "6bf6e917427e1c4d726e0187b1274160b59f46f33fc333812fc8adaac1d12692"
+  },
+  {
+   "id": 64,
+   "title": "Kembali ke Pertempuran",
+   "text": "Ini semua masih belum berakhir.",
+   "unlockRequirement": "",
+   "cnUrl": "1fa2310a034b315eeaf26835db238c013e9a51b06b039c97d41568255c947fc7",
+   "jpUrl": "0de8c9a52333178c6f7cd921d6078bea65c868a778ffc9b970cbda9d4d2a2305",
+   "enUrl": "5f0a53ae1784eb92466239f74719f132e89ba7e22fae5aa936e9c74ade31582b",
+   "krUrl": "d3f9807700f2ae9bb7cc84da353ec359d76a5f57367bf15d90a344025bc7c086"
+  },
+  {
+   "id": 65,
+   "title": "HP Pulih",
+   "text": "Terima kasih, rekanku.",
+   "unlockRequirement": "",
+   "cnUrl": "15342c52ee6b270618093387fc692387be2c53f10955d3aa0fa4a5794c325622",
+   "jpUrl": "0a0aff8471aa9bef5b7fc399464f21b9a4ee4931f66a8cbc1fae958f91325236",
+   "enUrl": "ed8729a774a08db1c28134c859714553ca2ad8379c13f2411b0d45c81912a137",
+   "krUrl": "96a1df8656cf37540e6cf36cc05711e1d2dc375205efff6ed8dac2c5ee5cb006"
+  },
+  {
+   "id": 66,
+   "title": "Technique",
+   "text": "Lebih cepat, bukan gegabah.",
+   "unlockRequirement": "",
+   "cnUrl": "4c2db18b7f9ddc0c014539f43fb7484b605cb25e30d7f8916c5f08921b2369f3",
+   "jpUrl": "33ab187b6bc150b8087113b0549fa3fefd0166d527671452b788d5c875a13036",
+   "enUrl": "461df42ef8fb90defa39457dfc1bc92bddf7468c18c167dee136525d2ed2da5c",
+   "krUrl": "9788150f10679b5ee959f869814cf011d38cc72c9f7749e0b1bd9dcf8c8cb3bf"
+  },
+  {
+   "id": 67,
+   "title": "Menang Pertempuran",
+   "text": "Aku senang kita semua selamat.",
+   "unlockRequirement": "",
+   "cnUrl": "dc5dc0fda289460d6157cfc3a14eceeb59193cb63db48cefada006425f28b241",
+   "jpUrl": "a3bf93fc09bf666393be62681d2751fe4eb0538101199a87cfe7a5a542b02a9c",
+   "enUrl": "5c73a40313994b426be0fde3b6fecce3017129a5df036bcde0df9b5c75630194",
+   "krUrl": "bb12a81bffe213e570f80eb1418daf154973be2a81a98d498462da883c8dbefa"
+  },
+  {
+   "id": 68,
+   "title": "Membuka Peti Harta 1",
+   "text": "Lumayan.",
+   "unlockRequirement": "",
+   "cnUrl": "cf2dfbd6a8706a7269fecdee0af83b01f4c1c1d0d45e802820530b3ca1815518",
+   "jpUrl": "332b5d58aea7283a35945e13359c0b8717b00b30190efa1b9e74b0ba2940cdc9",
+   "enUrl": "96fd0339172cff105370aaef250c68965760151aebb9de8b7b1d76626a04caae",
+   "krUrl": "66a35f9d70f83eb0b3e82b3d7510c7db70db161a7c333d938d8d417dacf069d1"
+  },
+  {
+   "id": 72,
+   "title": "Membuka Peti Harta 2",
+   "text": "Semoga hal-hal baik datang berpasangan.",
+   "unlockRequirement": "",
+   "cnUrl": "52aecaab7415987447375314f0aeba1b28737ae1ac91d8716eaf004afd4e7bed",
+   "jpUrl": "b5a587af0633201c68769a3b0be851328048eab8a07bdf8ca570b57fa5f52a4f",
+   "enUrl": "a357a91c9daca9f6eeb3b06410e5c6f2ca5602513c58087f3f469a957e325c7d",
+   "krUrl": "26b994f4216d97806f444ed191d424fe802dff43310769003636ff8f4c86bb17"
+  },
+  {
+   "id": 73,
+   "title": "Membuka Peti Harta Berharga",
+   "text": "Pemandangan yang jarang terlihat.",
+   "unlockRequirement": "",
+   "cnUrl": "ec29eb7f80f47cf05f25665bea0457bee6707648fc76291a7d3105604ca35bf9",
+   "jpUrl": "4e520fcbd26b1b8891a0177e4a336d0908e8b735e712d9de22cf49395d4f5124",
+   "enUrl": "330b72a16992bc3b8962b2678d9bc404a1d3c189012c8768de5c447d43be00df",
+   "krUrl": "5bcff34519efef07f004915f97cde249496ab3849e78e470c48a01bec0ed0494"
+  },
+  {
+   "id": 69,
+   "title": "Berhasil Memecahkan Teka-teki 1",
+   "text": "Masalah kecil, tidak perlu diungkit.",
+   "unlockRequirement": "",
+   "cnUrl": "c01e164083cf18eba9131c304d9a3ac7cd3dd57ee34b44ce29fe3d74e71be1b4",
+   "jpUrl": "36a02002a9252ef7f03ea08179d637c42f38d6108105361c117093db3f3786ef",
+   "enUrl": "3272f49fbf0084e3c20c705de02db7aa792bc94dbf4bd6a130e9098367835197",
+   "krUrl": "2f0ac1e4ea8e19567eb79c2e567d31589516b6aacb147c03b6d8e78d2e574705"
+  },
+  {
+   "id": 74,
+   "title": "Berhasil Memecahkan Teka-teki 2",
+   "text": "Latihan adalah kunci untuk meningkatkan kemahiran.",
+   "unlockRequirement": "",
+   "cnUrl": "1f19d7ea8665a7f06096e34e892d4e771573e779bf0cf2522be162a4e5db1122",
+   "jpUrl": "99864f8676b4e613fb6bf80ce8886958512f990fc67b123e0b70f7edee38a719",
+   "enUrl": "2554b18f4224cb72554910759223871571a26520fe010387a5d7985f7b2b2252",
+   "krUrl": "f7163871e7375ca252629438c6ff59485a3b28f0edd060e2513edd421ea6a4a1"
+  },
+  {
+   "id": 70,
+   "title": "Menemukan Target Musuh",
+   "text": "Jangan pernah lengah di hadapan musuhmu.",
+   "unlockRequirement": "",
+   "cnUrl": "6eb6b475e4710bc11f6ebca950c145b1df27c7d9856d6393e8a6a41158822ce3",
+   "jpUrl": "60f4187eadd1753c667dad0db804235192787dd5b4c397d800d4ea8b9ac7b914",
+   "enUrl": "35e6201e1f59e32e5d32baf9343df5a5b0c2ba7d32c780a7743f3eb61f34189b",
+   "krUrl": "3e1fe65fb2586a6c0e06cdb3e1fc3e37a4c9efb2e01a79c02acce1bf8cd76644"
+  },
+  {
+   "id": 71,
+   "title": "Kembali ke Kota",
+   "text": "Hari ini akan menjadi hari yang sibuk lagi ya?",
+   "unlockRequirement": "",
+   "cnUrl": "a0a8f90184c6bbdf8350faf3399be14056db710723b0278f20ecf53412769062",
+   "jpUrl": "32d9ef01909ea6a20928d5f42c9b1f7adb64fcddd9f06ce22fa9a418153b90e0",
+   "enUrl": "5f759a3094635f6c4150a8e6591c586fa980fa5b7fe850f2ee7bb3526cd4c270",
+   "krUrl": "28fd4877b3723d3dbe61510d5fbf6b4c44a7da1440091389b6db6c28b79c7e2d"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detail Karakter",
+   "text": "Kepala Sky-Faring Commission Xianzhou \"Luofu\" memiliki temperamen yang lembut dan berpengalaman dalam menangani berbagai hal.<br />Ketika dia masih muda, dia adalah seorang pilot, menjadi komandan utama dengan rekor yang sangat baik, tetapi dia tidak lagi terbang ke langit karena perang yang tragis.<br />Meskipun dia sudah kehilangan ketajamannya dan sekarang berkonsentrasi pada tugas resminya, tapi di setiap pelayaran \"Luofu\" selalu ada bayang-bayang dirinya.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Kisah Karakter 1",
+   "text": "\"Tahukah kamu? Hanya ada tiga jenis orang yang dapat memasuki Sky-Faring Commission.<br />Orang yang dapat berbicara dengan baik, orang yang mencari kegembiraan, dan orang yang ingin kembali pada bintang-bintang, tanpa pengecualian.\"<br /><br />Kami berbeda dengan orang Xianzhou yang hidup selamanya. Meskipun Foxian juga dikenal sebagai \"Spesies Berumur Panjang\", tapi umur kami kurang lebih hanya sekitar <nobr>300</nobr> tahun. Karena itu, banyak dari kami yang lebih rela menikmati kesenangan hidup sepenuhnya — mengejar kehidupan tertinggi dengan segenap hati dan jiwa.<br /><br />Aku? Sekarang berusia <nobr>246</nobr> tahun. Aku tinggal selangkah lagi untuk masuk ke liang kubur, sudah jauh melewati usia kesenangan. Kamu mungkin tahu aku sangat agresif di masa mudaku. Di antara generasi orang Xianzhou yang lebih tua, kamu mungkin pernah mendengar rekorku menerobos 6 lampu merah berturut-turut.<br /><br />Waktu itu aku baru beranjak dewasa, dan aku diseret ke depan jenderal ... Coba tebak akhirnya? Dia bahkan memintaku bergabung dengan Sky-Faring Commission, cuma karena teknik mengemudi Starskiff-ku yang luar biasa. Mungkin dia merasa aku dapat membuat banyak perubahan di Sky-Faring Commission.<br /><br />Saat itu, dia menyebutku \"gadis nakal\". Lalu kemudian, mereka memanggilku \"Ace\".",
+   "unlockRequirement": "Buka Level karakter <nobr>20</nobr>"
+  },
+  {
+   "title": "Kisah Karakter 2",
+   "text": "\"Orang tua yang jompo tidak ada gunanya, seperti pakaian compang-camping di atas tongkat.\"<br /><br />Bertahun-tahun yang lalu, aku mendengar puisi kuno dari luar. Sajak mereka berbeda dengan puisi Xianzhou, aku tidak bisa bilang kalau aku menyukainya, tetapi kalimat ini selalu melekat di hatiku.<br /><br />Aku telah melihat bagaimana orang asing menjadi tua. Kulit dan otot mereka menjadi kendur, otak mereka mengalami penurunan secara permanen, tulang mereka menjadi lemah dan bola mata mereka menjadi keruh ....<br /><br />Aku mengerti kenapa mereka iri pada kita. Aku dulu seperti mereka, berpikir bahwa kita tidak akan menua, kita akan tetap sama selamanya.<br /><br />Di kali kami mau bertempur, aku selalu berjanji kepada rekanku: \"Kamu cuma perlu fokus menggenggam senjatamu, aku akan membawamu kembali ke Xianzhou.\"<br /><br />Tapi aku telah ingkar janji. Setelah pertempuran itu, hanya aku yang kembali ke Sky-Faring Commission, dengan menyeret tubuhku yang terluka.<br /><br />Aku tidak bisa kembali. Saat itu aku mengerti.<br /><br />Sejak itu, aku membenamkan diriku dalam tugas resmi, dan tidak lagi bermimpi untuk kembali ke langit.<br /><br />Aku sudah tua.",
+   "unlockRequirement": "Buka Level karakter <nobr>40</nobr>"
+  },
+  {
+   "title": "Kisah Karakter 3",
+   "text": "\"Plot dalam cerita ini adalah kebalikan dari yang kalian, orang Xianzhou miliki.\"<br /><br />Cerita ini berasal dari luar Xianzhou. Menceritakan seorang pemuda yang membuat kesepakatan dengan para dewa, berdoa untuk meminta keabadian. Para dewa mengabulkan keinginannya. Dia tidak bisa mati, tetapi tubuhnya menua. Dia akan menjadi tua selamanya, menderita penuaan tanpa akhir. Semua ini karena keinginannya untuk mendapatkan tubuh yang tidak bisa menua.<br /><br />Di akhir cerita, pria tua yang menceritakan kisah itu sambil mengungkapkan emosi padaku. Mungkin, di mata pendatang asing, Xianzhou adalah kapal harta karun raksasa yang berkeliaran di lautan bintang. Di sini, orang hanya akan menikmati kebahagiaan keluarga dengan rentang hidup yang tak terbatas, dan tidak mengenal rasa sakit dari penuaan dan kematian. Hanya saja menurutku, kondisinya bukan seperti itu.<br /><br />Orang Xianzhou mengalami penuaan abadi. Benar, aku memiliki energi sebanyak yang aku miliki saat berusia <nobr>50</nobr> tahun. Aku bisa mengemudikan Starskiff melewati lembah yang lebarnya kurang dari dua kaki, aku bisa menari dengan orang selama berjam-jam, aku juga bisa bernyanyi. Kamu mungkin tidak percaya, tapi nyanyianku lebih baik dibandingkan banyak artis di Exalting Sanctum.<br /><br />Sayangnya, aku tidak akan melakukannya lagi. Aku tidak ingin melakukannya lagi. Hal itu tidak lagi memberiku kesenangan. Tidak ada lagi yang membuatku senang.<br /><br />Inilah cara kami menua. Ini adalah cara penuaan semua penduduk Xianzhou.",
+   "unlockRequirement": "Buka Level karakter <nobr>60</nobr>"
+  },
+  {
+   "title": "Kisah Karakter 4",
+   "text": "\"Layangan kertas adalah tugu peringatan bagi pilot yang gugur.<br />Jagalah dengan baik. Terbanglah sekali lagi untuk menggantikan pilot yang tidak bisa kembali ke langit.\"<br /><br />Saat aku memanjat keluar dari puing-puing Starskiff yang terbakar, yang aku lihat adalah langit yang tidak berubah dari planet tanpa darah dan tanpa air mata.<br /><br />Langit terindah yang pernah aku lihat, dan yang bisa aku rasakan hanyalah kesedihan. Aku hanya bisa merangkak di tanah seperti semut, memandangnya tanpa daya.<br /><br />Di mimpiku, aku meninggal pada hari itu.<br /><br />Aku banyak memikirkannya. Aku berpikir tentang masa lalu. Aku telah melihat matahari mati. Aku telah melihat pengaktifan planet. Aku telah melihat panah cahaya Reignbow Arbiter. Aku telah melihat terlalu banyak hal. Aku telah melihat terlalu banyak bintang. Aku telah melihat terlalu banyak nyawa yang hilang. Aku telah melihat terlalu banyak kehidupan yang lahir. Aku telah melihat terlalu banyak. Aku tua. Aku merasa sudah tua. Aku akan mati. Sayapku patah. Aku tidak bisa kembali. Aku merasa akan mati. Sayapku patah. Aku tidak bisa terbang. Aku seperti semut. Aku merasa tidak bisa terbang. Aku merasa sayapku patah. Aku ingin kembali. Aku ingin kembali ke langit. Aku ingin kembali. Aku ingin kembali ke langit. Aku ingin kembali.<br /><br />Aku terbangun dari mimpi.<br /><br />Aku ingin kembali. Aku ingin kembali. Aku ingin kembali.<br /><br />Aku harus kembali. Langit adalah aku. Aku rindu kembali ke bintang-bintang.<br /><br />Aku akan menyelesaikan penerbangan terakhir dalam hidupku.",
+   "unlockRequirement": "Buka Level karakter <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "钟可",
+  "cvJp": "冬馬由美",
+  "cvKr": "전숙경",
+  "cvEn": "Dawn M. Bennett",
+  "camp": "Xianzhou \"Luofu\""
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Yukong",
+ "rarity": 4,
+ "descHash": "Pemimpin Sky-Faring Commission dari Xianzhou \"Luofu\". Yukong adalah seorang pilot berpengalaman dan seorang penembak jitu. Sekarang dia terkubur di bawah tumpukan dokumen yang membosankan dan sulit untuk keluar.",
+ "artPath": "31f85f0841066a87a91372711e6de46d2d89663e8ce9657dc1805b2d8b49847e",
+ "miniIconPath": "bc37218b4d2b843a19384d1489213a4d843b92ef811074ab38de2cc0ffb2c84b",
+ "damageType": {
+  "id": 64,
+  "iconPath": "91b47b558df75f608b0a8aa93f35fd2063ed789ec25cbcc7bee926c60fba7ab1",
+  "color": "#F4D258",
+  "name": "Imaginary",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "fd3dc153082117a49b1d8eb7d166dd32d65d636463e15c604b583d5945a4ca69",
+  "altIconPath": "691e6c36e7f71344352e4ed80941938d7dc5722b23cef7a18f7fa8722d8c0523",
+  "color": "#FFFFFF",
+  "name": "Harmony",
+  "rarity": 0
+ },
+ "pageId": "yukong"
+}

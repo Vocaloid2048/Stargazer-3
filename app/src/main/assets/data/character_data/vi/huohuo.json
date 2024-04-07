@@ -1,0 +1,2915 @@
+{
+ "spRequirement": 140,
+ "iconPath": "83c240648aaaea3962c2617d6fa0b0d11c7666484cfd54d741f52a76b17f9502",
+ "bgPath": "d4b5845e5644a201b27b16fb99fab428d96dbac962ebfb5d7f51d8b4316e60bc",
+ "figPath": "9fba5ffc6f98a5945fc313a346149e3fbb30f4cee07aa62958f4bcb07fe9be6e",
+ "fgPath": "4b1cfbc5b305d164e938b9c2c815bbfcf0485111f11f2c1ddb0b1c4ec0f20b21",
+ "splashIconPath": "3141145ff01b64a112779ff4ce22ff319f8669842632a304f1887baa51b45661",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRrwCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCgBAAABkHPbtrG98td93ti2ndq2bduubddfl1RfynypbNt2Uqmz8dy9i/d9v4iYALIDJECguIEetaFUgNKUTHKUZJBf7KlF4wo169OoFQESyrywvZPMhLFDqDU8AwntbzhNlbau2I5uw+qMTAhwylGKvjn5QNeKlff1JKHC+AEXnVrR+wsLN3Tf1IFAqTDtmyVLvvJk5ZE1I0sC7T85tWXJb4vuPW4JtP+g1Mr2t4+OJ7s0L1lvwP0vlrNlR23v063W+MqrrluyLUvW8okwj/l//lmWcvzVXijd9d5fy5IlWanenOkEBYqSLSsq2s9310sosv6n//9F2dEnllSFwIDb350dv7/3o5JQguy2Mw++LnjnX316NaJEAAgA5ag/aVYdCOQNJSADkAlkA1ZQOCBuAQAAcAcAnQEqFAAUAD5tMpVHpCKiISgIAIANiWwAnTKDyj3W4Cm2ou1X0AP1A6y0iDP2Q1DkLZimVG2BY+WZr5OhR3tcctAA/nGx4wf3+3EXUdC7xEdwyBpvqH9lJEABt4IpVKrCPwY+Of57TuHigxQJb6/V5ePgn7aj/5p/9ZVOccsoryGnfy9TAOXheWvpAgfVK9j6DKzWT8wA9xp3CNpTUoa2uM7J2d1EetqCWvwzey4c2wE/QG/g6jOwyNx+KlNl8CrjV2cGnYOIDZNy9wiCqr9FVao7abcGxxbYr/Elzs33TAQy8SfqejxITqE3Np8NN9E+ExtJBsSkOrRHY7vEk/T/nSC988nL9i+uFdviL7138/+klzDVofAW/9iBJk0pxX0klunlfaod/20D1Tcwm0LWRlmPFuh7v8PxrsjKa7lKfMUnySAF/DVMTyYmdv1aTdD/k8Wv5lBB+cZAZf22IBOo+XMZ+cdgFQOEAAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 7,
+  "iconPath": "232bc80b207d7be892c4e0c41ea43b44080e51373e3c4f6f0f2f9e0eb4e03194",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Điểm Tín Dụng",
+   "desc": "Tiền mà Công ty Hành Tinh Hòa Bình (IPC) dùng để giao dịch với khách, nay đã trở thành đồng tiền chính khi đi lại trong vũ trụ.",
+   "lore": "\"Người ta bôn ba, tranh đấu, mua bán, cũng chỉ vì những con số xuất hiện trên thiết bị đầu cuối. Nhưng thứ quý giá thật sự, thì con số của công ty lại không thể mua được.\"",
+   "purpose": "Tiền Tệ Thường",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Khu Mỏ Khổng Lồ",
+    "Đài Hoa Nhân Tạo: Sở Công Nghiệp",
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Phần thưởng nhiệm vụ",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Dấu Chân Vận Mệnh",
+   "desc": "Nguyên liệu cấp cao dùng để tăng cấp Vết Tích",
+   "lore": "Những thất bại liên tiếp đã giúp bạn giành được chiến thắng, từng bước tiến về phía trước đã đưa bạn đến bước ngoặt của vận mệnh.",
+   "purpose": "Nguyên Liệu Vết Tích",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Thưởng Điểm Vũ Trụ Mô Phỏng",
+    "Vinh Dự Vô Danh",
+    "Đổi Tro Tàn",
+    "Đổi Ánh Sao",
+    "Phần Thưởng Sự Kiện Hạn Giờ"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "Oán Hận Vô Hạn",
+   "desc": "Nguyên liệu cấp cao dùng để tăng cấp Vết Tích.",
+   "lore": "Dù cho có đánh cắp bao nhiêu cơ thể, nó vẫn không thể được như ý nguyện. Cũng như những người đi cầu tiên dược vậy, nó khao khát một thân xác bất diệt, thứ sẽ giúp nó thoát khỏi nỗi sợ hủy diệt. Nhưng nó biết đây sẽ mãi là giấc mơ không thể thành hiện thực.<br /><br />\"Tôi đã từng nhìn thấy vô số thế giới bị ngọn lửa của vị thần tì vết nuốt chửng, tôi đã từng là một trong những đám lửa này. Tôi nhảy múa theo ngón tay của ngài, nhưng vẫn nhận biết sâu sắc rằng nếu nhiên liệu bị đốt sạch, thì ngọn lửa cũng sẽ lụi tàn...\"",
+   "purpose": "Nguyên Liệu Vết Tích",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "Dư Âm Chiến Đấu \"Lân Uyên Cảnh\""
+   ]
+  },
+  "267806": {
+   "id": 267806,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "b58782779268cffe0f8c8873690ce14c5a236ad8d2986a9d8171dc8ac6d49cdb",
+   "name": "Tro Tàn Thiên Nhân",
+   "desc": "Tro tàn của Thừa Lộ Thiên Nhân còn sót lại, nguyên liệu tăng bậc nhân vật thuộc tính Phong.",
+   "lore": "Thừa Lộ Thiên Nhân vốn nghĩ sẽ mang ân huệ cho thế nhân, nhưng khi sự ban ơn của \"Trù Phú\" mất dần, mới ngộ ra vào đúng thời khắc được giải thoát: Xưa nay bản thân cũng chỉ là người trần mắt thịt, đi mây về gió chẳng qua chỉ là giấc mộng ảo ảnh mà thôi, và tất cả những gì họ để lại nơi trần thế này chỉ là cát bụi.<br /><br />\"Tư Mệnh Đế Cung, ta nguyền rủa ngài...\"",
+   "purpose": "Nguyên Liệu Nâng Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/267806",
+   "comeFrom": [
+    "Hư Ảnh Ngưng Đọng - Sở Đan Đỉnh",
+    "Hư Ảnh Ngưng Đọng \"Sở Đan Đỉnh\"",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Hướng Dẫn Dạo Chơi",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>20000</nobr> điểm EXP nhân vật.",
+   "lore": "Tập sách thám hiểm cần thiết cho việc đi qua các thế giới. Nhấn nút đọc và giọng nói từ tính sẽ nói bằng ngôn ngữ bạn có thể hiểu được, để giảng cho bạn nghe những trải nghiệm huyền thoại của các nhà thám hiểm nổi tiếng ở các thế giới khác nhau, cũng như trí tuệ quý giá mà họ có được trên các hành tinh khác nhau.<br /><br />\"Bộ sách mới \"Hướng Dẫn Ẩm Thực Hành Tinh\" của Hướng Dẫn Dạo Chơi sắp được bán, mong mọi người ủng hộ.\"<br />\"Nộp bản thảo vui lòng kết nối với nhân viên <nobr>230</nobr> Máy Phát Liên Kết Trực Giác Hội Trí Thức, thù lao sẽ được trả bằng bất kỳ hình thức nào mà bạn có thể chấp nhận.\"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Sảnh Đường Lãng Quên"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Nhật Ký Thám Hiểm",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>5000</nobr> điểm EXP nhân vật.",
+   "lore": "Một ghi chú thám hiểm mang tính giáo dục, được đóng gọn gàng. Những câu chuyện minh họa từ đầu đến cuối về hành động thám hiểm, có thông tin giá trị và mẹo sinh tồn.<br /><br />\"Tại sao không kỹ thuật hóa đưa nó vào thẻ quang? Tiện mang theo hơn nhiều.\"<br />\"Đối mặt trước cơn bão hằng tinh và sự phun trào neutron, công nghệ cao mong manh hơn bạn tưởng. Huống chi người làm ra quyển sách này chắc hẳn đã hy vọng mọi người sẽ đọc nó với cách đơn giản nhất. \"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Huấn Luyện Mỗi Ngày",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Kiến Thức Du Hành",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>1000</nobr> điểm EXP nhân vật.",
+   "lore": "Nhật ký ghi lại mọi thứ trên đường đi, chữ viết đã bị mờ, nội dung thích gì viết đó, không giúp ích gì nhiều cho bạn.<br /><br />\"Xem xong rồi thì dọn dẹp đống giấy lộn này đi, Dan Heng?\"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Thưởng Ủy Thác"
+   ]
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "71d58f084522c87e93327e3e7fc1db8fb4abb65e9989b163d4a348c9a3761329",
+   "name": "Mầm Non Trường Thọ",
+   "desc": "Mầm non sinh sôi của thần vật cổ đại, nguyên liệu đơn giản dùng trong cường hóa.",
+   "lore": "Ngọn nguồn của Tộc Trường Sinh \"Tuổi Thọ Vô Tận\" ở Xianzhou, tàn dư của thần tích \"Trù Phú\". Vô số năm trước đây, ý nghĩ ngông cuồng của một vị hoàng đế về việc trường sinh đã thôi thúc hạm đội Xianzhou vượt qua biết bao vùng biển ngoài không gian để đi tìm phương thuốc tiên kỳ diệu.<br /><br />\"Ta muốn trường tồn mãi mãi, đế chế vĩnh hằng. Đáng tiếc, thời đại hữu hạn, đời người ngắn ngủi. Vì vậy, ta đã gửi chín chiếc thuyền vượt qua biển không gian xa xôi, mong tìm được thuốc tiên bất tử.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "Tà Vật Trù Phú",
+    "Rớt từ kẻ địch trong \"Vũ Trụ Mô Phỏng\"",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu",
+    "Đài Hoa Nhân Tạo (Vàng)"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fc1f8e93b552510a719e96df3c4e48ace4f905d262668303315d785b951a7c04",
+   "name": "Đóa Hoa Trường Thọ",
+   "desc": "Đóa hoa được kết thành từ thần vật cổ xưa, nguyên liệu thông thường dùng trong cường hóa.",
+   "lore": "Ngọn nguồn của Tộc Trường Sinh \"Tuổi Thọ Vô Tận\" ở Xianzhou, tàn dư của thần tích \"Trù Phú\". Vượt qua bao chông gai, con thuyền tìm thuốc đã gặp được đấng toàn năng. Ánh sáng của thần linh soi rọi, Cây Kiến Tạo sinh sôi.<br /><br />\"Nhụy hoa tắm ánh trăng, nở sáng bừng thơm ngát. Hương quế lãng đãng bay, tóc bạc hóa đầu xanh.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "Tà Vật Trù Phú khi đạt Cân Bằng cấp 2",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Rớt từ kẻ địch trong \"Vũ Trụ Mô Phỏng\"",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8e1b0a1a8ab4a806daac48e2e5de6c69a9a1aad87f950c5a4c92c9513dd9d6b9",
+   "name": "Hạt Giống Trù Phú",
+   "desc": "Hạt giống phước lành được Thần Trù Phú gieo xuống, có thể tăng nhẹ Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Trù Phú</span>.",
+   "lore": "Những ai tiếp xúc với nó, vết thương hay bệnh tật sẽ dần dần được chữa lành.<br />Những ai cầu xin phước lành cho cuộc sống trong lúc tuyệt vọng, sẽ nhận được lòng thương xót.<br /><br />\"Chỉ cần cầu nguyện, ắt sẽ đạt được.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "717386": {
+   "id": 717386,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5708b196a8af89740ced588d98dc414c791d209879957fb0bc8644cc2dc84adb",
+   "name": "Cành Cây Trường Thọ",
+   "desc": "Cành cây khô héo của thần vật cổ xưa, nguyên liệu cao cấp dùng trong cường hóa.",
+   "lore": "Ngọn nguồn của Tộc Trường Sinh \"Tuổi Thọ Vô Tận\" ở Xianzhou, tàn dư của thần tích \"Trù Phú\". Sau ba đại nạn, sinh linh Xianzhou đồ thán. Người trời đọa ma, khổ không kể xiết.<br /><br />\"Theo sắc lệnh của Sở Thập Vương, hễ kẻ nào nhập ma, sẽ bị phán quan bắt giữ, giam vào ngục tối u ám.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/717386",
+   "comeFrom": [
+    "Tà Vật Trù Phú khi đạt Cân Bằng cấp 4",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Rớt từ kẻ địch trong \"Vũ Trụ Mô Phỏng\"",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e08699257c4a96a135b4467fd8eba3917d5734b2c943ac631d2a39ae3c4ccb37",
+   "name": "Hoa Vĩnh Cửu",
+   "desc": "Đóa hoa tuyệt đẹp nở ra từ mầm non sinh mệnh, có thể tăng cao Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Trù Phú</span>.",
+   "lore": "Sức mạnh dồi dào được cô đọng trong nhụy hoa, nó sẽ không bao giờ khô héo. Dù được đặt trong lửa, sương giá hay mọi hoàn cảnh ác liệt, cũng không thể kiềm chế sự phát triển của nó.<br />Qua một thời gian, cành lá của nó sẽ nuôi dưỡng ánh sao; rễ của nó sẽ trở thành chất dinh dưỡng cho chúng sinh, hợp thành một thể, trở thành bất tử; trái của nó có thể thực hiện lời hứa về sự sống vĩnh cửu.<br /><br />\"Có những con thuyền khổng lồ, sức mạnh hơn cả núi, lơ lửng trên bầu trời. Trên đó có những cây trường sinh, chỉ cần ăn nó sẽ được sống thọ.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "365bf3a80928eea605cbefd72636c62eb0c1887b4652520c3e9c3f99a55f0cb9",
+   "name": "Mầm Sống",
+   "desc": "Mầm non nhú lên từ hạt giống Trù Phú, có thể tăng tương đối Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Trù Phú</span>.",
+   "lore": "Tỏa ra từng luồng hơi ấm, tất cả những nơi mà bộ rễ này cắm xuống đều xanh tươi um tùm. Đất hoang trở nên màu mỡ, thảm thực vật héo khô một lần nữa mọc lên đóa hoa trường sinh, dòng suối trong vắt từ trong đất tuôn chảy róc rách.<br />Đến gần nó, cơ bắp của bạn như có sự sống riêng của chúng, bắt đầu rục rịch sinh trưởng, tê rần kỳ lạ.<br /><br />\"Phàm là nơi tâm hồn sinh trưởng, cuộc sống sẽ không ngừng sinh sôi.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 81.84,
+   "attackAdd": 4.092,
+   "hpBase": 184.8,
+   "hpAdd": 9.24,
+   "defenseBase": 69.3,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549504,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 114.576,
+   "attackAdd": 4.092,
+   "hpBase": 258.72,
+   "hpAdd": 9.24,
+   "defenseBase": 97.02,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549504,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 147.312,
+   "attackAdd": 4.092,
+   "hpBase": 332.64,
+   "hpAdd": 9.24,
+   "defenseBase": 124.74,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633445,
+     "count": 6
+    },
+    {
+     "id": 267806,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 180.048,
+   "attackAdd": 4.092,
+   "hpBase": 406.56,
+   "hpAdd": 9.24,
+   "defenseBase": 152.46,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633445,
+     "count": 9
+    },
+    {
+     "id": 267806,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 212.784,
+   "attackAdd": 4.092,
+   "hpBase": 480.48,
+   "hpAdd": 9.24,
+   "defenseBase": 180.18,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717386,
+     "count": 6
+    },
+    {
+     "id": 267806,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 245.52,
+   "attackAdd": 4.092,
+   "hpBase": 554.4,
+   "hpAdd": 9.24,
+   "defenseBase": 207.9,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717386,
+     "count": 9
+    },
+    {
+     "id": 267806,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 278.256,
+   "attackAdd": 4.092,
+   "hpBase": 628.32,
+   "hpAdd": 9.24,
+   "defenseBase": 235.62,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "406f06f0d9c71f8d4ac1353b1be374c71155653413ca990fcac4682064900538",
+   "artPath": "00f304d39f355367706448db9d536eb7d05b415d6ab9ad5eca3f537ef848a56b",
+   "name": "Tuế Dương Nhập Thể, Yêu Tà Xâm Chiếm",
+   "descHash": "Thời gian duy trì Cầu Mệnh tạo ra từ Thiên Phú kéo dài <nobr>#2[i]</nobr> hiệp, hơn nữa khi Huohuo sở hữu Cầu Mệnh, toàn bộ phe ta tăng <nobr>#1[i]%</nobr> tốc độ.",
+   "params": [
+    0.12,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "eb9685eff856541e2074769fd2f5302e0f7116ceb4f5698c28dbd32edc1b563b",
+   "artPath": "c9155db948dbb10d3fd7cef63a7ecf270aaeb9dd839c6207585535762aecafa5",
+   "name": "Bùa Phong Ấn Đuôi, Trấn Giữ Linh Hồn",
+   "descHash": "Khi Huohuo sở hữu Cầu Mệnh, nếu mục tiêu phe ta bị tấn công chí tử, sẽ không rơi vào trạng thái không thể chiến đấu, và lập tức hồi HP bằng <nobr>#1[i]%</nobr> Giới Hạn HP của mục tiêu đó, giảm 1 hiệp duy trì Cầu Mệnh. Hiệu ứng này có thể kích hoạt <nobr>#2[i]</nobr> lần trong 1 trận.",
+   "params": [
+    0.5,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "eca8323513d153a185a78df90f8861357d01ba27860838c795eace4310311ad7",
+   "artPath": "6d512107365788b72c2fead4f9fc61bc1a957a2d8310266777db4969e5821327",
+   "name": "Mệnh Trấn Hung, Hiểm Họa Ập Đến",
+   "descHash": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp <nobr>15</nobr>; Cấp Thiên Phú +2, tối đa không quá cấp <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "404b4a0cd44f2489b47d1fbfd9c238e8f5f884ca0dba54cd2962440a6f9175cc",
+   "artPath": "a389c4103a1594a9d58b88f68f2ea3caf54a0d6525d4296dbee27f3aa105748b",
+   "name": "Một Bước Không Rời, Tranh Chấp Khó Tránh",
+   "descHash": "Khi thi triển Chiến Kỹ hoặc kích hoạt Thiên Phú trị liệu cho mục tiêu phe ta, HP hiện tại của mục tiêu càng thấp thì lượng trị liệu càng cao, tối đa tăng <nobr>#1[i]%</nobr> Lượng Trị Liệu mà Huohuo cung cấp.",
+   "params": [
+    0.8
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "4d3989d7d0a14e3714acdaad652709b37ec513381d423850f816c331e742ded2",
+   "artPath": "f780a89f0a91b50c8a510e629e24babb14951ae1c7291b89ad67c1046ed5d845",
+   "name": "Hàng Yêu Trừ Ma, Thập Vương Sắc Lệnh",
+   "descHash": "Cấp Chiến Kỹ +2, tối đa không quá cấp <nobr>15</nobr>; Cấp Tấn Công Thường +1, tối đa không quá cấp <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "f7d1d017cf983cd12850fc07c2141b3fbd48150c238cfc6747639ad8a0d2e280",
+   "artPath": "5150e2b82127a1708c0979e4da078d71aaa55d18f0f80a77f83e246a6c5fb076",
+   "name": "Gắn Bó Keo Sơn, Đồng Hành Phối Hợp",
+   "descHash": "Khi cung cấp trị liệu cho mục tiêu phe ta, khiến Sát Thương do mục tiêu gây ra tăng <nobr>#1[i]%</nobr>, duy trì <nobr>#2[i]</nobr> hiệp.",
+   "params": [
+    0.5,
+    2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   256586
+  ],
+  [
+   340527
+  ],
+  [
+   457172
+  ],
+  [
+   541113
+  ],
+  [
+   825640
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Đánh Đơn",
+   "descHash": "Gây cho 1 kẻ địch chỉ định Sát Thương <span style=\"color:#00FF9C;\">Phong</span> bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> Giới Hạn HP của Huohuo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 256586,
+   "name": "Cờ Lệnh - Hô Mưa Gọi Gió",
+   "iconPath": "b830903561370c584a831716624f4b217d096ef120b7e544774f8fcbd32692fc",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Hồi Phục",
+   "descHash": "Giải trừ <nobr>#5[i]</nobr> <u>Hiệu Ứng Xấu</u> cho 1 đồng đội chỉ định, lập tức hồi phục cho 1 đồng đội chỉ định một lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> Giới Hạn HP của Huohuo +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>, đồng thời hồi phục cho mục tiêu ở gần một lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> Giới Hạn HP của Huohuo +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 340527,
+   "name": "Linh Phù - Hộ Thân",
+   "iconPath": "4d3989d7d0a14e3714acdaad652709b37ec513381d423850f816c331e742ded2",
+   "typeDescHash": "Chiến Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.14,
+      140,
+      0.112,
+      112,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.14875,
+      224,
+      0.119,
+      179.2,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1575,
+      287,
+      0.126,
+      229.6,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16625,
+      350,
+      0.133,
+      280,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      392,
+      0.14,
+      313.6,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.182,
+      434,
+      0.1456,
+      347.2,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.189,
+      465.5,
+      0.1512,
+      372.4,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.196,
+      497,
+      0.1568,
+      397.6,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.203,
+      528.5,
+      0.1624,
+      422.8,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      560,
+      0.168,
+      448,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.217,
+      591.5,
+      0.1736,
+      473.2,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.224,
+      623,
+      0.1792,
+      498.4,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.231,
+      654.5,
+      0.1848,
+      523.6,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.238,
+      686,
+      0.1904,
+      548.8,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.245,
+      717.5,
+      0.196,
+      574,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Hỗ Trợ",
+   "descHash": "Hồi phục Năng Lượng cho đồng đội ngoài bản thân bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> Giới Hạn Năng Lượng của mỗi người, đồng thời tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> Tấn Công cho người này, duy trì <nobr>#3[i]</nobr> hiệp.",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 457172,
+   "name": "Lão Đuôi - Chế Ngự Tâm Linh",
+   "iconPath": "1599a70a59433a555916ab49af3a7356e53202aecf74ff65f82be3f85dfa1657",
+   "typeDescHash": "Tuyệt Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0.24,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.155,
+      0.256,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16,
+      0.272,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.165,
+      0.288,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.17,
+      0.304,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      0.32,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18125,
+      0.34,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875,
+      0.36,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.19375,
+      0.38,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0.4,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.205,
+      0.416,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.21,
+      0.432,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.215,
+      0.448,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22,
+      0.464,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.225,
+      0.48,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Hồi Phục",
+   "descHash": "Sau khi thi triển Chiến Kỹ, Huohuo nhận Cầu Mệnh, duy trì <nobr>#1[i]</nobr> hiệp, mỗi khi Huohuo bắt đầu hiệp, số hiệp duy trì giảm 1. Khi Huohuo có Cầu Mệnh, và mục tiêu phe ta bắt đầu hiệp hoặc dùng Tuyệt Kỹ, sẽ hồi HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> Giới Hạn HP của Huohuo +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]</nobr></span> cho bản thân, đồng thời sinh ra 1 lần hiệu ứng hồi phục cho mỗi một mục tiêu phe ta có phần trăm HP hiện tại từ <nobr>#6[i]%</nobr> trở xuống.<br />Khi kích hoạt Cầu Mệnh trị liệu cho mục tiêu phe ta, sẽ giải trừ <nobr>#2[i]</nobr> <u>Hiệu Ứng Xấu</u> của mục tiêu này, hiệu ứng này có thể kích hoạt <nobr>#7[i]</nobr> lần, sau khi thi triển Chiến Kỹ lần nữa sẽ làm mới số lần kích hoạt hiệu ứng.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 541113,
+   "name": "Nhập Thể - Kết Nối Siêu Hình",
+   "iconPath": "837a941cb26a8192393d0c1cd6f1be4f2cfc59a4ac98082f843820929d838bc4",
+   "typeDescHash": "Thiên Phú",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      1,
+      0.03,
+      0,
+      30,
+      0.5,
+      6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.031875,
+      0,
+      48,
+      0.5,
+      6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.03375,
+      0,
+      61.5,
+      0.5,
+      6
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.035625,
+      0,
+      75,
+      0.5,
+      6
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0375,
+      0,
+      84,
+      0.5,
+      6
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.039,
+      0,
+      93,
+      0.5,
+      6
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0405,
+      0,
+      99.75,
+      0.5,
+      6
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.042,
+      0,
+      106.5,
+      0.5,
+      6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0435,
+      0,
+      113.25,
+      0.5,
+      6
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.044999998,
+      0,
+      120,
+      0.5,
+      6
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0465,
+      0,
+      126.75,
+      0.5,
+      6
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.048,
+      0,
+      133.5,
+      0.5,
+      6
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0495,
+      0,
+      140.25,
+      0.5,
+      6
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.051,
+      0,
+      147,
+      0.5,
+      6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.052500002,
+      0,
+      153.75,
+      0.5,
+      6
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm sức bền thuộc tính tương ứng của kẻ địch.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 741699,
+   "name": "Tấn Công",
+   "iconPath": "b830903561370c584a831716624f4b217d096ef120b7e544774f8fcbd32692fc",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Quấy Nhiễu",
+   "descHash": "Huohuo hù dọa kẻ địch xung quanh, khiến kẻ địch rơi vào trạng thái \"Phách Tán\". Kẻ địch ở trạng thái \"Phách Tán\" sẽ trốn chạy thật xa khỏi Huohuo, duy trì <nobr>#4[i]</nobr> giây. Sau khi vào chiến đấu với kẻ địch ở trạng thái \"Phách Tán\", có <nobr>#1[i]%</nobr> <u>xác suất cơ bản</u> giảm <nobr>#2[i]%</nobr> Tấn Công của mỗi một kẻ địch, duy trì <nobr>#3[i]</nobr> hiệp.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 825640,
+   "name": "Hung Sát - Trấn Áp Yêu Tà",
+   "iconPath": "0dd53f493ba96a4516b9f6427fa20f2d5b8ecdc54ed024ac522c8436fc435b8c",
+   "typeDescHash": "Bí Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.25,
+      2,
+      10
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1217101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1217203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1217204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 696403,
+          "name": "Cường Hóa Tốc Độ",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+          "statusList": [
+           {
+            "key": "Tốc Độ",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920198,
+            "count": 3
+           },
+           {
+            "id": 633445,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 696404,
+        "name": "Cường Hóa HP",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920198,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 696405,
+      "name": "Cường Hóa Kháng Hiệu Ứng",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "Kháng Hiệu Ứng",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Khi bắt đầu chiến đấu, Huohuo nhận Cầu Mệnh, duy trì <nobr>#1[i]</nobr> hiệp.",
+    "ultimateCost": 0,
+    "id": 696245,
+    "name": "Không Dám Chuyên Quyền",
+    "iconPath": "71af687fcc277c229680777e81161a74ae2176ede361054a1fecf139de9e4ed3",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1217206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1217207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 696400,
+          "name": "Cường Hóa HP",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+          "statusList": [
+           {
+            "key": "HP",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836257,
+            "count": 3
+           },
+           {
+            "id": 717386,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 696401,
+        "name": "Cường Hóa Kháng Hiệu Ứng",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+        "statusList": [
+         {
+          "key": "Kháng Hiệu Ứng",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836257,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 696402,
+      "name": "Cường Hóa HP",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Tăng <nobr>#1[i]%</nobr> xác suất Kháng Hiệu Ứng Xấu dạng Khống Chế.",
+    "ultimateCost": 0,
+    "id": 696246,
+    "name": "Mệnh Trấn Hung",
+    "iconPath": "a16acbb2f10d63a6047d5492a6bc191620bee71911aef628bca6db9a7f291f51",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.35
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 696415,
+      "name": "Cường Hóa Tốc Độ",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+      "statusList": [
+       {
+        "key": "Tốc Độ",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1217209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 696414,
+      "name": "Cường Hóa Kháng Hiệu Ứng",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "Kháng Hiệu Ứng",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Khi kích hoạt Thiên Phú trị liệu cho mục tiêu phe ta, Huohuo sẽ hồi phục <nobr>#1[i]</nobr> điểm Năng Lượng.",
+    "ultimateCost": 0,
+    "id": 696247,
+    "name": "Nỗi Sợ Kinh Hoàng",
+    "iconPath": "ec2c81d38a9faed55dda5409807e442d1bb15db87a41d1e3df6dd8e2979fba41",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 696406,
+    "name": "Cường Hóa HP",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549504,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 780348,
+    "name": "Cường Hóa HP",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836257,
+      "count": 8
+     },
+     {
+      "id": 717386,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Thân",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "Tăng Lượng Trị Liệu",
+    "propertyIconPath": "57726150eaa27c675743fe08b88bd04575a0e76b5014dcfbc073c105aa1c7e44"
+   },
+   {
+    "relicTypeHash": "Chân",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "Tốc Độ",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Quả Cầu Vị Diện",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "HP",
+    "propertyIconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf"
+   },
+   {
+    "relicTypeHash": "Dây Liên Kết",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "Hiệu Suất Hồi Năng Lượng",
+    "propertyIconPath": "75627c696d3e9763c0b4feeb4a8e2baf594ac73214c6227b3a125c032be090c8"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Lần Đầu Gặp Mặt",
+   "text": "Huohuo: Xin, xin chào... Tôi tên Huohuo, là Phán Quan Sở Thập Vương mới nhậm chức, à ừm, phải nói gì nữa nhỉ...<br />Lão Đuôi: Ê nha đầu, còn ta thì sao? Bổn đại gia là Tuế Dương đại danh đỉnh đỉnh...<br />Huohuo: Lão Đuôi! Đây là Lão Đuôi!",
+   "unlockRequirement": "",
+   "cnUrl": "662adfde6b3165d3846133f13cd16f61aa4205f4536a20a059381cecf17858b1",
+   "jpUrl": "98508694a603aa09059dd739bec953d3f27839b57eea91d9f55fab8b9d05cfa8",
+   "enUrl": "bc5ae3568bfd9912e3bc25842c3f029bdef8ea33a3070c2624103eb2ed010e24",
+   "krUrl": "b6dbdb0a96032a7c709ce98b544e65361626c4169dd9b5d4b549a38fb312f55a"
+  },
+  {
+   "id": 2,
+   "title": "Thăm Hỏi",
+   "text": "Huohuo: Xin, xin chào... À ừm, không có chuyện gì thì tôi đi trước nhé, tạm, tạm biệt...<br />Lão Đuôi: Bảo ngươi đến chào hỏi, không phải đến từ biệt!",
+   "unlockRequirement": "",
+   "cnUrl": "29f4faf9eb0520e3916f0bb63e8bffcce96309605fcaf44f7a4812e47ca02c03",
+   "jpUrl": "2f236453c3310ea3f98be515cfac79cfc9646426a879ae3bf13444b078ffa3d3",
+   "enUrl": "759d311dfa5f198213c13ea7f5bdb72b551b45f996c70a49d6482de3ecd0eb57",
+   "krUrl": "c3d9f63558e36b2160517aa8bb90c72dc273b6acd5e34fe7c8020948c52970e3"
+  },
+  {
+   "id": 3,
+   "title": "Tạm Biệt",
+   "text": "Cuối... cuối cùng có thể về nhà rồi, nếu không có ai chú ý đến mình thì tốt rồi.",
+   "unlockRequirement": "",
+   "cnUrl": "1724b5334fb1e8b73fd4743fa795ddd7731070428e2dd8a4424e01a237a3f9f4",
+   "jpUrl": "74d597b5730b6f55e15cd058332d2757ddf5548f419c1d9477294650d0195937",
+   "enUrl": "f5ea72b8734d5e43d02f1a02afb2dadcf5db6b57db8231447d8a5cd999945e8c",
+   "krUrl": "09d93c8e7911e5a8bb91e360244fcb2502e3a4e4dcf3ab6ab01f58f8168cb162"
+  },
+  {
+   "id": 4,
+   "title": "Về Bản Thân - Công Việc",
+   "text": "Tôi, tôi từng từ chối rồi mà... Bắt người sợ Tuế Dương dùng Tuế Dương đi thu phục Tuế Dương, nghĩ kiểu gì cũng thấy không ổn... Nhưng họ nói đây gọi là lấy độc trị độc... Huhu.",
+   "unlockRequirement": "",
+   "cnUrl": "53db9e74fdd3d105aed69584bacb38a701e3dc72c2be7d2d752940f9af3b91f4",
+   "jpUrl": "6653fccb599e10c3cb751a6e6197d06775468d13ff19d98cd8e8daa2f65392a4",
+   "enUrl": "aef21ca628b0fff348126206b5d07d6590dd43d752d02501c8cbfc037ccbabc8",
+   "krUrl": "927d79dc0b59f14645c5b601e4155da21a1a1307fd200c4e414ef8676d09b7e5"
+  },
+  {
+   "id": 5,
+   "title": "Về Bản Thân - Lão Đuôi",
+   "text": "Huohuo: Đuôi của tôi đã bị Tuế Dương \"ăn mất\" rồi, tôi suýt chút cũng bị ăn mất, may mà Phán Quan của Sở Thập Vương đã phong ấn lão...<br />Lão Đuôi: Ai biểu đuôi của Người Hồ Ly ngon như vậy... Giờ thì hay rồi, ta biến thành cái đuôi, gặp phải yêu ma quỷ quái gì cũng muốn thịt ta trước!",
+   "unlockRequirement": "",
+   "cnUrl": "00f9f14d8a701453cd260809a5ee9b236eeac23a4572ef0130281e659d84ab12",
+   "jpUrl": "35da2b90d8eaba858483ca3acf4f80fed61b23211b9c81263048791220a93c8f",
+   "enUrl": "9ab04a7fb931c0d699c943ec25b669a10353164fe282bc00bf8d21010f6538db",
+   "krUrl": "1733458253fae0edb3b3b743d95f09598e0b447b675e1944a28f9c49a32b34a4"
+  },
+  {
+   "id": 6,
+   "title": "Tán Gẫu - Cờ Lệnh",
+   "text": "Dùng cờ lệnh này, không những có thể điều binh khiển tướng hơn người, mà đầu hàng cũng nhanh hơn người...",
+   "unlockRequirement": "",
+   "cnUrl": "958430c3159708e6b7ab8595f90ba76f94d589cc2da3090397c4af2d5010c314",
+   "jpUrl": "ecca8d93b8d8573ebab6d91471de69ff7a13511551ea8ba5c3a90147171ac030",
+   "enUrl": "024bd47a8a90e88bec836b1bbb8c7c13ba6e7762522a5b71be0bc46ff7cca022",
+   "krUrl": "11693c1b8770e25c1a8536a792c1a74c0fdecfa991a704a9f35317bdf178766b"
+  },
+  {
+   "id": 7,
+   "title": "Tán Gẫu - Người Giấy",
+   "text": "Huohuo: Hễ rảnh rỗi là tôi cặm cụi gấp người giấy, chỉ cần nghĩ đến có nhiều \"bạn bè\" bên cạnh như vậy, là tôi không sợ nữa...<br />Lão Đuôi: Lão đây ghét nhất là người giấy! Nửa đêm nửa hôm mở mắt ra thấy người giấy ngay trước mặt mình, lại còn đang cười, không thấy đáng sợ sao?!",
+   "unlockRequirement": "",
+   "cnUrl": "06da19d1b5275b6a4847ae6e0f0a0d7274d61de771685220f78ce4d7d3988758",
+   "jpUrl": "afd2ffe2268dc23f8e0998874506d7add38bc444608ccf7aa23877d45b5ba55b",
+   "enUrl": "d004659b9eb354d0079c4531ed439ac69c3dbcc7116958e348c4d32f2e44c169",
+   "krUrl": "c36b10eada9d85ad82a408d923493448194d9e8c97ef1726b4ac44209f0e9698"
+  },
+  {
+   "id": 8,
+   "title": "Sở Thích",
+   "text": "Thức khuya xem phim hài kinh dị sẽ giúp rèn luyện tính gan dạ, chỗ nào kinh dị quá thì cứ cười cười là sẽ không kinh dị nữa, \"Ha ha ha ha!\" giống vậy đó.",
+   "unlockRequirement": "",
+   "cnUrl": "d4eeb14566b61436a7b45f21b7838077ad657371977f49122b0837713718f563",
+   "jpUrl": "7f2a19c76e084fee358c86cf0f7cbbdf92bd1d42f895d31f27363e84476e5b76",
+   "enUrl": "fe323905471b6a4c00cd11434bb8386d92d7908e45586cb1ff11fd93e72b92fe",
+   "krUrl": "a80c25f495be58b66c0dcca8285d960e8c0f0b332edaf5aa578da16c58024b33"
+  },
+  {
+   "id": 9,
+   "title": "Phiền Não",
+   "text": "Huohuo: Chủ tiệm \"Giám Hào Hiên\" nói tôi có \"Mệnh Trấn Hung\", ác vận đeo bám, chuyện này, muốn trách thì phải trách...<br />Lão Đuôi: Trách ta nè. Nhưng ngươi đi đường bị vấp thì không trách được ta.",
+   "unlockRequirement": "",
+   "cnUrl": "ac9c8351c5abe4f42742164314a4502f98a4b385efd54762d778f642cf3d6051",
+   "jpUrl": "61781fac5c282ae9d67cce0d3314a1969422d1e0a8539d03cfe0336b45a6370e",
+   "enUrl": "00d6e16125cc7d1e7c5ba31a5a65e4b53866d59cc515f5fef7950584629f10d8",
+   "krUrl": "80329ec8f56f8169ef90b1dbc516aa794668b01af0b2ef04e478c833a4b877e3"
+  },
+  {
+   "id": 10,
+   "title": "Chia Sẻ",
+   "text": "Tìm một nơi ở Biển Thuyền Sao rồi ngồi xuống, nhìn từng chiếc Thuyền Sao đi qua, rồi từng chiếc từng chiếc quay về, đây là cách tôi giải tỏa mệt mỏi... Tuy rằng các Phán Quan của Sở Thập Vương nói rằng dùng để trị chứng mất ngủ sẽ hiệu quả hơn... Tóm lại là... hãy thử xem!",
+   "unlockRequirement": "",
+   "cnUrl": "aef95771be0476bd668948af7d7c67155268d7b203aa738f1b4dd0849b450b89",
+   "jpUrl": "057acf7df5ab2a2fb989da8281f7ebd07645d30ff028849bcbf8e58571cefaed",
+   "enUrl": "7578a32dcffd8cd1d2568236ae2aa39f7478b4fac3bc2f01de229df9ca61a8e5",
+   "krUrl": "8dc4a421822f8562706874fe70d153fb1d29dc80285fd03ed2f2067a5fa0804d"
+  },
+  {
+   "id": 11,
+   "title": "Hiểu Biết",
+   "text": "Nghe nói trong Lò Nung Tạo Hóa của Sở Công Nghiệp có nhốt rất nhiều Tuế Dương, sau đó lò nung bị hư, Tuế Dương đã thừa cơ thoát ra ngoài... Rồi sau đó nữa, công việc của tôi đã tăng lên nhiều...",
+   "unlockRequirement": "",
+   "cnUrl": "7f418d78aab58415b6a33df490d48683e76d486a7423459cb8f59c687d507792",
+   "jpUrl": "6a9dee08b1a6eaa1b349b86f36d181d21caad30b9a13d6080c707f55fe7bb97e",
+   "enUrl": "4e218e6cfa970c23ba1f61a28eb726d4df90a98c4bedef5a43c7e343c3a901b7",
+   "krUrl": "97debe46a77b3888a802934def28d96f4a092edc1c4a625d87a6e751a1523818"
+  },
+  {
+   "id": 12,
+   "title": "Về Guinaifen",
+   "text": "Đang nói Gui Bé Nhỏ sao? Cô ấy dương khí hưng thịnh, có thể xua tan vận rủi, ở cùng cô ấy đến cả Lão Đuôi cũng yên phận luôn. Chỉ là khi nói chuyện với cô ấy tôi cũng bất giác nâng cao âm lượng, có hơi hao tổn tinh thần...",
+   "unlockRequirement": "",
+   "cnUrl": "6e577b77dd2327fd7cfaf9002a405c3ad4bd66f694eda3dd6ac41d66267b9449",
+   "jpUrl": "e175a33a71be79066f4c88c5e1871d2686d6283ad00c02fc0034169696d8dda3",
+   "enUrl": "bb50752dc3c885e134991ef02feb7863803d25e1d30d7fc6785cf1378270ad85",
+   "krUrl": "d92230f38d42e0cddbc4d4c050ec296c14916ccb5a464e57137317f6a1bbac4e"
+  },
+  {
+   "id": 13,
+   "title": "Về Xueyi",
+   "text": "Huohuo: Ban đầu tôi cảm thấy \"Phán Quan Con Rối\" rất đáng sợ... Nhưng cho dù Lão Đuôi có giận dữ nhảy nhót thế nào đi nữa, thì Xueyi đại nhân vẫn giữ nguyên thần thái, sắc mặt không chút thay đổi, một tiền bối Phán Quan như thế quả thật... thật lợi hại đó...<br />Lão Đuôi: Đúng đúng đúng, ngươi lợi hại, ngươi giỏi lắm! Hãy xem ngày nào đó lão tử đốt trụi cả Sở Thập Vương!",
+   "unlockRequirement": "",
+   "cnUrl": "84aef3029eecc7bdd79cd9b05ceca92538dac18ae7f134f21a4f6386c424b2e7",
+   "jpUrl": "ec70180859ac87e32f00295286026f05a0931f9214a083d5c87ed8a3c1eec5df",
+   "enUrl": "fa52ed6289d672795ae9233b35a78eed3816e68e9b26ceb2fe732eb960a6e8ab",
+   "krUrl": "6562adcb413776beba556516e81507fda4538588695b5d0683a58c8ecb78d013"
+  },
+  {
+   "id": 14,
+   "title": "Về Hanya",
+   "text": "Để phân biệt Hanya đại nhân và chị của cô ấy, tôi... tôi đã âm thầm gọi cô ấy là \"Phán Quan Lắm Lời\"... Không phải đã bị cô ấy biết được rồi chứ?",
+   "unlockRequirement": "",
+   "cnUrl": "2c9498f253d6fac7bcb7fceadc0121096fdf4f9f3850be68ecfc6ac84de73b18",
+   "jpUrl": "a6ca13e2b7c732fe5603d9fdfd630203e613bccfa4c23a57fa2e95ba4ee1bbdf",
+   "enUrl": "e53fa88c5546ced4a3a4b521a3290219460ca74b2cf9504ad8ef88e3c281cd16",
+   "krUrl": "f679a48a28efb9193276edc1941fb72811c0b71f68fa4b95585f4e752d394ca4"
+  },
+  {
+   "id": 15,
+   "title": "Về Qingque",
+   "text": "Lúc tôi thả lỏng bản thân, thì Qingque cũng đang nghỉ ngơi. Lúc tôi đang bận rộn, thì cô ấy vẫn đang nghỉ ngơi... Rốt cuộc cô ấy đã làm thế nào vậy? Công việc của Sở Thiên Tượng nhất định là nhẹ nhàng hơn ở Sở Thập Vương rồi...",
+   "unlockRequirement": "",
+   "cnUrl": "9f840c5b9c3ea04ac6d379719dd8a521f06b1521680cf3a1790e901b426127e3",
+   "jpUrl": "50c97b43036aa7c544127d60860a15a6996fdc9c6ab8abd675fa01dbecaf8755",
+   "enUrl": "79d8326d0ac840c9e24aed2a5402b52bd32173c00987a23a5e4cc945b897b68a",
+   "krUrl": "9bbdd3d9c596b7f1ed2a94c6108823d5591aad58376febc303a2c128d3ffc820"
+  },
+  {
+   "id": 16,
+   "title": "Về Lão Đuôi",
+   "text": "Huohuo: Tôi... tôi chẳng muốn rèn luyện ý chí gì đâu, tôi chỉ muốn bỏ trốn thôi, nhưng lần nào Lão Đuôi cũng đưa tôi đến trước mặt kẻ địch, thật là chịu hết nổi rồi...<br />Lão Đuôi: Hừ, tốt nhất là ngươi nên bị ăn thịt đi, vậy thì lão tử mới có lại được tự do!",
+   "unlockRequirement": "",
+   "cnUrl": "09eae484612d7174006989a2401d76fea75636102d22bb9a8c29051b516d8319",
+   "jpUrl": "b549164d408a30b5eba6da1e345eef6e5dc9d4760f0aaa9cc98568fadd372356",
+   "enUrl": "08c65f89aa054098f41c2c1afa242bdedcb257cd5f6cd2629a6682934720f8fe",
+   "krUrl": "8b2ae672ebb211e8b476f6cc39749c5acefbfcd9d6ca0d159ccdb930bfe1775e"
+  },
+  {
+   "id": 17,
+   "title": "Về Jing Yuan",
+   "text": "Tôi nghe người ta nói dán hình của tướng quân Luofu trong nhà sẽ giúp trừ tà, tôi đã thử rồi, nhưng chẳng có tác dụng gì hết... À, ừm, tôi không phải nói tướng quân vô dụng đâu, là bức tranh vô dụng, mấy chuyện trừ tà kiểu này thật không đáng tin.",
+   "unlockRequirement": "",
+   "cnUrl": "cf6bfd4cbe97f6f13d0682018ed27126ebc9ab7895943e58a928dccfab960071",
+   "jpUrl": "a138b6072efe8312973f5a1f2671e9b06606c26ed1822e392b5a8dd1f8270670",
+   "enUrl": "d2fffbfebf6941dece4f9e1ddf626f2b431dd4c0464ce2ee5d93781bfcea3b73",
+   "krUrl": "3b3490310a8a09e8514d47c7ec5e85f8ea5bb24445f4eb59b13d595543b6decb"
+  },
+  {
+   "id": 18,
+   "title": "Về Bailu",
+   "text": "Không biết Long Nữ đại nhân có loại \"thuốc gan dạ\" không nhỉ... Nếu không có, thì \"thuốc giả chết\" cũng được...",
+   "unlockRequirement": "",
+   "cnUrl": "cfbaa6b551ff6714e126170fa0d1dcd7bebbecdfc93a86bfb860a52a28c42909",
+   "jpUrl": "e19fd4b381118d741c065ce9587b7b1b964785f21eaabeff73ff595993f52ec3",
+   "enUrl": "5a83864b1742b4fe6049e33d7234adbe224fd71ce95a08f0718429baa56c3e6e",
+   "krUrl": "74a8db90295f0f7cb20572c3c492955e1d1f3dae8d10880bf77c3bf12c4beb74"
+  },
+  {
+   "id": 19,
+   "title": "Về Yukong",
+   "text": "Cũng là Người Hồ Ly, mà so với Yukong đại nhân, tôi chẳng có chút uy nghiêm gì cả... Thật ra tôi cũng biết thân biết phận mà, tôi chỉ là... rất ngưỡng mộ Yukong đại nhân mà thôi.",
+   "unlockRequirement": "",
+   "cnUrl": "fb063cd581617c07076a3b752eaff9b4944d798bcbc20e2603b0bce300767847",
+   "jpUrl": "021681eebd64450286877c38ccbcf3b3ae257924666c912d349ce882694c1de9",
+   "enUrl": "b07c7d586f99c6afe60b88e2982107461416392cea70589ab9a20cdbd9caa989",
+   "krUrl": "68cbbcf659560784966d71f6632808f69ec12025fd2d721ebcf73b190e9746c2"
+  },
+  {
+   "id": 20,
+   "title": "Về Sushang",
+   "text": "Thật ra chúng ta đã từng gặp nhau rất lâu về trước... Lúc đó tôi đang thả lỏng bản thân, đến lúc định thần lại, thì tôi đã bị Sushang đưa đến Công Đường Sở Địa Hành để điều tra với tư cách người mất tích...",
+   "unlockRequirement": "Hoàn thành Khai Phá Tiếp Diễn \"Giấc Mộng Hồ Ly\" sẽ mở khóa",
+   "cnUrl": "ae9b72f2b20e1a513fd22e5214f5c98a0f427e1d0dee0d77550f00b90eb5dbd4",
+   "jpUrl": "eca219467622c143ddb66fd2d82c538069daf2b55de4ec8c5f20571ebe9c9798",
+   "enUrl": "137df07c3e94fa2d3324bc1dca9068646642ce8311d53afe1646eac0e9a6e120",
+   "krUrl": "58f60af8364806cf784f2470e5b1c3405528499e300b1373004f375d78c77506"
+  },
+  {
+   "id": 21,
+   "title": "Kích hoạt Tinh Hồn",
+   "text": "\"Mệnh Trấn Hung\", \"Mệnh Trấn Hung\"...",
+   "unlockRequirement": "",
+   "cnUrl": "86567bcf75512488941408c3ef122f89898c39c214617943553b7c590445b8cd",
+   "jpUrl": "adf44d7e45dd89437fc78f6c6cccd7db4270d7d2461c014efbdfea20e131eaa6",
+   "enUrl": "67e8ab517c1f436327a1dc4c088aab2b9e535a23c71cc03ede613209ee83f7c0",
+   "krUrl": "e6378a4af9c4a86ec031a917815a1b90ce362715ec3d1391a8a553c236f669e0"
+  },
+  {
+   "id": 22,
+   "title": "Nâng Bậc Nhân Vật",
+   "text": "Lại thăng chức sao? \"Vận số hôm nay\" rốt cuộc là may hay rủi đây...",
+   "unlockRequirement": "",
+   "cnUrl": "2d4eb5225d9379bceab7798f9cfbe7fc0041d9b9a2e27fc01133974ff5ed35ae",
+   "jpUrl": "c6bc5dcd748a846ee42ea8a8da2389e9fe1fec04295fe4b74b1bb7b383a1eabd",
+   "enUrl": "a2f97b93a1913d3687434d4ce9102ae95d9ff317ff9478d86d0eb6a17123b10d",
+   "krUrl": "7c18e5278e269e1a446eb9093bfb936ea78c700f931365dcd564d39a24943c4a"
+  },
+  {
+   "id": 23,
+   "title": "Nhân Vật Đầy Cấp",
+   "text": "Chẳng, chẳng lẽ bảo tôi phải ở lại Sở Thập Vương cả đời sao...",
+   "unlockRequirement": "",
+   "cnUrl": "22ce3a8c91f2056f5b6d0749370c15acafd224069b78dcefdfd4f4c3944d727b",
+   "jpUrl": "31f4e6f8133823c8651e197642510f5f39403817b004136508909b0620eadc76",
+   "enUrl": "e0d9d80c260b1fad22a5aa661cffc17ca84bbf6a536478daff82c23d88dbf094",
+   "krUrl": "265d670cd6e930f1682ddfef6fe4d57c7b45fc09c243143007152405ada1a2a4"
+  },
+  {
+   "id": 24,
+   "title": "Kích Hoạt Vết Tích",
+   "text": "Biện pháp trừ tà một lần cho mãi mãi, thật sự có tồn tại không...",
+   "unlockRequirement": "",
+   "cnUrl": "5172091e0b1d8a93984c040a1d94f197ef303bd2867c69f10e7edbdf00774c96",
+   "jpUrl": "28e637b0c57e1503d3ddd6216e5e5ffe703ddc49426fd2a6dc394113dc11d38e",
+   "enUrl": "232095e40ebfed54d7156261eb81d0b503788ab129882fab96ecd43c455ab36a",
+   "krUrl": "d93f48cfed8d6271068418205e52dc22032c9182490b230f52935ad637e7848e"
+  },
+  {
+   "id": 25,
+   "title": "Điều Chỉnh Đội-Hanya",
+   "text": "Xem ra Hanya đại nhân tối qua cũng không ngủ... Nếu có gì tôi có thể giúp được, xin hãy cứ căn dặn...",
+   "unlockRequirement": "",
+   "cnUrl": "eb07c182c77e07646769eee51eb11dbe05908ebeb8b5055eae928c2ffd21d07b",
+   "jpUrl": "2057e288e303e7da6ae904dd103f062e0abed92dcf5fee746ab6b0dab1554463",
+   "enUrl": "a311fe66533dfa3fa6928f4e84d8c6badf55836f4e578ddda6519bb11a5c54d0",
+   "krUrl": "9307f6eeae19a5d7692febea9ba12e380dcc58c66c1201e96e9bc887f921e4c5"
+  },
+  {
+   "id": 26,
+   "title": "Điều Chỉnh Đội-Guinaifen",
+   "text": "Gui Bé Nhỏ, cô đi trước đi! Tôi... tôi ở ngay sau lưng cô...",
+   "unlockRequirement": "",
+   "cnUrl": "c6d28b6d69342cec67d5d5bc5e2f66298656e10491762a0bb2f65769e473548f",
+   "jpUrl": "1eae0aa86317070f96745e3949caa0c0c9f5da6560ac337da384f7e80940359f",
+   "enUrl": "c5a21bb3c378eb076343b3e47ecb175844963e306a75007f5137f680ba239b18",
+   "krUrl": "c7fd55bcb4d913eb8a8a67ab6650991c6afb3155968765e3c062a0c2c4e2182c"
+  },
+  {
+   "id": 27,
+   "title": "Điều Chỉnh Đội-Sushang",
+   "text": "Sushang, chờ tôi một chút, tôi dán linh phù cho cô...",
+   "unlockRequirement": "",
+   "cnUrl": "0dce350eaea118e4622280801dcf3319bec1becde20d42f5898152fc6f488827",
+   "jpUrl": "244a625db316efeac8a5ed347129dc8b81e7a61423733e5d7d076a4f584a8b15",
+   "enUrl": "6fdb388c7f243681e48f1c7ccbdfcbdf16dea700704b92a5ec65442145903965",
+   "krUrl": "ad2103681f621df18e17149c7bdf6a1924f4e0a5ef5a5b8152cdd972eb16e619"
+  },
+  {
+   "id": 28,
+   "title": "Điều Chỉnh Đội-Xueyi",
+   "text": "Huohuo: Tốt, tốt quá rồi! Đại nhân Xueyi cũng ở đây!<br />Lão Đuôi: Chẳng tốt chút nào!",
+   "unlockRequirement": "",
+   "cnUrl": "bb7ae987aa46dd65063eefc3a4138f7893d03a44d9d61f14cceb87ee9e8dfeb2",
+   "jpUrl": "864a050ecddd5bcc24e90d0b021a5b28d2114f23b3e0f108dd952205a8e96235",
+   "enUrl": "00236b249452ac1cad71cfcd7546ea94558e24495de090dba4691fad0d22c67d",
+   "krUrl": "fc8b697096bb2ede2c3367d893fc131b5739341dd4d7db980fd28e37b841753f"
+  },
+  {
+   "id": 51,
+   "title": "Chiến Đấu Bắt Đầu-Phá Vỡ Điểm Yếu",
+   "text": "Huohuo: Nói không chừng tôi cũng sẽ làm được...",
+   "unlockRequirement": "",
+   "cnUrl": "6f60b4aea22596cb501abe8ec1c558abd64c420a841b272fd93cef25cb39f0cd",
+   "jpUrl": "1b03651bc4ea6d95cbf467b09230b0019e7e1357edb4b50906b789775f9d0a4c",
+   "enUrl": "50cbe73cec1100d9ba1e8c8056b83c5149537736380cf218c49cbe8f378be220",
+   "krUrl": "305cca705c94214b390ed0063b012a4b57f2b163b59e183645dc02553535372e"
+  },
+  {
+   "id": 52,
+   "title": "Chiến Đấu Bắt Đầu-Cảnh Báo Nguy Hiểm",
+   "text": "Huohuo: Lần này nhất định không làm được...<br />Lão Đuôi: Có lão tử đây, ngươi sợ gì chứ?",
+   "unlockRequirement": "",
+   "cnUrl": "258121de1b22fe02c23c5801614b65d20c62adfb12cf7791d1fa9251b044619f",
+   "jpUrl": "839eb3e61ecf86645a9932ea683b7489c27bbe6f8e3f52f929214db89619e740",
+   "enUrl": "72da2cca92fc2a5efbae60944b8c216bbe7cc5d931d85c07c40678e3238ea857",
+   "krUrl": "be60f1447947e4c3c32de030ba42e05c9e6907eb4c4db07e793f57071d96a437"
+  },
+  {
+   "id": 53,
+   "title": "Bắt Đầu Hiệp 1",
+   "text": "Huohuo: Bắt... bắt buộc phải chiến đấu sao?<br />Lão Đuôi: Đúng rồi! Ê đừng chạy chứ...",
+   "unlockRequirement": "",
+   "cnUrl": "1cd465e9d153a1315b13a60c266a68b893aa28ee57d033fd8df47bdd73b20478",
+   "jpUrl": "f4252f8072cd98cd373cf198e9d4df6502f1ff3047d524cd52a21fc4f1a3b4de",
+   "enUrl": "f5983b7d74f6c8bc99edc46b0cbad109b0bde73111bfc01292e225677a23e4bc",
+   "krUrl": "599196ea88a7a23fc919157b07c088ce3af87554b56ed202c981f0e5e43ccc96"
+  },
+  {
+   "id": 54,
+   "title": "Bắt Đầu Hiệp 2",
+   "text": "Huohuo: Lại làm liên lụy mọi người rồi...",
+   "unlockRequirement": "",
+   "cnUrl": "fa40cf2e81c6b4c7f3eead28b3af17699279fa7dab919472570aa24ad09e2fad",
+   "jpUrl": "3db4486532a0688a2e5b9f1d1461d5a333d66e5c22e64729ebb8fbf71b2079a2",
+   "enUrl": "c08282ee5ab683cf2684889ca4ea2774c5341d8131241f4f685e4e05f6551124",
+   "krUrl": "e4f79b46c056b6b8526679041e887fa7f008aa77cbbd4cf19f3f2cf07159dba6"
+  },
+  {
+   "id": 55,
+   "title": "Tấn Công Thường 1",
+   "text": "Lão Đuôi: Cút đi.<br />Huohuo: Áaaa...",
+   "unlockRequirement": "",
+   "cnUrl": "5e730c619576a19244cb3507a0b474fd514748b7a370432b1c0bdf369dc0bb23",
+   "jpUrl": "a7e31e9c8931b5b9bc19aaae2315efd8e24f685ae2f6d09ba4bdfe844431fe76",
+   "enUrl": "d7e2c53c78da7ca8a535d0f0f7628a784e76cbb121812ec1adf219c5b26eba23",
+   "krUrl": "2ca7878315eef76c44868e239a3e4f6a01ba0a4973e707468d41e7979eadb73f"
+  },
+  {
+   "id": 56,
+   "title": "Tấn Công Thường 2",
+   "text": "Huohuo: Đừng mà, cứu mạng với...",
+   "unlockRequirement": "",
+   "cnUrl": "e76a2d718a772f868a1f87e4a7ed617b576edd93ef6899efa085dd07563aed1c",
+   "jpUrl": "98f26fc40c2e103fa259ce7492d34b37c53a2415a5ee0b7dfff146090a7986b5",
+   "enUrl": "2b0c617bb8676cd95e9b4a428484860391495169e337bbb13c1f30191f62158e",
+   "krUrl": "476dbc401f88454c012ca5e7df6c609ab568ff5b094fa691e179a00a65046574"
+  },
+  {
+   "id": 57,
+   "title": "Chờ Lượt",
+   "text": "Lão Đuôi: Làm gì vậy? Đứng giả chết hả?<br />Huohuo: Suỵt, suỵt...",
+   "unlockRequirement": "",
+   "cnUrl": "07d9c3e41b63c0cc5d460afbc9770355107b56c359803644d9a5a372f7bb7add",
+   "jpUrl": "60d41a8f52257321638934a09b99636098254f46b99ba349d5211067afbd9ec9",
+   "enUrl": "66efd12678321cad02c8360ac15d6fdfb1e7044d5d63de393226a6c10bc8617e",
+   "krUrl": "1804f3a330eb6eaf5261582fde055b71a678f31e185441743e491a785711457d"
+  },
+  {
+   "id": 58,
+   "title": "Chiến Kỹ 1",
+   "text": "Huohuo: Trừ tà... bắt ma...",
+   "unlockRequirement": "",
+   "cnUrl": "04f27674ccf55ff5ffb7a85528a0fbb7cf53e28abcbfa7fc690c9d12d941a90e",
+   "jpUrl": "160efb23907b9af843838e4d14354ddb9c2611e0bbf0452172c942d8428f37d9",
+   "enUrl": "a9c1273c0294c893b24a053b9648e68227a2164a2d5b49c511c7c141122575e9",
+   "krUrl": "e33528048ee9a81b2984e92ec1086000faf598f58df8a829e25a1631f1914892"
+  },
+  {
+   "id": 59,
+   "title": "Chiến Kỹ 2",
+   "text": "Huohuo: Linh phù... hộ mệnh...",
+   "unlockRequirement": "",
+   "cnUrl": "3a520e514315b9d84daf41fec34b91fa61e00d4bca9c2c56648b28d0144b497e",
+   "jpUrl": "c0a6a6d0734cf7a7d9fa3849a4bf08d06b9e023405ede60f35db87d8f573bc54",
+   "enUrl": "b22860e42a7f23752929bb80ef60f80392d45a7e3de8b9492871b1058a871883",
+   "krUrl": "4d99ae930a405fb4749a950292619e57a1f60faad1b76c4f92c57ed73262b773"
+  },
+  {
+   "id": 60,
+   "title": "Bị Tấn Công Nhẹ",
+   "text": "Huohuo: Huhu, đau quá...",
+   "unlockRequirement": "",
+   "cnUrl": "5fd8a9eebbe97c9ccd16a124c6e227ba53b0f872d82e3901b8bdf01bd56a7236",
+   "jpUrl": "fed877976fc40f604c17dfbec436faf68e40f70abfc24fa0f01140a2e632d408",
+   "enUrl": "f6422328b7a5c6bb21243a9d63737de0d40384fd4949a8c6fb632d2131a076c1",
+   "krUrl": "d4a3696010d78d95b7552b2af13c6346cbe9a98677d4b84f87192c49ee824ac9"
+  },
+  {
+   "id": 61,
+   "title": "Bị Tấn Công Nặng 1",
+   "text": "Huohuo: Lão Đuôi ơi cứu!!!",
+   "unlockRequirement": "",
+   "cnUrl": "87d7d93999853852217189ce3787b5c72566d80c0f51d75e7fdf62afa9c89840",
+   "jpUrl": "9f12752d9d6da7aa6a938636c884bdb81b06d12cbe0b31eefa6078bc450c8427",
+   "enUrl": "0e22cf424aaf1176948fc86dbe19b89325b5e46051bcfd0038eb8e81075b8f34",
+   "krUrl": "7d424cbc9625eccfd1f29450595f9ce7c6e7248c041b5715e499bab7a3ddda96"
+  },
+  {
+   "id": 62,
+   "title": "Bị Tấn Công Nặng 2",
+   "text": "Lão Đuôi: Giỏi thì đánh ta đây!",
+   "unlockRequirement": "",
+   "cnUrl": "edb51b3cc705c322fa0afcba6918207e52dca98e96b92d640dffa73fea8045d9",
+   "jpUrl": "a19d81c954b6ca97ab4cce62ecdf391eca10e9ab5deee7186617d260606428fc",
+   "enUrl": "45bdc5e3379f16db5da7d44ed74dcde146f0f8dd9b7515676119c75eaa89c778",
+   "krUrl": "93845f04487bd455fbbc56501701062f43feb58456062fc650978709d008d654"
+  },
+  {
+   "id": 63,
+   "title": "Tuyệt Kỹ - Kích Hoạt",
+   "text": "Huohuo: Các, các ngươi đừng qua đây...",
+   "unlockRequirement": "",
+   "cnUrl": "9007e7cbdec5a8c0b8fd69ee9e9d48620e895321d28e0667284db0ac0dda814c",
+   "jpUrl": "86df2184633ff790b0d18081f526e7e3f294eddb863b810ee668e05c88e5cedb",
+   "enUrl": "86d3b2d67269deb3da16bf394bf067c5b2b6f2b57fcb0f2a677e1101c10e9d04",
+   "krUrl": "9fe21940f56b3a8814582e5d9f7a747c14b8182cf24703b5203471ba7a143b6e"
+  },
+  {
+   "id": 64,
+   "title": "Tuyệt Kỹ - Thi Triển",
+   "text": "Lão Đuôi: Lũ tôm tép các ngươi, tránh ra hết cho ta...<br />Hung thần ác quỷ, có lão tử đây là đủ rồi!",
+   "unlockRequirement": "",
+   "cnUrl": "b4950dcc50730e85ebc4fffb80cf96d0eeb28edfccae3abb822521eaefafa7bf",
+   "jpUrl": "c8149393c6c6d1f74a47f990ed946662e4a40f1b2e7e69a0dec8570ac53d3563",
+   "enUrl": "e0d337632ef80fb72306102d11bd476bd91ad1696e7e99ede028030a3067ebed",
+   "krUrl": "16ada47d4cc61ef03ad891d003eaf0a7a37c9f55ef1d2ed2d7799590d27759c8"
+  },
+  {
+   "id": 65,
+   "title": "Không Thể Chiến Đấu",
+   "text": "Huohuo: Đầu... đầu hàng...",
+   "unlockRequirement": "",
+   "cnUrl": "ea97b492788bf38b075327986321809d5ff57758d22b6415a49920639030aeed",
+   "jpUrl": "b112a95c0cf941b0ffadba58a520030be72048d0b9596cb41b53a4c9fb201e38",
+   "enUrl": "4d36d9db92034f379373bf59928e4144e9f5fba5f991e6360d431cb095d6e090",
+   "krUrl": "77b45e2761ac9ae77b3723abbf1fc6555ca3205fbfd12a464525663d229250bd"
+  },
+  {
+   "id": 66,
+   "title": "Trở Lại Chiến Đấu",
+   "text": "Huohuo: Sao chưa kết thúc nữa...",
+   "unlockRequirement": "",
+   "cnUrl": "406f870c97b928c41af7ee4d5dcfe63f7ad57c1ab0add23d3b2676921c674493",
+   "jpUrl": "487a086e1659361944dbe8720a5ade09834570445aa3b893fa000cceca41ea99",
+   "enUrl": "c00f0a79b8f5bf401aa94731721c7233414b110016a9303805e13b56256493ef",
+   "krUrl": "23f1a1d40b8b822713da5e48f34d3c8c563c8ba1bac0f1ab0f5c4d7270fe2037"
+  },
+  {
+   "id": 67,
+   "title": "Hồi Phục HP",
+   "text": "Huohuo: Xin cảm ơn, xin cảm ơn!",
+   "unlockRequirement": "",
+   "cnUrl": "7dfa1958106c66ab0f885504257fba9cc6ec21f5dcbaabd5ea7755a4b5269b9c",
+   "jpUrl": "90ccfbbe14ce9473ba4788b6fed4b06f5405ebfa99dfbf15d3e941dda2b17123",
+   "enUrl": "2ee82c0fdf0511e915dbab4f91b1e8ba3fb051f2f10cc718b7b1aa05712b8abd",
+   "krUrl": "cb670971e73967dd4bd485b8a72d4067a8ee448d4bd42c120e972cc120090ea0"
+  },
+  {
+   "id": 68,
+   "title": "Bí Kỹ",
+   "text": "Lão Đuôi: Cút đi cho ta...<br />Huohuo: Ơ...",
+   "unlockRequirement": "",
+   "cnUrl": "2eb4f17687d1e6d209e1dcaaef04857f8579680122ae1a06503795d7ecf25da7",
+   "jpUrl": "81a6312e38a25d3dee2cd29511ecac7ecef3f03d0abe4d9f7bc32661be5450a6",
+   "enUrl": "7d8cc9307870b0b04a45a4c14fb7bb9c6af2336740d0c977195ae1db7f1dc10a",
+   "krUrl": "b5e7478900642ac72b57bd9983c7753c09992b6966f6175ddb4f138b8a4e5944"
+  },
+  {
+   "id": 69,
+   "title": "Chiến Thắng",
+   "text": "Huohuo: Là tôi thắng rồi sao? Tôi sao?!<br />Lão Đuôi: Còn không cảm ơn ta?",
+   "unlockRequirement": "",
+   "cnUrl": "7e3e3b67fe5f9dafeee96c3dc6e7926366565804a74fde649b474a4bf330df5a",
+   "jpUrl": "aaa3d206759fbbbc80b83c0844a80ffdfc7ce78ecf6a1b5513201961deac7065",
+   "enUrl": "671ef499452306bf8e77ce647887c8e1f2c190741eab41bba8b9d12ecac11f5f",
+   "krUrl": "8a752865800a84d12145e8c330db8bb70417a049a9d17e64d7efd417897b9423"
+  },
+  {
+   "id": 70,
+   "title": "Mở Chiến Lợi Phẩm 1",
+   "text": "Huohuo: Đồ tốt như vậy, tôi có thể nhận không...",
+   "unlockRequirement": "",
+   "cnUrl": "1863894d828fe911697cdb806fbc8c5d7ea7b5a71cb0f5fbba1db52ff86fd8a9",
+   "jpUrl": "4856770b92082c693e078978fd141f7e3676521fe75a9d2a5a5053598dcfce6b",
+   "enUrl": "3105b61802a254b2974eb551436feffa51ea818ccc0b8a0da453108656aaf2dc",
+   "krUrl": "2b020414cc85b80716922ae18caf15099f8ac90559b57ed568f1077134062d3b"
+  },
+  {
+   "id": 71,
+   "title": "Mở Chiến Lợi Phẩm 2",
+   "text": "Huohuo: Không ngờ tìm được cái này...",
+   "unlockRequirement": "",
+   "cnUrl": "eeeca7482caff68a07709f4d05fa7523445f72f970886b2c278b8a4a25163e79",
+   "jpUrl": "7d4d3f042cc3e1caed601e425e0fedc001719b1acaeff7b5e572b6b6797ff59e",
+   "enUrl": "ae8a41e763ae8327d7c61134e964b7d06552189a7752094d8b3f11961f0526f5",
+   "krUrl": "d8d8eb8b6677f89fc9d8a34b2fa1c3b5c679ac755fb0be035350d9b5efc3b3c5"
+  },
+  {
+   "id": 72,
+   "title": "Mở Chiến Lợi Phẩm Quý",
+   "text": "Huohuo: Phải đăng ký giao nộp nhỉ...<br />Lão Đuôi: Ngươi phát hiện thì là của ngươi, lấy đi!",
+   "unlockRequirement": "",
+   "cnUrl": "541ffb23fc0de6155c0dbd1dbdf22f505c69d298fc8d8126b489512895d189a3",
+   "jpUrl": "48240df6f6bdbaca72abd8f04e96f008609ca03f708edae3c290577423327c92",
+   "enUrl": "9aaf59e55763ab4d8e03e25e2ee33e98bcf04b85b5d1588675a77bbe6c8ec164",
+   "krUrl": "d6a4cb20ea91420374df1f14505e843a3f1dce507b3c186f5c44714edd93f36a"
+  },
+  {
+   "id": 73,
+   "title": "Giải Đố Thành Công 1",
+   "text": "Huohuo: Quả nhiên tôi vẫn thích hợp làm những chuyện này hơn...",
+   "unlockRequirement": "",
+   "cnUrl": "908cad91ce6420891ea464d20bf61c86399250f7ce3b47b6fe5d0fc83bd16181",
+   "jpUrl": "96900eca74551fcf0e29ca10d904dd72e9172253ae074d5887e051cec8f86b64",
+   "enUrl": "2ed2f9edf0c085d029e37e3bb995d4892680cec1f6dca614ea57b2681b5f7422",
+   "krUrl": "f55db5515fb42747631dad911db9b26fca87098d8fa6aa0812eb32c2fe92ab58"
+  },
+  {
+   "id": 74,
+   "title": "Giải Đố Thành Công 2",
+   "text": "Huohuo: Hửm? Như vậy... vậy là được rồi sao?<br />Lão Đuôi: Được rồi.",
+   "unlockRequirement": "",
+   "cnUrl": "f690d70a1bb4637484cf3ce092c12f4a3a53c07f3ec80aa25fa7142526f4a1f4",
+   "jpUrl": "07a71adb5d0f2be7617a7f81f4f7cd21af9e626ebd28f37d5bbf38b72974d540",
+   "enUrl": "9008d959172fea5bf76417501dbc082089fc6eca252ae4075ddc20fac261bfc3",
+   "krUrl": "5dd25e68cb59658b2cfcf411f69695d1be6dbe3e939134698b1fc40457ad901a"
+  },
+  {
+   "id": 75,
+   "title": "Phát Hiện Kẻ Địch",
+   "text": "Huohuo: Không nhìn thấy tôi không nhìn thấy tôi...<br />Lão Đuôi: Tên ngốc bên kia, nhìn qua đây nè!",
+   "unlockRequirement": "",
+   "cnUrl": "2280893994f006f25b00c86753c49d4a54f9d63225837ed9116cbe2e309cfddc",
+   "jpUrl": "31f484bd35d83204e7a9e8a35fd74552ea0567183fa0a2d716ac8c6c86174916",
+   "enUrl": "7c7575520e1f0155479269927bcead3ed9c8006eef3fe26587101e46dd49b53d",
+   "krUrl": "da42997c836c95387a8ac1d6ba697f7cfcdb5a785063b0165738ddc7221b2dcf"
+  },
+  {
+   "id": 76,
+   "title": "Về Thành",
+   "text": "Huohuo: Ở đây yên tâm hơn rồi.<br />Lão Đuôi: Gâu!",
+   "unlockRequirement": "",
+   "cnUrl": "bdd4fc09ee3f24d858483571d9302ccd1063779069b2e5e1dd5e913f40b40103",
+   "jpUrl": "115ded42eeb2d2e26e0dfdfa037e791b724bc384d1be462d63e00b02553d056f",
+   "enUrl": "ac89b8178e9f5f9b782acb9f31f696924aed46e06255d77e186b935b3a27d056",
+   "krUrl": "75d9abebdb6fa6cbefd9f86251e5bf53cbfda15e6d6e1aca8032417ee8ff62eb"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Chi Tiết Nhân Vật",
+   "text": "\"Người Hồ Ly nhỏ bé đáng thương và yếu đuối, cũng là Phán Quan thực tập nhát gan sợ ma nhưng phải đi bắt ma của Sở Thập Vương Luofu.<br />Tuế Dương hiện tại được gọi là \"Lão Đuôi\", đã bị Phán Quan của Sở Thập Vương phong ấn trên cái đuôi của cô ấy, biến cô ấy thành một \"Mệnh Trấn Hung\" để thu hút tà ma.<br />Sợ yêu ma tà vật, nhưng luôn được giao nhiệm vụ truy bắt tà ma và lần nào cũng chật vật mới hoàn thành được nhiệm vụ gian nan;<br />Tự nhận mình không đủ khả năng nhưng không dám mạnh dạn từ chức, chỉ có thể tiếp tục trong im lặng và sợ hãi.\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 1",
+   "text": "Huohuo tỉnh dậy sau cơn hôn mê, lần đầu tiên được đưa đến Sở Thập Vương, mọi thứ trong Sở cũng không phải mới mẻ nhưng lại khiến cô rùng mình.<br /><br />Phán Quan tóc trắng nhận ra vẻ bất an đó nên nhẹ nhàng hỏi thăm cô.<br /><br />\"Cô bé, cho tôi hỏi cô gặp \"ngọn lửa đó\" như thế nào?\"<br />\"... Tôi chỉ nhớ rằng nó một mình bên đường và sắp tắt, tôi... tôi muốn giúp nó.\"<br />\"Thế là cô đặt \"ngọn lửa đó\" lên đuôi của mình? Tại sao vậy?\"<br />\"Tôi, tôi cũng không biết nữa, đến lúc tôi ý thức được thì đã làm như thế rồi... xin lỗi.\"<br />\"Thực sự là một đứa trẻ tốt, cô bé không cần phải xin lỗi... nhưng kể từ hôm nay, cô bé phải chấp nhận để chúng tôi trông chừng.\"<br />\"Vâng... cảm ơn đại nhân.\"<br />\"Tôi tên là Hanya.\"<br />\"A, cảm ơn đại nhân Hanya, tôi... tôi tên là Huohuo.\"<br /><br />Phán Quan tên Hanya nhớ lại chuyện mấy ngày trước...<br /><br />Sở Thập Vương nhận được lời cầu cứu, cô được lệnh tuần tra và tìm thấy cô bé Người Hồ Ly sắp bị Tuế Dương nuốt chửng. Hanya thấy cô bé còn nhỏ và yếu đuối, Tuế Dương kia lại không phải dạng vừa, nếu kiên quyết trừ bỏ hắn thì chắc chắn sẽ ảnh hưởng đến tính mạng cô bé. Trong khoảnh khắc nguy cấp, Hanya đành phải vẽ bùa, trấn áp Tuế Dương vào đuôi cô bé Người Hồ Ly... May mắn là Tuế Dương ra tay với chiếc đuôi trước.<br /><br />\"... Việc này rốt cuộc là đúng hay sai?\"<br />Phán Quan lẩm bẩm với chính mình.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>20</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 2",
+   "text": "Tuế Dương tính khí gắt gỏng, cô độc và kiêu ngạo, nhưng không phải là không thể giao tiếp được. Hắn không chịu được bộ dạng khóc lóc của Huohuo, đồng thời cũng không hiểu lắm về giao tiếp xã hội của Người Hồ Ly - ví dụ như chuyện cô bé sẽ bị các bạn cùng lớp xa lánh vì có \"chiếc đuôi bốc cháy\".<br /><br />\"Hãy mở lá bùa đó ra cho lão tử!\"<br />\"Không được, Hanya đại nhân nói không được mở bùa...\"<br />\"Cô nghe thấy rồi đó, bọn họ dám chế nhạo ta! Lão tử chưa bao giờ phải chịu uất ức đến vậy.\"<br />\"... Người họ chế giễu là... tôi...\"<br />\"Vậy cô hãy tự đi xử lý đi, nếu cô không thể khiến lão tử xả được cơn giận thì đừng có tìm lão tử nữa.\"<br />\"Nhưng... nhưng tôi không dám.\"<br />\"Được rồi, thế này đi, hãy hít một hơi thật sâu, để tâm trí thư thái, không suy nghĩ gì cả, lão tử giúp cô giải quyết.\"<br />\"... Han... Hanya đại nhân nói rằng không được mở lá bùa ra...\"<br />\"Cô đừng quan tâm, cứ làm đi.\"<br /><br />...Đợi đến khi cô bé tỉnh táo lại, thì truyền thuyết \"nữ ma đầu bị hồn ma nhập\" đã truyền đi khắp nơi.<br /><br />Sau này, Huohuo nghe ngóng được rất nhiều chuyện về quá khứ của Tuế Dương. Không biết từ bao lâu về trước, Tuế Dương có tên là \"Liêu Nguyên\", sau khi bại trận dưới tay tướng quân Luofu, hắn đã bị chia thành nhiều mảnh linh hồn, bị phong ấn trong Lò Nung Tạo Hóa. Tuế Dương lọt lưới vốn là \"Liêu Nguyên cao ngạo\", không muốn nhập hồn bất kỳ ai, phiêu bạt ẩn náu hàng nghìn năm... cho đến khi còn chút hơi tàn thì được Huohuo nhặt lên.<br /><br />\"Để tránh gây sự chú ý tôi sẽ gọi ông là \"Lão Đuôi\"...\"<br />Tuế Dương chẳng nói năng gì xem như ngầm đồng ý.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>40</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 3",
+   "text": "Huohuo đã sớm được chuyển vào Sở Thập Vương để đảm bảo an toàn, tránh việc \"Lão Đuôi\" đó chạy ra ngoài gây rối.<br /><br />Dần dần Huohuo đã quen với công việc Sứ Giả Linh Hồn, cô bắt đầu quen với các loại \"linh hồn ma quỷ\" do Sở Thập Vương ghi chép.<br /><br />\"Ngài Xueyi, lá bùa... lá bùa lần trước tôi chuẩn bị dùng tốt không?\"<br />\"Rất tốt, đối phó với sinh vật Tinh Linh rất hiệu quả.\"<br />\"Hì hì... vậy thì tốt, tôi cũng không biết hiệu quả như thế nào...\"<br />\"Thì tự mình thử xem sao?\"<br />\"Không, không... tôi sợ...\"<br />\"Huohuo, cái gọi là \"linh hồn ma quỷ\", chủ yếu là những sinh vật ngoài hành tinh hoặc dạng sống mang trí tuệ gây hại tồn tại dưới hình thức nào đó mà thôi.\"<br />\"Ngài Xueyi, tôi biết chúng là gì, nhưng vẫn rất sợ, tôi không biết liệu mình có phù hợp với công việc này hay không...\"<br />\"... Chuyện này chỉ có thể hỏi chính bản thân mình mà thôi.\"<br /><br />Huohuo cũng không hài lòng với sự nhát gan của mình, cô ấy từng thử, muốn trau dồi lòng dũng cảm để chiến thắng \"linh hồn ma quỷ\".<br /><br />Cô ấy thức khuya xem phim hài kinh dị hạng B kinh phí thấp, để rèn luyện lòng can đảm, nhưng chỉ nhận được đôi mắt thâm quần. Cô mua tất cả đạo cụ trừ tà khoa học mới, dùng để tăng lực chiến, nhưng chỉ khiến ví tiền của cô càng cạn kiệt. Lão Đuôi luôn chế nhạo cô làm những thứ tốn công vô ích, đồng thời lão còn cố thêm dầu vào lửa, để tình hình càng lúc càng nghiêm trọng hơn.<br /><br />\"Đáng sợ nhất vẫn là Lão Đuôi...\"<br />Nhưng theo Xueyi, Huohuo đã không còn \"sợ\" Lão Đuôi nữa.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>60</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 4",
+   "text": "Ban đầu Lão Đuôi không khác gì Tuế Dương khác, dự định \"ăn\" Huohuo, nhập hồn thay thế tên và thân phận của cô ấy, tận hưởng thất tình lục dục của cô ấy.<br /><br />Sau đó, Lão Đuôi phát hiện nhìn Huohuo bị ức hiếp cũng vui, dù sao sớm muộn gì cũng sẽ ăn, nên bây giờ không cần gấp.<br /><br />\"Lão Đuôi, Lão Đuôi! Cứu, cứu!\"<br />\"Liên quan quái gì đến lão tử, lúc trước cô nói hay lắm mà...\"Tôi muốn tự mình đảm đương\", không phải cơ hội này đến rồi sao?\"<br />\"Lần sau tôi sẽ tự mình xử lý, lần này cứu với!\"<br />\"Để nhắc nhở cô một câu, nếu cô về chầu trời thì lão tử sẽ được tự do. Chẳng qua là... lão tử đây làm việc gì cũng làm từ đầu đến cuối, cô như miếng thịt béo, lão tử không nuốt trọn cô thì sao có thể tùy tiện rời đi được.\"<br />\"Cô là Phán Quan của Sở Thập Vương, sau khi chết để cho quái vật tàn phá Xianzhou, tắc trách làm sao... Này! Đám dở hơi các ngươi làm gì đó, chỉ có lão tử mới được hung dữ với cô ấy.\"<br />\"A a a hu hu hu\"\"<br />\"Muốn rèn luyện mà? Tự mình yêu cầu mà.\"<br /><br />Lão Đuôi nhập hồn khiến Huohuo giống như mật ong thu hút bướm, luôn được đủ loại yêu quái quan tâm.<br /><br />Huohuo lúc nào cũng càu nhàu \"Mệnh Trấn Hung\" chắc chắn có liên quan đến Lão Đuôi, Lão Đuôi lại cảm thấy năm đó mình gặp phải Huohuo là xui tận mạng. Thế nhưng dần dà, Lão Đuôi cũng sẽ giúp đỡ khi thấy Huohuo bị ức hiếp, nhưng tuyệt nhiên vẫn không thừa nhận tình bạn này.<br /><br />\"Theo Sắc Lệnh Thập Vương: Sứ Giả Linh Hồn Huohuo, tinh thông nghiệp vụ, có đủ tài năng và đức độ, xứng đáng với chức vụ này. Thăng lên làm Phán Quan trong ngày hôm nay.\"<br />Sở Thập Vương ban sắc lệnh thăng chức cho cô ấy, kể từ đây, kiếp làm Phán Quan tập sự của cô ấy bắt đầu rồi.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>80</nobr> mở khóa"
+  }
+ ],
+ "archive": {
+  "cvCn": "葛子瑞&刘北辰",
+  "cvJp": "長縄まりあ&平林剛",
+  "cvKr": "김채린&한복현",
+  "cvEn": "Courtney Lin & Adam Michael Gold",
+  "camp": "Xianzhou Luofu"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Huohuo",
+ "rarity": 5,
+ "descHash": "Phán Quan thực tập của Sở Thập Vương Xianzhou Luofu, bé gái Người Hồ Ly bị Tuế Dương nhập. Tính cách nhút nhát, yếu đuối, sợ hãi trước những sự việc quái dị, nhưng lại gánh trọng trách dụ dỗ và trấn áp tà ma.",
+ "artPath": "910a9e9a808282325ed8dad92e82dc315e40e08174c8d2cc095de37722e3fd13",
+ "miniIconPath": "0a86097a9c85901fed42e206aa0ec9f71424c3964b094f026a6988abdacb91b3",
+ "damageType": {
+  "id": 16,
+  "iconPath": "2f3d2fba0ee9442f1c51cf42a91af6f9ece3f19168237fd3963d352e508791c7",
+  "color": "#00FF9C",
+  "name": "Phong",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "81e58cfdc0c8a9a026c2c3111a6bdf663d572fa71524907b004fc5eb7f34fade",
+  "altIconPath": "c825fa86e9a217db6e704916b2d5aeb22c5733b2776a0ea16c558c29e6c5c92c",
+  "color": "#FFFFFF",
+  "name": "Trù Phú",
+  "rarity": 0
+ },
+ "pageId": "huohuo"
+}

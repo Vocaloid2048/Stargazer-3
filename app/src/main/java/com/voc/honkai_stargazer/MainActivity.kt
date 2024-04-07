@@ -2,7 +2,10 @@ package com.voc.honkai_stargazer
 
 import android.app.Activity
 import android.content.Context
+import android.os.Build
 import android.os.Bundle
+import android.view.View
+import android.view.WindowInsetsController
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
@@ -38,6 +41,9 @@ class MainActivity : ComponentActivity() {
     private lateinit var context: Context
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContent {
+            Navigation()
+        }
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.light(
                 android.graphics.Color.TRANSPARENT,
@@ -50,9 +56,6 @@ class MainActivity : ComponentActivity() {
         )
         activity = this;
         context = this;
-        setContent {
-            Navigation()
-        }
     }
 }
 

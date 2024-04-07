@@ -1,0 +1,2774 @@
+{
+ "spRequirement": 120,
+ "iconPath": "c756e5880fcd7bd88d9adf0c46726979bf4f54e0262444c7b972744c7900e5b8",
+ "bgPath": "fdcd62b3e4fa4a4acb7dc4ae2abb7b7fa7154eac5d9bad78b754a05d4c620d24",
+ "figPath": "fd58a0531fe56d95d3e4ed7046e2ed3ce3ea8dd4af21d32707fadd04eac88913",
+ "fgPath": "7e7b14b663618e3ef12eea00c8eee9968f42d4a755f250a2d006ea32081b2141",
+ "splashIconPath": "dbff8ab0614c088890725ee33c8add6dd325b31886f9d8d952d2af2d282b9de7",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRnQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAEBAAABkGPbtmlb89m2beW2bePbdhmMGjC2/X/uyLaNc8+e87kMETEBAJzh25OHmZ0xa9y5lhDX9K6xQngCTtN83W8s2HzumkOy9l/Yjun+ieseH5EkY0vShgg3YFvjRVu0bZLG2LpdPoi8N+vvy1AkKdLo5oP4Xh39I4qakTJSfat+G1GzUrTVnPKeouZIGrX4HXKInINo1Iryf3MjqRq4PJLRXIx+pSL4gGxyFsrSLsDzgAxFziCj52FwRsF3WTYpUqJD6+EGF8zTdIokLV2NBOCEko3nn38ljcOypC3hmDn7xBdZkvRnIeA0zSVlzaWzT3Vv2fLhRLg4YXaPNcu8AMAZAABWUDggTAEAALAGAJ0BKhQAFAA+bTKVR6QioiEoCACADYlqAJ0y7PtfoESAljkckf539E4LFWWDck2yorfDSbfSDK0iOA0AAP69pICMBTqHvnEYUomG7VP9qns2OfvFf9OlrOFaibgOlO6kC0DuWQVn6ucfYAO/upLJ0fdr+JCJyYP0q0rhnVJQ18KV9kaXrJZqgkl+6nZbX/csrU5GR9JjCUoWSc1VfS3XTD2nuWCtvdWWW74f/11+MZyx0l/mgFlRPYb04l0d8CoIw9bATEtD0k273GFb98S8pNH1vzdndk//PlWF/2TUTFvpQ5mxHbBZaK69BX6g2/Uze97Gd1tyqbsd1U5+FPnIE/drU2iaUni2VhR5z/rwWYHLcNr/pl874/ThXFV3zJaOL32GZx42aIUCAzWfqOvM+yxrE/pIWBUbWSZQYvFFyOOBo2d8Hxs1C8AA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "4b4b5f13f6588e7fb1c030c28f9b9b67a7a8c4bab77c05e38d5c9f64eb0d99e7",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Credit",
+   "desc": "Diese Währung, die von der Interastralen Friedenskorporation für die Abrechnung mit ihren Kunden verwendet wird, ist heute als hartes Zahlungsmittel für Weltraumreisende akzeptiert.",
+   "lore": "„Die Leute laufen herum, streiten sich und handeln für Zahlen auf einem Bildschirm, aber was wirklich von Wert ist, kann man nicht kaufen.“",
+   "purpose": "Gemeinsame Währung",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Blütenkelch (Große Mine)",
+    "Blütenkelch: Kunsthandwerkskommission",
+    "Blütenkelch: Hotel Reverie (Traumlandschaft)",
+    "Missionsbelohnungen",
+    "Auftragsbelohnungen",
+    "Glut-Tausch"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Spuren des Schicksals",
+   "desc": "Fortschrittliches Material zum Hochstufen von Spuren.",
+   "lore": "Unzählige Fehlschläge sicherten deinen Sieg und deine kleinen Schritte führten dich an den Wendepunkt des Schicksals.",
+   "purpose": "Spurenmaterial",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Punktebelohnungen in der Universum-Simulation",
+    "Namenlose Ehre",
+    "Glut-Tausch",
+    "Sternenlicht-Tausch",
+    "Belohnungen für zeitlich begrenzte Aktionen"
+   ]
+  },
+  "267805": {
+   "id": 267805,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ec233e43b828d3d0aaa069d3bb911a437404e6a0a34a358cdf134da8ad7fb0fa",
+   "name": "Sturmauge",
+   "desc": "Pfeile eines Sturmbringers. Material zum Aufstieg der Figuren mit Wind-Typ.",
+   "lore": "Gehörte einst einem gewissen Fragmentum-Monster, das einer bestimmten Sorte Leeren-Ranger nachempfunden war. Inmitten des Wirbels hat sich kaum sichtbar eine Pfeilspitze eingegraben.<br /><br />„Diejenigen, die im Fragmentum untergehen, werden an dem Ort wieder auftauchen, wo sie der Tod erwartet.“",
+   "purpose": "Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/267805",
+   "comeFrom": [
+    "Ruhender Schatten (Nietstadt)",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "e45d41312c347a0e92a83719307e7cad0367aa98023d7b4627daa452423892ca",
+   "name": "Lamento der Wächterin",
+   "desc": "Fortgeschrittenes Material zum Hochstufen von Spuren.",
+   "lore": "Nicht nur die Maske ist beschädigt, auch der Wunsch der Wächterin, die sie trug, wurde verzerrt.<br />Sie wollte ihrem Volk zur Flucht vor dem Immerwinter verhelfen, aber wurde schließlich zu einer Marionette höherer Mächte.<br /><br />„Der Titel der Obersten Wächterin wurde auf Belobog über viele Generationen vererbt. Niemand hat je daran gedacht, dass auch die Wächter selbst Fürsorge und Schutz brauchen.“",
+   "purpose": "Spurenmaterial",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo des Krieges (Immerwinterhügel)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Reiseführer",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>20.000</nobr> Figuren-EP.",
+   "lore": "Pflichtlektüre für Weltreisende. Auf Knopfdruck beginnt eine angenehme Stimme in der Sprache des Lesers von den legendären Erlebnissen berühmter Abenteurer auf diversen Planeten zu erzählen und ihr gesammeltes Wissen zusammenzufassen.<br /><br />„Die brandneue Reiseführer-Reihe ‚Das Handbuch für die galaktische Küche‘ ist jetzt erhältlich.“<br />„Einsendungen bitte per Telepathie über Synästhesie-Leuchtfeuer ERD<nobr>-23</nobr>θ an das Team der Intelligenzia-Gilde. Flexible Zahlungsoptionen.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Blütenkelch (Äußere Schneewüste)",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Vergessene Halle"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Abenteuer-Log",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>5.000</nobr> Figuren-EP.",
+   "lore": "Eine säuberlich organisierte Sammlung lehrreicher Notizen mit unzähligen Illustrationen und Texten, die diverse Abenteuer vom Anfang bis zum Ende beschreiben, sowie wertvollen Tipps und Überlebenstechniken.<br /><br />„Warum werden die Daten nicht in einer Foto-CD gespeichert? Wäre doch viel praktischer.“<br />„Moderne Technologie ist angesichts von Sternenstürmen und Neuronenfluss-Eruptionen viel empfindlicher, als man denkt. Außerdem hätte der Autor des Buchs sicher gewollt, dass man es auf die einfachste Art liest.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Blütenkelch (Äußere Schneewüste)",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Tägliches Training",
+    "Glut-Tausch"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Reisebegegnungen",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>1.000</nobr> Figuren-EP.",
+   "lore": "Ein unleserlich von Hand geschriebenes Reisetagebuch mit wirren Inhalten. Es nützt dir wenig.<br /><br />„Dan Heng, lies das endlich fertig, damit es in den Müll kann.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Blütenkelch (Äußere Schneewüste)",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Auftragsbelohnungen"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "28d0ba947e29fa63210d8ae2c432cb80339f98427c8655a9ca050184f69c4819",
+   "name": "Uraltes Teil",
+   "desc": "Zurückgelassene Maschinenteile aus der Alten Welt. Ein Rohmaterial zur Verstärkung.",
+   "lore": "So ein winziges Bauteil könnte in dieser hohen Qualität heute kaum mehr gegossen und geschliffen werden.<br /><br />„Eine kleine Schraube der Alten Welt hält mehr aus als unsere Rüstungen.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "Automatons",
+    "Universum-Simulation-Gegner",
+    "Auftragsbelohnungen",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch",
+    "Blütenkelch (Golden)"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7089e982e18575f3824ab28ae0e91f40c8214edf6253a7162142bdc7fc0acdbe",
+   "name": "Uralte Spindel",
+   "desc": "Eine zurückgelassene Maschinenspindel aus der Alten Welt. Ein normales Material zur Verstärkung.",
+   "lore": "Wurden diese Präzisionsbauteile einmal auseinandergenommen, kann sie niemand wieder zusammensetzen. Selbst die erfahrenen Mechaniker der Technologieabteilung von Belobog überlegen sich zweimal, sie anzufassen.<br /><br />„Du Depp! Von den Blaumänteln bekommst du dafür höchstens ein paar Konserven. Wenn du das Ding zu Boss Svarog bringst, hast du für eine ganze Weile genug Kleidung und Essen.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Automatons auf Balance-Stufe 2 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Universum-Simulation-Gegner",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "271b1f9a291c44b698190683f224996bae3b49e8e596c227b819b72c3a2b82dd",
+   "name": "Obsidian der Glanzlosigkeit",
+   "desc": "Ein aus dem All geborgenes Fragment aus Dunkler Materie, mit dem Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad der Nichtigkeit</span> ein wenig hochgestuft werden können.",
+   "lore": "Was es wirklich ist, ist für alle unergründlich.<br />Wenn du den Splitter berührst, hörst du ein undeutliches Murmeln.<br /><br />„████ ██ █ █“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Blütenkelch (Große Mine)",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4ef8700321d72ae07d3b931df6b9f6567d87f4035e2afed42d53e7c53aa09ceb",
+   "name": "Uraltes Triebwerk",
+   "desc": "Ein zurückgelassener Triebwerk aus der Alten Welt. Ein fortschrittliches Material zur Verstärkung.",
+   "lore": "Es nutzt Geomark als Energiequelle. Wenn es mit Energie versorgt wird, spuckt es wandernde Polarlichter, keine Funken.<br /><br />„Nur die Technologieabteilung, die direkt der Obersten Wächterin untersteht, hat Zugang zu Informationen über die Alte Welt. Ich habe meine Privilegien verloren, nachdem ich gefeuert wurde.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "Automatons auf Balance-Stufe 4 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Universum-Simulation-Gegner",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34d88252515cd13ab58b6f5aae7329794a4a330a0147e1c5f755c8a2f4444bff",
+   "name": "Obsidian der Besessenheit",
+   "desc": "Ein aus dem All geborgenes großes Stück Dunkler Materie, mit dem Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad der Nichtigkeit</span> stark hochgestuft werden können.",
+   "lore": "Wer in dieses Prisma hineinschaut und schwachen Verstandes oder Willens ist, wird für alle Zeit ins Chaos gestürzt.<br /><br />„         “",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Blütenkelch (Große Mine)",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1a896480b5f6ee84644db112069845e85930f6dbc0f428a3f8a6de2b187702af",
+   "name": "Obsidian der Trostlosigkeit",
+   "desc": "Ein aus dem All geborgener Brocken aus Dunkler Materie, mit dem Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad der Nichtigkeit</span> mäßig hochgestuft werden können.",
+   "lore": "Nichts spiegelt sich in der Oberfläche dieses schwarzen Prismas. Es scheint nicht nur das Licht komplett zu absorbieren, sondern auch die Emotionen seines Trägers, sodass nur Leere zurückbleibt.<br /><br />„...“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Blütenkelch (Große Mine)",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 84,
+   "attackAdd": 4.2,
+   "hpBase": 139.2,
+   "hpAdd": 6.96,
+   "defenseBase": 54,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 117.6,
+   "attackAdd": 4.2,
+   "hpBase": 194.88,
+   "hpAdd": 6.96,
+   "defenseBase": 75.6,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 151.2,
+   "attackAdd": 4.2,
+   "hpBase": 250.56,
+   "hpAdd": 6.96,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633349,
+     "count": 5
+    },
+    {
+     "id": 267805,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 184.8,
+   "attackAdd": 4.2,
+   "hpBase": 306.24,
+   "hpAdd": 6.96,
+   "defenseBase": 118.8,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633349,
+     "count": 8
+    },
+    {
+     "id": 267805,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 218.4,
+   "attackAdd": 4.2,
+   "hpBase": 361.92,
+   "hpAdd": 6.96,
+   "defenseBase": 140.4,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717290,
+     "count": 5
+    },
+    {
+     "id": 267805,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 252,
+   "attackAdd": 4.2,
+   "hpBase": 417.6,
+   "hpAdd": 6.96,
+   "defenseBase": 162,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717290,
+     "count": 7
+    },
+    {
+     "id": 267805,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 285.6,
+   "attackAdd": 4.2,
+   "hpBase": 473.28,
+   "hpAdd": 6.96,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "4ebb851ddf868280741649cf966895c50f0edce29dfabc5addc06d5391742a56",
+   "artPath": "4d2564c9e33a2d00b8c78221f64f698b96fdf114593b5241976f11436c2af790",
+   "name": "Aufsteigende Liebe",
+   "descHash": "Die Fertigkeit fügt einem zufälligen Gegner zusätzlich <nobr>#1[i]</nobr>-mal SCH zu.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "82dd33a52bfa950fc38ac0b30b0157bedfe8e25c782d6ce3bdc48c8b0c1aa3b2",
+   "artPath": "3f7aed2227fdb37d108d236186b957e2fbb42daa7574bec1e27972012895012c",
+   "name": "Ansteckender Enthusiasmus",
+   "descHash": "Wird ein von Windscherung betroffener Gegner besiegt, besteht eine Grundchance von <nobr>#1[i]%</nobr>, bei allen Gegnern <nobr>#2[i]</nobr>-mal Windscherung gleich Sampos Talent zu verursachen.",
+   "params": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "3bfc86206b2bff7f6507f4e1591db860de5899e8a7a354e035f2fc55a7431095",
+   "artPath": "e1cbdfd70a7fa978bb88a8f573fe37313d00b13db7a8aee61ba940493415b95c",
+   "name": "Große Summe!",
+   "descHash": "Fertigkeitsstufe +2 bis max. St. <nobr>15</nobr>. Standardangriff-Stufe +1 bis max. St. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "e16ef053d7a4a5387a3cc0a1c1a7e48fa2f4f4caf7b41532dc97df2430d2acbc",
+   "artPath": "ca0cf8f8bd394fb869301c9e095d28386797490a52b49b03ce4dbdb6545ff4da",
+   "name": "Je inniger die Liebe, desto stärker der Hass",
+   "descHash": "Trifft die Fertigkeit einen Gegner mit min. <nobr>#1[i]</nobr> Stapelungen Windscherung, verursacht die aktuelle Windscherung sofort <nobr>#2[i]%</nobr> des ursprünglichen SCH.",
+   "params": [
+    5,
+    0.08
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "8c751741e45b8edf51a249e91d66c3075b3f9c143431d67bbb37fcb6d5b8a320",
+   "artPath": "51117295296e0c36bc855a6b75f6381265bc73a39973b7de4502a741433f91df",
+   "name": "Riesensumme!",
+   "descHash": "Ultimate-Stufe +2 bis max. St. <nobr>15</nobr>. Talentstufe +2 bis max. St. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "fa3fb7999580a48d73022e7f4d33ca2bfa2f9fbe0f8303d2ccf3a889a7d68e8a",
+   "artPath": "80a677ede27b7372dd0324c0657abdf7d88b1b78ee5beff55dcf03b954ba4634",
+   "name": "Erhöhte Ausgaben",
+   "descHash": "Erhöht den SCH-Multiplikator der Windscherung durch das Talent um <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.15
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   849349
+  ],
+  [
+   933290
+  ],
+  [
+   49935
+  ],
+  [
+   364236
+  ],
+  [
+   648763
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Einzelangriff",
+   "descHash": "Fügt einem anvisierten Gegner <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Sampos ANG zu.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 849349,
+   "name": "Schwirrende Klingen",
+   "iconPath": "814868b992cacc47cb23e78d11d82d2e0675d87eaaeee9ec8e5353d412fe07c1",
+   "typeDescHash": "Standardangriff",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Abprallung",
+   "descHash": "Fügt einem anvisierten Gegner <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Sampos ANG zu und verursacht zusätzlich <nobr>#1[i]</nobr>-mal SCH. Jeder Treffer fügt einem zufälligen Gegner <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Sampos ANG zu.",
+   "ultimateCost": 0,
+   "break": "30 + 15/subsequent",
+   "energy": "6/hit",
+   "id": 933290,
+   "name": "Zurückprallende Liebe",
+   "iconPath": "3bfc86206b2bff7f6507f4e1591db860de5899e8a7a354e035f2fc55a7431095",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      4,
+      0.28
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.308
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.336
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.364
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.392
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.42
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.455
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.49
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.525
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.56
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.588
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.616
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.644
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.672
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.7
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Flächenangriff",
+   "descHash": "Fügt allen Gegnern <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Sampos ANG zu und hat eine <u>Grundchance</u> von <nobr>#4[i]%</nobr>, den erlittenen DoT des Ziels für <nobr>#3[i]</nobr> Rd. um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> zu erhöhen.",
+   "ultimateCost": 120,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 49935,
+   "name": "Überraschungsgeschenk",
+   "iconPath": "f819b36079937200cc9d6c25d5c547933e526e427ab1380c5b0d87fe638bde11",
+   "typeDescHash": "Ultimate",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.96,
+      0.2,
+      2,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.024,
+      0.21,
+      2,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.088,
+      0.22,
+      2,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.152,
+      0.23,
+      2,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.216,
+      0.24,
+      2,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.28,
+      0.25,
+      2,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      0.2625,
+      2,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      0.275,
+      2,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      0.2875,
+      2,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      0.3,
+      2,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.664,
+      0.31,
+      2,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.728,
+      0.32,
+      2,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      0.33,
+      2,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.856,
+      0.34,
+      2,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92,
+      0.35,
+      2,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Verstärkung",
+   "descHash": "Sampos Angriffe verursachen mit einer <u>Grundchance</u> von <nobr>#1[i]%</nobr> für <nobr>#3[i]</nobr> Rd. <span style=\"color:#00FF9C;\">Wind</span>scherung. <br />Davon betroffene Gegner erleiden zu Beginn jeder Runde <span style=\"color:#00FF9C;\">Wind</span>-DoT in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Sampos ANG. <span style=\"color:#00FF9C;\">Wind</span>scherung ist bis zu <nobr>#4[i]</nobr>-fach stapelbar.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 364236,
+   "name": "Windzerschlissener Dolch",
+   "iconPath": "c832163313873c08c2e893565ad541cca8de746dacb83977926a1698cf9828b9",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.65,
+      0.2,
+      3,
+      5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      0.22,
+      3,
+      5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.24,
+      3,
+      5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.26,
+      3,
+      5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.28,
+      3,
+      5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.31,
+      3,
+      5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.35,
+      3,
+      5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.4,
+      3,
+      5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.46,
+      3,
+      5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.52,
+      3,
+      5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65,
+      0.546,
+      3,
+      5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      0.572,
+      3,
+      5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      0.598,
+      3,
+      5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      0.624,
+      3,
+      5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      0.65,
+      3,
+      5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 564822,
+   "name": "Angriff",
+   "iconPath": "814868b992cacc47cb23e78d11d82d2e0675d87eaaeee9ec8e5353d412fe07c1",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Beeinträchtigung",
+   "descHash": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich <nobr>#1[i]</nobr> s lang geblendet. Die Verbündeten sind für geblendete Gegner unsichtbar.<br />Greift man einen geblendeten Gegner aktiv an, besteht eine <u>Grundchance</u> von <nobr>#2[i]%</nobr>, die Aktionen aller Gegner um <nobr>#3[i]%</nobr> zu verzögern.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 648763,
+   "name": "Helles Leuchten",
+   "iconPath": "13a2be3b23091c5de685017f3b96df1a9e8924a8789020c3d336818fb485f091",
+   "typeDescHash": "Technik",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      1,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1108102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1108206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1108207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 286061,
+          "name": "ANG-Verstärkung",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+          "statusList": [
+           {
+            "key": "ANG",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717290,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 286060,
+        "name": "Effekt-Trefferrate-Verstärkung",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+        "statusList": [
+         {
+          "key": "Effekt-Trefferrate",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717290,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 286063,
+      "name": "ANG-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ANG",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633349,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Stellt beim Einsatz des Ultimates zusätzlich <nobr>#1[i]</nobr> Pkt. Energie wieder her.",
+    "ultimateCost": 0,
+    "id": 285971,
+    "name": "Defensivstellung",
+    "iconPath": "238e15cf1149dc104ec2074aa9f9edd9519f7f7664ad53fb30d43df04ddade02",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       10
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1108103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 286074,
+      "name": "Effekt-WDS-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "Effekt-WDS",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1108209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 286075,
+      "name": "Effekt-Trefferrate-Verstärkung",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "Effekt-Trefferrate",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Von <span style=\"color:#00FF9C;\">Wind</span>scherung betroffene Gegner fügen Sampo <nobr>#1[i]%</nobr> weniger SCH zu.",
+    "ultimateCost": 0,
+    "id": 285970,
+    "name": "Mehr Würze",
+    "iconPath": "643cd6bb09c98a57a3f64074325ff7983c4de4ac3b432a9365269d7201641597",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1108201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1108210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 370007,
+      "name": "ANG-Verstärkung",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ANG",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 286067,
+    "name": "ANG-Verstärkung",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ANG",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549408,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1108101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1108203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1108204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 286062,
+          "name": "Effekt-WDS-Verstärkung",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+          "statusList": [
+           {
+            "key": "Effekt-WDS",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633349,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 286065,
+        "name": "ANG-Verstärkung",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ANG",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633349,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 286064,
+      "name": "Effekt-Trefferrate-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "Effekt-Trefferrate",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549408,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Verlängert die Dauer der <span style=\"color:#00FF9C;\">Wind</span>scherung durch das Talent um <nobr>#1[i]</nobr> Rd.",
+    "ultimateCost": 0,
+    "id": 285968,
+    "name": "Falle",
+    "iconPath": "638218d29b1fca5b3e5004fd44c4478853cf761529241e84bfc14323921fe2c0",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Körper",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "ANG",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "Füße",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "GES",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Planarsphäre",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "Wind-SCH-Erhöhung",
+    "propertyIconPath": "6ed4c20b424ce99fc080b98f339acbf6535738e14c8d8e649ec3e1e286b348fa"
+   },
+   {
+    "relicTypeHash": "Verbindungsseil",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ANG",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Erstes Treffen",
+   "text": "Hey, Trailblazer! Mit Sampo Koski an deiner Seite hast du einen Geschäftsmann, einen Fremdenführer und einen problemlösenden Konversationsexperten in einem! Ein ziemlich guter Deal, oder?",
+   "unlockRequirement": "",
+   "cnUrl": "dc9f99114d95ae521628f2c97d9ec16b96ccbb405a3047a499071c05ee997443",
+   "jpUrl": "d0651ed6f7864548deecdd63c609642c8010efd690db3f66ffe4145b1f3c401e",
+   "enUrl": "0db18f239ece894b4519ca47e8fc5a4c786f04492725ef19626f486adcd61884",
+   "krUrl": "6fd21081cacd166a88b6b0f316bc0ca30fe4b067756d719f2264c6a9a2340552"
+  },
+  {
+   "id": 2,
+   "title": "Begrüßung",
+   "text": "Also, was ist dieses Mal die Aufgabe? Wenn du das Geld hast, habe ich die ... Kein Geld? Kein Problem! Haha, sag einfach Bescheid, Kumpel ...",
+   "unlockRequirement": "",
+   "cnUrl": "44d7e648e7769f97eeeb02b9c3eae9e7add9b18a9072b4408ff4f423fc4c959e",
+   "jpUrl": "6e87519cf66baaa7423b24e6c1741015dcf24e11db03b26e8270c729b5a6b12f",
+   "enUrl": "71292ca2fc668261ab5375cbd82a786c55b16c12bdc7a0b9796d386b596aaab1",
+   "krUrl": "ed203553e597fd5d992d6535c1c6a387a02f0294150e9baa039ffc1c8350e113"
+  },
+  {
+   "id": 3,
+   "title": "Abschied",
+   "text": "Komm schon, ruh dich endlich aus! Was ist denn mit dir los? Ich gehe nirgendwohin.",
+   "unlockRequirement": "",
+   "cnUrl": "4726aa8e8466cc40346a5467da7717a1aa3f475899c859462705b5be20880eb5",
+   "jpUrl": "6e5e7eceecc7c3e6d5f970b934336e5c902929d13a95d9c312994ed9b8c323dc",
+   "enUrl": "a0133bb7594201de3b1d94e7232d5d98d7047ab6a313866d22d480584c9891f5",
+   "krUrl": "cf3384c1589ea885d3051dec90f56545d3ccbd4d3bb999bb1e92771edfc5822d"
+  },
+  {
+   "id": 4,
+   "title": "Über sich selbst",
+   "text": "Ich? Ich bin nur ein unkomplizierter Kerl, der sich um den kleinen Mann kümmert – kostenlos, wie ich hinzufügen möchte –, der irgendwie in die Angelegenheiten aller anderen hineingezogen wird, ohne etwas vorzuweisen zu haben! Wie ich schon sagte, ich bin ein ruhiger Typ.",
+   "unlockRequirement": "",
+   "cnUrl": "e30b0838f7201a8e43593d142478027ea259223b51e3a4e03485a12491eab24a",
+   "jpUrl": "c30854d591d12bad1f2ddcfd84aa00bfc3169c690985efc29094473075b13ddf",
+   "enUrl": "3a9cace714ab0c704fb70a3f4b22d522f5ce386ec99b65054960a6230cb7e469",
+   "krUrl": "9de6f5062226ce1b380237628019ce476094268540a341f6b61863b05b2c2b17"
+  },
+  {
+   "id": 5,
+   "title": "Plaudern: Informationen",
+   "text": "Wenn man sie richtig verpackt, kann man ein und dieselbe Information an verschiedene Personen verkaufen! Das, mein Freund, nennt man „Gewinnmaximierung“.",
+   "unlockRequirement": "",
+   "cnUrl": "32fd9bf09d34aef9d5520269da81dfb9402acbd9684bb0b249ed34f53dc28aa9",
+   "jpUrl": "9872ea4e6f30aa8d55d5e968d557f698dc3d2c5aa7b853635d7c62c1329ac23d",
+   "enUrl": "547ee979428387914861102469b3c2dd8d465260d60b8f86efd12dd3d8cfdbd8",
+   "krUrl": "c72bdc8c138accb8f745bcfc5329c0a4a73889f0d74ace9bbc8e02998c3d4475"
+  },
+  {
+   "id": 6,
+   "title": "Hobbys",
+   "text": "Ich glaube fest an den Spruch „Small Talk bringt große Kunden“.",
+   "unlockRequirement": "",
+   "cnUrl": "ca84e15dc0c5bbd69214c7f223b9f629daa8bc6f9ad93d6d9093c95cf8cdd04d",
+   "jpUrl": "d34ea7301b34e74ed322abfb06febfc1c4cac004b5a393235009d3dd1f4e8740",
+   "enUrl": "cbd3f44962ec9adad43687d3084619487e1edc72b9903a2df16c7f91586b16d9",
+   "krUrl": "c1640f391a38f2edd6ea8e41392f9153382ead28b18548c36ad0487eb3183c3d"
+  },
+  {
+   "id": 7,
+   "title": "Ärgernisse",
+   "text": "Ich verkaufe Dinge, die die Käufer kaufen wollen, und sie nennen mich einen Betrüger! Das ist ungeheuerlich!",
+   "unlockRequirement": "",
+   "cnUrl": "e083f65d13425499d8eee02450c77b3aeb220926bd4e27d95ad6728c975a6686",
+   "jpUrl": "37983440a1151108e0c324bdc0e015a8de9c5007b3c8aaf7a6cd9110873cf6b1",
+   "enUrl": "790d5c5e376ad5fb9b035152f10b87f3d4f42c5c30979c74bf9027a94bd535b5",
+   "krUrl": "6e9da7f76b069287aa2de483cafb654fa610ac4b15141c2353144b30122da08b"
+  },
+  {
+   "id": 8,
+   "title": "Etwas Mitteilenswertes",
+   "text": "Man sollte meinen, dass die Menschen an einem so isolierten Ort wie Belobog eher bereit sind, zu teilen, was sie haben. Nun, es ist genau das Gegenteil der Fall. Und ich bin mehr als glücklich, dieses Defizit auszugleichen.",
+   "unlockRequirement": "",
+   "cnUrl": "37096ef3482cb97319373e302cf741eff5e972717143e72dc10e73792137119c",
+   "jpUrl": "8e52aeb81beb6d5aebc9c211d3db8994c3f29d7aa76e422e4235da8b4c98386d",
+   "enUrl": "028eea714ef8e3ee785df8b1a6330499178214b1c52eb1f0bf257faa5ce5de49",
+   "krUrl": "67d2777a18965ed6e0a179409721fd35ac6927d9c74accc8fd566bc6f649f3ec"
+  },
+  {
+   "id": 9,
+   "title": "Wissen",
+   "text": "Kommt schon, wie seid ihr mitten in der Schneewüste gelandet? Mit einem UFO? Lasst mich raten, ihr habt den Zug genommen, haha. Aber mal im Ernst ...",
+   "unlockRequirement": "",
+   "cnUrl": "69ad1a786bd4496f0d495cf6c6ffe7a3b8a9eacedc64afa7133f9a0ef6063f66",
+   "jpUrl": "6db31ee687d74c9f76804fcb048f009a1e8f0b85241131676446b3800fd30cdf",
+   "enUrl": "328955442d8755fcb05036fd9972a160cd3882aa44a8911a6a59254e59ade1ab",
+   "krUrl": "2b4b0f9a685097196ba8fd6d0c83c35557f826593bcabf3c8ae6d17cef4ec8fb"
+  },
+  {
+   "id": 10,
+   "title": "Über Natasha",
+   "text": "Als ich das erste Mal in der Unterwelt war, brachte ich Natasha die Medikamente, die sie brauchte. Das ging eine Weile so, und dann waren es bald Medikamente und Informationen. Du weißt ja, wie sowas läuft.",
+   "unlockRequirement": "",
+   "cnUrl": "2a9fe81052a66682d373db6dc10fa63781a06d88ee259cb53fb90faab92b95d5",
+   "jpUrl": "0ac8b093a00510a0abcef0b098dee36a711629bf7429e5e2a40e6761d09a745d",
+   "enUrl": "155b70785116b8df1a8472d425ee1fc46ebe5569f09f2253d7fb7932c5535eb7",
+   "krUrl": "4eb74ef8047d20e85939765694b08fc5cfebf9bab1486606e709d940a77e4bb5"
+  },
+  {
+   "id": 11,
+   "title": "Über Svarog",
+   "text": "Wenn es jemandem da draußen gelingen sollte, ein Geschäft mit Svarog abzuschließen, hat er meine aufrichtige Bewunderung verdient!",
+   "unlockRequirement": "",
+   "cnUrl": "a6143bbe47e88a3200bd3523eb48bafe22358b59a0bb1d35c694d94fc1cd389a",
+   "jpUrl": "5b700e2653114afc91bdb18fa96140a87a92e6f6af1bfa0baf83a640c415d3be",
+   "enUrl": "36f8ba3b0fde0d4753666ed0bd5a8f41768b35f73255447e0e7fed54eb32c5c4",
+   "krUrl": "107538f5a183e634406366df5a8882ee569c56a1192a64b2fb73e5412c115f8c"
+  },
+  {
+   "id": 12,
+   "title": "Über Clara",
+   "text": "Unser kleines Mädchen in Rot ist wirklich beeindruckend. Wie hat sie es geschafft, dass dieser riesige Blechkopf ihr zuhört?",
+   "unlockRequirement": "",
+   "cnUrl": "17b1b4066179ee4e7bf0fc7cc1f93ea6fd0c30918546a2e2604d03b5e90a86b1",
+   "jpUrl": "4e0e36eb5c2e6239d0a18aad8e1f239ef1ab2979f5cca2e9291a213f3d5f6a07",
+   "enUrl": "32a17ad4f7d02692a2dbd65afa4f582044e5031d4fd9dc5964523c04d8974cef",
+   "krUrl": "4ca7a52f5e986719a74a36d8ee97348f61c42634f56b96bb02f2cd58374cb963"
+  },
+  {
+   "id": 13,
+   "title": "Über Seele",
+   "text": "Wenn es nach ihr ginge, würde Fräulein Seele weniger Zeit damit verbringen, mich anzuschreien, und mehr Zeit damit, mich zu schlagen. Kann mir jemand erklären, womit ich das verdient habe?",
+   "unlockRequirement": "",
+   "cnUrl": "8c60fe4a10d650e2472db1298c814640916b10fa614bfd767d4a80cab21d51e1",
+   "jpUrl": "4e5ed9d625594f3138d3112ec95600562689a22a2c6f9b2565815e97f00e95fc",
+   "enUrl": "b64a1e424db3033e0b619c53f2311a3078a8c1ee25d60273f966bc0500d75317",
+   "krUrl": "5b5d5a34b5e5350e7536e9277f12978cd53d5f8e419b3bffb748405c8ac64fe3"
+  },
+  {
+   "id": 14,
+   "title": "Über Gepard",
+   "text": "Ah, wir sehen uns ziemlich oft. Normalerweise renne ich weg und er rennt mir hinterher. Ich muss sagen, dass ich allmählich anfange, die Aufmerksamkeit zu genießen, hehe.",
+   "unlockRequirement": "",
+   "cnUrl": "39755b7dffca24d49d0d1afd33b066adefeabc2f1b5ad5ed70a28859f3cdacad",
+   "jpUrl": "41421af457ce72ceca26299ac9418a945de2aa27019b3024f032432e207097a8",
+   "enUrl": "151c29dd1a2ef3deb760a34aa5549f641a2c457ab9c8160d1ab99718ba5b5447",
+   "krUrl": "e63e44e03829746eaad3fa3dd3c26856a208578c6bce15160e0c963e24326e51"
+  },
+  {
+   "id": 15,
+   "title": "Über Serval",
+   "text": "Wir waren mal gute Kumpel, aber jetzt ... Sagen wir einfach, ihr Bruder hat ein schlechtes Wort für mich eingelegt.",
+   "unlockRequirement": "",
+   "cnUrl": "ee1cfd155f61922b16aa95b5cf23759d41f43e5e654ecedf84df33dac28e75f7",
+   "jpUrl": "15270a1613ae747d98ce76ca5f1765301206bf69bf5c7d8f0c3a41a231805808",
+   "enUrl": "ab8ac6d772c46ff1cb67f55882a4a965659c656dbc00f305e58996f20d486075",
+   "krUrl": "fc90a1340fee2462c278f8ffb8611ed561755554b1d74cf27728decd2581dd7e"
+  },
+  {
+   "id": 16,
+   "title": "Über Bronya",
+   "text": "Mein einziger Wunsch ist es, die zukünftige Oberste Wächterin kennenzulernen. Jede Kontaktaufnahme ist mir recht, auch eine schmerzhafte!",
+   "unlockRequirement": "",
+   "cnUrl": "49103cf939dc19dcf9a5e41c87e6d3d2f37c6dc0f8aa6796f197d9fcf105dca2",
+   "jpUrl": "11b9ab86d5735a562877e37a6f661ff9e98b12ce084bc8313a5b2565b4038f20",
+   "enUrl": "63bee9e9837f5123b234f4b3e508bb60a15cc1330a6ec8e15fbbf971fc77821e",
+   "krUrl": "732cb5c9f3ec726b53b62e40da7677a98457321212927e77c66d6839ddd9de4b"
+  },
+  {
+   "id": 17,
+   "title": "Über Luka",
+   "text": "Hast du ihn beim Boxen gesehen? Viele Unterweltler haben dank ihm viel Geld verdient! Leider gehöre ich nicht dazu ...",
+   "unlockRequirement": "",
+   "cnUrl": "91705b576626d9f79a5ce0df45b2297dce0abd9556f8a49f45d11398544e3ff1",
+   "jpUrl": "a22902015b639da5cc1b2e5a941292f109bc9f5215ca30297bcb9aa1a09d8e30",
+   "enUrl": "6a7e539131e718fd9f0e8ab6198c48188a697070c15ffdf9d5d8f3f0c8c1b311",
+   "krUrl": "8250af81f2468189f9172f18fefaeee5195d5d8ac9803134ab3aef69451bdc3f"
+  },
+  {
+   "id": 18,
+   "title": "Eidolon aktiviert",
+   "text": "Jeder hat eine interessante Vergangenheit, findest du nicht auch?",
+   "unlockRequirement": "",
+   "cnUrl": "04c86d64ec77d33c52c3e63930f2bd4b6e7c696faf1b22e5c20da9e642ee2906",
+   "jpUrl": "cb955ce553327a726726e4810be468b136eb58cb7aa508823563a65a831c9295",
+   "enUrl": "c2119c0f2766b14cd2fc5cd444be2065ee84e4b0b7e85947b2c2f9ab86c5f4e2",
+   "krUrl": "53e6d486b4b5617aac096c23beceb34b1e7896e651c76455a9d97052f5cdc466"
+  },
+  {
+   "id": 19,
+   "title": "Figurenaufstieg",
+   "text": "Doppeltes Gehalt, doppelter Service!",
+   "unlockRequirement": "",
+   "cnUrl": "f773e9a315963e1ad3552a00e526614cf36f93963fbfafe8058e3b5367dde716",
+   "jpUrl": "bea8d5dbcc39d4c8dd5753f1375cc867765b25d11200cb37f02299f0c2ffb10b",
+   "enUrl": "dce4621899006e7fea940a83f15195f1a4345b0bbca24522becc8bec8227c61b",
+   "krUrl": "9c36ed79f30120498b012cbe3bbc55f10a22d77a1a0956d0f6357136c108b3b2"
+  },
+  {
+   "id": 20,
+   "title": "Höchststufe erreicht",
+   "text": "Das war’s? *seufz* Dabei hatte ich gerade erst angefangen ...",
+   "unlockRequirement": "",
+   "cnUrl": "8e93468728f899cb98fb5719881fd814f569f3b1fc89d8eaf7ce4c1adbd489d6",
+   "jpUrl": "1fc11b4c41a995376aea741b00c5bf860b4e0b69fa4715bc2ac1da9a7e828eaa",
+   "enUrl": "5e6e03078ba3fcdbb82c9343128840a6a7e80ef13362934e46bb14cd986b4053",
+   "krUrl": "1acbc0a2a5cdb126be67940660869ac7b263e6e1ff033cd8dc6b9eee16e2fd21"
+  },
+  {
+   "id": 21,
+   "title": "Spur aktiviert",
+   "text": "Eine kluge Entscheidung! Ich werde dich nicht enttäuschen.",
+   "unlockRequirement": "",
+   "cnUrl": "f2fc50ca5057e4b8659439741794755e242ef18d83c7f3791daf38c970f0803a",
+   "jpUrl": "3e38e2db9be2f9fec956f2eeab4a64772440d12dd6d9d338c4bc76aae7c978ad",
+   "enUrl": "b1d4f86319a6aabb64952551c9b3031538397e9b56fb3f817e0833818ed9c98a",
+   "krUrl": "7e8bb23809b7c0f5d016be1d4f3e1386c4ce6b76a911fba5f794b178161f082c"
+  },
+  {
+   "id": 22,
+   "title": "Teammitglied: Natasha",
+   "text": "Natasha! Ich dachte, ich schulde dir einen Gefallen ...",
+   "unlockRequirement": "",
+   "cnUrl": "b111ef28d2d31dd12d46f978157abcc1bacf0d94e0973cfa11ae3b8b61be89e0",
+   "jpUrl": "d35f86fb975b6ceb847a8ce3dbf0bb0a25bfaf79d7cd2a13ed6b9f5746643c8f",
+   "enUrl": "6cbf2913239d79fb91346804de288be6e1d355f5084e340664f8c12b0b8bbc3d",
+   "krUrl": "b28a6849439bc6f9c1f760a56ea134eaa0e8054aefad4446c28c7457694389f9"
+  },
+  {
+   "id": 23,
+   "title": "Teammitglied: Hook",
+   "text": "Hook ...? *seufz* Sieht so aus, als würden wir mit harten Bandagen kämpfen.",
+   "unlockRequirement": "",
+   "cnUrl": "cae99160394b076cf90f73d689fabff564dc72493b8620f8a692b22e4dcee0f7",
+   "jpUrl": "fa6f6bde363b07e236ae6d81f4c519c196322f0e3a5c402e0944c80872b00ad8",
+   "enUrl": "91919517e7ccf529ade3efefe2eeb258e82d6f0829b77297125c35840880e321",
+   "krUrl": "a2ff407b77ba77bb214f3305b6fe97d6f71317571b5f914950de82f6d6cdb3e6"
+  },
+  {
+   "id": 24,
+   "title": "Teammitglied: Seele",
+   "text": "Keine Sorge, Fräulein Seele! Ich gebe dir Rückendeckung!",
+   "unlockRequirement": "",
+   "cnUrl": "4f6c02f0b04eb816d25f0d5e7689f89245f1f91aebe769672dfb959ad6dbc60c",
+   "jpUrl": "4d13ff9d24d3a9996f77c42f9cfde1f4e109c3db710789fbfa175569cd76e7b1",
+   "enUrl": "0c81546196da973962b072c9e39a7717aadc43a5583eb98d77d3558d1b0681e1",
+   "krUrl": "7c60c3a5cc5798a441ce595918054f764b192c25cda5a87cd2068282dd4be042"
+  },
+  {
+   "id": 25,
+   "title": "Teammitglied: Trailblazer",
+   "text": "Ha! Immer eine Ehre, die Trailblazerin/den Trailblazer an meiner Seite zu haben!",
+   "unlockRequirement": "",
+   "cnUrl": "6ae3767de7e6c982304b9ff8df9cd2e4d51c8cc9d95128e5374072bfe0177332",
+   "jpUrl": "9b8dd978ad0395df7909599a7b981aae8bd0cfba90896e48ce87fd57995fa5a6",
+   "enUrl": "45d79cdd2aeb6e77212e7f64a237e86230491da779d10fdd02b8115b4b953c79",
+   "krUrl": "4c51436051d81ce87ed6f3f947a9cd9591b19824864fde349751c2b72e94cf14"
+  },
+  {
+   "id": 26,
+   "title": "Teammitglied: Sparkle",
+   "text": "Wie immer: Niemandem in den Rücken fallen, ja?",
+   "unlockRequirement": "",
+   "cnUrl": "b37dfe9a4637bd031d0759e143dd4d5c1406d01d006685b1c37eb80ef4e06fd4",
+   "jpUrl": "834564d0e4ef6991ac88446d1503cc4f65dc38494e3105ad36e40718f4bd5738",
+   "enUrl": "0f31c68e40d4e3480375d25d2926326111c443f93fd6edd57de863e02462e574",
+   "krUrl": "79e8ecf3754f837ba15acb7a983dd93fcd8fd2766293b90a4b1ec31212d34667"
+  },
+  {
+   "id": 27,
+   "title": "Über Sparkle",
+   "text": "Du denkst, du hast sie durchschaut, was? Genau das will sie doch! Glaub mir, sie ist so gerissen, dass sie sich selbst überlisten könnte.",
+   "unlockRequirement": "",
+   "cnUrl": "29c41971b75f39e31685608a7b73115e4a9fb29ffe59dfcc37bade7718fea894",
+   "jpUrl": "d7c4f3045ec32e72a165cef07a7b41faf79e6793e333bc9b78089612ff37810d",
+   "enUrl": "62c897e1c507a8e9fecbaf6782a8693f7ba36c714b4f9af9cccebec0e4926644",
+   "krUrl": "70d6d2b6a706e89ce3f31307a2a0399a2c239d6ae6e01064cb47935b2d2a60d0"
+  },
+  {
+   "id": 51,
+   "title": "Kampf beginnt: Schwächebruch",
+   "text": "Wir haben doch bloß ein wenig Spaß.",
+   "unlockRequirement": "",
+   "cnUrl": "86c83f15c38037e13cd779227e09131e79def3142368b44149e474d50723112a",
+   "jpUrl": "6e1b804af60b0237944fc14a1b071db10f02737742fe97b46e257c4a123dae2e",
+   "enUrl": "02a44e8a1ef169bdabb6272a37a8793ad4cd15e27cf41741d63e07c82605cc66",
+   "krUrl": "9eebdcc1a0ed9c92b21783925d8106be3cd2fa56d8649d7f8601cd4d24cef0b4"
+  },
+  {
+   "id": 52,
+   "title": "Kampf beginnt: Gefahrenwarnung",
+   "text": "Umso stärker, desto besser.",
+   "unlockRequirement": "",
+   "cnUrl": "bfbdb39e5dfc704e529b0a4de9af6f8da84c90c063f76593fc5433865cf4fe81",
+   "jpUrl": "a8d1206b6c84292be9b7c71b67393362135fb0f3834f7b3143d0c4f6bbb67551",
+   "enUrl": "8c42c6739d78ee3e553fae00cc8b6318468cba14391203cd1a356a62e6a85a42",
+   "krUrl": "78efea235ab2e730643168964cdd3cd8e6a50144b2f3dcd5c6e858331827a455"
+  },
+  {
+   "id": 53,
+   "title": "Runde beginnt 1",
+   "text": "Sampo Koskis Hauptanliegen ist es, sich um seine Freunde zu kümmern.",
+   "unlockRequirement": "",
+   "cnUrl": "50561c16fc7e545f47750bfb8c1dde143e5bb06e1a5f52dab22085764beb0db2",
+   "jpUrl": "71e7fef7a70b813a54dc50c81f362516e75f9c17310421290e97dd5b55032ae6",
+   "enUrl": "4377ec25c6116d2b20cd583ecf61804d1a6ebd059030e279eb68932bf1a8cf8b",
+   "krUrl": "8472fd6955f47bc37e2673da0766706a55f8a2132b5de1b9c6fcb8b67eb3b1cf"
+  },
+  {
+   "id": 54,
+   "title": "Runde beginnt 2",
+   "text": "Es klingt, als würde da noch mehr Geschäfte kommen.",
+   "unlockRequirement": "",
+   "cnUrl": "9e0d03eb938eaaeec8d795c0b3fc7e63e7e443ffa05fcf1de0b24a2fea132c18",
+   "jpUrl": "476372a8cff9caf43c5d708679d95bad1c55894eba7de63eb538406a17db553f",
+   "enUrl": "c08274afa0455cbcbc58f61354013f1f75e4a71d9db3dd164c24a5de2c1c7503",
+   "krUrl": "1ec711242fb9b976e507fcf10fb6fc9cc35dc3f56aec404290946d87d4b54232"
+  },
+  {
+   "id": 55,
+   "title": "Warten auf Runde",
+   "text": "Warum versuchen wir nicht etwas Neues?",
+   "unlockRequirement": "",
+   "cnUrl": "0d7fcd60b372ed8b690c857d487111468b5cdde1075abae6bb74f9f455f8b796",
+   "jpUrl": "50309809eae4185977223c94eb82f9dff4b03ebeaee6bf98933f85f6f043270e",
+   "enUrl": "ec87ec70a3a113cbf28ad7e8a0a929fb93124e81fdfb23579f3e5aa9f1d9097b",
+   "krUrl": "23352fdaacca20592b674f9191fe39be9c59b2f31333c8a3603c222f4245232d"
+  },
+  {
+   "id": 56,
+   "title": "Fertigkeit",
+   "text": "Wie wäre es damit?",
+   "unlockRequirement": "",
+   "cnUrl": "5932f753bdc44ddbfce227788d282ff34e11b2defa2e4e83faa91c9d0f207370",
+   "jpUrl": "6f245c8aca20860d2d06a8b1fbf9df9090d136e22a4205e21bf88dc07fdbaa00",
+   "enUrl": "1ffeb30faa903ece686f300f0d4c3b51c188e258038d7e8a863613f23f399a67",
+   "krUrl": "0ea76260ffed7b002f5f8005556f0844a5e15f5a91be81a263584f52d0de4041"
+  },
+  {
+   "id": 57,
+   "title": "Leichten Treffer erlitten",
+   "text": "Oooh, autsch ...",
+   "unlockRequirement": "",
+   "cnUrl": "513e67ae31568cf359325e53c9baa3fa106f00da00a7fdecd97fb876f79e5f38",
+   "jpUrl": "19f1af83a7707b2dfbeec2c70f3a7a58dc8229d25410828e082bd437d36e1867",
+   "enUrl": "f27447c53fa4929dad66241bd3c4833c9f479f1d568ca160d4a638d532872b6f",
+   "krUrl": "ed1387fdd13d6e257aa83f0bd62e48a1850a7013eabf5644a6e99f193373eb37"
+  },
+  {
+   "id": 58,
+   "title": "Schweren Treffer erlitten",
+   "text": "Hey! P... Pass auf, nicht das Gesicht!",
+   "unlockRequirement": "",
+   "cnUrl": "a5e565c2a3da9998e9fc3fd0addaea23cded72a77e2d4e9bb02ae8515bb2471a",
+   "jpUrl": "7c6a0eb2c56e261ae98b01507d0587c1504d17d0adc800e523f9430d7ec58d30",
+   "enUrl": "4889a77e9b92a47dd6db90498994ab7d038a0fda610eb240cedfa32f729837f9",
+   "krUrl": "6d2bc0eb35831d72beb34ada1744794c0322967495177b8402d9b6ff3db0d90c"
+  },
+  {
+   "id": 59,
+   "title": "Ultimate: Aktivieren",
+   "text": "Was erwartest du noch?",
+   "unlockRequirement": "",
+   "cnUrl": "ec96e735548880eebdd0b1d4472d8fe73bd337a0917a0ca2cc10d83767c568c8",
+   "jpUrl": "471b60da0fe8ccddc76b92467969ba8bb559c5f1156a03580b677e3083fbb431",
+   "enUrl": "e0889398078b11551012919249def6cda7fa0dc9049262237fae6605a909eb91",
+   "krUrl": "bf208f089422553f20c4df867a163bd6ad75b4b7f53404e268eff334a546611a"
+  },
+  {
+   "id": 60,
+   "title": "Ultimate: Einsetzen",
+   "text": "Der Kunde ist König, und wenn ich den König verraten soll, tja ... Dann muss es sich ja lohnen.",
+   "unlockRequirement": "",
+   "cnUrl": "6812a25d1db7c8dbdbaf97e03c8cb56fb010d3261431d5ee17fb49c7f54ca57f",
+   "jpUrl": "105a279c2b1be3f113256b3d723e886e2460b3c10776d5667b2665c5d603d0b3",
+   "enUrl": "6bcf0baec355837c85c6e38ef6a67e20538cf5e71eccd0644689c48f0ba37bad",
+   "krUrl": "54580ca165ba2cadc157d203649c7fc9daaf228e65ee075ff37ab9d0b087a7c8"
+  },
+  {
+   "id": 61,
+   "title": "Handlungsunfähig",
+   "text": "Das war ... ein hoher Preis, den wir zahlen mussten.",
+   "unlockRequirement": "",
+   "cnUrl": "f042f5ea1b28b8cbe6878b22029904e40a855dabf5e3d803cf86409418ec40c7",
+   "jpUrl": "bf4ce728d2b3b5a3376a691dce79e0e33eae20bc5d46174af600ad2f1f26f14d",
+   "enUrl": "c6f3cc34fc15586618294e5bc521569deaff77aab1c9369e54d7438ae068475d",
+   "krUrl": "b81081f28d116cde0756a46a54c0f3300e54af4acdea988ec80ae2f66cec3ac9"
+  },
+  {
+   "id": 62,
+   "title": "Zurück zum Kampf",
+   "text": "Eine gute Tat verdient eine weitere!",
+   "unlockRequirement": "",
+   "cnUrl": "78c77c03d57cb89f94c99ac0eaac6f4339893e2e8479b33092b564286d7f5673",
+   "jpUrl": "8df8cfef791aea7210b8f0d7a67692371cadd583ff507a7b04c7c2fb0b3265ea",
+   "enUrl": "3c6f8c87c724bb3c210ad90baedd76d9bf92c3024eb0a46d1dc14a8e318164bf",
+   "krUrl": "e2ca3d1b6ac1eb49f310e37bdbe80152158d51cce8cfc83693700457ce2b572c"
+  },
+  {
+   "id": 63,
+   "title": "LP wiederhergestellt",
+   "text": "Ich schulde dir etwas!",
+   "unlockRequirement": "",
+   "cnUrl": "efb0a79799f827d82404490d83332b6fe8b77bf4a9292a732ac051f06bf32c30",
+   "jpUrl": "fc7797b7f07be2708a6b549f6cf71076f414b80ebc3a82c1ae5a6fde1cd094bc",
+   "enUrl": "f62c14eb9760cff911af84466bcc05926b33d13610c9c63673f06f64eb033c9d",
+   "krUrl": "12a50940b63ba159614b30788f1eeb26bc49603299f42323e9cfb00ced6c0640"
+  },
+  {
+   "id": 64,
+   "title": "Technik",
+   "text": "Hehe!",
+   "unlockRequirement": "",
+   "cnUrl": "11baf58ded9516ba828db060f47c2a373eb1b5e17bab69a3dcb36d695556169a",
+   "jpUrl": "3a8937782b1308af56c46edb3d53dd132c0f869d9be70a44841ad98f9a707231",
+   "enUrl": "093525e0b8dd80e8004ba73633aee99c5e4e6ab1541eeaa7db73c5aa7d28df59",
+   "krUrl": "fc185d4a71fc6d3e6029b3fd1c757c42bd071ec48ba3c7bd6da5fe8dd426bd61"
+  },
+  {
+   "id": 65,
+   "title": "Kampf gewonnen",
+   "text": "Wie willst du gewinnen, wenn du kein Risiko eingehst?",
+   "unlockRequirement": "",
+   "cnUrl": "75994076e75dd5b6ca295d88cdcb1ee8866588171963cd423678f034fd0dcd64",
+   "jpUrl": "b9b86a9b6b0139b94ed18c7a53c14c295764bd7e521d20cc85f224f20b3e108b",
+   "enUrl": "613913e4b7e8083e173e3907cd941ecd38b63e9a8a9b7bb6995489451ddb147c",
+   "krUrl": "1ea8a8d2377b36f14b591bcdd1be7f246a607e13c19a434d7bbbd70a651d0a81"
+  },
+  {
+   "id": 66,
+   "title": "Schatz geöffnet 1",
+   "text": "Kein Bargeld?",
+   "unlockRequirement": "",
+   "cnUrl": "e2dcf7a6ec42e5db83015b7719680836fab98f51140dbe6c30fa2303df7b5234",
+   "jpUrl": "ce2a83bf8f453a48234ad817c85786928171e18969aaf61205bfe581b0fc0a0d",
+   "enUrl": "ab5e72bd050a10b82ee60fd0de2b93a0538641f90c803c372cafede02a0d99ec",
+   "krUrl": "dbe6c96a7f5b7ed744ef156d61d9f971dfee6d7d33c0b4486ba2b8f6ce763a30"
+  },
+  {
+   "id": 70,
+   "title": "Schatz geöffnet 2",
+   "text": "Das gefällt dir? Dann gehört es dir!",
+   "unlockRequirement": "",
+   "cnUrl": "2aed14ac0640ecadf6bd82dfa444a9a449b9a80d72846712702c5c20a2768628",
+   "jpUrl": "3ff3f12bb2548ee4f7404044240cf45a3446564955de0306c112e4655e8c8670",
+   "enUrl": "53d9eb201b16856f9888006d13c2a6f14871e5592b0b1aac5ed25f390c505557",
+   "krUrl": "0e804b7a79d9e8c6a4459d3ba87cbc402817ca2869b5162c2b2cee75360e0141"
+  },
+  {
+   "id": 71,
+   "title": "Kostbaren Schatz geöffnet",
+   "text": "Wow! Das ist echt toll! Lass mich mal sehen.",
+   "unlockRequirement": "",
+   "cnUrl": "faeae3d5ade5a0764b149802933cce5ccaf3d88d7e7013be3656b3126fe2acdf",
+   "jpUrl": "f0afc44415c6dbeb886646384abd089a7b1adad73abef66fb7b8447f663cbe75",
+   "enUrl": "ca2737f95be689f88b7f6f30c090aaed4f8e2ec618c11901ba6d51c0eb5d1b3c",
+   "krUrl": "56d10330fc7d676d610908ff28acae7f7dc87f81b454a65827343f97133bb0ab"
+  },
+  {
+   "id": 67,
+   "title": "Rätsel gelöst 1",
+   "text": "Wow! Ziemlich gut.",
+   "unlockRequirement": "",
+   "cnUrl": "4f8cf43887086fafc7ab09aead76dd9d78a4fa6e43bc8009110e8f6ed149f3b9",
+   "jpUrl": "5434d38e78a512b4b3ac27e9b24e9c4c78331f8254c305f55c4a10ae0031efc8",
+   "enUrl": "9f1968f8a4c71fbd4d8ffb51ade6fd854128a429303084b646b8275533e7de2f",
+   "krUrl": "05e8c970448f053de1874c35e986744dab0a2ffa4fcae5878a4790b2bdf74b8e"
+  },
+  {
+   "id": 72,
+   "title": "Rätsel gelöst 2",
+   "text": "Ich bin auf die Lösung von Problemen der Menschen spezialisiert!",
+   "unlockRequirement": "",
+   "cnUrl": "82c534cf1d02698c70433bda53117992435e9e5d7f756e6a9a6375823d6bddec",
+   "jpUrl": "1f83e6b1fc4b20bb035eebcb2be5429b53b82d67aabf4794fee66d7ba1e7091d",
+   "enUrl": "0c03780875112725b9cb64e0e2702fc322ab50e3dfb9010dd18c9a7227e0d1c2",
+   "krUrl": "52765359828ab93c22de39d92ba57706d1a79dc95d3da096961fd9e2020699bd"
+  },
+  {
+   "id": 68,
+   "title": "Gegner gefunden",
+   "text": "Ich weiß nicht. Der hier sieht ziemlich stark aus ...",
+   "unlockRequirement": "",
+   "cnUrl": "aedb22570d02cdd382b7c06e72c886ce1991cccba4fce6b8a68421ddde71a3b4",
+   "jpUrl": "6a39343b05105bd4a01815ec62eb4e9f64a294cb600d81c900455b35527b2bb4",
+   "enUrl": "d197f5e46c46d3a94281dfc6c8ba321f9f64c118b9e540b4cb7e02a01cb1407a",
+   "krUrl": "bcd8f5cdfd7b1f9cb72b1678e5afddb95d17bc95e13c3b51efc6142759e5dd81"
+  },
+  {
+   "id": 69,
+   "title": "Zurück zur Stadt",
+   "text": "Wo immer es Geschäfte gibt, findest du Sampo.",
+   "unlockRequirement": "",
+   "cnUrl": "4402445bacf930bfc538cdb2062e59d1c1e9d690513b5f7f47bd1085d7caaf8d",
+   "jpUrl": "9027739bc662cbc99d51944153920fa46dd003ef3eb1596be10dce8b6a681284",
+   "enUrl": "b0b00daead96f16b1bfaa460003a2d1e5f3d19decfa40c5c68ea2fb03b79aa94",
+   "krUrl": "99ee30a61d33243eda80182141bf52db4b19f5c35b170f55d3a48762415276b1"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Figurendetails",
+   "text": "Sampo ist ein wortgewandter Verkäufer, der immer dort zu finden ist, wo sich Profit machen lässt.<br />Dank Sampos einzigartigen Kenntnissen ist es schwer, ihn nicht um Hilfe zu bitten, aber sein „Kunde“ zu werden, ist nicht unbedingt ratsam.<br />Denn „Kunden“ können für den richtigen Preis schnell zu „Waren“ werden.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Geschichte (Teil 1)",
+   "text": "„Hallo! Hier ist Brughel Poisson vom Kristallkurier und ich befinde mich am Brunnen auf dem Platz. Neben mir steht jemand, der von sich behauptet, ein Mitglied des Verband der Opfer des Dunkelblauen Betrugs zu sein, und ich werde gleich ein kurzes Interview mit ihm führen.“<br /><br />„Hallo, mein Herr. Könnten Sie bitte mir und unserem Publikum mehr über ihr Erlebnis, betrogen zu werden, erzählen?“<br /><br />„Oh ... Ich bin ja so sauer! Dieser blauhaariger Punk ... hoffentlich verreckt er!“<br /><br />„Mein Herr, wir sind momentan live im Radio ... bitte beruhigen Sie sich.“<br /><br />„Na gut. Der Kristallkurier, richtig? Das stimmt. Sie sollten mehr über das Leiden der Ottonormalverbraucher berichten und weniger Klatsch über die Architekten ...“<br /><br />„Ich sage es Ihnen, dieser blauhaarige Punk ist wieder aus dem Verwaltungsbezirk entfleucht! Gestern hat er drei Dosen Roggenbrotgewürze aus meinem Laden gestohlen, drei ganze Dosen! Wissen Sie, wie lange drei Dosen Gewürze für diese Würdenträger ausreichen würden? Als nächstes wird er eine Gewürzfabrik ausrauben!“<br /><br />„Bitte beruhigen Sie sich, mein Herr! Wir haben tiefstes Verständnis für Ihre Lage. Also, Sie haben gerade die Gewürzfabrik in Belobog erwähnt, nicht wahr?“<br /><br />„Äh ... Ja, ich habe sie erwähnt. War das wichtig?“<br /><br />„Können Sie mir sagen, wo genau sich diese Fabrik befindet?“<br /><br />„Äh ... Warum?“<br /><br />„Tja, sehen Sie, wir Journalisten möchten einen Beitrag zur sozialen Gerechtigkeit leisten – und nur wenn wir den genauen Standort kennen, können unsere Silbermähnen-Wachen und unsere rechtschaffenen Bürger Einbrüche verhindern. Finden Sie nicht auch?“<br /><br />„Äh ... ja, das ergibt Sinn. Also hören Sie zu, die Adresse der Fabrik lautet ...“",
+   "unlockRequirement": "Wird auf Figurenstufe <nobr>20</nobr> freigeschaltet"
+  },
+  {
+   "title": "Geschichte (Teil 2)",
+   "text": "„Name.“<br /><br />„Alexey. Alexey Bulger.“<br /><br />„Rang.“<br /><br />„Gefreiter.“<br /><br />„Hallo, Gefreiter Alexey. Ich bin Brughel Poisson, leitende Personalexpertin für die Silbermähnen-Wachen. Hauptmann Gepard hat mich gebeten, deinen Urlaubsantrag zu genehmigen.“<br /><br />„Es ist mir eine Ehre, Madame Brughel.“<br /><br />„Schauen wir mal ... hier steht, dass du während einer defensiven Operation vor vier Monaten verletzt wurdest und insgesamt fünf Brüche davongetragen hast ... Und trotzdem hast du bis jetzt deine Pflichten weiterhin ausgeführt. Bewundernswert!“<br /><br />„Danke, Madame Brughel.“<br /><br />„Du bewachst das 3. Arsenal im Sperrgebiet der Silbermähnen-Wache, nicht wahr? Wunderbar! Soweit ich weiß, ist das ein extrem wichtiges Militärgebiet, in dem die wertvollsten ... ähm ... die wertvollsten Silbermähnen-Waffen gelagert werden.“<br /><br />„So ist es.“<br /><br />„Mal sehen ... Hmm, kein Problem. Gefreiter Alexey, momentan steht es dir frei, am Dienstag einen Heimaturlaub einzulegen.“<br /><br />„... Was? So schnell? Soweit ich weiß, dauert es bei dieser Art hochrangiger Wachdienst mindestens einen Monat, bis die Übergaben abgewickelt sind ...“<br /><br />„Keine Sorge, Gefreiter. Ich weiß deinen Einsatz für die Sache zu schätzen, aber nichts ist mir wichtiger als das körperliche und geistige Wohlbefinden einer unserer besten Silbermähnen-Wachen! Ich habe bereits jemanden ausgesucht, der dich ersetzen wird, es ist also alles geregelt.“<br /><br />„Ich verstehe. Vielen herzlichen Dank.“<br /><br />„Das ist es! Vergiss nicht, nächsten Dienstag – vor <nobr>20</nobr>:<nobr>17</nobr> Uhr möchte ich, dass du mit deinem Gepäck aus dem Sperrgebiet verschwunden bist!“",
+   "unlockRequirement": "Wird auf Figurenstufe <nobr>40</nobr> freigeschaltet"
+  },
+  {
+   "title": "Geschichte (Teil 3)",
+   "text": "„Yo, Kumpel.“<br /><br />„Yo, arbeitest du hier auch für Poisson?“<br /><br />„Ja. Bist du für den Abriss zuständig?“<br /><br />„Ja. Bist du der Schlüsselknacker?“<br /><br />„Mhm.“<br /><br />„Gut, dann sind wir bereit. Machen wir uns an die Arbeit.“<br /><br />„Uff ... uff ... erledigt. Jetzt warten wir einfach ab.“<br /><br />„Das sieht nicht sehr zuverlässig aus ... kann dieses winzige Dingsbums wirklich durch diese Stahltür dringen?“<br /><br />„Ich habe deine Professionalität nicht angezweifelt, also zweifle auch nicht an meiner. Ich habe öfter Minenschächte bombardiert, als du warme Mahlzeiten hattest.“<br /><br />„Äh ... na gut. Zurück zum Thema, was hat dir das Mädchen nochmal gesagt?“<br /><br />„Die Fabrik ist verlassen, vollkommen unbewacht. Nimm dir einfach, was du möchtest. Einfacher kann ein Job echt nicht sein.“<br /><br />„Hm, ja, genau das hat sie mir auch gesagt. Aber es kommt mir etwas komisch vor ...“<br /><br />„Geld ist Geld. Stell nicht so viele Fragen. Komm schon, Ohrenstöpsel rein. Zeit fürs Feuerwerk!“<br /><br />„...“<br /><br />„... Gütiger Himmel! Das ist zu viel, Mann ... einfach nur spektakulär!“<br /><br />„Ich hab dir doch schon gesagt, dass du meine Professionalität nicht in Frage stellen sollst. Auf geht’s. Jetzt bist du an der Reihe.“<br /><br />„Psst! Kein Wort. Hörst du nicht? Ich kann drinnen Stimmen hören!“<br /><br />„Was? Unmöglich! Sie sagte, es gäbe keine Wachen.“<br /><br />„Es sind die Silbermähnen-Wachen. Die Silbermähnen-Wachen! Das ist eine Falle, Kumpel. Nichts wie weg!“<br /><br />„Verflixt, Poisson muss uns reingelegt haben! Dieses Miststück. Das ist noch nicht zu Ende!“",
+   "unlockRequirement": "Wird auf Figurenstufe <nobr>60</nobr> freigeschaltet"
+  },
+  {
+   "title": "Geschichte (Teil 4)",
+   "text": "„Guten Morgen, gnädige Frau. Ich hoffe, ich habe dich nicht gestört.“<br /><br />„Wer bist du? Warum klopfen die Silbermähnen-Wachen frühmorgens an meine Tür?“<br /><br />„Es tut mir leid, gnädige Frau. Wir führen nur die Hausdurchsuchungen durch, die von den Architekten angeordnet wurden.“<br /><br />„Was ... Hausdurchsuchungen? Ich habe nichts ...“<br /><br />„Bitte beruhige dich, gnädige Frau, wir haben es nicht gezielt auf dich abgesehen. Jeder in der Stadt muss befragt werden.“<br /><br />„Ist etwas ... ist etwas Wichtiges passiert?“<br /><br />„Bitte vertrau uns. Es wird alles gut, wenn du uns hilfst. Ich habe nur eine Frage: Hast du Perücken zuhause?“<br /><br />„Was ... Perücken? Nein, wir haben keine. Wie ihr sehen könnt, habe ich schöne Haare ... Warum fragst du?“<br /><br />„Bist du sicher? Überleg dir das noch einmal gut. Die Silbermähnen-Wachen haben den Befehl, alle Perücken in Belobog City einzusammeln. Eine Weigerung, sie zu übergeben, kann ernste Folgen haben ...“<br /><br />„Nein, ich bin mir sicher. Wir haben keine im Haus. Wenn du mir nicht glaubst, kannst du gerne hereinkommen und dich umsehen.“<br /><br />„Ah, das wird nicht nötig sein. Ich bin mir sicher, dass du nichts zu verbergen hast. Auf Wiedersehen, gnä–“<br /><br />„... Moment mal, darf ich fragen, was passiert ist?“<br /><br />„Ach, es kann nicht schaden, wenn ich dir das sage. Vor Kurzem ist ein als Mädchen verkleideter Dieb als blinder Passagier in die Oberwelt eingedrungen und betrügt dort alle. Dieser Mensch ist schwer greifbar und ändert ständig sein Aussehen. Die Silbermähnen-Wachen konnten ihn noch nicht ausfindig machen. Der Sicherheitsminister war beim Meeting gestern angeblich sehr verärgert und hat die Konfiszierung aller Perücken in der Stadt angeordnet ...“<br /><br />„Wirklich? Wie ungeheuerlich!“<br /><br />„Ich will ganz ehrlich sein, wir sind alle der gleichen Meinung. Wir müssen weitersuchen, daher werde ich dich nicht weiter störenִ ... Guten Tag, Frau Poisson.“",
+   "unlockRequirement": "Wird auf Figurenstufe <nobr>80</nobr> freigeschaltet"
+  }
+ ],
+ "archive": {
+  "cvCn": "刘圣博",
+  "cvJp": "平川大輔",
+  "cvKr": "정재헌",
+  "cvEn": "Roger Rose",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Sampo",
+ "rarity": 4,
+ "descHash": "Ein Händler, der sich nach Belieben zwischen der Oberfläche und dem Untergrund bewegt. Er ist ein aufgeschlossener Typ, der gerne lacht und immer einen flotten Spruch parat hat.",
+ "artPath": "7591beec8c4e818d5ab59366a90317f0c415ae4fc3ab44a5bb90b3d7f6cf4791",
+ "miniIconPath": "9f45bb22baccfb6e2171d13d59e3af07a6e6e08f880770da2f0661eb37e7ce76",
+ "damageType": {
+  "id": 16,
+  "iconPath": "2f3d2fba0ee9442f1c51cf42a91af6f9ece3f19168237fd3963d352e508791c7",
+  "color": "#00FF9C",
+  "name": "Wind",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "96c3b8dd457b98955d440531986a23d509f705c13d7aa794d1e97bcfd03d5701",
+  "altIconPath": "b55d340138ed77756cd939d0d9ee2103a5398f999202c1ed19d092ac87333155",
+  "color": "#FFFFFF",
+  "name": "Die Nichtigkeit",
+  "rarity": 0
+ },
+ "pageId": "sampo"
+}

@@ -1,0 +1,2964 @@
+{
+ "spRequirement": 130,
+ "iconPath": "964fad345ab51a77077bce75f248ebb94290df59eece5f4b2d109e6a50eae854",
+ "bgPath": "87f77b9da1f2167e89d13ddcde7d908d274f465c5fca0c5634e8d63db792eb52",
+ "figPath": "768d41deed5fddb203b19ae6f4596d9e5b4c8172f2c3dbac4552c76671609d94",
+ "fgPath": "713da05189557f9a27e96f82704ccfb1e263f7a9b313a9504d500e431fd02159",
+ "splashIconPath": "5ded512bc76c708e9a0e96cb9fd8a1e987436fa941a5ec5273270551e2b33fda",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRq4CAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSA4BAAABkGpt27FN1/u8v//0D5ptM5tpkm1ls9q281TPJHs2wLb1vs91hg/bEBEToJLDxicqu6ZJ2uq0uymEUCJR71V3fsNRpVJaLGjAWWIWmaHBY6SkQBo++jEx8mP32C8bGlS0ybiw/ybxP5ea/mCSqgpqNr+Nb7D5NOUd19sqlVIte3Ysw0Se/YgcrVdQpVbtWwc2EZxxTUrU48oTbGyicc7Zugqt+v4eY8DGzpmm6tvYGBtjx4wdmvfXERcrzDjY7HyGCyjA/GfOknPktnG0bWJG7D0TYm7HHJvsH7BA7d//A3Iw5PD68XpJbTpPu/+X75sGDR05aMrSNpKUSAq9p7RU6URSEoIkhRDSkFYkkgRWUDggegEAAJAHAJ0BKhQAFAA+bTCUR6QioiEoCACADYlkAJ0ygxg1y22A70D3ctNG3iLyQCmDeMFFmDhwSZVKXe6+fcvgv0iiz6f+AAD+9sog9QmD5hEUPz7vsVNDzp018poOvc3c2cf25xa5eGcVSaAfo4t+1P3yaYzkHOS2q870HbFnjWXBlhbbIZeRr/n93z3SrzbSncEJuiNBzjc0REyH8wWc7cx4/u4oM2bBgOHLFq75v0jrKJn5N+IGv5Flpjs76nIXMK62WjNhj0SqZgKlKlDFt1bw/adkJi7s7Go3hAlR/35R20dP9nKTKRoFJJCPOPcWl21BrWDbl1TUlZErSTqF0MFuXDcms6/5KeQXWNiB+yrJ0DvuWx/in7+IBTT73yK/4v77aw533dsj1h/e4mVnq+JoWDJsN2lG2GCV9+EOVP4h+2QH+qISYP/ij9dPMFffowPLqY+tgrVZ9MF2Vf12Bb+r/rylDibJxXLR7Ekpphhktcrujg8yqlAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "4b4b5f13f6588e7fb1c030c28f9b9b67a7a8c4bab77c05e38d5c9f64eb0d99e7",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Braises immortelles"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Voies de la destinée",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "La victoire s'acquiert au terme de nombreux échecs, et chaque pas conduit à l'instant décisif.",
+   "purpose": "Matériau de Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Récompenses de points de l'Univers simulé",
+    "Honneur des Sans Noms",
+    "Échange de braises",
+    "Lumières d'étoile",
+    "Récompense d'événement à durée limitée"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "Regret de l'ochéma infini",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "Qu'importe le nombre de corps qu'il s'approprie, son insatiabilité ne faiblit pas. À l'instar de ceux vouant leur existence à la recherche des secrets de l'immortalité, il est en quête d'un hôte impérissable, d'une entité qui lui permettra d'éradiquer sa peur de la destruction. Il sait pourtant que cette quête est vaine, car irréalisable.<br /><br />« J'ai vu un nombre incalculable de mondes périr par le feu de la Souillure ; moi qui étais l'une de ses flammes. J'ai dansé au rythme de ses doigts, sachant que si le combustible se consumait, le feu s'éteindrait également... »",
+   "purpose": "Matériau de Trace",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "Écho de la guerre du Royaume de l'abysse écailleux"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Guide du voyageur",
+   "desc": "Matériau d'EXP de personnage. Confère <nobr>20</nobr> <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Lecture indispensable à l'exploration des mondes. Appuyez sur le bouton de lecture pour activer une voix agréable, dans une langue de votre choix qui vous racontera les rencontres légendaires d'aventuriers de renom à travers différents mondes, ainsi que la sagesse précieuse et les connaissances qui en découlent.<br /><br />« La nouvelle série du Guide du voyageur, \"Le manuel du chef de la cuisine galactique\" est désormais disponible en magasin. »<br />« Pour toute question, connectez-vous à la balise de synesthésie ERD<nobr>-23</nobr>θ et contactez un représentant de la Guilde de l'intelligentsia. Facilités de paiement disponibles. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Salle oubliée"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Journal d'aventure",
+   "desc": "Matériau d'EXP de personnage. Confère 5 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un ensemble bien classé de notes d'aventure édifiantes, avec d'innombrables illustrations et commentaires exhaustifs, sans oublier de précieuses informations relatives à des techniques de survie.<br /><br />« Pourquoi ne pas les numériser et les sauvegarder sur un disque photolithique ? Ce serait tellement plus pratique. »<br />« La technologie de pointe est bien plus fragile qu'on ne le pense face aux tempêtes stellaires et aux éruptions de flux neuronaux. Et puis, l'auteur voulait sûrement que la lecture soit la plus simple possible. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Entraînement quotidien",
+    "Braises immortelles"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Rencontres de voyage",
+   "desc": "Matériau d'EXP de personnage. Confère 1 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un carnet de voyage parsemé de commentaires et de contenus divers griffonnés. Il ne vous sera pas très utile.<br /><br />« Dan Heng, dépêche-toi de lire ça pour t'en débarrasser. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Récompense d'affectation"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "28d0ba947e29fa63210d8ae2c432cb80339f98427c8655a9ca050184f69c4819",
+   "name": "Ancienne pièce mécanique",
+   "desc": "Pièce mécanique provenant de l'Ancien monde. Matériau commun utilisé pour le renforcement.",
+   "lore": "Malgré sa taille, elle a été moulée et polie d'une façon qu'il serait difficile de reproduire aujourd'hui.<br /><br />« Une simple vis de l'Ancien monde est plus solide que nos armures. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "Automates",
+    "Ennemi de l'Univers simulé",
+    "Récompense d'affectation",
+    "Échange de braises",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7089e982e18575f3824ab28ae0e91f40c8214edf6253a7162142bdc7fc0acdbe",
+   "name": "Ancien essieu",
+   "desc": "Essieu mécanique provenant de l'Ancien monde. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Une fois démontés, les composants de précision ne peuvent pas être réassemblés. Même les vétérans de la maintenance de la Division technologique de Belobog y réfléchiraient à deux fois avant d'y toucher.<br /><br />« Imbécile, les Tuniques bleues ne vont te donner que quelques conserves en échange. Amène ça au boss Svarog et tu n'auras plus à te soucier de ta nourriture ou de tes vêtements pendant un moment. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Automates au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "271b1f9a291c44b698190683f224996bae3b49e8e596c227b819b72c3a2b82dd",
+   "name": "Obsidienne d'effroi",
+   "desc": "Fragment de matière noire capturé dans le vide. Permet d'améliorer légèrement les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Nihilité</span>.",
+   "lore": "Rien ne prouve son noumène.<br />Touchez avec délicatesse pour entendre un vague murmure de la part de l'éclat.<br /><br />« ████ ██ █ █ »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4ef8700321d72ae07d3b931df6b9f6567d87f4035e2afed42d53e7c53aa09ceb",
+   "name": "Ancien moteur",
+   "desc": "Moteur mécanique provenant de l'Ancien monde. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Il utilise de la géomoelle comme source d'énergie. Lorsqu'il est alimenté, il crache des aurores vagabondes, et non des étincelles.<br /><br />« Il n'y a que la Division technologique directement rattachée à la Gardienne suprême qui a accès aux informations concernant l'Ancien monde. J'ai perdu mes accès quand on m'a mise à la porte. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "Automates au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34d88252515cd13ab58b6f5aae7329794a4a330a0147e1c5f755c8a2f4444bff",
+   "name": "Obsidienne d'obsession",
+   "desc": "Beau fragment de matière noire capturé dans le vide. Permet d'améliorer considérablement les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Nihilité</span>.",
+   "lore": "Un simple regard dans le prisme enverra les faibles d'esprit et les moins déterminés dans le chaos pour l'éternité.<br /><br />«           »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "866633": {
+   "id": 866633,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "8e0cd81aa41c7849a5da687f6b40c0b3ccec417ef1924c802b70c03021e69317",
+   "name": "Dents brisées du loup de fer",
+   "desc": "Dents de scie abandonnées par des automates. Permet l'élévation des personnages de type physique.",
+   "lore": "On dit que les techniques de fonderie développées par les Architectes leur permettaient de créer des tronçonneuses capables de fendre des rochers géants. Ces techniques ont depuis longtemps été oubliées.<br /><br />« Le boss Svarog dit que sa lame est tellement fine qu'elle peut couper l'espace entre les molécules... C'est quoi des molécules ? »",
+   "purpose": "Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/866633",
+   "comeFrom": [
+    "Ombre stagnante de la Grande mine",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1a896480b5f6ee84644db112069845e85930f6dbc0f428a3f8a6de2b187702af",
+   "name": "Obsidienne de désolation",
+   "desc": "Fragment de matière noire capturé dans le vide. Permet d'améliorer modérément les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Nihilité</span>.",
+   "lore": "Il n'y a aucun reflet à la surface du prisme noir. Non seulement il absorbe toute la lumière, mais il semble aussi capturer les émotions de son porteur, ne laissant qu'un vide absolu.<br /><br />« ... »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 79.2,
+   "attackAdd": 3.96,
+   "hpBase": 124.8,
+   "hpAdd": 6.24,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 110.88,
+   "attackAdd": 3.96,
+   "hpBase": 174.72,
+   "hpAdd": 6.24,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 224.64,
+   "hpAdd": 6.24,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633349,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 3.96,
+   "hpBase": 274.56,
+   "hpAdd": 6.24,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633349,
+     "count": 8
+    },
+    {
+     "id": 866633,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 205.92,
+   "attackAdd": 3.96,
+   "hpBase": 324.48,
+   "hpAdd": 6.24,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717290,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 237.6,
+   "attackAdd": 3.96,
+   "hpBase": 374.4,
+   "hpAdd": 6.24,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717290,
+     "count": 7
+    },
+    {
+     "id": 866633,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 424.32,
+   "hpAdd": 6.24,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "ec9ebc43a58cbdc4f270483765a56680e38223338cc68ce79ef4ede0cd2e8d31",
+   "artPath": "5a5381f1c7107078f44b65f56a73bfc69289ae3fb6fb53759971aedf257ac892",
+   "name": "Lutte sans fin",
+   "descHash": "Lorsque Luka entre en action, si la cible ennemie souffre de Saignement, les DGT infligés par Luka augmentent de <nobr>#1[i]%</nobr> pendant <nobr>#2[i]</nobr> tours.",
+   "params": [
+    0.15,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "3f29fd954447217ea7b48b44a0440f331a44fff2d4affe72aaa33f7362d0ec39",
+   "artPath": "17fa85cb27d8b83e1d231443f9c6a09884c8db2c1f34b86d782288139fc19e2b",
+   "name": "L'ennemi est faible, je suis fort",
+   "descHash": "Gagne <nobr>#1[i]</nobr> cumul de Soif de combat lorsque la compétence touche un ennemi qui possède une Faiblesse physique.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "af1128ef92a49dfd90360f6bbff1e0662f9fed638d9222e84623c73c695fce5b",
+   "artPath": "67541b99e67b7f1ae279d828d3db6bb645b6e4458e247a9992e7ab63c2453125",
+   "name": "Né pour l'arène",
+   "descHash": "Niv. de la compétence +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. du talent +2, jusqu'au Niv. <nobr>15</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "de13c8d9014b925bf3f10e01b844835b775a82710e73e8acad85d1a86a1b8596",
+   "artPath": "bd44694196dedd1093a35b4635202c32d639fd46e6b001a05d2e8a0b0fb10bc2",
+   "name": "Sans jamais se retourner",
+   "descHash": "Augmente l'ATQ de <nobr>#1[i]%</nobr> pour chaque cumul de Soif de combat, cumulable jusqu'à <nobr>#2[i]</nobr> fois.",
+   "params": [
+    0.05,
+    4
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "a3ec372c4657c7282890232162ae6f67c456f45c43926fa4f5940abc33a62032",
+   "artPath": "28556fabc7726ab02aec538f56d529070c13a531f0faf5e9c47b3edff197b35f",
+   "name": "L'esprit des Feux sauvages",
+   "descHash": "Niv. de l'ultime +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de l'ATQ normale +1, jusqu'au Niv. <nobr>10</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "9afc0a2ee0f76d4a129d4d18fe0745e6f3f2e84845a0b4d3a144aa059a098400",
+   "artPath": "33d4cac26a8b9c9b093d48e853ec3db49455b333fc5d4f0717110484516f2876",
+   "name": "Un champion acclamé",
+   "descHash": "Lorsque l'Uppercut du droit de l'ATQ normale renforcée touche une cible ennemie victime de Saignement, cette dernière subit immédiatement 1 fois des DGT équivalents à <nobr>#1[i]%</nobr> des DGT de Saignement initiaux pour chaque Direct du droit déclenché lors de cette ATQ normale renforcée.",
+   "params": [
+    0.08
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   635769,
+   489350
+  ],
+  [
+   920296
+  ],
+  [
+   836355
+  ],
+  [
+   351242
+  ],
+  [
+   435183
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Inflige des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Luka à un ennemi unique.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 635769,
+   "name": "Direct du droit",
+   "iconPath": "9cf7e0c0fae19150c7b7e41521e3d03debcc42bada348884545af8bdfab7db0e",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Inflige des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Luka à une cible ennemie unique, avec <nobr>#2[i]%</nobr> de <u>chances de base</u> de lui infliger Saignement pendant <nobr>#5[i]</nobr> tours.<br />Quand un ennemi souffre de Saignement, il subit des dégâts sur la durée physiques équivalents à <nobr>#3[f1]%</nobr> de ses PV max au début de chaque tour. Ces DGT ne peuvent pas excéder <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> de l'ATQ de Luka.",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "30",
+   "id": 920296,
+   "name": "Poing lacérateur",
+   "iconPath": "af1128ef92a49dfd90360f6bbff1e0662f9fed638d9222e84623c73c695fce5b",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      1,
+      0.24,
+      1.3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66,
+      1,
+      0.24,
+      1.43,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72,
+      1,
+      0.24,
+      1.56,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78,
+      1,
+      0.24,
+      1.69,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      1,
+      0.24,
+      1.82,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      1,
+      0.24,
+      2.015,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      1,
+      0.24,
+      2.275,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      1,
+      0.24,
+      2.6,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      1,
+      0.24,
+      2.99,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2,
+      1,
+      0.24,
+      3.38,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26,
+      1,
+      0.24,
+      3.549,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      1,
+      0.24,
+      3.718,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38,
+      1,
+      0.24,
+      3.887,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44,
+      1,
+      0.24,
+      4.056,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5,
+      1,
+      0.24,
+      4.225,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Accorde <nobr>#5[i]</nobr> cumuls de Soif de combat, avec <nobr>#2[i]%</nobr> de <u>chances de base</u> d'augmenter les DGT subis par une cible ennemie unique de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> pendant <nobr>#4[i]</nobr> tours. Puis inflige des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Luka à la cible.",
+   "ultimateCost": 130,
+   "break": "90",
+   "energy": "5",
+   "id": 836355,
+   "name": "Coup de grâce",
+   "iconPath": "9b5831e72d8299d2149b03ec91da19f0837834c0521124442e6ea8bd8840b67e",
+   "typeDescHash": "Ultime",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.98,
+      1,
+      0.12,
+      3,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.112,
+      1,
+      0.128,
+      3,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.244,
+      1,
+      0.13599999,
+      3,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.376,
+      1,
+      0.144,
+      3,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.508,
+      1,
+      0.152,
+      3,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.64,
+      1,
+      0.16,
+      3,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2.805,
+      1,
+      0.17,
+      3,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.97,
+      1,
+      0.18,
+      3,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.135,
+      1,
+      0.19,
+      3,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.3,
+      1,
+      0.2,
+      3,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.432,
+      1,
+      0.208,
+      3,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.564,
+      1,
+      0.216,
+      3,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.696,
+      1,
+      0.224,
+      3,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.828,
+      1,
+      0.232,
+      3,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.96,
+      1,
+      0.24,
+      3,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Renforcement",
+   "descHash": "Luka reçoit <nobr>#1[i]</nobr> cumul de Soif de combat après avoir utilisé son ATQ normale Direct du droit ou sa compétence Poing lacérateur jusqu'à un maximum de 4 cumuls. À 2 cumuls de Soif de combat, son ATQ normale Direct du droit est renforcée en Poing destructeur d'étoiles. Lorsque l'Uppercut du droit de son ATQ normale renforcée touche une cible ennemie victime de Saignement, l'effet Saignement inflige immédiatement des DGT équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> des DGT de Saignement initiaux 1 fois. Luka dispose d'1 cumul de Soif de combat en début de combat.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 351242,
+   "name": "Étincelles volantes",
+   "iconPath": "98bb563972dac9a50209ad03fcb05b0b6588b2290bc2b9c9e59958a34f108c99",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.68
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.697
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.714
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.731
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.748
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.765
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.78625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.8075
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.82875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.85
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.867
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.884
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.901
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.918
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.935
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 551828,
+   "name": "Attaque",
+   "iconPath": "9cf7e0c0fae19150c7b7e41521e3d03debcc42bada348884545af8bdfab7db0e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Engage immédiatement le combat contre les ennemis. Luka inflige des DGT physiques équivalents à <nobr>#1[i]%</nobr> de son ATQ à un ennemi aléatoire en entrant en combat, avec <nobr>#2[i]%</nobr> de <u>chances de base</u> de lui infliger l'effet Saignement de sa compétence, à la suite de quoi Luka obtient un cumul supplémentaire de Soif de combat.",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 435183,
+   "name": "Anticipation",
+   "iconPath": "886e2a41f9c38843102a2c413613cae0e973b7df6bf941f713f3f105d5432fda",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Consomme 2 cumuls de Soif de combat. Utilise d'abord Direct du droit pour lancer 3 coups, chacun infligeant des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Luka à la cible ennemie.<br />Puis, utilise Uppercut du droit pour lancer 1 coup, infligeant des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de l'ATQ de Luka à la cible ennemie.",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "20",
+   "id": 489350,
+   "name": "Poing destructeur d'étoiles",
+   "iconPath": "d8aeebbeabb54544371569fe8b225636fed98de99af8a744ecedcd0444ad2ca9",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.1,
+      0.4
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.12,
+      0.48
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14,
+      0.56
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16,
+      0.64
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0.72
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0.8
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.22,
+      0.88
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.24,
+      0.96
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.26,
+      1.04
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1111101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1111203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1111204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 276172,
+          "name": "Augmentation de DÉF",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+          "statusList": [
+           {
+            "key": "DÉF",
+            "value": 0.05
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633349,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 276173,
+        "name": "Augmentation d'ATQ",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATQ",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633349,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 276174,
+      "name": "Augmentation des chances d'appliquer des effets",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "Chances d'app. des effets",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549408,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Dissipe immédiatement <nobr>#1[i]</nobr> bonus de la cible ennemie lors de l'utilisation de la compétence.",
+    "ultimateCost": 0,
+    "id": 276014,
+    "name": "Surcharge cinétique",
+    "iconPath": "d4f3d7976c9e4a9c9537084d77ce5a938e0bee73a3ed84953c1ef890fe0ac85f",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1111206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1111207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 276169,
+          "name": "Augmentation d'ATQ",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+          "statusList": [
+           {
+            "key": "ATQ",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717290,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 276170,
+        "name": "Augmentation des chances d'appliquer des effets",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+        "statusList": [
+         {
+          "key": "Chances d'app. des effets",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717290,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 276171,
+      "name": "Augmentation d'ATQ",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATQ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633349,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Régénère <nobr>#1[i]</nobr> points d'énergie supplémentaires pour chaque cumul de Soif de combat obtenu.",
+    "ultimateCost": 0,
+    "id": 276015,
+    "name": "Freinage cyclique",
+    "iconPath": "9d625744e5a0a02917ab17c5fadc5850ae79f50a5b067382aaab491578911b6e",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 276184,
+      "name": "Augmentation de DÉF",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+      "statusList": [
+       {
+        "key": "DÉF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1111209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 276183,
+      "name": "Augmentation des chances d'appliquer des effets",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "Chances d'app. des effets",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Lors de l'utilisation de l'ATQ normale renforcée, chaque coup porté par Direct du droit accorde à Luka <nobr>#1[i]%</nobr> de chances fixes d'utiliser 1 attaque supplémentaire. Cet effet ne s'applique pas aux coups supplémentaires assénés de cette manière.",
+    "ultimateCost": 0,
+    "id": 276016,
+    "name": "Soif de combat écrasante",
+    "iconPath": "85dfb76bf09582ba72cb056e802cc2c0fe166ca86e7061df75faa10e55b209e8",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1111210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 192235,
+      "name": "Augmentation d'ATQ",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATQ",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 276175,
+    "name": "Augmentation d'ATQ",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ATQ",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549408,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Corps",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "ATQ",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "Pieds",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "VIT",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Sphère planaire",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "Augm. des DGT physiques",
+    "propertyIconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176"
+   },
+   {
+    "relicTypeHash": "Corde de liaison",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ATQ",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Première rencontre",
+   "text": "Oh, salut ! Je m'appelle Luka, je fais partie des Feux sauvages. Démolir les voyous et protéger les habitants de la ville, c'est juste mon travail quotidien.",
+   "unlockRequirement": "",
+   "cnUrl": "760669d134f302f91a4c95942aac6d8c43068557040247d3facc491a27b8badf",
+   "jpUrl": "f501079f72f5b1c47e5d3168a0c0f1e68d01715df9ecb28e34ca8ba31433b46b",
+   "enUrl": "41049c0424c64294bc01f1694670e35c2d32b5d0da4af1ee3b70bf2564e4cea4",
+   "krUrl": "02f0235f11f2efbeaae79459970ce72755b5df6f8e62748d2e14d6636c4ecf32"
+  },
+  {
+   "id": 2,
+   "title": "Salutation",
+   "text": "Le tournoi commence ? Super ! Je vais m'échauffer.",
+   "unlockRequirement": "",
+   "cnUrl": "8cc7a09bdf298765c7a10f4cab4ab7e83ecc650c6eb1ebb658c7075407bcaebb",
+   "jpUrl": "311f9887872a18df5431b3a4f6610aa4ec838f9be5a8d473f68035e48b7144b2",
+   "enUrl": "e57099ac70afc276120cc517d18a529c1040ed1b8c1a5534b04f0ef4afed4770",
+   "krUrl": "89f9a0b20cf231c2f00e9ffd3bce7f4dcff7905f7441ebc93fcea8b915c55b4c"
+  },
+  {
+   "id": 3,
+   "title": "Au revoir",
+   "text": "Tu veux te reposer ? Vas-y ! Mais je vais te confier un secret : c'est en s'entraînant dur pendant que les autres se reposent qu'on devient un champion.",
+   "unlockRequirement": "",
+   "cnUrl": "f9a265278e7d5f4a907c75178acf5e9893b395429da3924adc292b2c3adb5034",
+   "jpUrl": "5b31df8bc740e73a076706a3b3113640a258da12eb804b7331a4533faaa57300",
+   "enUrl": "f0cce7c45ce9b5322ea7864dce5a24e52e11e060941cc029f70cc4709c40fc8e",
+   "krUrl": "c0d5c6d238738f7228298bf92a3dc42811c2750c0ed5a98db7eb1aa6ca0e2fc9"
+  },
+  {
+   "id": 4,
+   "title": "Connaître Luka",
+   "text": "Ce n'est pas par amour de la violence que je me bats, ni pour gagner le championnat, ou encore pour frimer... Je pense simplement qu'il y a trop de voyous dans le Souterrain et que les enfants ont besoin d'un bon exemple.",
+   "unlockRequirement": "",
+   "cnUrl": "f07f39ecadc3f73824956b6e749bf0b83e2f0cdb143b8e394750702b891e1296",
+   "jpUrl": "d2912ec2c5f6b9782ef82e087a153dcf458ace5d07ec79c4c70b12db75054109",
+   "enUrl": "ff5a80c67b9c1b05f599be3de144d228e7109db117376533b03e11b58cdcd2f6",
+   "krUrl": "c9e701ea3517d733ede7b57e7b1d72e46de9df4fc97c0f17153b9b39bf9da835"
+  },
+  {
+   "id": 5,
+   "title": "Bavardage : Bras mécanique",
+   "text": "Mon maître m'a dit : essaie de ne pas trop penser à ce que tu as perdu, pense plutôt à ce que tu as gagné. Chaque fois que je regarde mon bras, je me rappelle de ces paroles.",
+   "unlockRequirement": "",
+   "cnUrl": "8f1540f9104672cbce7922164ecc43765449d6a64325285edfeb4d4d92680c0a",
+   "jpUrl": "c6c93414757988f19e95bc71b0b9a2b200af0fb52004e2b9b1d980b49a910b7b",
+   "enUrl": "af970afe1286ff2f7b44f9dd7b7bc9f78cf27f3565fa04406f077af3037d6816",
+   "krUrl": "6a482b6f1c0a1916f9c04267285dac64c7c96d3f53cc501a7bbc512a39043530"
+  },
+  {
+   "id": 6,
+   "title": "Bavardage : Surmonde",
+   "text": "Le Surmonde ? Ça ne m'intéresse pas tellement. Sauf, évidemment, s'il y a un adversaire de taille là-haut, ou quelqu'un qui a besoin d'une bonne leçon.",
+   "unlockRequirement": "",
+   "cnUrl": "56ef88030512e4cb9d00deb9177a4437941a65c8eba805b00306a056c8f646f3",
+   "jpUrl": "5288b1acbb882420424036ebdd313596525360390b0db202fb87307946ff5e9e",
+   "enUrl": "d6a477a70e4a4342b5294b6342d02b17635c155588fc6f7b8c8b80fbd317b8c0",
+   "krUrl": "99fc8f841dda221072b56eadbe5cc6723ee91dcaf4d51a7b7717d2c221599b57"
+  },
+  {
+   "id": 7,
+   "title": "Passe-temps",
+   "text": "Une devise populaire au Club de combat : « devient l'ami de celui qui frappe le plus fort... ». Pas étonnant que tout le monde veuille être mon ami !",
+   "unlockRequirement": "",
+   "cnUrl": "48e813719c91adb730560b0f50be3aac53e33f897d0eb80e1998e82755f43645",
+   "jpUrl": "f8a7341358660d680ece28954ae696dc6362bf11956fd4351434f8cb8984901a",
+   "enUrl": "63b188bf52bdfff0b1bb4bdd548bd2fd03cd86a7a51cab5ee7b469db19f96341",
+   "krUrl": "60f685d9a6d78eeb4ebe73a7774e771f7d6bacb4be1d6b3c73865e2ef2a1820d"
+  },
+  {
+   "id": 8,
+   "title": "Problèmes",
+   "text": "Les légumes... les champignons... c'est dégoûtant. Pourquoi quand on manque de quelque chose, ce n'est jamais de ça ?",
+   "unlockRequirement": "",
+   "cnUrl": "ba905ae022134b236c045a1ae4dbef269014f48cdff04810822dca7c203db62b",
+   "jpUrl": "083c4f0f04eaa44a7d6c995602feefbbe0b8612be167299286e87f46d29ca614",
+   "enUrl": "eb22139a7452519f238b9c2d7668784aebd0c3415583c33fd61d5948af2b7c78",
+   "krUrl": "ffc959c94d86675a2dfbc6f381b86c1f4cd6ddc7d2c758b692a3668a6d008831"
+  },
+  {
+   "id": 9,
+   "title": "Anecdote",
+   "text": "Tu as entendu parler des trois merveilles du Souterrain ? La géomoelle, les superviseurs sans cœur, et le poing d'acier de Luka !",
+   "unlockRequirement": "",
+   "cnUrl": "30ccd8ec4e0377edeac254bc04b946f1c311f977699e4e81d74a6fc603b24f65",
+   "jpUrl": "ffa0d98223a840a76975fc1e46c831b86e58e8de9be404bae9a65c5b62fe84a6",
+   "enUrl": "7f4d30a7935a271036868ade3851c4f1badd2745f27e2b6967a3a3f2d5f31fee",
+   "krUrl": "f8549ce9da3b966725a9e81cd0985fe43d92d181c8c58f3e7a4cebb2c01200ee"
+  },
+  {
+   "id": 10,
+   "title": "Connaissances",
+   "text": "C'est difficile à croire, mais il y a des gens qui sont prêts à passer toute leur vie à battre le fer avec le marteau ou à piocher de la pierre... Je sais, je sais, tout le monde ne peut pas accomplir ses rêves... mais si je n'avais pas de rêve, je ne pense pas que je serais allé aussi loin.",
+   "unlockRequirement": "",
+   "cnUrl": "a01236044de8a30bb443765a0bd7976eeea83af8a8036408bb04b70669e70fa0",
+   "jpUrl": "4b4012c4adaaa3f9ee893a33c32a8a719cba3174f353e0429007bed640971234",
+   "enUrl": "202e969d42bd5a6b712eb290a66ad91dad300d659a2f7651a3fadc53916fd838",
+   "krUrl": "d72079f1b1f6e081821a73d30528b91897f959213e1d54bbf1f6ac4310e1efe6"
+  },
+  {
+   "id": 11,
+   "title": "À propos de Natasha",
+   "text": "À moins d'avoir de graves blessures, j'évite de déranger Natasha. Il y a trop de gens qui ont besoin de son aide, ils ne devraient pas avoir à pâtir de mes imprudences.",
+   "unlockRequirement": "",
+   "cnUrl": "64875f23605fc1dfc92a21e67c3892b655da28dcf18ba9a069e885073d27b121",
+   "jpUrl": "c461bc375a145dbbccff943fb90f464c565062348b695be93ef8ffdae82e9f24",
+   "enUrl": "f749b5a2e3511eb0a85e46243ce9f310b0cd93d996961a108c522e6433909d21",
+   "krUrl": "7cd202d827cb62ac275572c0afb04b5e55a273ffbf4b8b031ab023e37e5d944c"
+  },
+  {
+   "id": 12,
+   "title": "À propos de Seele",
+   "text": "Seele... Comment faire pour qu'elle participe au tournoi ? Avec sa force, elle n'aura aucun mal à gagner... À moins qu'elle ne me rencontre ! Ah !",
+   "unlockRequirement": "",
+   "cnUrl": "7c4f1010d5b727dec75a4247a079ac27edc4e156fa7a606d7a9869b2137584c7",
+   "jpUrl": "e0b52ce04aa07e9c517dd0ab432de876837ca002e45aa3438a3456b8b097ab49",
+   "enUrl": "384c8ab887d47fc1c1be3645c48478fbe96f9188b6febdce34a4e5a447ad5cb9",
+   "krUrl": "8fdf9ef0606038e127fa7944fffacfd7fa8966f89c248f9675f50455fc849fcf"
+  },
+  {
+   "id": 13,
+   "title": "À propos de Svarog",
+   "text": "Il faut que je trouve une occasion de battre cette boîte de conserve au bras de fer... Hein ? Tu as cru que j'étais sérieux ? Eh bien, peut-être avec le bras droit...",
+   "unlockRequirement": "",
+   "cnUrl": "af8476e43efb6b63539d09474a71aa4bc2100aa858bec5c9c5776b134c1f32a8",
+   "jpUrl": "863f587682163db44999469619536434b7e1a5162b5e3d3ba3bdfbe67ede3677",
+   "enUrl": "50c58d365d4bf23664b01cc2523a126b0a184bbf97a7bf70c0a3eedc4d2e1fe8",
+   "krUrl": "aa15512330759bffd99e1e7d4553f779bc8764dbcef00f2db13314eaf24bec16"
+  },
+  {
+   "id": 14,
+   "title": "À propos de Sampo",
+   "text": "Je n'ai pas besoin d'intermédiaire. En plus, je ne vois pas comment on peut faire confiance à quelqu'un qui se fait appeler « grand, beau et bleu ».",
+   "unlockRequirement": "",
+   "cnUrl": "a18a1cf867603dbccd4918515324f0bf8ff3ec2a79279c786185a3eb63cea04c",
+   "jpUrl": "7c2e45381ff034f92a8d28ded12c7c1fc67555599696f67c3faf71413660a3ce",
+   "enUrl": "d381099522bb19a0dd66425da24692a4926f8066a29e187409d5f57202dbcfc9",
+   "krUrl": "3e18f314e93780f03d4f218b5057be3e3637a72a89ad04c007d6dfc62353d988"
+  },
+  {
+   "id": 15,
+   "title": "À propos de Hook",
+   "text": "Tout le monde dit que Hook est une peste, moi je trouve que c'est une enfant adorable. Un exemple ? Euh... Je crois que je n'en ai pas, simple intuition. Tss, qu'est-ce que tu veux dire par : « ça, c'est parlé comme un vrai membre honoraire des Taupes !? ».",
+   "unlockRequirement": "",
+   "cnUrl": "47bc705024f433971f9149b1b6711707d7c66e496d522e961fcdd653a21b59e5",
+   "jpUrl": "91a67222e0697840583d00546820bb1a35f0a16fb4b6c46eefd7d1134876d0b7",
+   "enUrl": "c99cd3b2bb0cd63cefb7a5e24a721af514e89d1f02a36f68ff26c13a7b303f26",
+   "krUrl": "8ab52832e04ed6e836b3f4ec89ddf086bb98b53d5aa6d8e0d8bf0f409aac13b0"
+  },
+  {
+   "id": 16,
+   "title": "À propos d'Oleg",
+   "text": "... Oh, euh, rien. Je me demandais simplement combien de temps il faudrait encore que je m'entraîne avant de pouvoir enfin battre maître Oleg. Il faut que je me dépêche, s'il est trop vieux, ce ne sera plus aussi impressionnant !",
+   "unlockRequirement": "",
+   "cnUrl": "7e383a64eea7dcf604fa02284e6ce8bd9273760e993f5753545e8b906c99e59c",
+   "jpUrl": "5442ffd388ced77940c81e0efa9f826d0a854581c01a2b6a012bc93e77ac8aaf",
+   "enUrl": "37ecf44bbe30f2bf3ea8c4341d7f3c116d47020cdeec3d399acb7083fff24ef8",
+   "krUrl": "39c7b53324152c8412f9f7e0610116f5063f8287235ad1696f28f2588efd493f"
+  },
+  {
+   "id": 17,
+   "title": "Activation d'Eidolon",
+   "text": "Super, on y va !",
+   "unlockRequirement": "",
+   "cnUrl": "dcdb7795234782bc849e7fa7cff70d8d40608912cb02c721db77c01ed5c65d5c",
+   "jpUrl": "d2f86946a1aa8721a5e15c6ddb092c00716d9793238c37a5c31c48e856c58cd2",
+   "enUrl": "32029001bd515c4da1b30cb342e939af131ea37ac81e431c75ef87ebc09eef0f",
+   "krUrl": "d1cfb608b9125b1b6684a6efe78388718e953b7320c2cbd8d8bd9358b3b9938f"
+  },
+  {
+   "id": 18,
+   "title": "Élévation de personnage",
+   "text": "S'entraîner une fois par jour ? Ce n'est pas assez !",
+   "unlockRequirement": "",
+   "cnUrl": "db584f7a978015e5b1185804ddfad3d048147fe35e8ae968a30236e7d1c6a2c4",
+   "jpUrl": "4bf5d054cc01a4b55f873b19d90e72c54dbc0cebd5cdc36e9f0e5e38817d12f5",
+   "enUrl": "aeb3cdd7bcc3eec372a0db90a2d9288a5307f0c4a830c46723c958615d0adc31",
+   "krUrl": "188a485fb8da218f0319e31edf84da68c73ca83268fa0ad482d0fd81a69e662f"
+  },
+  {
+   "id": 19,
+   "title": "Niveau max atteint",
+   "text": "Ma limite ? Impossible !",
+   "unlockRequirement": "",
+   "cnUrl": "d29076c1a8862e9168d5335b7929f3e686149982b066c2f34b9fd091901722eb",
+   "jpUrl": "5a2d3619a5ef2652a3f3cbcf030680c56de9af8699b4ef9537cf97291c6fb55c",
+   "enUrl": "07e85ab5c6c3e5d82e2f8d7d1aec28be079fbae82c50838ebbfda732c6a27cd9",
+   "krUrl": "a106ef3dcda2e0cea631059129384cc15736844f0e529b23568370d12bf37637"
+  },
+  {
+   "id": 20,
+   "title": "Activation de Trace",
+   "text": "Très pratique. Bien joué !",
+   "unlockRequirement": "",
+   "cnUrl": "44867dd2e36a255b38daf19ea42244be584c6ab66f067253a397857fac98c23d",
+   "jpUrl": "32c6c4db6b8f4fc2d8d1e94a153650706e45620387f498f1df63a3dccdc81d93",
+   "enUrl": "a2abcf570d2d2973f314d686846d7c7ee1f8fca2f5b7b9ee64b5beb81998c2f5",
+   "krUrl": "7f90a8a4ba4c9b46ddd1adbcedb83f8ce286decc0e082c1c8c3ef29333103f83"
+  },
+  {
+   "id": 21,
+   "title": "Rejoint l'équipe avec Seele",
+   "text": "Seele ! Oh, ça va être facile !",
+   "unlockRequirement": "",
+   "cnUrl": "de891fb84cd4c36ef7e0a6ea7d03e2a279492c9e2cb95fc0e1820edfa7a530a3",
+   "jpUrl": "0f0055cd1fd1085eba8e43cb8f2ed6547dae6c33ad2a596c9062b2f65c397465",
+   "enUrl": "cde55dc30e4f99b0c21398c047406ff24dfc9a9e540f375af2bddcaf4c6fcfc7",
+   "krUrl": "ba4b8cee172c26f7de74c58ca1c23cd17da539b85c47ab90835c9a41af6024d2"
+  },
+  {
+   "id": 22,
+   "title": "Rejoint l'équipe avec Natasha",
+   "text": "Ne t'inquiète pas, Nat'. Tout va bien !",
+   "unlockRequirement": "",
+   "cnUrl": "168d8dd05e61bc7dc4c9751da327a62379d5688b16a0f884b1ba898f017246fa",
+   "jpUrl": "adada2c2f40b1989e8f60c33655e32d7c6774d7f5174c0a9d1934c0e17a83c81",
+   "enUrl": "1f3f83f7d1cad3578f62b631a87d31efa30840dbd66e7e7c722e03fc30f97c96",
+   "krUrl": "44d140abc72460d19e67dc454737964d7743036e6c8b296b45e9bbbe6ebea8de"
+  },
+  {
+   "id": 23,
+   "title": "Rejoint l'équipe avec Hook",
+   "text": "Tu veux grandir, Hook ? Mange des protéines !",
+   "unlockRequirement": "",
+   "cnUrl": "918c0db8c18cb2553874f188e43203d0325f6887e1b2d95012972b67e758b6e5",
+   "jpUrl": "acb6c281a9f22d47dd5d0e78eab69bd8e452808c6745d22100feec2f9f8f2a7a",
+   "enUrl": "5e59db4af81aa89e4aa762c884f1089bd3a15a3a40a6bee2a70ea0948536a8e3",
+   "krUrl": "f747157f968326caa383e40cfc77226f1b6bf50b54ae9ebe23f25a7f8279469c"
+  },
+  {
+   "id": 24,
+   "title": "Rejoint l'équipe avec Clara",
+   "text": "Psst, Clara. Je peux m'entraîner avec monsieur Svarog ?",
+   "unlockRequirement": "",
+   "cnUrl": "90de1bf58b324e0fae33f102f56844fb9529cd71b7a86f8ae649a8aae73b3210",
+   "jpUrl": "930071900f842463a17262c593a4842aa625b30af0652342da70fe585f03af94",
+   "enUrl": "50253d0e87d1d5094763fa59060e19b0a08f2312eab0b7e84ed2942e06675667",
+   "krUrl": "ed4eb0b01db1b13eb2be073cc64bd424a89d849fd58877f0483b392614291e81"
+  },
+  {
+   "id": 51,
+   "title": "Rupture de faiblesse en début de combat",
+   "text": "Alors ! On abandonne déjà ?",
+   "unlockRequirement": "",
+   "cnUrl": "9ffd3d5df5521251dc0c29ce9a3192100a839ed9ae0f7b2ce8a8dd05d14bb8dd",
+   "jpUrl": "8a844c26631aa17eecd297b1cd7fa9ef6ba02e3ecf63f7321b36887c95a94107",
+   "enUrl": "d7679e9fdb8b03c32da81d4b6cfa2ee386e55df4a71e400e1cd89ae8e94dd6bb",
+   "krUrl": "d13dd284150e51e1e935ca10bf9bc2617ceb450689ac0962190eb95689fecc29"
+  },
+  {
+   "id": 52,
+   "title": "Avertissement de danger en début de combat",
+   "text": "Je ne fais que commencer !",
+   "unlockRequirement": "",
+   "cnUrl": "596685e14cb80f3a23f3791034fd02b5467b58282d4f1a76cf21ff903da1e84d",
+   "jpUrl": "c74e91d52e8b3cc4dfe64e9543d34d651f8d908dedb4bd227291c6203d0f60ad",
+   "enUrl": "d4aff2b71b6380390e9f77b7815f28d608d833f6444d66b88d5047b207db4bb5",
+   "krUrl": "576f939871002f9167922f72ceb7ded9171360a40c878a72fb4ad7cb99bcd465"
+  },
+  {
+   "id": 53,
+   "title": "Début du tour 1",
+   "text": "Je pourrais te prendre avec un seul bras !",
+   "unlockRequirement": "",
+   "cnUrl": "6525d09663027b22f7c92e027963c18611501b1d06e3a6143804a89b1287938c",
+   "jpUrl": "330faad1a0dc4327123391d1265f2b5b7952dca087518dd2be8fe41f059cec1f",
+   "enUrl": "920f665ecef0796cc7e2a3fed21d72b640030d3261e1bfd08bdb70ee87a2937f",
+   "krUrl": "395ba80ff72468393e6e3312b05fb58b37de3565de84477f31b21eb27e645f38"
+  },
+  {
+   "id": 54,
+   "title": "Début du tour 2",
+   "text": "Ah, du menu fretin !",
+   "unlockRequirement": "",
+   "cnUrl": "20704e33ed87fc29009f64095982fbdb4816d07b3edbb2a41c773e47c73e917f",
+   "jpUrl": "843ce4d690d8b83712373184f6f4eeb6de6888525a1107bb71177127fc9cd4a6",
+   "enUrl": "bb567dd8d0873c260635182cd0750a87d69596ebee3b3ae180d8490e6074aab3",
+   "krUrl": "7431c7b371912b476471da05e98f60fc27bed5f1b72c079b350a3203096db40d"
+  },
+  {
+   "id": 55,
+   "title": "Tour inactif",
+   "text": "Il vaut mieux envoyer un coup de poing ou c'est la fin, mon pote.",
+   "unlockRequirement": "",
+   "cnUrl": "d2da70944a44a118e7c26de3fa77937de126f33f1fd4817e56f3ff5085229f6b",
+   "jpUrl": "f471d7a17046fb2083988e3b04294fe9b1f5438691d04de3ca690792c2343067",
+   "enUrl": "d204fa4a03bd9cea06967eb2ff492cc9d41d072466829363df91b30201a1e33d",
+   "krUrl": "f03121184503a129ea92b4d97d36be9259eb698ce34535992c50c5a199f031e4"
+  },
+  {
+   "id": 56,
+   "title": "ATQ normale renforcée",
+   "text": "Besoin d'un coup de main...? Avec plaisir !",
+   "unlockRequirement": "",
+   "cnUrl": "2b9e7e0bbc95e0c21c5a244692a1513599a603e55084917ed56c71b6d6e258c1",
+   "jpUrl": "da43ab9fcf7bafec864901c582d4f4f76b794551fcc090125724fb5c0fc27dc3",
+   "enUrl": "a9ecea4da28658db2c65409f2880461f8412319c3c6f07f83a2bf81f3ae63b31",
+   "krUrl": "e506a2ecce4399e84683ad17dc34168601cab663f9f5d3eb541d6ca9dcf8356d"
+  },
+  {
+   "id": 57,
+   "title": "Compétence 1",
+   "text": "Ne t'emballes pas !",
+   "unlockRequirement": "",
+   "cnUrl": "88241359dc8173798e3fce9c49b9fcbc2d1e72c9d1da1c856fcf837f4bbdd5b8",
+   "jpUrl": "9d438bfa2cb6de1febd8a07e10697b6be8b7b9f68ffb344188e7fca1d1e03416",
+   "enUrl": "c4f8d114215fdca6de38ea55071c8f75a4413299f0f574bf30f3f58f3dee5315",
+   "krUrl": "7451b511e02d0e44cdbc6f7a8b290551d5b948f5d62fea827907b1cfb148fdd7"
+  },
+  {
+   "id": 58,
+   "title": "Compétence 2",
+   "text": "Arrête ça !",
+   "unlockRequirement": "",
+   "cnUrl": "561be153a4812cab70e8a331dc8a704dcef80eae6a78c82a6e06fe0941511f80",
+   "jpUrl": "4448cb1b1bbba2be0086c75f521a71ffdce607b9a2f9696a1b03579bc8975b47",
+   "enUrl": "e16ecb745fff2b2cfe28772cdedeb1eed706533e0f6bf563ce200e92824a7977",
+   "krUrl": "eba946e48525e33956600457a63194fc0a56cc1f22460b462e55b69ea88543b0"
+  },
+  {
+   "id": 59,
+   "title": "Attaque légère subie",
+   "text": "... C'est tout ce que tu as dans le ventre ?",
+   "unlockRequirement": "",
+   "cnUrl": "b061fa59eb5e81fbb5cbf2400a7f356286ebfdc8626aac64d17549c55c89ad50",
+   "jpUrl": "c72def54f1a86001959786a741712512983818d51596736a64b48f0adc519a6f",
+   "enUrl": "3bad140ee16af97d7ceaa2e2f18d0d17ab71de36b9d2eb8bfc47ab30ecba42f5",
+   "krUrl": "b469ac1ba7d57d6812cd9fbba16f204aba44dac633de0466d43ee53bb06aeb19"
+  },
+  {
+   "id": 60,
+   "title": "Attaque lourde subie",
+   "text": "... Enfin, ça commence à être intéressant !",
+   "unlockRequirement": "",
+   "cnUrl": "dc1259afaff781301a179e2a5d1151a56d982802acd6af876683d8b54dff3936",
+   "jpUrl": "c20f7ad83f7445f3f8daff87e23c7490a33e22a6bdc47bba8908aaa410b1c916",
+   "enUrl": "b56f97d8c9d1c8397a61674a18a975a7137fc71f227033fff1fdd1cd6e516572",
+   "krUrl": "f3d1ed9a3b2eeef8f0e6b756b867894eae13d716d1a02f58aef987784b7d89cd"
+  },
+  {
+   "id": 61,
+   "title": "Activation de l'ultime",
+   "text": "Où sont les applaudissements ?",
+   "unlockRequirement": "",
+   "cnUrl": "c0b28d8b25d4351d93f1aa24aa3ac45b8c56bdacbd4c6dde3181ae08326e0942",
+   "jpUrl": "5c28e29629631ca2ecdff6407c59d041edde133dd32973fd8c6588a0b8f2d8b1",
+   "enUrl": "84f4e17c077e81056eff7936e541e525bce2ffe66a7906df00852ae416998684",
+   "krUrl": "1a5262c511450ae6b578c6767123c0af49cb90f9e5b98820ca6a5a2438499537"
+  },
+  {
+   "id": 62,
+   "title": "Déclenchement de l'ultime",
+   "text": "Un adversaire qui vaut son pesant d'or... Il va y avoir des étincelles !",
+   "unlockRequirement": "",
+   "cnUrl": "a67067000724da17baf2b78657688e5e5b20c2f440b6c73221e9048b93b45da6",
+   "jpUrl": "58c093902f9d6e20fbf259b41d22a5c80ebfc5202c4ea117daee0f7c7db6ad95",
+   "enUrl": "731083cd943f1f944df585952b6625a8b96584172fefa96f97c1970362634815",
+   "krUrl": "a5a3331bfc9644e96df6bab09a9e7d278a41e026e930d028d58c96d0873ac4f9"
+  },
+  {
+   "id": 63,
+   "title": "À terre",
+   "text": "Il faut que je continue à me battre...",
+   "unlockRequirement": "",
+   "cnUrl": "a79a1a2eca9dc7ac421f89e3ac716d17eac8dfe9954defbc883708952ccd0acf",
+   "jpUrl": "606289b6fd2104509cd4b8a380353d9b0fbedf2d16fddb0bb4670d5abe21c352",
+   "enUrl": "82cda434608cc284e197ae6eff0465ad0c317251cd6d1793d599d32aaa0a7572",
+   "krUrl": "0594e24cf1b47f5cc0ab0eb4440d285880ed86c5c5e2dae8aacd3e5d2b536459"
+  },
+  {
+   "id": 64,
+   "title": "Retour au combat",
+   "text": "De retour dans l'arène !",
+   "unlockRequirement": "",
+   "cnUrl": "4d71d4b06bbb199151aea99cc012bdf132054655e9dbae1e8ac18a28c96130bf",
+   "jpUrl": "72391bfc21d2214529be1bf28d5a977f03dd052c403654be8b08627c5d5286f0",
+   "enUrl": "7199cfef79a4443adc87b79e88967cb070c3c9335fadb7c06ec30d16cfea3da3",
+   "krUrl": "473079ed8cbaf0c0305f1b121dd41c4717154f95753ce31179f04b5479192b8b"
+  },
+  {
+   "id": 65,
+   "title": "Récupération de santé",
+   "text": "C'est bien, continue de me rafistoler !",
+   "unlockRequirement": "",
+   "cnUrl": "8c61f62c1eecd954c8d32372d5c13cc1ba480f4b236244b6e25de33cab756e74",
+   "jpUrl": "e620845eacb2523e9c09d3cff3fe52cf12dfdb64c8794a478a5eced08769e2d9",
+   "enUrl": "93cd3ea7a4cceff1128d252e9203e03e7356b2d9b61b3afc20121c9c33336a1b",
+   "krUrl": "c4bcff6a32f8ef491cb20acd68034d3431572de180521a387544011982d5b5ec"
+  },
+  {
+   "id": 66,
+   "title": "Technique",
+   "text": "Je frappe le premier !",
+   "unlockRequirement": "",
+   "cnUrl": "2bda296de17bbd6dc645a23ff86fdfeae67345529090bff03fe589e48e025b0a",
+   "jpUrl": "4db4434fbcf1a4fff6d02042bb5ed39938c3c6ffd39b74dfcd778a1b4616e259",
+   "enUrl": "21eca8169d6c4c3fd8ff90533f372eec7a17274d0005db487937db8419d45fa8",
+   "krUrl": "ebce73eeab6885a5d73281fc59a651d5d98b93ddbcee09c3caa3d278e3a91886"
+  },
+  {
+   "id": 67,
+   "title": "Combat gagné",
+   "text": "Voilà une victoire qui vaut de l'or !",
+   "unlockRequirement": "",
+   "cnUrl": "a3d84a508d4379b9ef38e11664f67fe2700a2e09096045e727edd1b30623fc67",
+   "jpUrl": "d785b056db049a87e8cdf96829f3a6757ef0f86e6088dd423b1f246dd1d2d173",
+   "enUrl": "79a6d9db3136436bae8611e9bd5c7d1aeb0a3ffab36bcedace41ccb0a9adf367",
+   "krUrl": "c343ea120c35947dfd02532f1fbe9ae3917b443cbf5cbb7f39e82010330c48c1"
+  },
+  {
+   "id": 68,
+   "title": "Ouverture de coffre au trésor 1",
+   "text": "Hein, une autre surprise ?",
+   "unlockRequirement": "",
+   "cnUrl": "c6ebd988e5b502789cf0f4f8d608d5b339b96ae2eadcf0fe4c2a17d43e00d9f5",
+   "jpUrl": "bbab737fa8015bf7808aa265a1aed6a0c0140a8c22f758396e6fadf13318453e",
+   "enUrl": "189f4cd0b3e3a810427c2f082acac4c827d8712589f363a58712aee110fec7f1",
+   "krUrl": "cacc3d78ba5e7e46e280f66e857858a3b6e0d86e39822564f8405ff522eb5afd"
+  },
+  {
+   "id": 72,
+   "title": "Ouverture de coffre au trésor 2",
+   "text": "Hein ? C'est à peine assez pour une personne !",
+   "unlockRequirement": "",
+   "cnUrl": "5670489f193b6ac9a06dad04e874ba8a31b98ec51bf23f1ef3e0c1c0abace672",
+   "jpUrl": "6cf43cf71868660a2cf7b33667d658f0ace8bd88567b44afe8d1fdca5485ebe6",
+   "enUrl": "c0bbb8e96ec02df03ab3c2454b17188f47cb6f685dc0c1f579c5b68d38f0b736",
+   "krUrl": "a2f8dd700dfdaa9374e455b5216e0f0de872eaad63ba6bba3986146d0a05825c"
+  },
+  {
+   "id": 73,
+   "title": "Ouverture de coffre précieux",
+   "text": "Maintenant, on parle !",
+   "unlockRequirement": "",
+   "cnUrl": "6cfd2f63298a80ed7d66500f3a6dcfdf5b9a9461747a9ce7da9cc02310f7fec9",
+   "jpUrl": "86d8b1ab23e608c4e0978aa0a039d3e219439fd2eec54254319308f93ff59a85",
+   "enUrl": "b073ea76cf1a8e15d55f4f9d4660675d8b7592cb13135d63eaae45045410bba6",
+   "krUrl": "11ae729292ee45b9838b8f0de46ef23c6d0706d6f1471fb5e08a9e72af9add1f"
+  },
+  {
+   "id": 69,
+   "title": "Énigme réussie 1",
+   "text": "Les muscles, c'est bien beau, mais qu'est-ce que ce serait sans la cervelle ?",
+   "unlockRequirement": "",
+   "cnUrl": "59b19d41a73d24569dcfacd7840d58cf32a6f75a81d902e83be92182ab9f0289",
+   "jpUrl": "d502d1522cc112b9c070a490514f0c9a50628bc88cf42a0e9c4a2b63e351b842",
+   "enUrl": "f97fb86198f8dc53f1934457aa6ee14eeed4448b1e4cfb36b7386b3cbcd92f28",
+   "krUrl": "496ec06efd73d61169c106ea5f83b23ad12d81dc2662ba66c15aced27cd95a88"
+  },
+  {
+   "id": 74,
+   "title": "Énigme réussie 2",
+   "text": "Je n'ai pas perdu la main !",
+   "unlockRequirement": "",
+   "cnUrl": "f3f58305c572c1064fc0123f405f9f195633e8143342d1708e92aa406b058904",
+   "jpUrl": "6d8524762c7cdb0afea16ff721acb44a45ff25b11566e9353833d087b68a7ff2",
+   "enUrl": "9ba80b8296f7547634aaa02e74eb8f3f5a8bbea3bcfc57d02bebf4809c174b3a",
+   "krUrl": "a18cd18eb7a66b87aca9b5e4a1fa77cfe07f574e662483c54888d445c224ca42"
+  },
+  {
+   "id": 70,
+   "title": "Cible ennemie trouvée",
+   "text": "Ha, voilà les amuse-gueules !",
+   "unlockRequirement": "",
+   "cnUrl": "1b17ec32add70ee1865765a5ad6c080c8513ce68b9620e6136d2e8af54dd361f",
+   "jpUrl": "8572fe13f63d605d339267a8286d316a6862e697d1ae4caf533d8698d0185786",
+   "enUrl": "3025046a7c5ba4fc7a278734b3532212a4608493098c5a1a3ef711b1fde8cac8",
+   "krUrl": "71aa8b3823ce5351e5b214a94ec937857dd451bf8d6e0495e604871424ef34c8"
+  },
+  {
+   "id": 71,
+   "title": "Retour en ville",
+   "text": "J'aimerais trouver un endroit où reposer mes pieds.",
+   "unlockRequirement": "",
+   "cnUrl": "13d08e7f6d5c0421045acab48c73ce82877add016158cf7f91379aebc5aac3ad",
+   "jpUrl": "c813fcd61f87fe9ef113e4e0a361d0a4f7e565739a6a3a5f8df667590cee0dd1",
+   "enUrl": "07ec2d529273f403e1447054d202353591405f875f3f2230fe8cf3104300e328",
+   "krUrl": "55cda9f4c8f6c33cc3ac69cd50eedcd8c1ab94bfab51e7efd3bcd533d4f3bdc6"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Détails du personnage",
+   "text": "Un combattant optimiste et insouciant doté d'un bras mécanique. Fort de ses talents en arts martiaux mixtes, il est membre des Feux sauvages. De la cage de combat au champ de bataille, autrefois combattant, maintenant guerrier, Luka utilise sa force pour protéger les habitants du Souterrain.<br />Il souhaite être un symbole d'espoir pour tous, car il a lui-même été en proie au désespoir par le passé.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Histoire du personnage : Partie I",
+   "text": "Il soulevait le marteau de fer encore et encore.<br /><br />Ses yeux brillaient de mille feux tandis que le cliquetis du métal qui s'entrechoquait couvrait le son des muscles et des articulations qui se contractaient. Le garçon n'était pas encore assez grand pour atteindre les outils tout en haut de l'armoire en acier, mais la puissance avec laquelle il frappait le marteau en acier pouvait déjà rivaliser avec celles des artisans les plus chevronnés.<br /><br />Cette boutique représentait tout à ses yeux, son père accroupi à côté de la porte, lustrant encore et toujours la vieille enseigne rouillée de la boutique. Parfois, il s'allongeait sur son lit dur et imaginait à quoi ressemblerait son avenir. Peu importe où son esprit vagabondait, la silhouette de son père lui apparaissait toujours dans ses rêveries.<br /><br />Il mit temporairement de côté ce sur quoi il travaillait lorsqu'il entendit des bruits de pas s'approcher. Son père se leva, et la silhouette robuste mais courbée du vieil homme se déplaça avec un soupçon de flatterie. Encore une fois, c'était les Feux sauvages. Ils fréquentaient la boutique depuis que Magmarteauville obéissait à un couvre-feu, et ils avaient augmenté le nombre de commandes pour différentes armes.<br /><br />Alors que le garçon était perdu dans ses pensées, il laissa son regard divaguer jusqu'à croiser celui d'un vieux client, agissant comme le chef du groupe. Cet homme à la peau métisse se tenait droit, et son regard affûté s'adoucit immédiatement à la vue du garçon. Puis, il fit un signe de tête imperceptible en sa direction.<br /><br />« Bienvenue, Chef Oleg ! Comment puis-je vous aider aujourd'hui ? »<br />« Patience mon cher, je suis simplement venu ici pour discuter. » L'homme pointa Luka du doigt.« J'aimerais parler de votre fils. »",
+   "unlockRequirement": "Disponible au niveau <nobr>20</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie II",
+   "text": "Le feu l'encerclait, et la fumée noire était d'une épaisseur qu'il lui était difficile de percevoir son environnement. Des cris et des rugissements lui parvenaient alors qu'une odeur mixte de sang et d'huile de machine assaillaient ses narines. Luka essaya de toutes ses forces de ne pas vomir.<br /><br />Le sourire qu'arborait Oleg lorsque Luka donna son premier coup de poing parfait inspirait le jeune combattant. Cependant, lorsque le garçon fit l'expérience directe de la cruauté qui régnait sur les lignes de front, il perdit à jamais ce doux sentiment qui habitait son cœur. Luka observait secrètement les expressions de ses camarades chaque fois qu'ils se mettaient en rang avant d'entrer au combat, et l'appréhension qu'il lisait sur leurs visages apaisait ses propres craintes.<br /><br />Un cri ramena Luka à la réalité. Il se précipita à l'endroit d'où provenait le son et vit un enfant sans défense, acculé dans un coin par un monstre. Laissant parler son instinct, il bondit pour se mettre entre la lame tranchante du monstre et l'enfant sans défense.<br /><br />Un bruit assourdissant explosa derrière lui. Luka entoura d'un bras le jeune garçon paniqué, avant de lentement tourner la tête. Le monstre était tombé à terre. Il venait sûrement de recevoir une balle perdue dans ses organes vitaux.<br /><br />« M—merci... Monsieur... »<br /><br />« Est-ce que ça va ? Tu n'as rien ? »<br /><br />« Monsieur... votre... votre bras... »<br /><br />Il suivit du regard l'endroit que l'enfant pointait du doigt. La manche qui aurait dû recouvrir le haut de son bras droit était en lambeau. Du sang s'écoulait de son membre sectionné.<br /><br />Cependant, avant de s'évanouir de douleur, il sentait à nouveau cette chaleur remplir son cœur.",
+   "unlockRequirement": "Disponible au niveau <nobr>40</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie III",
+   "text": "Luka fut éliminé lors des phases finales du premier championnat auquel il participait.<br /><br />« Hahaha, c'est inutile ! Seuls les plus forts de ce monde survivent, et quelqu'un d'aussi faible que toi ne devrait même pas se retrouver devant moi ! »<br /><br />Luka se moquait de ces tentatives d'humiliation. Son dernier adversaire était une brute notoire connue dans le village pour ses coups sous la ceinture et sa cruauté. Luka pensa : Si je dois m'abaisser à ce genre de tactiques et de tromperies pour devenir champion, alors je préfère ne jamais décrocher la ceinture dorée.<br /><br />La nuit suivante, Luka croisa quelques enfants à l'angle du Club de combat. Un garçon, petit et maigre, était recroquevillé sur le sol, le corps couvert de blessures, tandis que les enfants plus âgés qui l'entouraient riaient avec arrogance.<br /><br />« Hahaha, c'est inutile ! Le chef des brutes pointa du doigt l'enfant blessé. « Seuls les plus forts de ce monde survivent, et quelqu'un d'aussi faible que toi ne devrait même pas se retrouver devant moi ! »<br /><br />C'est à ce moment précis que Luka décida de devenir le champion du Souterrain. Il se jura d'atteindre son objectif à sa manière : à la loyale.",
+   "unlockRequirement": "Disponible au niveau <nobr>60</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie IV",
+   "text": "« La journée est finie. Viens-là, assieds-toi. »<br /><br />« C'est tout...? Je pensais faire encore quelques séries ! »<br /><br />« Oh mais, t'en as assez fait. Amène-toi, je te dis ! »<br /><br />« Hahaha. J'arrive. J'arrive ! »<br /><br />« Petit, je vais te poser une question. Et j'attends de toi une réponse sincère. »<br /><br />« Oh ? Vous voulez avoir une discussion à cœur ouvert ? Allez-y. Je vous écoute. »<br /><br />« Bon, alors... T'aimes vraiment ça, combattre ? »<br /><br />« Hahaha ! Pourquoi cette question tout à coup ? Bien sûr que oui, j'aime ça ! Pourquoi je passerais mon temps avec vous, sinon ? »<br /><br />« N'essaie pas de noyer le poisson, petit ! Réponds-moi franchement ! »<br /><br />« Vous prenez cette discussion très au sérieux... D'accord. Pour être franc ? Je n'y trouve pas un grand plaisir. »<br /><br />« Hmm... enfin tu dis la vérité. Je me demandais : si le Souterrain n'avait plus besoin de la protection des Feux sauvages... continuerais-tu à t'entraîner pour devenir un meilleur combattant ? »<br /><br />« Hmm, laissez-moi y réfléchir deux secondes... je pense que je continuerais, oui. »<br /><br />« Pourquoi donc ? Tu ne t'es pas mis à t'entraîner pour décrocher la ceinture dorée. Je l'ai toujours su. Si la paix régnait un jour dans le Souterrain... tu aurais toujours une raison de te battre ? »<br /><br />« Monsieur, un jour vous m'avez dit qu'on trouvait des personnes mal intentionnées partout. Que même si tous les monstres du Fragmentum disparaissaient, certaines personnes continueraient de s'entretuer au moindre petit problème. »<br /><br />« Hmm... j'ai dit ça, c'est vrai. »<br /><br />« Tant que le mal subsistera dans ce monde, et que les gens biens auront besoin de ma protection... », Luka se leva, « je n'arrêterai pas de me battre ! »",
+   "unlockRequirement": "Disponible au niveau <nobr>80</nobr> de personnage"
+  }
+ ],
+ "archive": {
+  "cvCn": "萧翟",
+  "cvJp": "梶原岳人",
+  "cvKr": "이주승",
+  "cvEn": "Howard Wang",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Luka",
+ "rarity": 4,
+ "descHash": "Le champion de boxe du Souterrain de Belobog et l'un des meilleurs combattants des Feux sauvages. Vainqueur en titre à multiples reprises du Club de combat, son enthousiasme est source d'inspiration pour les enfants du Souterrain qui rêvent de grandeur.",
+ "artPath": "22fe1d85da647081a7020c5d3f6cdec5f585da751d5ac221e421de98693859d1",
+ "miniIconPath": "61b8b675bd32da196574175aa1f21165e79196dd77afb6436717fb4089383b2b",
+ "damageType": {
+  "id": 1,
+  "iconPath": "9b77aa4b13a80228e6db8023c086a6dd43ffe89e318aa52e790528beb4e5ea20",
+  "color": "#FFFFFF",
+  "name": "Physique",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "96c3b8dd457b98955d440531986a23d509f705c13d7aa794d1e97bcfd03d5701",
+  "altIconPath": "b55d340138ed77756cd939d0d9ee2103a5398f999202c1ed19d092ac87333155",
+  "color": "#FFFFFF",
+  "name": "La Nihilité",
+  "rarity": 0
+ },
+ "pageId": "luka"
+}

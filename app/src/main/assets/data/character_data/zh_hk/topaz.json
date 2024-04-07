@@ -1,0 +1,2789 @@
+{
+ "spRequirement": 130,
+ "iconPath": "55e229c8f8313102627f1e70814f232ada9cdd67353c1d0c3930a37cc18e747c",
+ "bgPath": "fc98f0dfcea95e05a0e284f095d8c09dbb78ec18be3d6347ea476b8781e2bb79",
+ "figPath": "d676592ac932355ab6420187dbe17214caba8a18831e2469ce301592bea5d8e1",
+ "fgPath": "67319da7d0efd78cb0e8439faa6156da0b63bbd2ca36a9b1de3a8e339ed49201",
+ "splashIconPath": "80ae17f3347cc3114ee3ae61d44f783ca639fafae7f26f4bf5a9d8f8644b4cc6",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRqoCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSB0BAAABkGtr27FH9/vFdtLZSWd7Zkrbtm2rs43Ktq3KB2B7pvrx3nfx4xgiYgIQ0AFgkBAOGABwAAOYUCC0O0a3wQBAuIPQgvxYg+SjB9+k+WRMLUtIXH9/3fktNc+keoQgBMPerrn4Q75v9X4CAGNQ81qStV6vlb7c2dElFAjd90ceS19L6UHfHmGhgyQrURIp69WO1P4du/6LpHxJ0aPRmcvXvRWpgKS+nMPY3V9EMZhvC6q2zb8ij0h/svpTmrBwyTWJEulD6l85YudcOPJMlqQo0qunAFD7RfJ4LP16NQRAKMpvSxI9llZypaxqARygfuHEGb8k6acuYuYAAI4BYsec2Ter64zDJ3IR0AmJcICY2n6VETAwfvya8EQABgAAVlA4IGYBAADQBwCdASoUABQAPm0ylUekIqIhKAgAgA2JaACdMuOBCLV5QegD/wb4BvIRKsPGg9mDTpXuoqJc0qOxcu/oHPYwoRvARFxIgADdvY31E83Edes/DC/5bdGF3cnDBlLCbK9h96/IB9F7tDxsDrohU1/3x5HZ7tPvZezkdo8DggdS2Ob9VTjzlfc4SEfLhyWVr9WVctWjB9kO260SP7bxvT3+ZPsdo1kjQ1Ou0+ze9O62vO/Juzt9vfzH9SC3CQaD/DxJtZR1qB9cCvkQGjSyR1RZYaRJBo7Va7Yo22F+Ius+1IJ+N2VIxzHnBz+5dzq9hxheAvG5P2o+rmA+eHQAjyRHM3/dPB9iRsN1VShQ1RtvKpTUwiZPFvUW8U9d1WiZ0vDiGIfTldsfjDG85gooIUKN6+Y4uXh2q3fhKONAS4E/29dsRFmZV+JGsYfYFgJ5uwwErB58uMcG6lYR0ODb6ja+B3+eCuAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 2,
+  "iconPath": "db0b64061159f4acfb6a3034911f3b42572d0d8d51723ca888b8ce49b06961c5",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "信用點",
+   "desc": "星際和平公司與客戶結算時使用的貨幣，如今已成爲太空旅行的硬通貨。",
+   "lore": "「人們奔波、爭鬥、貿易，爲的不過是個終端裏顯示的數字。但真正珍貴之物，公司的數字是買不到的。」",
+   "purpose": "通用貨幣",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "擬造花萼【大礦區】",
+    "擬造花萼【工造司】",
+    "擬造花萼【「白日夢」酒店-夢境】",
+    "任務獎勵",
+    "委託獎勵",
+    "餘燼兌換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "命運的足跡",
+   "desc": "行跡升級的高階素材。",
+   "lore": "一次又一次的敗北成就了你的勝利，一步又一步的前進讓你抵達了命運的拐點。",
+   "purpose": "行跡材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」積分獎勵",
+    "無名勳禮",
+    "餘燼兌換",
+    "星芒兌換",
+    "限時活動獎勵"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "無窮假身的遺恨",
+   "desc": "行跡升級的高階素材。",
+   "lore": "無論奪取多少肉身，它都無法如願以償。就像那些尋求仙藥的人一樣，它渴望一具長存的軀殼，不必再畏怖「毀滅」。它知道，這是永難企及的迷夢。<br /><br />「我曾見過無數世界被負創神的烈焰吞噬，我曾是這些烈焰中的一朵。我隨祂的指尖舞蹈，卻深知若柴薪燃盡，火焰也將熄滅…」",
+   "purpose": "行跡材料",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "歷戰餘響【鱗淵境】"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "漫遊指南",
+   "desc": "角色的經驗材料，可以獲得<nobr>20000</nobr>點角色經驗。",
+   "lore": "跨越諸界必備的冒險叢書。按下閱讀鍵，充滿磁性的聲音將以你能聽懂的語言講述知名冒險家們在不同世界間的傳奇經歷，以及他們在各個星球上獲得的珍貴智慧。<br /><br />「漫遊指南全新書系《星際美食烹飪導覽》開售在即，敬請支持。」<br />「投稿請接入博識學會聯覺信標<nobr>23</nobr>θ聯絡員，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色經驗材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "「忘卻之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "冒險記錄",
+   "desc": "角色的經驗材料，可以獲得<nobr>5000</nobr>點角色經驗。",
+   "lore": "裝訂嚴整，一看就頗有教育意義的冒險札記。圖文並茂地描述了冒險行動的始末、有價值的信息和生存相關的技巧。<br /><br />「幹嘛不數據化放進光刻片裡？便攜多了。」<br />「面對恆星風暴和中子流噴發時，高科技比你想象的還要脆弱。何況，製作這本書的人一定希望人們用最簡單的方式閱讀它。」",
+   "purpose": "角色經驗材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "每日實訓",
+    "餘燼兌換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "旅情見聞",
+   "desc": "角色的經驗材料，可以獲得<nobr>1000</nobr>點角色經驗。",
+   "lore": "記錄旅途見聞的日誌，字跡漫漶不清，內容隨心所欲，對你並沒有太大的幫助。<br /><br />「看完了就趕緊把這堆廢紙處理掉吧，丹恆？」",
+   "purpose": "角色經驗材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "委託獎勵"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d5bfc95d74fab56f9c9be440028051ed2a9e02f4ee968c8d3db170d5b55dd931",
+   "name": "鐵衛扣飾",
+   "desc": "銀鬃鐵衛士兵佩戴的扣針徽章。強化所需的簡單材料。",
+   "lore": "風霜刮蝕下滿是磨痕。<br /><br />「在古老的年代，銀鬃鐵衛只有一種退休的形式：那就是死亡。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "永冬災影、火焚災影掉落",
+    "銀鬃鐵衛、流浪者掉落",
+    "「模擬宇宙」中敵方掉落",
+    "委託獎勵",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換",
+    "擬造花萼（金）"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5be2ad896306c15eb63529806cc7e0175b2c2111e3a6f175accb00a85cf9b90e",
+   "name": "鐵衛軍徽",
+   "desc": "銀鬃鐵衛隊長佩戴的軍銜標誌。強化所需的普通材料。",
+   "lore": "也許是在家人面前誇耀的證明，也許是擋住子彈的幸運符。<br /><br />「時代變了。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "突破至均衡等級2後，永冬災影、火焚災影掉落",
+    "突破至均衡等級2後，銀鬃鐵衛、流浪者掉落",
+    "「萬能合成機」- 材料合成",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "635674": {
+   "id": 635674,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "bbfb88036f821da503753ae4189da74a1586b0b7ee8ec0f234bbf9fb53474d01",
+   "name": "獵獸之矢",
+   "desc": "仙舟匠人以星間寒鐵鍛造的箭頭。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "在行成年禮時，父母們將它贈予狩獵了人生中第一頭獵物的少年少女們，期許他們的生命如離弦之矢，終能中的。<br /><br />「願腰間箭，匣中劍，不空蠹。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/635674",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "717289": {
+   "id": 717289,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5c567b0d1a069f86d1fa35a17b282346606c69e5f8cab4028224ece84c8ad58",
+   "name": "鐵衛勳章",
+   "desc": "功勳鐵衛佩戴的軍功章。強化所需的高級材料。",
+   "lore": "對抗裂隙魔物，地底人和突發災變後頒授的榮譽證明。<br />它往往不在獲勳者的胸膛上，而是擺在他的棺槨上。<br /><br />「它不是玩具，小傑。記好了：這是朗道家族的使命，是朗道家族的血。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/717289",
+   "comeFrom": [
+    "突破至均衡等級4後，永冬災影、火焚災影掉落",
+    "突破至均衡等級4後，銀鬃鐵衛、流浪者掉落",
+    "「萬能合成機」- 材料合成",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "836260": {
+   "id": 836260,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "567e2625dad62dc022ca7b71109c76754e7fc5cc2ac9daa5debb5c65282743ab",
+   "name": "逐星之矢",
+   "desc": "帝弓司命射出的傾天光矢的碎片。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "無緣不可目睹的神跡殘餘。超逸光年，擊破天星，人們只能從光矢留下的餘燼中追想其力量。<br />也只有仙舟的工匠首領百冶才有資格將碎片重鑄，贈予功業蓋世的大英雄。<br /><br />「星裂天傾，光昭萬古。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/836260",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "「萬能合成機」- 材料合成",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "920201": {
+   "id": 920201,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "fdcef4e7b19d0d08fb9ea878b30e08be44286d0a6273f29c89a77c6e17ad9572",
+   "name": "屠魔之矢",
+   "desc": "仙舟匠人以星辰天瑛精心鑄造的箭頭。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "闊不盈一指的鋒鏑，裝入電磁弩或是熱尋弓作爲飛矢彈藥，其力道足以一擊貫穿孽物們堅如金石的軀殼。<br /><br />「天上謫仙來，乘槎渡星海。飛矢墜疾雨，明盔映月白。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/920201",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "「萬能合成機」- 材料合成",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "983279": {
+   "id": 983279,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "4278b6e89e5ce1f3e8f5ee4b3533db325b5adaf4fb9599da1b5c26c01508343e",
+   "name": "過熱鋼刃",
+   "desc": "熾燃徘徊者折斷的刀刃，火屬性角色的晉升素材。",
+   "lore": "銀鬃鐵衛間偶爾會進行一場比鬥——在規定時間內帶回怪物殘軀的一部分。這些碎刃想必就是某場比試的戰利品。<br /><br />「我千真萬確親眼所見，傑帕德頭兒一拳轟碎了那傢伙滾燙的鋼刀，然後徒手握着它搠進了那個冰胖子的肚腹裏，給它暖了暖心。」",
+   "purpose": "角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/983279",
+   "comeFrom": [
+    "凝滯虛影【大礦區】",
+    "「萬能合成機」- 材料置換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 84.48,
+   "attackAdd": 4.224,
+   "hpBase": 126.72,
+   "hpAdd": 6.336,
+   "defenseBase": 56.1,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549407,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 118.272,
+   "attackAdd": 4.224,
+   "hpBase": 177.408,
+   "hpAdd": 6.336,
+   "defenseBase": 78.54,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549407,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 152.064,
+   "attackAdd": 4.224,
+   "hpBase": 228.096,
+   "hpAdd": 6.336,
+   "defenseBase": 100.98,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633348,
+     "count": 6
+    },
+    {
+     "id": 983279,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 185.856,
+   "attackAdd": 4.224,
+   "hpBase": 278.784,
+   "hpAdd": 6.336,
+   "defenseBase": 123.42,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633348,
+     "count": 9
+    },
+    {
+     "id": 983279,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 219.648,
+   "attackAdd": 4.224,
+   "hpBase": 329.472,
+   "hpAdd": 6.336,
+   "defenseBase": 145.86,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717289,
+     "count": 6
+    },
+    {
+     "id": 983279,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 253.44,
+   "attackAdd": 4.224,
+   "hpBase": 380.16,
+   "hpAdd": 6.336,
+   "defenseBase": 168.3,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717289,
+     "count": 9
+    },
+    {
+     "id": 983279,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 287.232,
+   "attackAdd": 4.224,
+   "hpBase": 430.848,
+   "hpAdd": 6.336,
+   "defenseBase": 190.74,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6e9eee0b8d2a09d7d3ab2b8b2b6a8e20dd710a7fc97f0523646fbc2818c3d722",
+   "artPath": "01e53f98c465730af328a6ae24d39bed5bd373fc5f6e16995ba2098f9ddc2de5",
+   "name": "未來市場",
+   "descHash": "陷入【負債證明】狀態下的敵方目標受到追加攻擊時，將會陷入【被執行】狀態，單次攻擊內最多生效1次。<br />【被執行】使敵方目標受到的追加攻擊的暴擊傷害提高<nobr>#1[i]%</nobr>，最多疊加<nobr>#2[i]</nobr>層。【負債證明】被移除時，【被執行】也會被移除。",
+   "params": [
+    0.25,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "9f35040a3206afb21163f6edd3b58181612096089f4544b895293cc944dec7b5",
+   "artPath": "cb3570d664fda0f94ed2a5559e00375decfc67ecefb6fcac6ea621bd69d92912",
+   "name": "善意收購",
+   "descHash": "帳帳自身行動並發動攻擊後，托帕恢復<nobr>#1[i]</nobr>點能量。",
+   "params": [
+    5
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "82c20f952a740f5e6e8faf7d8e5ba29a3f79de7e815e6d1bf9d9c54e8282ffdc",
+   "artPath": "bd3df32df9f3801fa1cb0f7aa5f9f18d6c086f47419319fb663d0b4c72b2aae1",
+   "name": "抓大放小",
+   "descHash": "戰技等級+2，最多不超過<nobr>15</nobr>級；普攻等級+1，最多不超過<nobr>10</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "3bf4ff2ed6ed29a7b30b6c2be1a072559dda807f9675912889691e6d43e9764c",
+   "artPath": "2f58ad0d6f174b5dc62d86dd192716afb6fd6e9fcf8dfb7e6d3ea39b5c2fd716",
+   "name": "敏捷處理",
+   "descHash": "帳帳自身回合開始時，托帕的行動提前<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "3db8d64438607a00f2b24c9bfb3528318a096aa9da740f110e28daa6675fe9ab",
+   "artPath": "9354426beeb7368e6d3d0e079ba4879021c8e427bdabd7129b40da982ed80a81",
+   "name": "需求膨脹",
+   "descHash": "終結技等級+2，最多不超過<nobr>15</nobr>級；天賦等級+2，最多不超過<nobr>15</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "01dabc1f066856a420a47a2eee00177e215c4199f433ff816faae367bc7eefbb",
+   "artPath": "4851f5e7fef211c6c42c8eb60bd80c9bc0d3449489586fc12b42a7ede95f5819",
+   "name": "激勵機制",
+   "descHash": "帳帳處於【漲幅驚人！】狀態的攻擊次數增加<nobr>#1[i]</nobr>次，且攻擊時火屬性抗性穿透提高<nobr>#2[i]%</nobr>。",
+   "params": [
+    1,
+    0.1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   874440
+  ],
+  [
+   589913
+  ],
+  [
+   673854
+  ],
+  [
+   389327
+  ],
+  [
+   272682
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "單攻",
+   "descHash": "對指定敵方單體造成等同於托帕<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻擊力的<span style=\"color:#F84F36;\">火</span>屬性傷害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 874440,
+   "name": "赤字…",
+   "iconPath": "fbe9e879640bee97c7e94c5e5c78250b80e2f78bdc492d8c4f727d1773ed43ef",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "單攻",
+   "descHash": "使指定敵方單體陷入【負債證明】狀態，使其受到的<u>追加攻擊</u>傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>。【負債證明】僅對最新被施加的目標生效，我方目標回合開始或行動時，若場上不存在陷入【負債證明】狀態的敵方目標，托帕使隨機敵方目標陷入【負債證明】狀態。<br />使帳帳對該目標造成等同於托帕<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻擊力的<span style=\"color:#F84F36;\">火</span>屬性傷害。施放此戰技造成傷害時，被視爲發動了<u>追加攻擊</u>。",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "30",
+   "id": 589913,
+   "name": "支付困難？",
+   "iconPath": "82c20f952a740f5e6e8faf7d8e5ba29a3f79de7e815e6d1bf9d9c54e8282ffdc",
+   "typeDescHash": "戰技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.75,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.825,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.21875,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.40625,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.575,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.65,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.725,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.8,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.875,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "強化",
+   "descHash": "使帳帳進入【漲幅驚人！】狀態，傷害倍率提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，暴擊傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，且當陷入【負債證明】狀態下的敵方目標受到我方的普攻、戰技或終結技的攻擊時，帳帳行動提前<nobr>#3[i]%</nobr>。帳帳施放<nobr>#4[i]</nobr>次攻擊後退出【漲幅驚人！】狀態。",
+   "ultimateCost": 130,
+   "break": "0",
+   "energy": "5",
+   "id": 673854,
+   "name": "扭虧爲盈！",
+   "iconPath": "21398365c7876c975d26bab256fe7518bcd24b408001fc23af339e0a3364f6c7",
+   "typeDescHash": "終結技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.75,
+      0.125,
+      0.5,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.825,
+      0.1375,
+      0.5,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.15,
+      0.5,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      0.1625,
+      0.5,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      0.175,
+      0.5,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      0.1875,
+      0.5,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.21875,
+      0.203125,
+      0.5,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      0.21875,
+      0.5,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.40625,
+      0.234375,
+      0.5,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5,
+      0.25,
+      0.5,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.575,
+      0.2625,
+      0.5,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.65,
+      0.275,
+      0.5,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.725,
+      0.2875,
+      0.5,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.8,
+      0.3,
+      0.5,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.875,
+      0.3125,
+      0.5,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "單攻",
+   "descHash": "戰鬥開始時召喚帳帳。帳帳初始擁有<nobr>#1[i]</nobr>點速度，行動時發動<u>追加攻擊</u>，對陷入【負債證明】狀態下的敵方單體造成等同於托帕<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>攻擊力的<span style=\"color:#F84F36;\">火</span>屬性傷害。<br />陷入【負債證明】狀態下的敵方目標受到我方的追加攻擊時，帳帳行動提前<nobr>#3[i]%</nobr>。在帳帳自身回合內，無法觸發行動提前效果。<br />當托帕陷入<u>無法戰鬥狀態</u>時帳帳消失。",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 389327,
+   "name": "豬市？！",
+   "iconPath": "abd065616038d85730d5f43febb6809cf7cc0538d6420da0c568a0f383475dd3",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      80,
+      0.75,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      0.825,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      0.9,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      0.975,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.05,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.125,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.21875,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.3125,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.40625,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.575,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.65,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.725,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.8,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.875,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 188741,
+   "name": "攻擊",
+   "iconPath": "fbe9e879640bee97c7e94c5e5c78250b80e2f78bdc492d8c4f727d1773ed43ef",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "強化",
+   "descHash": "托帕入場時召喚帳帳，帳帳會自動搜尋一定範圍內的普通戰利品與撲滿。<br />主動施放祕技使下一場戰鬥中帳帳施放首次攻擊後，托帕恢復<nobr>#1[i]</nobr>點能量。<br />主動施放祕技與大地圖內的敵人戰鬥勝利後，若托帕仍在隊伍中，則在獲取信用點時額外獲取少量信用點，每個地球日內最多額外獲取<nobr>#2[i]</nobr>點。<br />主動施放祕技與模擬宇宙內的敵人戰鬥勝利後，額外獲取少量宇宙碎片並有小概率獲得1個隨機奇物。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 272682,
+   "name": "明補",
+   "iconPath": "29b773af4bb7a9e59b9bad274474e09854a7fbf8413202681148bf6221cba590",
+   "typeDescHash": "祕技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      60,
+      10000
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1112101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314258,
+        "name": "傷害強化•火",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F84F36;\">火</span>屬性傷害提高",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920201,
+          "count": 3
+         },
+         {
+          "id": 633348,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314259,
+      "name": "暴擊率強化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+      "statusList": [
+       {
+        "key": "暴擊率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 549407,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "托帕施放普攻造成傷害時，被視爲發動了追加攻擊。",
+    "ultimateCost": 0,
+    "id": 314099,
+    "name": "透支",
+    "iconPath": "b6001e4e030c831e403818a4fc4a2d9d97ad8df329e4956bc7e1f0ba42fadc09",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314255,
+        "name": "暴擊率強化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+        "statusList": [
+         {
+          "key": "暴擊率",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836260,
+          "count": 3
+         },
+         {
+          "id": 717289,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314256,
+      "name": "傷害強化•火",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F84F36;\">火</span>屬性傷害提高",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 633348,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "托帕和帳帳對擁有<span style=\"color:#F84F36;\">火</span>屬性弱點的敵方目標造成的傷害提高<nobr>#1[i]%</nobr>。",
+    "ultimateCost": 0,
+    "id": 314100,
+    "name": "金融動蕩",
+    "iconPath": "7d279a8b775eb3328df13be4b44e471dd9e0cbd5ed3ea4f0f0596b5597672b26",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314268,
+        "name": "暴擊率強化",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+        "statusList": [
+         {
+          "key": "暴擊率",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1112210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 398202,
+        "name": "傷害強化•火",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F84F36;\">火</span>屬性傷害提高",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314269,
+      "name": "生命強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "生命值",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "當帳帳處於【漲幅驚人！】狀態施放攻擊後，額外使托帕恢復<nobr>#1[i]</nobr>點能量。",
+    "ultimateCost": 0,
+    "id": 314101,
+    "name": "技術性調整",
+    "iconPath": "58ab09cd860072fda9670b6dcc630bc27b24f4d1f71d201fc28942bd4a9a5da2",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       10
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314260,
+    "name": "傷害強化•火",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#F84F36;\">火</span>屬性傷害提高",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549407,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112204,
+   "anchor": 12,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314257,
+    "name": "生命強化",
+    "levelReq": 0,
+    "promotionReq": 3,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "生命值",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 10000
+     },
+     {
+      "id": 920201,
+      "count": 3
+     },
+     {
+      "id": 633348,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112207,
+   "anchor": 15,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314254,
+    "name": "傷害強化•火",
+    "levelReq": 0,
+    "promotionReq": 5,
+    "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#F84F36;\">火</span>屬性傷害提高",
+      "value": 0.048
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 45000
+     },
+     {
+      "id": 836260,
+      "count": 3
+     },
+     {
+      "id": 717289,
+      "count": 3
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "軀幹",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "暴擊率",
+    "propertyIconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8"
+   },
+   {
+    "relicTypeHash": "腳部",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "攻擊力",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "位面球",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "火屬性傷害提高",
+    "propertyIconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4"
+   },
+   {
+    "relicTypeHash": "連結繩",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "攻擊力",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次見面",
+   "text": "初次見面，請容許我做個簡單的自我介紹。我叫托帕，隸屬星際和平公司的戰略投資部。星穹列車和無名客，各位的事跡我早有耳聞，幸會！身邊這位，就是我的好搭檔啦。帳帳，來和大家打個招呼！",
+   "unlockRequirement": "",
+   "cnUrl": "729143082740e167915f039803534acca255be54679d2b8140619050858b48b0",
+   "jpUrl": "1c1ccc4f5a0301a72f782d8b2f1b3d0ff36f8f409eb3a82696e7711707a1e342",
+   "enUrl": "fe0691e04d354136bc4f929b8ddb13dff8dc42f9b8de7e7a59ad968c9d693281",
+   "krUrl": "f9c6ededba54ee8add3c4e59a3a3d8109b1defdb4c7813fde46b33c4f01ee8a0"
+  },
+  {
+   "id": 2,
+   "title": "問候",
+   "text": "嗨，好久不見！最近怎麼樣？工作忙不忙，加班多嗎？",
+   "unlockRequirement": "",
+   "cnUrl": "b772f82d1f5570749e6862e4167ee8ea56882ff8e583938df47c04976889217a",
+   "jpUrl": "6eb6403e502ff6248745a4a857e9171a8c6ffea45fbacd6ed47927099c06df9a",
+   "enUrl": "995422bef704acca2921cfc14ace80f21594c45b0c54ad973178a29d48e12b36",
+   "krUrl": "31a76d741b95bea3e6fac5853c8d9e16afa527881b047fb4a6d790d8dc265e55"
+  },
+  {
+   "id": 3,
+   "title": "道別",
+   "text": "怎麼這麼點小事也要找我…抱歉抱歉，突然來了通工作電話，我先走啦！",
+   "unlockRequirement": "",
+   "cnUrl": "79025be5272bd1f742d692eb7bf54c619d19b437790143d7e255c6174078d84c",
+   "jpUrl": "b607c776045104664b3c5cad56a792e0e6c1392ea6a89df0da48ff9aabbc010e",
+   "enUrl": "0b54441474156a036635e06b5fb215b7536dbadcd083565dc5a13fb54b3ff40c",
+   "krUrl": "9e335b489ac0432cdc1d4215a899c7d7830ab3103f13755870843f86d28c42be"
+  },
+  {
+   "id": 4,
+   "title": "關於自己• 故鄉",
+   "text": "那首歌怎麼唱的來着？「回不去的名字叫家鄉」——嗯，詞是寫得誇張了點，但我的確很久沒回家看看了…老實說，我也不太想回去。",
+   "unlockRequirement": "",
+   "cnUrl": "f22ba70e330d1aa1a913d008bee6d2e6257519f3a82e70b3696e2eb442c2a97b",
+   "jpUrl": "2a8c2dff9246a38bbfa73dd249b9e86f26442a02bce630740e586fecaefed74f",
+   "enUrl": "c53a78a002f2b8589969018cf0301b189e70252765ed63950bb6516ee5e8c97e",
+   "krUrl": "a7ae8cbfb4b45daa1df73bbe23968a56c59a871893ab1e488e5c7791d05f80b8"
+  },
+  {
+   "id": 5,
+   "title": "關於自己• 職業",
+   "text": "保障絕大多數人的利益，這是我選擇這條職業路線的初衷。公司給了我一個絕佳的平臺，讓我能夠實現自己的目標…對此，我沒什麼可抱怨的。",
+   "unlockRequirement": "",
+   "cnUrl": "b3e9633fdc05c3d741446e095df38f3bbcb99c3a5c78115693b5cece4f5b5ad5",
+   "jpUrl": "c72c421f92b4095a1239d3dc5e31405fb34e288c19a9f9483fd9a34833b15b7f",
+   "enUrl": "207852d1510829e2f7c2e0feb419a8c1a605ff9bacaf2e35ad60e9f82898b301",
+   "krUrl": "186311c43a5f5c9ee89f0f5763cc92843bfc751e7a1d8f8a1ddbde5b971d3ad4"
+  },
+  {
+   "id": 6,
+   "title": "閒談•職場",
+   "text": "職場上爲人處事的小技巧，那真是多到列都列不全。但我始終認爲，最重要的一點就是保持真誠——不論是對待同事還是客戶，這都是我的底線。",
+   "unlockRequirement": "",
+   "cnUrl": "0b95fca724c7c85087651532e311471e74c59cec1b226c58679de7d50907c56c",
+   "jpUrl": "9adf2efc332d642e5af020a1fe11bcf4182c5e7a65cbb94c15cbf8ce10a6ea1c",
+   "enUrl": "61d25564cb6c120fbce8b3134282d209806235619a854872bc591dc9ac9a8afc",
+   "krUrl": "3ccee9c669a7660784709f6bc74208428c7647e5f56972650d02c3b96257bf66"
+  },
+  {
+   "id": 7,
+   "title": "愛好•工作",
+   "text": "這都什麼年代了，怎麼還有人會爲了錢工作呀？錢是手段，不是目的，工作才使人快樂…這可是最基本的道理。",
+   "unlockRequirement": "",
+   "cnUrl": "a27b719be0c71e500329faeb1cb3ebfdb947f09b22c2ce98f22d555dd45488dc",
+   "jpUrl": "8de5dfffa40be36b1c1e67900e47feaaca140c4ba280b39129e0b8ca3a5bd756",
+   "enUrl": "2fada8ddab740d5067386cde06a8a7dd0af9294b030cee1de4261aa167733a62",
+   "krUrl": "0be8d107decdafcdd10b293e5f40cb16e237bc5629711aa92ebf16973bf1a081"
+  },
+  {
+   "id": 8,
+   "title": "愛好•小動物",
+   "text": "偌大的星空，億萬種可愛又神奇的小動物…就算只是爲了它們，我也得努力呀！",
+   "unlockRequirement": "",
+   "cnUrl": "901ac897f7d1519bf076df133a6b1f64b82691659185cb1647858f20b8d52fdc",
+   "jpUrl": "159c7ced3ced2eb082172d4acf717a5298ac9af2cd9aaa793cca39728d684983",
+   "enUrl": "87288ea801651be840188ad44014101caf27eb525e132a255cc04efa4a440eef",
+   "krUrl": "e350a4f15dcee10db1ab5d0cd22c9582657a57e0e58fa382c5a9200b7e8490b6"
+  },
+  {
+   "id": 9,
+   "title": "煩惱",
+   "text": "數學太好的煩惱，就是人人都愛把你當成人形計算器。所以呀，自從坐上這個位置，我就很少跟別人說起我在這方面的專精了。",
+   "unlockRequirement": "",
+   "cnUrl": "ab5cb74fcd3168dc60ccb8a8a8540e18615cb9d8a5e4d24d11becdb524392682",
+   "jpUrl": "2ca42cf0abefc34efce548cc23f70f47ff4bcd263551ab907ded9407387b0d93",
+   "enUrl": "1a8be455142c5a4c2fb2e0e01fbfea9846fc97481c319488239d45e1d50d70d0",
+   "krUrl": "d6e94ee94b56780853ec128300ecf80ec66faf11e8278009466f8fb5fc846752"
+  },
+  {
+   "id": 10,
+   "title": "分享",
+   "text": "我本來以爲，來自不同生態系統的小動物肯定沒法共同生活，所以我把家裡分成了好多個不同的生態區。結果，你看你看——這兩個小傢伙處得多好！它們明明來自完全不同的兩個星球，卻能變得如此親近…真是太奇妙了！",
+   "unlockRequirement": "",
+   "cnUrl": "7f48181023e995f1a8a405d47a5ef805a7d6138d9f749777a9c1381b415d4aaf",
+   "jpUrl": "fd83a06db76aa4f96caa79eb729a992ebaafa81240e3d6322be1c3c7f8b8f677",
+   "enUrl": "e455e938af23d263016b09dcc58ed639611762a0eb24fb67748c331aeaa07931",
+   "krUrl": "d603abbce1a03d0c0abf23d2b8d5e8ecefe0c8b18e4caba11205bbe249162c23"
+  },
+  {
+   "id": 11,
+   "title": "見聞",
+   "text": "家家都有本難念的經，這點道理我懂。可要是人人都爲自己的原因欠債不還，整個系統就會崩潰——真到了那個時候，一個人的家長裏短就會變成全世界的苦衷。",
+   "unlockRequirement": "",
+   "cnUrl": "5e2563819546ab3e4dcd8327121c088f0674992e24bc75ca044896265af7d5dd",
+   "jpUrl": "b4e08ee11bd73587497695f5ed90d28fefe713d054f289f3fe84498b602ff8fe",
+   "enUrl": "b8a2738163d4c4e1bf59fe30f821c0040d62a056d4becea87aecadb4dfe04171",
+   "krUrl": "f004f0c808017aa58abb5faa628be98cce91c449ebee7ad98f40abbb0a62a971"
+  },
+  {
+   "id": 12,
+   "title": "關於帳帳",
+   "text": "從以前開始它就最喜歡亮晶晶的東西，比如金幣、寶石啦…經常喫得圓滾滾的，就像膨脹的賬務一樣~所以帳帳，其實是「帳脹」啦。",
+   "unlockRequirement": "",
+   "cnUrl": "8a80e3b101a7039f71dd053be01d411af3e2abd16f44d4dae33661631a369449",
+   "jpUrl": "71e59d019a04ce2add2665f04d9ab0de5b8927822bf595b5abc29e75f4b3e66f",
+   "enUrl": "ea7a1284e83aac8653182bb0bd60ec168c6ce97a69c0cbd01d57afc1b56f204e",
+   "krUrl": "2fb2aad0dae5807eeda70a78d029875f9cc6d53875af18d940af7e576fe20879"
+  },
+  {
+   "id": 13,
+   "title": "關於砂金",
+   "text": "不提公司，就是在「戰略投資部」裏，也有許多我不敢苟同的傢伙。儘管是同事，卻完全不是一路人，例如那位砂金…衷心祝願你不用和他打交道。",
+   "unlockRequirement": "",
+   "cnUrl": "faff096a46631513babe584fc11eab4081ae00c9ee741f5e8ce213237829f595",
+   "jpUrl": "41c8527c3e87c97fa3744afbba267fc724469b0f24d4df4a790f280de1731d8c",
+   "enUrl": "ef66d66e30313778c4ecd2e1c22bd92147a7bfbc61cc73da2a73fcaa77f9ef21",
+   "krUrl": "1cb31dc4fa81b2dbbe2787679a592b55595522cade637a03c9282064275d5024"
+  },
+  {
+   "id": 14,
+   "title": "關於布洛妮婭",
+   "text": "貝洛伯格的大守護者…唔，很厲害的一個小姑娘，性格比她的實際年齡要成熟得多——什麼，你說我和她年紀差不多大？不不不，情況完全不同，不能直接類比……",
+   "unlockRequirement": "",
+   "cnUrl": "23a5e8c5532566bebe6b4aea55f3501fa83a2c5eff0e8afa50f0904e123c5b44",
+   "jpUrl": "faec50d8c94c651fc81b276587e558acabd7e63f9a392c6d762e52ee4b763408",
+   "enUrl": "3965695bf355d8687b4c901fca553e628f544eb77910ea1554d53bb2c1674e35",
+   "krUrl": "d556042b77a5baaca168df9b914e0618367b0783b8120f9db298f6b16bc7d566"
+  },
+  {
+   "id": 15,
+   "title": "關於姬子",
+   "text": "星穹列車的姬子，我早有耳聞。聽同事聊八卦的時候說，她是一位貌美絕倫又見多識廣的女士。有機會的話，我還真想和她見上一面。",
+   "unlockRequirement": "",
+   "cnUrl": "702fbc6fcb9695325ad274df59b4034c154ad418e4742dd5d4690d07275eca21",
+   "jpUrl": "7afd20636a091a89c078d0ecb35021c42338cc04ba6731b8b8bdac122d6c20d2",
+   "enUrl": "d9f8b381f2cf11217c6dde74026832c6ef16f3a4fe9bc5d9aea4ab8366817086",
+   "krUrl": "9dcc3e5a287fb5777d129811fcb6a8a678276dce06c5d8b8adf1305f88967edb"
+  },
+  {
+   "id": 16,
+   "title": "關於帕姆",
+   "text": "星穹列車的神祕人物，外形像小動物一樣的列車長…嗯，我也聽過那種傳言。耳聽爲虛，如果它真有傳言中的那麼有趣，那我遲早要見上一見！當然最好還能，揉上一揉……",
+   "unlockRequirement": "",
+   "cnUrl": "e338b5bb87c0877797feff02965188bd3920a80acc11f88f753a2b0757a1b49e",
+   "jpUrl": "367df6c81aaec98ae9514b5a01e1d3f663526437fa2103f5c2028e73ce0e72af",
+   "enUrl": "f7577b2829abdabf34c101819aa055835ca7bd62c2fdba7832c20a93c520d92d",
+   "krUrl": "56baf1f0f9dc8b90fe6261819e09a21c69aa4c03cc68e78d00dfe789812ab772"
+  },
+  {
+   "id": 17,
+   "title": "關於艾絲妲",
+   "text": "艾絲妲小姐！啊，那可真是位貨真價實的大小姐…你絕對猜不到她的家底究竟有多厚，絕對！",
+   "unlockRequirement": "",
+   "cnUrl": "d3f097814bd6a3ed31ca7a53abd216bcc5f6177aff531a0855ce33443df8d0e9",
+   "jpUrl": "3955d301739f817960f060f305b5ac245973db5f7f3cb54f648b8b6e35dc4dae",
+   "enUrl": "3a6c75a8fb696983273428643ba269a18bb44cb34f4ac0aa8c3bdfa71ee9db14",
+   "krUrl": "9b72f023530d74c5e0551d941dd31d5304c946279c28eeb3ddd0d37163e4083c"
+  },
+  {
+   "id": 18,
+   "title": "關於星核獵手",
+   "text": "星核獵手？不熟，沒和他們談過項目。據說那幫人很不好接觸，但信用記錄倒是意外地良好——比起那些捕風捉影的陰謀論，我更看重的是這一點。",
+   "unlockRequirement": "",
+   "cnUrl": "7b142433fe13d97a093abf22d3d54528a2b8b97b37247185f10588c910e9ca69",
+   "jpUrl": "b66b06d5cd840d7057aff7695c3429daee49783c156911514ba92dde6ed36f21",
+   "enUrl": "efebe5ad19ebf2352be31fca448e98e035c07f600b89c1d7a7fca513653b760e",
+   "krUrl": "905d547b694a6c2d0985c7a900eb4c23c81dd9547d7c6d514d67af61169a25c9"
+  },
+  {
+   "id": 21,
+   "title": "星魂激活",
+   "text": "漲勢喜人呀！但越是這種時候，就越得保持清醒。",
+   "unlockRequirement": "",
+   "cnUrl": "9f99b3e91c5ae56041f3078fcb037f27b500a74651b857f1ce24e978dacb656b",
+   "jpUrl": "d9e2a12d2f91146b76f2e1c043c591ddbd4dc81a9830795fcd60c1b7975a2005",
+   "enUrl": "2dd37fc913285045791f974a1a0d4c3017d58479e63695269e191b5ef1369150",
+   "krUrl": "094893819f3379500a673e291786e31ed9a71aaa3b42e9bc54e1fd1002df8a24"
+  },
+  {
+   "id": 22,
+   "title": "角色晉階",
+   "text": "很好，繼續漲，不要停！",
+   "unlockRequirement": "",
+   "cnUrl": "5a29b3d1b6a486b91370ec984948f11344dc18dd2b3154a6c2cadd1eaf83dab6",
+   "jpUrl": "ac57ef85487ac2c8c1ddaaf41e635a9ef2457b5057749b9bacce0ce029ecf022",
+   "enUrl": "d5f986030fb526447a2fba82a03d2c96b6c124a1f11da0693c251919445b8c79",
+   "krUrl": "61fac348e4a3e5b28a88018425125981c4e60a0266ac69f3a49a7abcd7be9f2c"
+  },
+  {
+   "id": 23,
+   "title": "角色滿級",
+   "text": "這就到頭了？不不，人生是場持久戰，還得繼續向上才行。",
+   "unlockRequirement": "",
+   "cnUrl": "1d734e57bf90d245195869f503554b7f52f7e78a6252360c3ad1a9760b0fbb0e",
+   "jpUrl": "0b6528ee3204fab68099a20c4c7c702f5f1f5d83d52446561a1ba389575aa655",
+   "enUrl": "9a66e59542a829ea40e41e5c00ac957660ca4d378205d8b937f8dd524b743848",
+   "krUrl": "6df04e851fe8bf2a09fd19cf21c04b4a63ccc5b651949e0013c122f5000d579f"
+  },
+  {
+   "id": 24,
+   "title": "行跡激活",
+   "text": "還不錯，但遠遠不夠。",
+   "unlockRequirement": "",
+   "cnUrl": "4eb91702b8decf259ecececb30348de2630ad168bc6690f197a3f5c2c225c046",
+   "jpUrl": "316d017ddf0ebff015fd6d34416f603b1d45b6a9ef34ff2422336114b14c0b0a",
+   "enUrl": "d2dee7cf4828b1237d2e6c3117c3f61a837103a544b06ab108a457df6374480a",
+   "krUrl": "2b096c02a955bc6a590129b621e0aab70d14136ed49de8efc8785bb2e67718a4"
+  },
+  {
+   "id": 25,
+   "title": "隊伍編成•姬子",
+   "text": "姬子小姐！和你共事一定能讓我學到許多吧。",
+   "unlockRequirement": "",
+   "cnUrl": "29c0f35c165e2705f56306586dd9c7874007aa9ac4551a43f21f27440434d617",
+   "jpUrl": "9e4e039ce8d330fdd4a5e85831bf76b748746663e36a152da73808cf617ab237",
+   "enUrl": "3dd77dc5d3926b34b6f0e9d5210d284aa25ca6f9fd8585ea31cd0aa8859d95fc",
+   "krUrl": "c5b02f955ee20df76bec5608536d69179c1be8f617f4364ffdc39960d80ecc4e"
+  },
+  {
+   "id": 26,
+   "title": "隊伍編成•布洛妮婭",
+   "text": "近況如何，布洛妮婭？不管多忙都要記得休息，別和我一樣啦。",
+   "unlockRequirement": "",
+   "cnUrl": "7cc4851f817bd93104e1e94ae36bdc6ef5927498b50b5cf0830ae3a5867675b8",
+   "jpUrl": "0692ec6c603eb6b8d383e0e5bee87a72fd39978bd1dc0f1ebba6dd73cbcf8890",
+   "enUrl": "1ba3e2cd5be089ed399d3529641068385931241af8e7cbc5d4cde95e23eeb5a9",
+   "krUrl": "5e258dcef2331ae44966c6db8f480ea8b266e5697ff37f1e79131417889b38a2"
+  },
+  {
+   "id": 27,
+   "title": "隊伍編成•艾絲妲",
+   "text": "艾絲妲小姐，幸會呀！令堂最近身體可好？回頭再一起喫個飯吧！",
+   "unlockRequirement": "",
+   "cnUrl": "13d109cc707b909b1ca6d33a2bb92a132c99bbbad178661edd019857249fdcef",
+   "jpUrl": "addf03ec06c76c442d186105d912db10f85de8e788822b0b2d3a3d4cf91abeb4",
+   "enUrl": "6226469d7d43580dd794551925cffa50b825f7bd9d1d710c83617b5fa1943b73",
+   "krUrl": "f6c0d7a060a17ef178b0527f63bfa13002a3308917c92886d963e2bb37f29f7a"
+  },
+  {
+   "id": 28,
+   "title": "隊伍編成•砂金",
+   "text": "哎？這次跟你一起行動…也好，就當互相有個照應吧。",
+   "unlockRequirement": "",
+   "cnUrl": "0de4b67aa72ac475106c9424326a6fa4f8222bfb17fc13680ef0f4ed1cb42e4a",
+   "jpUrl": "a37736a2ec70865b6fe161cd2a61ca115041a4a2c68794ce2a8bc786bd984fdc",
+   "enUrl": "54d9b2b57dd2c10b33e023e956f8a471cf7dc67a793a4877f82c56703910fbfe",
+   "krUrl": "5ac098bc956c63aa1610ba6999ebd31200224867fb216841f80ab1252e01f06a"
+  },
+  {
+   "id": 51,
+   "title": "戰鬥開始•弱點擊破",
+   "text": "我看漲哦。",
+   "unlockRequirement": "",
+   "cnUrl": "e9b772b90b0096dc80cee867fe49025d7801bd90859b31b5c026a8644e8737d0",
+   "jpUrl": "7bd20935943548cc8bdc4da730c26d55ab46c2dcbb5dc5524f997b98ede5f368",
+   "enUrl": "f2084b78e0d6832683d374742c45972fc78221df5d899e6438e8387a129080b5",
+   "krUrl": "c2d32a16c95ce38a82a40b41ac9a0fec7ad98e9a3e7e5981df87b9417dec9f8c"
+  },
+  {
+   "id": 52,
+   "title": "戰鬥開始•危險預警",
+   "text": "必須提高風險意識……",
+   "unlockRequirement": "",
+   "cnUrl": "005b2f80c24144b55573afae8600a5adf786f80ac71ed49657366dd98af1f1dc",
+   "jpUrl": "cd783772fbd114a60ec1f445d6ad9e3cb30838bd86a6f8140ddbd668ddb52cf2",
+   "enUrl": "5464633ed6943bc5afd1d58e8b49b5c42a664ca5e559afa5b3103d7a3983163b",
+   "krUrl": "2b98291d89470932502039974508bc27103f3493af043c1ed3d3e4f0019800da"
+  },
+  {
+   "id": 53,
+   "title": "回合開始•一",
+   "text": "開始吧，資產評估。",
+   "unlockRequirement": "",
+   "cnUrl": "44a23f7a2ad727bed74bec62383e29d1a9c21f930a113091e2da6aaa36e9c712",
+   "jpUrl": "7c09ee0eb260dff6ddd7b318336beeb53f14f1273fd00d29b071484426bc2c36",
+   "enUrl": "ff3b9f36874c3c24481bdb0c42cf8b20dcca8c0e8421146de9c019d62c1d878f",
+   "krUrl": "a6849c33ef42447eb2c5f3757946bcb88bf0426b238e40ee2ade4ff59991373d"
+  },
+  {
+   "id": 54,
+   "title": "回合開始•二",
+   "text": "別急呀，帳帳！別急~",
+   "unlockRequirement": "",
+   "cnUrl": "f9641cf10135d0a81b0a48e1bb5263d4337c7dc33958d288105c651065d8b5a3",
+   "jpUrl": "a968dbb81b78559f548bdae48d04433f324281c20f02a38017dc4dfa7816b02a",
+   "enUrl": "630e1c62d48c40244c14caa18ad526efe5acd170fe0ee1c220eb14689316253e",
+   "krUrl": "02a57c21ffb3092fd515c4809ff2ca54f203a2f116e492d8422f7f5590031c77"
+  },
+  {
+   "id": 55,
+   "title": "回合待機",
+   "text": "市場波動很正常，該出手時就出手吧~",
+   "unlockRequirement": "",
+   "cnUrl": "b7db8be65470a6a00b9d374810216e2a5fa7c8938b574c1a6cc6b212b5e2f202",
+   "jpUrl": "31b4da56dfc2822f199f968dca5a73d6c1975d0eb4dced179d074a9fc3df9120",
+   "enUrl": "4555be6ceef691a9690b5679484da2f005ca3ca674005b509b26d10778dc1d71",
+   "krUrl": "270f3df1e52f5ef0f7cc08dd97e5df6130bf81d0afc34be8d3fa7488e6721171"
+  },
+  {
+   "id": 56,
+   "title": "普攻",
+   "text": "還不還款？",
+   "unlockRequirement": "",
+   "cnUrl": "6e89dad58f4adff286a75b604839458ab5e4170bba4158df919f7ea9c0b449ad",
+   "jpUrl": "3dbfeca1b4da4afe0606b499aab0093376689f19525aae7e08dd52a6732fd7a5",
+   "enUrl": "43da50aa416ac30ef4140fc62e067be4c34326a7f793225da5bec3886674d1a9",
+   "krUrl": "8eb3d4d9876088dea447124b1a8d5256b6bd2eb8486b63baeecbe42c44105872"
+  },
+  {
+   "id": 57,
+   "title": "戰技•一",
+   "text": "帳帳，狠狠地砸！",
+   "unlockRequirement": "",
+   "cnUrl": "09e2c887dcfffc58dcd3b90e8a32de1fdffc8a322e8d4b744dcf7bb5db49c3e0",
+   "jpUrl": "5fccc12776c96fe7a4d8fdd620eefb9a682f8bb40558c98d4ee2f4ac04666bbb",
+   "enUrl": "fc4320a966aa69935d6a437ec5acdb776668cef5112b9b070e80c9fd03c4d5ce",
+   "krUrl": "3bf794e2f84d38f770dcb28638a76f6a408394669b427b19dc11226d783fd402"
+  },
+  {
+   "id": 58,
+   "title": "戰技•二",
+   "text": "清算時間到啦！",
+   "unlockRequirement": "",
+   "cnUrl": "4366ce82a39c759d7569209072d25cbe74c91bec8a965f58db5f2028cb4b3feb",
+   "jpUrl": "2b361777a77cc6f8b94abaa8843a6f99f26db64b4596fc16ab6ef34e4cad67ac",
+   "enUrl": "af98e3c6650121a3f7d726b86738737015ede7e34803b1972b345f826ed4c8da",
+   "krUrl": "d11961eb243e701426eb2c5321c827b0e5ce7d58e1bbe2076745adfd3f405a28"
+  },
+  {
+   "id": 59,
+   "title": "強化戰技•一",
+   "text": "連本帶息，還債！",
+   "unlockRequirement": "",
+   "cnUrl": "65c17d473507e0b148eab099badb788dca48390468e3539ca05c3a2ab66bdad0",
+   "jpUrl": "8ef883979db08ae09b7c55680c344276054ed0282b5ca9a437ca133871fe4d18",
+   "enUrl": "f7ac4047a6a1c6fc3f1565f82034997ee5fdaf0c7cb76d8195e0f9630351e583",
+   "krUrl": "19cc20fb79a0031dc22a95e3562bcce52274934169f78d76fcdf95cc56fddded"
+  },
+  {
+   "id": 60,
+   "title": "強化戰技•二",
+   "text": "全部資產，沒收！",
+   "unlockRequirement": "",
+   "cnUrl": "66bfd6d652843284441dcfe19e57c32fcb40cab9a07bdbeac01668d8f03677fa",
+   "jpUrl": "aac583bd5d19c73c95d6ce8803edc28943ff51c669da01d615f7a7b9c909ed70",
+   "enUrl": "1f5132dc1f589b75e088c120b099b8b7495c1872ae84492f46d3ebb58bc4a66b",
+   "krUrl": "623af4290b1fcf7c2d0757fedb97b3bdcc7e74bd2c1c2ecf6281b14db23b3677"
+  },
+  {
+   "id": 61,
+   "title": "輕受擊",
+   "text": "穩住……",
+   "unlockRequirement": "",
+   "cnUrl": "3f89efbb32a0d57bc4f4fbbb71d78d4adf38964cd7c41b8c4bbf34a93f8f10fb",
+   "jpUrl": "32ca9a4ab2d5148f2801990da2736b80a3d97233a3dfa7fefd32f7c14466f73e",
+   "enUrl": "9c3f7a6369855c77cb1c2174de80b7bf3ad132e46744ada8e407e2cd1e08bf6d",
+   "krUrl": "9d09fb0f456dcd570a85045f6d724a0ffd763f71110e5da4e2ab3f50db2128a7"
+  },
+  {
+   "id": 62,
+   "title": "重受擊",
+   "text": "注意止損……",
+   "unlockRequirement": "",
+   "cnUrl": "91aa089d3a3649d45f61abf86aa2d4ca0ed2543c551d52fa8bc4e92d2ecfbdba",
+   "jpUrl": "6c5d6521b8c5555faba33797195746fbb04fb682a3ba0546c850ea14b52ecec0",
+   "enUrl": "291c4ed5a177e15491c339ef733bef7ec45a871f1a8839dcc9715c238e28789e",
+   "krUrl": "5466e0f25321cf88cd3fd2984de232f6c2765f9853075d952c1e4f2410a7c03d"
+  },
+  {
+   "id": 63,
+   "title": "終結技•激活",
+   "text": "行情撲朔迷離……",
+   "unlockRequirement": "",
+   "cnUrl": "1c06236dd35468de2c1ca7ea2019a31034694318afbb75ce24595e1d44d48ac9",
+   "jpUrl": "83c7a5d495f5a5ad4d82291ad1e8793b8d32f1964c033eeb65eff33850685649",
+   "enUrl": "5a16cf642cd0bce34de490f7b715cba149fbfb8b4a6177d88398fb4fb9ba4649",
+   "krUrl": "c23bac42282afa28d193c3a2cf8fdabc197a76f6e62aca1d425b046262b81d2d"
+  },
+  {
+   "id": 64,
+   "title": "終結技•施放",
+   "text": "啊？對哦。目光放遠，聚焦長線…就是投資成功的祕訣！",
+   "unlockRequirement": "",
+   "cnUrl": "0a1d962991b4185122759880e3f74dceeb6636397455f85947897d7e9647419e",
+   "jpUrl": "fbca0d1fcfe56dfe48d5e035632c98f2fe230005b7662892ebed4543702207b1",
+   "enUrl": "59b1438af3143f7429df640a7861d197fecb6aa3abf2dcbe98d115df0543dbe0",
+   "krUrl": "590832198da4cf7cc07a71ffc751b2b3e650422f42c2f2b5bdb71f9e5b3815f7"
+  },
+  {
+   "id": 65,
+   "title": "無法戰鬥",
+   "text": "還沒填…事假申請……",
+   "unlockRequirement": "",
+   "cnUrl": "c69db5d97a1818ddb2a5eedf988456182ff9cb1bd0554cc8ce1a4414fb50c337",
+   "jpUrl": "ff07c4fbcec249c698798fbad9ed6e046fe9847594e8b43c1b7d826cf48c495d",
+   "enUrl": "aeb109da2d8aa94ae3236439eaa8e6b83ef2d3aed3414e0cc68447fb5a67b053",
+   "krUrl": "49899af15317040490ae4b9cdfe3c319019d765f821e3e0d26d091e781865b87"
+  },
+  {
+   "id": 66,
+   "title": "重回戰鬥",
+   "text": "呵…加班加班，我來啦。",
+   "unlockRequirement": "",
+   "cnUrl": "640980209183dcb13e1301b82d51461eed03c3729f7cbf35fcdda8a13ec3c872",
+   "jpUrl": "2b2769685ae0534f94a93b9f7b4e9ef4c6c235a0838de04334833f026e5d0096",
+   "enUrl": "6720ddfbb71697ed18a75858973a67ef1b5a0a9cd62cefd39cbaeb8f0ff69822",
+   "krUrl": "4a4bd293262827315f8eeb8b6c6a8b28122d4b66e217757236464717ffc7cb89"
+  },
+  {
+   "id": 67,
+   "title": "回復生命",
+   "text": "好棒的公司福利~",
+   "unlockRequirement": "",
+   "cnUrl": "a94a79dbaba2ec993cfd112011af5758ce6d464d8f7730338cfb8ef7d3878bad",
+   "jpUrl": "326c84af9ec3a9b905bb61149c5ea21cee4b3999381447848b63844ea165bc49",
+   "enUrl": "65a9d1ebb609441c993967bed8a18d921ec0c133e0672e5f4864bf8869c446c6",
+   "krUrl": "dc9e8a5b83ebe80d954269870fca20d9d97fa2a2272d6cf85c9b022cf474c472"
+  },
+  {
+   "id": 68,
+   "title": "戰鬥勝利",
+   "text": "這個項目就算結啦！",
+   "unlockRequirement": "",
+   "cnUrl": "ae94d734506668faa78ef67217aafb61d2a58de025e35081d7638baf4686a211",
+   "jpUrl": "3b87b78a901dace6032779fc25ee7035a1d4d646c4b9e0fba6ea188003392d4c",
+   "enUrl": "5102b9e04faca6d79f5694b0db973533b0ff113a85b4e6ea073df19821e8d743",
+   "krUrl": "88e3b5d5de3194b586f5757412f9f830fd416f1f08181b51d565ab13b27e4f89"
+  },
+  {
+   "id": 69,
+   "title": "開啓戰利品•一",
+   "text": "認真工作還是有回報的嘛~",
+   "unlockRequirement": "",
+   "cnUrl": "9215327dd32a0ddbe2860ed9407bd84dff1c1578c0168f9fc1e9bc939f9f88c8",
+   "jpUrl": "0e455ffcb3821a82a360f74a4891cab0bba01c8093b9eccd3a0080c146944ecb",
+   "enUrl": "45b4d0de0e18d06d1fd2d88456a6c2f5373fd0acc48439ae705197f6c1779d5e",
+   "krUrl": "d73c04eb2eeb7e6c9c5b7489fa267d2593515a0763d9b8490b2c04da6458c802"
+  },
+  {
+   "id": 70,
+   "title": "開啓戰利品•二",
+   "text": "哦~意外所得~",
+   "unlockRequirement": "",
+   "cnUrl": "2ea97323e4603f1dce6134f63c9818e362b53f6343f37a24db8110ef40b82b1d",
+   "jpUrl": "04de53b9823dfe66e89c158132bd069bde119591640b09c850faf31b22710860",
+   "enUrl": "9b8d604760b59de975827dc86933f567f7a3863eccca0fe451bd7f11c3a11ffd",
+   "krUrl": "edb1ffddebc5762a3305f29b19d03ff97a722f6de1da85d03392a531e02e012c"
+  },
+  {
+   "id": 71,
+   "title": "開啓貴重戰利品",
+   "text": "季度獎金的一部分~",
+   "unlockRequirement": "",
+   "cnUrl": "98b4412084c7bb25ee0b200fdbe7f43004e1e71afa85bcbd18236eafbf991dca",
+   "jpUrl": "b46244bee9475c599492a794f958e4d28c7f88a770bcd9a467e40954b67005bf",
+   "enUrl": "4bac9071c60df1a022acdccf812a935d7ae3edfc35222d2d307f76dd3d397355",
+   "krUrl": "e8ef7dafecb4ffbba84bd56fd378d8178ea519db4bc7cab362ee0ad05fcaaa17"
+  },
+  {
+   "id": 72,
+   "title": "解謎成功•一",
+   "text": "小測驗而已。",
+   "unlockRequirement": "",
+   "cnUrl": "9e9da04794ab8df2270fb0822e93050089fbc879c1cddf49e16033042917027f",
+   "jpUrl": "10d7577269a9989910df95b6de18e39671218316a1c0e6ce3178c109709f24b2",
+   "enUrl": "b95c0a8fae320853043249187be041d40c2a04677f429ee0e757970a369e6383",
+   "krUrl": "e4b55351e0f07994c70f17306208056daabd8470d626e77b1d0e15842a92e693"
+  },
+  {
+   "id": 73,
+   "title": "解謎成功•二",
+   "text": "這也是工作能力！",
+   "unlockRequirement": "",
+   "cnUrl": "1e70dbb298735ee131eee77152a5240117c43f757a3720013f8902adf7d8f795",
+   "jpUrl": "e1716a0a98b02dacba4ed7eac1003ed9ca23e0fb7a89c79762b016bb40d7f230",
+   "enUrl": "8035674ae80645cf47b7cc6daaaa6f81df06a83d6da5802c3fd82fa431b9083b",
+   "krUrl": "f866487f620ef5c86e470289a452724ff3fb641dea5edc5cf06cc4e901534cb7"
+  },
+  {
+   "id": 74,
+   "title": "發現敵方目標",
+   "text": "前方那位，你也要諮詢債務問題？",
+   "unlockRequirement": "",
+   "cnUrl": "1793eaac11e62a26d3abfa0977a43da09deb5ea96fa214cfcf723f9eece6e6bd",
+   "jpUrl": "990e7f8b631bfb6f650fe7a66fdb5e75842b9d4f43f18b63155e83bd51ea76de",
+   "enUrl": "d864eca7a741508579a4c83a8103efbceeb8aac4d758632290e3ae053a0702f2",
+   "krUrl": "73255b9a8e9a3fd0a32dc49fbb5e0ea69b328d0109de6df723e1a06c939904ab"
+  },
+  {
+   "id": 75,
+   "title": "返回城鎮",
+   "text": "休息一會兒…把手機振動關掉吧！",
+   "unlockRequirement": "",
+   "cnUrl": "b0376a365c54096d092e4b80018d4c908560ad688457c45c05193c73ade3754c",
+   "jpUrl": "6ff0f99fec3c87679dd071d0fae711aa6bf05ae4642056bb154f58ef1cab80d6",
+   "enUrl": "0f463cad4a8e87f0ec46cdd2f9051f1e2baff1cac6d2092709ab200743af129a",
+   "krUrl": "625bf7f97661676367e9abc53ac33c95aca6419650f0116c08075b7e7084b71f"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色詳情",
+   "text": "星際和平公司旗下「戰略投資部」高級幹部托帕，領導特殊債務糾察小組。<br />年紀輕輕便已成爲「石心十人」之一，基石爲「催討黃玉」。<br />搭檔次元撲滿「帳帳」則能敏銳感知財富所在，即便是安保、催債、精算等工作也不在話下。<br />如今他們正一同巡行銀河，追究各類影響公司業務開展的債務糾紛。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "「戴斯特，這份簡歷你看過了嗎？」<br /><br />「您說的是哪…噢，是她啊——這位剛剛在市場調研小組結束了實習，還引起了不小的轟動——呃，褒義的那種。」<br /><br />「居然已經過了實習期了？唔……」<br /><br />「哪裡不對嗎，德比斯基先生？」<br /><br />「沒什麼，只是好奇，畢竟她的入職年齡也算是突破部門下限了…何況這姑娘的履歷還這麼驚人。我看看…嚯，籤的居然還是『終身合同』？真沒想到，那麼落魄的星球上還能撿到這種人才……」<br /><br />「我已經和業務同事核實過了，簡歷上的信息全部屬實。而且，她甚至沒把當時的入職測試結果寫進去——聽說她在精算、微經宏經、星際金融、管理學等學科測試上全都拿到了高分，甚至連體測也接近滿分。她唯一沒有及格的項目是……」<br /><br />「嗯？是什麼？」<br /><br />「…是商務禮儀，她直接翹掉了那門測試。『我最討厭的就是形式主義』——據說她當時是那麼說的。」",
+   "unlockRequirement": "角色等級<nobr>20</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "「我說啊，你……」<br /><br />「嗯？怎麼了，德比斯基大叔？」<br /><br />「…你應該知道辦公室禁止攜帶寵物吧？」<br /><br />「當然了！員工手冊第八十六小節第一百四十四條——嚴禁攜帶任何形式的有機體寵物出入星際和平公司屬下的辦公場所。」<br /><br />「…記得還真清楚啊？那你要不要解釋解釋——」<br /><br />「——但我認爲這條準則根本就是無稽之談，完全沒必要遵守。實話告訴您吧，大叔——有了這些可愛的小傢伙在場，我的工作效率直接提高了百分之二十七！」<br /><br />「…我倒是不會質疑從你嘴裡說出來的數字，但是……」<br /><br />「你看！這個小傢伙——嘿呦——叫帳帳！可別把它當成普通的次元撲滿哦，這小傢伙對『金錢的味道』特別敏感！我現在不管去哪出差都得帶着它，簡直成了我的幸運星啦~」<br /><br />「居然會在辦公室裏看到這種生物，還真是…咳，算了，我先假裝沒看到吧。只是下次總監視察的時——哎、哎喲！！怎麼回事？！別、別咬我！快、快把這傢伙拿走——」",
+   "unlockRequirement": "角色等級<nobr>40</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "匯報人：弗朗西斯科•德比斯基<br />匯報對象：「翡翠」<br />匯報內容：組長述職<br /><br />「翡翠」女士：<br /><br />這應該是我最後一次通過系統向您遞交述職報告了。時光荏苒，轉眼間我已在戰略投資部工作了半個琥珀紀，也經過一路摸爬滾打才爬升到如今的位置；雖算不得功成名就，但至少也爲我的家庭積攢了足夠幾代人過上安逸生活的財富，我已別無他求。在此，也要特地感謝「翡翠」女士您一直以來給予第一六六市場組的大力支持。<br /><br />言歸正傳，我在這次述職報告中將不再對第一六六市場組的近期工作內容和業績多做贅述，以上內容在本組的工作月報中均有體現。這篇報告的唯一目的是向您引薦我組內的一名員工：███•████。<br /><br />關於███•████的事跡和業務表現，想必您多少有所聽聞。我在系統附件中附上了她的述職文件、以及組內多名員工對她的綜合考評文檔，供您參閱。儘管年紀尚輕，但███已經表現出了非凡的業務能力、管理思維和意志品質。我毫不懷疑，如果由她來接任第一六六市場組組長的職責，本組的營收和項目成功率將會更上一個臺階。我也有理由相信，以███展現出來的潛力，她的職場生涯絕不會就此止步，她未來必將在更大的舞臺上大展宏圖。以上，在我退居二線之後，希望您能多多關照███•████——誠如戰略投資部一貫的主張：人才是最重要的投資，我相信她早已步入您的視線之中。<br /><br />戰略投資部第一六六市場組<br />弗朗西斯科•德比斯基",
+   "unlockRequirement": "角色等級<nobr>60</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "「戴斯特……」<br /><br />「怎麼了，德比斯基先生？」<br /><br />「要不，你就先喫吧？我看不會有人來了。」<br /><br />「沒關係，我還不餓。怎麼說這也是您的歡送會，還是再等等吧。」<br /><br />「呵呵…我最知道這幫小崽子的德性了。一個個的，每天腦子裡就只有工作，搞錢…怕是早就把我這個老領導給忘得一乾二淨了。」<br /><br />「…我很遺憾，德比斯基先生。我本來以爲，至少葉琳娜會……」<br /><br />「——欸，別叫那個名字了，現在要叫『托帕』。真想不到啊，那姑娘竟然真成了他們的一員……」<br /><br />「不服不行啊戴斯特，像我這種老頑固，再幹幾輩子都不可能沾到那個位置的邊。人家已經是另一個世界的人咯，怎麼可能有空來參加這樣的小聚會？」<br /><br />「您謙虛了，我覺得…啊，有人敲門——您別動，我去開。」<br /><br />「…是誰啊，戴斯特？我這老花眼，有人站在我跟前都看不清……」<br /><br />「抱歉，先生，沒人來…是有人捎來了一封信。」<br /><br />「噢…這樣啊。誰寄來的，這麼隆重？明明發條信息就可以了嘛……」<br /><br />「信封上沒有署名。您稍等，我念給您聽吧——」<br /><br />「親愛的德比斯基先生：感謝您一路以來的厚愛和栽培！沒有您的關照，就絕對不會有我的今天。實在抱歉，我現在遠在泰科銨出差，不便參與您的退休歡送會。等到這樁項目結了，我一定會抽出一天時間來探望您。對了，我記得您的愛好之一就是機動球——我會從泰科銨給您帶紀念品回來的。您永遠忠誠的，小葉琳娜。」<br /><br />「……」<br /><br />「德比斯基…先生？您…哭了？」",
+   "unlockRequirement": "角色等級<nobr>80</nobr>解鎖"
+  }
+ ],
+ "archive": {
+  "cvCn": "陸敏悅",
+  "cvJp": "南條愛乃",
+  "cvKr": "방시우",
+  "cvEn": "Sam Slade",
+  "camp": "星際和平公司"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "托帕&帳帳",
+ "rarity": 5,
+ "descHash": "星際和平公司旗下「戰略投資部」高級幹部托帕，領導特殊債務糾察小組。 年紀輕輕便已成爲「石心十人」之一，基石爲「催討黃玉」。 搭檔次元撲滿「帳帳」則能敏銳感知「財富」所在，即便是安保、催債、精算等工作也不在話下。 如今他們正一同巡行銀河，追究各類影響公司業務開展的債務糾紛。",
+ "artPath": "fd0883162e340d4cf565c933a4ee63b8f64b3c8bf39182d81bbfe7af0d3a14e3",
+ "miniIconPath": "1dc2e5d7dd4720deeb42759eeeb6345c633ff38edea3480b9ffe0829aacc3969",
+ "damageType": {
+  "id": 2,
+  "iconPath": "bd8329d02d7ecfee2a1f565e89cf3bf7bf6aaa60bea29cec2b4f7192626a0311",
+  "color": "#F84F36",
+  "name": "火",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "948d90296adc5203a105a16be892d9e4d5e83c93df11abf59a8ad4321e37fbb8",
+  "altIconPath": "38241d858c120d8a55f36eaab92a34690a7d9add4f3e36383dabf27f5d3f5f55",
+  "color": "#FFFFFF",
+  "name": "巡獵",
+  "rarity": 0
+ },
+ "pageId": "topaz"
+}

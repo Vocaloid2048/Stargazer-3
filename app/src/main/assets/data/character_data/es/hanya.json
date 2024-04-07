@@ -1,0 +1,2719 @@
+{
+ "spRequirement": 140,
+ "iconPath": "b04234e91a4c2727c38da1d1117f838a3b3d2d805f268c8ef30ee3d55f209dee",
+ "bgPath": "5b8c0b1f01f3a1d5f21d935bac5eff7faa836300d3b51619e01836bf2efce300",
+ "figPath": "48de6a5940f1bc2c27ab4f32483f0b460c8c1a238fe30118b6c3d2bd142d58b6",
+ "fgPath": "aa38bcc6a8172825475bf8cda08f53ff1b8838395daab996dfd9d0dfccb67b53",
+ "splashIconPath": "c1ca41aeccea99e7840f768fe9999bf816194185def767f83007af0e60d3e0e5",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRn4CAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSBEBAAABkKNt27FH9/t9sW3be3BSOqlsjm1jAa5sd7ZVsbLt+f0+9+D7/zVExATAZxO++5sA/OHv74NCOBAC1M6C6Q2Jg7lnX1+qXMuVUVAWCuELlpH88cbDXvhZIGjkoRbtJl08AigABtpJCqlFaFsaB0Cp1pt0C0UoFM0x+PmhgtQUIUmhm+eiAGMj3RQhKUIhuRwNVx0US1KE2mb/PZQ5cPwDSXq0x6WFPx6vSUlEvU30NwcthbZ7U7Jholr0o68/xjbcnbX+C98+29YTBgMHSD4daQ2d+9Tu0fy9uxBA8JL3JG2XSc3/O/B/8OA7Uj784olpM7ZmA4AygcjaztTwksYIAFCwNODVzzQMeDdMBWUq/A8AVlA4IEYBAABQBgCdASoUABQAPm0wkkckIqGhKAqogA2JbACxHt7A7IA3nTeHiIS0EAMVpdJdEuV5SRIDeasqVQSK8AD+6/5qWcHMwrl8XReEQ5Gefr4ovHAVh9QkYv043Upfm2D+tFS1gZBGayU5N2OE4uMaKcLHGbAz3NAv1aXo1pXmX4UgjRqOj+Yjiy4Zi5cDlKRM9aeGo1l5BR80Fr05Ay3XSHl8+1ES/1oL0+0Hmb/u6rotkCmvIYn4GtBXzEGrECM44l/2EOTZX/j/h03iQJRPDvaIz2NFymQR+NEstVJ+WPTJuMTbYEp2eK825+8CMdk/hCBApsuNVdwuUiiVNSzIBv1cpbL+l7lqWq7Z5GKiUrIkx0jLd7GD/JyZZtTqLrGn6mPiq2Wu3CbClPfJ5wCzVWXh8gijyqhwueCpovXr0i5aXX/gwwAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 4,
+  "iconPath": "55d5339b99655abd5d47c976596bebf22e6e522614fef628f7c875606f3e1abd",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Huellas del destino",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Un fracaso tras otro garantiza la victoria final. Un paso tras otro acaba llevándote al punto de inflexión de tu destino.",
+   "purpose": "Material de Rastros",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensa de puntos del Universo Simulado",
+    "Honor anónimo",
+    "Canjeo de Ascuas",
+    "Canjeo de Cosmiluz",
+    "Recompensa de evento de duración limitada"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "Arrepentimiento del eterno vehículo del alma",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "No importa cuántos cuerpos capture, sigue sin conseguir lo que quiere. Al igual que quienes buscar el elixir de la inmortalidad, ansía un cuerpo que pueda vivir para siempre y que no necesite temer a la destrucción, pero es consciente de que esto no es más que un sueño inalcanzable.<br /><br />\"He visto muchos mundos devorados por las llamas del Imperfecto; yo antes era una de esas llamas. Danzaba a una señal de su dedo, pero en el fondo sabía que el fuego termina extinguiéndose cuando se acaba la madera...\".",
+   "purpose": "Material de Rastros",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "Ecos de la guerra del Desfiladero de Escamas"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Guía del espíritu viajero",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>20</nobr> <nobr>000</nobr> pts. de EXP.",
+   "lore": "Lectura indispensable para la exploración. Pulsa el botón Leer y una voz atractiva empezará a hablar en un idioma que entiendes y te contará las vivencias legendarias de aventureros famosos de distintos mundos, así como los valiosos conocimientos que adquirieron.<br /><br />\"El nuevo volumen de la serie Guía del espíritu viajero, titulado «Manual de gastronomía intergaláctica», saldrá a la venta muy pronto\".<br />\"Para enviar un artículo, conéctese a la baliza sinestésica ERD<nobr>-23</nobr>θ y contacte con un representante de la Sociedad del Conocimiento. Puede elegir la forma de pago más conveniente para usted\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Salón olvidado"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Registro de aventuras",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>5000</nobr> pts. de EXP.",
+   "lore": "Colección de notas instructivas muy bien ordenadas. Contiene numerosas ilustraciones y textos que describen aventuras de principio a fin, así como información valiosa y técnicas de supervivencia.<br /><br />\"¿Por qué no lo digitalizan y lo guardan en un disco fotolítico? Sería mucho más práctico\".<br />\"La tecnología avanzada es mucho más frágil de lo que crees cuando tienes que enfrentarte a tormentas estelares o erupciones de neutrones. Además, seguro que quien escribió este libro quería que la gente lo leyera de la forma más sencilla posible\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Entrenamiento diario",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Noticias del viaje",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>1000</nobr> pts. de EXP.",
+   "lore": "Diario de viaje con una caligrafía ilegible y un contenido completamente aleatorio, por lo que no te sirve de mucho.<br /><br />\"Dan Heng, acaba ya de leerlo y luego tíralo\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Recompensa de encargo"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "54d4c5dedbef6b70f526e88708669e94b6a214431c0c9ca55edf9b28b3413fcb",
+   "name": "Componente artificial mecánico",
+   "desc": "Parte de la maquinaria de Xianzhou. Material simple que se usa en la potenciación.",
+   "lore": "Base de las artes mecánicas de Xianzhou. La parte más pequeña de todas las piezas de maquinaria. Desmontarlo sería como destruir la estructura celular de un ser vivo.<br /><br />\"La Sociedad del Conocimiento ofreció una recompensa de dos millones de créditos a cambio de cualquier plan técnico que lograra desmontar sin problemas las marionetas mecánicas de Xianzhou\".<br />\"Si conoces a Tornillum, esos dos millones serán tuyos...\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "De Ingenios Encantados",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7b31224c48190eebf224b39e2a9df9477f9c67018bc63cb1b20569e6186041c3",
+   "name": "Engranaje cilíndrico mecánico",
+   "desc": "Parte de la maquinaria de Xianzhou. Material corriente que se usa en la potenciación.",
+   "lore": "Componente conector de las artes mecánicas de Xianzhou. Los dientes finos e intrincados del engranaje son tan diminutos como semillas de mostaza, pero se interconectan para formar un todo complejo, logrando que la máquina se asemeje a un auténtico ser vivo.<br /><br />\"Sus formas son armónicas y paralelas a la naturaleza. Sus movimientos son cíclicos y reflejan el cosmos\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "De Ingenios Encantados (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "635670": {
+   "id": 635670,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a096383d62b9e5432fbf9a9674cc41041077b151d3473e44509d684eaaccd9bd",
+   "name": "Melodía armónica",
+   "desc": "Pequeña caja de música hecha por un artesano desconocido. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Reproduce una melodía alegre y relajante.<br />Aunque sea muy sencilla, cualquiera que entienda un poco de música se da cuenta de que el compositor es un genio.<br /><br />\"¡Toma a tu amor de la mano y bailen juntos!\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/635670",
+   "comeFrom": [
+    "Cáliz del asentamiento robot",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "717385": {
+   "id": 717385,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fcb869b494268ac2b7320d4a3795736698f3a3c5e9bad9c0182c6e11bd343c55",
+   "name": "Corazón armonioso mecánico",
+   "desc": "Parte de la maquinaria de Xianzhou. Material avanzado que se usa en la potenciación.",
+   "lore": "Núcleo de las artes mecánicas de Xianzhou. La esfera armilar gira y vibra como un corazón, logrando que la máquina piense como un ser vivo.<br /><br />\"No se asuste. Si le sacamos el corazón, este ser... no, esta máquina perderá la conciencia y volverá a sus orígenes de piedra y metal\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/717385",
+   "comeFrom": [
+    "De Ingenios Encantados (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "836256": {
+   "id": 836256,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "b423fcc0ae34c8c3b30d0a461af31176b161d5a83f3615756c8f8a91f04ac474",
+   "name": "Opus Stellaris",
+   "desc": "Caja de música con una estructura muy intrincada hecha por un artesano desconocido. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Reproduce una increíble sinfonía galáctica.<br /><br />\"Algunos astrónomos creen que el movimiento de las esferas celestes funciona igual que una estructura mecánica compleja. Las agradables notas que los astros emiten cuando se mueven se conocen como la 'armonía de las esferas celestes'\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/836256",
+   "comeFrom": [
+    "Cáliz del asentamiento robot",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "866634": {
+   "id": 866634,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "596fbaf0ec664666606ba684cdb5e8f5ea877d04fab4177151231822416efbed",
+   "name": "Pase del inframundo",
+   "desc": "Arma de la Enviada Fantasmal Aurúmata. Material de ascensión para los personajes de tipo Físico.",
+   "lore": "Esta es el arma que usa la Comisión de los Diez Líderes para reprimir la Mara y las abominaciones. Además, es un símbolo que muestran durante sus operaciones. Ninguna autoridad del mundo mortal tiene jurisdicción sobre ella.<br /><br />\"Mensajeros del inframundo, enviados del reino de la muerte. Han llegado a detenerte y no tendrán piedad\".",
+   "purpose": "Material de ascensión de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/866634",
+   "comeFrom": [
+    "Sombra paralizada del Jardín del Sosiego",
+    "Máquina sintetizadora multiusos - Intercambio de materiales"
+   ]
+  },
+  "920197": {
+   "id": 920197,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "b5aa737b728156387ef4ddce10e0a541deb24993d58c4f2eca0aac0ed4301ea8",
+   "name": "Himno del acervo",
+   "desc": "Caja de música hecha por un artesano desconocido. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Reproduce un himno que canta una pequeña banda de música.<br />Es imposible averiguar a quién se está alabando en la letra.<br /><br />\"¡Penuria, penitencia de la Grandiosa! ¡Riqueza, gracia de la Grandiosa!\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/920197",
+   "comeFrom": [
+    "Cáliz del asentamiento robot",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 76.8,
+   "attackAdd": 3.84,
+   "hpBase": 124.8,
+   "hpAdd": 6.24,
+   "defenseBase": 48,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549503,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 107.52,
+   "attackAdd": 3.84,
+   "hpBase": 174.72,
+   "hpAdd": 6.24,
+   "defenseBase": 67.2,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549503,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 138.24,
+   "attackAdd": 3.84,
+   "hpBase": 224.64,
+   "hpAdd": 6.24,
+   "defenseBase": 86.4,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633444,
+     "count": 5
+    },
+    {
+     "id": 866634,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 168.96,
+   "attackAdd": 3.84,
+   "hpBase": 274.56,
+   "hpAdd": 6.24,
+   "defenseBase": 105.6,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633444,
+     "count": 8
+    },
+    {
+     "id": 866634,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 199.68,
+   "attackAdd": 3.84,
+   "hpBase": 324.48,
+   "hpAdd": 6.24,
+   "defenseBase": 124.8,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717385,
+     "count": 5
+    },
+    {
+     "id": 866634,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 230.4,
+   "attackAdd": 3.84,
+   "hpBase": 374.4,
+   "hpAdd": 6.24,
+   "defenseBase": 144,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717385,
+     "count": 7
+    },
+    {
+     "id": 866634,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 261.12,
+   "attackAdd": 3.84,
+   "hpBase": 424.32,
+   "hpAdd": 6.24,
+   "defenseBase": 163.2,
+   "defenseAdd": 2.4,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "bd8d3896d01979ead66758f902d455aef9fb0306e7ac744cf7dfcff4395d5b7b",
+   "artPath": "89f72a7473270ff439e41451ba2d6644ed9c977cac0b61affdbcfc199673c9ce",
+   "name": "Un corazón",
+   "descHash": "Cuando un aliado con el efecto de la habilidad definitiva de Hanya derrota a un enemigo, la acción de Hanya se adelanta un <nobr>#1[i]%</nobr>. Este efecto solo puede activarse <nobr>#2[i]</nobr> vez por turno.",
+   "params": [
+    0.15,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "32d917373e815868d69fdc92db0cf49b6b787f973b395f9b732a76915e658671",
+   "artPath": "cba36a80d2a62f035ce8e5c2f130e1dae4d94333885abd19dbfea8d72e7a7efb",
+   "name": "Dos vistas",
+   "descHash": "Tras usar su habilidad básica, su VEL aumenta en un <nobr>#1[i]%</nobr> durante <nobr>#2[i]</nobr> turno.",
+   "params": [
+    0.2,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "84ba61c48fe42b8ce3848d8358773ee7d005fa4a707b9f555b203a8c033ab384",
+   "artPath": "0eb525c9771e696ed40451492b919e50816f82ec73304bfc09ad666cdae4cbe4",
+   "name": "Tres tentaciones",
+   "descHash": "Niv. de habilidad básica +2 (máximo: nivel <nobr>15</nobr>). Niv. de ATQ básico +1 (máximo: nivel <nobr>10</nobr>).",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "841dc7f96beb69d7905e339848411a2572ebdc383ccdc80a822cc4bbf9f0be39",
+   "artPath": "99eef445271a6dd517d0a7f8a5b3951a4f29213df2e1cf245177e9134598c3f2",
+   "name": "Cuatro verdades",
+   "descHash": "La duración de la habilidad definitiva aumenta en <nobr>#1[i]</nobr> turno.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "f3e777a7fd594f390c02e8e625b5a24752758a7d61d50d58da472a0fb11be886",
+   "artPath": "53e607a02823d398e3853c63fc23a9a1a23c4eedbc17da47f3415c2eadd539b7",
+   "name": "Cinco agregados",
+   "descHash": "Niv. de habilidad definitiva +2 (máximo: nivel <nobr>15</nobr>). Niv. de talento +2 (máximo: nivel <nobr>15</nobr>).",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3ea1ed9febc467c07e9fab4de0bde53a809428fdf9fbe18b669b67c83c992fa2",
+   "artPath": "f1da4c8adb20e993717ee70dfa0228763ba727896e52caee1d5e1f10c663ed43",
+   "name": "Seis reverencias",
+   "descHash": "El efecto de aumento de daño del talento aumenta en un <nobr>#1[i]%</nobr> adicional.",
+   "params": [
+    0.1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   581588
+  ],
+  [
+   297061
+  ],
+  [
+   381002
+  ],
+  [
+   866115
+  ],
+  [
+   782174
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "ATQ individual",
+   "descHash": "Inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> del ATQ de Hanya como Daño <span style=\"color:#FFFFFF;\">Físico</span> a un enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 581588,
+   "name": "Pincel del oráculo",
+   "iconPath": "c6f118fbc2a0dd70dd917325891ebb3fb286e4d9e262324bb4f33b46ffa30984",
+   "typeDescHash": "ATQ básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ATQ individual",
+   "descHash": "Inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> del ATQ de Hanya como Daño <span style=\"color:#FFFFFF;\">Físico</span> a un enemigo y lo afecta con Lastre.<br />Cada vez que un aliado ataca 2 veces con un ATQ básico, una habilidad básica o una habilidad definitiva a un enemigo con Lastre, el equipo recupera 1 pt. de habilidad básica. Lastre solo tiene efecto en el último enemigo al que se le haya aplicado y se disipa automáticamente una vez que se haya activado <nobr>#2[i]</nobr> veces el efecto de recuperación de pts. de habilidad básica.",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "30",
+   "id": 297061,
+   "name": "Samsara, bloqueado",
+   "iconPath": "84ba61c48fe42b8ce3848d8358773ee7d005fa4a707b9f555b203a8c033ab384",
+   "typeDescHash": "Habilidad básica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.2,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.56,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.8,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1.95,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.25,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.4,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.52,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.64,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.76,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.88,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "Aumenta la VEL de un aliado en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> de la VEL de Hanya, y el ATQ de ese aliado en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> durante <nobr>#2[i]</nobr> turnos.",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 381002,
+   "name": "Decreto de los Diez Líderes, todos obedecerán",
+   "iconPath": "53adb08d7a56a4667152066de64a63f03c47e982dad085082d3092d120ff4f5c",
+   "typeDescHash": "Habilidad definitiva",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.36,
+      2,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.384,
+      2,
+      0.155
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.408,
+      2,
+      0.16
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.432,
+      2,
+      0.165
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.456,
+      2,
+      0.17
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.48,
+      2,
+      0.175
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.51,
+      2,
+      0.18125
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.54,
+      2,
+      0.1875
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.57,
+      2,
+      0.19375
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.6,
+      2,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.624,
+      2,
+      0.205
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.648,
+      2,
+      0.21
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.672,
+      2,
+      0.215
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.696,
+      2,
+      0.22
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.72,
+      2,
+      0.225
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Apoyo",
+   "descHash": "Cuando un aliado usa el ATQ básico, la habilidad básica o la habilidad definitiva contra un enemigo afectado por Lastre, el daño que inflige aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> durante <nobr>#2[i]</nobr> turnos.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 866115,
+   "name": "Castigo",
+   "iconPath": "ad52b1d6074b5510f6982bbef2c6f3c16533283c8ff147b69b92c7aac4b8d73c",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.165,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635670,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920197,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920197,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920197,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24375,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836256,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2625,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836256,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.28125,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836256,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836256,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.315,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.33,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.345,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.375,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 665529,
+   "name": "Ataque",
+   "iconPath": "c6f118fbc2a0dd70dd917325891ebb3fb286e4d9e262324bb4f33b46ffa30984",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca al enemigo y entra en combate. Aplica un Lastre equivalente al aplicado por la habilidad básica a un enemigo al azar.",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 782174,
+   "name": "Juicio del inframundo",
+   "iconPath": "c3350e770431e8bdd3b1a54dd6dfaa88cec19f5f0400fb2243e440daf96cf7c2",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1215101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1215202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1215203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 21406,
+        "name": "Bonificación de ATQ",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATQ",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920197,
+          "count": 2
+         },
+         {
+          "id": 633444,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 21407,
+      "name": "Bonificación de VEL",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+      "statusList": [
+       {
+        "key": "VEL",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635670,
+        "count": 2
+       },
+       {
+        "id": 549503,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Aumenta el ATQ de los aliados que activan el efecto de recuperación de pts. de habilidad básica de Lastre en un <nobr>#1[i]%</nobr> durante <nobr>#2[i]</nobr> turno.",
+    "ultimateCost": 0,
+    "id": 21247,
+    "name": "Toma de registros",
+    "iconPath": "5e2f9f3bf9c6e86ee9931d9c4c586b8082516d7a5fcaeaec049e90a12dc3b31a",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635670,
+        "count": 2
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1215102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1215205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1215206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 21403,
+        "name": "Bonificación de VEL",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+        "statusList": [
+         {
+          "key": "VEL",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836256,
+          "count": 2
+         },
+         {
+          "id": 717385,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 21404,
+      "name": "Bonificación de ATQ",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATQ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920197,
+        "count": 4
+       },
+       {
+        "id": 633444,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Al derrotar a un enemigo con Lastre, si el recuento de activaciones de recuperación de pts. de habilidad básica de Lastre es <nobr>#1[i]</nobr> o menos, se recupera adicionalmente <nobr>#2[i]</nobr> pt. de habilidad básica.",
+    "ultimateCost": 0,
+    "id": 21248,
+    "name": "Inframundo",
+    "iconPath": "4dd0bba8e68efe285b6272c65f621fa88cf09bd5063acf7499a3fd3110a199ce",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920197,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1215103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1215208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1215209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 21416,
+        "name": "Bonificación de VEL",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+        "statusList": [
+         {
+          "key": "VEL",
+          "value": 4,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 128000
+         },
+         {
+          "id": 836256,
+          "count": 6
+         },
+         {
+          "id": 717385,
+          "count": 6
+         }
+        ]
+       }
+      },
+      {
+       "id": 1215210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 105350,
+        "name": "Bonificación de ATQ",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATQ",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 128000
+         },
+         {
+          "id": 836256,
+          "count": 6
+         },
+         {
+          "id": 717385,
+          "count": 6
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 21417,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836256,
+        "count": 6
+       },
+       {
+        "id": 717385,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Cuando se activa el efecto de recuperación de pts. de habilidad básica de Lastre, Hanya regenera <nobr>#1[i]</nobr> pts. de energía.",
+    "ultimateCost": 0,
+    "id": 21249,
+    "name": "Reanimación",
+    "iconPath": "118f8cdcde2fd68cf9143ac862fa60d3ab0a17277e58de53ed4d2aed20faeb35",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836256,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1215201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1215204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 21405,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 8000
+       },
+       {
+        "id": 920197,
+        "count": 2
+       },
+       {
+        "id": 633444,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1215207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 21402,
+      "name": "Bonificación de ATQ",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATQ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 36000
+       },
+       {
+        "id": 836256,
+        "count": 2
+       },
+       {
+        "id": 717385,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 21408,
+    "name": "Bonificación de ATQ",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ATQ",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549503,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Torso",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "ATQ",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "Piernas",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "VEL",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Esfera de plano",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "PV",
+    "propertyIconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf"
+   },
+   {
+    "relicTypeHash": "Cuerda de unión",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "Recuperación de energía",
+    "propertyIconPath": "75627c696d3e9763c0b4feeb4a8e2baf594ac73214c6227b3a125c032be090c8"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primer encuentro",
+   "text": "Soy Hanya, la enviada de los Diez Líderes. De los cuatro deberes de un juez, detener, interrogar, encerrar y castigar, yo me encargo del interrogatorio. Los Diez Líderes me tienen en gran estima, y soy portadora del pincel del oráculo, que registra crímenes y castigos.",
+   "unlockRequirement": "",
+   "cnUrl": "a4f023ec5ecbd14bd0a680b77ad27e07c28837ffe1c51cebc2886e55b09d2c44",
+   "jpUrl": "8b0fca7d7e2bd207a8b02876da984883f08302e2dd75749e2d0a8418ca65c447",
+   "enUrl": "8fd551fee8b170ce86d658e491d527bd13fbbd54085423a1d378ba412320d019",
+   "krUrl": "c31c434f64b251e9ec691befc3b867266c963cf5d6485ed8bc9e999a135e88c6"
+  },
+  {
+   "id": 2,
+   "title": "Saludo",
+   "text": "Ha pasado mucho tiempo. ¿Cómo te va? No puedo decir que me vaya bien últimamente, pero es normal en mí.",
+   "unlockRequirement": "",
+   "cnUrl": "c6b68776b941083b9001aabfeef4dc10966fc22a3edd3cfaaab31fecd96702b0",
+   "jpUrl": "eed1f0fea839cf5f0eaafb34f61ad5988848f5f85a55990bd10cd44fd1270d51",
+   "enUrl": "257c4b17c34ac17ae5bf0f1493fc8529777784f745aeda5a9be99fcac89cfb32",
+   "krUrl": "69717e58f3cfa1911510fc0cbab74f1d211d62714fd76f82899413b36ceea1f3"
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "Nos vemos la próxima... No, es mejor que no haya próxima vez. Nunca es bueno encontrarse conmigo.",
+   "unlockRequirement": "",
+   "cnUrl": "ccda6fbd1faafc0ed3100d16fd277a51c662c9844011b1ac754a0453e841b586",
+   "jpUrl": "505e91da8d805953c5a14bf7bf1d300af2d04ddb7a4f476eab675b61fd0a6b07",
+   "enUrl": "2f8137371f1d856317b12f63a44ef32d4dcafd0288981ed80e9520ba3f135776",
+   "krUrl": "89bab57c755207a5dcbcddba391adb6c3eecbdf14a843e12ed446006bc966b85"
+  },
+  {
+   "id": 4,
+   "title": "Acerca de sí misma: hermanas",
+   "text": "\"Hanya\" y \"Xueyi\" son nuestros nombres en clave como enviadas de los Diez Líderes. Nuestros nombres anteriores... ya son cosa del pasado. Pero siempre tuve un solo familiar, mi hermana, y no dejaré que se vaya por segunda vez.",
+   "unlockRequirement": "",
+   "cnUrl": "0aaaf4c5f89fd299e5fd701e62dfc46cc1958dea1807151529799efda57b09cd",
+   "jpUrl": "e03bbdf5d92825e9547b448cc4625560683ee6e12a5afe5e9bc1967df726d3d2",
+   "enUrl": "524861d36339046e43a2f959ebdf9d85fc72236cd3d1c00428f99c09576130d7",
+   "krUrl": "668a1a83154b22a65d8abbdd20f30fc557359482e3b695b22e81a065f9a43758"
+  },
+  {
+   "id": 5,
+   "title": "Conversación: trabajo",
+   "text": "Interpretar los pecados de los poseídos por Mara a través de los sueños es como tocar una zarza llena de espinas: no duele tanto cuando te acostumbras. O quizá sea la mente la que se entumece primero por temor al dolor...",
+   "unlockRequirement": "",
+   "cnUrl": "03fba140308a7e8553bc8a4101ec53918ce8154a1e96581e3d2fc7516c05b599",
+   "jpUrl": "2ec7d119775fdad8d70df75b454f26ea57cf90d9511650bf9b48876c7be14a39",
+   "enUrl": "227501d8341859dc973f4b81dd88a4bd21a39b134909182a0b505eb70fb733fb",
+   "krUrl": "2107d6ea5dd8df47c63503ea3deb9d950b5075cf03db40b4c443a34f2ffcc406"
+  },
+  {
+   "id": 6,
+   "title": "Conversación: la Comisión de los Diez Líderes",
+   "text": "Nadie sabe cómo selecciona sus talentos la Comisión de los Diez Líderes, y muchos de sus miembros no recuerdan cómo entraron ni cuál era su ocupación anterior. Pero como no necesitan dar la cara al mundo exterior, no es algo necesariamente malo.",
+   "unlockRequirement": "",
+   "cnUrl": "e00d0133e6fd1d65c6ec9567a8c57a271661d3bafd6c95646da1ec3fd15b253d",
+   "jpUrl": "4de82ce0b0e12cd111307fddb664dd99efa21c0abfc56bb5de9689e7f8e122ea",
+   "enUrl": "1e44ea48002245a640df7ef29b7ae6b34ebf8ec522544da13c1fcb381bbda9b7",
+   "krUrl": "58e173070f933c18da150888f5b40331ead0acbd10eb16557bdeb1276528439f"
+  },
+  {
+   "id": 7,
+   "title": "Aficiones",
+   "text": "A veces anoto mis experiencias diarias en un libro... Así, cuando veo a mi hermana, puedo contárselas.",
+   "unlockRequirement": "",
+   "cnUrl": "e005ba6d9aa709ccb5b541f18b39dee5a7538568ef79ccfa9d567d0252d3a0e5",
+   "jpUrl": "f68757fcbbc924f3ecc0fdbf5602deea2d49af63ba371a66b1d78f1dad3422b3",
+   "enUrl": "2c80cbe662984f7ff81a72f50f1290f2636757a13db1f9ffe268fe414ed23bf3",
+   "krUrl": "e7473d885c7550df1af8c30da62a3cb548ad6a1c3faac61eb1429cbf2d173c81"
+  },
+  {
+   "id": 8,
+   "title": "Molestias",
+   "text": "Xueyi y la Comisión de los Diez Líderes llegaron al acuerdo de que, por cada villano que detuviera, podría volver al mundo de los vivos durante medio día. Ese es el mejor momento del mundo. Pero los buenos momentos son siempre tan cortos, como tener agua en un puño: cuanto más aprietas los dedos, más rápido se escapa...",
+   "unlockRequirement": "",
+   "cnUrl": "3546ae39f720d82d65ebff8b003cbdc547e42e95b4b51bae920233ac38c4818a",
+   "jpUrl": "046fbe8be1ab2f74c05c88cbd551edaa1ee256e26a1d2547795e03a4a7c646f0",
+   "enUrl": "8e6fcd5d8d354fcfe7f2ae7298c3ed62d39599d15c966740876b4fff71537705",
+   "krUrl": "f951d2928fc829796daaa14203ac350fea92f0cf4ee4b556d61ead3152ccd44a"
+  },
+  {
+   "id": 9,
+   "title": "Algo que compartir",
+   "text": "Cuanto más tiempo trabajo como jueza, más comprendo un hecho: de todas las personas de este mundo, ninguna está libre de pecado.",
+   "unlockRequirement": "",
+   "cnUrl": "30f6ef953d9e12c2e1503a4ee7e5429f8f4b472cc42cb492d61480f72f8a23f1",
+   "jpUrl": "add96ed83a5f732d715cdec17be69cdb064dc41b0e33196c9c8286843bef2968",
+   "enUrl": "9ef8a7c4d583f9a112a164c5426843e0db02c8a9c84e53010be4a4991c757ede",
+   "krUrl": "7af83bfaf5171202a385a0d71ccb5df7a10ee2c037fc70dfadf6b1c74094fd9e"
+  },
+  {
+   "id": 10,
+   "title": "Un dato",
+   "text": "¿Has observado alguna vez cómo cambia el cielo en el dominio? Aun sabiendo que se trata de un escenario artificial, cada vez que salgas del Salón del Karma tras días y noches de oniromancia, y contemples esas estrellas brillantes y parpadeantes, seguirás sintiendo una gran calma en el corazón.",
+   "unlockRequirement": "",
+   "cnUrl": "7b8354095ed3b0a36fd78222d044e5f9731e34ea4245930fc81484e8912169f0",
+   "jpUrl": "b07d3c9866cb596cc3c7f9a9c2f4dd5e81ce951cca39457b462e3051ea2bf2a7",
+   "enUrl": "463950bde90bf0bb7c69daab752aa32c532e11aa289aee42dd235782ffa762c6",
+   "krUrl": "6aa2f658f057cc0cf9dcb46917fef54bc3b2bf881a2295d3dea3cc2100d7fc0e"
+  },
+  {
+   "id": 11,
+   "title": "Acerca de Xueyi",
+   "text": "¿Has estado alguna vez en la Prisión de los encadenados? Todo el lugar es negro como el carbón, excepto por la luz que arroja la lámpara de algún escoltaalmas ocasional. Para mí, este mundo mortal es la prisión, y mi hermana es la lámpara.",
+   "unlockRequirement": "",
+   "cnUrl": "65d0e7aae7015a1b27e4b9f92d8406923fbc5cc66cd62877e5d64100a10dde30",
+   "jpUrl": "8701d3178e78752b3c20231a7fc5ab9755fb242aee5cc80e910e4247c5a55de6",
+   "enUrl": "035ec6ae94c79dfa0dc89e63d9b3a13d7282c30e860a58bcd8aabcad8e52d230",
+   "krUrl": "d8de7b02a7e5f17f4375ef54cc7e226d49e30534d41d94b054a5791d16f2cd96"
+  },
+  {
+   "id": 12,
+   "title": "Acerca de Huohuo",
+   "text": "Todos los jueces de la Comisión de los Diez Líderes sufren alguna que otra aflicción, y esta niña no es la excepción. Puede que sea tímida, pero es muy capaz en el trabajo. Sería imprudente subestimarla.",
+   "unlockRequirement": "",
+   "cnUrl": "5af41ec30023d6ad5c82d8be0cd7e8740a2ee8103cc8d2a736fd925aa01af2fd",
+   "jpUrl": "413c58751b328cb8e12674d85a3d330dfb22343f0eac4e0f7a03d8e61c03d94f",
+   "enUrl": "ca3136d152f18b1ba7bb2a30e6708d9899e40cfeb654c5f3cf61fb0f30db33c3",
+   "krUrl": "a11123bdd614754a861bf007d8f9bb1fe2dd050f1c9300d8745c0128ab92c0b1"
+  },
+  {
+   "id": 13,
+   "title": "Acerca de Jing Yuan",
+   "text": "El general sufrió muchas penurias, cualquiera de las cuales bastaría para quebrar el espíritu de un ciudadano cualquiera de Xianzhou... pero parece manejarlo todo con gracia. Debe tener su propia manera de sobrellevarlo.",
+   "unlockRequirement": "",
+   "cnUrl": "1fd476aa67c73f1efcbd135f110a4ef33ec4a08ea33114d8d1578cb82c7927df",
+   "jpUrl": "143b995d6f9de9730720635ccb49be6e2f76f9b420466230b4f14e55a3dea84c",
+   "enUrl": "49519756ee931e535d58219578db8e70a32eabc8f558c95d7705feb8caf30d8d",
+   "krUrl": "ef7566a46b6f67634b7e82e8679446d453d3bd08355913ce85e95277540d2adf"
+  },
+  {
+   "id": 14,
+   "title": "Acerca de Blade",
+   "text": "Este hombre violó todos los estatutos del Código legal de Xianzhou. Es raro encontrar a un individuo de larga vida que cargue con semejante historial delictivo y aún mantenga la cordura... Una vez que mi hermana lo atrape, examinaré sus crímenes en detalle.",
+   "unlockRequirement": "",
+   "cnUrl": "b7fbcb0659c001f8221259e1d27ea1ec8a67fc10a89d8bdeeecfcb0a8f28b1e6",
+   "jpUrl": "f1c0946963774612c437a228d90bc2ccaf76d35551527a27466e89c8f98aa4d5",
+   "enUrl": "bc9126a4234bd399c2e4dfd0bb5f332b78eef363be4d99418f675a285b13858c",
+   "krUrl": "f1b90b011fa9132a4624db4a2c32e5b6f5752068b440f564d166e0e421c7de98"
+  },
+  {
+   "id": 15,
+   "title": "Acerca de Bailu",
+   "text": "La habilidad de los vidyadhara para arrojar sus recuerdos y pecados pasados a las aguas del mar ancestral antes de reencarnarse es realmente envidiable. Pero la Dama Dragón parece ser diferente a los demás vidyadhara... Lleva una pesada carga que ha sido transmitida desde hace mucho, mucho tiempo, y solo vislumbrarla ya puede resultar asfixiante.",
+   "unlockRequirement": "",
+   "cnUrl": "847d292d35bfc6873ff56dc3bbf2ef8f9a8ba497105194208c47506be32c1134",
+   "jpUrl": "49e803df8ea006397d0b93f8cf0e79610adfc12072544ecd50590cb60505a808",
+   "enUrl": "2d60829eeb09ed9927e6141023846abb5919dfaa535f03159d57dc7bd1d65110",
+   "krUrl": "08b45a74a0beb729854c7b56c2b328c6c60a8a1e0797af699a114e95c1f117c8"
+  },
+  {
+   "id": 16,
+   "title": "Acerca de Yukong",
+   "text": "La esperanza de vida de los raposianos es de solo <nobr>300</nobr> años, pero es mejor que la de los nativos de Xianzhou, que pasan casi mil años dando tumbos... Cuando uno ha olvidado el concepto de la muerte, la vida también pierde su sentido. Tal es la maldición impuesta por la Hacedora de Plagas.",
+   "unlockRequirement": "",
+   "cnUrl": "86cd04230a2b3a716db727c7be6a4c1c13864df9238aa3279d2c54e81a8ca46b",
+   "jpUrl": "727bcf97fb576f34e21f7c6381a0d49e51cf274c3ccda5911e6a49da21414df4",
+   "enUrl": "74035fe18a57d390e856ff6b9666fac8e38e4106092055324e2df58defeb90cd",
+   "krUrl": "10588b45a6f3026a7fc5eb615be209e084836b730142a680b62c68494960736f"
+  },
+  {
+   "id": 17,
+   "title": "Acerca de Luocha",
+   "text": "¿Por qué alguien lleva un ataúd a todas partes? ¿Es para recordarse que la muerte le persigue constantemente? Algo similar nos pasa a los jueces de la Comisión de los Diez Líderes: entramos en la tierra de los muertos para llevar la dignidad de la vida al pueblo de Xianzhou.",
+   "unlockRequirement": "",
+   "cnUrl": "d6c9bf55d2002f46bb316683ad8f92433047c1e9952c7cb46748b132ef1c0cef",
+   "jpUrl": "317cdb9b25a4fcece18b2e04e8e58cf25b22f33bdb5b3f4f18496097f994de77",
+   "enUrl": "94c698390edce652fbfc87b1edb1ebad5382e31aa0d1703005dbc2e02c0a59d4",
+   "krUrl": "0946413438c37770a26662dd0931d8576900e354c549e6a266e40636b9d826e6"
+  },
+  {
+   "id": 18,
+   "title": "Acerca de Cola",
+   "text": "La técnica para sellar un heliobus dentro de la cola de Huohuo, aunque rara vez se ve en el Luofu, no es tan infrecuente en otras naves de Xianzhou... aunque realmente no debería revelar demasiados detalles.",
+   "unlockRequirement": "",
+   "cnUrl": "10064f2b569e805e5fe162d56e5164314e8022176c582305a09d79e412f771cc",
+   "jpUrl": "89fce2ed1a0250fd69dee4aa4069424461106c0b53832423385249064f2b3a76",
+   "enUrl": "92fb8ceb73f8d04098790d5534f3f690e9c75cfd667fcbd4b51f903d7b73363f",
+   "krUrl": "101ebcacb01d6c189db5d8aea4475ba583c27c24fb0531a7d82fea87d4828475"
+  },
+  {
+   "id": 19,
+   "title": "Activación de Eidolon",
+   "text": "En la oscura profecía del sueño, una estrella de los cielos iluminó mi camino.",
+   "unlockRequirement": "",
+   "cnUrl": "91de9e79b11d4b9262be2f3bc71f487aabf8a91ae76e2c5b6248b14c502a92be",
+   "jpUrl": "8f7b6bcc48349f0c3d053b9fd4e90f9a4c9c8bfb34e17e50020cb0cb03ace42a",
+   "enUrl": "3c9700507a864e538214020a29231c81beea8570f605eea936ef782d6a9d2ee5",
+   "krUrl": "927b59dd4b30b1bc612b8ffacd6a6d5ec2f0c7f92a2982db1df635bff7addca5"
+  },
+  {
+   "id": 20,
+   "title": "Ascensión de personaje",
+   "text": "Aunque la devoción a las tareas públicas es imprescindible, esta fatiga es algo... abrumadora...",
+   "unlockRequirement": "",
+   "cnUrl": "76adfba8dc86b45e910a01b4a1f79537490248e0efa28a89d707e1204f2cf182",
+   "jpUrl": "722b31425d69329bf57a4f3ed1e35d706c88f2006eeaf42ffca68a400355bf0b",
+   "enUrl": "1487bd29a0826dc18f2cd073d29ea90f002a32e4b2af57d3104e74d87c05d186",
+   "krUrl": "d65dcebad92a8d30c61d656ddc2e7d4143467d643cd430e0fc1a3d8e51a09333"
+  },
+  {
+   "id": 21,
+   "title": "Nivel máximo alcanzado",
+   "text": "Espera, espera, espera... Es demasiada información para procesar...",
+   "unlockRequirement": "",
+   "cnUrl": "d409361e6960f0abd3375fe72b9f269efffd153fb650c7ed4ef11ddf5383600a",
+   "jpUrl": "06627924750ece5b597e0962a142948290d5a18e83858b14b9712b26d9d5f715",
+   "enUrl": "434d0a3bb09a7357ee973a9ffa6f607cd2eafa494c8941daf272901b601ea7bb",
+   "krUrl": "b8e97b9db557886e90662ac0083b1d10bf7ee5b33ff32d87e076c2efacf70074"
+  },
+  {
+   "id": 22,
+   "title": "Activación de Rastro",
+   "text": "Cada trazo de un juez está ligado a infinitos resultados kármicos: hay que proceder con sumo cuidado...",
+   "unlockRequirement": "",
+   "cnUrl": "43be58a9ce0d01f2dec8ab80ed312199d36ad8e6e4672578ef9b053c13b9f96f",
+   "jpUrl": "7b2681fa4e1c9965e3903f7f725fb0b23ec48819176b4c790a19f0db2b5d6947",
+   "enUrl": "efaf2dd573a76128e10ece0be86635b0053be1e99507ba2c45038832514aed58",
+   "krUrl": "9648e2c644d23603d439d8f11bbcc7ee2137842d1f0885de356783884a56f415"
+  },
+  {
+   "id": 23,
+   "title": "Miembro del equipo: Xueyi",
+   "text": "Hermana, una vez que hayas dado tu veredicto, ¿por qué no me acompañas a dar un paseo?",
+   "unlockRequirement": "",
+   "cnUrl": "4d2b7d859473be0643f5f4e461139bffe71cb91a4b2f79d12400f45f99055d5d",
+   "jpUrl": "d126d457f8ba573ae916da7d8513fbfa74456307f1ef834cfc40ce508c07462d",
+   "enUrl": "dee5ae19bbdcfacde415b9841fb98bfb934d0c698cd497e3c8dd720fbdd7d2fe",
+   "krUrl": "9e5ec6fafd403078ec14f585814259f922444d0c98d8b6640cce7e2860aad3fa"
+  },
+  {
+   "id": 24,
+   "title": "Miembro del equipo: Bailu",
+   "text": "Ah, Dama Dragón... Si tienes pociones energizantes a mano, ¿podrías guardar algunas para mí? Gracias...",
+   "unlockRequirement": "",
+   "cnUrl": "060649547296c6415eab81d832890d1af40ddb46f9ca98646cdc23003e8f8676",
+   "jpUrl": "b9979d7ffeadad97d434e6c5e2989ad1317a31963020003e0df8af12725ea6f8",
+   "enUrl": "fdef035027e3800e23c45d5bb4ebd3b66104bfa8c3631e26f92b0871b7ebb662",
+   "krUrl": "e96f86069881457432296c194a20afefbfd1e193911157674251b5404e508666"
+  },
+  {
+   "id": 25,
+   "title": "Miembro del equipo: Huohuo",
+   "text": "Huohuo, estás aquí... ¿Cómo va el trabajo? ¿Bajo control? Y Cola... No estará causando problemas, ¿verdad?",
+   "unlockRequirement": "",
+   "cnUrl": "a86b4632f19f429e167b4722eb0d87dea1fad1a374c2c48443b9461205e34d48",
+   "jpUrl": "81fe62b67342843df1e80782491f3f107aa43c082626ff3b54a8800cb3e32487",
+   "enUrl": "b07e6df9da30ca211bf12c816af7b1b5d4b482e4fe05ebba80842829579f2584",
+   "krUrl": "be6aaa6df7ef636caa3039611df1b3063958435111304c4638d4417d0c5bcee0"
+  },
+  {
+   "id": 51,
+   "title": "Comienzo de la batalla: Ruptura de Debilidad",
+   "text": "Deja de intentarlo.",
+   "unlockRequirement": "",
+   "cnUrl": "19b505c58fefa040a0453ad9405943525ff2322cc0875265472f238a0da0c8a5",
+   "jpUrl": "40e6bfb0d90b3892ae8468a6c5c94f741f7655cd2e8d437481f59812093adc0b",
+   "enUrl": "cccf08ea0e8d6cd465da839f909c78816d8c6f9393de228512e3751e7ef0c2f5",
+   "krUrl": "5a3ef7399bafe0e4eb2c677cc1b1557da32a9f2355eff81db2251ba0b536f6c8"
+  },
+  {
+   "id": 52,
+   "title": "Comienzo de la batalla: alerta de peligro",
+   "text": "Uf, el olor a pecado es tan intenso...",
+   "unlockRequirement": "",
+   "cnUrl": "6fbed897861ec3a69ea27744ca01d014db81120021d3c8d2f7f25084d46589c9",
+   "jpUrl": "1638a783d10506bbcfcc5a7d8101c4fe69d3b0c03be0e3ce2d54e11e664983ba",
+   "enUrl": "62b65691d9b403679c0fb00ee3780ba5477bad773fa37b1b45b8da61041dabc9",
+   "krUrl": "fc5643893a452d010279650f69309765e9d5c18166fd42ead6a50501641f6c2b"
+  },
+  {
+   "id": 53,
+   "title": "Comienzo del turno 1",
+   "text": "No sabes lo grave que es esto...",
+   "unlockRequirement": "",
+   "cnUrl": "f3c66d31e59b16ed1de82727c4da00676ee8dba23006e915f4b224ef9daa7ab9",
+   "jpUrl": "f1efd5d580faa3afff21bc7d4ae8eef97c06dc01b868cff0227783cb19fc6b13",
+   "enUrl": "42b768eceb817bdf3b34c4d41c49075a8537762e16951f78a2a7908fb37912ad",
+   "krUrl": "7144fc86c8f1ad6c792fb1b11e71f6517f213f96dc5535c54b557bd24d04137d"
+  },
+  {
+   "id": 54,
+   "title": "Comienzo del turno 2",
+   "text": "¿Todavía niegas tus pecados? Son tan claros como el día.",
+   "unlockRequirement": "",
+   "cnUrl": "9d8bd1c687c26cb66f6d32650e3525e430c8f106af249cdfba0f0db5fd353d05",
+   "jpUrl": "b1cde73669dc129953321509abb548103962e0b8a1451849b777082d2f11e722",
+   "enUrl": "0ac774ff558c176c3900c6d4a2c1245e4c0045ad30b293116ca0e42d1363716e",
+   "krUrl": "6f7f5a2c0048d5c023d4fb1654648b76e864e5726fd5afe1985d43c974e492a9"
+  },
+  {
+   "id": 55,
+   "title": "En espera",
+   "text": "Es tan bueno estar aquí y no hacer nada. La mera idea de tener que regresar a las montañas de informes criminales en el Salón del Karma hace que quiera quedarme aquí por los siglos de los siglos...",
+   "unlockRequirement": "",
+   "cnUrl": "9c76f5fd98e53372926a0fff639410a58f6252b1f1a02bae8852351afead4bf5",
+   "jpUrl": "dcd88a227cb3f55dd12645003084e47d6d14e4d296106df1db7d516b1ebcdb3b",
+   "enUrl": "ebce2fa13b29d0a4111bd8c8aa3a04ae7a945ec51830197fefd1ca608ef194da",
+   "krUrl": "daa2c07939c3be7a861e828f3b4059dae3fb98f4cc30b98536e4e9acf1cc1d86"
+  },
+  {
+   "id": 56,
+   "title": "Habilidad básica 1",
+   "text": "Te juzgaré en nombre de los Diez Líderes.",
+   "unlockRequirement": "",
+   "cnUrl": "76588a9bde407615aea199131247088b476796a4133cd4c587f9b4839afbf558",
+   "jpUrl": "910651d0dc2d43a5a987888fad0d32f7691779b7d9642368a18c67e043884e6f",
+   "enUrl": "61d98b51e1f3299da361aa53ad8e0358e255a0de4ace688c1eda0a627ef1bd76",
+   "krUrl": "111c326ff05cdac1483df103e23ea97ecb8a0185655e13796918e9b5b444d102"
+  },
+  {
+   "id": 57,
+   "title": "Habilidad básica 2",
+   "text": "Confiesa tus pecados.",
+   "unlockRequirement": "",
+   "cnUrl": "364f47369867d611068766bcdb6c7b997beea584ab028fcc10263c80ce5a24b9",
+   "jpUrl": "f24dddee2eff240dcc383452dd3d642b34e4d27fe6e64f7435228589d6c01a0d",
+   "enUrl": "977e59172fca581aa23d2fd14836123fa61863ae0272dae5b772198e00f51a2b",
+   "krUrl": "4d65a466bda7ce452a1eeceba31820b305208744feffcecf484b1d62a864b061"
+  },
+  {
+   "id": 58,
+   "title": "Al recibir un ataque ligero",
+   "text": "Pecador.",
+   "unlockRequirement": "",
+   "cnUrl": "2984358d8c704ee2865e37cb128d8a94518e3f76911520dbbfefe008d6809498",
+   "jpUrl": "14fb29940136ba0f6fb8b001fbfd0b6f9cfbd89ffdb234ee2c0b02b77ca6b30f",
+   "enUrl": "21761311fdf3fe5728730b6d01f406b6966267bdf813c96d568c70a677b24d3d",
+   "krUrl": "e237ed7f980710d71e80f6aae17496076e8656457ccbceb1fa8a629cfde6dcb9"
+  },
+  {
+   "id": 59,
+   "title": "Al recibir un ataque fuerte",
+   "text": "Nuevos delitos...",
+   "unlockRequirement": "",
+   "cnUrl": "df79af88e80bbd3ce8e02e5cbf8711d7ad85c4552a5185d4eff3e6aea219f86c",
+   "jpUrl": "582671568500323d3179a129a3f891a9694c55b49767266d9e620342f3010063",
+   "enUrl": "0df740f69e2eee3fe37f188465e2f529b178799f5ae66d344c7ec53274bb472a",
+   "krUrl": "f4646d78d61501beea8ec803081d6df7571aefef0bc6f87959e2ffc0dbdb4ee0"
+  },
+  {
+   "id": 60,
+   "title": "Habilidad definitiva: activación",
+   "text": "Por voluntad de los Diez Líderes...",
+   "unlockRequirement": "",
+   "cnUrl": "4c9bd22b1fc5efa98de94c54773ecd9c5dfb459cb586967fdf50723c4da09fce",
+   "jpUrl": "419bf282848daee6d7216b6d245af5dc8d2687508ac7988ecba8a75789f1a876",
+   "enUrl": "585a3bb8e897ac9e4b2929aeef06630b7d6ba32b16f66907afe81ed41002bd26",
+   "krUrl": "ec76b45decc6e5621394d19d83cc589ddebf9058d408d3b20c24fc8faf7320b6"
+  },
+  {
+   "id": 61,
+   "title": "Habilidad definitiva: lanzamiento",
+   "text": "Los Diez Líderes lo han decretado... ¡por este medio queda ordenado!",
+   "unlockRequirement": "",
+   "cnUrl": "7f2531b3efcd663870adf716e5dfb6819d661f4e1bf7e2cd517417b731848e70",
+   "jpUrl": "0b9d3728d8340682b9dc5e55d9f4918aaf0cfe9fe223e237150e367b9041e896",
+   "enUrl": "a80cd93b6b24050fbcf3c145327ba7c99a49202c4031d5bf182eeb0227b323bd",
+   "krUrl": "70f03e07ca166047595df270ec42260c999a15c0d11ac45f9449d84015a9f0bc"
+  },
+  {
+   "id": 62,
+   "title": "Fuera de combate",
+   "text": "Hermana, yo...",
+   "unlockRequirement": "",
+   "cnUrl": "ca8bbf82b4c21a6ee3317bb61e7558cbcd6e7d14ec8106904bad1bcf2cf040aa",
+   "jpUrl": "1fff804a86f8f6962ee046b2636bef0943a8052d7eff4914267be54ca0e55a32",
+   "enUrl": "9afc030de427d7943ee53f639cc1367ef41ea2780e97b3e5b1461a1071b25f63",
+   "krUrl": "fb70885021453128da33fff952baf933ab771648cead934bb5b26d7ae116f213"
+  },
+  {
+   "id": 63,
+   "title": "Retorno a la batalla",
+   "text": "Hay asuntos pendientes... De regreso al mundo de los vivos.",
+   "unlockRequirement": "",
+   "cnUrl": "09b5446fcfd0945cb67051816b0c2b85f9e0337cc7225bcdf5bcc8b582ae2a93",
+   "jpUrl": "d45a92b1062075455f3a134c43cf93cb0bdbe66e2b214f937a59753b72ffc016",
+   "enUrl": "a765d120369848ca27737976918f4c136587bb34115875fc22ee07df56e487e1",
+   "krUrl": "297da9438b9af6054f9a594949493cf7330779c0d47d5f58d9333b57d43b71be"
+  },
+  {
+   "id": 64,
+   "title": "Regeneración de PV",
+   "text": "Recordaré tu amabilidad.",
+   "unlockRequirement": "",
+   "cnUrl": "7ffad8f8b6019742528d1e59c8b63556f33bb7a63018645ce87aefbd005bf4db",
+   "jpUrl": "daaea510b970f0679528304ba91e0c36273f4d3905f1f629125fe5e133f77f2e",
+   "enUrl": "21371cc970b306651202fbc9320717c39f695c56d346038d76080f178a2bab71",
+   "krUrl": "849b4fe602e18e4c6026cfd6fa6c40d5de60febdf7e62953906e7f6af9698315"
+  },
+  {
+   "id": 65,
+   "title": "Técnica",
+   "text": "Ríndete.",
+   "unlockRequirement": "",
+   "cnUrl": "8df5144be783f097ca21763b06c1a91565d6fc2d747458bc32e6298e13094101",
+   "jpUrl": "0e9d3e803ec9b8c390a4eb1d078f24afe997ed6cb8b6ea43a4151e16d877e5d6",
+   "enUrl": "bf505986c13f10cc3f87e1a8714a12a194e0b7b1d4926103bb503dbc1c163474",
+   "krUrl": "7d02d1177a4d07f5ca66f0d4d7dc4c48a6da9f0fdcd1cc8c0e4b88881cd69a22"
+  },
+  {
+   "id": 66,
+   "title": "Victoria",
+   "text": "El favor de los Diez Líderes otorga la victoria.",
+   "unlockRequirement": "",
+   "cnUrl": "7836b1e659e43f38d4ebebfeff108c500b76e42353fe322986f64c8fc337537f",
+   "jpUrl": "a813fa5b87196fbb2e34a34743091dc8b4df63430d7261525d6f94597dea7868",
+   "enUrl": "f4fe89bacd4db5e81b42ff53dc8f6c920405d111e49f10b20f9b4ab1a82be0ee",
+   "krUrl": "66419cf935683de3ea5a79e48584facc5820908cbcc6a373a487c184f6d92a54"
+  },
+  {
+   "id": 67,
+   "title": "Al abrir un tesoro 1",
+   "text": "Esto no me intriga.",
+   "unlockRequirement": "",
+   "cnUrl": "494b89be51d41ee53d4b7d545e8297115d8d7f17dfd3f84071b691df1126a8d2",
+   "jpUrl": "d3b0dc2486bebaee46c2d67be9bf88620e7046365e1aa97406633edef2b9b856",
+   "enUrl": "2c18e942adda10f357f730e7a7600401a27932e79f60d245b49dbbf0cd16f857",
+   "krUrl": "8320d900090d90d37df23bbaa970cffc4879d351ea5961571e9e74e4eddc1d87"
+  },
+  {
+   "id": 68,
+   "title": "Al abrir un tesoro 2",
+   "text": "Rápido, tómalo.",
+   "unlockRequirement": "",
+   "cnUrl": "c48b00a2e42e54dafa2b036838a7a1a6b0f4e169a0d83d6e0ef36716fd1fd714",
+   "jpUrl": "13fe9168282a53aa142538143cfce4f7e21b1d76c332f3394273e65de5ff7c4e",
+   "enUrl": "8739dd11663ba702f0b4e4d8d32744ea13f385c44c15cd71f219b5f5c3e8145f",
+   "krUrl": "1a7a98669d4f11040d045bea01f275476b11bc873b43d90b21a1bc51cd9522f5"
+  },
+  {
+   "id": 69,
+   "title": "Al abrir un tesoro valioso",
+   "text": "A mi hermana le encantaría.",
+   "unlockRequirement": "",
+   "cnUrl": "10a259634432d4032f0cffce09f7d6dcc35c1d2df04b70403a904c4e66717ffc",
+   "jpUrl": "a615ad1cbe2e6470754178c332d36cb416721f8842ed19c09a8b3b7a00f958a2",
+   "enUrl": "d041e284f4baa476a3cbfda75c1af9095833277203ad5d51eb1d92761895b6f9",
+   "krUrl": "a30fafc769d369ce714f92ffe1cdac323350517c8bdc6a275ca42475fcc56a77"
+  },
+  {
+   "id": 70,
+   "title": "Al resolver un acertijo 1",
+   "text": "Hecho. Sigamos.",
+   "unlockRequirement": "",
+   "cnUrl": "81769e87308cf563582dcbdbca0e0eacbbc2b53c90b3f7d293827271372b15c7",
+   "jpUrl": "e7cd347be0f4cddff03749ec5b0a088a38f09141c8a89c30964bb780beb43451",
+   "enUrl": "11bdba9ba39053e30218f3fdfb49e0e114816d05c69e2fd17637f4c80ec1ff8a",
+   "krUrl": "29beba9b3ce4839191b4e5d84318d78e196bc59558839b703d46fd10432e9b4d"
+  },
+  {
+   "id": 71,
+   "title": "Al resolver un acertijo 2",
+   "text": "No perdamos tiempo aquí... Adelante.",
+   "unlockRequirement": "",
+   "cnUrl": "8e908ddda3a212407c716a9cdf702d6fa13562a4c226b45b5abba8d46fe077a7",
+   "jpUrl": "42a035e255a4da1eaa50a8776e0ed724178f7d26f58db923295e0f9736885ab3",
+   "enUrl": "d4370091bca58575996d3919a5894f15f67db7a089e1cebd8799b3b1044a9800",
+   "krUrl": "1fb8a907572b6c4de4becec7e1f14ba8887246b61bc91e40781247cd12acf6c6"
+  },
+  {
+   "id": 72,
+   "title": "Objetivo enemigo encontrado",
+   "text": "No podemos dejar a su antojo a una criatura tan pecadora.",
+   "unlockRequirement": "",
+   "cnUrl": "4f64c3ad2c65fa7c2a333a483647e7d12c6e368db9246d4cfe70b49bb1f7bd66",
+   "jpUrl": "fad7ae54d46d22df1730f06bfd3b728b0364fabd67495e06360cf0cace2cf1d2",
+   "enUrl": "bc6ff6fe52b7aa5b993904b2142482d63e60c7709b27562831475f0d403a4de2",
+   "krUrl": "a2f585e5284a780631296ed2a6bf7278480a39425c020b53e34f02a33f620b76"
+  },
+  {
+   "id": 73,
+   "title": "Al regresar a la ciudad",
+   "text": "No, no, no... ¿debo regresar al Salón del Karma tan pronto? No puedo... No puedo hacerlo a menos que... A menos que mi hermana esté conmigo.",
+   "unlockRequirement": "",
+   "cnUrl": "ec41b6e95c403047dd31d1f533f6d2079d43a9da3c1bc09b1fd14fd806207d20",
+   "jpUrl": "3ebbcd56fec4c84a25c2a857b3723096302c355be0d130f9293d895d8fb3db05",
+   "enUrl": "f0c8ed4e187aba2103867e306cb3d22acdb096f4dcebea08647205eb5ffe9263",
+   "krUrl": "3cb5bc7b28c2f798560250ac5229903bd2adcad01e241beb929e2f3b24c6b2ca"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalles del personaje",
+   "text": "Es una de las juezas de la Comisión de los Diez Líderes en el Luofu. De las cuatro funciones de un juez (detener, interrogar, encerrar y castigar), Hanya se encarga de interrogar.<br />Está especializada en leer el karma y los pecados de los criminales. Luego, registra sus delitos y castigos con un pincel del oráculo.<br />Tras pasar tanto tiempo usando la oniromancia para predecir delitos kármicos y sufrir el desgaste causado por la ingente cantidad de información de los poseídos por Mara, se ha vuelto insensible a todo lo demás.<br />Solo cuando actúa junto a su compañera jueza y hermana, Xueyi, Hanya revela por un momento su verdadera naturaleza.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Historia del personaje I",
+   "text": "El ataúd colosal, que parece un recipiente desolado perdido en una tormenta, se balancea en medio de las turbulentas corrientes del océano de la consciencia. Olas de ira, añoranza, odio, miedo y cansancio chocan contra ella como aluviones grises, que la empujan de un reino turbulento a otro.<br /><br />Como un alma ahogada, por fin suelta su individualidad y se diluye en el infinito océano del caos...<br /><br />Hubo un tiempo en que fue oficial de la Comisión de Administración del Territorio, tenía montañas de deberes mundanos y aspiraba a un ascenso. Con el tiempo, después de que un agudo chasquido resonara muy dentro de su mente, empezó a deambular por las calles como un cuerpo inconsciente...<br /><br />Después, agobiada por una pena enorme, sumergió a su bebé con malformaciones de nacimiento en un recipiente lleno de un medio de cultivo de astroesquifes, a pesar de lo emocionados que ella y su esposo estaban por el recién nacido...<br /><br />Cuando era una Nimbocaballero, la zarpada cruel de un lobo la abatió sin compasión, sus garras filosas desfiguraron su rostro y tallaron una \"sonrisa\" perversa. La herida le causó un dolor insoportable durante varios años cada vez que sonreía...<br /><br />Su adivinación reveló que su vida se balanceaba en el borde del olvido. Desesperada, revisó la terminal de cálculo de la Matriz del Presagio con la intención de acceder a su centro y usar todo su poder. Sin embargo, el poder de la Matriz deterioró su mente sin compasión...<br /><br />Destruyó su artilugio meticulosamente diseñado, así como al capataz que le dificultó las cosas a propósito. En ese momento, se dio cuenta de que nunca lograría su sueño de convertirse en una artesana, pero ¿qué más podía hacer?<br /><br />Se convirtió en cada uno de ellos, en todos. Sin embargo, en ese momento, como una gota de tinta que desciende sobre su visión, una imagen se arremolinó y se disipó.<br /><br />Debajo del cielo azul, había unas olas de trigo ondulantes que se agitaban a su alrededor. Con suavidad, un par de manos hábiles le colocaron una corona de flores. Dejó que el follaje, las hojas y las flores perfumadas la rodearan, como las delicadas manos que la abrazaban...<br /><br />Ese calor familiar la sacude del sereno diluvio que lo devora todo.<br /><br />Se da cuenta de que no es ninguno de ellos, ni la suma de sus formas. En ese efímero instante, desaparece en una minúscula gota en el océano de la consciencia. Recuerda su nombre y su deber...<br /><br />Es una jueza de la Comisión de los Diez Líderes a la que llaman Hanya.<br /><br />Al ver que había despertado, el aurúmata junto al ataúd empieza a escribir rápidamente, con movimientos demasiado veloces como para que el ojo humano pueda distinguirlos.<br /><br />Se reveló el veredicto de su sentencia, y los nombres que se materializaron en sus sueños se transcribieron en una ficha de ábaco de jade. A medida que el ocaso se fusiona con la noche en el dominio, innumerables almas darán su último adiós al reino de los mortales, sin saber que alguien en lo más recóndito de Xianzhou registró el momento exacto de su muerte. Y, a las pocas horas, la mujer ya no los recordará.",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>20</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje II",
+   "text": "Al otro lado del ataúd, una jueza vestida de blanco la mira con una expresión firme. Su rostro, que alguna vez fue familiar, ahora no sonríe y tiene una expresión desconocida. Al extender su mano, le da una jarra dorada que ella toma entre sus dedos.<br /><br />Dentro del recipiente, hay un líquido parecido al jade, que brilla como un ojo de zafiro en medio de la oscuridad del Salón del Karma.<br /><br />\"¿Es hora de volver a beber? Casi lo olvido\". Lo dice mientras se levanta del ataúd. \"¿Por qué me traes tú el vino y no Yepo, hermana?\".<br /><br />\"Yepo... No lo recuerdas, ¿verdad?\". Los ojos entrecerrados de su hermana delatan un deje de preocupación, una expresión que solo muestra cuando es cariñosa. Sin embargo, su ingenio carece de la delicadeza necesaria para transmitir sus preocupaciones más allá de una sensación de somnolencia. \"Yepo persiguió a los Discípulos de Sanctus Medicus y sufrió heridas fatales. Los Diez Líderes le dieron permiso para morir\".<br /><br />Rápidamente cambia de tema y pregunta. \"¿Y qué hay del objetivo contra el que luchaste hoy? ¿Fue un oponente formidable?\".<br /><br />\"Sí, lo fue. Sin mucho esfuerzo, me rompió una mano y destrozó mi rótula antes de que pudiera reaccionar. Tiene mucha experiencia en la construcción de ingenios, lo que indica que se trata de un hábil artesano del Zhuming. Grabé sus movimientos para observarlos y estudiarlos. Un día, encontraré la forma de enfrentarlo\".<br /><br />Ella vuelve a escuchar cómo su hermana escapó por milagro de la muerte con aparente indiferencia, como si hablaran de un objeto inanimado. \"Tendré que pedirle a Huohuo que repare tu cuerpo dañado\".<br /><br />\"Bueno, a Huohuo... la promovieron a jueza hace una década. Ahora, Shouling está a cargo del mantenimiento de los ingenios\".<br />Su hermana coloca la jarra dorada lejos de ella, en el borde del ataúd. El vino que contiene ondula suavemente.<br /><br />\"Bebe este vino del olvido y ya no recordarás nada. No tienes que hacerlo por mí, querida hermana. Todo fue mi culpa, y lo repararé con mis propias manos\". Su hermana coloca las manos en su cabeza, acariciándola con delicadeza, como en su sueño. Sin embargo, ella no siente el más mínimo rastro de amabilidad.<br /><br />\"Solo es un efecto secundario menor del vino del olvido. Si ya no logro recordar nada de ti, entonces por fin podremos aceptar nuestra muerte sin carga. Por la benevolencia de los Diez Líderes, la promesa se registró en lo más recóndito del Salón del Karma\".<br /><br />\"Y, en ese momento, tendremos que abandonar todo y entrar en un eterno letargo\". Ella se inclina levemente, presionando la fría mano de su hermana con su mejilla.<br /><br />Toma la jarra dorada del borde del ataúd y, con dificultad, bebe un poco del líquido viscoso. A pesar de que se llama \"vino\", le falta el fuerte y estimulante sabor que se esperaría. En cambio, sabe a aceite infundido en el cuerpo de un aurúmata.<br /><br />\"Pero antes de ese fatídico momento, déjame hacer unas tareas para ti, para los Diez Líderes y para ese general\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>40</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje III",
+   "text": "El vino que bebió se transforma en una píldora de mercurio opaca que fluye por sus extremidades y huesos. Memorias que se niega a recordar, los fragmentos de su existencia humana del milenio pasado resurgen por un momento antes de desaparecer poco a poco...<br /><br />Vio la estrella carmesí conocida como \"Rahu\" suspendida en lo alto de las nubes encima del Cangcheng de Xianzhou, latiendo como un corazón. Poco a poco, se abre revelando un centro compuesto de rocas, tendones y ramas. Se consume violentamente y da a luz a innumerables vástagos, parecido a un voraz depredador dándose un festín o a una madre a punto de dar a luz.<br /><br />Debajo de la horrible luz de la luna, fue testigo de cómo los raposianos del Yaoqing de Xianzhou inútilmente pilotaron sus astroesquifes, similar a como las débiles moscas tratan de derribar a una monstruosidad invisible, solo para ser aplastadas y reducidas a chispas en el aire por las naves bestiales borisin.<br /><br />Caminando, un colosal árbol se acercó a ella en medio del caos del campo de batalla. Extendió sus grandes centimanos y atravesó a cualquiera que se interpusiera en su camino, incluyendo a sus colegas. Mientras agarraba su espada rota para luchar desesperadamente, de repente vio que florecía una sonrisa en la cara del árbol... Un reflejo del rostro de su hermana.<br /><br />\"Soy yo, querida hermana. ¿No me reconoces?\".<br /><br />Las ramas y hojas crujieron, y los rostros de sus compañeros brotaron como frutos de la copa con carcajadas estridentes. \"No sucumbas ante la muerte. No te acostumbres a ella. Abrázame... sé parte de mí...\".<br /><br />De la espada brotaron flores, que después se desintegraron en óxido tras unos pocos latidos. Con suavidad, unas ramas hábiles le colocaron una corona de flores. Dejó que el follaje, las hojas y las flores perfumadas la rodearan, como si unas delicadas manos la abrazaran...<br /><br />Una espada colosal en llamas atravesó sus visiones, quemando la atmósfera dulce, pero pútrida, casi sofocándola. Una imponente figura con una armadura gruesa se estrelló en el campo de batalla como un meteoro, gritándole al altísimo árbol con el valor que caracterizaba su nombre. Sin embargo, ni siquiera ese valiente guerrero pudo cortar el sofocante enredo provocado por el colosal árbol...<br /><br />Sí, es otra vez ese sueño recurrente. No importa cuántas jarras de vino del olvido beba, simplemente no puede escapar de esa pesadilla.<br /><br />Toma un trago del vino con dificultad, desesperada, hasta que el sueño finalmente se transforma en una enigmática nube de humo. Todo lo que queda es el pensamiento de un sueño reparador, despidiéndose del insomnio.",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>60</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje IV",
+   "text": "A un lado, una jueza vestida de blanco mira el ataúd cerrado. Observar el sueño de su hermana ha sido su rutina durante sus días como humana.<br /><br />Ya no siente dolor ni arrepentimiento. La consciencia que hay en su cabeza le dice que ver dormir a su hermana es una tarea ardua, similar a lo que alguna vez hizo por sí misma.<br /><br />Hacer juicios kármicos y emitir sentencias es una tarea intensa. Tales responsabilidades solo deben confiarse a los jueces que se hayan desprendido del mundo mortal, pero que sigan en armonía con las emociones humanas, a diferencia de los aurúmatas. Aunque ella puede identificar los cambios sutiles en los tonos de las palabras humanas y detectar la tensión de los músculos en los semblantes afligidos, ninguno puede agitar ni la más leve onda dentro de su corazón de acero forjado, y ningún tipo de magia puede traer de vuelta sus emociones como humana. Por eso, la Comisión de los Diez Líderes necesita a su hermana.<br /><br />Una Enviada Fantasmal Aurúmata se le acerca. \"¿Una nueva tarea?\". La jueza vestida de blanco voltea a ver a la enviada.<br /><br />\"Si quiere quedarse y acompañar a la señorita Hanya, puedo pedirle a otro juez que se encargue\".<br /><br />\"No es necesario. No quiero decepcionarla. Además, ya llegué a un acuerdo con los Diez Líderes. Por cada malhechor que arreste, me darán la libertad de regresar al reino mortal medio día. Ella ha estado dentro de ese ataúd por mucho tiempo, y me gustaría darle una oportunidad como esta para que disfrute del sol\".<br /><br />\"Entonces, por favor, prepare sus herramientas místicas y comience el exorcismo, señora\". El aurúmata se inclina en señal de respeto.<br /><br />La jueza se queda inexpresiva mientras mira hacia la oscuridad. Dentro de su corazón, que ya no late, hay una simple aspiración: que su hermana tenga un sueño dulce y feliz...<br /><br />Que sueñe con unas manos hábiles que le colocan una corona de flores.",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>80</nobr> de personaje."
+  }
+ ],
+ "archive": {
+  "cvCn": "张雨曦",
+  "cvJp": "鈴代紗弓",
+  "cvKr": "윤은서",
+  "cvEn": "Suzie Yeung",
+  "camp": "El Luofu de Xianzhou"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Hanya",
+ "rarity": 4,
+ "descHash": "Una de las juezas de la Comisión de los Diez Líderes del Luofu de Xianzhou. Fue nombrada por los Diez Líderes y ostenta la autoridad del pincel del oráculo. Los pecados y las transgresiones deben listarse y conocerse, y la rueda del karma tiene que dictar los castigos",
+ "artPath": "f3b440b4bc7cd44dfd1215d8b9123d6bee5b783194d3a27a570d1f46dd1da6a9",
+ "miniIconPath": "fda2b3da3f062c6e59e53bddc8cfeef1e1960b173534ae9e1f753eeba64d0c98",
+ "damageType": {
+  "id": 1,
+  "iconPath": "9b77aa4b13a80228e6db8023c086a6dd43ffe89e318aa52e790528beb4e5ea20",
+  "color": "#FFFFFF",
+  "name": "Físico",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "fd3dc153082117a49b1d8eb7d166dd32d65d636463e15c604b583d5945a4ca69",
+  "altIconPath": "691e6c36e7f71344352e4ed80941938d7dc5722b23cef7a18f7fa8722d8c0523",
+  "color": "#FFFFFF",
+  "name": "Armonía",
+  "rarity": 0
+ },
+ "pageId": "hanya"
+}

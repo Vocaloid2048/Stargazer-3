@@ -1,0 +1,2914 @@
+{
+ "spRequirement": 140,
+ "iconPath": "83c240648aaaea3962c2617d6fa0b0d11c7666484cfd54d741f52a76b17f9502",
+ "bgPath": "d4b5845e5644a201b27b16fb99fab428d96dbac962ebfb5d7f51d8b4316e60bc",
+ "figPath": "9fba5ffc6f98a5945fc313a346149e3fbb30f4cee07aa62958f4bcb07fe9be6e",
+ "fgPath": "4b1cfbc5b305d164e938b9c2c815bbfcf0485111f11f2c1ddb0b1c4ec0f20b21",
+ "splashIconPath": "3141145ff01b64a112779ff4ce22ff319f8669842632a304f1887baa51b45661",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRrwCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCgBAAABkHPbtrG98td93ti2ndq2bduubddfl1RfynypbNt2Uqmz8dy9i/d9v4iYALIDJECguIEetaFUgNKUTHKUZJBf7KlF4wo169OoFQESyrywvZPMhLFDqDU8AwntbzhNlbau2I5uw+qMTAhwylGKvjn5QNeKlff1JKHC+AEXnVrR+wsLN3Tf1IFAqTDtmyVLvvJk5ZE1I0sC7T85tWXJb4vuPW4JtP+g1Mr2t4+OJ7s0L1lvwP0vlrNlR23v063W+MqrrluyLUvW8okwj/l//lmWcvzVXijd9d5fy5IlWanenOkEBYqSLSsq2s9310sosv6n//9F2dEnllSFwIDb350dv7/3o5JQguy2Mw++LnjnX316NaJEAAgA5ag/aVYdCOQNJSADkAlkA1ZQOCBuAQAAcAcAnQEqFAAUAD5tMpVHpCKiISgIAIANiWwAnTKDyj3W4Cm2ou1X0AP1A6y0iDP2Q1DkLZimVG2BY+WZr5OhR3tcctAA/nGx4wf3+3EXUdC7xEdwyBpvqH9lJEABt4IpVKrCPwY+Of57TuHigxQJb6/V5ePgn7aj/5p/9ZVOccsoryGnfy9TAOXheWvpAgfVK9j6DKzWT8wA9xp3CNpTUoa2uM7J2d1EetqCWvwzey4c2wE/QG/g6jOwyNx+KlNl8CrjV2cGnYOIDZNy9wiCqr9FVao7abcGxxbYr/Elzs33TAQy8SfqejxITqE3Np8NN9E+ExtJBsSkOrRHY7vEk/T/nSC988nL9i+uFdviL7138/+klzDVofAW/9iBJk0pxX0klunlfaod/20D1Tcwm0LWRlmPFuh7v8PxrsjKa7lKfMUnySAF/DVMTyYmdv1aTdD/k8Wv5lBB+cZAZf22IBOo+XMZ+cdgFQOEAAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 7,
+  "iconPath": "232bc80b207d7be892c4e0c41ea43b44080e51373e3c4f6f0f2f9e0eb4e03194",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "信用點",
+   "desc": "星際和平公司與客戶結算時使用的貨幣，如今已成爲太空旅行的硬通貨。",
+   "lore": "「人們奔波、爭鬥、貿易，爲的不過是個終端裏顯示的數字。但真正珍貴之物，公司的數字是買不到的。」",
+   "purpose": "通用貨幣",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "擬造花萼【大礦區】",
+    "擬造花萼【工造司】",
+    "擬造花萼【「白日夢」酒店-夢境】",
+    "任務獎勵",
+    "委託獎勵",
+    "餘燼兌換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "命運的足跡",
+   "desc": "行跡升級的高階素材。",
+   "lore": "一次又一次的敗北成就了你的勝利，一步又一步的前進讓你抵達了命運的拐點。",
+   "purpose": "行跡材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」積分獎勵",
+    "無名勳禮",
+    "餘燼兌換",
+    "星芒兌換",
+    "限時活動獎勵"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "無窮假身的遺恨",
+   "desc": "行跡升級的高階素材。",
+   "lore": "無論奪取多少肉身，它都無法如願以償。就像那些尋求仙藥的人一樣，它渴望一具長存的軀殼，不必再畏怖「毀滅」。它知道，這是永難企及的迷夢。<br /><br />「我曾見過無數世界被負創神的烈焰吞噬，我曾是這些烈焰中的一朵。我隨祂的指尖舞蹈，卻深知若柴薪燃盡，火焰也將熄滅…」",
+   "purpose": "行跡材料",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "歷戰餘響【鱗淵境】"
+   ]
+  },
+  "267806": {
+   "id": 267806,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "b58782779268cffe0f8c8873690ce14c5a236ad8d2986a9d8171dc8ac6d49cdb",
+   "name": "天人遺垢",
+   "desc": "承露天人所遺的殘燼，風屬性角色的晉升素材。",
+   "lore": "仙人本擬爲世人帶去遺惠，卻在「豐饒」恩賜褪去，解脫降臨的剎那才明白：自己從來只是血肉凡胎，御風空行不過是如夢泡影，遺世所留僅只有塵跡污垢。<br /><br />「帝弓司命啊，我詛咒您…」",
+   "purpose": "角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/267806",
+   "comeFrom": [
+    "凝滯虛影【丹鼎司】",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "漫遊指南",
+   "desc": "角色的經驗材料，可以獲得<nobr>20000</nobr>點角色經驗。",
+   "lore": "跨越諸界必備的冒險叢書。按下閱讀鍵，充滿磁性的聲音將以你能聽懂的語言講述知名冒險家們在不同世界間的傳奇經歷，以及他們在各個星球上獲得的珍貴智慧。<br /><br />「漫遊指南全新書系《星際美食烹飪導覽》開售在即，敬請支持。」<br />「投稿請接入博識學會聯覺信標<nobr>23</nobr>θ聯絡員，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色經驗材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "「忘卻之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "冒險記錄",
+   "desc": "角色的經驗材料，可以獲得<nobr>5000</nobr>點角色經驗。",
+   "lore": "裝訂嚴整，一看就頗有教育意義的冒險札記。圖文並茂地描述了冒險行動的始末、有價值的信息和生存相關的技巧。<br /><br />「幹嘛不數據化放進光刻片裡？便攜多了。」<br />「面對恆星風暴和中子流噴發時，高科技比你想象的還要脆弱。何況，製作這本書的人一定希望人們用最簡單的方式閱讀它。」",
+   "purpose": "角色經驗材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "每日實訓",
+    "餘燼兌換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "旅情見聞",
+   "desc": "角色的經驗材料，可以獲得<nobr>1000</nobr>點角色經驗。",
+   "lore": "記錄旅途見聞的日誌，字跡漫漶不清，內容隨心所欲，對你並沒有太大的幫助。<br /><br />「看完了就趕緊把這堆廢紙處理掉吧，丹恆？」",
+   "purpose": "角色經驗材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "委託獎勵"
+   ]
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "71d58f084522c87e93327e3e7fc1db8fb4abb65e9989b163d4a348c9a3761329",
+   "name": "永壽幼芽",
+   "desc": "古老神物萌發的新芽，強化所需的簡單材料。",
+   "lore": "仙舟長生種「無盡形壽」的源頭，「豐饒」神跡的殘餘。無數歲月前，一位帝皇的長生妄念促成了仙舟艦隊渡航天之外海，求取仙方。<br /><br />「朕欲垂化萬世，國祚永延。惜乎天年有盡，人力有窮。故遣天艟九座，飆航天外，謁求仙方。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "豐饒孽物掉落",
+    "「模擬宇宙」中敵方掉落",
+    "委託獎勵",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換",
+    "擬造花萼（金）"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fc1f8e93b552510a719e96df3c4e48ace4f905d262668303315d785b951a7c04",
+   "name": "永壽天華",
+   "desc": "古老神物結成的花朵，強化所需的普通材料。",
+   "lore": "仙舟長生種「無盡形壽」的源頭，「豐饒」神跡的殘餘。歷經坎坷，求藥之舟謁見天顏。神明垂跡顯化，建木生發。<br /><br />「新蕊月中落，天華雲外香。桂馥吐納間，鶴髮換青髫。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "突破至均衡等級2後，豐饒孽物掉落",
+    "「萬能合成機」- 材料合成",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8e1b0a1a8ab4a806daac48e2e5de6c69a9a1aad87f950c5a4c92c9513dd9d6b9",
+   "name": "豐饒之種",
+   "desc": "豐饒之神撒下的賜福種子。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">豐饒</span>角色的命途行跡。",
+   "lore": "接觸到它的人，傷口和疾病會緩緩治癒。<br />於絕望中祈求生命賜福的人們，總能獲得垂憐。<br /><br />「令諸所求，必有所得。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "717386": {
+   "id": 717386,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5708b196a8af89740ced588d98dc414c791d209879957fb0bc8644cc2dc84adb",
+   "name": "永壽榮枝",
+   "desc": "古老神物的枯榮之枝，強化所需的高級材料。",
+   "lore": "仙舟長生種「無盡形壽」的源頭，「豐饒」神跡的殘餘。三災過後，仙舟生靈塗炭。天人墮魔，苦厄不絕。<br /><br />「按十王司律令，凡瀕陷魔陰者，將受判官勾攝，入幽獄審斷。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/717386",
+   "comeFrom": [
+    "突破至均衡等級4後，豐饒孽物掉落",
+    "「萬能合成機」- 材料合成",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e08699257c4a96a135b4467fd8eba3917d5734b2c943ac631d2a39ae3c4ccb37",
+   "name": "永恆之花",
+   "desc": "由生命之芽結出的美麗花朵。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">豐饒</span>角色的命途行跡。",
+   "lore": "花蕊中凝結了豐饒之力，永遠不會凋零。無論將之置於火焰、冰霜或是諸般惡境中，也不能稍抑其生長的勢頭。<br />假以時日，其枝葉將以星光爲食；其根系將以衆生血肉爲壤，連結一體，不死不滅；其果實將是兌現永生的承諾。<br /><br />「有龐然舟舸，勢逾山嶽，凌虛浮行。上有不死樹，食之乃壽。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "「萬能合成機」- 材料合成",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "365bf3a80928eea605cbefd72636c62eb0c1887b4652520c3e9c3f99a55f0cb9",
+   "name": "生命之芽",
+   "desc": "自豐饒之種中冒尖的嫩芽。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">豐饒</span>角色的命途行跡。",
+   "lore": "散發着陣陣暖意，其紮根處周遭的環境繁密茂盛。荒圮的廢土化爲沃壤，枯死的植被再度抽長生花，清泉裂土而出汩汩奔流。<br />靠近它，你的筋骨仿佛自有生命，開始蠕動增生，奇癢難耐。<br /><br />「凡胎育化，生生不竭。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "「萬能合成機」- 材料合成",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 81.84,
+   "attackAdd": 4.092,
+   "hpBase": 184.8,
+   "hpAdd": 9.24,
+   "defenseBase": 69.3,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549504,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 114.576,
+   "attackAdd": 4.092,
+   "hpBase": 258.72,
+   "hpAdd": 9.24,
+   "defenseBase": 97.02,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549504,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 147.312,
+   "attackAdd": 4.092,
+   "hpBase": 332.64,
+   "hpAdd": 9.24,
+   "defenseBase": 124.74,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633445,
+     "count": 6
+    },
+    {
+     "id": 267806,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 180.048,
+   "attackAdd": 4.092,
+   "hpBase": 406.56,
+   "hpAdd": 9.24,
+   "defenseBase": 152.46,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633445,
+     "count": 9
+    },
+    {
+     "id": 267806,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 212.784,
+   "attackAdd": 4.092,
+   "hpBase": 480.48,
+   "hpAdd": 9.24,
+   "defenseBase": 180.18,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717386,
+     "count": 6
+    },
+    {
+     "id": 267806,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 245.52,
+   "attackAdd": 4.092,
+   "hpBase": 554.4,
+   "hpAdd": 9.24,
+   "defenseBase": 207.9,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717386,
+     "count": 9
+    },
+    {
+     "id": 267806,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 278.256,
+   "attackAdd": 4.092,
+   "hpBase": 628.32,
+   "hpAdd": 9.24,
+   "defenseBase": 235.62,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "406f06f0d9c71f8d4ac1353b1be374c71155653413ca990fcac4682064900538",
+   "artPath": "00f304d39f355367706448db9d536eb7d05b415d6ab9ad5eca3f537ef848a56b",
+   "name": "歲陽寄體，妖邪依憑",
+   "descHash": "天賦產生的【禳命】持續時間延長<nobr>#2[i]</nobr>回合，且當藿藿擁有【禳命】時我方全體提高<nobr>#1[i]%</nobr>的速度。",
+   "params": [
+    0.12,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "eb9685eff856541e2074769fd2f5302e0f7116ceb4f5698c28dbd32edc1b563b",
+   "artPath": "c9155db948dbb10d3fd7cef63a7ecf270aaeb9dd839c6207585535762aecafa5",
+   "name": "判官書符，鎮尾鎖靈",
+   "descHash": "當藿藿擁有【禳命】時，若我方目標受到致命攻擊，不會陷入無法戰鬥狀態，並立即回復等同於其自身生命上限<nobr>#1[i]%</nobr>的生命值，使【禳命】的持續回合數減1。該效果單場戰鬥中可以觸發<nobr>#2[i]</nobr>次。",
+   "params": [
+    0.5,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "eca8323513d153a185a78df90f8861357d01ba27860838c795eace4310311ad7",
+   "artPath": "6d512107365788b72c2fead4f9fc61bc1a957a2d8310266777db4969e5821327",
+   "name": "貞兇體質，燭火招螢",
+   "descHash": "終結技等級+2，最多不超過<nobr>15</nobr>級；天賦等級+2，最多不超過<nobr>15</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "404b4a0cd44f2489b47d1fbfd9c238e8f5f884ca0dba54cd2962440a6f9175cc",
+   "artPath": "a389c4103a1594a9d58b88f68f2ea3caf54a0d6525d4296dbee27f3aa105748b",
+   "name": "坐臥不離，爭拗難寧",
+   "descHash": "施放戰技或觸發天賦爲我方目標提供治療時，目標的當前生命值越低治療量越高，最多使藿藿提供的治療量提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.8
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "4d3989d7d0a14e3714acdaad652709b37ec513381d423850f816c331e742ded2",
+   "artPath": "f780a89f0a91b50c8a510e629e24babb14951ae1c7291b89ad67c1046ed5d845",
+   "name": "降妖捉鬼，十王敕令",
+   "descHash": "戰技等級+2，最多不超過<nobr>15</nobr>級；普攻等級+1，最多不超過<nobr>10</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "f7d1d017cf983cd12850fc07c2141b3fbd48150c238cfc6747639ad8a0d2e280",
+   "artPath": "5150e2b82127a1708c0979e4da078d71aaa55d18f0f80a77f83e246a6c5fb076",
+   "name": "同休共戚，相須而行",
+   "descHash": "爲我方目標提供治療時，使目標造成的傷害提高<nobr>#1[i]%</nobr>，持續<nobr>#2[i]</nobr>回合。",
+   "params": [
+    0.5,
+    2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   256586
+  ],
+  [
+   340527
+  ],
+  [
+   457172
+  ],
+  [
+   541113
+  ],
+  [
+   825640
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "單攻",
+   "descHash": "對指定敵方單體造成等同於藿藿<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#00FF9C;\">風</span>屬性傷害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 256586,
+   "name": "令旗•徵風召雨",
+   "iconPath": "b830903561370c584a831716624f4b217d096ef120b7e544774f8fcbd32692fc",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "回復",
+   "descHash": "解除指定我方單體的<nobr>#5[i]</nobr>個<u>負面效果</u>，立即爲指定我方單體回復等同於藿藿<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>的生命值，同時爲其相鄰目標回復等同於藿藿<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>的生命值。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 340527,
+   "name": "靈符•保命護身",
+   "iconPath": "4d3989d7d0a14e3714acdaad652709b37ec513381d423850f816c331e742ded2",
+   "typeDescHash": "戰技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.14,
+      140,
+      0.112,
+      112,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.14875,
+      224,
+      0.119,
+      179.2,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1575,
+      287,
+      0.126,
+      229.6,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16625,
+      350,
+      0.133,
+      280,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      392,
+      0.14,
+      313.6,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.182,
+      434,
+      0.1456,
+      347.2,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.189,
+      465.5,
+      0.1512,
+      372.4,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.196,
+      497,
+      0.1568,
+      397.6,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.203,
+      528.5,
+      0.1624,
+      422.8,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      560,
+      0.168,
+      448,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.217,
+      591.5,
+      0.1736,
+      473.2,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.224,
+      623,
+      0.1792,
+      498.4,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.231,
+      654.5,
+      0.1848,
+      523.6,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.238,
+      686,
+      0.1904,
+      548.8,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.245,
+      717.5,
+      0.196,
+      574,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "輔助",
+   "descHash": "爲除自身以外的隊友恢復等同於各自<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>能量上限的能量，同時使其攻擊力提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>，持續<nobr>#3[i]</nobr>回合。",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 457172,
+   "name": "尾巴•遣神役鬼",
+   "iconPath": "1599a70a59433a555916ab49af3a7356e53202aecf74ff65f82be3f85dfa1657",
+   "typeDescHash": "終結技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0.24,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.155,
+      0.256,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16,
+      0.272,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.165,
+      0.288,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.17,
+      0.304,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      0.32,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18125,
+      0.34,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875,
+      0.36,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.19375,
+      0.38,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0.4,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.205,
+      0.416,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.21,
+      0.432,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.215,
+      0.448,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22,
+      0.464,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.225,
+      0.48,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "回復",
+   "descHash": "施放戰技後藿藿獲得【禳命】，持續<nobr>#1[i]</nobr>回合，藿藿每回合開始時持續回合數減1。當藿藿擁有【禳命】時，我方目標回合開始或施放終結技時回復自身等同於藿藿<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]</nobr></span>的生命值，同時對每個當前生命值百分比小於等於<nobr>#6[i]%</nobr>的我方目標各產生1次回復效果。<br />觸發【禳命】爲我方目標提供治療時，解除該目標<nobr>#2[i]</nobr>個<u>負面效果</u>，該效果可以觸發<nobr>#7[i]</nobr>次，再次施放戰技後將刷新效果可觸發次數。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 541113,
+   "name": "憑附•氣通天真",
+   "iconPath": "837a941cb26a8192393d0c1cd6f1be4f2cfc59a4ac98082f843820929d838bc4",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      1,
+      0.03,
+      0,
+      30,
+      0.5,
+      6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.031875,
+      0,
+      48,
+      0.5,
+      6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.03375,
+      0,
+      61.5,
+      0.5,
+      6
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.035625,
+      0,
+      75,
+      0.5,
+      6
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0375,
+      0,
+      84,
+      0.5,
+      6
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.039,
+      0,
+      93,
+      0.5,
+      6
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0405,
+      0,
+      99.75,
+      0.5,
+      6
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.042,
+      0,
+      106.5,
+      0.5,
+      6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0435,
+      0,
+      113.25,
+      0.5,
+      6
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.044999998,
+      0,
+      120,
+      0.5,
+      6
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0465,
+      0,
+      126.75,
+      0.5,
+      6
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.048,
+      0,
+      133.5,
+      0.5,
+      6
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.0495,
+      0,
+      140.25,
+      0.5,
+      6
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.051,
+      0,
+      147,
+      0.5,
+      6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      0.052500002,
+      0,
+      153.75,
+      0.5,
+      6
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 741699,
+   "name": "攻擊",
+   "iconPath": "b830903561370c584a831716624f4b217d096ef120b7e544774f8fcbd32692fc",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "妨害",
+   "descHash": "藿藿恐嚇周圍的敵人，使其陷入【魄散】狀態。【魄散】狀態下的敵人會向遠離藿藿的方向逃跑，持續<nobr>#4[i]</nobr>秒。與陷入【魄散】狀態的敵人進入戰鬥後，有<nobr>#1[i]%</nobr>的<u>基礎概率</u>使敵方每個單體目標攻擊力降低<nobr>#2[i]%</nobr>，持續<nobr>#3[i]</nobr>回合。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 825640,
+   "name": "兇煞•劾壓鬼物",
+   "iconPath": "0dd53f493ba96a4516b9f6427fa20f2d5b8ecdc54ed024ac522c8436fc435b8c",
+   "typeDescHash": "祕技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.25,
+      2,
+      10
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1217101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1217203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1217204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 696403,
+          "name": "速度強化",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+          "statusList": [
+           {
+            "key": "速度",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920198,
+            "count": 3
+           },
+           {
+            "id": 633445,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 696404,
+        "name": "生命強化",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "生命值",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920198,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 696405,
+      "name": "效果抵抗強化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "效果抵抗",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "戰鬥開始時，藿藿獲得【禳命】，持續<nobr>#1[i]</nobr>回合。",
+    "ultimateCost": 0,
+    "id": 696245,
+    "name": "不敢自專",
+    "iconPath": "71af687fcc277c229680777e81161a74ae2176ede361054a1fecf139de9e4ed3",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1217206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1217207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 696400,
+          "name": "生命強化",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+          "statusList": [
+           {
+            "key": "生命值",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836257,
+            "count": 3
+           },
+           {
+            "id": 717386,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 696401,
+        "name": "效果抵抗強化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+        "statusList": [
+         {
+          "key": "效果抵抗",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836257,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 696402,
+      "name": "生命強化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "生命值",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "抵抗控制類負面狀態的概率提高<nobr>#1[i]%</nobr>。",
+    "ultimateCost": 0,
+    "id": 696246,
+    "name": "貞兇之命",
+    "iconPath": "a16acbb2f10d63a6047d5492a6bc191620bee71911aef628bca6db9a7f291f51",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.35
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1217208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 696415,
+      "name": "速度強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1217209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 696414,
+      "name": "效果抵抗強化",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "效果抵抗",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "觸發天賦爲我方目標提供治療時，藿藿恢復<nobr>#1[i]</nobr>點能量。",
+    "ultimateCost": 0,
+    "id": 696247,
+    "name": "怯懼應激",
+    "iconPath": "ec2c81d38a9faed55dda5409807e442d1bb15db87a41d1e3df6dd8e2979fba41",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 696406,
+    "name": "生命強化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "生命值",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549504,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1217210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 780348,
+    "name": "生命強化",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "生命值",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836257,
+      "count": 8
+     },
+     {
+      "id": 717386,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "軀幹",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "治療量加成",
+    "propertyIconPath": "57726150eaa27c675743fe08b88bd04575a0e76b5014dcfbc073c105aa1c7e44"
+   },
+   {
+    "relicTypeHash": "腳部",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "速度",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "位面球",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "生命值",
+    "propertyIconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf"
+   },
+   {
+    "relicTypeHash": "連結繩",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "能量恢復效率",
+    "propertyIconPath": "75627c696d3e9763c0b4feeb4a8e2baf594ac73214c6227b3a125c032be090c8"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次見面",
+   "text": "藿藿：你、你好…我叫藿藿，是新上任的十王司判官，那個，還要說什麼來着…<br />尾巴：小丫頭，我呢？本大爺可是歲陽一族赫赫有名的……<br />藿藿：尾巴！他是尾巴！",
+   "unlockRequirement": "",
+   "cnUrl": "662adfde6b3165d3846133f13cd16f61aa4205f4536a20a059381cecf17858b1",
+   "jpUrl": "98508694a603aa09059dd739bec953d3f27839b57eea91d9f55fab8b9d05cfa8",
+   "enUrl": "bc5ae3568bfd9912e3bc25842c3f029bdef8ea33a3070c2624103eb2ed010e24",
+   "krUrl": "b6dbdb0a96032a7c709ce98b544e65361626c4169dd9b5d4b549a38fb312f55a"
+  },
+  {
+   "id": 2,
+   "title": "問候",
+   "text": "藿藿：你、你好…那個，沒事我就走了，再、再見……<br />尾巴：是讓你來打招呼的，不是來道別的！",
+   "unlockRequirement": "",
+   "cnUrl": "29f4faf9eb0520e3916f0bb63e8bffcce96309605fcaf44f7a4812e47ca02c03",
+   "jpUrl": "2f236453c3310ea3f98be515cfac79cfc9646426a879ae3bf13444b078ffa3d3",
+   "enUrl": "759d311dfa5f198213c13ea7f5bdb72b551b45f996c70a49d6482de3ecd0eb57",
+   "krUrl": "c3d9f63558e36b2160517aa8bb90c72dc273b6acd5e34fe7c8020948c52970e3"
+  },
+  {
+   "id": 3,
+   "title": "道別",
+   "text": "終、終於可以回家了，要是沒人注意到我就好了。",
+   "unlockRequirement": "",
+   "cnUrl": "1724b5334fb1e8b73fd4743fa795ddd7731070428e2dd8a4424e01a237a3f9f4",
+   "jpUrl": "74d597b5730b6f55e15cd058332d2757ddf5548f419c1d9477294650d0195937",
+   "enUrl": "f5ea72b8734d5e43d02f1a02afb2dadcf5db6b57db8231447d8a5cd999945e8c",
+   "krUrl": "09d93c8e7911e5a8bb91e360244fcb2502e3a4e4dcf3ab6ab01f58f8168cb162"
+  },
+  {
+   "id": 4,
+   "title": "關於自己•工作",
+   "text": "我、我拒絕過啊…讓怕歲陽的人用歲陽來捉歲陽，怎麼想都不對勁…但他們說，這叫以毒攻毒…嗚嗚。",
+   "unlockRequirement": "",
+   "cnUrl": "53db9e74fdd3d105aed69584bacb38a701e3dc72c2be7d2d752940f9af3b91f4",
+   "jpUrl": "6653fccb599e10c3cb751a6e6197d06775468d13ff19d98cd8e8daa2f65392a4",
+   "enUrl": "aef21ca628b0fff348126206b5d07d6590dd43d752d02501c8cbfc037ccbabc8",
+   "krUrl": "927d79dc0b59f14645c5b601e4155da21a1a1307fd200c4e414ef8676d09b7e5"
+  },
+  {
+   "id": 5,
+   "title": "關於自己•尾巴",
+   "text": "藿藿：我的尾巴被歲陽給「喫掉」了，我也差點被喫掉了，還好十王司的判官們把它封印住了……<br />尾巴：誰讓狐人的尾巴最好喫呢…現在好了，我成尾巴了，碰上什麼妖魔鬼怪都先薅老子一把！",
+   "unlockRequirement": "",
+   "cnUrl": "00f9f14d8a701453cd260809a5ee9b236eeac23a4572ef0130281e659d84ab12",
+   "jpUrl": "35da2b90d8eaba858483ca3acf4f80fed61b23211b9c81263048791220a93c8f",
+   "enUrl": "9ab04a7fb931c0d699c943ec25b669a10353164fe282bc00bf8d21010f6538db",
+   "krUrl": "1733458253fae0edb3b3b743d95f09598e0b447b675e1944a28f9c49a32b34a4"
+  },
+  {
+   "id": 6,
+   "title": "閒談•令旗",
+   "text": "用這令旗，不僅調兵遣將能勝人一籌，投降也能先人一步……",
+   "unlockRequirement": "",
+   "cnUrl": "958430c3159708e6b7ab8595f90ba76f94d589cc2da3090397c4af2d5010c314",
+   "jpUrl": "ecca8d93b8d8573ebab6d91471de69ff7a13511551ea8ba5c3a90147171ac030",
+   "enUrl": "024bd47a8a90e88bec836b1bbb8c7c13ba6e7762522a5b71be0bc46ff7cca022",
+   "krUrl": "11693c1b8770e25c1a8536a792c1a74c0fdecfa991a704a9f35317bdf178766b"
+  },
+  {
+   "id": 7,
+   "title": "閒談•紙人",
+   "text": "藿藿：一有空我就拼命摺紙人，只要一想到有那麼多「朋友」在身邊，我就不怕了……<br />尾巴：老子最煩那紙人了！半夜一睜眼一紙人湊我眼前還在那笑不瘮得慌嗎？！",
+   "unlockRequirement": "",
+   "cnUrl": "06da19d1b5275b6a4847ae6e0f0a0d7274d61de771685220f78ce4d7d3988758",
+   "jpUrl": "afd2ffe2268dc23f8e0998874506d7add38bc444608ccf7aa23877d45b5ba55b",
+   "enUrl": "d004659b9eb354d0079c4531ed439ac69c3dbcc7116958e348c4d32f2e44c169",
+   "krUrl": "c36b10eada9d85ad82a408d923493448194d9e8c97ef1726b4ac44209f0e9698"
+  },
+  {
+   "id": 8,
+   "title": "愛好",
+   "text": "熬夜看恐怖喜劇片能磨礪膽量，再恐怖的地方只要笑一笑就不恐怖了，「嚯嚯嚯嚯嚯嚯嚯！」就像這樣。",
+   "unlockRequirement": "",
+   "cnUrl": "d4eeb14566b61436a7b45f21b7838077ad657371977f49122b0837713718f563",
+   "jpUrl": "7f2a19c76e084fee358c86cf0f7cbbdf92bd1d42f895d31f27363e84476e5b76",
+   "enUrl": "fe323905471b6a4c00cd11434bb8386d92d7908e45586cb1ff11fd93e72b92fe",
+   "krUrl": "a80c25f495be58b66c0dcca8285d960e8c0f0b332edaf5aa578da16c58024b33"
+  },
+  {
+   "id": 9,
+   "title": "煩惱",
+   "text": "藿藿：「鑑爻軒」的老闆說我有「貞兇之命」，厄運纏身，這、這多半要怪……<br />尾巴：怪我。但你走路摔跤可怪不得我。",
+   "unlockRequirement": "",
+   "cnUrl": "ac9c8351c5abe4f42742164314a4502f98a4b385efd54762d778f642cf3d6051",
+   "jpUrl": "61781fac5c282ae9d67cce0d3314a1969422d1e0a8539d03cfe0336b45a6370e",
+   "enUrl": "00d6e16125cc7d1e7c5ba31a5a65e4b53866d59cc515f5fef7950584629f10d8",
+   "krUrl": "80329ec8f56f8169ef90b1dbc516aa794668b01af0b2ef04e478c833a4b877e3"
+  },
+  {
+   "id": 10,
+   "title": "分享",
+   "text": "在星槎海找個地方坐下來，看着星槎一艘一艘地過去，一艘一艘地回來——這是我消除疲勞的辦法…雖然十王司的判官們說用來治療失眠更有效…總之，推、推薦給你。",
+   "unlockRequirement": "",
+   "cnUrl": "aef95771be0476bd668948af7d7c67155268d7b203aa738f1b4dd0849b450b89",
+   "jpUrl": "057acf7df5ab2a2fb989da8281f7ebd07645d30ff028849bcbf8e58571cefaed",
+   "enUrl": "7578a32dcffd8cd1d2568236ae2aa39f7478b4fac3bc2f01de229df9ca61a8e5",
+   "krUrl": "8dc4a421822f8562706874fe70d153fb1d29dc80285fd03ed2f2067a5fa0804d"
+  },
+  {
+   "id": 11,
+   "title": "見聞",
+   "text": "聽說工造司的「造化洪爐」裏關着很多歲陽，後來爐子壞掉了，歲陽們趁機逃出來了…再後來，我的工作量就增加了……",
+   "unlockRequirement": "",
+   "cnUrl": "7f418d78aab58415b6a33df490d48683e76d486a7423459cb8f59c687d507792",
+   "jpUrl": "6a9dee08b1a6eaa1b349b86f36d181d21caad30b9a13d6080c707f55fe7bb97e",
+   "enUrl": "4e218e6cfa970c23ba1f61a28eb726d4df90a98c4bedef5a43c7e343c3a901b7",
+   "krUrl": "97debe46a77b3888a802934def28d96f4a092edc1c4a625d87a6e751a1523818"
+  },
+  {
+   "id": 12,
+   "title": "關於桂乃芬",
+   "text": "是說小桂子嗎？她陽氣旺盛，能夠驅散黴運，和她在一起連尾巴都安分了。就是和她說話我也不自覺會提高音量，有點耗費精神……",
+   "unlockRequirement": "",
+   "cnUrl": "6e577b77dd2327fd7cfaf9002a405c3ad4bd66f694eda3dd6ac41d66267b9449",
+   "jpUrl": "e175a33a71be79066f4c88c5e1871d2686d6283ad00c02fc0034169696d8dda3",
+   "enUrl": "bb50752dc3c885e134991ef02feb7863803d25e1d30d7fc6785cf1378270ad85",
+   "krUrl": "d92230f38d42e0cddbc4d4c050ec296c14916ccb5a464e57137317f6a1bbac4e"
+  },
+  {
+   "id": 13,
+   "title": "關於雪衣",
+   "text": "藿藿：一開始我覺得「人偶判官」很嚇人…但即使尾巴暴跳如雷，雪衣大人卻依舊神態自若、面不改色，這樣的判官前輩真…真是太了不起了……<br />尾巴：對對對，你厲害，你了不起！看老子哪天把十王司燒成灰！",
+   "unlockRequirement": "",
+   "cnUrl": "84aef3029eecc7bdd79cd9b05ceca92538dac18ae7f134f21a4f6386c424b2e7",
+   "jpUrl": "ec70180859ac87e32f00295286026f05a0931f9214a083d5c87ed8a3c1eec5df",
+   "enUrl": "fa52ed6289d672795ae9233b35a78eed3816e68e9b26ceb2fe732eb960a6e8ab",
+   "krUrl": "6562adcb413776beba556516e81507fda4538588695b5d0683a58c8ecb78d013"
+  },
+  {
+   "id": 14,
+   "title": "關於寒鴉",
+   "text": "爲了將寒鴉大人和她姐姐區分開，我、我私底下叫她「話嘮判官」…不會已經被她知道了吧？",
+   "unlockRequirement": "",
+   "cnUrl": "2c9498f253d6fac7bcb7fceadc0121096fdf4f9f3850be68ecfc6ac84de73b18",
+   "jpUrl": "a6ca13e2b7c732fe5603d9fdfd630203e613bccfa4c23a57fa2e95ba4ee1bbdf",
+   "enUrl": "e53fa88c5546ced4a3a4b521a3290219460ca74b2cf9504ad8ef88e3c281cd16",
+   "krUrl": "f679a48a28efb9193276edc1941fb72811c0b71f68fa4b95585f4e752d394ca4"
+  },
+  {
+   "id": 15,
+   "title": "關於青雀",
+   "text": "我在放空自己的時候，青雀也在休息。我在忙的時候，她也在休息…她到底是怎麼做到的？太卜司的工作肯定比十王司輕鬆吧……",
+   "unlockRequirement": "",
+   "cnUrl": "9f840c5b9c3ea04ac6d379719dd8a521f06b1521680cf3a1790e901b426127e3",
+   "jpUrl": "50c97b43036aa7c544127d60860a15a6996fdc9c6ab8abd675fa01dbecaf8755",
+   "enUrl": "79d8326d0ac840c9e24aed2a5402b52bd32173c00987a23a5e4cc945b897b68a",
+   "krUrl": "9bbdd3d9c596b7f1ed2a94c6108823d5591aad58376febc303a2c128d3ffc820"
+  },
+  {
+   "id": 16,
+   "title": "關於尾巴",
+   "text": "藿藿：我、我才不想鍛煉什麼意志，我就想逃跑，但每次尾巴大爺都直接把我送到敵人跟前，真的是受夠了……<br />尾巴：哼，你最好是被喫幹抹淨，老子就能恢復自由了！",
+   "unlockRequirement": "",
+   "cnUrl": "09eae484612d7174006989a2401d76fea75636102d22bb9a8c29051b516d8319",
+   "jpUrl": "b549164d408a30b5eba6da1e345eef6e5dc9d4760f0aaa9cc98568fadd372356",
+   "enUrl": "08c65f89aa054098f41c2c1afa242bdedcb257cd5f6cd2629a6682934720f8fe",
+   "krUrl": "8b2ae672ebb211e8b476f6cc39749c5acefbfcd9d6ca0d159ccdb930bfe1775e"
+  },
+  {
+   "id": 17,
+   "title": "關於景元",
+   "text": "我聽人說家裡張貼羅浮將軍的畫像能夠鎮邪，我試過了，沒有什麼用…啊，那個，我不是說將軍沒用，是畫像沒用，這種鎮邪的事情可千萬信不得。",
+   "unlockRequirement": "",
+   "cnUrl": "cf6bfd4cbe97f6f13d0682018ed27126ebc9ab7895943e58a928dccfab960071",
+   "jpUrl": "a138b6072efe8312973f5a1f2671e9b06606c26ed1822e392b5a8dd1f8270670",
+   "enUrl": "d2fffbfebf6941dece4f9e1ddf626f2b431dd4c0464ce2ee5d93781bfcea3b73",
+   "krUrl": "3b3490310a8a09e8514d47c7ec5e85f8ea5bb24445f4eb59b13d595543b6decb"
+  },
+  {
+   "id": 18,
+   "title": "關於白露",
+   "text": "不知道龍女大人有沒有「壯膽藥」呢…要是沒有的話，「假死藥」也成……",
+   "unlockRequirement": "",
+   "cnUrl": "cfbaa6b551ff6714e126170fa0d1dcd7bebbecdfc93a86bfb860a52a28c42909",
+   "jpUrl": "e19fd4b381118d741c065ce9587b7b1b964785f21eaabeff73ff595993f52ec3",
+   "enUrl": "5a83864b1742b4fe6049e33d7234adbe224fd71ce95a08f0718429baa56c3e6e",
+   "krUrl": "74a8db90295f0f7cb20572c3c492955e1d1f3dae8d10880bf77c3bf12c4beb74"
+  },
+  {
+   "id": 19,
+   "title": "關於馭空",
+   "text": "同樣是狐人族，和馭空大人比起來，我看起來沒有什麼威嚴…其實我有自覺的，我只是…很羨慕馭空大人。",
+   "unlockRequirement": "",
+   "cnUrl": "fb063cd581617c07076a3b752eaff9b4944d798bcbc20e2603b0bce300767847",
+   "jpUrl": "021681eebd64450286877c38ccbcf3b3ae257924666c912d349ce882694c1de9",
+   "enUrl": "b07c7d586f99c6afe60b88e2982107461416392cea70589ab9a20cdbd9caa989",
+   "krUrl": "68cbbcf659560784966d71f6632808f69ec12025fd2d721ebcf73b190e9746c2"
+  },
+  {
+   "id": 20,
+   "title": "關於素裳",
+   "text": "其實很久以前我們見過面…那時我正在放空自己，等回過神來的時候，我已經被素裳帶到地衡司公廨，作爲走失人員調查了……",
+   "unlockRequirement": "完成開拓續聞「狐夢」後解鎖",
+   "cnUrl": "ae9b72f2b20e1a513fd22e5214f5c98a0f427e1d0dee0d77550f00b90eb5dbd4",
+   "jpUrl": "eca219467622c143ddb66fd2d82c538069daf2b55de4ec8c5f20571ebe9c9798",
+   "enUrl": "137df07c3e94fa2d3324bc1dca9068646642ce8311d53afe1646eac0e9a6e120",
+   "krUrl": "58f60af8364806cf784f2470e5b1c3405528499e300b1373004f375d78c77506"
+  },
+  {
+   "id": 21,
+   "title": "星魂激活",
+   "text": "「貞兇之命」，「貞兇之命」如此……",
+   "unlockRequirement": "",
+   "cnUrl": "86567bcf75512488941408c3ef122f89898c39c214617943553b7c590445b8cd",
+   "jpUrl": "adf44d7e45dd89437fc78f6c6cccd7db4270d7d2461c014efbdfea20e131eaa6",
+   "enUrl": "67e8ab517c1f436327a1dc4c088aab2b9e535a23c71cc03ede613209ee83f7c0",
+   "krUrl": "e6378a4af9c4a86ec031a917815a1b90ce362715ec3d1391a8a553c236f669e0"
+  },
+  {
+   "id": 22,
+   "title": "角色晉階",
+   "text": "又升職了？這到底是「今日運勢」中的吉，還是兇呢……",
+   "unlockRequirement": "",
+   "cnUrl": "2d4eb5225d9379bceab7798f9cfbe7fc0041d9b9a2e27fc01133974ff5ed35ae",
+   "jpUrl": "c6bc5dcd748a846ee42ea8a8da2389e9fe1fec04295fe4b74b1bb7b383a1eabd",
+   "enUrl": "a2f97b93a1913d3687434d4ce9102ae95d9ff317ff9478d86d0eb6a17123b10d",
+   "krUrl": "7c18e5278e269e1a446eb9093bfb936ea78c700f931365dcd564d39a24943c4a"
+  },
+  {
+   "id": 23,
+   "title": "角色滿級",
+   "text": "難、難道要我在十王司待上一輩子嗎……",
+   "unlockRequirement": "",
+   "cnUrl": "22ce3a8c91f2056f5b6d0749370c15acafd224069b78dcefdfd4f4c3944d727b",
+   "jpUrl": "31f4e6f8133823c8651e197642510f5f39403817b004136508909b0620eadc76",
+   "enUrl": "e0d9d80c260b1fad22a5aa661cffc17ca84bbf6a536478daff82c23d88dbf094",
+   "krUrl": "265d670cd6e930f1682ddfef6fe4d57c7b45fc09c243143007152405ada1a2a4"
+  },
+  {
+   "id": 24,
+   "title": "行跡激活",
+   "text": "一勞永逸的祛邪之法，真的存在麼……",
+   "unlockRequirement": "",
+   "cnUrl": "5172091e0b1d8a93984c040a1d94f197ef303bd2867c69f10e7edbdf00774c96",
+   "jpUrl": "28e637b0c57e1503d3ddd6216e5e5ffe703ddc49426fd2a6dc394113dc11d38e",
+   "enUrl": "232095e40ebfed54d7156261eb81d0b503788ab129882fab96ecd43c455ab36a",
+   "krUrl": "d93f48cfed8d6271068418205e52dc22032c9182490b230f52935ad637e7848e"
+  },
+  {
+   "id": 25,
+   "title": "隊伍編成•寒鴉",
+   "text": "看來寒鴉大人昨晚也沒睡…如果有我能分擔的，請儘管說……",
+   "unlockRequirement": "",
+   "cnUrl": "eb07c182c77e07646769eee51eb11dbe05908ebeb8b5055eae928c2ffd21d07b",
+   "jpUrl": "2057e288e303e7da6ae904dd103f062e0abed92dcf5fee746ab6b0dab1554463",
+   "enUrl": "a311fe66533dfa3fa6928f4e84d8c6badf55836f4e578ddda6519bb11a5c54d0",
+   "krUrl": "9307f6eeae19a5d7692febea9ba12e380dcc58c66c1201e96e9bc887f921e4c5"
+  },
+  {
+   "id": 26,
+   "title": "隊伍編成•桂乃芬",
+   "text": "小桂子你先去！我、我跟在你身後……",
+   "unlockRequirement": "",
+   "cnUrl": "c6d28b6d69342cec67d5d5bc5e2f66298656e10491762a0bb2f65769e473548f",
+   "jpUrl": "1eae0aa86317070f96745e3949caa0c0c9f5da6560ac337da384f7e80940359f",
+   "enUrl": "c5a21bb3c378eb076343b3e47ecb175844963e306a75007f5137f680ba239b18",
+   "krUrl": "c7fd55bcb4d913eb8a8a67ab6650991c6afb3155968765e3c062a0c2c4e2182c"
+  },
+  {
+   "id": 27,
+   "title": "隊伍編成•素裳",
+   "text": "素裳，待會等等我，我先給你貼上靈符……",
+   "unlockRequirement": "",
+   "cnUrl": "0dce350eaea118e4622280801dcf3319bec1becde20d42f5898152fc6f488827",
+   "jpUrl": "244a625db316efeac8a5ed347129dc8b81e7a61423733e5d7d076a4f584a8b15",
+   "enUrl": "6fdb388c7f243681e48f1c7ccbdfcbdf16dea700704b92a5ec65442145903965",
+   "krUrl": "ad2103681f621df18e17149c7bdf6a1924f4e0a5ef5a5b8152cdd972eb16e619"
+  },
+  {
+   "id": 28,
+   "title": "隊伍編成•雪衣",
+   "text": "藿藿：太、太好了！雪衣大人也在！<br />尾巴：一點都不好！",
+   "unlockRequirement": "",
+   "cnUrl": "bb7ae987aa46dd65063eefc3a4138f7893d03a44d9d61f14cceb87ee9e8dfeb2",
+   "jpUrl": "864a050ecddd5bcc24e90d0b021a5b28d2114f23b3e0f108dd952205a8e96235",
+   "enUrl": "00236b249452ac1cad71cfcd7546ea94558e24495de090dba4691fad0d22c67d",
+   "krUrl": "fc8b697096bb2ede2c3367d893fc131b5739341dd4d7db980fd28e37b841753f"
+  },
+  {
+   "id": 51,
+   "title": "戰鬥開始•弱點擊破",
+   "text": "藿藿：說不定我也能做到…",
+   "unlockRequirement": "",
+   "cnUrl": "6f60b4aea22596cb501abe8ec1c558abd64c420a841b272fd93cef25cb39f0cd",
+   "jpUrl": "1b03651bc4ea6d95cbf467b09230b0019e7e1357edb4b50906b789775f9d0a4c",
+   "enUrl": "50cbe73cec1100d9ba1e8c8056b83c5149537736380cf218c49cbe8f378be220",
+   "krUrl": "305cca705c94214b390ed0063b012a4b57f2b163b59e183645dc02553535372e"
+  },
+  {
+   "id": 52,
+   "title": "戰鬥開始•危險預警",
+   "text": "藿藿：這下肯定做不到了…<br />尾巴：有老子在，你怕什麼？",
+   "unlockRequirement": "",
+   "cnUrl": "258121de1b22fe02c23c5801614b65d20c62adfb12cf7791d1fa9251b044619f",
+   "jpUrl": "839eb3e61ecf86645a9932ea683b7489c27bbe6f8e3f52f929214db89619e740",
+   "enUrl": "72da2cca92fc2a5efbae60944b8c216bbe7cc5d931d85c07c40678e3238ea857",
+   "krUrl": "be60f1447947e4c3c32de030ba42e05c9e6907eb4c4db07e793f57071d96a437"
+  },
+  {
+   "id": 53,
+   "title": "回合開始•一",
+   "text": "藿藿：非、非得戰鬥嗎？<br />尾巴：對嘍~別逃啊~",
+   "unlockRequirement": "",
+   "cnUrl": "1cd465e9d153a1315b13a60c266a68b893aa28ee57d033fd8df47bdd73b20478",
+   "jpUrl": "f4252f8072cd98cd373cf198e9d4df6502f1ff3047d524cd52a21fc4f1a3b4de",
+   "enUrl": "f5983b7d74f6c8bc99edc46b0cbad109b0bde73111bfc01292e225677a23e4bc",
+   "krUrl": "599196ea88a7a23fc919157b07c088ce3af87554b56ed202c981f0e5e43ccc96"
+  },
+  {
+   "id": 54,
+   "title": "回合開始•二",
+   "text": "藿藿：又要拖後腿了…",
+   "unlockRequirement": "",
+   "cnUrl": "fa40cf2e81c6b4c7f3eead28b3af17699279fa7dab919472570aa24ad09e2fad",
+   "jpUrl": "3db4486532a0688a2e5b9f1d1461d5a333d66e5c22e64729ebb8fbf71b2079a2",
+   "enUrl": "c08282ee5ab683cf2684889ca4ea2774c5341d8131241f4f685e4e05f6551124",
+   "krUrl": "e4f79b46c056b6b8526679041e887fa7f008aa77cbbd4cf19f3f2cf07159dba6"
+  },
+  {
+   "id": 55,
+   "title": "普攻•一",
+   "text": "尾巴：走你。<br />藿藿：啊啊啊——",
+   "unlockRequirement": "",
+   "cnUrl": "5e730c619576a19244cb3507a0b474fd514748b7a370432b1c0bdf369dc0bb23",
+   "jpUrl": "a7e31e9c8931b5b9bc19aaae2315efd8e24f685ae2f6d09ba4bdfe844431fe76",
+   "enUrl": "d7e2c53c78da7ca8a535d0f0f7628a784e76cbb121812ec1adf219c5b26eba23",
+   "krUrl": "2ca7878315eef76c44868e239a3e4f6a01ba0a4973e707468d41e7979eadb73f"
+  },
+  {
+   "id": 56,
+   "title": "普攻•二",
+   "text": "藿藿：不要啊救命啊——",
+   "unlockRequirement": "",
+   "cnUrl": "e76a2d718a772f868a1f87e4a7ed617b576edd93ef6899efa085dd07563aed1c",
+   "jpUrl": "98f26fc40c2e103fa259ce7492d34b37c53a2415a5ee0b7dfff146090a7986b5",
+   "enUrl": "2b0c617bb8676cd95e9b4a428484860391495169e337bbb13c1f30191f62158e",
+   "krUrl": "476dbc401f88454c012ca5e7df6c609ab568ff5b094fa691e179a00a65046574"
+  },
+  {
+   "id": 57,
+   "title": "回合待機",
+   "text": "尾巴：你幹嘛？站着裝死啊？<br />藿藿：噓、噓——",
+   "unlockRequirement": "",
+   "cnUrl": "07d9c3e41b63c0cc5d460afbc9770355107b56c359803644d9a5a372f7bb7add",
+   "jpUrl": "60d41a8f52257321638934a09b99636098254f46b99ba349d5211067afbd9ec9",
+   "enUrl": "66efd12678321cad02c8360ac15d6fdfb1e7044d5d63de393226a6c10bc8617e",
+   "krUrl": "1804f3a330eb6eaf5261582fde055b71a678f31e185441743e491a785711457d"
+  },
+  {
+   "id": 58,
+   "title": "戰技•一",
+   "text": "藿藿：驅邪…縛魅…",
+   "unlockRequirement": "",
+   "cnUrl": "04f27674ccf55ff5ffb7a85528a0fbb7cf53e28abcbfa7fc690c9d12d941a90e",
+   "jpUrl": "160efb23907b9af843838e4d14354ddb9c2611e0bbf0452172c942d8428f37d9",
+   "enUrl": "a9c1273c0294c893b24a053b9648e68227a2164a2d5b49c511c7c141122575e9",
+   "krUrl": "e33528048ee9a81b2984e92ec1086000faf598f58df8a829e25a1631f1914892"
+  },
+  {
+   "id": 59,
+   "title": "戰技•二",
+   "text": "藿藿：靈符…保命…",
+   "unlockRequirement": "",
+   "cnUrl": "3a520e514315b9d84daf41fec34b91fa61e00d4bca9c2c56648b28d0144b497e",
+   "jpUrl": "c0a6a6d0734cf7a7d9fa3849a4bf08d06b9e023405ede60f35db87d8f573bc54",
+   "enUrl": "b22860e42a7f23752929bb80ef60f80392d45a7e3de8b9492871b1058a871883",
+   "krUrl": "4d99ae930a405fb4749a950292619e57a1f60faad1b76c4f92c57ed73262b773"
+  },
+  {
+   "id": 60,
+   "title": "輕受擊",
+   "text": "藿藿：嗚嗚好疼…",
+   "unlockRequirement": "",
+   "cnUrl": "5fd8a9eebbe97c9ccd16a124c6e227ba53b0f872d82e3901b8bdf01bd56a7236",
+   "jpUrl": "fed877976fc40f604c17dfbec436faf68e40f70abfc24fa0f01140a2e632d408",
+   "enUrl": "f6422328b7a5c6bb21243a9d63737de0d40384fd4949a8c6fb632d2131a076c1",
+   "krUrl": "d4a3696010d78d95b7552b2af13c6346cbe9a98677d4b84f87192c49ee824ac9"
+  },
+  {
+   "id": 61,
+   "title": "重受擊•一",
+   "text": "藿藿：尾巴救救！",
+   "unlockRequirement": "",
+   "cnUrl": "87d7d93999853852217189ce3787b5c72566d80c0f51d75e7fdf62afa9c89840",
+   "jpUrl": "9f12752d9d6da7aa6a938636c884bdb81b06d12cbe0b31eefa6078bc450c8427",
+   "enUrl": "0e22cf424aaf1176948fc86dbe19b89325b5e46051bcfd0038eb8e81075b8f34",
+   "krUrl": "7d424cbc9625eccfd1f29450595f9ce7c6e7248c041b5715e499bab7a3ddda96"
+  },
+  {
+   "id": 62,
+   "title": "重受擊•二",
+   "text": "尾巴：有種打我！",
+   "unlockRequirement": "",
+   "cnUrl": "edb51b3cc705c322fa0afcba6918207e52dca98e96b92d640dffa73fea8045d9",
+   "jpUrl": "a19d81c954b6ca97ab4cce62ecdf391eca10e9ab5deee7186617d260606428fc",
+   "enUrl": "45bdc5e3379f16db5da7d44ed74dcde146f0f8dd9b7515676119c75eaa89c778",
+   "krUrl": "93845f04487bd455fbbc56501701062f43feb58456062fc650978709d008d654"
+  },
+  {
+   "id": 63,
+   "title": "終結技•激活",
+   "text": "藿藿：你、你們不要過來啊…",
+   "unlockRequirement": "",
+   "cnUrl": "9007e7cbdec5a8c0b8fd69ee9e9d48620e895321d28e0667284db0ac0dda814c",
+   "jpUrl": "86df2184633ff790b0d18081f526e7e3f294eddb863b810ee668e05c88e5cedb",
+   "enUrl": "86d3b2d67269deb3da16bf394bf067c5b2b6f2b57fcb0f2a677e1101c10e9d04",
+   "krUrl": "9fe21940f56b3a8814582e5d9f7a747c14b8182cf24703b5203471ba7a143b6e"
+  },
+  {
+   "id": 64,
+   "title": "終結技•施放",
+   "text": "尾巴：你們這些小崽子，都給我讓開…<br />兇神惡鬼，有老子足矣！",
+   "unlockRequirement": "",
+   "cnUrl": "b4950dcc50730e85ebc4fffb80cf96d0eeb28edfccae3abb822521eaefafa7bf",
+   "jpUrl": "c8149393c6c6d1f74a47f990ed946662e4a40f1b2e7e69a0dec8570ac53d3563",
+   "enUrl": "e0d337632ef80fb72306102d11bd476bd91ad1696e7e99ede028030a3067ebed",
+   "krUrl": "16ada47d4cc61ef03ad891d003eaf0a7a37c9f55ef1d2ed2d7799590d27759c8"
+  },
+  {
+   "id": 65,
+   "title": "無法戰鬥",
+   "text": "藿藿：投…投降……",
+   "unlockRequirement": "",
+   "cnUrl": "ea97b492788bf38b075327986321809d5ff57758d22b6415a49920639030aeed",
+   "jpUrl": "b112a95c0cf941b0ffadba58a520030be72048d0b9596cb41b53a4c9fb201e38",
+   "enUrl": "4d36d9db92034f379373bf59928e4144e9f5fba5f991e6360d431cb095d6e090",
+   "krUrl": "77b45e2761ac9ae77b3723abbf1fc6555ca3205fbfd12a464525663d229250bd"
+  },
+  {
+   "id": 66,
+   "title": "重回戰鬥",
+   "text": "藿藿：怎麼還沒結束…",
+   "unlockRequirement": "",
+   "cnUrl": "406f870c97b928c41af7ee4d5dcfe63f7ad57c1ab0add23d3b2676921c674493",
+   "jpUrl": "487a086e1659361944dbe8720a5ade09834570445aa3b893fa000cceca41ea99",
+   "enUrl": "c00f0a79b8f5bf401aa94731721c7233414b110016a9303805e13b56256493ef",
+   "krUrl": "23f1a1d40b8b822713da5e48f34d3c8c563c8ba1bac0f1ab0f5c4d7270fe2037"
+  },
+  {
+   "id": 67,
+   "title": "回復生命",
+   "text": "藿藿：謝謝您謝謝您！",
+   "unlockRequirement": "",
+   "cnUrl": "7dfa1958106c66ab0f885504257fba9cc6ec21f5dcbaabd5ea7755a4b5269b9c",
+   "jpUrl": "90ccfbbe14ce9473ba4788b6fed4b06f5405ebfa99dfbf15d3e941dda2b17123",
+   "enUrl": "2ee82c0fdf0511e915dbab4f91b1e8ba3fb051f2f10cc718b7b1aa05712b8abd",
+   "krUrl": "cb670971e73967dd4bd485b8a72d4067a8ee448d4bd42c120e972cc120090ea0"
+  },
+  {
+   "id": 68,
+   "title": "祕技",
+   "text": "尾巴：給老子滾——<br />藿藿：噫……",
+   "unlockRequirement": "",
+   "cnUrl": "2eb4f17687d1e6d209e1dcaaef04857f8579680122ae1a06503795d7ecf25da7",
+   "jpUrl": "81a6312e38a25d3dee2cd29511ecac7ecef3f03d0abe4d9f7bc32661be5450a6",
+   "enUrl": "7d8cc9307870b0b04a45a4c14fb7bb9c6af2336740d0c977195ae1db7f1dc10a",
+   "krUrl": "b5e7478900642ac72b57bd9983c7753c09992b6966f6175ddb4f138b8a4e5944"
+  },
+  {
+   "id": 69,
+   "title": "戰鬥勝利",
+   "text": "藿藿：是我贏了嗎？我嗎？!<br />尾巴：還不謝我？",
+   "unlockRequirement": "",
+   "cnUrl": "7e3e3b67fe5f9dafeee96c3dc6e7926366565804a74fde649b474a4bf330df5a",
+   "jpUrl": "aaa3d206759fbbbc80b83c0844a80ffdfc7ce78ecf6a1b5513201961deac7065",
+   "enUrl": "671ef499452306bf8e77ce647887c8e1f2c190741eab41bba8b9d12ecac11f5f",
+   "krUrl": "8a752865800a84d12145e8c330db8bb70417a049a9d17e64d7efd417897b9423"
+  },
+  {
+   "id": 70,
+   "title": "開啓戰利品•一",
+   "text": "藿藿：這麼好的東西，我能收下嗎…",
+   "unlockRequirement": "",
+   "cnUrl": "1863894d828fe911697cdb806fbc8c5d7ea7b5a71cb0f5fbba1db52ff86fd8a9",
+   "jpUrl": "4856770b92082c693e078978fd141f7e3676521fe75a9d2a5a5053598dcfce6b",
+   "enUrl": "3105b61802a254b2974eb551436feffa51ea818ccc0b8a0da453108656aaf2dc",
+   "krUrl": "2b020414cc85b80716922ae18caf15099f8ac90559b57ed568f1077134062d3b"
+  },
+  {
+   "id": 71,
+   "title": "開啓戰利品•二",
+   "text": "藿藿：居然找到了這個…",
+   "unlockRequirement": "",
+   "cnUrl": "eeeca7482caff68a07709f4d05fa7523445f72f970886b2c278b8a4a25163e79",
+   "jpUrl": "7d4d3f042cc3e1caed601e425e0fedc001719b1acaeff7b5e572b6b6797ff59e",
+   "enUrl": "ae8a41e763ae8327d7c61134e964b7d06552189a7752094d8b3f11961f0526f5",
+   "krUrl": "d8d8eb8b6677f89fc9d8a34b2fa1c3b5c679ac755fb0be035350d9b5efc3b3c5"
+  },
+  {
+   "id": 72,
+   "title": "開啓貴重戰利品",
+   "text": "藿藿：需要上交登記吧…<br />尾巴：你發現的就是你的，收着！",
+   "unlockRequirement": "",
+   "cnUrl": "541ffb23fc0de6155c0dbd1dbdf22f505c69d298fc8d8126b489512895d189a3",
+   "jpUrl": "48240df6f6bdbaca72abd8f04e96f008609ca03f708edae3c290577423327c92",
+   "enUrl": "9aaf59e55763ab4d8e03e25e2ee33e98bcf04b85b5d1588675a77bbe6c8ec164",
+   "krUrl": "d6a4cb20ea91420374df1f14505e843a3f1dce507b3c186f5c44714edd93f36a"
+  },
+  {
+   "id": 73,
+   "title": "解謎成功•一",
+   "text": "藿藿：我果然還是適合做這些事情…",
+   "unlockRequirement": "",
+   "cnUrl": "908cad91ce6420891ea464d20bf61c86399250f7ce3b47b6fe5d0fc83bd16181",
+   "jpUrl": "96900eca74551fcf0e29ca10d904dd72e9172253ae074d5887e051cec8f86b64",
+   "enUrl": "2ed2f9edf0c085d029e37e3bb995d4892680cec1f6dca614ea57b2681b5f7422",
+   "krUrl": "f55db5515fb42747631dad911db9b26fca87098d8fa6aa0812eb32c2fe92ab58"
+  },
+  {
+   "id": 74,
+   "title": "解謎成功•二",
+   "text": "藿藿：嗯？這樣…這樣就好了吧？<br />尾巴：好了吧。",
+   "unlockRequirement": "",
+   "cnUrl": "f690d70a1bb4637484cf3ce092c12f4a3a53c07f3ec80aa25fa7142526f4a1f4",
+   "jpUrl": "07a71adb5d0f2be7617a7f81f4f7cd21af9e626ebd28f37d5bbf38b72974d540",
+   "enUrl": "9008d959172fea5bf76417501dbc082089fc6eca252ae4075ddc20fac261bfc3",
+   "krUrl": "5dd25e68cb59658b2cfcf411f69695d1be6dbe3e939134698b1fc40457ad901a"
+  },
+  {
+   "id": 75,
+   "title": "發現敵方目標",
+   "text": "藿藿：看不見我看不見我…<br />尾巴：那邊的傻瓜，看這看這！",
+   "unlockRequirement": "",
+   "cnUrl": "2280893994f006f25b00c86753c49d4a54f9d63225837ed9116cbe2e309cfddc",
+   "jpUrl": "31f484bd35d83204e7a9e8a35fd74552ea0567183fa0a2d716ac8c6c86174916",
+   "enUrl": "7c7575520e1f0155479269927bcead3ed9c8006eef3fe26587101e46dd49b53d",
+   "krUrl": "da42997c836c95387a8ac1d6ba697f7cfcdb5a785063b0165738ddc7221b2dcf"
+  },
+  {
+   "id": 76,
+   "title": "返回城鎮",
+   "text": "藿藿：這裡讓人安心多了。<br />尾巴：汪！",
+   "unlockRequirement": "",
+   "cnUrl": "bdd4fc09ee3f24d858483571d9302ccd1063779069b2e5e1dd5e913f40b40103",
+   "jpUrl": "115ded42eeb2d2e26e0dfdfa037e791b724bc384d1be462d63e00b02553d056f",
+   "enUrl": "ac89b8178e9f5f9b782acb9f31f696924aed46e06255d77e186b935b3a27d056",
+   "krUrl": "75d9abebdb6fa6cbefd9f86251e5bf53cbfda15e6d6e1aca8032417ee8ff62eb"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色詳情",
+   "text": "可憐又弱小的狐人小姑娘，也是怕鬼捉鬼的羅浮十王司見習判官。<br />名爲「尾巴」的歲陽被十王司的判官封印在她的頎尾上，使她成爲了招邪的「貞兇之命」。<br />害怕妖魔邪物，卻總是受命捉拿邪祟，完成艱巨的除魔任務；<br />自認能力不足，卻無法鼓起勇氣辭職，只好默默害怕地繼續下去。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "昏迷復醒的藿藿被第一次帶到十王司時，司內的一切對於她來說並非新奇，而是陰森恐懼。<br /><br />白髮判官察覺到小女孩的不安，以儘量溫柔地語氣詢問她。<br /><br />「小姑娘，我問問你，你是怎樣遇到『那團火』的？」<br />「…我只記得，它孤零零地落在路邊，就快要熄滅了，我…我想幫助它。」<br />「於是你把『那團火』放在了自己的尾巴上？爲什麼？」<br />「我、我也不知道，等我意識到了，就已經這麼做了…對不起。」<br />「真是個善良的孩子，你不必道歉…不過從今天開始，你要接受我們的看護了。」<br />「嗯…謝謝大人。」<br />「我叫寒鴉。」<br />「啊，謝謝寒鴉大人，我…我叫藿藿。」<br /><br />名叫寒鴉的判官思緒回到了幾天前——<br /><br />十王司收到求救，她奉命出巡，找到了即將被歲陽吞噬的狐人小女孩。寒鴉見小女孩年幼柔弱，而那歲陽也並非泛泛之輩，若要強硬拔除，必然傷及性命。情急之下，寒鴉只得書寫符敕，將歲陽鎮伏於狐人小女孩的尾部——虧了歲陽先從尾巴下手，屬實萬幸。<br /><br />「…這究竟是對是錯呢？」<br />判官喃喃自語道。",
+   "unlockRequirement": "角色等級<nobr>20</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "歲陽脾氣暴躁、孤高自傲，但並非無法交流。它受不了藿藿那哭哭唧唧的樣子，也不太理解狐人的社交——小女孩會因爲「尾巴在燃燒」而遭到同學排擠。<br /><br />「你把那個符紙給老子揭咯！」<br />「不行，寒鴉大人說符紙不能揭……」<br />「你聽到了，他們竟敢取笑老子！本大爺從來就沒有受過這樣的委屈。」<br />「…他們取笑的是…我……」<br />「那你自己去，你自己動手，你要是不能給老子出這口惡氣，就別來見我。」<br />「可，可是，我不敢。」<br />「哎呀，這樣吧，你深呼吸，放空大腦，什麼都不要想，老子來幫你解決。」<br />「…寒、寒鴉大人說符紙不能揭……」<br />「你別管，照做就行。」<br /><br />…等小姑娘回過神來，「惡鬼附身女魔頭」的傳說不脛而走。<br /><br />在那之後，藿藿打聽了不少有關歲陽過去的故事。不知道多久以前，名叫「燎原」的歲陽敗給羅浮將軍後被分成若干分靈碎片，被封印到了造化洪爐之中。漏網的歲陽原本是「燎原的孤高」，從不願附身於任何人，漂泊隱匿了千百年…直到奄奄一息，直到被藿藿撿起。<br /><br />「爲了不惹人注目，我就叫你『尾巴』了…」<br />歲陽對此不置可否，當作是默許。",
+   "unlockRequirement": "角色等級<nobr>40</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "藿藿被早早送進十王司內，爲的是避免尾巴那貨跑出來爲非作歹，圖個安穩。<br /><br />漸漸地隨着她逐漸熟悉冥差工作，藿藿開始對十王司記載的各種「邪祟」如數家珍。<br /><br />「雪衣大人，上、上次備好的符籙，好用嗎？」<br />「好用，對付星靈生物綽綽有餘。」<br />「嘿嘿…那就好，我也不知道效果如何嘛……」<br />「自己試試呢？」<br />「不不不，我怕……」<br />「藿藿，所謂『邪祟』，多半是外星生物或以某種形式存在的有害智慧生命。」<br />「雪衣大人，我知道它們是什麼，卻還是怕得不行，我想，我是不是不適合這份工作呢……」<br />「…只能問問汝自身了。」<br /><br />藿藿並非對自己的膽小無動於衷，她嘗試過，想要培養戰勝「邪祟」的勇氣。<br /><br />她熬夜觀摩乙級小成本恐怖喜劇片，試圖磨礪膽量，卻只得到了黑眼圈。她全數購入新式科學驅魔道具，用來提升戰力，卻只是讓錢包變得更乾癟。尾巴常常譏笑這些嘗試徒勞無功，並想盡辦法在過程中添油加醋，變本加厲。<br /><br />「最嚇人的還是尾巴……」<br />但在雪衣看來，藿藿對尾巴早算不得是「畏懼」了。",
+   "unlockRequirement": "角色等級<nobr>60</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "尾巴最初與其他歲陽無異，打算「喫掉」藿藿，附身取代她的名字、身份，享用她的七情六慾。<br /><br />後來，尾巴發現看藿藿喫癟也是一種樂趣，反正總有一天要喫，也不急這一時。<br /><br />「尾巴、尾巴！救救，救救！」<br />「關我屁事，你那句話怎麼說來着…『要獨當一面』，這機會來了不是嗎？」<br />「下次再獨當一面，救救啊！」<br />「先提醒一句，你若是嗝屁了，大爺我就自由了。不過…老子做事向來從始至終，不把你這塊肥肉啃下，豈有隨便離開的道理。」<br />「你身爲十王司判官，死後妄縱妖物肆虐仙舟，何其失職…喂！幹什麼，你們這些小雜碎，只有老子才可以兇她。」<br />「啊啊啊嗚嗚嗚！」<br />「鬧他娘個天翻地覆！」<br /><br />尾巴附身讓藿藿猶如蜜糖之於花蝶，燭火之於飛螢，屢屢被各路妖物關照。<br /><br />藿藿總是抱怨這「貞兇之命」與尾巴脫不開干係，尾巴也覺得自己當年撞上藿藿也算是倒了血黴了。可是漫長的時間過去了，尾巴也會在藿藿喫癟夠了之後答應幫忙，但它依舊不會承認這一份交情。<br /><br />「奉十王敕：冥差藿藿，藝精業勤，資賦具足，可堪要任。即日擢爲判官。」<br />十王司下達了她的升職通令，至此，藿藿的見習判官生涯開始了。",
+   "unlockRequirement": "角色等級<nobr>80</nobr>解鎖"
+  }
+ ],
+ "archive": {
+  "cvCn": "葛子瑞&劉北辰",
+  "cvJp": "長縄まりあ&平林剛",
+  "cvKr": "김채린&한복현",
+  "cvEn": "Courtney Lin & Adam Michael Gold",
+  "camp": "仙舟「羅浮」"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "藿藿",
+ "rarity": 5,
+ "descHash": "仙舟羅浮的十王司見習判官，被歲陽附身的狐人小女孩。 性格怯懦，弱小可憐，害怕種種怪異之事卻肩負起勾攝邪魔的職責。",
+ "artPath": "910a9e9a808282325ed8dad92e82dc315e40e08174c8d2cc095de37722e3fd13",
+ "miniIconPath": "0a86097a9c85901fed42e206aa0ec9f71424c3964b094f026a6988abdacb91b3",
+ "damageType": {
+  "id": 16,
+  "iconPath": "2f3d2fba0ee9442f1c51cf42a91af6f9ece3f19168237fd3963d352e508791c7",
+  "color": "#00FF9C",
+  "name": "風",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "81e58cfdc0c8a9a026c2c3111a6bdf663d572fa71524907b004fc5eb7f34fade",
+  "altIconPath": "c825fa86e9a217db6e704916b2d5aeb22c5733b2776a0ea16c558c29e6c5c92c",
+  "color": "#FFFFFF",
+  "name": "豐饒",
+  "rarity": 0
+ },
+ "pageId": "huohuo"
+}

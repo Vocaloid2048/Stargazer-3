@@ -1,0 +1,2845 @@
+{
+ "spRequirement": 100,
+ "iconPath": "d9e25c0678bf203a6d7912bd7565a02a42671dfdf035d1fe877f875a8313d0db",
+ "bgPath": "0292f52eda4ba19e1e736dc6adb518e403f156008932d321d49036f63207da83",
+ "figPath": "94be9aaa16153acb80b1f8ab5e93f8ca371a883d3da27adc7f9fcb045e26f6e4",
+ "fgPath": "cf0cb309245ac00964bc7de16c804dd8379d2df5ece64b4b955b436127f07821",
+ "splashIconPath": "b44d341c2a29262cac3e7b327f86babefbb4a5070957f40573cf1c584b458264",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRn4CAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSPUAAAABkGvbtrFJ+7u3bCO2XRW5qm1FCvUAto0n+POOrNw2ox4VN6KKfty7d/Bh9CNExAQAQIBoawNEG4OmUyu3Lu8wAEyEAQZ+SVLmTWpPM8IGzam0cvSUxPOjBgB2/pM8wy6bezRbDqDlntIUSVH0elkN4MjiokhKEsWs1iIPg05eVCTpdLMKwH05Kk45fQGWPSbJOK+FS0vR8kM5kRESnfYWWEz8lKei6fV7LYK8ozc+yJOiyFAXDAqu/xO9c57hnN4ECIDljxXtci6jFAAYYGrNiecL6ZzCD+eLABiES3vHdxzasm1286Y6hI01+M/GWGutsSZRUgBWUDggYgEAAPAHAJ0BKhQAFAA+bS6URyQioiEoCqiADYlsAJ0ygoAHqAliX0APK79if9mP2x9oApl3jCH+zLKzdWFk7AU2sHbtxAV4QnQJgAD+fjNgrWJo/vQZ/i41c7ylfe+KfjXxeOdd8NlBCLq9SNwGXeZTodk3G7lGV5QeEm77/RRph0+vSy36CxY2fAuNDwBJG6LAiwa0NvYd0al+v8xh1e9AnBB43He4xJ/x6tNNSwk392fUtikr5tP+znv/Tv7oWP5cExPoOG+i5bpeQqz9JN2/FhAUwFqzr5303H9Ijwy2FIYjRC5LscBtuci36PmJOS7YpH4YVbttA551sQLIPqJTCszgDPb+3PfXpew9W02Z6wf4Nf9nJngh/f32k3X/F4mpeiH/Sy9d031gvkov/UV/+i51+i3sz4oEbCunqr/ff6RHBEP3aAhJtkNNbp6hr1h8QQGOX6O0nhhAQaAXIoxudBQAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 7,
+  "iconPath": "232bc80b207d7be892c4e0c41ea43b44080e51373e3c4f6f0f2f9e0eb4e03194",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Braises immortelles"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Voies de la destinée",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "La victoire s'acquiert au terme de nombreux échecs, et chaque pas conduit à l'instant décisif.",
+   "purpose": "Matériau de Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Récompenses de points de l'Univers simulé",
+    "Honneur des Sans Noms",
+    "Échange de braises",
+    "Lumières d'étoile",
+    "Récompense d'événement à durée limitée"
+   ]
+  },
+  "151160": {
+   "id": 151160,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "02cccae71e7d4c33c463175ee672c7eed3f27ddc6406f05a40a18e261fdd9780",
+   "name": "Couronne d'éclair de l'ombre révolue",
+   "desc": "Casque d'Ombre gardienne. Permet l'élévation des personnages de type foudre.",
+   "lore": "Un accessoire abandonné par l'ombre d'une Gardienne du passé. Il raconte l'histoire de la ville de l'Hiver éternel.<br /><br />« Svetlana, le Poing de fer... Sa colère est aussi terrifiante que le tonnerre et son châtiment aussi rapide que l'éclair. »",
+   "purpose": "Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/151160",
+   "comeFrom": [
+    "Ombre stagnante du Couloir des échos faiblissants",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "e45d41312c347a0e92a83719307e7cad0367aa98023d7b4627daa452423892ca",
+   "name": "Complainte d'une gardienne",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "Avec ce diadème, le vœu corrompu d'une Gardienne s'est également brisé.<br />Elle cherchait le moyen d'éviter à son peuple le redoutable Hiver éternel, mais a fini par devenir la marionnette d'une conscience qui la dépasse.<br /><br />« Le titre de Gardien suprême s'est transmis de génération en génération chez les dirigeants de Belobog, c'est celui qui prend soin de tous les autres. Nul n'a songé que les Gardiens eux-mêmes pouvaient avoir besoin d'attention et de protection. »",
+   "purpose": "Matériau de Trace",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Écho de la guerre de la Colline de l'Hiver éternel"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "Guide du voyageur",
+   "desc": "Matériau d'EXP de personnage. Confère <nobr>20</nobr> <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Lecture indispensable à l'exploration des mondes. Appuyez sur le bouton de lecture pour activer une voix agréable, dans une langue de votre choix qui vous racontera les rencontres légendaires d'aventuriers de renom à travers différents mondes, ainsi que la sagesse précieuse et les connaissances qui en découlent.<br /><br />« La nouvelle série du Guide du voyageur, \"Le manuel du chef de la cuisine galactique\" est désormais disponible en magasin. »<br />« Pour toute question, connectez-vous à la balise de synesthésie ERD<nobr>-23</nobr>θ et contactez un représentant de la Guilde de l'intelligentsia. Facilités de paiement disponibles. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Salle oubliée"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "Journal d'aventure",
+   "desc": "Matériau d'EXP de personnage. Confère 5 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un ensemble bien classé de notes d'aventure édifiantes, avec d'innombrables illustrations et commentaires exhaustifs, sans oublier de précieuses informations relatives à des techniques de survie.<br /><br />« Pourquoi ne pas les numériser et les sauvegarder sur un disque photolithique ? Ce serait tellement plus pratique. »<br />« La technologie de pointe est bien plus fragile qu'on ne le pense face aux tempêtes stellaires et aux éruptions de flux neuronaux. Et puis, l'auteur voulait sûrement que la lecture soit la plus simple possible. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Entraînement quotidien",
+    "Braises immortelles"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "Rencontres de voyage",
+   "desc": "Matériau d'EXP de personnage. Confère 1 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un carnet de voyage parsemé de commentaires et de contenus divers griffonnés. Il ne vous sera pas très utile.<br /><br />« Dan Heng, dépêche-toi de lire ça pour t'en débarrasser. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Récompense d'affectation"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5eb86757b6878dd09f969ed2d9e75af43eac2565bd49fdbe391f716e5adca101",
+   "name": "Noyau éteint",
+   "desc": "Le cœur d'un monstre errant dans le Fragmentum. Matériau commun utilisé pour le renforcement.",
+   "lore": "C'est une lésion qui engendre le mal, la pulsion du péché. C'est la source de la distorsion du Fragmentum.<br />Un coup puissant a fait cesser de battre ce cœur et lui a fait perdre son éclat.<br /><br />« Les tests préliminaires indiquent qu'il s'agit d'un genre d'hybride : une moitié est primitive, et l'autre est très similaire aux Stellarons. » — Département de biologie, Sarah Castro",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Certains monstres du Fragmentum",
+    "Ennemi de l'Univers simulé",
+    "Récompense d'affectation",
+    "Échange de braises",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4886a5629723505540ba6d02fac7f264a3164458f4194796470c1826138ba105",
+   "name": "Noyau brillant",
+   "desc": "Le cœur d'un monstre errant dans le Fragmentum. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "C'est une lésion qui engendre le mal, la pulsion du péché. C'est la source de la distorsion du Fragmentum.<br />Son cœur brillant et les veines qu'il porte indiquent qu'il est toujours en vie.<br /><br />« De quel monstre s'agit-il ? Tu as vu... Son visage ! C'est celui de notre ancien chef ! »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Certains monstres du Fragmentum au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8e1b0a1a8ab4a806daac48e2e5de6c69a9a1aad87f950c5a4c92c9513dd9d6b9",
+   "name": "Graine d'abondance",
+   "desc": "Graine de bénédiction semée par l'Aiôn de l'Abondance. Permet d'améliorer légèrement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abondance</span>.",
+   "lore": "Ceux qui la touchent voient lentement disparaître leurs blessures et leurs maux.<br />Ceux qui, frappés de désespoir, appellent de leurs prières les bienfaits de la vie seront toujours entendus.<br /><br />« Tu recevras ce que tu demandes. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "717320": {
+   "id": 717320,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f54699a5eaba1cef67217196db0a1440c1b1c1c5b89179b36b2ebe7331831ea1",
+   "name": "Noyau des méandres",
+   "desc": "Le cœur d'un monstre errant dans le Fragmentum. Matériau avancé utilisé pour le renforcement.",
+   "lore": "C'est une lésion qui engendre le mal, la pulsion du péché. C'est la source de la distorsion du Fragmentum.<br />Le cœur bat lentement, mais la force qui lui reste est suffisamment puissante pour causer une nouvelle calamité. Il vaut mieux le détruire, afin d'éviter d'autres problèmes.<br /><br />« C'est comme un cancer... »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/717320",
+   "comeFrom": [
+    "Certains monstres du Fragmentum au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e08699257c4a96a135b4467fd8eba3917d5734b2c943ac631d2a39ae3c4ccb37",
+   "name": "Fleur de l'éternité",
+   "desc": "Une fleur magnifique issue de la Pousse de la vie. Permet d'améliorer considérablement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abondance</span>.",
+   "lore": "Les étamines contiennent le pouvoir concentré de la Voie de l'Abondance, assurant la vitalité éternelle de la fleur. Ni le feu, ni la glace, ni aucune agression extérieure ne peuvent entraver la croissance de cette magnifique forme de vie.<br />Avec le temps, ses feuilles se nourriront de lumière d'étoile. Ses racines s'enfonceront dans la chair de chaque être de ce monde, toutes connectées, sans jamais périr. Ses fruits rempliront leur promesse d'immortalité.<br /><br />« Il existe des vaisseaux géants qui éclipsent les montagnes et dérivent dans le vide. L'arbre éternel dont les fruits sont synonymes d'immortalité y pousse. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "365bf3a80928eea605cbefd72636c62eb0c1887b4652520c3e9c3f99a55f0cb9",
+   "name": "Pousse de la vie",
+   "desc": "Une jeune pousse provenant de la Graine d'abondance. Permet d'améliorer modérément les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Abondance</span>.",
+   "lore": "Irradiant de chaleur, la vie et la croissance s'épanouissent autour de l'endroit où elle enterre ses racines. Les terres stériles se transforment en champs luxuriants, les plantes fanées rajeunissent et fleurissent, et les sources jaillissent du sol pour humidifier la terre.<br />S'approcher trop près provoque une contraction musculaire et osseuse, qui s'accompagne d'une démangeaison insupportable.<br /><br />« La vie est inépuisable là où l'âme abonde .»",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 76.56,
+   "attackAdd": 3.828,
+   "hpBase": 179.52,
+   "hpAdd": 8.976,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549438,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 107.184,
+   "attackAdd": 3.828,
+   "hpBase": 251.328,
+   "hpAdd": 8.976,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549438,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 137.808,
+   "attackAdd": 3.828,
+   "hpBase": 323.136,
+   "hpAdd": 8.976,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633379,
+     "count": 6
+    },
+    {
+     "id": 151160,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 168.432,
+   "attackAdd": 3.828,
+   "hpBase": 394.944,
+   "hpAdd": 8.976,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633379,
+     "count": 9
+    },
+    {
+     "id": 151160,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 199.056,
+   "attackAdd": 3.828,
+   "hpBase": 466.752,
+   "hpAdd": 8.976,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717320,
+     "count": 6
+    },
+    {
+     "id": 151160,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 229.68,
+   "attackAdd": 3.828,
+   "hpBase": 538.56,
+   "hpAdd": 8.976,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717320,
+     "count": 9
+    },
+    {
+     "id": 151160,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 260.304,
+   "attackAdd": 3.828,
+   "hpBase": 610.368,
+   "hpAdd": 8.976,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "f2a9c844f514fb999c2b7401b9e114fa984ed30dc55b439242b4d6e268791272",
+   "artPath": "cde1c5ef9d0bbc320703c6c742d9d7a57a39666644d4a634fe5ef501cc7e1dc7",
+   "name": "Eau d'ambroisie",
+   "descHash": "Si les PV de la cible alliée sont au maximum lorsque Revigoration prend fin, elle régénère en plus <nobr>#1[i]</nobr> points d'énergie.",
+   "params": [
+    8
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "d3eee5800b28b0b3ef1c84f7aa6f40cb6d90fd42840a4a81b46202222425753f",
+   "artPath": "81312a814c2f15ca47e4c90fd5b97c7715bd686128aa3da3452f981864cd5291",
+   "name": "Repos sylphique",
+   "descHash": "Après utilisation de son ultime, les soins prodigués par Bailu augmentent de <nobr>#1[i]%</nobr> supplémentaires pendant <nobr>#2[i]</nobr> tours.",
+   "params": [
+    0.15,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "b187ce0f467b9cf33a71a0b004ea62097c122dc2b8e7ca513b8e59996e8905fe",
+   "artPath": "9b8ab330c17a5954edaeb17276c21897deb86ae4f1a2b94b8eab89c968f9b467",
+   "name": "Opulence omnisciente",
+   "descHash": "Niv. de la compétence +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. du talent +2, jusqu'au Niv. <nobr>15</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "e573efa7e21c79c1ed3740feac10eba19a5982f67595573a336e585ac6128d63",
+   "artPath": "7c91aabc7461c17c0756ba6f2e44dc2df2b6ea3d46fce9cf110eb1303bbb22f3",
+   "name": "Suppression du mal",
+   "descHash": "Les soins prodigués par la compétence augmentent les DGT infligés par le bénéficiaire de <nobr>#1[i]%</nobr> pendant <nobr>#3[i]</nobr> tours. Cet effet peut être cumulé jusqu'à <nobr>#2[i]</nobr> fois.",
+   "params": [
+    0.1,
+    3,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "537af9234c0208fb09d6c0046e10d8be1dfe19af7deaad369c288f93b37ac1c3",
+   "artPath": "929c15806b95d5083c590ffa16a00bae93499bec1038d2c41616e966716cf04e",
+   "name": "Inquiétudes oubliées",
+   "descHash": "Niv. de l'ultime +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de l'ATQ normale +1, jusqu'au Niv. <nobr>10</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "353896e7187daa3a739eeebad5084e195554453bf2e65e08d6224b1b7a353c11",
+   "artPath": "f24879f1727f1c026432470b2cfdcc5b6aeb2e7cfddf372c8bfe4534f7a569c4",
+   "name": "Mucus de divinité draconique",
+   "descHash": "Bailu peut soigner des alliés ayant reçu un coup fatal <nobr>#1[i]</nobr> fois de plus par combat.",
+   "params": [
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   231592
+  ],
+  [
+   947065
+  ],
+  [
+   31006
+  ],
+  [
+   746479
+  ],
+  [
+   662538
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Inflige des DGT de foudre équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Bailu à un ennemi unique.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 231592,
+   "name": "Diagnostic musclé",
+   "iconPath": "346df2ae03259038e4b92ada60e812bda2635a5bd92a61dccc8e2f6a47bb6b45",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Restauration",
+   "descHash": "Soigne immédiatement un allié unique à hauteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Bailu + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>. Bailu soigne ensuite les alliés de manière aléatoire <nobr>#4[i]</nobr> fois. Après chaque soin, les PV restaurés par le soin suivant diminuent de <nobr>#3[i]%</nobr>.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 947065,
+   "name": "Chanter parmi les nuages",
+   "iconPath": "b187ce0f467b9cf33a71a0b004ea62097c122dc2b8e7ca513b8e59996e8905fe",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.078,
+      78,
+      0.15,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.082875,
+      124.8,
+      0.15,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.08775,
+      159.9,
+      0.15,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.092625,
+      195,
+      0.15,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0975,
+      218.4,
+      0.15,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1014,
+      241.8,
+      0.15,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1053,
+      259.35,
+      0.15,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1092,
+      276.9,
+      0.15,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1131,
+      294.45,
+      0.15,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.117,
+      312,
+      0.15,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1209,
+      329.55,
+      0.15,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1248,
+      347.1,
+      0.15,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1287,
+      364.65,
+      0.15,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1326,
+      382.2,
+      0.15,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1365,
+      399.75,
+      0.15,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Restauration",
+   "descHash": "Soigne immédiatement tous les alliés à hauteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Bailu + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>.<br />Bailu accorde Revigoration aux alliés qui ne bénéficient pas encore de cet effet et prolonge l'effet d'1 tour pour ceux qui en bénéficient déjà.<br />L'effet de Revigoration peut durer jusqu'à <nobr>#3[i]</nobr> tours. Cet effet n'est pas cumulable.",
+   "ultimateCost": 100,
+   "break": "0",
+   "energy": "5",
+   "id": 31006,
+   "name": "Foudroyés par la félicité",
+   "iconPath": "ec7b0a016e6d421dd8d7cd5f4c8ef0278cf0afd574c5cc457ee2306628a6ad91",
+   "typeDescHash": "Ultime",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.09,
+      90,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.095625,
+      144,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.10125,
+      184.5,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.106875,
+      225,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1125,
+      252,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.117,
+      279,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1215,
+      299.25,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.126,
+      319.5,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1305,
+      339.75,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.135,
+      360,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1395,
+      380.25,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.144,
+      400.5,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1485,
+      420.75,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.153,
+      441,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1575,
+      461.25,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Restauration",
+   "descHash": "Lorsqu'un allié qui bénéficie de Revigoration est touché, restaure ses PV à hauteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Bailu + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>. Cet effet peut se déclencher <nobr>#5[i]</nobr> fois.<br />Quand un allié subit un coup fatal, il ne tombe pas <u>à terre</u>, mais Bailu le soigne immédiatement à hauteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> de ses propres PV max + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>. Cet effet peut être déclenché 1 fois par combat.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 746479,
+   "name": "Gourde d'élixir",
+   "iconPath": "b997efc904bc5e2f0851bde2a1180a6caed369e03104639ff0375c7655e2581c",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.036,
+      36,
+      0.12,
+      120,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.03825,
+      57.6,
+      0.1275,
+      192,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0405,
+      73.8,
+      0.135,
+      246,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.04275,
+      90,
+      0.1425,
+      300,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.044999998,
+      100.8,
+      0.15,
+      336,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0468,
+      111.6,
+      0.156,
+      372,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0486,
+      119.7,
+      0.162,
+      399,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0504,
+      127.8,
+      0.168,
+      426,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0522,
+      135.9,
+      0.174,
+      453,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.054,
+      144,
+      0.18,
+      480,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0558,
+      152.1,
+      0.186,
+      507,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.0576,
+      160.2,
+      0.192,
+      534,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.0594,
+      168.3,
+      0.198,
+      561,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.0612,
+      176.4,
+      0.204,
+      588,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.063,
+      184.5,
+      0.21,
+      615,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 545893,
+   "name": "Attaque",
+   "iconPath": "346df2ae03259038e4b92ada60e812bda2635a5bd92a61dccc8e2f6a47bb6b45",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Restauration",
+   "descHash": "Après utilisation de la technique, tous les alliés sont revigorés pendant <nobr>#1[i]</nobr> tours au début du combat suivant.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 662538,
+   "name": "Flânerie sous la pluie",
+   "iconPath": "c7a6b4e550e4768479380208be8e758acb8ef9e8a91cb88e2b75cf5a9243c767",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1211101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1211203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1211204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 671409,
+          "name": "Augmentation de la RÉS aux effets",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+          "statusList": [
+           {
+            "key": "RÉS aux effets",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920198,
+            "count": 3
+           },
+           {
+            "id": 633379,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 671410,
+        "name": "Augmentation de PV",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920198,
+          "count": 3
+         },
+         {
+          "id": 633379,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 671411,
+      "name": "Augmentation de DÉF",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+      "statusList": [
+       {
+        "key": "DÉF",
+        "value": 0.05
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 549438,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Lorsque Bailu soigne une cible alliée au-delà de ses PV max normaux, les PV max de la cible augmentent de <nobr>#1[i]%</nobr> pendant <nobr>#2[i]</nobr> tours.",
+    "ultimateCost": 0,
+    "id": 671251,
+    "name": "Analectes du Qihuang",
+    "iconPath": "84d76107f96382e8307062215683ff7d3bb16edafdbe9b5b92b324937fc4435e",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1211206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1211207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 671406,
+          "name": "Augmentation de PV",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+          "statusList": [
+           {
+            "key": "PV",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836257,
+            "count": 3
+           },
+           {
+            "id": 717320,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 671407,
+        "name": "Augmentation de DÉF",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+        "statusList": [
+         {
+          "key": "DÉF",
+          "value": 0.075
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836257,
+          "count": 3
+         },
+         {
+          "id": 717320,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 671408,
+      "name": "Augmentation de PV",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 633379,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Revigoration peut se déclencher <nobr>#1[i]</nobr> fois supplémentaire.",
+    "ultimateCost": 0,
+    "id": 671252,
+    "name": "Ichor vidyadharien",
+    "iconPath": "3fde91e10f2a73693ffb2c8d907e3903dc4c9f21c7bfaeaf8f9a93e4266b7267",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 671421,
+      "name": "Augmentation de la RÉS aux effets",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "fa7136a4b04e91ff341669c85c9a698aaf08a8d07aea80644e6e71ddbe2808c1",
+      "statusList": [
+       {
+        "key": "RÉS aux effets",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1211209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 671420,
+      "name": "Augmentation de DÉF",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+      "statusList": [
+       {
+        "key": "DÉF",
+        "value": 0.1
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Les personnages revigorés subissent <nobr>#1[i]%</nobr> de DGT en moins.",
+    "ultimateCost": 0,
+    "id": 671253,
+    "name": "Bénédiction aquatique",
+    "iconPath": "5a257bd4e4e30eb0dc1ec64513d8116d3327d70e0b3d88369bcadd9db8a4ccab",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 671412,
+    "name": "Augmentation de PV",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "PV",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549438,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 755354,
+    "name": "Augmentation de PV",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "PV",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836257,
+      "count": 8
+     },
+     {
+      "id": 717320,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Corps",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "Augm. des soins prodigués",
+    "propertyIconPath": "57726150eaa27c675743fe08b88bd04575a0e76b5014dcfbc073c105aa1c7e44"
+   },
+   {
+    "relicTypeHash": "Pieds",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "VIT",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Sphère planaire",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "PV",
+    "propertyIconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf"
+   },
+   {
+    "relicTypeHash": "Corde de liaison",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "PV",
+    "propertyIconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Première rencontre",
+   "text": "Je m'appelle Bailu, je suis guérisseuse à la Commission d'alchimie. Approche, que je t'examine. Alors, qu'est-ce qui ne va pas ? Où est-ce que tu as mal ?",
+   "unlockRequirement": "",
+   "cnUrl": "5d75cd21fe002a3710f5ba377600b6600f6e3320da18f5d9878706a654411ed3",
+   "jpUrl": "cd9ad7422bf0534f61242332bac1340e6b45d0d285fcc46f255f49536308de4d",
+   "enUrl": "1661c761f4e4bb3afc2edf98d3b071e2565d459b8dfd9d2b8a786aa970aaba97",
+   "krUrl": "0b162e28f7c185fa95d36e877076a7dffd5934ec2261ecedc95329ff6d0812e9"
+  },
+  {
+   "id": 2,
+   "title": "Salutation",
+   "text": "Tu veux un bonbon ? Non ? Alors, il est pour moi.",
+   "unlockRequirement": "",
+   "cnUrl": "56268dece50dba574bcbee36331f0dbe3af6f52804466ff4530b6a7b63355c85",
+   "jpUrl": "a1d53e90dc3e125a93752834d660ae98eafaa7d53b8067e0a9a6b545b90f85a0",
+   "enUrl": "08955e2a20a0c23dc8014f82c7588c467ebebafdb7c02078a0f8be178a97a8b4",
+   "krUrl": "2068d836f64d7d9b44b8238bac001497ed147ee8cefbe5dc562863eaf5bd55bb"
+  },
+  {
+   "id": 3,
+   "title": "Au revoir",
+   "text": "Hein ? Je dois rentrer maintenant ? Encore un peu, s'il te plaît !",
+   "unlockRequirement": "",
+   "cnUrl": "a1dd41bbc55321219b16dc7cd6df02c8683e548eb0984c88e05c3010995a1c58",
+   "jpUrl": "b16e05edd15309332ee4883d6ed503806e16eb092c8ef97f9c091d2234b1c120",
+   "enUrl": "1f9c89deb6d2bab8cc110073bfb5b1978acaf5360064afb3cf821170a8c6c200",
+   "krUrl": "0548764d7063a829e2a4e14e1293bcd950356a28a6a42611a13a9c69040904dc"
+  },
+  {
+   "id": 4,
+   "title": "Connaître Bailu",
+   "text": "En quoi je suis un dragon ? Quel genre de dragon ne peut pas sortir de chez elle et doit obéir aux règles du clan ? Je suis plutôt un poisson dans un bocal !",
+   "unlockRequirement": "",
+   "cnUrl": "281c2b8508a6f12750a3442436a55b5311ae511cf917ea14e3c53f22ed0d36f5",
+   "jpUrl": "f557235b90423e90eb4220f34b5b13b147a43bb11a7a0fa85aa746eab207b866",
+   "enUrl": "cf1ba33d43ecfc54405d7bed326df325a8ef20a083940d38ae0ef01931a87fec",
+   "krUrl": "a4a8b9d7fd3761b1b873d759ab7491a56fa855751abcef92789b922adfb396f0"
+  },
+  {
+   "id": 5,
+   "title": "Bavardage : Nourriture",
+   "text": "Le premier des remèdes, c'est le repas : il doit comprendre un bon équilibre d'ingrédients. Deux galettes fumées et une tasse de thé au lait sont un excellent moyen de guérir le cœur et de retrouver le moral !",
+   "unlockRequirement": "",
+   "cnUrl": "1a45a4d84f81210996c4801691c891f4c8e28998c93b55a5c71ee94c45c028d7",
+   "jpUrl": "361972a4b41aad7bee213057852d840b7d2ed7259671ce918ed3c99f7bd42e00",
+   "enUrl": "b3062951bc3864a93a6f844ba5bb632667a8f2b647ef6aa084873c71d45baf58",
+   "krUrl": "52e3b9598d00919c7bfc04ff691a9a4e46358bdc316adce588da9df4063e3213"
+  },
+  {
+   "id": 6,
+   "title": "Passe-temps",
+   "text": "Étudier la médecine, trouver des herbes, élargir mes connaissances. Tout peut être utilisé comme remède. Plus une maladie est rare, plus le traitement doit être original~",
+   "unlockRequirement": "",
+   "cnUrl": "29825ac18689902dee8ab535f70636cdeae18db7bf7f902e240b4419d271b6ce",
+   "jpUrl": "222616352a9179a8821437bc4d5feffca316cf7b1e9fb9ec46272d79f0b4a957",
+   "enUrl": "c99ae77ff5497f7e329e9b698588a795ee52b38c9da047c03464a9498c5a3500",
+   "krUrl": "dfc2518f8fe80792ccb0933aff3c965dbc031897206700377396c6e101f36758"
+  },
+  {
+   "id": 7,
+   "title": "Problèmes",
+   "text": "Il n'y a qu'une seule pathologie au monde que je suis incapable de guérir et c'est : avoir du mal à grandir... Hmpf !",
+   "unlockRequirement": "",
+   "cnUrl": "f766bf637692d0ce7e58d888d65a86b74de21816bc46cb9996573e8d39edfca8",
+   "jpUrl": "821771e56969fe9e5aba59383242bf9fbb1129d3015360e02453fdf2cf29cfca",
+   "enUrl": "e6c8bd23a6be4bd40aa016090403d916a6bd0e0b2b664d71a3c1545d33dbb0c8",
+   "krUrl": "5c9b12ef3be28596a8ca4e7c5b86201812962e5d2056cdf24f2131a137d87b7b"
+  },
+  {
+   "id": 8,
+   "title": "Anecdote",
+   "text": "Quand je mets la tête sous l'eau, même dans un espace réduit, j'ai l'impression que je peux respirer plus librement, bien au-delà des limites de l'eau elle-même...",
+   "unlockRequirement": "",
+   "cnUrl": "ebd0461940c3daf692d2caef9d26d9da440fb45f83e9bc6839e4973f298c4f97",
+   "jpUrl": "bef3b5251b1f7a4b24d465c7f0814c3f0555095c5a0d7fbfa1fceabbc7fc9421",
+   "enUrl": "b253ef1ee3ceb05d8b4d7651c89dc9832ed27feac74696d5ef8ee88e34ecde2e",
+   "krUrl": "060482951a9bef50c37bb6e03ae9aa8b5154a746269fd7c5fd4c1091567c4bc9"
+  },
+  {
+   "id": 9,
+   "title": "Connaissances",
+   "text": "Un patient m'a parlé d'un nouveau dessert au Jardin des gourmets, qui s'appelle Tombé du ciel. Les fils de sucre seraient suuuuper longs... mais impossible d'en trouver...",
+   "unlockRequirement": "",
+   "cnUrl": "40f8d903c58eb6e9027df652232cce0174ceb21257c5b084260b71726bc3a547",
+   "jpUrl": "08d52bccf08e25507b6729b0acd5d17fb717722b01240abe5eb5b820e0f6aefb",
+   "enUrl": "4eede73dde85d2f52cb1e6467c2e72c9817849ad9bdb75d834c212a10e078f00",
+   "krUrl": "aee1ed72e25891e2b8cbd6b7a078a54c639eb3cad133de235ac1fe870c006f18"
+  },
+  {
+   "id": 10,
+   "title": "À propos de Jing Yuan",
+   "text": "Le général vient me voir avec des symptômes comme « trop fatigué pour rester debout », puis il me demande juste de mes nouvelles et s'en va au bout d'un moment. Parfois, il refuse même le moindre traitement de ma part...",
+   "unlockRequirement": "",
+   "cnUrl": "6adaeda017473e9702425ccf2e6e0bd2df97f940edd4bc11cd8a96afc5a07725",
+   "jpUrl": "ede7712f991fbc360c63e2d519dc45ade1b23662fd3592ad3a2181eb48780e1b",
+   "enUrl": "ead777de17fb74b6696c2ee205d2f1505182d5b6b1b5286a270423713cf55e19",
+   "krUrl": "deac72fc1dae1ab4b2794e4011ace322d4238e6151ff40b22fc2410f58e2b9d0"
+  },
+  {
+   "id": 11,
+   "title": "À propos de Fu Xuan",
+   "text": "Chaque fois que la divinatrice Fu fait des heures supplémentaires, on commence à manquer de sucre en poudre pour le thé spécial repos des yeux...",
+   "unlockRequirement": "",
+   "cnUrl": "c9c0558180d08f760a96a16d6eded6422cf7a01bf5e09190ad14e8c0a32fc53b",
+   "jpUrl": "f52670e668841cdd9c3ce7ba0d44d8bc8cb94ee2f0e30bb1e75fe6cca80aa73a",
+   "enUrl": "c6a453668579be15c4dc29c6107c0274414518923142101d967dd3b20562fc62",
+   "krUrl": "12594d134a9d69cab75a7f182c82ece3c6da8c49d18d47bacdd586352d36c015"
+  },
+  {
+   "id": 12,
+   "title": "À propos de Yukong",
+   "text": "La timonière en chef Yukong... Elle dit qu'elle se détend totalement chaque fois qu'elle vient me voir, mais je ne la crois pas capable d'une chose pareille...",
+   "unlockRequirement": "",
+   "cnUrl": "424f0210847641ed88e674e3e15cabaacb895a85472958d7cd80bdb896b65479",
+   "jpUrl": "1a0f8c4e6389b9f8d6427892d25d5867c8056b916176df8d2a5e2ad1810a0b3d",
+   "enUrl": "db757ded74df3624fe02e2a0477f034716a8c384983dfcb5dcd24467d83860a8",
+   "krUrl": "46383ece7f928b9ccad609e595a1f9505e6850b8f7f188ea616d580cda25cc98"
+  },
+  {
+   "id": 13,
+   "title": "À propos de Tingyun",
+   "text": "Tingyun peut supporter des massages plus intenses que quiconque, alors je ne lui fais pas de cadeau~",
+   "unlockRequirement": "",
+   "cnUrl": "f656073d6293314e7b8b54a8a619376f41a164cb6ac75bbbade75688293583f2",
+   "jpUrl": "c1cc0df9cefe81e7c48fde6cd96bf329c85cc85db7eb0aa9828da4d390a31b67",
+   "enUrl": "0ef5d86d02733a0f457e12eddc82ee87e8165c9cbec10bbdd4ec18671a01202a",
+   "krUrl": "d8a1c83c4ad0f979ef55fb8c7118955e25051276784133d99a3c609965266b6e"
+  },
+  {
+   "id": 14,
+   "title": "À propos de Sushang",
+   "text": "Je n'ai même pas besoin de sortir, je l'entends d'ici. « Toujours prête à rendre service ! ». C'est tout elle, hein ?",
+   "unlockRequirement": "",
+   "cnUrl": "368a794b20a9ef483d60056baf88501f023b3f591bfd6756e6d6c36a1606ca88",
+   "jpUrl": "907be7f3f91e63e6b69814fee4c110830a44b6f2c2d804b0e706873567eb75aa",
+   "enUrl": "d194ae18ba05d1bfb3538544cb056ee6a722c264ea3f68df95d694e2823755aa",
+   "krUrl": "cdb94afda425d43b75eb67fa0df14feac6874200e47bd6f9c11970648b1df362"
+  },
+  {
+   "id": 15,
+   "title": "À propos de Qingque",
+   "text": "J'aurais aimé rencontrer celle qui a inventé le Jade céleste plus tôt... C'est une excellente activité pour le corps et l'esprit ! Tout le monde devrait s'y mettre !",
+   "unlockRequirement": "",
+   "cnUrl": "3514ad97bc32f75199f1ad79ccc5bc2d4ac553428815da4b60dccd23915da1ca",
+   "jpUrl": "f4c29a8f07e7aa9ef248f3d5fbb3be887441d9769d0ed9b785835d6041bb025a",
+   "enUrl": "5df32a5ea859d66bf3b54ea11094f52aadb03741a87ed1e4061c1023693793e8",
+   "krUrl": "7cb73e62f1bfed0b7a08d5536c09e9faf89a23101de52ded91b4b8e7f3aef5ac"
+  },
+  {
+   "id": 16,
+   "title": "À propos de Guinaifen",
+   "text": "Eh bien... Chaque fois que je fugue au Sanctuaire de l'exaltation pour me détendre, je tombe sur elle et Sushang. Le plus souvent, c'est parce qu'elles ont besoin de soins... Parfois, c'est Sushang qui la porte, parfois, c'est elle qui soutient Sushang... Et d'autres fois encore, les deux sont mal-en-point. Étonnant, non ? J'imagine que le jonglage est un art dangereux.",
+   "unlockRequirement": "",
+   "cnUrl": "b4d4fbbc969c9fbdc47bcf0d4b267e0e98135f0461e4e3e0a4f9ede7f8948e66",
+   "jpUrl": "1d10fc67aa6b43f0e99f51606e1b29ebb6ee13f47a934d6def42bfd36d4fab4e",
+   "enUrl": "7149e3f2925a701f5819b5ab6fe6e084a8e887a59843137a2aaf37ecf00217c9",
+   "krUrl": "080a1ba0bd29b1ecbdac4869db13b0b36539fb0e8d2a2f312d280d77dacf1bef"
+  },
+  {
+   "id": 17,
+   "title": "À propos de Hanya",
+   "text": "Je l'ai rencontrée un soir où il faisait très sombre. Elle flanquait une de ces peurs ! Surmenage, insomnie chronique, confusion émotionnelle... tous les symptômes sont là. Si tu veux mon avis, elle ferait mieux de lâcher du lest pendant une décennie ou deux pour espérer un quelconque signe de rétablissement.",
+   "unlockRequirement": "",
+   "cnUrl": "42af703bb7b42adfced8abcfe4ce74591aa2eeebb55a32c6954be2fdeee9e279",
+   "jpUrl": "9d61245f3ca6666204d31e2c263e45b8e176472bb6e85ed3f3b3602d46e11184",
+   "enUrl": "98071fde3f571b389a273ea61898f25a6285b8bff086d0b0aae30801708413fe",
+   "krUrl": "8949179ee1e0fa5089039cb82d3479c468228efb28268088d97df76c2d7d651c"
+  },
+  {
+   "id": 18,
+   "title": "À propos de Huohuo",
+   "text": "Elle est toujours sur les nerfs pendant ses consultations. Et je peux jurer que je l'ai entendue parler toute seule... O—Ou bien à quelque chose d'invisible. Je ferais mieux de lui donner quelque chose de plus fort pour calmer ses nerfs.",
+   "unlockRequirement": "",
+   "cnUrl": "3b80dac5f0f3a015f547dc86d3d4b070211db325fad3f37ccf7b90095f6d7d2f",
+   "jpUrl": "4383b43f39ba0ea9d8c21b77c09e8f1ec7739a2dd4fb4bf7641c5bd1e0c67139",
+   "enUrl": "925e076644557aa78cfa6b39ce101db72b6ac3e370d771e21c160d5959615580",
+   "krUrl": "1b5dcc9bd0155d656f96ad997341bfdbf76f5b2673f54630321cfe677a2cd759"
+  },
+  {
+   "id": 19,
+   "title": "À propos de Xueyi",
+   "text": "P—Pourquoi on dirait qu'elle n'a pas besoin de respirer ? Et sa peau... pourquoi est-ce qu'elle est si froide au toucher ? C'est comme si son flux sanguin était inexistant... Et si c'était... un fantôme ?",
+   "unlockRequirement": "",
+   "cnUrl": "54a851215d6faff8d71d580b54e58888e3ff00dc01d93876a7ede1377612bb01",
+   "jpUrl": "e57508a264a66ef5c93e12e600e76b61363f11689d4582e67ebdb3cce39cd607",
+   "enUrl": "353cee762d980242bbc2fccf194407b27cac034bd2bc398b040548c50c0116f6",
+   "krUrl": "10f9c38b30228a8673654c6edcee2658c2e1645c74dae2ebcc6a6b19b903ffea"
+  },
+  {
+   "id": 20,
+   "title": "Activation d'Eidolon",
+   "text": "La vie des Vidyadhariens est comme un rêve.",
+   "unlockRequirement": "",
+   "cnUrl": "233ad2e1fd78c7b649a81c20786f22b526e200c1895a0ccd56dff596933c45a5",
+   "jpUrl": "5405406cc57618f6dcd17351f8499f0ce7d862a9d102ff521d1dbda6e444e78b",
+   "enUrl": "1a197e48d035755b643d25291015dd11edecc17e9536752ff3c6abcd43922daa",
+   "krUrl": "397bbdd7b841824c7482107d44e1be616128ecd1fa64a8a38913ca40ddf22701"
+  },
+  {
+   "id": 21,
+   "title": "Élévation de personnage",
+   "text": "Héhé, tu ne trouveras pas meilleure guérisseuse !",
+   "unlockRequirement": "",
+   "cnUrl": "485254a8f9491ae74a8688bad3007b4d5e23eec53f386454e2b485e8676e0259",
+   "jpUrl": "c4c61f9a6eca56583298a11fb1d47abbe30e4b6dc35aea2084c2b7eb52474325",
+   "enUrl": "b4e33afcbd1e7d949d0f644c572c8098b4b034ddc0c69cd984e5ec0aceb0f6cd",
+   "krUrl": "d0d35217bdc2059126bbc97bef999ab7ad3f67ccc99d995ed0921aa9efd190c7"
+  },
+  {
+   "id": 22,
+   "title": "Niveau max atteint",
+   "text": "J'ai maîtrisé l'art de la guérison... mais pas l'art de la croissance...",
+   "unlockRequirement": "",
+   "cnUrl": "1385c4a3967f7c6436145d6bbb7101c9fb4af044699fbcd66cc6c940f4c92db1",
+   "jpUrl": "1f82a6e2b9ca8ecc3c9efadca14d851e12c87a6d1c9412c34a8346fd354db89d",
+   "enUrl": "dc3d64e997538661d252b3473304bea1bc9c8ea682415027ac320c889fde704f",
+   "krUrl": "d73ea9bab604726fbc26a0e8fbe3244928afdb17944e28530b5997dabed9a5e7"
+  },
+  {
+   "id": 23,
+   "title": "Activation de Trace",
+   "text": "Hmpf, si j'étais plus grande, j'aurais déjà exploré toute la galaxie à l'heure qu'il est.",
+   "unlockRequirement": "",
+   "cnUrl": "86ed310e0b83615a2430313f0876923e75e3a36c8d44ff7f1f58a07e1f30e04a",
+   "jpUrl": "6e3b8ff3c7e663362c2ea8fa32ee43324ff03e3849bf615a750815a0d8eb9372",
+   "enUrl": "38436e2e2ae35202e78b2affeae116b0e4c8e9298b06ef943e0e44b38d52cc4c",
+   "krUrl": "5f1b1fff188b43dd876812742c3d76c4692cc23fbe50e0be1543c33082ffcb32"
+  },
+  {
+   "id": 24,
+   "title": "Rejoint l'équipe avec Pionnier/Pionnière",
+   "text": "Ne t'en fais pas. S'il devait t'arriver quelque chose, je te remettrai sur pied.",
+   "unlockRequirement": "",
+   "cnUrl": "92d110e24214b9fa796be4e391bb93885cf80d1032f0b76c3faf0423c9921eeb",
+   "jpUrl": "d3d14f145aa81341f84b7bc5364da1e43800718d166909813c91987d3fbe80c1",
+   "enUrl": "c4b62ef73fe92f01d41e2183b462e636e1da289ff5a86a78f2c6b119250ed3f0",
+   "krUrl": "6aebfa2e985f76b8c335d1ad3340c71a452b422459c765780306a1cb0a6fc3d6"
+  },
+  {
+   "id": 25,
+   "title": "Rejoint l'équipe avec Fu Xuan",
+   "text": "Qu'est-ce qu'il y a, Maîtresse de la divination ? Des bouffées de chaleur ? Il faut que vous commenciez à mettre plus de sucre dans votre thé.",
+   "unlockRequirement": "",
+   "cnUrl": "69878dc9576f60dda02bbc31d54d30e5262c6f486d0199f21f097ace4454e073",
+   "jpUrl": "476131250d7dd6b958ea9d932ab43d4ae9eccb1ad8e100f4d88c5de6fe312878",
+   "enUrl": "d8dfe84a649596eadf0c820f4c8d108b192873137ecdace31f5be486e4eb8282",
+   "krUrl": "a85f4520e37dd4b9fc2d9b2b75530c674c0ca02ceb3f8dad7c6e66955749f21c"
+  },
+  {
+   "id": 26,
+   "title": "Rejoint l'équipe avec Dan Heng",
+   "text": "Dan Heng, apprends-moi la magie des Grands anciens !",
+   "unlockRequirement": "",
+   "cnUrl": "942528c4b378b2b24aa4e65fd6a54260f9d21d56bc3c9a9896524fdf48f725a8",
+   "jpUrl": "1aea84cc7c6d9e1202de149dd38d8f8d1fef7fbbb7ada662b61c496bce4cf822",
+   "enUrl": "3a5d255cbb9c5c4223f79badabc18cdb44c48102cc80cde993fbdfaee16ca4d2",
+   "krUrl": "7b3f9a81d4e450011bb2d07fd6e98492d2c1e139cf29ae192669907856ee8dbc"
+  },
+  {
+   "id": 27,
+   "title": "Rejoint l'équipe avec Dan Heng • Imbibitor Lunae",
+   "text": "Dan Heng, apprends-moi plus de magie des Grands anciens !",
+   "unlockRequirement": "",
+   "cnUrl": "311adc11b5a7088b6543a57871d63a977e774040336a2293a7751cf9a90e313b",
+   "jpUrl": "1aea84cc7c6d9e1202de149dd38d8f8d1fef7fbbb7ada662b61c496bce4cf822",
+   "enUrl": "adb04ae0f48d84ea95204c7a3bb4a99b9c87430e555be7e9698116928c34b2da",
+   "krUrl": "7b3f9a81d4e450011bb2d07fd6e98492d2c1e139cf29ae192669907856ee8dbc"
+  },
+  {
+   "id": 51,
+   "title": "Rupture de faiblesse en début de combat",
+   "text": "Ah, vous m'avez l'air mal-en-point.",
+   "unlockRequirement": "",
+   "cnUrl": "2d8f7d74c32c84e538c180ae1c5412fa03a329e7f49b42f5317a7e2afcaadbae",
+   "jpUrl": "9535d99894d041872759ae5b95159a88b38a89093b431d5344d89dffb9180acf",
+   "enUrl": "bd5e796d6983007dab8c3aa1230a6521ee7afae76cd134384878a1e9774ad7d9",
+   "krUrl": "3b43780f345dc8f8c746886573a09db43235f52cdd20512231f46eb6e1a5b6d0"
+  },
+  {
+   "id": 52,
+   "title": "Avertissement de danger en début de combat",
+   "text": "Calme-toi ou tu vas surchauffer !",
+   "unlockRequirement": "",
+   "cnUrl": "23557d596187e02fb37b13ee4bc5eb2e3690749b5cd1a7872092bb9f07b0b452",
+   "jpUrl": "3a9933f09679573db5f05fa0939ddb9dc3d68c0b26db7bdcddad1d1758328bf7",
+   "enUrl": "146f6cfa3db62eff9a287e12f39268100d5ddf38b047ce4c8b34209e0275c263",
+   "krUrl": "bc7ec7ad5af7f1f8bda2f02ccc0dc0d3927a5f6e938eb891cdafabbd0b11cc1d"
+  },
+  {
+   "id": 53,
+   "title": "Début du tour 1",
+   "text": "On dirait que quelqu'un a besoin d'un docteur !",
+   "unlockRequirement": "",
+   "cnUrl": "0c082b0c61bf219ebaf7ebb7389db2e8ba0f8d8934bc3a03650e383727c7cd59",
+   "jpUrl": "e80c21d51aa3be46d0a17a4c70c4dd13d519a79902229c17a58d977492a71b70",
+   "enUrl": "94c9639d31b1f27e49c2eda5cf3d9a3813e2ea5c6347014f13630d2aad9a7911",
+   "krUrl": "22c8c51016878d9a2f395b0c5a9db4ce59622fc1b377e39f4201a3f93d0f0839"
+  },
+  {
+   "id": 54,
+   "title": "Début du tour 2",
+   "text": "Laisse-moi guérir tes blessures !",
+   "unlockRequirement": "",
+   "cnUrl": "a86059197cce43d667d37e62bc5aecb87d5e64a3056e6bbcf36af458327401a5",
+   "jpUrl": "93c00da4ce37425a7595dfc64631cd2d42b04e096f0934565f2dd65d8084a6f0",
+   "enUrl": "c06a4b989d298f136eaffa9c5cd44e88a1f3c87d8fc6092763ae68adc22ea01a",
+   "krUrl": "2e7df160d533c58e388d46348cf06d6aed4fe977342eb0bbdc2ccd2ea8f98aee"
+  },
+  {
+   "id": 55,
+   "title": "Tour inactif",
+   "text": "Attendre ici en silence, manquer toute la violence~",
+   "unlockRequirement": "",
+   "cnUrl": "6780def1b70fab548c2133902df12a1c2b8ad859f1ed1b6e75351d3a7e8da751",
+   "jpUrl": "3e26ec682bc065e74c5bceffcad30e1dc51200569ce5336b8b19e21404762b19",
+   "enUrl": "c246db05441af3023e83191fe08cc32fd2bea3c149f422edfc92785e89abe5ec",
+   "krUrl": "407acc8a3350b24d322cc04b26442e01ea4bbb4fdcf0b33b6d2d26ac3bbf9fe9"
+  },
+  {
+   "id": 56,
+   "title": "ATQ normale",
+   "text": "Regarder, écouter, ressentir, frapper !",
+   "unlockRequirement": "",
+   "cnUrl": "2d5e6c9b85eca7fb7e0b8f7bd91061d7aaf4423ee78a03357c2556b643d41393",
+   "jpUrl": "d162f884ee77f214a087b20bb3c820610d9fcaf618dce1a021471594aa531208",
+   "enUrl": "758f5c227c64101537e93dcff7e781f1829d19f4364daf50b0008495ed00dd48",
+   "krUrl": "3be2f84f3e24c2c738bc2f04e8430179deac700e1b81f53fca33672ae54baab5"
+  },
+  {
+   "id": 57,
+   "title": "Compétence 1",
+   "text": "Dis « Ahhhh ! »",
+   "unlockRequirement": "",
+   "cnUrl": "ee1ff6262b662843b2127c86d81fda2840753492503ae2e25479fa3a886d1f6f",
+   "jpUrl": "7dd4710f794b359b776ae984e9bfb961a6f338e733cbd52465cf8d7d003a283d",
+   "enUrl": "2f2c1c1a7bc4c023ed46adee8ebcdeb38df36ec8a08892b2289be7af71aaebec",
+   "krUrl": "7dd4bf11547fd7362dc8db690dcf22c730becc51eccce91e4bd07a75537b0c32"
+  },
+  {
+   "id": 58,
+   "title": "Compétence 2",
+   "text": "Il faut prendre ses vitamines.",
+   "unlockRequirement": "",
+   "cnUrl": "6d9695c8657f3186a1126208ef3170893b3a468f057b111307f5edf6d5c8c73c",
+   "jpUrl": "daedfe542cf72ad6006f7a62396b5ee5eb3c5d43c106e16c96a362f6daa68640",
+   "enUrl": "bc58266e45d030fefa20bf7de5f238c7794996e93c5fead5d3a13c99ed9bb6dd",
+   "krUrl": "55a2361bcb6d02b79b7afaf901dfb008ea7e6247c465a3ae3a08e1c9d6d6b7f0"
+  },
+  {
+   "id": 59,
+   "title": "Attaque légère subie",
+   "text": "Sale brute !",
+   "unlockRequirement": "",
+   "cnUrl": "454030b3f8c14b1662ac87f87d8a1d5d5f8c775e0b371d1233d59d2f480eb481",
+   "jpUrl": "348af20d41beb87aef5c13a30ae5f2066837fbbbeb8d371cceaaa41f6592c32e",
+   "enUrl": "da2f4598436153b0ec24a2c6603f0b40d47cdf8e5e1c79b9709a3b56a409c35d",
+   "krUrl": "c74f099a987c8e104190a82b294d26d257a8a9bec678fc316540b0a88f8ca3db"
+  },
+  {
+   "id": 60,
+   "title": "Attaque lourde subie",
+   "text": "À l'aide !",
+   "unlockRequirement": "",
+   "cnUrl": "577a6f823e4e6445a190739878a0440572df5e538569785f0cbb0f2f7d4d47eb",
+   "jpUrl": "cd90deb76c37abded6b951a8f54f6d7074d8cb9ad11b5df050f459ce95d5c7ed",
+   "enUrl": "9e29eba28098a9fa867cd9ea4b6fff8a9db267f30bc9658f7b124e4a8e2ac842",
+   "krUrl": "bf072d008c6a8881a1f066fe5a744aa9069f26dbf0d67a12f1c9d8566209c40b"
+  },
+  {
+   "id": 61,
+   "title": "Activation de l'ultime",
+   "text": "C'est le moment de vous montrer...",
+   "unlockRequirement": "",
+   "cnUrl": "58c4d8cc43cd61fb93e9fbfbce7b1167ab95ae067cac3e56c596b7dffe8ef382",
+   "jpUrl": "7de2699bd53ce070a19177b85fd35594f5cef06e1ed926bb2414ee28f2ec8e68",
+   "enUrl": "792bb317bd91869965af64f2a2f909941a715c6883cdf3771cb645e8817563e5",
+   "krUrl": "99f407ebc6eeb60ff65185b31bd4bb17702eff730868b242f04d147a485a3247"
+  },
+  {
+   "id": 62,
+   "title": "Déclenchement de l'ultime",
+   "text": "Voyons voir ce qu'on vous a prescrit !",
+   "unlockRequirement": "",
+   "cnUrl": "39e08620e58278a5ad0a79210a328e3ef864549e5d2d44f6cce84a3f9eccb0ec",
+   "jpUrl": "352ec8eada25792dae5fd5837e478aa710161f79e409528feb0f486c7f04f462",
+   "enUrl": "80df47f1262217a1a1736fca02dad8973ed3e94dade89d83c88d8e705da78ba1",
+   "krUrl": "42903c45f3366923acbcdc8f4b6ac1d9e56b88231462d5411fd5a208d1f16cdb"
+  },
+  {
+   "id": 63,
+   "title": "Talent",
+   "text": "On n'a pas encore fini le traitement !",
+   "unlockRequirement": "",
+   "cnUrl": "f695e52495c35651a1075d96c3d9c4edad4611e360ef69c8b03465142f4a1123",
+   "jpUrl": "8839612ea6459962cc6f56b84d8565f8f0b363357484822f332e47baf1241140",
+   "enUrl": "1ddb34c0d55c368fd99c6e44863e5f21db01fad30326451e62b77f561c557a08",
+   "krUrl": "1e4ed6813377dca67197b0d1f4629784d267780b363b9ca742a604582e2933bc"
+  },
+  {
+   "id": 64,
+   "title": "À terre",
+   "text": "Les docteurs ne sont jamais là quand on a besoin d'eux...",
+   "unlockRequirement": "",
+   "cnUrl": "fee463e5f6511440920830303b98dd925306458c788c22eb08a4b37018fe4815",
+   "jpUrl": "9cddfc1f647918eea73082777a55ce98c8dc535bf282cf7bef822f59f287d917",
+   "enUrl": "a386b2e3547d64b3c09a25b7c3364c303a80a36ad999812d22cd3aec4185251a",
+   "krUrl": "846d4f96db95c818be307a736f5a633a4c4bcf937b9c97d7e1d56b4ad41ad82f"
+  },
+  {
+   "id": 65,
+   "title": "Retour au combat",
+   "text": "Je ne peux pas encore abandonner mes thérapies.",
+   "unlockRequirement": "",
+   "cnUrl": "0551c17f36bd7387411f704deaf815b995a963189497b617339d8138feefbfc3",
+   "jpUrl": "ba2589193738551bba90fce982415c9f02efbea317dc484bf66635df3dbcec4d",
+   "enUrl": "f3350e6c03b2989b4682927ff9024a1dd9977f3e6f553eb77c1ea4db0f555fb8",
+   "krUrl": "1c51acd2051fa9bdc545992ba9f05a5368824876d4797c185f89dcdd01191d28"
+  },
+  {
+   "id": 66,
+   "title": "Récupération de santé",
+   "text": "En forme à nouveau !",
+   "unlockRequirement": "",
+   "cnUrl": "6e8e54c22fb6e6ee3097ef716fb296fbf91aea7ba8f9be45e4b1316b4f237680",
+   "jpUrl": "25cdeefd6e5be0f7dbb0d1cf9876ecd87fcb48bf82e4058b36d22cdc05e87ed7",
+   "enUrl": "6e5a028ca256e85b4bfb0b3b8b4addcb87f70fc9b58dc78665308c96ef81fb2d",
+   "krUrl": "1d956c9711bf95f2da81ad2797384f51d9d0f3808a446cd53e062249155fb9a0"
+  },
+  {
+   "id": 67,
+   "title": "Technique",
+   "text": "Un petit quelque chose pour tout le monde !",
+   "unlockRequirement": "",
+   "cnUrl": "1e629c987276306dd0844aefa3b47fb68396f64784b461a77430f8b0716e6bad",
+   "jpUrl": "3568c256edac24a782841e11869fdf21d8e3a81c193b8f01a822e1a57916cf75",
+   "enUrl": "ee426171c7dc1e4aedd7269d6ebd011d2cf7241f48b47cf6ea91f2ac9a943e02",
+   "krUrl": "de3243c5df8e295c40a6ffcdcd826d3f8412dda647d752e2f7a872e5c7ef99e4"
+  },
+  {
+   "id": 68,
+   "title": "Combat gagné",
+   "text": "Je t'ai dit qu'ils étaient malades.",
+   "unlockRequirement": "",
+   "cnUrl": "7c4448037da30b9b30412f404ebdb7753abc78d98d3ba3b71f15202131af6497",
+   "jpUrl": "b196909ceac2c6653ac7598623080f9277d707ae5495c0f4ea6f6afd60ce0230",
+   "enUrl": "2b8c7d172a5e47277932fe15020e5ed69a5a5ce0e1ed3e6e3b0016cfe7a06bfe",
+   "krUrl": "03c6d9718a0904931232162463b5f6cadf8d5265d25e833cc67193c087811593"
+  },
+  {
+   "id": 69,
+   "title": "Ouverture de coffre au trésor 1",
+   "text": "Si ça fonctionne, c'est que c'est un bon médicament.",
+   "unlockRequirement": "",
+   "cnUrl": "fcfe93a6e7dd0479d6f4ddc4d0a218b21ade7c74314089dfeb792029ce0dac51",
+   "jpUrl": "892c85077d8394d7394d6c65c73fbbaa30082fdd412e89fac6b0701002eeb68b",
+   "enUrl": "576f579305cf55d50b772ceaf9d17cf279fbb4dc6ef93f0629bee61ee867806d",
+   "krUrl": "49fe3a74ad4aa94aa9e5e6738ed712959c7c6dac1be208ff4018551d062bea7d"
+  },
+  {
+   "id": 73,
+   "title": "Ouverture de coffre au trésor 2",
+   "text": "Hmm... Est-ce qu'une de ces choses a des vertus médicinales ?",
+   "unlockRequirement": "",
+   "cnUrl": "a408622e80661178d5a362d2a8e231a26056329da50a2b511f60ed03c9281a80",
+   "jpUrl": "2bd4735a9957cffbcbad0f1fafe0dcf47a0e870051ec1fe47ace02ef16dab518",
+   "enUrl": "9db8bc1c4f676f623cdfac60d0bee21b53a6ab49090e2e4d808e73e34fa744d7",
+   "krUrl": "5a15b762ed3682f90cadb274a74c49df89720988b86c08ca00a8cd9e7a8d0b5f"
+  },
+  {
+   "id": 74,
+   "title": "Ouverture de coffre précieux",
+   "text": "Prends ça et rembourse-moi en sucre !",
+   "unlockRequirement": "",
+   "cnUrl": "3da95fc7e7c2171d0e6deb3b1370dad9856d5ea9567a420b2c69947d71775399",
+   "jpUrl": "be1c8420a6a81fca9c35b2b8566bd61722b7ff82c70f6c1762dc29e6084a7dd9",
+   "enUrl": "f0f3ad9fa1d850f5111a8e041f2633194392148f0588458c1475dd3d35eae219",
+   "krUrl": "99192013f47a40e97ac0f82e31134414b9780bb2b47353398546833f5ea965cb"
+  },
+  {
+   "id": 70,
+   "title": "Énigme réussie 1",
+   "text": "Il faut savoir distinguer les bons remèdes des mauvais.",
+   "unlockRequirement": "",
+   "cnUrl": "2925e624007d4cd16f8fef57f077dca49ee84153db56e4cbc90da8168a277839",
+   "jpUrl": "800d29f464e4456681cb8ac2306e2a291db5493996dad64a23fe7e9548f03eea",
+   "enUrl": "5d5a3e33faabd09fe69463ce3d287bb00bc2a0a2cd274d8c71b3e81e3d27d032",
+   "krUrl": "6fd306fbe3fd8bbe70535a8ca47bcd2423c758f087359cdc1ec897adb350fb12"
+  },
+  {
+   "id": 75,
+   "title": "Énigme réussie 2",
+   "text": "Héhé~ Les guérisseurs ont des connaissances sur un peu tout !",
+   "unlockRequirement": "",
+   "cnUrl": "0fbe40c1a4df4fce33ea9765d07f8606764ef0a578902d100e902879df81f01b",
+   "jpUrl": "0255c2f207b1ab13588ba8bb494aa3f0a2cc9fb1741d5bf4647a8533ab1fe551",
+   "enUrl": "28097be7788097cffb8ef72f918013b531cc6de165751d41a40436b7c04f4e99",
+   "krUrl": "7b9f7576af849b743d6c9a0f3093950e5bb5fd2c93125f9fffb22686f9d29c88"
+  },
+  {
+   "id": 71,
+   "title": "Cible ennemie trouvée",
+   "text": "Prudence, danger de mort.",
+   "unlockRequirement": "",
+   "cnUrl": "8e97400056b3770816ce6738bfaf593edf4f298fc41a06854bc3ec5d92d15715",
+   "jpUrl": "567d2eec8d6b5d3ffbe4bfefcde46ba29b7853715ea01574b06c1d10c547678e",
+   "enUrl": "790ff1fce88f9cc8b25aeda4a821b1261b6dfb81cb8399f56cc029f27a9ae222",
+   "krUrl": "c2b67f15b4b393ce60709d4ff9fc3dc5fa870e01b2c6ef2eb346b056245f6ec7"
+  },
+  {
+   "id": 72,
+   "title": "Retour en ville",
+   "text": "Allez, on peut rester encore un peu ?",
+   "unlockRequirement": "",
+   "cnUrl": "13a5e18952108f91d2bb89db3a21e8abe2551f38447c3bf91343277679ea4c6e",
+   "jpUrl": "f73901e131b3e8451fa181dd361cdc8b250a00ff212ff815ccdb78851ff8e3e3",
+   "enUrl": "7c684b85e1d77420a2be06a10a23a48b0752d1a6d190562233a70d3e25984384",
+   "krUrl": "adad3371aad222db8c25ead92765ce8ddec1e094f5c7cc8999922ad64db3a10d"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Détails du personnage",
+   "text": "Jeune Vidyadharienne dynamique, on la surnomme la « Dame guérisseuse » en raison de son savoir-faire en matière de médecine.<br />Elle délivre souvent des ordonnances peu orthodoxes telles que « Restez bien hydraté » ou « Reposez-vous bien ».<br />Bailu ne supporte pas de voir les gens souffrir, et c'est pourquoi vous la verrez souvent les yeux fermés pendant qu'elle soigne des maux.<br />« Tant qu'ils ne sont plus malades, c'est tout ce qui compte, non ? »",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Histoire du personnage : Partie I",
+   "text": "« Compilation des traitements de la Commission d'alchimie : volume quarante-huit, étude de cas 1 <nobr>246</nobr><br /><br />Médecin traitant : Bailu<br /><br />Patiente : Yuezhui, Foxienne, âgée de soixante-deux ans<br /><br />Plainte : a accidentellement mangé une truffe en chocolat vendue par un habitant de l'extérieur. Une soif intense l'a fait boire à l'excès, elle a des douleurs, plus particulièrement à l'estomac, a du mal à respirer, et perd des touffes de poils au niveau de la queue.<br /><br />Diagnostic : intoxication alimentaire<br /><br />Prescription : 1 qian de ginseng amer,<br />1 qian et 1 fen de réglisse crue,<br />1 bouteille d'élixir de jade aux cinq graines,<br />un exemplaire de la brochure Tout savoir sur les nourritures interdites<br /><br />Posologie : faire bouillir le ginseng amer et la réglisse dans l'élixir de jade aux cinq graines jusqu'à réduction à mi-volume, filtrer pour retirer les résidus, boire à volonté jusqu'à vomissement ; recopier la brochure Tout savoir sur les nourritures interdites cinq cents fois jusqu'à l'apprendre par cœur<br /><br />Remarques : cas classique d'intoxication alimentaire. Les lésions viscérales ont déjà guéri à l'aide d'ichor draconique. Il suffirait d'administrer des émétiques, conformément à l'ordonnance, afin d'éliminer le poison résiduel par vomissement. Tout le monde sait que même le plus résistant et le plus vigoureux des Foxiens à longue espérance de vie ne peut pas manger de chocolat !<br /><br />Et pour des affections bénignes comme celle-ci, ne faites pas attendre le patient trop longtemps. Réveillez-moi tout de suite ! Par ailleurs, est-ce que vous pourriez me trouver des cas plus compliqués ? On dirait que vous essayez de gaspiller mes compétences. »",
+   "unlockRequirement": "Disponible au niveau <nobr>20</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie II",
+   "text": "« Compilation des traitements de la Commission d'alchimie : volume soixante-treize, étude de cas <nobr>582</nobr><br /><br />Médecin traitant : Bailu<br /><br />Patiente : Jinyu, Vidyadharienne, agée de treize jours et quatre heures<br /><br />Plainte : la patiente subit un cycle d'éclosion presque tous les mois. Sa croissance est cent fois plus rapide que celle d'un Vidyadharien normal.<br /><br />Diagnostic : anomalie de la renaissance, extrêmement rare, un cas sur un million<br /><br />Prescription : aucun médicament disponible, boire beaucoup d'eau chaude<br /><br />Utilisation : non applicable<br /><br />Remarque : il s'agit d'un cas extrêmement difficile ! Cas que je suis malheureusement incapable de traiter.<br /><br />Le mécanisme de la renaissance par éclosion des Vidyadhariens demeure un mystère. D'après certains médecins, les Vidyadhariens utiliseraient ce cycle de renaissance pour soigner des blessures subies au cours de leur longue vie, mais cette notion ne s'applique clairement pas à la situation de cette patiente.<br /><br />J'ai testé son sang et sa moelle osseuse, je lui ai fait ingérer des vers translucides pour permettre un examen approfondi de son cerveau. Je n'ai cependant trouvé aucune zone malade. Ah, quelle merveille qu'est la vie ! Même les espèces à longue espérance de vie qui ne vieillissent et ne meurent pas ne sont pas immunisées contre les ravages de la maladie.<br /><br />C'est pareil pour moi, ça fait maintenant six ou sept ans que mes cornes ont poussé, mais que j'ai arrêté de grandir. C'est à cause de ces horribles Précepteurs qui me surveillent, j'en suis sûre. Si un enfant n'a pas le droit d'aller courir dehors, alors comment peut-il grandir ?<br /><br />Aux guérisseurs qui lisent cette étude de cas, quand allez-vous me libérer ? Je ne suis pas une bonne à rien. Pourquoi suis-je à ce point surveillée ? Ça me met très, très, très, très, très, très, très, très en colère ! »<br /><br />Un visage cornu en colère a été dessiné au bas de cette page.",
+   "unlockRequirement": "Disponible au niveau <nobr>40</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie III",
+   "text": "« Compilation des traitements de la Commission d'alchimie : volume cent vingt-huit, étude de cas <nobr>39</nobr><br /><br />Médecin traitant : Bailu<br /><br />Patient : Jing Yuan, homme de Xianzhou à l'âge indéterminé (bien que la Commission des dix seigneurs le sache sûrement)<br /><br />Plainte : douleur thoracique, souffle court, somnolence, patient trop fatigué pour garder les yeux ouverts. Cette consultation est un contrôle de routine.<br /><br />Diagnostic : il est resté enfermé au Siège de la clairvoyance divine pendant trop longtemps.<br /><br />Prescription : 1 portion de porc infusé à l'ail, 1 portion de melon croustillant et ses dés de poulet, 1 portion de tranches de porc à la sauce de poisson, 1 bol de tofu de mamie Chen, 1 cochon de lait grillé, 1 tasse de thé maofeng du Chasseur<br /><br />Posologie : manger. Quand il sera rassasié, ça lui donnera envie de sortir pour prendre l'air, et ça améliorera son humeur.<br /><br />Remarques : le général vient me consulter chaque année, se plaignant de symptômes tels que « douleur thoracique ou souffle court », ou bien dit avoir « des difficultés à garder les yeux ouverts » et veut un bilan de santé.<br /><br />Le flux de qi du général est extrêmement vigoureux. Il n'y a aucune trace de maladies étranges ou de l'implication du mara. (Bien que cela concerne la Commission des dix seigneurs, je fais toujours preuve d'une prudence particulière à cet égard.)<br /><br />Je pense qu'il s'ennuie, tout simplement, et qu'il profite de l'occasion pour s'éclipser pendant son temps libre. Si ce n'était pas le cas, pourquoi venir à chaque fois avec une boîte de friandises, des noix, des bonbons et je ne sais quoi encore. Pour vider son sac et papoter avec moi ? Comment je vais ? Est-ce que j'ai fait des rêves récemment ? Est-ce que j'ai bon appétit ? On dirait que c'est lui le docteur, et pas moi.<br /><br />J'apprécie vraiment de discuter avec le général. Il est différent des autres vieux schnocks. Il ne prend pas de grands airs, il aime les plaisanteries, il me parle souvent des endroits où il est parti en expédition et m'explique plein de choses merveilleuses. Ah, comme j'aimerais laisser la médecine derrière moi et partir au bout du monde, l'épée à la main...! »",
+   "unlockRequirement": "Disponible au niveau <nobr>60</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie IV",
+   "text": "Salutations, chers Précepteurs :<br /><br />Calendrier Stellaire, jour █ du mois de █, ████, examen de routine de dame Bailu, notes suivantes :<br /><br />Toujours aucun changement physique chez la Grande ancienne, elle n'a toujours pas grandi. C'est tout à fait normal, un développement lent est courant chez les Vidyadhariens. Ce qui me préoccupe plus que la lenteur de sa croissance, c'est son absence de rêve.<br /><br />Après avoir reçu l'« Orbe des abysses » et les « Arcanes de la transmutation », les Grands anciens revoient la vie de leurs ancêtres dragons en rêves. Le Bureau des sources profondes est chargé de retranscrire, de réécrire et de noter ces rêves, et leurs fichiers contiennent un nombre gigantesque de volumes. Bien que ces rêves soient souvent fragmentés et difficiles à comprendre et à interpréter, c'est le seul moyen pour notre espèce de se rapprocher de la Permanence. Pourtant, dame Bailu n'a rien connu de tel. Il semblerait que son cœur de dragon soit endommagé ou que les « Arcanes de la transmutation » n'aient pas fonctionné correctement.<br /><br />De plus, puisque la Grande ancienne a déjà démontré qu'elle avait le pouvoir d'invoquer la foudre et de manipuler l'eau, j'ai ordonné à l'un de nos meilleurs artisans de confectionner le Pilori de la corne de dragon, afin d'entraver sa queue, d'éviter qu'elle perde le contrôle de ses pouvoir, et ainsi, ne pas répéter les événements désastreux de la Rébellion de l'Imbibitor Lunae.<br /><br />Il y a quelques mois, nous avons reçu une lettre du Caelorum Venti du Yaoqing, s'enquérant de l'état de dame Bailu. J'ai répondu selon vos instructions, chers anciens. J'ai répondu que dame Bailu était encore jeune, avait besoin du soutien des Précepteurs, et que ce n'est qu'une fois sa cérémonie de passage à l'âge adulte effectuée qu'ils lui confèreraient le titre d'Imbibitor Lunae.<br /><br /><align=\"right\">Respectueusement, Yunyou, écuyer de la Grande ancienne.</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>80</nobr> de personnage"
+  }
+ ],
+ "archive": {
+  "cvCn": "多多",
+  "cvJp": "加藤英美里",
+  "cvKr": "조현정",
+  "cvEn": "Su Ling Chan",
+  "camp": "Luofu de Xianzhou"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Bailu",
+ "rarity": 5,
+ "descHash": "La Grande ancienne des Vidyadhariens également connue sous le nom de « Dame guérisseuse » à bord du Luofu. Elle utilise sa science médicale et ses traitements uniques issus du peuple des dragons vidyadhariens pour sauver des vies.",
+ "artPath": "accb7ce2f73ab98b50c0ae1ba17c4ed195c468d9f06d2c5b690d4a8bfc6fafe0",
+ "miniIconPath": "51da755d42477dda2ab48e61413d4e04fd794f47effada902dda1c93d3b6aadb",
+ "damageType": {
+  "id": 8,
+  "iconPath": "aec46e1b5be764fe83cac85e30f5832729012baa6a30bb8d91c82348d8a1b4d6",
+  "color": "#8872F1",
+  "name": "Foudre",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "81e58cfdc0c8a9a026c2c3111a6bdf663d572fa71524907b004fc5eb7f34fade",
+  "altIconPath": "c825fa86e9a217db6e704916b2d5aeb22c5733b2776a0ea16c558c29e6c5c92c",
+  "color": "#FFFFFF",
+  "name": "L'Abondance",
+  "rarity": 0
+ },
+ "pageId": "bailu"
+}

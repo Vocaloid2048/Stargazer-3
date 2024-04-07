@@ -83,7 +83,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    //implementation("com.github.Dimezis:BlurView:version-2.0.3") //BlurView
+    //implementation("com.github.Dimezis:BlurView:version-2.0.3") //BlurView https://github.com/Dimezis/BlurView/issues/212
     implementation("androidx.navigation:navigation-compose:2.7.7") //Navigation Compose
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0") //System UI Controller
+    implementation("dev.chrisbanes.haze:haze:0.6.2") //Haze's BlurView https://github.com/chrisbanes/haze
 }

@@ -1,0 +1,2819 @@
+{
+ "spRequirement": 120,
+ "iconPath": "bfca71a4e030ff72e1ebcbfbb4bfaff1ba1a2ba5f1a8ca5846979a7feb074355",
+ "bgPath": "2a27f6620a9080f5267d69a7adbda611c42bb63441cd1a3857ee7f9c14edaf94",
+ "figPath": "5e9b1dfb262113f45ba2cf61f02f6efd8b2863c38630fec070205f4d94a4a623",
+ "fgPath": "aa0bdc5240c7a99070ee1a5f69cba8fd6ca5585bafd99e59335828b5746701ec",
+ "splashIconPath": "3f1846fef9b484c4b24825e5db7057b3e7cfe9c2d815a5d586fdf1ab11b5dc7d",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRuYCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCgBAAABkHPbtrG9C9r3+ewvNqtUtrt3fF2Myk4q204q27btpEpts7Od596ziueJiAlQMjczdNi6btkDW8lFSnXq9x5484T7rSVFCUVqQ/gH//l5dXVduYRUsgELAQ90ylNqeT2tw5sR7OOjXWmSmv7CzDCYmlKr99DMFYKBxWxTMm9lZvwSzAAz+zNeZcpaXlEw/RUBA/D8KD19dQGdx4DHDDP7zyrNBd56AmYYZsS91fAnHowU8+wZUNG0FVgIsfexhwAT2jZpln2b2AN/wQJ3z69oXaezVgDvVz1+O/kgvJp/82z3fuM0kLW3Wqj1MU2CU2Ph+6rqqv91UKQczW41GQ9XR3SMJLVqoJrZalxTd3jxZevgqoqUjJRs1rtNm0LJSYqcJDk5JZ2TAFZQOCCYAQAAMAkAnQEqFAAUAD5tMJRHpCKiISgIAIANiWwAnTKEen+c8PM5fAA2wG4A8gDrSee+9ib9svSkJlD0AOaADvxv0a4bcBw5HBYUjDQl4vUfaMJEjAD+9HPFptX/j4Bl4cwo5SzHh+ttpEHoR9ugAcyDCHwZOcC1Gd3tbIR3YC8GnQvOHkXS1RjT8xr/4t/ZOz8zr5wL9wg/Ef6rAYfvw66PLw7/GpAchR+mZ8zXe3cm11/JpBsfpaftrRY+Z7W3jnYt+5bNcx/JeVtDiYZjJ5K+srycSbvwqPyEbqW0fCpvVjmJZ97nKC8WJ91RCnk3Se13Jp4N7nLsXpjRJ8DwDDvcXmAaPnQMrUg56xbAaJG5NUrQgNGNNIo1AKUPmIXYjcUyWgBi1Yb+44qfW1i1OgGy6t4TqJ8sU9nKYwdWdp1XxnwMTXY6/W0xH4RNJ1nMBUW27CifyLmHVgcIK8dyP9Nevrb/9i+6Sv96M9mjfFGPoq+j6j/RgX5O/5GrWt3XGq/w5G7ZXouy0EkwACwy6db2tCdn/vhlKAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "4b4b5f13f6588e7fb1c030c28f9b9b67a7a8c4bab77c05e38d5c9f64eb0d99e7",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "เครดิต",
+   "desc": "สกุลเงินที่องค์กรสันติภาพแห่งดวงดาวใช้ในการชำระบัญชีแก่ลูกค้า ซึ่งปัจจุบันได้กลายเป็นสกุลเงินหลัก ที่ใช้กันอย่างแพร่หลายสำหรับการเดินทางในอวกาศ",
+   "lore": "\"ผู้คนดิ้นรน ต่อสู้ และแลกเปลี่ยนเพื่อตัวเลขที่แสดงในเทอร์มินัล แต่สิ่งล้ำค่าที่แท้จริงนั้น ไม่สามารถซื้อได้ด้วยตัวเลขจากองค์กร\"",
+   "purpose": "สกุลเงินทั่วไป",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Calyx (Artisanship Commission)",
+    "Calyx (โรงแรม Reverie - แดนฝัน)",
+    "รางวัลภารกิจ",
+    "รางวัลคำขอ",
+    "ร้าน Ember"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Tracks of Destiny",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "ความพ่ายแพ้ซ้ำแล้วซ้ำเล่าจะนำไปสู่ชัยชนะ ก้าวไปข้างหน้าก้าวแล้วก้าวเล่าจะนำไปสู่จุดเปลี่ยนของโชคชะตา",
+   "purpose": "วัสดุ Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "รางวัลคะแนนสะสม Simulated Universe",
+    "เกียรติยศนิรนาม",
+    "แลกเปลี่ยน Ember",
+    "ร้าน Starlight",
+    "รางวัลกิจกรรมจำกัดเวลา"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "Regret of Infinite Ochema",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "ไม่ว่าจะอีกกี่ร่างก็ยังไม่สมดั่งใจ เช่นเดียวกับผู้คนที่แสวงหายาวิเศษ มันปรารถนาจะมีร่างกายที่มีชีวิตยืนยาว โดยไม่ต้องกลัวการ \"ทำลายล้าง\" อีกต่อไป มันรู้ว่า นี่เป็นเพียงความเพ้อฝันที่ไม่มีทางเป็นจริง<br /><br />\"ฉันเคยเห็นโลกที่ถูกเปลวไฟของเทพแห่งสามานย์ กลืนกินมานับไม่ถ้วน และฉันก็เคยเป็นหนึ่งในเปลวเพลิงเหล่านั้น ฉันเต้นรำไปตามปลายนิ้วของเขา โดยรู้ดีว่าถ้าฟืนหมดแล้ว ไฟก็จะมอดดับลง...\"",
+   "purpose": "วัสดุ Trace",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "Echo of War: Scalegorge Waterscape"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "คู่มือการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>20000</nobr> หน่วย",
+   "lore": "หนังสือชุดเกี่ยวกับการผจญภัยที่จำเป็นต่อการสำรวจโลก กดปุ่มอ่านเพื่อฟังเสียงที่น่าฟังในภาษาที่คุณเข้าใจ ซึ่งจะบอกเล่าเกี่ยวกับประสบการณ์การผจญภัยในโลกต่างๆ ของเหล่านักผจญภัยที่มีชื่อเสียง รวมถึงภูมิปัญญาอันล้ำค่าที่พวกเขาได้รับจากดาวแต่ละดวงด้วย<br /><br />\"คู่มือการเดินทางชุดใหม่ 'การทำอาหารระหว่างดวงดาว' จะวางจำหน่ายเร็วๆ นี้ โปรดติดตามกันให้ดี\"<br />\"สำหรับการส่งผลงาน โปรดติดต่อกับ Synesthesia Beacon ERD<nobr>-23</nobr>θ เพื่อติดต่อตัวแทนของสถาบันแห่งปัญญา โดยวิธีการจ่ายค่าต้นฉบับนั้น สามารถจัดการได้ตามความสะดวกของคุณ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "บันทึกการผจญภัย",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>5000</nobr> หน่วย",
+   "lore": "บันทึกการผจญภัยที่ได้รับการจัดการอย่างเป็นระเบียบ และมีคุณค่าต่อการศึกษา ซึ่งประกอบไปด้วยภาพประกอบและข้อความที่เกี่ยวกับการผจญภัยตั้งแต่ต้นจนจบ ตลอดจนข้อมูลที่มีคุณค่าและเทคนิคที่เกี่ยวข้องกับการเอาชีวิตรอด<br /><br />\"ทำไมไม่แปลงข้อมูลใส่ลงไปในดิสก์ล่ะ? สะดวกกว่าตั้งเยอะ\"<br />\"เมื่อเผชิญกับพายุดาว และการปะทุของกระแสนิวตรอนแล้ว เทคโนโลยีขั้นสูงนั้นมีความเปราะบางมากกว่าที่คิด นอกจากนี้ คนทำหนังสือเล่มนี้คงอยากจะให้คนอ่าน สามารถอ่านได้ด้วยวิธีที่ง่ายที่สุด\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "การฝึกประจำวัน",
+    "ร้าน Ember"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "ความรู้จากการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>1000</nobr> หน่วย",
+   "lore": "ไดอารี่การเดินทางที่เขียนด้วยลายมือสุดยุ่งเหยิงและมีเนื้อหาตามใจชอบ ซึ่งไม่ค่อยมีประโยชน์สำหรับคุณสักเท่าไหร่<br /><br />\"Dan Heng อ่านจบแล้วก็รีบเอากระดาษพวกนี้ไปทิ้งเถอะ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "รางวัลคำขอ"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "54d4c5dedbef6b70f526e88708669e94b6a214431c0c9ca55edf9b28b3413fcb",
+   "name": "Artifex's Module",
+   "desc": "ชิ้นส่วนของเครื่องจักร Xianzhou วัสดุพื้นฐานที่ใช้สำหรับการเสริมพลัง",
+   "lore": "รากฐานของเทคโนโลยีเครื่องยนต์กลไกของ Xianzhou มันเป็นส่วนประกอบที่เล็กที่สุดในอะไหล่เครื่องจักร การแยกชิ้นส่วนออก ก็เหมือนกับการทำลายโครงสร้างเซลล์ของสิ่งมีชีวิต<br /><br />\"สถาบันแห่งปัญญา จะมอบเงินรางวัลสองล้านเครดิต ให้กับวิธีการทางเทคนิคที่สามารถใช้รื้อถอนหุ่น Xianzhou ได้โดยไม่ก่อให้เกิดความเสียหาย\"<br />\"ถ้าเธอรู้จัก Screwllum ละก็ เงินสองล้านนี้ก็จะได้ไปฟรีๆ เลย...\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "ดรอปจาก Entranced Ingenium",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "รางวัลคำขอ",
+    "แลกเปลี่ยน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ",
+    "Calyx (Golden)"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7b31224c48190eebf224b39e2a9df9477f9c67018bc63cb1b20569e6186041c3",
+   "name": "Artifex's Cogwheel",
+   "desc": "ชิ้นส่วนของเครื่องจักร Xianzhou วัสดุธรรมดาที่ใช้สำหรับการเสริมพลัง",
+   "lore": "ชิ้นส่วนที่ใช้สำหรับเชื่อมต่อในเทคโนโลยีเครื่องยนต์กลไกของ Xianzhou ฟันเฟืองที่เชื่อมต่อกันอย่างประณีตนั้น มีขนาดเล็กพอๆ กับเมล็ดมัสตาร์ด แต่กลับเชื่อมกันเป็นกลไกที่ซับซ้อน ทำให้เครื่องจักรเคลื่อนไหวได้ราวกับมีชีวิต<br /><br />\"รูปร่างของมันกลมกลืน ขนานคู่ไปกับผืนฟ้า การเคลื่อนไหวเวียนวน กึกก้องไปพร้อมกับจักรวาล\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "ดรอปจาก Entranced Ingenium เมื่อระดับความสมดุลถึง Lv.2",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "271b1f9a291c44b698190683f224996bae3b49e8e596c227b819b72c3a2b82dd",
+   "name": "Obsidian of Dread",
+   "desc": "เศษของวัตถุแห่งความมืดที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้เล็กน้อย",
+   "lore": "ไม่ว่าวิธีใดก็ไม่สามารถพิสูจน์ถึงรูปร่างของมันได้<br />หากสัมผัสเบาๆ จะได้ยินเสียงกระซิบที่คลุมเครือจากเศษชิ้นส่วนนั้น<br /><br />\"████ ██ █ █\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "717385": {
+   "id": 717385,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fcb869b494268ac2b7320d4a3795736698f3a3c5e9bad9c0182c6e11bd343c55",
+   "name": "Artifex's Gyreheart",
+   "desc": "ชิ้นส่วนของเครื่องจักร Xianzhou วัสดุชั้นสูงที่ใช้สำหรับการเสริมพลัง",
+   "lore": "แกนกลางของเทคโนโลยีเครื่องยนต์กลไกของ Xianzhou วงแหวนดวงดาวจะหมุนวนและสั่นเป็นจังหวะราวกับหัวใจ ทำให้เครื่องจักรมีความคิดเหมือนสิ่งมีชีวิต<br /><br />\"ผู้เป็นใหญ่ตื่นตกใจ จึงแยกชิ้นส่วนจิตใจของมันออก และทำให้เขา... เอ่อ เธอ? ไม่สิ ทำให้มันสูญเสียสติสัมปชัญญะ แล้วกลับคืนสู่การเป็นโลหะดังเดิม\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/717385",
+   "comeFrom": [
+    "ดรอปจาก Entranced Ingenium เมื่อระดับความสมดุลถึง Lv.4",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34d88252515cd13ab58b6f5aae7329794a4a330a0147e1c5f755c8a2f4444bff",
+   "name": "Obsidian of Obsession",
+   "desc": "วัตถุแห่งความมืดเต็มชิ้นที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้เป็นอย่างมาก",
+   "lore": "คนที่จิตใจอ่อนแอ แค่ชำเลืองมองเพียงครั้งเดียว ก็จะจมดิ่งสู่ความโกลาหลตลอดไป<br /><br />\" \"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1a896480b5f6ee84644db112069845e85930f6dbc0f428a3f8a6de2b187702af",
+   "name": "Obsidian of Desolation",
+   "desc": "ชิ้นส่วนของวัตถุแห่งความมืดที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้ปานกลาง",
+   "lore": "พื้นผิวที่ดำสนิทจนไม่สามารถสะท้อนแสงใดๆ ได้เลย มันไม่เพียงดูดซับแสงเท่านั้น แต่ดูเหมือนจะดูดซับความรู้สึกของผู้ที่ครอบครอง จนเหลือเพียงความว่างเปล่าอันเวิ้งว้าง<br /><br />\"...\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "983279": {
+   "id": 983279,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "4278b6e89e5ce1f3e8f5ee4b3533db325b5adaf4fb9599da1b5c26c01508343e",
+   "name": "Searing Steel Blade",
+   "desc": "ใบมีดที่หักของ Searing Prowler วัสดุเลื่อนขั้นของตัวละครประเภทไฟ",
+   "lore": "บางครั้งกองกำลัง Silvermane ก็มักจะจัดการแข่งขันขึ้น... ซึ่งผู้เข้าแข่งจะต้องนำชิ้นส่วน บนร่างของมอนสเตอร์กลับมาให้ได้ ภายในเวลาที่กำหนด เศษใบมีดเหล่านี้จะต้องเป็นรางวัล จากการแข่งขันของสนามใดสนามหนึ่งแน่นอน<br /><br />\"ฉันเห็นกับตาตัวเองเลย หัวหน้า Gepard ทำลายมีดร้อนๆ ของเจ้าหมอนั่นด้วยกำปั้นเดียว จากนั้นก็ถือมันด้วยมือเปล่า แล้วแทงเข้าไปที่ท้องเย็นๆ นั่น เพื่อให้มันได้ความอบอุ่นไงล่ะ\"",
+   "purpose": "วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/983279",
+   "comeFrom": [
+    "Stagnant Shadow (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 79.2,
+   "attackAdd": 3.96,
+   "hpBase": 120,
+   "hpAdd": 6,
+   "defenseBase": 60,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549503,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 110.88,
+   "attackAdd": 3.96,
+   "hpBase": 168,
+   "hpAdd": 6,
+   "defenseBase": 84,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549503,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 216,
+   "hpAdd": 6,
+   "defenseBase": 108,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633444,
+     "count": 5
+    },
+    {
+     "id": 983279,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 3.96,
+   "hpBase": 264,
+   "hpAdd": 6,
+   "defenseBase": 132,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633444,
+     "count": 8
+    },
+    {
+     "id": 983279,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 205.92,
+   "attackAdd": 3.96,
+   "hpBase": 312,
+   "hpAdd": 6,
+   "defenseBase": 156,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717385,
+     "count": 5
+    },
+    {
+     "id": 983279,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 237.6,
+   "attackAdd": 3.96,
+   "hpBase": 360,
+   "hpAdd": 6,
+   "defenseBase": 180,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717385,
+     "count": 7
+    },
+    {
+     "id": 983279,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 408,
+   "hpAdd": 6,
+   "defenseBase": 204,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 106,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "3aa8570476d3d87163f3067a9886c5977396aa663461a08445a01910538c6dae",
+   "artPath": "c7830f37a3a6ae7a0c728bfade0c5e6edc6fd69f9709ed1e64b2c411cf3d3d76",
+   "name": "Slurping Noodles During Handstand",
+   "descHash": "เมื่อใช้สกิลต่อสู้ จะมีโอกาสพื้นฐาน <nobr>#1[i]%</nobr> ที่จะทำให้การต้านทานสถานะ ของศัตรูเป้าหมายที่ถูกโจมตี ลดลง <nobr>#2[i]%</nobr> เป็นเวลา <nobr>#3[i]</nobr> เทิร์น",
+   "params": [
+    1,
+    0.1,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "096b877957aeca420cae7a15cd3407871c6c57f289bd6ab6a32d77875dfbabbe",
+   "artPath": "00ec18d38e9c73cb978fadad0d10744fe4aa06974709f99d658418c660968477",
+   "name": "Brushing Teeth While Whistling",
+   "descHash": "เมื่อศัตรูเป้าหมายติดสถานะเผาไหม้ ตัวคูณ DMG ของสถานะเผาไหม้ จากการโจมตีปกติและสกิลต่อสู้ของ Guinaifen จะเพิ่มขึ้น <nobr>#1[i]%</nobr>",
+   "params": [
+    0.4
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "4e8b7bc7193693d41d76743f41ae3cdf411461316839ef1e99b821b4dd3c9ecb",
+   "artPath": "cd0d2cf9cb746d314318c87b21d1adec9682a188eef3d9488ec439cf34db0d6f",
+   "name": "Smashing Boulder on Chest",
+   "descHash": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "c8befe052c570ca5b37930d3f11d4b32b87e6f2c827371061f7a65bc64480f89",
+   "artPath": "177418017893a590cc8282c8691f46bda1a573aa9f601a92b9683eebfb2ce9a7",
+   "name": "Blocking Pike with Neck",
+   "descHash": "ทุกครั้งที่สถานะเผาไหม้ของ Guinaifen สร้าง DMG หนึ่งครั้ง จะทำให้ Guinaifen ฟื้นฟูพลังงาน <nobr>#1[i]</nobr> หน่วย",
+   "params": [
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "9d10546c1bfb019443d3d1f741628f43de17161e6ea6a1f44326fbf19d69d13b",
+   "artPath": "76ddc4a55395d4c29e5f57d3e413c2586b61c4219061f3845ac1c2aeff8ffc86",
+   "name": "Swallowing Sword to Stomach",
+   "descHash": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "9b218cd3d615fb17579cfaf75d093032e20f294eff961db6a1903628041cd23d",
+   "artPath": "2c061f7d6fe3c9f5d9d36626800f97b9ce3bcd01f851eb2cc921d34d062cd436",
+   "name": "Catching Bullet with Hands",
+   "descHash": "ทำให้จำนวนชั้นที่ \"Firekiss\" สามารถซ้อนทับได้เพิ่มขึ้น <nobr>#1[i]</nobr> ชั้น",
+   "params": [
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   69091
+  ],
+  [
+   985150
+  ],
+  [
+   868505
+  ],
+  [
+   784564
+  ],
+  [
+   500037
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "สร้าง DMG <span style=\"color:#F84F36;\">ไฟ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Guinaifen แก่ศัตรูที่กำหนดหนึ่งตัว",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 69091,
+   "name": "Standing Ovation",
+   "iconPath": "37887d1e3b11ec2750f19062e4b3a74e62ebf246a3c5d0e6a426e6c85acf0f21",
+   "typeDescHash": "โจมตีปกติ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "กระจาย",
+   "descHash": "สร้าง DMG <span style=\"color:#F84F36;\">ไฟ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Guinaifen แก่ศัตรูที่กำหนดหนึ่งตัว และสร้าง DMG <span style=\"color:#F84F36;\">ไฟ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ ATK ของ Guinaifen แก่เป้าหมายที่อยู่ใกล้เคียง โดยจะมี <u>โอกาสพื้นฐาน</u> <nobr>#3[i]%</nobr> ที่จะทำให้เป้าหมาย และศัตรูที่อยู่ใกล้เคียงติดสถานะเผาไหม้ เมื่ออยู่ภายใต้สถานะเผาไหม้ ศัตรูเป้าหมายจะได้รับ DMG <span style=\"color:#F84F36;\">ไฟ</span>ต่อเนื่อง <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> ของ ATK ของ Guinaifen เมื่อเริ่มต้นในแต่ละเทิร์น เป็นเวลา <nobr>#5[i]</nobr> เทิร์น",
+   "ultimateCost": 0,
+   "break": "60 + 30/adjacent",
+   "energy": "30",
+   "id": 985150,
+   "name": "Blazing Welcome",
+   "iconPath": "4e8b7bc7193693d41d76743f41ae3cdf411461316839ef1e99b821b4dd3c9ecb",
+   "typeDescHash": "สกิลต่อสู้",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.2,
+      1,
+      0.83904,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66,
+      0.22,
+      1,
+      0.92298,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72,
+      0.24,
+      1,
+      1.00692,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78,
+      0.26,
+      1,
+      1.09086,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.28,
+      1,
+      1.1748,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.3,
+      1,
+      1.30071,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      0.325,
+      1,
+      1.46859,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      0.35,
+      1,
+      1.67844,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      0.375,
+      1,
+      1.93026,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2,
+      0.4,
+      1,
+      2.18208,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26,
+      0.42,
+      1,
+      2.291202,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      0.44,
+      1,
+      2.400324,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38,
+      0.46,
+      1,
+      2.509446,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44,
+      0.48,
+      1,
+      2.618568,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5,
+      0.5,
+      1,
+      2.72769,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "โจมตีหมู่",
+   "descHash": "สร้าง DMG <span style=\"color:#F84F36;\">ไฟ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> ของ ATK ของ Guinaifen แก่ศัตรูทั้งหมด หากเป้าหมายติดสถานะเผาไหม้อยู่ จะทำให้สถานะเผาไหม้ ที่เป้าหมายได้รับในปัจจุบัน สร้าง DMG <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ DMG เดิมทันที",
+   "ultimateCost": 120,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 868505,
+   "name": "Watch This Showstopper",
+   "iconPath": "893397ac8f21cffa11837a63ad765f9635aa94adfeab7097e463ea4fd78b271a",
+   "typeDescHash": "ท่าไม้ตาย",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.72,
+      0.72
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.768,
+      0.74
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.816,
+      0.76
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.864,
+      0.78
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.912,
+      0.8
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.96,
+      0.82
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1.02,
+      0.845
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.87
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.14,
+      0.895
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2,
+      0.92
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.248,
+      0.94
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.296,
+      0.96
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.344,
+      0.98
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.392,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44,
+      1.02
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "สกัดกั้น",
+   "descHash": "เมื่อ Guinaifen อยู่ในการต่อสู้ หลังจากสถานะเผาไหม้ที่ศัตรูได้รับสร้าง DMG จะมี <u>โอกาสพื้นฐาน</u> <nobr>#1[i]%</nobr> ที่จะทำให้ติดสถานะ \"Firekiss\" โดยเมื่ออยู่ภายใต้สถานะ \"Firekiss\" ศัตรูเป้าหมายจะได้รับ DMG เพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> เป็นเวลา <nobr>#5[i]</nobr> เทิร์น โดยสามารถซ้อนทับได้มากสุด <nobr>#6[i]</nobr> ชั้น",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 784564,
+   "name": "PatrAeon Benefits",
+   "iconPath": "bcb293514353d131f0763fce0af17937941d0e00146a5f3e0bb5de8fd5893a97",
+   "typeDescHash": "พรสวรรค์",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.04,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.043,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549503,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.046,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549503,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.049,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633444,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.052,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633444,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.055,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633444,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.05875,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717385,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.0625,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717385,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.06625,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.07,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.073,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.076,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.078999996,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.082,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0,
+      0,
+      0.085,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "หลังจากโจมตีศัตรูและเข้าสู่การต่อสู้ จะลดทอนความทนทานของประเภทที่สอดคล้องกับศัตรูเป้าหมาย",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 583978,
+   "name": "Attack",
+   "iconPath": "37887d1e3b11ec2750f19062e4b3a74e62ebf246a3c5d0e6a426e6c85acf0f21",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "จะโจมตีศัตรูทันที หลังเข้าสู่การต่อสู้จะสร้าง DMG <nobr>#2[i]</nobr> ครั้ง โดยแต่ละครั้งจะสุ่มสร้าง DMG <span style=\"color:#F84F36;\">ไฟ</span>เท่ากับ <nobr>#1[i]%</nobr> ของ ATK ของ Guinaifen แก่ศัตรูหนึ่งตัว และมี <u>โอกาสพื้นฐาน</u> <nobr>#3[i]%</nobr> ที่จะทำให้เป้าหมายติดสถานะ \"Firekiss\"",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 500037,
+   "name": "Skill Showcase",
+   "iconPath": "45e02a4969efcef19a31a1996c7eaa24c3226bcc30d564a50ac761226129b799",
+   "typeDescHash": "เทคนิค",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      4,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1210101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1210202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1210203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1210204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 709494,
+          "name": "เสริมอัตราสร้างสถานะ",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+          "statusList": [
+           {
+            "key": "อัตราสร้างสถานะ",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633444,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 709495,
+        "name": "เสริม DMG - ไฟ",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+        "statusList": [
+         {
+          "key": "เพิ่ม DMG <span style=\"color:#F84F36;\">ไฟ</span>",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633444,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 709496,
+      "name": "เสริมการทำลาย",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "5a45f69adc0f8e5199b51b683fa7d30e52be092a956d087bc3e9c01e2cd7c10f",
+      "statusList": [
+       {
+        "key": "เอฟเฟกต์ทำลายล้าง",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549503,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "การโจมตีปกติมีโอกาสพื้นฐาน <nobr>#1[i]%</nobr> ที่จะทำให้ศัตรูเป้าหมายติดสถานะเผาไหม้ เช่นเดียวกันกับสกิลต่อสู้",
+    "ultimateCost": 0,
+    "id": 709336,
+    "name": "High Poles",
+    "iconPath": "b9a5f0a06a62fd4dea99fbbb5b9b9f3c73fc5f89d3533682779d69ff62f62880",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.8
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1210102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1210205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1210206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1210207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 709491,
+          "name": "เสริม DMG - ไฟ",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+          "statusList": [
+           {
+            "key": "เพิ่ม DMG <span style=\"color:#F84F36;\">ไฟ</span>",
+            "value": 0.048
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717385,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 709492,
+        "name": "เสริมการทำลาย",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "5a45f69adc0f8e5199b51b683fa7d30e52be092a956d087bc3e9c01e2cd7c10f",
+        "statusList": [
+         {
+          "key": "เอฟเฟกต์ทำลายล้าง",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717385,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 709493,
+      "name": "เสริม DMG - ไฟ",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+      "statusList": [
+       {
+        "key": "เพิ่ม DMG <span style=\"color:#F84F36;\">ไฟ</span>",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633444,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "เมื่อเริ่มการต่อสู้ จะเร่งแอ็กชันของ Guinaifen ขึ้น <nobr>#1[i]%</nobr>",
+    "ultimateCost": 0,
+    "id": 709337,
+    "name": "Bladed Hoop",
+    "iconPath": "c8eba4f2030667438047b6af07f2d3743c3472247e3091dffa2adf40941c38a5",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1210103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1210208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 709506,
+      "name": "เสริมอัตราสร้างสถานะ",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "อัตราสร้างสถานะ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717385,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1210209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 709505,
+      "name": "เสริมการทำลาย",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "5a45f69adc0f8e5199b51b683fa7d30e52be092a956d087bc3e9c01e2cd7c10f",
+      "statusList": [
+       {
+        "key": "เอฟเฟกต์ทำลายล้าง",
+        "value": 0.107
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717385,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "สร้าง DMG แก่ศัตรูเป้าหมายที่ติดสถานะเผาไหม้เพิ่มขึ้น <nobr>#1[i]%</nobr>",
+    "ultimateCost": 0,
+    "id": 709338,
+    "name": "Walking on Knives",
+    "iconPath": "644d777feadc1bbd2e4ef52227202a245eba397e191d7328439e4223ff14c6d3",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1210201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1210210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 592853,
+      "name": "เสริม DMG - ไฟ",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+      "statusList": [
+       {
+        "key": "เพิ่ม DMG <span style=\"color:#F84F36;\">ไฟ</span>",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717385,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 709497,
+    "name": "เสริม DMG - ไฟ",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+    "statusList": [
+     {
+      "key": "เพิ่ม DMG <span style=\"color:#F84F36;\">ไฟ</span>",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549503,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "ลำตัว",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "ATK",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "เท้า",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "ความเร็ว",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "เพิ่ม DMG ไฟ",
+    "propertyIconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ATK",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "พบกันครั้งแรก",
+   "text": "ฉันชื่อ Guinaifen! Gui ที่หมายถึงไม้มงคล Nai ที่หมายถึง \"เป็น\" ส่วน Fen ก็คือกลิ่นหอม ทั้งไพเราะและก็จำง่ายใช่มั้ยล่ะ? ปกติฉันจะเปิดการแสดงอยู่ที่ Exalting Sanctum ถ้ามีเวลาก็แวะมาดูได้นะ~",
+   "unlockRequirement": "",
+   "cnUrl": "5d7c1dee1d1e4b43b9ec8305b1fae2ccf0e93e86a03898235783286089a5a745",
+   "jpUrl": "6bc0167aa3387fc60aa9e4a72482c064edd35cbab48c49680d35d878b5c08972",
+   "enUrl": "5c28c9a6f8a0b570cd897b4612b201f4df9a8f18792457be14fd443554c5d759",
+   "krUrl": "0f7767d68c5dc56eb2bb2bc1828fbda2072f4aab59c5710f5dbdd6a0f6eb0e32"
+  },
+  {
+   "id": 2,
+   "title": "ทักทาย",
+   "text": "โอ้โฮ รู้สึกเหมือนไม่ได้เจอหน้าเธอ/นายตั้งนานแน่ะ ว่าไงนะ? เมื่อวานเพิ่งจะเจอกัน? อ๋า... ไม่ได้เจอกันหนึ่งวัน ก็เหมือนผ่านไปตั้งสามฤดูเลยนี่นา!",
+   "unlockRequirement": "",
+   "cnUrl": "9a0497aa4d5a49964de84fce3a512f29a64fca8c7f88e6cb269a9db0253d917d",
+   "jpUrl": "43b38d799915c11754f8a80ce19a5f64fe4edb2a0c1838e83c8c17974819dd02",
+   "enUrl": "b25464d56931646647a09150a0d5a17997565790f48c62c448b502ac96e9b14b",
+   "krUrl": "ef61ca65041d1fa0d7f328c8d044d774919374c08fa150864e64ee03a67771fe"
+  },
+  {
+   "id": 3,
+   "title": "บอกลา",
+   "text": "แล้วเจอกันใหม่นะ! ฉันจะเก็บที่นั่งแถวแรกเอาไว้ให้ ถึงแม้การแสดงริมถนนของเราจะไม่มีที่นั่ง \"แถวแรก\" ก็เถอะ...",
+   "unlockRequirement": "",
+   "cnUrl": "c44ddf6d61a0dcf87e0a44be01d8c13daf2c8c021a37f6eea2032f68347dc621",
+   "jpUrl": "b4c6f925733ae4d21be7159f897519d99e53277f48ea0c274c4a7aa7b2969d27",
+   "enUrl": "7c1194b1e8346bb4f9936e97d59e4ef656cbfce8fb749c39f568c7d625ab1d6d",
+   "krUrl": "b519d10c134e36897ea22f69b233525d7f97c75e845b67fb7e89dd0fb5641fd6"
+  },
+  {
+   "id": 4,
+   "title": "เกี่ยวกับตัวเอง - ชื่อ",
+   "text": "ฉันมีชื่อเดิมว่า \"Guinevere\" ส่วน Guinaifen เป็นชื่อที่ Shangshang ตั้งให้ตามแบบฉบับของ Xianzhou ถามว่า Shangshang เป็นใครน่ะเหรอ? ก็ Sushang แห่งกองอัศวิน Cloud Knight ไงล่ะ เพื่อนสนิทของฉันเลยนะ เธอ/นายรู้จักมั้ย?",
+   "unlockRequirement": "",
+   "cnUrl": "ad1b67b7c6ea9b16299fec794ab96da3cc07bd99c36dcf905f22fe956011f257",
+   "jpUrl": "bb49a35dcef472f10aabedb9c7c9b286b53aae4351cab983cdc94885ebe46a22",
+   "enUrl": "82b4dfeb18e1001f914e684a082c0ea55e74c6fb0fa2c35f8d6f15f89885fc42",
+   "krUrl": "146c54379e1556de5cdf6ef2c3a0d07b415f0f1b0387392ff43b4c34c9b3222e"
+  },
+  {
+   "id": 5,
+   "title": "เกี่ยวกับตัวเอง - ครอบครัว",
+   "text": "ฉันมีพี่น้องอยู่สิบกว่าคนเลย! พี่ชายของฉันคนนึงชื่อ Langshile เขาก็ทำงานอยู่ที่ Luofu นี่แหละ แต่เหมือนเขาจะชอบให้คนอื่นเรียกเขาว่า \"Lancelot\" มากกว่าน่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "a4561dc8eb4e3becf0f2d65a1761dd97aea1dd7eac54c6a9009adf196637d587",
+   "jpUrl": "7925fc7690631c770c5cf0238420ce053fd78052738514685aca4ef73a00ac7a",
+   "enUrl": "3b33d6c329a5ff50220fa79e6f07acfd22be9ad2205782664aaa4ef241c0e80a",
+   "krUrl": "5a453322b2ae9fb3f62e6619e1cc31ef88bdc783f72fa3b57e2b2f07a21d8a32"
+  },
+  {
+   "id": 6,
+   "title": "พูดคุยทั่วไป - กายกรรม",
+   "text": "ฉันก็ครูพักลักจำมาจากเพื่อนๆ ตามท้องถนนนี่แหละ ทีแรกกะจะใช้เพื่อเลี้ยงปากท้องเฉยๆ ใครจะไปคิดว่าดันรุ่งขึ้นมาซะงั้น เธอ/นายว่าน่าโมโหมั้ยเล่า ฮิๆ",
+   "unlockRequirement": "",
+   "cnUrl": "5ed11f499d484ade06a963149a8b08196e37f1488ddab79e1569f0e483c2898b",
+   "jpUrl": "8615c0d2f5202bc98d90940fd410c53bd547dcdedc4ef6ab7a078ebbe9bf6d14",
+   "enUrl": "b30e99826a622386dd23330c02b05a69476aa959b7df0100d223f661f3af2d3b",
+   "krUrl": "3e3419f395dc93649ae22870f2f1ee24efff1a3b37abee214013db265ea7c39a"
+  },
+  {
+   "id": 7,
+   "title": "พูดคุยทั่วไป - กลอนร้องเล่น",
+   "text": "สาวน้อยเพิ่งมาเยือนถิ่นแดนทำเลทอง ร่อนเร่เลี้ยงปากท้องด้วยการแสดง จะแตงหรือพุทรานั้นไม่ได้น้อยนิด แต่เงินเพียงหยิบมือ ย่อมแสดงได้ถึงน้ำใจ อย่ามัวแต่พูดพร่ำทำเพลงให้เสียเวลาไป เพราะทางนี้ มีการแสดงดีๆ มาให้ทุกคนได้รับชม!",
+   "unlockRequirement": "",
+   "cnUrl": "45510016e244930ddb26bdb26ee7498276c32bf5ade1739d87cca00f16740a12",
+   "jpUrl": "a2c4c7491068de9376b24145872996aa6e5361f5bc099d8842d9a450aaee6858",
+   "enUrl": "f6eaa90786921c7a299df870a5fcc140c53e3afc4eb7adaab22405eb08fff559",
+   "krUrl": "7e6e5bbf6573be192cc77096870654cc6c416f5b6cd59b0b1326d99ea4cc6d26"
+  },
+  {
+   "id": 8,
+   "title": "งานอดิเรก",
+   "text": "ไม่รู้สึกเหรอว่ากลอนและบทเพลงของ Xianzhou น่ะวิเศษมากๆ เลย ก่อนหน้านี้ฉันเคยขอให้ Shangshang สอนแต่งกลอน เธอแต่งอยู่ตั้งสามเดือน แต่ได้มาสี่คำ... ฉันว่าฉันคงเรียนไม่เข้าหัวแล้วล่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "e3d70b3efbf7609a09eb6f8b29f3a8485a80f27273783dca264f080f08833c64",
+   "jpUrl": "fa24aaaa01b9f609ff1a48441f304201a7bb60ccce0b94ff42badaacc8e2e1e7",
+   "enUrl": "cfbc308bd480eb9ec6d8230a3cda38495bd6d866beb914dc2b1ec6ce987e6a26",
+   "krUrl": "3ab969a74dc2d93ea282c23df494c3c48972bb83f2bc66dec04838af8ce40cdb"
+  },
+  {
+   "id": 9,
+   "title": "เรื่องกลุ้มใจ 1",
+   "text": "Luofu มีของอร่อยมากมาย แต่คนแสดงกายกรรมจะต้องรักษาหุ่นอยู่ตลอด... ดั่งคำที่ว่า คนเรานั้นไม่อาจเหยียบเรือสองแคม! หือ? สุภาษิตเขาไม่ได้ใช้กันแบบนี้เหรอ?",
+   "unlockRequirement": "",
+   "cnUrl": "454035470aa41d3bb2c21fece8ffcec0f722c288b5ea670599ddf1a739444291",
+   "jpUrl": "73e8d3a64ceb916a85253506bd5b32109a249a47b643abaa4449809b3e9dbcc1",
+   "enUrl": "9e8a121d30030d23279df4bb3e1941f97e70589f3652e03451c88099e2af5e29",
+   "krUrl": "8212da3ea61f65debdfbaaf799977313c19ec2651b95032772534f6e2b06742c"
+  },
+  {
+   "id": 10,
+   "title": "เรื่องกลุ้มใจ 2",
+   "text": "Shangshang น่ะชอบเรียกฉันว่า \"เจ้าหนู Gui\" ตอนแรกก็ไม่มีอะไรหรอก... แต่ช่วงนี้ฉันรู้สึกว่า แม้แต่เพื่อนๆ บนท้องถนนก็เริ่มเรียกฉันว่า \"เจ้าหนู Gui\" แล้ว แถมบรรดาผู้ชมก็ยังเรียกฉันว่า \"เจ้าหนู Gui\" ด้วย... ไม่ใช่ว่าอีกหน่อยทุกคนจะพากันลืมชื่อ Guinaifen ไปหมดนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "e0ad51e5f400f84973e5549e24fa12e73262ee4031d75e749ac92e9c84c7a84b",
+   "jpUrl": "45952dde5f4b3417f63d51d61244bae59f0a7f9b81c9601b5d3d383883dae785",
+   "enUrl": "6205c59391570ef2faf0742c59ebe5eaf646e31c4d0a12c0ee260d9f1b189f2e",
+   "krUrl": "c47b75fcb91aced5f3b12a739c6d76a38aa13b6d633769350959e92b55c3e517"
+  },
+  {
+   "id": 11,
+   "title": "เรื่องที่อยากจะแบ่งปัน",
+   "text": "สำหรับมาตรฐานของ Xianzhou แล้ว ช่วงเวลาของเผ่าพันธุ์อายุขัยสั้นอย่างเรา มันผ่านไปรวดเร็วมาก... แต่นั่นก็เป็นเหตุผลที่ทำให้เรา ต้องรักษาโอกาสที่ยังมีอยู่ในตอนนี้ไงล่ะ!",
+   "unlockRequirement": "",
+   "cnUrl": "2dbfd29687747b2d2ff766f81c30e939c125af5a70c0d0cdb674002091d4cbda",
+   "jpUrl": "ecd73767c7b0c5b24ca9d3efcc4b546a6bc97977099b5e92b44e64c8e7916556",
+   "enUrl": "213d850fef0e9bb0e497e641c6e8e4c3352ae2ab94e22223fc0014d003e3932d",
+   "krUrl": "f6e746b6f5389b9554f27367e2d2e9972e61aa1fa81c8be9451b0344f50d12d0"
+  },
+  {
+   "id": 12,
+   "title": "ความรู้",
+   "text": "Exalting Sanctum มีนักเล่าเรื่องตลกอยู่สองคน ก็คือ Back'n กับ Forth พวกเขามีน้ำใจมาช่วยเกลาบทให้ฉันด้วย อย่างเช่นกลอนร้องเล่นก่อนเริ่มแสดงอะไรทำนองนี้",
+   "unlockRequirement": "",
+   "cnUrl": "b6938ff9c204eba8198fef8bcf268df7808a101880dcfd276f3f6b6603a386cf",
+   "jpUrl": "fd81f20dff3e92bad534825fd21f7b9e1b3109626ed8a882ac231f82959ab023",
+   "enUrl": "2b93118831a5f6417276dd2f22196643ab2939c741c2bc61ac2a96bcb1180b86",
+   "krUrl": "cc0d12d5eeae8a7d1f783be1f7a13aace17e7ccb547383efa0537a22961654e2"
+  },
+  {
+   "id": 13,
+   "title": "เกี่ยวกับ Sushang",
+   "text": "Shangshang เป็นเพื่อนที่ดีที่สุดของฉัน เวลาอยู่ที่ Luofu นอกจากเพื่อนๆ ที่รู้จักกันตามท้องถนนแล้ว ก็มีแต่เธอนี่แหละ ที่รู้จักกันมานานที่สุด ตอนแรกฉันกะจะสาบานเป็นพี่น้องกับเธอ แต่เธอดันไม่เอาด้วยน่ะสิ",
+   "unlockRequirement": "",
+   "cnUrl": "f942eb0860ba9f83270feec89d6caa01ecac6d6868780981a6208ca377ed6e0e",
+   "jpUrl": "5ceeedd99bd0423152c56f832289ea903be4d20c8ad940f8246f7468f6609d25",
+   "enUrl": "8997a95b5c51f09a885efbe90bbd0d63880423f0e40a0c81267ef94116b63462",
+   "krUrl": "47d444507166ab2c5857efccc57c36cfc5445fe83397a904cbe53e282788e813"
+  },
+  {
+   "id": 14,
+   "title": "เกี่ยวกับ Jing Yuan",
+   "text": "ฉันได้ยินมาว่าท่านนายพลสนใจการแสดงตามท้องถนนพวกนี้ด้วย? ฉันอยากมีโอกาสไปแสดงที่ Seat of Divine Foresight สักครั้งจัง งานนี้ฉันจะต้องดังระเบิดแน่ๆ",
+   "unlockRequirement": "",
+   "cnUrl": "d954372b00cd6a0d64cae314ec223173921f5698fa75eac8e04df5f5fecc1593",
+   "jpUrl": "343f29d5b7f3bd241b293f5d21d022baf18d2be16cc1861bb6a8c0e243bbd9bd",
+   "enUrl": "3210b50dddf90a880e050b04ce83733d725935531b03d9b4d6b7faee8d0127b4",
+   "krUrl": "197e5741e1f256a401c48b6c0b95a7553e15093da652f004e1bd774696e0a2df"
+  },
+  {
+   "id": 15,
+   "title": "เกี่ยวกับ Yanqing",
+   "text": "ถึงจะไม่เคยคุยกับท่านนายพลมาก่อน แต่ก็เคยคุยกับทหารคุ้มกันของเขาอยู่นะ ตอนนั้นเขาถามว่าฉันเป็น \"นักดาบหญิง\" หรือเปล่า ฉันก็เลย แสดงการกลืนดาบให้เขาดูซะเลย!",
+   "unlockRequirement": "",
+   "cnUrl": "114add40292ff0059362c0640c2bc3a7fa41b7b2664f2d6e224959957170f402",
+   "jpUrl": "03aa2047611ab58ef7e55c9832bc5317e6bd026712e5cc6e55216fd9eaa1d800",
+   "enUrl": "57a9cdc13ab6fb8edb5fae9bad0415837c9c563f7cb2b12d3fa36551e3478718",
+   "krUrl": "c107cec53dc1bf5bbc40e4cb34f1a0058f07b10c67d562ab6472f83cce7c50e9"
+  },
+  {
+   "id": 16,
+   "title": "เกี่ยวกับ Qingque",
+   "text": "Qingque มักจะเล่นหมากหยกอยู่ที่ Exalting Sanctum เป็นประจำ บางครั้งพอเหนื่อยแล้ว ก็จะแวะมาดูการแสดงของฉัน ตอนนี้ฉันสามารถทายผลแพ้ชนะจากสีหน้าของเธอได้แล้ว... ถ้าหน้าแดงระเรื่อคือชนะ หน้าดำคล้ำคือแพ้ แต่ถ้าหน้าซีดเซียวก็คือโดนหัวหน้าตามจับอยู่น่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "971a8ee31a266e2e5f59f50ceea46937bfbc7bfe0488d1a188dc55a72948fcf2",
+   "jpUrl": "aa5241a03c8b68badf5b303d12c5f7832751e70ddcdb7a925bdf201589e3cb99",
+   "enUrl": "7934975f3fe61152d9e5afdd6991a33964f52bd899994ec7ea48e61c4f1059da",
+   "krUrl": "272abb8f161505318c472eb3d6d311e0bb1b8c9b43f532868fa2d67fd2057ecf"
+  },
+  {
+   "id": 17,
+   "title": "เกี่ยวกับ Huohuo",
+   "text": "Huohuo ยิ้มแล้วน่ารักมากเลย การแสดงของฉันไม่ได้ทำให้คนกลัว แต่ทำให้คนมีความสุขต่างหาก ดังนั้นฉันอยากเห็นเธอยิ้มบ่อยๆ จัง~",
+   "unlockRequirement": "ปลดล็อกหลังจากสำเร็จการบุกเบิกต่อเนื่อง \"ความฝันของมนุษย์จิ้งจอก\"",
+   "cnUrl": "e3d8e4f4a221959b97325c83ed3366a5087a30ffac1786f0bc61c894c0aff89a",
+   "jpUrl": "857c32ee2858c1393c9102e5a46a09f95440e35c904c1704d28a0c0f8f7d135e",
+   "enUrl": "2dc004f6e802b1bc922d6b51f5e50a43df37ad55960dd9895a70a50ee2f23e28",
+   "krUrl": "df61501d497026e2dab8e6323b43accbef68bc7c56fd724c6c5e0f728a30a675"
+  },
+  {
+   "id": 18,
+   "title": "เปิดใช้งาน Eidolon",
+   "text": "การใช้ชีวิตนั้นรีบเร่งรวดเร็วซะจนหัวหมุน แต่ชีวิตคนเราน่ะ ต้องค่อยๆ สัมผัสกับมันไปเรื่อยๆ~",
+   "unlockRequirement": "",
+   "cnUrl": "98e372c0694b9e9772e3e7d8ddd58ad7178b523aa36cd2db923fbd2f19b36ac9",
+   "jpUrl": "b15d9da54b2b5b9bc7e89ed2dfa3063d90fc9aa0e56397dab113ad4d8172b417",
+   "enUrl": "47e48a0788715e3193b900dfc836637a19445c5611e013ebe3ed36c06fa5c66a",
+   "krUrl": "f8ef2bc37efabde9207af54b7ebe4d48927513c77030b3442dea171db21e164a"
+  },
+  {
+   "id": 19,
+   "title": "เลื่อนขั้นตัวละคร",
+   "text": "กดไลก์ปังๆ โชคดีไหลหลั่งเป็นสาย!",
+   "unlockRequirement": "",
+   "cnUrl": "49d071fb53dbcd72a0df6f81bdeae7a4acce74434fc5189573dbd0c209d351ca",
+   "jpUrl": "50b41eb3ad9a8f98b9aab609e233b1e93f4f8ebd7cc900f69f2cc2679155dceb",
+   "enUrl": "70406926fab77af641ed51edf9d066ed4d897ec014dd744b51204165cbf1a92c",
+   "krUrl": "9a8d9090b049aabb1a725b9e45e23c528e2c383aed6381fdaa5eca527094834d"
+  },
+  {
+   "id": 20,
+   "title": "ตัวละครถึงเลเวลสูงสุด",
+   "text": "คนใหม่ภาพลักษณ์ใหม่... นี่คงหมายถึงฉันสินะ!",
+   "unlockRequirement": "",
+   "cnUrl": "d26a872cc63febb51751151866a90776b91526c786cb5504b16aeabdd7e422ab",
+   "jpUrl": "2de89c8daa0ff1ed99682605fb70959967f89a5807fdda1002ecdd0bcfc00048",
+   "enUrl": "c6254ec6773249937ff25a2f168b33da3c313107db005a50b011014130acfb0e",
+   "krUrl": "c87f3c2eafab3aac08f63c1a78b3421de6d3c595e7f8126311546a123dd1b518"
+  },
+  {
+   "id": 21,
+   "title": "เปิดใช้งาน Trace",
+   "text": "จงทำตัวเป็นน้ำไม่เต็มแก้ว แล้วจะนำพาความสำเร็จมาให้~",
+   "unlockRequirement": "",
+   "cnUrl": "2a04861a703342c3523a824dbd51759a1912df1e2b884ab7d90b173952d25d37",
+   "jpUrl": "70a855c9976a81cb58de6c0793fb142b7feca0834da9f25dc6d983fd57dfd132",
+   "enUrl": "40762995555616ff23822a9b150dc0fde3acba78695f5781d087c0f5d4ccdd03",
+   "krUrl": "90fbe4d73815add3bdb0434e3d6c4a494279005a78c70894b09927b8c416ee84"
+  },
+  {
+   "id": 22,
+   "title": "สมาชิกทีม - ผู้บุกเบิก",
+   "text": "ไง ผู้บุกเบิก ช่วงนี้ได้ดูไลฟ์ของฉันมั้ย เด็ดดวงสุดๆ เลยล่ะ!",
+   "unlockRequirement": "",
+   "cnUrl": "b956eaca6f6a5b6d64e0d694ee81615ee99ee413cb87580a32889630bedf7a3b",
+   "jpUrl": "d05cf11e90bddb4bf776acc1904c7dbfad2ecf924713f866c6595d01d0aeda79",
+   "enUrl": "d4fe40586fbe2c0c2b3a13d0fe74539ef38bab0632715857d81903e2e57d83ad",
+   "krUrl": "ad237fd198758c58cfcaf26522409c6439a3aa32983a4316f2698cc7c1a1793c"
+  },
+  {
+   "id": 23,
+   "title": "สมาชิกทีม - Sushang",
+   "text": "Shangshang! กำลังรอเธอมาขึ้นเวทีพร้อมกันอยู่เลย ผู้ชมเขาชอบกันมากๆ เลยล่ะ~",
+   "unlockRequirement": "",
+   "cnUrl": "4acdd8c8e0147bef6e843f54788d3d87deb6c6a3687bd8e877eb1cda246f543f",
+   "jpUrl": "6fa11bd36968178d40d8b4af33330570567c1ba0c3761c7724e616fe00b54f05",
+   "enUrl": "f552f1706899311cc26fffe214889fada08bc6c2faae1e4a1c4549d5279339a6",
+   "krUrl": "5ced7b62f88229f68e7dcc7fc62efd0e643ccd3c5736df0d51e04ed3a31168f4"
+  },
+  {
+   "id": 24,
+   "title": "สมาชิกทีม - Yanqing",
+   "text": "เฮ้ หนุ่มน้อย อยากดูการแสดงกลืนดาบมั้ย? สองวันมานี้ฉันคิดลูกเล่นใหม่ๆ ได้อีกแล้วนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "446976af03ad492bb9d1faf28d290d52d28720d75e2ba14199971db2024c691d",
+   "jpUrl": "89a35e6805c3fb61097771371ba57a4c548abb401ede913deed0a457ba001d2c",
+   "enUrl": "4eef223cdac8bb27a74a4b38d4a17368b01dcabedb2c32acb6e6f74dc6bf1d26",
+   "krUrl": "804868fffcefff513bb447733e36852812aac35ce4d3b756731f012f110369ae"
+  },
+  {
+   "id": 25,
+   "title": "สมาชิกทีม - Qingque",
+   "text": "อ่า วันนี้ Qingque ดูดีมีออร่าสุดๆ คงชนะมาสิท่า?",
+   "unlockRequirement": "",
+   "cnUrl": "df0ce329e4635a9e71d6d2008f07804431b6344f963641c688fe42dd91c214ca",
+   "jpUrl": "53993b6d788980b17759563ed0ddbe4219253b1c030edd625e860afb5a5bc45a",
+   "enUrl": "d596a39ed68fc10169562683fb6f36c0664d665610923798adc1c74a7accebd7",
+   "krUrl": "0bf966fa1abeecdbb9c88ceb333dcf9d4e065bd95328f61119e98b411df60565"
+  },
+  {
+   "id": 26,
+   "title": "สมาชิกทีม - Huohuo",
+   "text": "Huohuo ก็ขยับมาดูใกล้ๆ ได้นะ ไฟนี่ไม่โดนเธอหรอก~",
+   "unlockRequirement": "",
+   "cnUrl": "be294cfabda73d53a628dc0de37704b8ae490ab117e3b6b7c66e26984767be47",
+   "jpUrl": "9c4b581bbee083d3e95021a73a21fdcad3d88fb6db4d05470679bdb2ce09bd89",
+   "enUrl": "f740649d57bc4724581ed36328824544f1a361f459c9a67af52108bb5d875494",
+   "krUrl": "e0c64ab5d5b33004dfa6e21812947c4d70a35744c8ac52f22a2a351e505b1f4c"
+  },
+  {
+   "id": 51,
+   "title": "เริ่มการต่อสู้ - ทำลายจุดอ่อน",
+   "text": "ฮึ่ม อย่าออมมือล่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "79728ff96ef08ad1a2a8f13c7c18c25e3ec349707e95077e9187e2ab75e36ffb",
+   "jpUrl": "bf4882127aa8c6237bc7237845a6dc44b81fe2601ef50650829b53e91cba1dd4",
+   "enUrl": "408c9fd836af32b0bfa85c596ae47eb31354efb9c4fa52de15a3e4acf185349e",
+   "krUrl": "dc8fb1dc601f86baa2fd2deef8f4719140b4bb8cd08b7ebb8e4e1553932b2755"
+  },
+  {
+   "id": 52,
+   "title": "เริ่มการต่อสู้ - เตือนภัย",
+   "text": "ลนลานอะไร ใครมาก็คือลูกค้าทั้งนั้นแหละ!",
+   "unlockRequirement": "",
+   "cnUrl": "87fd9ae8073b06947d57f1d65bba7e3da460059958d82ecd709777f556e29e78",
+   "jpUrl": "81360affb6bf573de07848ea3ecfe6b885faad0570cd45cff8584f21b884e5e2",
+   "enUrl": "9626f9b3e50185349953b1d693f526b6089b010a50697b0b6f9584b02d4c3264",
+   "krUrl": "e1c0590e89c5fc02999987a3bd412855d4617356db0b329158af9db0f7e11090"
+  },
+  {
+   "id": 53,
+   "title": "เริ่มเทิร์น 1",
+   "text": "มีเงินก็ช่วยสนับสนุนกันได้",
+   "unlockRequirement": "",
+   "cnUrl": "8e5361ee8d3484d123bff7a4e781d6d5c4bda24de7942af69b3180b5d7d1e50a",
+   "jpUrl": "9d5422d60b39f2137f8093c886128a143f4eacb24d726a837007aa2f924af01e",
+   "enUrl": "c8883881f069fea2e73392a35bf931d32346a7d6d1c4aa11e7012483b00fb4f6",
+   "krUrl": "efcd58e499ac00887f576f02b2c4f81496cd7d48d7c114a524de0632981b2163"
+  },
+  {
+   "id": 54,
+   "title": "เริ่มเทิร์น 2",
+   "text": "ไม่มีเงินไม่เป็นไร แต่คราวหน้าอย่าลืมนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "6117032cef1752f4817beac93e67ff6166f9088142577d5796b62ce4b2459521",
+   "jpUrl": "7bf329fde379b725ad248f860e9ff94be7ba5879f0aaf9bb69332b16dca3d9fa",
+   "enUrl": "24991751b35395254f673baff231d7e516594db70f1bd2a59095923048332542",
+   "krUrl": "379705b687c31db57e1bc063a8a9b54b620bf017fdcfa1af64fc2ed619121f46"
+  },
+  {
+   "id": 55,
+   "title": "เทิร์นสแตนด์บาย",
+   "text": "อย่าเอาแต่อยู่เฉยๆ สิ แบบนั้นใครจะให้เงินเราล่ะ!",
+   "unlockRequirement": "",
+   "cnUrl": "81da0c16857430993794446a72c4b9d1c300f8f72ef98bf5182e7455468ca7e7",
+   "jpUrl": "79b3a2b2a0370bb4910b3dcc780894b8f1980aa709244ccf5c210a5845f73883",
+   "enUrl": "628049728b8b51b6206e8266c3d78100863f3c2717233289a82863b4f98fb495",
+   "krUrl": "2160e13b7bd3dab85b139a5e0c35bcdd5db54323eff7594cf6b63ece8b7b4ae0"
+  },
+  {
+   "id": 56,
+   "title": "โจมตีปกติ",
+   "text": "ร่ำรวยเงินทอง!",
+   "unlockRequirement": "",
+   "cnUrl": "3ca04353049bfa493d550d45f06aa9a42c75cc1fe98f1914098dd9e94f225101",
+   "jpUrl": "6cda45aae7bb7725aabd60730abf5d2b2ebb24b040220f6f3b768856444f6a5b",
+   "enUrl": "8f72fc096d6be7c83ac5b5fb5120e8de6bbe42791a9c68c28abfc38446b405e7",
+   "krUrl": "2a4164647793b365d9875a6876c857fbf182130e50878788722ae9ca6e592a0c"
+  },
+  {
+   "id": 57,
+   "title": "สกิลต่อสู้",
+   "text": "มั่งคั่งดั่งดอกไม้บาน!",
+   "unlockRequirement": "",
+   "cnUrl": "b305a5ace58c1e5e7c748f8065b42c5e53f260e980faf12ee4c6ee6c9bd7e206",
+   "jpUrl": "2a919cbdbc5ef183e7ffd32079156c078fb4c60e70ca0f037c7870237047d021",
+   "enUrl": "5d79629374c4156b0ead673a2fd55818eac4b4d8e6eb087c9ad5077555cebfe5",
+   "krUrl": "df80add4a2b8fd06e698fca8013643a885c35d6e5e9b3fcea7102c4f571c6079"
+  },
+  {
+   "id": 58,
+   "title": "โดนโจมตีเล็กน้อย",
+   "text": "ดีนะที่ฉันเคยฝึกมา...",
+   "unlockRequirement": "",
+   "cnUrl": "39edfc4d828b160834b37017aa924dba65afd93451d3c39cc4683c8056128346",
+   "jpUrl": "950e6fabd301689a39d52ecc93358a8f1408a8125de5e6d18a84969be4392fd8",
+   "enUrl": "e828e0caa5602e71187d44aa595f01b9022de5d1e1a23c113404a10b70e7d186",
+   "krUrl": "c99358dfe86e536e5ceefc719aa9bdc707be63b0d1e334d3f66c0bf8ac5a1ef7"
+  },
+  {
+   "id": 59,
+   "title": "โดนโจมตีอย่างรุนแรง",
+   "text": "เอาจริงเหรอเนี่ย!",
+   "unlockRequirement": "",
+   "cnUrl": "28f3dfb1330f9490521cdf7cf88c46e49e736e95da04f85734a321dab7729ded",
+   "jpUrl": "1df74361db6277faaf90ec90688bfe9dffc951a1c6bb331dee76708e00d57d52",
+   "enUrl": "394a59c29440d810cdd37a84cc28d9e608d0f0f952dabe294d1c09577f8ac86d",
+   "krUrl": "6215b51580b20eed92f39e825c4ccb6a3e0b400c3672ec8a9c1b1eafdec42401"
+  },
+  {
+   "id": 60,
+   "title": "ท่าไม้ตาย - เปิดใช้งาน",
+   "text": "แวะมาดูมาชมกันได้เลย!",
+   "unlockRequirement": "",
+   "cnUrl": "03312ebfbc79ac7aacc9dae4092955426935fc232db061890e5ce103c5ab09da",
+   "jpUrl": "dfa6030691aaffeda0fbe3e13370df31b0cbc13cde8255e623563c9497955b2b",
+   "enUrl": "8ba7432886ec2c77c9eb67fb0362eac0d1f711afa65b41bf7e8b8616bcafed28",
+   "krUrl": "a758c7a303a6f3ac2a1042654abfd224eefc2cca42f35ed4bdbae4b10392a6cc"
+  },
+  {
+   "id": 61,
+   "title": "ท่าไม้ตาย - ปล่อย",
+   "text": "นานทีปีหน ขอสวัสดีปีใหม่ล่วงหน้านะ!",
+   "unlockRequirement": "",
+   "cnUrl": "04b6540f644da1b31ca62445415c5594278cb028a4c6cae803107da3c3fa8ace",
+   "jpUrl": "0033542cd83be07230772e5adffc405b913817e4cba3275e2c81a850ec9eae62",
+   "enUrl": "b50c22bbfafdcc6b7054350e93371a47d200100ae40bec4eaab8a57c7d558c25",
+   "krUrl": "6b4d5477fecde086e0a57d6fe8ba6c0d86cdb050dcb203e00518313da3053ae3"
+  },
+  {
+   "id": 62,
+   "title": "หมดสติ",
+   "text": "โธ่เอ๊ย การแสดงพังไม่เป็นท่าเลย...",
+   "unlockRequirement": "",
+   "cnUrl": "7cf40860c1af7583fa513478ddc4fcb8380f9ddb123d0e9244fda02a8ac4d8db",
+   "jpUrl": "198e11c44927c9aa5f41720277a2c9cbfd67cdb47baa7fa07591d04051583ea0",
+   "enUrl": "c63e6c563063af93503980ed1371e2afa7881dcd2854597bce6a1975032ad049",
+   "krUrl": "23a1935e02f4519de23da121aa550ffcc5fe63e6dddc0aaef768dcfe8042d033"
+  },
+  {
+   "id": 63,
+   "title": "กลับสู่การต่อสู้",
+   "text": "จะแสดงตอนสั้นๆ ให้ดูละกัน!",
+   "unlockRequirement": "",
+   "cnUrl": "b30b56e35476127e56284e46ad2b36091133c86c26965e4c07e61ce0dbd0a4e6",
+   "jpUrl": "0c6f19ec4dde5e9cac9f2e8cf5cbf5fc712ad21a46d4ab914a4ba2826e32c3ba",
+   "enUrl": "a6877cc5d76b5d02ea7954211e40a7c41a84ec6ad0e77ed9e92b172b5a6162db",
+   "krUrl": "3c6379c967e6c91f897b8e27edfec9cbd39cc6d96375b4dc17ad3e9eadfeb9d4"
+  },
+  {
+   "id": 64,
+   "title": "ฟื้นฟูพลังชีวิต",
+   "text": "ไปเลย!",
+   "unlockRequirement": "",
+   "cnUrl": "c524e1731e0e1821da73a67f2074d4403804dbcc49e5157d15e8da6627f7df8f",
+   "jpUrl": "9015a18a596156d4e4e43a5a5987fe61787ef3b262f559cfb8331f54dda69c6a",
+   "enUrl": "a08eef747bbd8b34e10ccf048e0442a32b5de7bcbc5083df3990019b1c60327a",
+   "krUrl": "10eaea2f7c10a010692828ec274248eb6b3128014dbf3054d1338b8f0ff31fd9"
+  },
+  {
+   "id": 65,
+   "title": "เทคนิค",
+   "text": "ขออุ่นเครื่องก่อน!",
+   "unlockRequirement": "",
+   "cnUrl": "7491a48370474fdf47834de8573f8c90b79ad755f8a7cf230f06b3ecbe03d027",
+   "jpUrl": "886dc7e5c072442d9bf6681423bd5b568566450cf56c7d626a1a3fdd2a82d20e",
+   "enUrl": "2e33481a53c50bbe6e9fbac2324b000d5e6849968e50038c2be1889bd6f8edcd",
+   "krUrl": "98cd320ddf145a6be9a9f47b48232caf1d57088f8102a02e593ae69085787aec"
+  },
+  {
+   "id": 66,
+   "title": "ชนะการต่อสู้",
+   "text": "การแสดงครั้งนี้ ประสบความสำเร็จแบบสุดขั้ว!",
+   "unlockRequirement": "",
+   "cnUrl": "e30297312ea258bb910eda01da40136766ca07d830af07545d3b66cbf5e0c476",
+   "jpUrl": "72083a4136e350ac9156f259dfb9535b0a8088af963536e2934a9928b5f3e4ac",
+   "enUrl": "a30d773697185ec6f69b522277b67513c08f42074dcc171e776717c728e848be",
+   "krUrl": "ca499922ebb0b4cf837f740313f2dea17c1a7d03d092ad3c628ce3eb1e24b26c"
+  },
+  {
+   "id": 67,
+   "title": "เปิดสมบัติ 1",
+   "text": "อื้อหือ ได้ผลลัพธ์เกินคาดซะด้วย!",
+   "unlockRequirement": "",
+   "cnUrl": "a72f184f930f565bb68fd6fe4d2c74334029677e9b388eeb3171397eea16d26f",
+   "jpUrl": "d53f0b0e5ec218300ddece2eb08c9b2d0521be994acd61cdc87d243bd76a243f",
+   "enUrl": "125031d90d24157b563419eac7bc3e70f661874a27f6c61be08ff0b28af691a5",
+   "krUrl": "1c811b631c468707e0c280324dd614f11b754b5c09243173f72b4892e9ebc6c2"
+  },
+  {
+   "id": 68,
+   "title": "เปิดสมบัติ 2",
+   "text": "รีบเก็บเงินรางวัลเร็วเข้า!",
+   "unlockRequirement": "",
+   "cnUrl": "433d2835d6423fc2f199b03fe44febdca3a6ca3886355a956fe3f0b288632eb0",
+   "jpUrl": "b7506c3171ca556cfa7f9ec0e377e0e6743a4abe51e0d891ca4655421e5abf4c",
+   "enUrl": "f7455f44945f00addeb1ebf6a10ac8ba3f6b5887f305108efb8d6014e2fe84c6",
+   "krUrl": "0e5ace0b4043cc868ba073a31ef2d0867aabaf9992281fe79293a6caf9bd85a5"
+  },
+  {
+   "id": 69,
+   "title": "เปิดสมบัติล้ำค่า",
+   "text": "ยินดีด้วยๆ โชคดีไหลมาเทมายิ่งๆ ขึ้นไป!",
+   "unlockRequirement": "",
+   "cnUrl": "e2b2bf3806191f746c39821d81f53003fe720a9ec3d9ada595b80eae2070d09f",
+   "jpUrl": "5b58222fd3322322c9e4b636e7193d5b71ef50b571bc46bd47f19273f3aa1e43",
+   "enUrl": "c3a02a69577e9213db306a8896269b2aa0226b17d6c1387d0f8e9e1bcc21a7c9",
+   "krUrl": "9eae5f432e62a1149843b98ced1ab58a13885f1273cf36630dcdf3d8032b78e5"
+  },
+  {
+   "id": 70,
+   "title": "ไขปริศนาสำเร็จ 1",
+   "text": "มือเท้าว่องไว หัวใสสมองแจ่ม~",
+   "unlockRequirement": "",
+   "cnUrl": "fa8c6bd27648296b96a2083e3c47676de68fdcb263cb8d3e5109da2bd7b42743",
+   "jpUrl": "59c8637dc86f77534aabea80894294ac7b93746afc8f878e8bf2bc52a35987ac",
+   "enUrl": "a42ece0a3ba5f7239bf73285b1b52fdbbb3208e1b30a600d465cbe6bcbf69f0b",
+   "krUrl": "8d1416fbb2eb92475560cadb949725e70e99bcfaf97302432925c741d729de91"
+  },
+  {
+   "id": 71,
+   "title": "ไขปริศนาสำเร็จ 2",
+   "text": "อยากรู้เคล็ดลับงั้นเหรอ? ไม่บอกหรอก~",
+   "unlockRequirement": "",
+   "cnUrl": "d1224ea9076e6c977a9e6897278bde95b0c28067057741dbbc0922d572d6de87",
+   "jpUrl": "d4c9747c5322bac27dab1b8184da208939ca855293dbb5616c78ffb0843c4a08",
+   "enUrl": "2ad7b2d3c157e3359503edaf0a11a5233947aa831769517ac3ba5586a23d9a91",
+   "krUrl": "982ec57e5ac88951aad1630e7b0d8bf3d3cd6558352063503cd170bd89c8eabb"
+  },
+  {
+   "id": 72,
+   "title": "พบศัตรูเป้าหมาย",
+   "text": "เอ่อ คนข้างหน้านั่นน่ะ จะต้องไปหาเรื่องมันทำไม?",
+   "unlockRequirement": "",
+   "cnUrl": "ee7316d7a639c71fcbb81008322b43777793daebde4efdb276fa54e7b32317f7",
+   "jpUrl": "678a3378d2c352a4f5ba6523d0573e75667d3b6716371c882048e3a734f13fbc",
+   "enUrl": "6d5fb521b5c963c32fd74064a3037cdfb5170e32d3692b684e8136b2c70af012",
+   "krUrl": "77ef1c02405044526c716eb075e004c4c6f7912a32480879dfb2fe0d90bea365"
+  },
+  {
+   "id": 73,
+   "title": "กลับเข้าเมือง",
+   "text": "สถานที่ครึกครื้น ถึงจะมีลูกค้ามากหน่อย",
+   "unlockRequirement": "",
+   "cnUrl": "17d002ce3c813322faf1be47fdb792baf3558656bf552462c236c3a6cae12203",
+   "jpUrl": "9db5bc20a13ef5625fd834b62c73687e122d8f777eaf5bf1912c4b19169eed71",
+   "enUrl": "b64086cdf1e4a19b7ff53eb960e5f6e55c42f3f39cab0798274fc2081d4c8e04",
+   "krUrl": "ce53b3466cc85c2ae571e619e1aefb0c17677113c4c08a220b40bfe745f51eef"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "รายละเอียดตัวละคร",
+   "text": "ชาวต่างแดนที่ต้องเข้ามาอาศัยอยู่ใน Xianzhou โดยบังเอิญ จนได้กลายมาเป็นนักแสดงบนท้องถนน ที่ทั้งกระตือรือร้นและมีอัธยาศัยดี<br />เดิมมีชื่อว่า \"Guinevere\" ส่วนชื่อ \"Guinaifen\" นั้น เป็นชื่อใน Xianzhou ที่เพื่อนสนิทของเธออย่าง Sushang เป็นคนตั้งให้<br />เมื่อต้องเผชิญหน้ากับชีวิตใหม่ใน \"Luofu\" Guinaifen จึงต้องอาศัยความชื่นชอบในวัฒนธรรม Xianzhou ของตน ฝึกฝนทักษะการเอาชีวิตรอด... ทั้งการกลับหัวกินบะหมี่ ทุบหินบนอก รับกระสุนด้วยมือเปล่า และอื่นๆ อีกมากมาย",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 1",
+   "text": "ฮัลโหล~ ฮัลโหล~ ได้ยินชัดกันมั้ย? สวัสดียามเย็นพ่อแม่พี่น้อง! ยินดีต้อนรับสู่ห้องไลฟ์ของเจ้าหนู Gui จ้าา~<br /><br />ขอบคุณ \"ดอกไม้ไฟ_<nobr>49886</nobr>\" สำหรับซูเปอร์แชทนะ! \"เจ้าหนู Gui ไม่ได้มาไลฟ์ตั้งครึ่งเดือน จะเทแล้วงั้นเหรอ?\" จะเป็นแบบนั้นได้ไงล่ะ! พอดีว่าช่วงนี้ธุระในชีวิตจริงของฉัน ค่อนข้างเยอะนิดนึงน่ะ แต่ฉันก็ไม่ได้มาไลฟ์นานแล้วจริงๆ นั่นแหละ ขอโทษด้วยนะทุกคน~ ช่วงนี้เรื่องที่เจอในชีวิตจริง มันน่าสนใจไม่น้อยเลยล่ะ ไว้มีโอกาสจะมาเล่าให้ฟังนะ<br /><br />ส่วนวันนี้ อย่างที่เขียนในหัวข้อไลฟ์เลย... \"ค่ำคืนแห่งเพลงพื้นบ้าน! เจ้าหนู Gui จะมาแสดงเพลงพื้นบ้านของ Xianzhou!\"<br /><br />สรุปก็คือ ช่วงนี้ฉันรู้สึกว่า การแสดงกายกรรม เหมาะจะแสดงแบบออฟไลน์มากกว่า ก็เลยว่าจะลองไลฟ์สดร้องเพลงพื้นบ้านน่ะ และวันนี้ก็ถือว่า มาลองดูกระแสตอบรับซะหน่อย~ ถ้าทุกคนชอบ ก็อย่าลืมกดไลก์ กดแชร์ กดติดตามกันด้วยนะ และถ้าส่งของขวัญให้ ก็จะได้เข้าร่วมจับรางวัลการไลฟ์ครั้งนี้ด้วย!<br /><br />ขอบคุณ \"ผงนมผง\" สำหรับซูเปอร์แชทด้วย! ไม่เจอกันนานเลยนะ ผงผง~ \"ไม่เป็นไรๆ เจ้าหนู Gui ไลฟ์อะไรฉันก็ชอบดูทั้งนั้น\" ผงผง คุณคือนัมเบอร์วันนน! ถ้าวันนี้ไม่ดูไลฟ์จนจบก็ห้ามไปไหนทั้งนั้นนะ! จุ๊บๆ ม๊วฟ~<br /><br />อะแฮ่ม... ขอปรับเสียงแป๊บนึงนะ... หนึ่งสอง หนึ่งสองสาม หนึ่งสอง หนึ่งสอง หนึ่ง เฮ้... โอเค! ต่อไปก็คือการวอร์มเสียง! กลอนร้องเล่นคราวนี้ ฉันเป็นคนเขียนเนื้อเองเลยนะ ขอบอก~<br /><br />...<br /><br />ไม่ได้มา ตรอก Aurum เสียตั้งนาน ได้พบพาน การเปลี่ยนแปลง ที่หลากหลาย<br />ของบางอย่าง ก็เปลี่ยนไป ตั้งมากมาย บางทิวทัศน์ ยังคงคล้าย เป็นเช่นเดิม<br />เพื่อนบ้านใกล้ คนเรือนเคียง ยังอยู่ดี สุขชีวี แสนแช่มชื่น ระรื่นใจ<br />วันนี้เสียง ร้องของฉัน ดังก้องไกล ขอเชิญให้ ผองเพื่อนพ้อง มาลองฟัง<br />เสียงเชียร์ดัง คับคั่ง ปังปังปุ โดเนตให้ แบบจุจุ ทั้งเงินทอง<br />วันนี้ไม่ พูดถึงแล้ว เทพทั้งผอง เทพคันศร ยิงต้นไม้ ก็ไม่เอ่ย<br />สนใจเพียง แค่เรื่องเดียว ในตอนนี้ คือสาวน้อย คนดีที่ ตรอก Aurum เจ้าหนู Gui มาจากที่ แห่งหนใด ก็จะกลับ ไปสู่ที่ แห่งนั้นเอย<br /><br />...",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>20</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 2",
+   "text": "สำหรับ Guinevere ในวัยเยาว์นั้น โลกทั้งใบของเธอ ก็คือคฤหาสน์พิทักษ์ดินแดน และถนนอันแสนคึกคักหน้าคฤหาสน์นั้น<br /><br />พวกอาจารย์ต่างก็บอกว่า ตระกูลของเธอมีประวัติศาสตร์อันยาวนาน และมีชื่อเสียงโด่งดัง แม้แต่คฤหาสน์หลังนี้ ก็มีประวัติยาวนานหลายยุคอำพันเช่นกัน แต่ดูเหมือนวันเวลา จะไม่เคยทิ้งร่องรอยเอาไว้บนนั้นเลย ราวกับว่ามันเป็นอิสระจากกฎแห่งกาลเวลา และคอยคุ้มครองให้คนของตระกูลนี้ มีความสมบูรณ์พูนสุขชั่วนิรันดร์<br /><br />พ่อของเธอให้พี่ชายใหญ่ พี่ชายรอง และพี่หญิงใหญ่ศึกษาด้านการปกครอง โดยหวังว่าจะสามารถมอบอนาคตของดาวดวงนี้ ให้กับหนึ่งในสามคนนี้ได้ ส่วน Guinevere กับน้องชายน้องสาวคนอื่นๆ นั้น... ผู้เป็นพ่อเพียงหวังว่า พวกเขาจะมีชีวิตที่ราบเรียบและเปี่ยมสุข อยู่ในสวนสวรรค์อันสงบสุขแห่งนี้เท่านั้น<br /><br />Guinevere รักพ่อของเธอ เวลาเผชิญหน้ากับศัตรูทางการเมือง เขาจะน่ากลัวเหมือนกับกิ้งก่าหางหนาม แต่เวลาอยู่กับลูกสาว เขาจะเหมือนกับกระต่ายภูเขาขนกำมะหยี่ ที่ทั้งตัวใหญ่ยักษ์และอบอุ่นสุดๆ<br /><br />ในความทรงจำของเธอ พ่อนั้นยินดีทำทุกอย่างเพื่อเธอเสมอ ถึงขั้นยอมเล่นเป็นภูตผืนดินที่ถูกวีรสตรี Guinevere โค่นล้มในงานเลี้ยงวันเกิดของเธอด้วยซ้ำ ควรรู้ว่าในงานวันเกิดของเด็กๆ จากตระกูลผู้มีอิทธิพลนั้น อาจจะมีศัตรูทางการเมือง มาร่วมวงด้วยเช่นกัน... แต่เพื่อความสุขของเธอ พ่อก็ไม่เคยสนใจว่า จะตกเป็นหัวข้อนินทาของชาวบ้านอย่างไร<br /><br />ต่อมาเมื่อ Guinevere เติบโตขึ้นอีกหน่อย เธอก็เริ่มได้ยินเสียงเล่าลือว่า... พ่อของเธอควบคุมจักรพรรดิหุ่นเชิด ใส่ร้ายคนที่ภักดี และละโมบโลภมาก... เธอเชื่อว่าเรื่องพวกนี้เป็นคำโกหกจากศัตรูทางการเมือง แต่เธอก็รู้ว่ามันไม่ใช่เรื่องโกหกทั้งหมด<br /><br />แต่ไม่นาน เรื่องพวกนี้ก็ไม่สำคัญอีกต่อไป<br /><br />กองทัพ Antimatter เข้ารุกรานเต็มกำลัง พ่อของเธอนำทัพไปป้องกันเมืองหลวง โดยไม่ยอมถอยแม้แต่ก้าวเดียว เมื่อข่าวการเสียชีวิตถูกส่งมา Guinevere ก็เป็นลมล้มพับไป ตอนที่ตื่นขึ้นมาอีกครั้ง ก็พบว่าตัวเองถูกยัดเข้ามาในเรือเหาะ โดยที่มีน้องชายและน้องสาว กำลังนั่งร้องไห้อยู่ข้างๆ พี่ชายใหญ่กับพี่หญิงใหญ่ ถูกมัดด้วยเชือกอย่างแน่นหนา พี่รองเอ่ยอย่างจนใจว่า: \"อย่าเพิ่งแก้มัดพวกเขานะ พวกเขาไม่ยอมหนีมาด้วย\"<br /><br />Guinevere มองไปที่นอกช่องหน้าต่าง แม่ของเธอสวมชุดเกราะทหาร และยืนหันหลังให้กับเรือเหาะที่ค่อยๆ เคลื่อนขึ้นสู่ท้องฟ้า พร้อมออกคำสั่งกับคนรับใช้ ที่ไม่ยอมนั่งรอความตาย บนผืนดินที่ห่างออกไป พวก Voidranger กำลังทำลายคฤหาสน์พิทักษ์ดินแดนอยู่ และในจุดที่ห่างออกไปไกลขึ้นอีก ถนนทั้งสายกำลังมอดไหม้อยู่ในเปลวเพลิง ร่างกายที่ไหม้เกรียม กระจัดกระจายอยู่ทั่วทุกหัวระแหง ราวกับเศษดินโคลน<br /><br />สำหรับ Guinevere ในวัยเยาว์นั้น โลกทั้งใบของเธอ ได้ถูกลบหายไปจากจักรวาลแล้ว<br /><br />...<br /><br />เดิมทีนั้น ตัวฉันมา จาก Camelot มีพี่น้อง รวมยอดได้ เป็นหนึ่งโหล<br />โอ้วันคืน อันแสนสุข ไม่ทุกข์ทน แต่พินาศ มลายสูญ กลับยกพล มาทำลาย<br />พ่อแม่สู้ ต้านศัตรู สุดหัวใจ ใยกองทัพ มุ่งทำลาย ชาติสูญสิ้น<br />พี่ใหญ่พา น้องๆ ขึ้น เหนือล่องใต้ ไปอาศัย ที่ดาวเหมือง แห่งองค์กร<br />แย่งชิงของ ประทังชีพ แสนรันทด ไม่อาจหลบ เลี่ยงภัยร้าย ที่รุมเร้า<br />พี่ชายใหญ่ ทำงานหนัก ไม่มีเบา สุดท้ายเขา ถูกบีบให้ กลายเป็นโจร ดั่งจักรวาล พลิกผัน ก็มิปาน<br />ออกปล้นชิง เพียงพ่อค้า เว้นชาวบ้าน คนกล่าวขาน ว่าเขาเป็น วีรบุรุษ ช่วยจนสุด ทั้งยากจน คนอ่อนแอ<br />นำกลุ่มคน หลายร้อยชีพ รวมเป็นหนึ่ง ครอบครองซึ่ง ที่ทาง บนภูเขา เพื่อเลี้ยงเรา ครอบครัวเขา เหล่าพี่น้อง<br /><br />...",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>40</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 3",
+   "text": "สมัยที่ยังเด็ก พ่อของเธอมักจะบอก Guinevere ว่า คนคนหนึ่งควรจะใช้ชีวิตอย่างมีเกียรติ แต่ใครจะไปใช้ชีวิตอย่างมีเกียรติได้ที่ Hombert-σ กันล่ะ?<br /><br />นั่นเป็นดาวเคราะห์รกร้าง ที่มีสาหร่ายดึกดำบรรพ์ เห็ดรา และไลเคน ที่คอยรักษาสภาพแวดล้อมทางอากาศ ที่พอจะเอื้อให้สิ่งมีชีวิตอยู่รอดได้ แต่ในบรรดาสปีชีส์ดึกดำบรรพ์ ที่แพร่พันธุ์กันอย่างมากมายเหล่านั้น แทบจะไม่มีชนิดไหนเลย ที่จะไม่เป็นภัยคุกคามต่อมนุษย์<br /><br />ถ้าหากองค์กรสันติภาพแห่งดวงดาว ไม่ได้ค้นพบแร่ธาตุที่ซุกซ่อนอยู่ในดาวดวงนี้ ก็คงไม่มีใครอยากจะย้ายมาอยู่ที่นี่แน่<br /><br />Guinevere ใช้ชีวิตช่วงวัยรุ่นของเธอ อยู่บนดาวที่ยากจนข้นแค้นดวงนี้<br /><br />เธอผูกมิตรเก่งและเข้ากับเด็กคนอื่นๆ ได้ดีทีเดียว ทั้งลูกชายของคนยากจน ลูกสาวของผู้ลี้ภัย น้องชายของนักพนัน หรือน้องสาวของฆาตกร... Guinevere ไม่สนใจภูมิหลังของใคร ยังไงซะ เมื่ออยู่บนดาวดวงนี้ ไม่ว่าพวกเขาจะมาจากครอบครัวแบบไหน ก็อาจจะไม่ได้มีชีวิตอยู่จนถึงวันพรุ่งนี้กันทุกคนก็ได้<br /><br />องค์กรไม่ได้ควบคุมดูแลที่แห่งนี้ อย่างเข้มงวดนัก นอกจากพวกโชคร้ายที่เป็นหนี้ หรือพวกที่มีคดีอาชญากรรมแล้ว องค์กรก็ไม่ได้จำกัดเสรีภาพของคนงาน ขอเพียงพวกเขาสามารถจ่ายภาษีได้ก็พอ เพียงแต่หลังจากจ่ายภาษีออกไปแล้ว พวกเขาอาจถึงขั้นไม่มีเงินเหลือพอ จะไปซื้อเครื่องดื่มสักแก้ว ที่บาร์ในเมืองด้วยซ้ำ<br /><br />สมัยอยู่ที่บ้านเกิด พ่อของเธอ คือที่พึ่งพิงที่มั่นคงที่สุดของบ้าน แต่ตอนนี้ทั้งพ่อและบ้านเกิด ต่างก็ไม่มีอยู่แล้ว หน้าที่ปกป้องคุ้มครองครอบครัว จึงตกเป็นของผู้ที่มีอายุมากที่สุดเพียงหนึ่งเดียว... \"อัศวินกำแพงหิน\" ตอนที่หนีออกมา แม่ได้บังคับให้อัศวินผู้ภักดีคนนี้ หนีมากับพวกเด็กๆ ด้วย ส่วนตัวเองก็รั้งอยู่ที่บ้านเกิด ร่วมกับฝุ่นธุลีกลุ่มสุดท้าย ที่ตกลงบนผืนดินของถิ่นธุรกันดาร<br /><br />อดีตอัศวินเคยเป็นเพื่อนเล่น ที่สนิทกับพ่อมากที่สุด ต่อมาก็เป็นเพื่อนร่วมรบ ที่กล้าหาญที่สุดของพ่อ จากนั้นก็เป็นคนรับใช้ที่ซื่อสัตย์ที่สุดของพ่อ และตอนนี้... เขาก็ได้กลายเป็น \"บิดา\" อีกคนของพวกเด็กๆ จนถึงท้ายที่สุด Guinevere ก็ไม่อาจจำได้ว่าชื่อจริงของเขาคืออะไร แต่เธอคุ้นชินกับ อีกชื่อหนึ่งของอัศวินมากกว่า... คุณลุงกำแพงหิน<br /><br />เด็กน้อยผู้หิวโหยสิบกว่าคน ทำให้สถานการณ์การเงินที่ย่ำแย่อยู่แล้ว ยิ่งเหมือนกับผีซ้ำด้ำพลอย หลังจากผ่านการทะเลาะกันในคืนหนึ่ง กำแพงหินคนนั้นก็จำใจยอมให้พี่ชายพี่สาวทั้งสามคน ลงไปขุดเหมืองกับเขา แต่ไม่ว่า Guinevere จะเว้าวอนอย่างไร เขาก็ไม่ยอมให้เธอไปด้วย<br /><br />ค่ำคืนแต่ละวันผันผ่านไป เขาเริ่มแก่เฒ่าและโรยรา ปอดของเขาเต็มไปด้วยบาดแผล ที่ยากจะรักษา กระดูกสันหลังไม่อาจกลับมาตั้งตรงได้ เหมือนกับเมื่อก่อนอีกแล้ว สองมือที่เคยเหวี่ยงค้อนทุบอย่างองอาจ บัดนี้กลับบิดเบี้ยว จนถือไม่ได้แม้แต่ช้อนกินข้าว<br /><br />ไม่นานนัก เขาก็จากไป<br /><br />กำแพงหินทรุดพังลงอย่างไร้สุ้มเสียง และล่มสลายไปก่อนที่รุ่งอรุณจะมาเยือน ราวกับปราสาททรายบนชายหาด ที่พังทลายหายไปจากกระแสน้ำขึ้นลง ราวกับกิ่งก้านเหี่ยวเฉาในฤดูหนาว ที่ร่วงหล่นจากต้นเพียงสายลมพัดมาเบาๆ ราวกับจุดจบที่ถูกกำหนดเอาไว้แล้ว<br /><br />และด้านนอกกำแพงหินนั่น ก็มีเพียงโลกที่เต็มไปด้วยหิมะและลมฝน<br /><br />เหล่าพี่ชาย กลายเป็นโจรสลัดระหว่างดวงดาว ซึ่งนั่นเป็นเรื่องที่เกิดขึ้นหลังจากนั้นไม่นาน Guinevere ได้กลับมากินอิ่มอีกครั้ง แต่เธอรู้สึกได้รางๆ ว่าตัวเองเริ่มจะละเมิดคำสั่งสอนของพ่อ แล้วก้าวเดินไปยังชีวิตที่มีเกียรติน้อยลงอีกขั้นแล้ว<br /><br />ดังนั้น เมื่อพวกทหารจากองค์กรสวมกุญแจมือให้กับ Guinevere และส่งตัวเธอกับพวกน้องๆ ให้กับกองอัศวิน Cloud Knight เธอจึงถอนหายใจยาวอย่างโล่งอก<br /><br />ผู้คนต่างก็บอกว่าชาว Xianzhou นั้นจิตใจดีมีเมตตา เธอคิดว่ากองอัศวิน Cloud Knight จะต้องอนุญาตให้ครอบครัวของเธอ ได้ตายพร้อมกันอย่างสมเกียรติแน่นอน<br /><br />...<br /><br />ใครจะคิด ว่าพี่ใหญ่ นั้นเลอะเลือน เยือนปล้นจี้ เรือสินค้า จาก Xianzhou<br />ชาว Xianzhou ต่างเคียดแค้น และเคืองโกรธ จึงเลือกใช้ วิธีเหี้ยมโหด ดุจพายุฝน<br />พี่ใหญ่ถูก คนเหล่านั้น ปราบจากโจร ต้องก้มหน้า ยอมจำนน วอนพลทหาร ขอเถิดท่าน โปรดละเว้น และปรานี<br />ทหารปราบ โจรซื่อสัตย์ มีเมตตา จึงได้พา ทั้งครอบครัว กลับ Xianzhou<br />ใจกว้างลด โทษประหาร ของพี่ใหญ่ วางแผนให้ เราพี่น้อง มีทางต่อ<br />ส่งน้องๆ ให้ศึกษา อย่างเพียงพอ คุณ Yo ก็ เห็นฉันมาก ความสามารถ จึงถ่ายทอด ศาสตร์วิชา พาสอนสั่ง<br />พี่ใหญ่บอก ว่าเรียนแล้ว เดินให้ไกล แต่หากไม่ รู้ตอบแทน คำคนว่า ฉันนั้นหนา เป็นเยี่ยงสัตว์ ที่ลืมคุณ<br />ใครจะคิด ตรอก Aurum กลับสร้างฉัน จากเด็กสาว ผู้ยากจน คนคนนั้น สู่ชื่อเสียง ที่มั่งคั่ง ในวันนี้<br /><br />...",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>60</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 4",
+   "text": "\"โทษทีๆ พอดีระหว่างทางเจอคนเจ็บน่ะ เลยมาช้าไปหน่อย... อ่า เจ้าหนู Gui เธอร้องเพลงอยู่เหรอ งั้นฉันเงียบดีกว่า\"<br /><br />\"เฮ้! Shangshang มาแล้วเหรอ! ไหนมาแนะนำตัวกับทุกคนหน่อยซิ นี่คือแขกสุดเซอร์ไพรส์ของวันนี้เลยนะ! เธอคืออัจฉริยะคนใหม่ของกองอัศวิน Cloud Knight... คุณ Sushang นั่นเอง! ทุกคนพิมพ์ว่า 'ยินดีต้อนรับคุณ Sushang' กันหน่อยเร็ววว~\"<br /><br />\"สะ...สวัสดีทุกคน ฉันชื่อ Sushang... 'อัจฉริยะคนใหม่' อะไรกันเล่า! อย่ามาสร้างเรื่องให้ฉันนะ ถ้าหัวหน้ารู้เข้า ต้องโดนเฉ่งหูดับแหงๆ\"<br /><br />\"Shangshang รอแป๊บนะ กลอนร้องเล่นของฉันเหลือท่อนสุดท้ายแล้ว เธอนี่มาได้จังหวะพอดีเลย ท่อนนี้เกี่ยวกับเธอเต็มๆ~\"<br /><br />...<br /><br />สุดท้ายได้ เจอคนร้าย จิตใจดำ โชคยังนำ ฮีโร่สาว มาช่วยเหลือ<br />คนอาจถาม: ฮีโร่สาว ผู้แกร่งกล้า นั้นเป็นใคร ก็นั่นไง เพื่อนรักฉัน Li Sushang<br />ไม่ต้องเหงา อีกต่อไป ใน Luofu เพราะมีผู้ เป็นฮีโร่ อยู่เคียงข้าง<br />แถมยังมี คุณผู้ชม ไม่อ้างว้าง คอยผลักดัน รอคอยฉัน ขับร้องเพลง<br />ร้องแค่ท่อน สองสามท่อน ไม่เพียงพอ ผู้คนต่าง คอยร้องขอ ให้ฉันทวน<br />ส่วนเรื่องราว ของเจ้า Gui นั้นยาวนัก เล่าไม่พัก เป็นปีๆ ก็ไม่หมด<br />แต่ท่อนกลอน ของวันนี้ ควรจะจบ หากเพียงพบ ปรารถนา จะฟังต่อ เราก็รอ พบกันใหม่ ตอนต่อไป<br /><br />...<br /><br />\"เต็มสิบไม่หักเลย ทุกคนปรบมือให้เจ้าหนู Gui หน่อยเร็ว! แต่เรื่องฮีโร่สาวคนนั้น ทำไมฉันไม่เห็นจำอะไรได้เลย?\"<br /><br />\"คุณ Xiyan บอกว่า ผู้คนมักจะชอบเรื่องฮีโร่ช่วยสาวงามกันน่ะ ฉันก็เลยเขียนออกมาแบบนี้ไง ถ้าเธอไม่ชอบ... โอ๊ะ ขอบคุณ 'Emanator แมวเหมียว <nobr>8190</nobr>' สำหรับของขวัญ Diting พายุคลั่งด้วย! เถ้าแก่ใจป้ำมาก!\"<br /><br />\"เถ้าแก่ใจป้ำมาก! ...เธอจะเขียนยังไงก็ได้หมดแหละ! ถึงยังไงเรื่องที่เธอเขียนก็สนุกทั้งนั้นเลย\"<br /><br />\"โอเค งั้นตอนนี้ในที่สุด Shangshang ก็ได้เวลามา Show-Show แล้ว เริ่มการแสดงคู่ที่เราเตรียมกันมานานให้ทุกคนได้ดูกันเลย~ เอาล่ะ Shangshang ส่งซอมาให้ฉันหน่อยสิ ฉันจะร้องท่อน 'Teng Xiao สังหารงู' สักรอบ!\"<br /><br />\"การแสดงท่อนนี้ ไม่น่าใช่เรื่องง่ายเลยนะ\"<br /><br />\"ก็จริง คนในวงการต้องรู้อยู่แล้วว่า 'Teng Xiao สังหารงู' มันต้องเล่นดนตรีไปด้วย ร้องไปด้วย แล้วก็ต่อสู้ไปด้วย คนเดียวแสดงไม่ได้อยู่แล้ว\"<br /><br />\"เพราะงั้นก็เลยเรียกฉันมาสินะ! แล้วมันต้องแสดงยังไงล่ะ?\"<br /><br />\"ง่ายมากๆ~ วันนี้ฉันจะแสดงเป็น Teng Xiao นายพลแห่ง Luofu คนก่อน ผู้มอบความมั่นคงสงบสุขมาสู่เรา และเขาก็มีทักษะการต่อสู้ ที่ไม่ธรรมดาเลยทีเดียว\"<br /><br />\"แล้วฉันล่ะ?\"<br /><br />\"เธอก็แสดงเป็นงูยักษ์ที่ถูกฆ่าตัวนั้นไง... เจ้างูน้อยจะหนีไปไหน เอาดาบฉัน~ ไป~ กิน~ ซะ~\"<br /><br />\"อ๊ากกก โอ๊ยยย เจ็บๆ... Guinaifen! เธอเจอดีแน่!\"",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "小敢",
+  "cvJp": "直田姫奈",
+  "cvKr": "김수영",
+  "cvEn": "Morgan Lauré",
+  "camp": "Xianzhou \"Luofu\""
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Guinaifen",
+ "rarity": 4,
+ "descHash": "นักศิลปะการแสดงที่อาศัยอยู่ใน Xianzhou \"Luofu\"... หรือก็คือ นักแสดงบนท้องถนน เมื่อมีอาหารครบสามมื้อ เธอก็จะพร้อมไล่ตามชีวิตใหม่ใน Luofu ของตัวเอง",
+ "artPath": "fe5736c61990639719759500193efb2c13f52e4c8565f20de2d653bbe65a802d",
+ "miniIconPath": "90cf1c5c0614da53386f8258d95f292d74d8cc5dad7823f9de826c7c1212f919",
+ "damageType": {
+  "id": 2,
+  "iconPath": "bd8329d02d7ecfee2a1f565e89cf3bf7bf6aaa60bea29cec2b4f7192626a0311",
+  "color": "#F84F36",
+  "name": "ไฟ",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "96c3b8dd457b98955d440531986a23d509f705c13d7aa794d1e97bcfd03d5701",
+  "altIconPath": "b55d340138ed77756cd939d0d9ee2103a5398f999202c1ed19d092ac87333155",
+  "color": "#FFFFFF",
+  "name": "ลบล้าง",
+  "rarity": 0
+ },
+ "pageId": "guinaifen"
+}

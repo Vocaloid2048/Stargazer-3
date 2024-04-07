@@ -1,5 +1,7 @@
 package com.voc.honkai_stargazer.util
 
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.statusBarsPadding
@@ -23,10 +25,10 @@ sealed class Screen(val route: String){
 fun Navigation(){
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = Screen.HomePage.route){
-        composable(route = Screen.HomePage.route){
+        composable(route = Screen.HomePage.route, enterTransition = { EnterTransition.None} , exitTransition = { ExitTransition.None }){
             RootContent(navController = navController, page = { HomePage(navController = navController) })
         }
-        composable(route = Screen.CharacterListPage.route){
+        composable(route = Screen.CharacterListPage.route, enterTransition = { EnterTransition.None} , exitTransition = { ExitTransition.None }){
             RootContent(navController = navController, page = { CharacterListPage(navController = navController) })
         }
     }
@@ -38,8 +40,6 @@ fun RootContent(modifier: Modifier = Modifier, navController: NavController, pag
         MakeBackground()
         //Landscape can do ... ?
         Box(modifier = Modifier
-            .statusBarsPadding()
-            //.navigationBarsPadding()
         ){
             page()
         }

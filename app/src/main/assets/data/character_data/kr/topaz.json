@@ -1,0 +1,2789 @@
+{
+ "spRequirement": 130,
+ "iconPath": "55e229c8f8313102627f1e70814f232ada9cdd67353c1d0c3930a37cc18e747c",
+ "bgPath": "fc98f0dfcea95e05a0e284f095d8c09dbb78ec18be3d6347ea476b8781e2bb79",
+ "figPath": "d676592ac932355ab6420187dbe17214caba8a18831e2469ce301592bea5d8e1",
+ "fgPath": "67319da7d0efd78cb0e8439faa6156da0b63bbd2ca36a9b1de3a8e339ed49201",
+ "splashIconPath": "80ae17f3347cc3114ee3ae61d44f783ca639fafae7f26f4bf5a9d8f8644b4cc6",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRqoCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSB0BAAABkGtr27FH9/vFdtLZSWd7Zkrbtm2rs43Ktq3KB2B7pvrx3nfx4xgiYgIQ0AFgkBAOGABwAAOYUCC0O0a3wQBAuIPQgvxYg+SjB9+k+WRMLUtIXH9/3fktNc+keoQgBMPerrn4Q75v9X4CAGNQ81qStV6vlb7c2dElFAjd90ceS19L6UHfHmGhgyQrURIp69WO1P4du/6LpHxJ0aPRmcvXvRWpgKS+nMPY3V9EMZhvC6q2zb8ij0h/svpTmrBwyTWJEulD6l85YudcOPJMlqQo0qunAFD7RfJ4LP16NQRAKMpvSxI9llZypaxqARygfuHEGb8k6acuYuYAAI4BYsec2Ter64zDJ3IR0AmJcICY2n6VETAwfvya8EQABgAAVlA4IGYBAADQBwCdASoUABQAPm0ylUekIqIhKAgAgA2JaACdMuOBCLV5QegD/wb4BvIRKsPGg9mDTpXuoqJc0qOxcu/oHPYwoRvARFxIgADdvY31E83Edes/DC/5bdGF3cnDBlLCbK9h96/IB9F7tDxsDrohU1/3x5HZ7tPvZezkdo8DggdS2Ob9VTjzlfc4SEfLhyWVr9WVctWjB9kO260SP7bxvT3+ZPsdo1kjQ1Ou0+ze9O62vO/Juzt9vfzH9SC3CQaD/DxJtZR1qB9cCvkQGjSyR1RZYaRJBo7Va7Yo22F+Ius+1IJ+N2VIxzHnBz+5dzq9hxheAvG5P2o+rmA+eHQAjyRHM3/dPB9iRsN1VShQ1RtvKpTUwiZPFvUW8U9d1WiZ0vDiGIfTldsfjDG85gooIUKN6+Y4uXh2q3fhKONAS4E/29dsRFmZV+JGsYfYFgJ5uwwErB58uMcG6lYR0ODb6ja+B3+eCuAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 2,
+  "iconPath": "db0b64061159f4acfb6a3034911f3b42572d0d8d51723ca888b8ce49b06961c5",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "신용 포인트",
+   "desc": "스타피스 컴퍼니가 고객과 결산을 위해 사용하던 화폐. 오늘날 우주여행에 널리 쓰이는 경화가 되었다",
+   "lore": "「사람들이 그저 단말 장치에 표시된 숫자를 위해 분주히 뛰고, 싸우고, 거래한다. 하지만 정작 정말로 소중한 것은 컴퍼니의 숫자로 살 수 없다」",
+   "purpose": "통용 화폐",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "모조 꽃받침 [큰 광산구역]",
+    "모조 꽃받침 [공조사]",
+    "모조 꽃받침 [「레버리」 호텔-꿈세계]",
+    "임무 보상",
+    "의뢰 보상",
+    "잔화 교환"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "운명의 발자취",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "거듭되는 패배가 당신에게 승리를 가져다주었고, 한 걸음 한 걸음의 전진이 당신을 운명의 전환점으로 이끌었다",
+   "purpose": "행적 재료",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "시뮬레이션 우주 점수 보상",
+    "무명의 공훈",
+    "잔화 교환",
+    "스타라이트 교환",
+    "한정 이벤트 보상"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "무한한 가짜의 여한",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "그 많은 몸을 훔쳤으면서도 이것은 끝끝내 원하는 바를 이루지 못했다. 마치 묘약을 찾는 이들처럼, 그것은 더 이상 「파멸」을 두려워하지 않게 해 줄 껍데기를 갈망했다. 그것은 이게 이뤄지지 않을 꿈이라는 것을 잘 알고 있었다.<br /><br />「나는 수많은 세계가 괴멸의 신에게 삼켜지는 것을 보았고, 나는 그중의 한 송이 불꽃이었다. 그분의 손짓에 따라 나는 춤을 췄지만 마음 깊은 곳에서는 알고 있었다, 땔감이 다 타버리면 화염도 꺼져버린다는 것을…」",
+   "purpose": "행적 재료",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "전쟁의 여운 [인연경]"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "여행 가이드",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>20,000</nobr>pt 획득한다",
+   "lore": "세계를 횡단할 때 반드시 구비해야 하는 모험 총서. 읽기 버튼을 누르면 매력적인 목소리가 독자의 언어로 유명 모험가들의 다양한 세계에서의 모험 전기와 각 행성에서 획득한 값진 지혜에 대해 들려준다.<br /><br />「여행 가이드의 신규 시리즈 ≪우주 요리 가이드≫가 곧 출판됩니다. 많은 기대 바랍니다」<br />「투고는 지식학회 공감각 비콘 <nobr>23</nobr>θ 연락원에게 연락 바랍니다. 원고료는 원하시는 방식으로 지급합니다」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "「망각의 정원」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "모험 기록",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>5,000</nobr>pt 획득한다",
+   "lore": "정갈하게 제본된 모험 일지. 딱 봐도 교육적인 취지의 책이다. 모험의 시작과 끝, 가치 있는 정보와 생존 기술을 삽화와 글로 묘사했다.<br /><br />「왜 데이터화해서 디스크에 넣지 않는 거야? 그게 더 편리한데」<br />「항성 폭풍과 중성자 흐름 분출을 마주할 때, 첨단 기술은 네가 생각하는 것보다 많이 연약하지. 더군다나 이 책을 만든 사람은 이 책이 가장 간단한 방법으로 읽히길 원했을 거야」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "일일 훈련",
+    "잔화 교환"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "여행 견문",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>1,000</nobr>pt 획득한다",
+   "lore": "여행 견문을 기록한 일지. 알아보기 힘들 정도로 휘갈긴 글씨로 멋대로 적은 내용은 별 도움이 되지 않는다.<br /><br />「단항, 다 읽었으면 이 폐지 더미는 빨리 버리자」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "의뢰 보상"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d5bfc95d74fab56f9c9be440028051ed2a9e02f4ee968c8d3db170d5b55dd931",
+   "name": "철위대 배지",
+   "desc": "실버메인 철위대 병사가 착용한 배지. 강화에 필요한 기본 재료",
+   "lore": "풍화 작용에 마모된 흔적이 가득하다.<br /><br />「고대에 실버메인 철위대는 단 한 가지의 은퇴 형식이 있었다. 그것은 죽음이다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "영원한 겨울 재난, 불의 재난 드랍",
+    "실버메인 철위대, 방랑자 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "의뢰 보상",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환",
+    "모조 꽃받침(금)"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5be2ad896306c15eb63529806cc7e0175b2c2111e3a6f175accb00a85cf9b90e",
+   "name": "철위대 표식",
+   "desc": "실버메인 철위대 대장이 착용한 계급장. 강화에 필요한 일반 재료",
+   "lore": "가족들 앞에서 자랑할만한 증명일 수도 있고, 총알을 막아주는 행운의 부적일 수도 있다.<br /><br />「시대가 변했군」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "균형 레벨 Lv.2까지 돌파 후 영원한 겨울 재난, 불의 재난 드랍",
+    "균형 레벨 Lv.2까지 돌파 후 실버메인 철위대, 방랑자 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "635674": {
+   "id": 635674,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "bbfb88036f821da503753ae4189da74a1586b0b7ee8ec0f234bbf9fb53474d01",
+   "name": "짐승 사냥용 화살",
+   "desc": "선주 장인이 별의 한철로 단조한 화살촉. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">수렵</span> 캐릭터의 운명의 길 행적이 소폭 상승한다",
+   "lore": "성인식을 지낼 때, 부모가 생애 첫 사냥감을 사냥한 소년•소녀에게 선물한다. 그들의 생명이 시위를 떠난 화살처럼 목표에 명중하길 바라는 마음이다.<br /><br />「허리춤의 화살이, 칼집의 검이, 상하지 않기를」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/635674",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "717289": {
+   "id": 717289,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5c567b0d1a069f86d1fa35a17b282346606c69e5f8cab4028224ece84c8ad58",
+   "name": "철위대 훈장",
+   "desc": "공훈을 세운 철위대의 무공훈장. 강화에 필요한 고급 재료",
+   "lore": "균열의 마물에 대항하고 지하 사람과 갑작스러운 재난이 일어난 후에 수여된 명예로운 증거.<br />보통 수여자의 가슴이 아닌 관 위에 놓인다.<br /><br />「이건 장난감이 아니란다, 게파드. 기억하렴. 이건 랜도 가문의 사명이자 선혈이란다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/717289",
+   "comeFrom": [
+    "균형 레벨 Lv.4까지 돌파 후 영원한 겨울 재난, 불의 재난 드랍",
+    "균형 레벨 Lv.4까지 돌파 후 실버메인 철위대, 방랑자 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "836260": {
+   "id": 836260,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "567e2625dad62dc022ca7b71109c76754e7fc5cc2ac9daa5debb5c65282743ab",
+   "name": "별 쫓는 화살",
+   "desc": "천궁의 사명이 발사한 화살 비의 조각. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">수렵</span> 캐릭터의 운명의 길 행적이 대폭 상승한다",
+   "lore": "신의 기적이 남긴 흔적. 쉽게 볼 수 없다. 광년의 시간을 초월해 하늘의 별을 격파했고, 사람들은 빛의 화살이 남긴 잔화를 통해 그 힘을 상상할 수밖에 없다.<br />선주의 장인 두목 백야만이 조각을 다시 주조해 큰 공을 세운 영웅에게 선사할 자격을 가지고 있다.<br /><br />「별이 부서지고 하늘이 무너지나, 그 빛은 오래도록 빛나리라」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/836260",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "「만능 합성기」- 재료 합성",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "920201": {
+   "id": 920201,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "fdcef4e7b19d0d08fb9ea878b30e08be44286d0a6273f29c89a77c6e17ad9572",
+   "name": "악마 사냥용 화살",
+   "desc": "선주 장인이 별의 천영으로 만든 화살. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">수렵</span> 캐릭터의 운명의 길 행적 중폭 상승한다",
+   "lore": "손가락 하나 넓이보다 좁은 화살촉, 비살의 탄약으로 전자 석궁이나 열추적 활에 장착한다. 그 힘은 일격에 흉물의 돌처럼 단단한 몸을 관통할 수 있다.<br /><br />「천상에서 선인이 내려와 뗏목을 타고 별바다를 누비니, 날아오는 화살은 큰비를 부르고, 빛나는 투구는 하얀 달을 비춘다」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/920201",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "「만능 합성기」- 재료 합성",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "983279": {
+   "id": 983279,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "4278b6e89e5ce1f3e8f5ee4b3533db325b5adaf4fb9599da1b5c26c01508343e",
+   "name": "과열된 강철 칼날",
+   "desc": "화염의 부랑자의 부러진 칼날. 화염 속성 캐릭터의 승급 소재",
+   "lore": "실버메인 철위대는 가끔씩 정해진 시간 안에 괴물의 신체 일부를 가져오는 경쟁을 벌이고는 한다. 아마 이 부서진 칼날은 그 시합의 전리품일 것이다.<br /><br />「내가 두 눈으로 똑똑히 봤다니까. 게파드 방위관님이 한주먹으로 녀석의 뜨겁게 달아오른 칼을 박살 냈고, 맨손에 칼날을 쥐어 그 얼음 뚱보의 배를 찔러 칼날을 뜨겁게 물들였지」",
+   "purpose": "캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/983279",
+   "comeFrom": [
+    "정체된 허영 [큰 광산구역]",
+    "「만능 합성기」- 재료 치환"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 84.48,
+   "attackAdd": 4.224,
+   "hpBase": 126.72,
+   "hpAdd": 6.336,
+   "defenseBase": 56.1,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549407,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 118.272,
+   "attackAdd": 4.224,
+   "hpBase": 177.408,
+   "hpAdd": 6.336,
+   "defenseBase": 78.54,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549407,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 152.064,
+   "attackAdd": 4.224,
+   "hpBase": 228.096,
+   "hpAdd": 6.336,
+   "defenseBase": 100.98,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633348,
+     "count": 6
+    },
+    {
+     "id": 983279,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 185.856,
+   "attackAdd": 4.224,
+   "hpBase": 278.784,
+   "hpAdd": 6.336,
+   "defenseBase": 123.42,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633348,
+     "count": 9
+    },
+    {
+     "id": 983279,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 219.648,
+   "attackAdd": 4.224,
+   "hpBase": 329.472,
+   "hpAdd": 6.336,
+   "defenseBase": 145.86,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717289,
+     "count": 6
+    },
+    {
+     "id": 983279,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 253.44,
+   "attackAdd": 4.224,
+   "hpBase": 380.16,
+   "hpAdd": 6.336,
+   "defenseBase": 168.3,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717289,
+     "count": 9
+    },
+    {
+     "id": 983279,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 287.232,
+   "attackAdd": 4.224,
+   "hpBase": 430.848,
+   "hpAdd": 6.336,
+   "defenseBase": 190.74,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6e9eee0b8d2a09d7d3ab2b8b2b6a8e20dd710a7fc97f0523646fbc2818c3d722",
+   "artPath": "01e53f98c465730af328a6ae24d39bed5bd373fc5f6e16995ba2098f9ddc2de5",
+   "name": "미래 시장",
+   "descHash": "[부채 증명] 상태에 빠진 적이 추가 공격을 받을 시 [강제 집행] 상태에 빠진다. 해당 상태는 단일 공격 내에 최대 1회 적용된다.<br />[강제 집행]은 적이 받는 추가 공격의 치명타 피해를 <nobr>#1[i]%</nobr> 증가시킨다. 최대 중첩수: <nobr>#2[i]</nobr>스택. [부채 증명]이 해제되면 [강제 집행]도 해제된다",
+   "params": [
+    0.25,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "9f35040a3206afb21163f6edd3b58181612096089f4544b895293cc944dec7b5",
+   "artPath": "cb3570d664fda0f94ed2a5559e00375decfc67ecefb6fcac6ea621bd69d92912",
+   "name": "우호적 인수",
+   "descHash": "복순이 자신이 행동하고 공격 발동 후 토파즈는 <nobr>#1[i]</nobr>pt의 에너지를 회복한다",
+   "params": [
+    5
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "82c20f952a740f5e6e8faf7d8e5ba29a3f79de7e815e6d1bf9d9c54e8282ffdc",
+   "artPath": "bd3df32df9f3801fa1cb0f7aa5f9f18d6c086f47419319fb663d0b4c72b2aae1",
+   "name": "큰 것 잡고 작은 것 놓기",
+   "descHash": "전투 스킬 레벨+2, 최대 Lv.<nobr>15</nobr>. 일반 공격 레벨+1, 최대 Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "3bf4ff2ed6ed29a7b30b6c2be1a072559dda807f9675912889691e6d43e9764c",
+   "artPath": "2f58ad0d6f174b5dc62d86dd192716afb6fd6e9fcf8dfb7e6d3ea39b5c2fd716",
+   "name": "신속 처리",
+   "descHash": "복순이 자신의 턴이 시작될 때마다 토파즈의 행동 게이지가 <nobr>#1[i]%</nobr> 증가한다",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "3db8d64438607a00f2b24c9bfb3528318a096aa9da740f110e28daa6675fe9ab",
+   "artPath": "9354426beeb7368e6d3d0e079ba4879021c8e427bdabd7129b40da982ed80a81",
+   "name": "수요 인플레이션",
+   "descHash": "필살기 레벨+2, 최대 Lv.<nobr>15</nobr>. 특성 레벨+2, 최대 Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "01dabc1f066856a420a47a2eee00177e215c4199f433ff816faae367bc7eefbb",
+   "artPath": "4851f5e7fef211c6c42c8eb60bd80c9bc0d3449489586fc12b42a7ede95f5819",
+   "name": "인센티브 제도",
+   "descHash": "복순이가 [폭증!] 상태일 때의 공격 횟수가 <nobr>#1[i]</nobr>회 증가한다. 공격 시 화염 속성 저항 관통이 <nobr>#2[i]%</nobr> 증가한다",
+   "params": [
+    1,
+    0.1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   874440
+  ],
+  [
+   589913
+  ],
+  [
+   673854
+  ],
+  [
+   389327
+  ],
+  [
+   272682
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "단일 공격",
+   "descHash": "지정된 단일 적에게 토파즈 공격력 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼의 <span style=\"color:#F84F36;\">화염</span> 속성 피해를 준다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 874440,
+   "name": "적자…",
+   "iconPath": "fbe9e879640bee97c7e94c5e5c78250b80e2f78bdc492d8c4f727d1773ed43ef",
+   "typeDescHash": "일반 공격",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "단일 공격",
+   "descHash": "지정된 단일 적을 [부채 증명] 상태에 빠트려 적이 받는 <u>추가 공격</u> 피해를 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> 증가시킨다. [부채 증명]은 가장 최근에 부여한 목표에게만 적용된다. 아군 턴 시작 또는 행동 시 필드 위에 [부채 증명] 상태에 빠진 적이 없으면 토파즈가 임의의 적을 [부채 증명] 상태에 빠트린다.<br />복순이는 해당 목표에게 토파즈 공격력 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼의 <span style=\"color:#F84F36;\">화염</span> 속성 피해를 준다. 해당 전투 스킬 발동으로 피해를 가할 시 <u>추가 공격</u>을 발동한 것으로 간주한다",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "30",
+   "id": 589913,
+   "name": "결제 불가?",
+   "iconPath": "82c20f952a740f5e6e8faf7d8e5ba29a3f79de7e815e6d1bf9d9c54e8282ffdc",
+   "typeDescHash": "전투 스킬",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.75,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.825,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.21875,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.40625,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.575,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.65,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.725,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.8,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.875,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "강화",
+   "descHash": "복순이가 [폭증!] 상태에 진입하고 복순이의 피해 배율이 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>, 치명타 피해가 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> 증가한다. [부채 증명] 상태에 빠진 적이 아군의 일반 공격, 전투 스킬 혹은 필살기로 공격을 받을 시 복순이의 행동 게이지가 <nobr>#3[i]%</nobr> 증가한다. 복순이가 <nobr>#4[i]</nobr>회 공격 후 [폭증!] 상태가 해제된다",
+   "ultimateCost": 130,
+   "break": "0",
+   "energy": "5",
+   "id": 673854,
+   "name": "흑자 전환!",
+   "iconPath": "21398365c7876c975d26bab256fe7518bcd24b408001fc23af339e0a3364f6c7",
+   "typeDescHash": "필살기",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.75,
+      0.125,
+      0.5,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.825,
+      0.1375,
+      0.5,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.15,
+      0.5,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      0.1625,
+      0.5,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      0.175,
+      0.5,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      0.1875,
+      0.5,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.21875,
+      0.203125,
+      0.5,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      0.21875,
+      0.5,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.40625,
+      0.234375,
+      0.5,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5,
+      0.25,
+      0.5,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.575,
+      0.2625,
+      0.5,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.65,
+      0.275,
+      0.5,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.725,
+      0.2875,
+      0.5,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.8,
+      0.3,
+      0.5,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.875,
+      0.3125,
+      0.5,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "단일 공격",
+   "descHash": "전투 시작 시 복순이를 소환한다. 복순이의 기본 속도는 <nobr>#1[i]</nobr>pt이며, 행동 시 <u>추가 공격</u>을 발동한다. [부채 증명] 상태에 빠진 단일 적에게 토파즈 공격력 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>만큼의 <span style=\"color:#F84F36;\">화염</span> 속성 피해를 준다.<br />[부채 증명] 상태에 빠진 적이 아군의 추가 공격을 받으면 복순이의 행동 게이지가 <nobr>#3[i]%</nobr> 증가한다. 복순이 자신의 턴에는 행동 게이지 증가 효과가 발동하지 않는다.<br />토파즈가 <u>전투 불능 상태</u>에 빠지면 복순이도 사라진다",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 389327,
+   "name": "피그 마켓?!",
+   "iconPath": "abd065616038d85730d5f43febb6809cf7cc0538d6420da0c568a0f383475dd3",
+   "typeDescHash": "특성",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      80,
+      0.75,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      0.825,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      0.9,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      0.975,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.05,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.125,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.21875,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.3125,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.40625,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      80,
+      1.575,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.65,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.725,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.8,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      80,
+      1.875,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 소모시킨다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 188741,
+   "name": "공격",
+   "iconPath": "fbe9e879640bee97c7e94c5e5c78250b80e2f78bdc492d8c4f727d1773ed43ef",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "강화",
+   "descHash": "토파즈는 필드 입장 시 복순이를 소환하고, 복순이는 일정 범위 내의 일반 전리품과 저금통을 자동으로 탐색한다.<br />비술을 직접 발동하면 다음 전투에서 복순이가 첫 공격 발동 후 토파즈가 에너지를 <nobr>#1[i]</nobr>pt 회복한다.<br />비술을 발동하고 맵에서 적과 전투하여 승리한 후, 토파즈가 여전히 파티에 있으면 신용 포인트 획득 단계에서 추가로 소량의 신용 포인트를 획득한다. 신용 포인트는 하루에 최대 추가로 <nobr>#2[i]</nobr> 포인트 획득할 수 있다.<br />비술을 발동하고 시뮬레이션 우주에서 적과 전투하여 승리하면 추가로 소량의 우주 조각을 획득하고 낮은 확률로 랜덤 기물을 1개 획득한다",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 272682,
+   "name": "공적 지원금",
+   "iconPath": "29b773af4bb7a9e59b9bad274474e09854a7fbf8413202681148bf6221cba590",
+   "typeDescHash": "비술",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      60,
+      10000
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1112101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314258,
+        "name": "피해 강화•화염",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F84F36;\">화염</span> 속성 피해 증가",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920201,
+          "count": 3
+         },
+         {
+          "id": 633348,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314259,
+      "name": "치명타 확률 강화",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+      "statusList": [
+       {
+        "key": "치명타 확률",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 549407,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "토파즈가 일반 공격으로 피해를 가할 시 추가 공격을 발동한 것으로 간주한다",
+    "ultimateCost": 0,
+    "id": 314099,
+    "name": "당좌 대월",
+    "iconPath": "b6001e4e030c831e403818a4fc4a2d9d97ad8df329e4956bc7e1f0ba42fadc09",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314255,
+        "name": "치명타 확률 강화",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+        "statusList": [
+         {
+          "key": "치명타 확률",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836260,
+          "count": 3
+         },
+         {
+          "id": 717289,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314256,
+      "name": "피해 강화•화염",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F84F36;\">화염</span> 속성 피해 증가",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 633348,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "토파즈와 복순이가 <span style=\"color:#F84F36;\">화염</span> 속성 약점을 보유한 적에게 가하는 피해가 <nobr>#1[i]%</nobr> 증가한다",
+    "ultimateCost": 0,
+    "id": 314100,
+    "name": "금융 불안",
+    "iconPath": "7d279a8b775eb3328df13be4b44e471dd9e0cbd5ed3ea4f0f0596b5597672b26",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1112208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1112209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 314268,
+        "name": "치명타 확률 강화",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8",
+        "statusList": [
+         {
+          "key": "치명타 확률",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1112210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 398202,
+        "name": "피해 강화•화염",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F84F36;\">화염</span> 속성 피해 증가",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 314269,
+      "name": "HP 강화",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "복순이가 [폭증!] 상태일 때 적에게 공격을 발동하면 토파즈는 에너지를 추가로 <nobr>#1[i]</nobr>pt 회복한다",
+    "ultimateCost": 0,
+    "id": 314101,
+    "name": "기술적 조정",
+    "iconPath": "58ab09cd860072fda9670b6dcc630bc27b24f4d1f71d201fc28942bd4a9a5da2",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       10
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314260,
+    "name": "피해 강화•화염",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#F84F36;\">화염</span> 속성 피해 증가",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549407,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112204,
+   "anchor": 12,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314257,
+    "name": "HP 강화",
+    "levelReq": 0,
+    "promotionReq": 3,
+    "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 10000
+     },
+     {
+      "id": 920201,
+      "count": 3
+     },
+     {
+      "id": 633348,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1112207,
+   "anchor": 15,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 314254,
+    "name": "피해 강화•화염",
+    "levelReq": 0,
+    "promotionReq": 5,
+    "iconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#F84F36;\">화염</span> 속성 피해 증가",
+      "value": 0.048
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 45000
+     },
+     {
+      "id": 836260,
+      "count": 3
+     },
+     {
+      "id": 717289,
+      "count": 3
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "몸통",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "치명타 확률",
+    "propertyIconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8"
+   },
+   {
+    "relicTypeHash": "다리",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "공격력",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "차원 구체",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "화염 속성 피해 증가",
+    "propertyIconPath": "a25df6fe10558d9734945a0a4e14f71c30fc486e14d1a79ad6c941712191e9e4"
+   },
+   {
+    "relicTypeHash": "연결 매듭",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "공격력",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "첫 만남",
+   "text": "만나서 반가워, 나에 대해서 간단하게 소개해줄게. 난 토파즈, 스타피스 컴퍼니의 전략투자부 소속이야. 은하열차와 무명객의 업적에 대해서는 익히 들었어. 만나서 정말 반가워! 옆의 이 친구는 내 파트너야. 복순아, 와서 인사해!",
+   "unlockRequirement": "",
+   "cnUrl": "729143082740e167915f039803534acca255be54679d2b8140619050858b48b0",
+   "jpUrl": "1c1ccc4f5a0301a72f782d8b2f1b3d0ff36f8f409eb3a82696e7711707a1e342",
+   "enUrl": "fe0691e04d354136bc4f929b8ddb13dff8dc42f9b8de7e7a59ad968c9d693281",
+   "krUrl": "f9c6ededba54ee8add3c4e59a3a3d8109b1defdb4c7813fde46b33c4f01ee8a0"
+  },
+  {
+   "id": 2,
+   "title": "인사",
+   "text": "안녕, 오랜만이네! 잘 지내지? 일은 바빠 안 바빠? 야근은 많고?",
+   "unlockRequirement": "",
+   "cnUrl": "b772f82d1f5570749e6862e4167ee8ea56882ff8e583938df47c04976889217a",
+   "jpUrl": "6eb6403e502ff6248745a4a857e9171a8c6ffea45fbacd6ed47927099c06df9a",
+   "enUrl": "995422bef704acca2921cfc14ace80f21594c45b0c54ad973178a29d48e12b36",
+   "krUrl": "31a76d741b95bea3e6fac5853c8d9e16afa527881b047fb4a6d790d8dc265e55"
+  },
+  {
+   "id": 3,
+   "title": "작별",
+   "text": "이런 사소한 일로 나를 찾다니…. 미안, 미안! 갑자기 업무 전화가 와서 먼저 가볼게!",
+   "unlockRequirement": "",
+   "cnUrl": "79025be5272bd1f742d692eb7bf54c619d19b437790143d7e255c6174078d84c",
+   "jpUrl": "b607c776045104664b3c5cad56a792e0e6c1392ea6a89df0da48ff9aabbc010e",
+   "enUrl": "0b54441474156a036635e06b5fb215b7536dbadcd083565dc5a13fb54b3ff40c",
+   "krUrl": "9e335b489ac0432cdc1d4215a899c7d7830ab3103f13755870843f86d28c42be"
+  },
+  {
+   "id": 4,
+   "title": "자신에 대해•고향",
+   "text": "그 노래를 어떻게 부르더라? 「돌아갈 수 없는 그 이름, 고향」——응, 가사가 과장되긴 했지만, 나도 집에 안 간 지는 꽤 오래됐어…. 솔직히 말하면 별로 돌아가고 싶지도 않아",
+   "unlockRequirement": "",
+   "cnUrl": "f22ba70e330d1aa1a913d008bee6d2e6257519f3a82e70b3696e2eb442c2a97b",
+   "jpUrl": "2a8c2dff9246a38bbfa73dd249b9e86f26442a02bce630740e586fecaefed74f",
+   "enUrl": "c53a78a002f2b8589969018cf0301b189e70252765ed63950bb6516ee5e8c97e",
+   "krUrl": "a7ae8cbfb4b45daa1df73bbe23968a56c59a871893ab1e488e5c7791d05f80b8"
+  },
+  {
+   "id": 5,
+   "title": "자신에 대해•직업",
+   "text": "최대한 많은 사람의 이익을 보장해 주는 게 이 직업을 선택한 가장 큰 이유야. 컴퍼니는 내게 최상의 플랫폼을 제공하고 내 목표를 실현할 수 있게 해줬지…. 여기에 대해선 불만 없어",
+   "unlockRequirement": "",
+   "cnUrl": "b3e9633fdc05c3d741446e095df38f3bbcb99c3a5c78115693b5cece4f5b5ad5",
+   "jpUrl": "c72c421f92b4095a1239d3dc5e31405fb34e288c19a9f9483fd9a34833b15b7f",
+   "enUrl": "207852d1510829e2f7c2e0feb419a8c1a605ff9bacaf2e35ad60e9f82898b301",
+   "krUrl": "186311c43a5f5c9ee89f0f5763cc92843bfc751e7a1d8f8a1ddbde5b971d3ad4"
+  },
+  {
+   "id": 6,
+   "title": "잡담•직장",
+   "text": "일터에서 사람을 대하는 방법은 각양각색이라 나열할 수도 없을 정도야. 하지만 가장 중요한 건 진심을 다하는 거지——이건 상대가 동료이든 손님이든 내가 지키는 철칙이라고",
+   "unlockRequirement": "",
+   "cnUrl": "0b95fca724c7c85087651532e311471e74c59cec1b226c58679de7d50907c56c",
+   "jpUrl": "9adf2efc332d642e5af020a1fe11bcf4182c5e7a65cbb94c15cbf8ce10a6ea1c",
+   "enUrl": "61d25564cb6c120fbce8b3134282d209806235619a854872bc591dc9ac9a8afc",
+   "krUrl": "3ccee9c669a7660784709f6bc74208428c7647e5f56972650d02c3b96257bf66"
+  },
+  {
+   "id": 7,
+   "title": "취미•업무",
+   "text": "요즘 세상에 돈 때문에 일하는 사람이 어딨어? 돈은 수단이지 목적이 아니야. 업무는 사람을 즐겁게 만들어 줘…. 이건 가장 기본적인 이치라고",
+   "unlockRequirement": "",
+   "cnUrl": "a27b719be0c71e500329faeb1cb3ebfdb947f09b22c2ce98f22d555dd45488dc",
+   "jpUrl": "8de5dfffa40be36b1c1e67900e47feaaca140c4ba280b39129e0b8ca3a5bd756",
+   "enUrl": "2fada8ddab740d5067386cde06a8a7dd0af9294b030cee1de4261aa167733a62",
+   "krUrl": "0be8d107decdafcdd10b293e5f40cb16e237bc5629711aa92ebf16973bf1a081"
+  },
+  {
+   "id": 8,
+   "title": "취미•동물",
+   "text": "드넓은 별하늘, 수억에 달하는 귀엽고 신기한 동물들… 걔네를 위해서라도 노력해야지!",
+   "unlockRequirement": "",
+   "cnUrl": "901ac897f7d1519bf076df133a6b1f64b82691659185cb1647858f20b8d52fdc",
+   "jpUrl": "159c7ced3ced2eb082172d4acf717a5298ac9af2cd9aaa793cca39728d684983",
+   "enUrl": "87288ea801651be840188ad44014101caf27eb525e132a255cc04efa4a440eef",
+   "krUrl": "e350a4f15dcee10db1ab5d0cd22c9582657a57e0e58fa382c5a9200b7e8490b6"
+  },
+  {
+   "id": 9,
+   "title": "고민",
+   "text": "수학을 너무 잘하면 사람들이 다 널 계산기라고 생각해. 그래서 이 자리에 앉은 뒤론 내가 그쪽에 뛰어나다고 말 안 하고 다녀",
+   "unlockRequirement": "",
+   "cnUrl": "ab5cb74fcd3168dc60ccb8a8a8540e18615cb9d8a5e4d24d11becdb524392682",
+   "jpUrl": "2ca42cf0abefc34efce548cc23f70f47ff4bcd263551ab907ded9407387b0d93",
+   "enUrl": "1a8be455142c5a4c2fb2e0e01fbfea9846fc97481c319488239d45e1d50d70d0",
+   "krUrl": "d6e94ee94b56780853ec128300ecf80ec66faf11e8278009466f8fb5fc846752"
+  },
+  {
+   "id": 10,
+   "title": "공유",
+   "text": "원래는 다른 생태계에서 여러 동물들이 함께 생활할 수 없을 거라고 생각했어. 그래서 집을 여러 개의 생태 구역으로 나눴었지. 근데… 이 두 녀석이 얼마나 잘 지내는지 봐봐! 완전히 다른 두 행성에서 왔는데 이렇게 친해질 수 있다니…. 정말 신기해!",
+   "unlockRequirement": "",
+   "cnUrl": "7f48181023e995f1a8a405d47a5ef805a7d6138d9f749777a9c1381b415d4aaf",
+   "jpUrl": "fd83a06db76aa4f96caa79eb729a992ebaafa81240e3d6322be1c3c7f8b8f677",
+   "enUrl": "e455e938af23d263016b09dcc58ed639611762a0eb24fb67748c331aeaa07931",
+   "krUrl": "d603abbce1a03d0c0abf23d2b8d5e8ecefe0c8b18e4caba11205bbe249162c23"
+  },
+  {
+   "id": 11,
+   "title": "견문",
+   "text": "사람마다 사정이 있다는 건 알아. 하지만 각자의 사정 때문에 채무를 상환하지 않는다면 시스템 전체가 무너지고 만다고…! 그럼 집안 사정이 전 세계의 골칫거리가 되어버리고 말걸?",
+   "unlockRequirement": "",
+   "cnUrl": "5e2563819546ab3e4dcd8327121c088f0674992e24bc75ca044896265af7d5dd",
+   "jpUrl": "b4e08ee11bd73587497695f5ed90d28fefe713d054f289f3fe84498b602ff8fe",
+   "enUrl": "b8a2738163d4c4e1bf59fe30f821c0040d62a056d4becea87aecadb4dfe04171",
+   "krUrl": "f004f0c808017aa58abb5faa628be98cce91c449ebee7ad98f40abbb0a62a971"
+  },
+  {
+   "id": 12,
+   "title": "복순이에 대해",
+   "text": "예전부터 복순이는 반짝거리는 걸 가장 좋아했어. 금화나 보석 같은 거 말이야…. 너무 자주 먹어서 투자금이 복리로 불어나듯 오동통해졌지~ 그래서 사실 「복돼지」야",
+   "unlockRequirement": "",
+   "cnUrl": "8a80e3b101a7039f71dd053be01d411af3e2abd16f44d4dae33661631a369449",
+   "jpUrl": "71e59d019a04ce2add2665f04d9ab0de5b8927822bf595b5abc29e75f4b3e66f",
+   "enUrl": "ea7a1284e83aac8653182bb0bd60ec168c6ce97a69c0cbd01d57afc1b56f204e",
+   "krUrl": "2fb2aad0dae5807eeda70a78d029875f9cc6d53875af18d940af7e576fe20879"
+  },
+  {
+   "id": 13,
+   "title": "어벤츄린에 대해",
+   "text": "컴퍼니는 고사하고 「전략투자부」에도 뜻을 함께하기 어려운 인간들이 있어. 동료라고 해도 완전히 다른 부류지. 대표적으로 어벤츄린… 그와 교류할 일이 없길 바라",
+   "unlockRequirement": "",
+   "cnUrl": "faff096a46631513babe584fc11eab4081ae00c9ee741f5e8ce213237829f595",
+   "jpUrl": "41c8527c3e87c97fa3744afbba267fc724469b0f24d4df4a790f280de1731d8c",
+   "enUrl": "ef66d66e30313778c4ecd2e1c22bd92147a7bfbc61cc73da2a73fcaa77f9ef21",
+   "krUrl": "1cb31dc4fa81b2dbbe2787679a592b55595522cade637a03c9282064275d5024"
+  },
+  {
+   "id": 14,
+   "title": "브로냐에 대해",
+   "text": "벨로보그의 수호자… 음, 대단한 아가씨지. 성격은 실제 나이보다 훨씬 성숙해——뭐? 나랑 나이가 비슷하다고? 아니야, 상황이 완전히 달라서 직접적으로 비교할 순 없어……",
+   "unlockRequirement": "",
+   "cnUrl": "23a5e8c5532566bebe6b4aea55f3501fa83a2c5eff0e8afa50f0904e123c5b44",
+   "jpUrl": "faec50d8c94c651fc81b276587e558acabd7e63f9a392c6d762e52ee4b763408",
+   "enUrl": "3965695bf355d8687b4c901fca553e628f544eb77910ea1554d53bb2c1674e35",
+   "krUrl": "d556042b77a5baaca168df9b914e0618367b0783b8120f9db298f6b16bc7d566"
+  },
+  {
+   "id": 15,
+   "title": "히메코에 대해",
+   "text": "은하열차의 히메코 씨, 이름은 진작에 들어봤어. 동료가 말해줬는데, 미모가 상당하고 식견이 넓다던걸? 기회가 된다면 꼭 한번 만나보고 싶어",
+   "unlockRequirement": "",
+   "cnUrl": "702fbc6fcb9695325ad274df59b4034c154ad418e4742dd5d4690d07275eca21",
+   "jpUrl": "7afd20636a091a89c078d0ecb35021c42338cc04ba6731b8b8bdac122d6c20d2",
+   "enUrl": "d9f8b381f2cf11217c6dde74026832c6ef16f3a4fe9bc5d9aea4ab8366817086",
+   "krUrl": "9dcc3e5a287fb5777d129811fcb6a8a678276dce06c5d8b8adf1305f88967edb"
+  },
+  {
+   "id": 16,
+   "title": "폼폼에 대해",
+   "text": "은하열차에는 신비한 인물, 겉모습은 작은 동물 같은 차장님이 있다…! 응, 나도 그 소문은 들어봤어. 다 거짓 소문일 거야. 정말 소문처럼 재밌게 생겼다면 언젠가 꼭 한번 만나봐야지! 당연히 쓰다듬어볼 수 있다면 더 좋고……",
+   "unlockRequirement": "",
+   "cnUrl": "e338b5bb87c0877797feff02965188bd3920a80acc11f88f753a2b0757a1b49e",
+   "jpUrl": "367df6c81aaec98ae9514b5a01e1d3f663526437fa2103f5c2028e73ce0e72af",
+   "enUrl": "f7577b2829abdabf34c101819aa055835ca7bd62c2fdba7832c20a93c520d92d",
+   "krUrl": "56baf1f0f9dc8b90fe6261819e09a21c69aa4c03cc68e78d00dfe789812ab772"
+  },
+  {
+   "id": 17,
+   "title": "아스타에 대해",
+   "text": "아스타 아가씨? 진짜 엄청난 알짜배기야…. 그 아가씨의 집안이 얼마나 대단한지 짐작도 못할걸? 절대로!",
+   "unlockRequirement": "",
+   "cnUrl": "d3f097814bd6a3ed31ca7a53abd216bcc5f6177aff531a0855ce33443df8d0e9",
+   "jpUrl": "3955d301739f817960f060f305b5ac245973db5f7f3cb54f648b8b6e35dc4dae",
+   "enUrl": "3a6c75a8fb696983273428643ba269a18bb44cb34f4ac0aa8c3bdfa71ee9db14",
+   "krUrl": "9b72f023530d74c5e0551d941dd31d5304c946279c28eeb3ddd0d37163e4083c"
+  },
+  {
+   "id": 18,
+   "title": "스텔라론 헌터에 대해",
+   "text": "스텔라론 헌터? 잘 모르겠어. 같이 일해본 적 없거든. 듣기로는 접촉이 힘들다고 하던데, 신용기록은 의외로 양호해——뜬구름 잡는 음모론보다 난 이게 더 중요한 것 같아",
+   "unlockRequirement": "",
+   "cnUrl": "7b142433fe13d97a093abf22d3d54528a2b8b97b37247185f10588c910e9ca69",
+   "jpUrl": "b66b06d5cd840d7057aff7695c3429daee49783c156911514ba92dde6ed36f21",
+   "enUrl": "efebe5ad19ebf2352be31fca448e98e035c07f600b89c1d7a7fca513653b760e",
+   "krUrl": "905d547b694a6c2d0985c7a900eb4c23c81dd9547d7c6d514d67af61169a25c9"
+  },
+  {
+   "id": 21,
+   "title": "성혼 활성화",
+   "text": "상승세가 빠른데!? 하지만 이럴수록 침착해야 해",
+   "unlockRequirement": "",
+   "cnUrl": "9f99b3e91c5ae56041f3078fcb037f27b500a74651b857f1ce24e978dacb656b",
+   "jpUrl": "d9e2a12d2f91146b76f2e1c043c591ddbd4dc81a9830795fcd60c1b7975a2005",
+   "enUrl": "2dd37fc913285045791f974a1a0d4c3017d58479e63695269e191b5ef1369150",
+   "krUrl": "094893819f3379500a673e291786e31ed9a71aaa3b42e9bc54e1fd1002df8a24"
+  },
+  {
+   "id": 22,
+   "title": "캐릭터 승급",
+   "text": "좋아, 멈추지 말고 계속 올라라!",
+   "unlockRequirement": "",
+   "cnUrl": "5a29b3d1b6a486b91370ec984948f11344dc18dd2b3154a6c2cadd1eaf83dab6",
+   "jpUrl": "ac57ef85487ac2c8c1ddaaf41e635a9ef2457b5057749b9bacce0ce029ecf022",
+   "enUrl": "d5f986030fb526447a2fba82a03d2c96b6c124a1f11da0693c251919445b8c79",
+   "krUrl": "61fac348e4a3e5b28a88018425125981c4e60a0266ac69f3a49a7abcd7be9f2c"
+  },
+  {
+   "id": 23,
+   "title": "캐릭터 최고 레벨",
+   "text": "벌써 끝이라고? 아니지! 인생은 장기전이라고. 계속해서 위로 올라가야지",
+   "unlockRequirement": "",
+   "cnUrl": "1d734e57bf90d245195869f503554b7f52f7e78a6252360c3ad1a9760b0fbb0e",
+   "jpUrl": "0b6528ee3204fab68099a20c4c7c702f5f1f5d83d52446561a1ba389575aa655",
+   "enUrl": "9a66e59542a829ea40e41e5c00ac957660ca4d378205d8b937f8dd524b743848",
+   "krUrl": "6df04e851fe8bf2a09fd19cf21c04b4a63ccc5b651949e0013c122f5000d579f"
+  },
+  {
+   "id": 24,
+   "title": "행적 활성화",
+   "text": "나쁘진 않지만, 아직도 한참 부족해",
+   "unlockRequirement": "",
+   "cnUrl": "4eb91702b8decf259ecececb30348de2630ad168bc6690f197a3f5c2c225c046",
+   "jpUrl": "316d017ddf0ebff015fd6d34416f603b1d45b6a9ef34ff2422336114b14c0b0a",
+   "enUrl": "d2dee7cf4828b1237d2e6c3117c3f61a837103a544b06ab108a457df6374480a",
+   "krUrl": "2b096c02a955bc6a590129b621e0aab70d14136ed49de8efc8785bb2e67718a4"
+  },
+  {
+   "id": 25,
+   "title": "파티 편성•히메코",
+   "text": "히메코 씨! 히메코 씨와 함께 일하면 많은 걸 배울 수 있겠네요",
+   "unlockRequirement": "",
+   "cnUrl": "29c0f35c165e2705f56306586dd9c7874007aa9ac4551a43f21f27440434d617",
+   "jpUrl": "9e4e039ce8d330fdd4a5e85831bf76b748746663e36a152da73808cf617ab237",
+   "enUrl": "3dd77dc5d3926b34b6f0e9d5210d284aa25ca6f9fd8585ea31cd0aa8859d95fc",
+   "krUrl": "c5b02f955ee20df76bec5608536d69179c1be8f617f4364ffdc39960d80ecc4e"
+  },
+  {
+   "id": 26,
+   "title": "파티 편성•브로냐",
+   "text": "요즘은 어때요, 브로냐 씨? 아무리 바빠도 쉬는 시간은 꼭 챙기세요. 나처럼 되지 말고요",
+   "unlockRequirement": "",
+   "cnUrl": "7cc4851f817bd93104e1e94ae36bdc6ef5927498b50b5cf0830ae3a5867675b8",
+   "jpUrl": "0692ec6c603eb6b8d383e0e5bee87a72fd39978bd1dc0f1ebba6dd73cbcf8890",
+   "enUrl": "1ba3e2cd5be089ed399d3529641068385931241af8e7cbc5d4cde95e23eeb5a9",
+   "krUrl": "5e258dcef2331ae44966c6db8f480ea8b266e5697ff37f1e79131417889b38a2"
+  },
+  {
+   "id": 27,
+   "title": "파티 편성•아스타",
+   "text": "아스타 씨, 만나서 반가워요! 아버님은 건강하시죠? 나중에 같이 식사 한번 해요!",
+   "unlockRequirement": "",
+   "cnUrl": "13d109cc707b909b1ca6d33a2bb92a132c99bbbad178661edd019857249fdcef",
+   "jpUrl": "addf03ec06c76c442d186105d912db10f85de8e788822b0b2d3a3d4cf91abeb4",
+   "enUrl": "6226469d7d43580dd794551925cffa50b825f7bd9d1d710c83617b5fa1943b73",
+   "krUrl": "f6c0d7a060a17ef178b0527f63bfa13002a3308917c92886d963e2bb37f29f7a"
+  },
+  {
+   "id": 28,
+   "title": "파티 편성•어벤츄린",
+   "text": "응? 이번엔 당신이랑 같이 움직이는 건가요? 뭐, 서로 도울 수 있으면 좋죠",
+   "unlockRequirement": "",
+   "cnUrl": "0de4b67aa72ac475106c9424326a6fa4f8222bfb17fc13680ef0f4ed1cb42e4a",
+   "jpUrl": "a37736a2ec70865b6fe161cd2a61ca115041a4a2c68794ce2a8bc786bd984fdc",
+   "enUrl": "54d9b2b57dd2c10b33e023e956f8a471cf7dc67a793a4877f82c56703910fbfe",
+   "krUrl": "5ac098bc956c63aa1610ba6999ebd31200224867fb216841f80ab1252e01f06a"
+  },
+  {
+   "id": 51,
+   "title": "전투 시작•약점 격파",
+   "text": "오를 것 같아",
+   "unlockRequirement": "",
+   "cnUrl": "e9b772b90b0096dc80cee867fe49025d7801bd90859b31b5c026a8644e8737d0",
+   "jpUrl": "7bd20935943548cc8bdc4da730c26d55ab46c2dcbb5dc5524f997b98ede5f368",
+   "enUrl": "f2084b78e0d6832683d374742c45972fc78221df5d899e6438e8387a129080b5",
+   "krUrl": "c2d32a16c95ce38a82a40b41ac9a0fec7ad98e9a3e7e5981df87b9417dec9f8c"
+  },
+  {
+   "id": 52,
+   "title": "전투 시작•위험 경보",
+   "text": "위험 의식을 키워야 해……",
+   "unlockRequirement": "",
+   "cnUrl": "005b2f80c24144b55573afae8600a5adf786f80ac71ed49657366dd98af1f1dc",
+   "jpUrl": "cd783772fbd114a60ec1f445d6ad9e3cb30838bd86a6f8140ddbd668ddb52cf2",
+   "enUrl": "5464633ed6943bc5afd1d58e8b49b5c42a664ca5e559afa5b3103d7a3983163b",
+   "krUrl": "2b98291d89470932502039974508bc27103f3493af043c1ed3d3e4f0019800da"
+  },
+  {
+   "id": 53,
+   "title": "턴 시작•1",
+   "text": "자산 평가를 시작하지",
+   "unlockRequirement": "",
+   "cnUrl": "44a23f7a2ad727bed74bec62383e29d1a9c21f930a113091e2da6aaa36e9c712",
+   "jpUrl": "7c09ee0eb260dff6ddd7b318336beeb53f14f1273fd00d29b071484426bc2c36",
+   "enUrl": "ff3b9f36874c3c24481bdb0c42cf8b20dcca8c0e8421146de9c019d62c1d878f",
+   "krUrl": "a6849c33ef42447eb2c5f3757946bcb88bf0426b238e40ee2ade4ff59991373d"
+  },
+  {
+   "id": 54,
+   "title": "턴 시작•2",
+   "text": "기다려, 복순아! 기다려~",
+   "unlockRequirement": "",
+   "cnUrl": "f9641cf10135d0a81b0a48e1bb5263d4337c7dc33958d288105c651065d8b5a3",
+   "jpUrl": "a968dbb81b78559f548bdae48d04433f324281c20f02a38017dc4dfa7816b02a",
+   "enUrl": "630e1c62d48c40244c14caa18ad526efe5acd170fe0ee1c220eb14689316253e",
+   "krUrl": "02a57c21ffb3092fd515c4809ff2ca54f203a2f116e492d8422f7f5590031c77"
+  },
+  {
+   "id": 55,
+   "title": "턴 대기",
+   "text": "시장 상황은 정상이니 내킬 때 팔아~",
+   "unlockRequirement": "",
+   "cnUrl": "b7db8be65470a6a00b9d374810216e2a5fa7c8938b574c1a6cc6b212b5e2f202",
+   "jpUrl": "31b4da56dfc2822f199f968dca5a73d6c1975d0eb4dced179d074a9fc3df9120",
+   "enUrl": "4555be6ceef691a9690b5679484da2f005ca3ca674005b509b26d10778dc1d71",
+   "krUrl": "270f3df1e52f5ef0f7cc08dd97e5df6130bf81d0afc34be8d3fa7488e6721171"
+  },
+  {
+   "id": 56,
+   "title": "일반 공격",
+   "text": "아직 상환 안 했어?",
+   "unlockRequirement": "",
+   "cnUrl": "6e89dad58f4adff286a75b604839458ab5e4170bba4158df919f7ea9c0b449ad",
+   "jpUrl": "3dbfeca1b4da4afe0606b499aab0093376689f19525aae7e08dd52a6732fd7a5",
+   "enUrl": "43da50aa416ac30ef4140fc62e067be4c34326a7f793225da5bec3886674d1a9",
+   "krUrl": "8eb3d4d9876088dea447124b1a8d5256b6bd2eb8486b63baeecbe42c44105872"
+  },
+  {
+   "id": 57,
+   "title": "전투 스킬•1",
+   "text": "복순아, 따끔하게 혼내줘!",
+   "unlockRequirement": "",
+   "cnUrl": "09e2c887dcfffc58dcd3b90e8a32de1fdffc8a322e8d4b744dcf7bb5db49c3e0",
+   "jpUrl": "5fccc12776c96fe7a4d8fdd620eefb9a682f8bb40558c98d4ee2f4ac04666bbb",
+   "enUrl": "fc4320a966aa69935d6a437ec5acdb776668cef5112b9b070e80c9fd03c4d5ce",
+   "krUrl": "3bf794e2f84d38f770dcb28638a76f6a408394669b427b19dc11226d783fd402"
+  },
+  {
+   "id": 58,
+   "title": "전투 스킬•2",
+   "text": "정산할 시간이야!",
+   "unlockRequirement": "",
+   "cnUrl": "4366ce82a39c759d7569209072d25cbe74c91bec8a965f58db5f2028cb4b3feb",
+   "jpUrl": "2b361777a77cc6f8b94abaa8843a6f99f26db64b4596fc16ab6ef34e4cad67ac",
+   "enUrl": "af98e3c6650121a3f7d726b86738737015ede7e34803b1972b345f826ed4c8da",
+   "krUrl": "d11961eb243e701426eb2c5321c827b0e5ce7d58e1bbe2076745adfd3f405a28"
+  },
+  {
+   "id": 59,
+   "title": "전투 스킬 강화•1",
+   "text": "원금에 이자까지 다 갚아!",
+   "unlockRequirement": "",
+   "cnUrl": "65c17d473507e0b148eab099badb788dca48390468e3539ca05c3a2ab66bdad0",
+   "jpUrl": "8ef883979db08ae09b7c55680c344276054ed0282b5ca9a437ca133871fe4d18",
+   "enUrl": "f7ac4047a6a1c6fc3f1565f82034997ee5fdaf0c7cb76d8195e0f9630351e583",
+   "krUrl": "19cc20fb79a0031dc22a95e3562bcce52274934169f78d76fcdf95cc56fddded"
+  },
+  {
+   "id": 60,
+   "title": "전투 스킬 강화•2",
+   "text": "전 재산을 몰수한다!",
+   "unlockRequirement": "",
+   "cnUrl": "66bfd6d652843284441dcfe19e57c32fcb40cab9a07bdbeac01668d8f03677fa",
+   "jpUrl": "aac583bd5d19c73c95d6ce8803edc28943ff51c669da01d615f7a7b9c909ed70",
+   "enUrl": "1f5132dc1f589b75e088c120b099b8b7495c1872ae84492f46d3ebb58bc4a66b",
+   "krUrl": "623af4290b1fcf7c2d0757fedb97b3bdcc7e74bd2c1c2ecf6281b14db23b3677"
+  },
+  {
+   "id": 61,
+   "title": "약공격 피격",
+   "text": "침착해……",
+   "unlockRequirement": "",
+   "cnUrl": "3f89efbb32a0d57bc4f4fbbb71d78d4adf38964cd7c41b8c4bbf34a93f8f10fb",
+   "jpUrl": "32ca9a4ab2d5148f2801990da2736b80a3d97233a3dfa7fefd32f7c14466f73e",
+   "enUrl": "9c3f7a6369855c77cb1c2174de80b7bf3ad132e46744ada8e407e2cd1e08bf6d",
+   "krUrl": "9d09fb0f456dcd570a85045f6d724a0ffd763f71110e5da4e2ab3f50db2128a7"
+  },
+  {
+   "id": 62,
+   "title": "강공격 피격",
+   "text": "손실을 조심해……",
+   "unlockRequirement": "",
+   "cnUrl": "91aa089d3a3649d45f61abf86aa2d4ca0ed2543c551d52fa8bc4e92d2ecfbdba",
+   "jpUrl": "6c5d6521b8c5555faba33797195746fbb04fb682a3ba0546c850ea14b52ecec0",
+   "enUrl": "291c4ed5a177e15491c339ef733bef7ec45a871f1a8839dcc9715c238e28789e",
+   "krUrl": "5466e0f25321cf88cd3fd2984de232f6c2765f9853075d952c1e4f2410a7c03d"
+  },
+  {
+   "id": 63,
+   "title": "필살기•활성화",
+   "text": "시세를 예측할 수 없어……",
+   "unlockRequirement": "",
+   "cnUrl": "1c06236dd35468de2c1ca7ea2019a31034694318afbb75ce24595e1d44d48ac9",
+   "jpUrl": "83c7a5d495f5a5ad4d82291ad1e8793b8d32f1964c033eeb65eff33850685649",
+   "enUrl": "5a16cf642cd0bce34de490f7b715cba149fbfb8b4a6177d88398fb4fb9ba4649",
+   "krUrl": "c23bac42282afa28d193c3a2cf8fdabc197a76f6e62aca1d425b046262b81d2d"
+  },
+  {
+   "id": 64,
+   "title": "필살기•발동",
+   "text": "어? 맞아. 멀리 그리고 길게 보는 것… 이게 투자 성공의 비결이야!",
+   "unlockRequirement": "",
+   "cnUrl": "0a1d962991b4185122759880e3f74dceeb6636397455f85947897d7e9647419e",
+   "jpUrl": "fbca0d1fcfe56dfe48d5e035632c98f2fe230005b7662892ebed4543702207b1",
+   "enUrl": "59b1438af3143f7429df640a7861d197fecb6aa3abf2dcbe98d115df0543dbe0",
+   "krUrl": "590832198da4cf7cc07a71ffc751b2b3e650422f42c2f2b5bdb71f9e5b3815f7"
+  },
+  {
+   "id": 65,
+   "title": "전투 불능",
+   "text": "아직… 휴가도 못 썼는데……",
+   "unlockRequirement": "",
+   "cnUrl": "c69db5d97a1818ddb2a5eedf988456182ff9cb1bd0554cc8ce1a4414fb50c337",
+   "jpUrl": "ff07c4fbcec249c698798fbad9ed6e046fe9847594e8b43c1b7d826cf48c495d",
+   "enUrl": "aeb109da2d8aa94ae3236439eaa8e6b83ef2d3aed3414e0cc68447fb5a67b053",
+   "krUrl": "49899af15317040490ae4b9cdfe3c319019d765f821e3e0d26d091e781865b87"
+  },
+  {
+   "id": 66,
+   "title": "전투 복귀",
+   "text": "하… 초과 근무네, 나 왔어",
+   "unlockRequirement": "",
+   "cnUrl": "640980209183dcb13e1301b82d51461eed03c3729f7cbf35fcdda8a13ec3c872",
+   "jpUrl": "2b2769685ae0534f94a93b9f7b4e9ef4c6c235a0838de04334833f026e5d0096",
+   "enUrl": "6720ddfbb71697ed18a75858973a67ef1b5a0a9cd62cefd39cbaeb8f0ff69822",
+   "krUrl": "4a4bd293262827315f8eeb8b6c6a8b28122d4b66e217757236464717ffc7cb89"
+  },
+  {
+   "id": 67,
+   "title": "HP 회복",
+   "text": "참 좋은 복지 혜택이야~",
+   "unlockRequirement": "",
+   "cnUrl": "a94a79dbaba2ec993cfd112011af5758ce6d464d8f7730338cfb8ef7d3878bad",
+   "jpUrl": "326c84af9ec3a9b905bb61149c5ea21cee4b3999381447848b63844ea165bc49",
+   "enUrl": "65a9d1ebb609441c993967bed8a18d921ec0c133e0672e5f4864bf8869c446c6",
+   "krUrl": "dc9e8a5b83ebe80d954269870fca20d9d97fa2a2272d6cf85c9b022cf474c472"
+  },
+  {
+   "id": 68,
+   "title": "전투 승리",
+   "text": "이 프로젝트는 끝~!",
+   "unlockRequirement": "",
+   "cnUrl": "ae94d734506668faa78ef67217aafb61d2a58de025e35081d7638baf4686a211",
+   "jpUrl": "3b87b78a901dace6032779fc25ee7035a1d4d646c4b9e0fba6ea188003392d4c",
+   "enUrl": "5102b9e04faca6d79f5694b0db973533b0ff113a85b4e6ea073df19821e8d743",
+   "krUrl": "88e3b5d5de3194b586f5757412f9f830fd416f1f08181b51d565ab13b27e4f89"
+  },
+  {
+   "id": 69,
+   "title": "전리품 오픈•1",
+   "text": "열심히 일한 보람이 있네~",
+   "unlockRequirement": "",
+   "cnUrl": "9215327dd32a0ddbe2860ed9407bd84dff1c1578c0168f9fc1e9bc939f9f88c8",
+   "jpUrl": "0e455ffcb3821a82a360f74a4891cab0bba01c8093b9eccd3a0080c146944ecb",
+   "enUrl": "45b4d0de0e18d06d1fd2d88456a6c2f5373fd0acc48439ae705197f6c1779d5e",
+   "krUrl": "d73c04eb2eeb7e6c9c5b7489fa267d2593515a0763d9b8490b2c04da6458c802"
+  },
+  {
+   "id": 70,
+   "title": "전리품 오픈•2",
+   "text": "오~ 의외의 수확이네~",
+   "unlockRequirement": "",
+   "cnUrl": "2ea97323e4603f1dce6134f63c9818e362b53f6343f37a24db8110ef40b82b1d",
+   "jpUrl": "04de53b9823dfe66e89c158132bd069bde119591640b09c850faf31b22710860",
+   "enUrl": "9b8d604760b59de975827dc86933f567f7a3863eccca0fe451bd7f11c3a11ffd",
+   "krUrl": "edb1ffddebc5762a3305f29b19d03ff97a722f6de1da85d03392a531e02e012c"
+  },
+  {
+   "id": 71,
+   "title": "진귀한 전리품 오픈",
+   "text": "이번 분기 보너스인가~",
+   "unlockRequirement": "",
+   "cnUrl": "98b4412084c7bb25ee0b200fdbe7f43004e1e71afa85bcbd18236eafbf991dca",
+   "jpUrl": "b46244bee9475c599492a794f958e4d28c7f88a770bcd9a467e40954b67005bf",
+   "enUrl": "4bac9071c60df1a022acdccf812a935d7ae3edfc35222d2d307f76dd3d397355",
+   "krUrl": "e8ef7dafecb4ffbba84bd56fd378d8178ea519db4bc7cab362ee0ad05fcaaa17"
+  },
+  {
+   "id": 72,
+   "title": "수수께끼 풀이 성공•1",
+   "text": "간단한 테스트일 뿐이야",
+   "unlockRequirement": "",
+   "cnUrl": "9e9da04794ab8df2270fb0822e93050089fbc879c1cddf49e16033042917027f",
+   "jpUrl": "10d7577269a9989910df95b6de18e39671218316a1c0e6ce3178c109709f24b2",
+   "enUrl": "b95c0a8fae320853043249187be041d40c2a04677f429ee0e757970a369e6383",
+   "krUrl": "e4b55351e0f07994c70f17306208056daabd8470d626e77b1d0e15842a92e693"
+  },
+  {
+   "id": 73,
+   "title": "수수께끼 풀이 성공•2",
+   "text": "이것도 업무 능력이야!",
+   "unlockRequirement": "",
+   "cnUrl": "1e70dbb298735ee131eee77152a5240117c43f757a3720013f8902adf7d8f795",
+   "jpUrl": "e1716a0a98b02dacba4ed7eac1003ed9ca23e0fb7a89c79762b016bb40d7f230",
+   "enUrl": "8035674ae80645cf47b7cc6daaaa6f81df06a83d6da5802c3fd82fa431b9083b",
+   "krUrl": "f866487f620ef5c86e470289a452724ff3fb641dea5edc5cf06cc4e901534cb7"
+  },
+  {
+   "id": 74,
+   "title": "적 발견",
+   "text": "어이, 너도 채무 상담 좀 받아보려고?",
+   "unlockRequirement": "",
+   "cnUrl": "1793eaac11e62a26d3abfa0977a43da09deb5ea96fa214cfcf723f9eece6e6bd",
+   "jpUrl": "990e7f8b631bfb6f650fe7a66fdb5e75842b9d4f43f18b63155e83bd51ea76de",
+   "enUrl": "d864eca7a741508579a4c83a8103efbceeb8aac4d758632290e3ae053a0702f2",
+   "krUrl": "73255b9a8e9a3fd0a32dc49fbb5e0ea69b328d0109de6df723e1a06c939904ab"
+  },
+  {
+   "id": 75,
+   "title": "도시로 복귀",
+   "text": "휴대폰 알림 좀 꺼놓고… 잠깐 쉬자!",
+   "unlockRequirement": "",
+   "cnUrl": "b0376a365c54096d092e4b80018d4c908560ad688457c45c05193c73ade3754c",
+   "jpUrl": "6ff0f99fec3c87679dd071d0fae711aa6bf05ae4642056bb154f58ef1cab80d6",
+   "enUrl": "0f463cad4a8e87f0ec46cdd2f9051f1e2baff1cac6d2092709ab200743af129a",
+   "krUrl": "625bf7f97661676367e9abc53ac33c95aca6419650f0116c08075b7e7084b71f"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "캐릭터 상세",
+   "text": "스타피스 컴퍼니 소속 「전략투자부」 고위 간부 토파즈. 특수채무규찰팀을 이끈다.<br />어린 나이에 「<nobr>10</nobr>인의 스톤하트」 중 한 명이 되었다. 초석은 「독촉의 황옥」이다.<br />파트너인 차원 저금통 「복순이」는 부가 있는 곳을 예민하게 감지할 수 있으며, 보안, 채무 추심, 계리 등 업무도 척척이다.<br />오늘날 그들은 함께 은하를 여행하며 컴퍼니 업무 전개에 영향을 주는 채무 분쟁을 규찰하고 있다",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "캐릭터 스토리•1",
+   "text": "「데스터, 이 이력서 봤나?」<br /><br />「말씀하신 게… 아, 그녀 말씀이시군요——막 시장조사팀에서 수습을 마쳤고, 꽤나 파란을 일으켰죠——윽, 긍정적인 의미로요」<br /><br />「수습 기간이 벌써 끝났다고? 음……」<br /><br />「뭐가 잘못됐나요? 드보르스키 님?」<br /><br />「아니, 그냥 좀 궁금해서. 부서 최연소로 입사한 데다… 이렇게 놀라운 이력이라니. 어디 보자…. 어라, 『종신 계약』을 맺었다고? 놀랍군. 그렇게 절망적인 행성에서 이런 인재를 건지다니……」<br /><br />「이미 담당자에게 확인해 봤는데, 이력서 내용은 전부 사실입니다. 게다가, 당시 입사 시험 결과도 기입하지 않았습니다——계리와 미시 경제, 거시 경제, 우주 금융, 경영학 등의 시험에서도 전부 높은 점수를 받았고, 심지어 체력 시험도 거의 만점에 가까웠습니다. 유일하게 불합격한 건……」<br /><br />「음? 뭐지?」<br /><br />「…비즈니스 예절입니다. 그 시험은 아예 참가하지조차 않았죠. 『난 형식주의가 제일 싫어』——그때 이렇게 말했다더군요」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>20</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•2",
+   "text": "「저기 말이야……」<br /><br />「네? 왜 그러시죠, 드보르스키 아저씨?」<br /><br />「…사무실에 반려동물을 데리고 오면 안 되는 거 알지?」<br /><br />「물론이죠! 직원 매뉴얼 제<nobr>86</nobr>절 <nobr>144</nobr>조——어떤 형태의 유기체 반려동물도 스타피스 컴퍼니 소속 사무실에 반입하는 것을 엄금한다」<br /><br />「…제대로 기억하고 있군. 그럼 이 상황을 설명해주겠나?」<br /><br />「——근데 전 이 조항이 지킬 필요가 전혀 없는 웃기는 소리라고 생각해요. 솔직히 말씀드리면——이 귀여운 녀석이 옆에 있어서 제 업무 효율이 <nobr>27%</nobr>나 올랐다고요!」<br /><br />「…자네가 말한 수치는 의심하지 않네. 하지만……」<br /><br />「보세요! 이 녀석은——이리 와——복순이라고 해요! 이 녀석을 평범한 차원 저금통으로 보지 마세요. 이 녀석은 『돈 냄새』에 아주 민감하다고요! 지금은 어디로 출장을 가든 이 녀석을 꼭 데리고 가요. 완전 복덩이라니까요~」<br /><br />「사무실에서 이런 생물을 보게 될 줄이야…. 휴, 일단 못 본 척해줄게. 다만 다음에 총책임자님이 시찰하러 오실 때——어, 어라! 왜 이래? 무, 물지 마! 다, 당장 이 녀석 치워——」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>40</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•3",
+   "text": "보고자: 프란시스코•드보르스키<br />보고 대상: 「제이드」<br />보고 내용: 팀장 업무 보고<br /><br />「제이드」 님<br /><br />이번이 제가 시스템을 통해 드리는 마지막 업무 보고가 될 것 같습니다. 시간 참 빠르군요. 눈 깜짝할 사이에 제가 전략투자부에서 일한 지도 반 앰버기원이나 됐습니다. 그동안 산전수전 다 겪으며 지금의 자리에 올랐지요. 공을 세워 이름을 날렸다고 말할 순 없지만, 그래도 전 가족을 위해 몇 대가 편히 지낼 만큼의 재산은 모았습니다. 전 이제 더 바랄 게 없습니다. 그리고 「제이드」 님께서 늘 저희 <nobr>166</nobr> 마케팅팀을 적극 지원해 주신 점에 대해 감사드립니다.<br /><br />본론으로 돌아가서 이번 업무 보고에는 <nobr>166</nobr> 마케팅팀의 근래 업무 내용과 실적에 대해 더는 말씀드리지 않겠습니다. 이 부분은 월례 보고에 다 있으니까요. 이번에 보고를 올리는 이유는 오로지 저희 팀 ███•████ 직원을 추천하기 위해서입니다.<br /><br />███•████의 행적과 업무 능력에 대해서는 어느 정도 알고 계실 것 같습니다. 시스템 첨부 파일에 그녀의 업무 보고서와 여러 팀원들의 피드백을 첨부했으니 참조 부탁드립니다. 아직 어리지만 ███는 탁월한 업무 능력과 관리 철학 및 의지를 지니고 있습니다. 그녀가 <nobr>166</nobr> 마케팅팀 팀장을 맡는다면, 수익과 프로젝트 성공률이 한층 더 높아질 것이라 확신합니다. 또한 전 ███의 잠재력이라면 그녀의 커리어가 절대 여기서 멈추지 않을 것이라 믿습니다. 그녀는 앞으로 더 큰 무대에서 뜻을 펼치게 될 것입니다. 제가 일선에서 물러난 후 ███•████ 직원을 잘 보살펴주시길 부탁드립니다——전략투자부는 항상 인재가 가장 중요한 투자라고 여겨 왔습니다. 이미 그녀를 지켜보고 계실 것이라 믿습니다.<br /><br />전략투자부 <nobr>166</nobr> 마케팅팀<br />프란시스코•드보르스키",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>60</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•4",
+   "text": "「데스터……」<br /><br />「왜 그러시죠, 드보르스키 님?」<br /><br />「먼저 들겠나? 아무도 안 올 것 같네」<br /><br />「괜찮습니다, 배가 아직 안 고픈걸요. 아무리 그래도 드보르스키 님의 환송회인데, 조금만 더 기다리죠」<br /><br />「허허… 그 녀석들이라면 내가 제일 잘 알지. 다들 업무와 돈 버는 생각밖에 없다니까…. 나 같은 늙은 팀장은 벌써 잊었을 거야」<br /><br />「…이거 참 유감이군요, 드보르스키 님. 그래도 예레나는……」<br /><br />「——어, 그 이름으로 부르지 말게, 이제 『토파즈』니까. 그 아이가 그들의 일원이 될 줄은 정말 몰랐지……」<br /><br />「정말 인정하지 않을 수 없군, 데스터. 나 같은 고집불통은 몇 번을 다시 태어나도 그 자리 근처에도 못 가. 그 아이는 이제 다른 세상 사람이야. 이렇게 초라한 환송회에 올 시간이 있겠나?」<br /><br />「너무 겸손하시군요. 제 생각엔… 엇, 누가 문을 두드리는데요——그냥 계십시오. 제가 가 보겠습니다」<br /><br />「…데스터, 누군가? 난 눈이 침침해서 바로 앞에 있는 것도 잘 안 보여……」<br /><br />「죄송합니다만… 편지를 전하러 온 사람이군요」<br /><br />「아… 그렇군. 메시지가 아니라 정중하게 인편으로 편지를 보내다니, 누군가?」<br /><br />「봉투에 서명이 없습니다. 잠시만 기다리세요, 제가 읽어드리겠습니다——」<br /><br />「존경하는 드보르스키 님, 지금까지 사랑으로 키워주셔서 감사드려요! 드보르스키 님이 아니었다면 지금의 전 없었을 거예요. 지금 타이키얀에 출장 중이라 퇴직 환송회에 갈 수 없어서 정말 죄송해요. 이번 프로젝트가 끝나면 꼭 하루 시간 내서 뵈러 갈게요. 참, 취미가 모터볼이셨죠? 타이키얀에서 선물 챙겨 갈게요. 당신의 영원히 충실한 예레나 드림」<br /><br />「……」<br /><br />「드보르스키 님…? 우시는… 겁니까?」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>80</nobr> 개방"
+  }
+ ],
+ "archive": {
+  "cvCn": "陆敏悦",
+  "cvJp": "南條愛乃",
+  "cvKr": "방시우",
+  "cvEn": "Sam Slade",
+  "camp": "스타피스 컴퍼니"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "토파즈&복순이",
+ "rarity": 5,
+ "descHash": "스타피스 컴퍼니 소속 「전략투자부」 고위 간부 토파즈. 특수채무규찰팀을 이끈다. 어린 나이에 「<nobr>10</nobr>인의 스톤하트」 중 한 명이 되었다. 초석은 「독촉의 황옥」이다. 파트너인 차원 저금통 「복순이」는 「부」가 있는 곳을 예민하게 감지할 수 있으며, 보안, 독촉, 계리 등 업무도 척척이다. 오늘날 그들은 함께 은하를 여행하며 컴퍼니 업무 전개에 영향을 주는 채무 분쟁을 규찰하고 있다",
+ "artPath": "fd0883162e340d4cf565c933a4ee63b8f64b3c8bf39182d81bbfe7af0d3a14e3",
+ "miniIconPath": "1dc2e5d7dd4720deeb42759eeeb6345c633ff38edea3480b9ffe0829aacc3969",
+ "damageType": {
+  "id": 2,
+  "iconPath": "bd8329d02d7ecfee2a1f565e89cf3bf7bf6aaa60bea29cec2b4f7192626a0311",
+  "color": "#F84F36",
+  "name": "화염",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "948d90296adc5203a105a16be892d9e4d5e83c93df11abf59a8ad4321e37fbb8",
+  "altIconPath": "38241d858c120d8a55f36eaab92a34690a7d9add4f3e36383dabf27f5d3f5f55",
+  "color": "#FFFFFF",
+  "name": "수렵",
+  "rarity": 0
+ },
+ "pageId": "topaz"
+}

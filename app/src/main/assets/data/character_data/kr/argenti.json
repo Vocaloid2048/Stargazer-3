@@ -1,0 +1,3056 @@
+{
+ "spRequirement": 180,
+ "iconPath": "40744974ebfc3d3ae6a1ef9a4aa112e0f758ccadd23c3eaa883d1ec79889864f",
+ "bgPath": "5fd774f32eca8067858270006fa5c961289010c05a266eda8ee6bf8153af5d29",
+ "figPath": "bfd8764654fa153739eea45808c81da90cd3666e530481b3819395fececf631d",
+ "fgPath": "1b412d46e309f7e76af8cdc0d9ddf2c20988f91bf309a4d7099d80da8f441962",
+ "splashIconPath": "a88b1fa810ae4adad8cd6d2d75e5e13cc649af77aa768ea41ef61223603e70d0",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRooCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAIBAAABkGNb27E91/v+tv/YqjKDpLStIdi2rd61bbNLZdW2k+d9rxN8mEJETIAyV0uR8qw58O1mF8U5FWoyga15LeQHd3rFinIo0TyC4aIUZZMWEEhTdlUrytRqjGbx2/YvlkiRpFgDmXOL1CZwrLJa/8fazwswhoRLJUWSirSeb9jYKXfPn2inSCXaT2IwTnneuVKSJtYdJtjYkHC/XpE2sew+gMF2YJwKNY+PPPuUvsbGTlip4rjqNe+m77/3CNsm4bkk7eE74RfG2MDtw316nif9nSQhtW3eXLl8aOGg5rXvyZwQ+LWzvf5v3X/e+hWn3xjeLpw8qauK4ihWxprew/v0UGZWUDggYgEAAHAHAJ0BKhQAFAA+bS6URyQioiEoCqiADYlsAJ0yglgG2Y3AG8gegB0lH7T+kATKYXiV443p7cmypI75eelKwGUmkmAAAP6No0PaPpCjTNP2o20amnNVfWyPDco8c+IOpDGtxw29ykw+u3xI6WUzfzjSgSVBhAgpF8JlNTwgc2oKlXpJiQKgZeNM6+1y7B6rO4FcL8HeSOkFTLejAHySGGWvf38i82IRJffp1lgec8Ts9pcrs6tc0+IpswIL/BBf56f+FU9cf9cuibNZgb94v+1l/QUqUoXxqMjufirQv+owQkBHlC7tW97ZXxx+r8TSN2Z/BnFhurzjpeYccAS30+Hwv+Q7F5H7DWcOIG/zZtf9N/4kWrnMPQ2XuXiEXwNFryFvx/YaDNkZH5Oztxb2YV4tfdPYiPHgi62dP7en1hpbjev8CwCV7qr4Nb/PrjP4QvrEx9Wnwncx0c2X9MA9Mg5gAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "4ee4d46a01c45f662c4a193c5823f29be35cc4c19ba38ea2fd6f35a00a053d46",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "신용 포인트",
+   "desc": "스타피스 컴퍼니가 고객과 결산을 위해 사용하던 화폐. 오늘날 우주여행에 널리 쓰이는 경화가 되었다",
+   "lore": "「사람들이 그저 단말 장치에 표시된 숫자를 위해 분주히 뛰고, 싸우고, 거래한다. 하지만 정작 정말로 소중한 것은 컴퍼니의 숫자로 살 수 없다」",
+   "purpose": "통용 화폐",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "모조 꽃받침 [큰 광산구역]",
+    "모조 꽃받침 [공조사]",
+    "모조 꽃받침 [「레버리」 호텔-꿈세계]",
+    "임무 보상",
+    "의뢰 보상",
+    "잔화 교환"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "운명의 발자취",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "거듭되는 패배가 당신에게 승리를 가져다주었고, 한 걸음 한 걸음의 전진이 당신을 운명의 전환점으로 이끌었다",
+   "purpose": "행적 재료",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "시뮬레이션 우주 점수 보상",
+    "무명의 공훈",
+    "잔화 교환",
+    "스타라이트 교환",
+    "한정 이벤트 보상"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "무한한 가짜의 여한",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "그 많은 몸을 훔쳤으면서도 이것은 끝끝내 원하는 바를 이루지 못했다. 마치 묘약을 찾는 이들처럼, 그것은 더 이상 「파멸」을 두려워하지 않게 해 줄 껍데기를 갈망했다. 그것은 이게 이뤄지지 않을 꿈이라는 것을 잘 알고 있었다.<br /><br />「나는 수많은 세계가 괴멸의 신에게 삼켜지는 것을 보았고, 나는 그중의 한 송이 불꽃이었다. 그분의 손짓에 따라 나는 춤을 췄지만 마음 깊은 곳에서는 알고 있었다, 땔감이 다 타버리면 화염도 꺼져버린다는 것을…」",
+   "purpose": "행적 재료",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "전쟁의 여운 [인연경]"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "여행 가이드",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>20,000</nobr>pt 획득한다",
+   "lore": "세계를 횡단할 때 반드시 구비해야 하는 모험 총서. 읽기 버튼을 누르면 매력적인 목소리가 독자의 언어로 유명 모험가들의 다양한 세계에서의 모험 전기와 각 행성에서 획득한 값진 지혜에 대해 들려준다.<br /><br />「여행 가이드의 신규 시리즈 ≪우주 요리 가이드≫가 곧 출판됩니다. 많은 기대 바랍니다」<br />「투고는 지식학회 공감각 비콘 <nobr>23</nobr>θ 연락원에게 연락 바랍니다. 원고료는 원하시는 방식으로 지급합니다」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "「망각의 정원」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "모험 기록",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>5,000</nobr>pt 획득한다",
+   "lore": "정갈하게 제본된 모험 일지. 딱 봐도 교육적인 취지의 책이다. 모험의 시작과 끝, 가치 있는 정보와 생존 기술을 삽화와 글로 묘사했다.<br /><br />「왜 데이터화해서 디스크에 넣지 않는 거야? 그게 더 편리한데」<br />「항성 폭풍과 중성자 흐름 분출을 마주할 때, 첨단 기술은 네가 생각하는 것보다 많이 연약하지. 더군다나 이 책을 만든 사람은 이 책이 가장 간단한 방법으로 읽히길 원했을 거야」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "일일 훈련",
+    "잔화 교환"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "여행 견문",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>1,000</nobr>pt 획득한다",
+   "lore": "여행 견문을 기록한 일지. 알아보기 힘들 정도로 휘갈긴 글씨로 멋대로 적은 내용은 별 도움이 되지 않는다.<br /><br />「단항, 다 읽었으면 이 폐지 더미는 빨리 버리자」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "의뢰 보상"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5eb86757b6878dd09f969ed2d9e75af43eac2565bd49fdbe391f716e5adca101",
+   "name": "소멸된 코어",
+   "desc": "열계를 배회하는 괴물의 심장. 강화에 필요한 기본 재료",
+   "lore": "병마를 키워내는 병소처럼, 죄짓고자 하는 충동을 유발한다. 열계 뒤틀림의 근원지.<br />강한 타격으로 인해, 심장은 이미 움직임을 멈추고 빛을 잃었다.<br /><br />「대략적으로 이것은 교잡의 산물의 일종이라고 판정지을 수 있다. 절반은 본체, 절반은 스텔라론의 데이터와 크게 일치한다——생물과, 사라•카스트로」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "일부 열계 창조물 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "의뢰 보상",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환",
+    "모조 꽃받침(금)"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4886a5629723505540ba6d02fac7f264a3164458f4194796470c1826138ba105",
+   "name": "희미한 빛의 코어",
+   "desc": "열계를 배회하는 괴물의 심장. 강화에 필요한 일반 재료",
+   "lore": "병마를 키워내는 병소처럼, 죄짓고자 하는 충동을 유발한다. 열계 뒤틀림의 근원지.<br />심장은 희미한 빛을 반짝인다. 그 흔적에는 아직까지도 생명력이 남아있다.<br /><br />「이건 도대체 무슨 괴물이지? 봤어——전임 리더의 얼굴이야, 그의 얼굴이라고!」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "균형 레벨 Lv.2까지 돌파 후 일부 열계 창조물 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "635675": {
+   "id": 635675,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "5d1c50902cff0d2be1eb952d08078e3134c231cdf0c9142c1ef475ec07c42b50",
+   "name": "영감의 열쇠",
+   "desc": "고민하는 학자들의 손에 나타난 환상의 열쇠. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">지식</span> 캐릭터의 운명의 길 행적이 소폭 상승한다",
+   "lore": "의식 깊숙이 봉인된 영감을 개방할 수 있다.<br />열쇠를 잡는 건 사유 속 반짝이는 불꽃을 잡고 앞길을 비추는 것과 같다.<br /><br />「유레카!」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/635675",
+   "comeFrom": [
+    "모조 꽃받침 [리벳 타운]",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "717320": {
+   "id": 717320,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f54699a5eaba1cef67217196db0a1440c1b1c1c5b89179b36b2ebe7331831ea1",
+   "name": "꿈틀대는 코어",
+   "desc": "열계를 배회하는 괴물의 심장. 강화에 필요한 고급 재료",
+   "lore": "병마를 키워내는 병소처럼, 죄짓고자 하는 충동을 유발한다. 열계 뒤틀림의 근원지.<br />심장은 여전히 천천히 움직이고 있다. 잔존한 힘은 필시 새로운 재난을 가져올 것이다. 일이 생기기 전에 하루빨리 소각 처리하는 것이 좋다.<br /><br />「암으로 변하는 것 같아…」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/717320",
+   "comeFrom": [
+    "균형 레벨 Lv.4까지 돌파 후 일부 열계 창조물 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "836261": {
+   "id": 836261,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "36e68603fbc67d4b69c02e01d7d5d41a80446ea6c49b1d828b47320f6225825c",
+   "name": "지식의 열쇠",
+   "desc": "은하 최고 천재의 손에 나타난 환상의 열쇠. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">지식</span> 캐릭터의 운명의 길 행적이 대폭 상승한다",
+   "lore": "이는 초대받은 자의 증명이며, 지식의 전당의 문을 열 수 있는 열쇠다.<br />비록 열쇠는 손에 있지만, 열쇠를 얻는 것보다 열 수 있는 문을 찾는 것이 더욱 험난하다. 문을 넘은 자는 자신이 돌이킬 수 없는 길에 들었다는 사실을 깨닫게 된다.<br /><br />「지식은 우주의 답을 알려주지 않지만 질문하는 법을 깨우치게 한다」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/836261",
+   "comeFrom": [
+    "모조 꽃받침 [리벳 타운]",
+    "「만능 합성기」- 재료 합성",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "866634": {
+   "id": 866634,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "596fbaf0ec664666606ba684cdb5e8f5ea877d04fab4177151231822416efbed",
+   "name": "명부 명령",
+   "desc": "금 조각상 저승사자의 무기. 물리 속성 캐릭터의 승급 소재",
+   "lore": "이것은 시왕사 사자가 마각을 체포하고 흉물을 제압하는 무기이자, 그들이 업무를 수행할 때 제시하는 영패이기도 하다. 그들이 당도한 곳에서는 현세의 권력도 관여할 수 없다.<br /><br />「명부의 사자, 영계의 사신들이여, 영패를 들고 가서 체포하라. 사면 없이 형벌의 명을 집행하라」",
+   "purpose": "캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/866634",
+   "comeFrom": [
+    "정체된 허영 [유원]",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "489f5c80b6f0de258e076634803c9540b0504c32e55f556748095c334780289d",
+   "name": "계몽의 열쇠",
+   "desc": "지혜로운 자들의 손에 나타난 환상의 열쇠. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">지식</span> 캐릭터의 운명의 길 행적이 중폭 상승한다",
+   "lore": "진리를 속박하는 수수께끼를 풀 수 있는 열쇠. 인간의 지능으로는 이해하기 힘든 깨우침을 찾을 수 있다.<br />소유자가 아무리 드러내고 증명해도 다른 이는 열쇠의 존재를 볼 수 없다. 이를 하늘의 자비라고 믿는 사람이 있는가 하면, 정신이상의 징조라고 하는 사람도 있다.<br /><br />「꿈을 하나 꿨네. 분자들이 뱀처럼 똬리를 틀고, 머리는 꼬리를 물었지. 깨고 난 후에야 알았어. 이게 바로 내가 줄곧 찾았던 답이 아닐까?」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "모조 꽃받침 [리벳 타운]",
+    "「만능 합성기」- 재료 합성",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 100.32,
+   "attackAdd": 5.016,
+   "hpBase": 142.56,
+   "hpAdd": 7.128,
+   "defenseBase": 49.5,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549438,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 140.448,
+   "attackAdd": 5.016,
+   "hpBase": 199.584,
+   "hpAdd": 7.128,
+   "defenseBase": 69.3,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549438,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 180.576,
+   "attackAdd": 5.016,
+   "hpBase": 256.608,
+   "hpAdd": 7.128,
+   "defenseBase": 89.1,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633379,
+     "count": 6
+    },
+    {
+     "id": 866634,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 220.704,
+   "attackAdd": 5.016,
+   "hpBase": 313.632,
+   "hpAdd": 7.128,
+   "defenseBase": 108.9,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633379,
+     "count": 9
+    },
+    {
+     "id": 866634,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 260.832,
+   "attackAdd": 5.016,
+   "hpBase": 370.656,
+   "hpAdd": 7.128,
+   "defenseBase": 128.7,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717320,
+     "count": 6
+    },
+    {
+     "id": 866634,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 300.96,
+   "attackAdd": 5.016,
+   "hpBase": 427.68,
+   "hpAdd": 7.128,
+   "defenseBase": 148.5,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717320,
+     "count": 9
+    },
+    {
+     "id": 866634,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 341.088,
+   "attackAdd": 5.016,
+   "hpBase": 484.704,
+   "hpAdd": 7.128,
+   "defenseBase": 168.3,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "b572a4ba8e7db53305823dc8d7ce4e6451c4104f11bc1051e03018dc750e4a50",
+   "artPath": "80eff63c2f6c4d9c4061e95652a02e5358d8cdb06b2a1a198078ba82296bef12",
+   "name": "심미왕국의 결함",
+   "descHash": "[승격] 스택마다 추가로 치명타 피해가 <nobr>#1[i]%</nobr> 증가한다",
+   "params": [
+    0.04
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "939503ae87f709848882b5f7704929f727032788b431608c51ca308a530f9ebe",
+   "artPath": "fc30eb8c7cf7ce5e33040f410cc8a0e0c16fee8d6240663d37b79f04eecae91e",
+   "name": "아게이트의 겸손",
+   "descHash": "필살기 발동 시 적이 <nobr>#1[i]</nobr>기 이상일 경우 공격력이 <nobr>#2[i]%</nobr> 증가한다. 지속 시간: <nobr>#3[i]</nobr>턴",
+   "params": [
+    3,
+    0.4,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "e42f9363e49b32e82520761e0f34e1715c50c22b9445a52f537f4d9404519bde",
+   "artPath": "8f3572b1ea7a7a96282fd7737ed3265eb99e71884240e390a43ee33c1a5bbc6e",
+   "name": "가시밭길의 영광",
+   "descHash": "전투 스킬 레벨+2, 최대 Lv.<nobr>15</nobr>. 특성 레벨+2, 최대 Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "675534641e6872d54008059d7408b3faf50263afc4fd5cb762997e910c76b049",
+   "artPath": "391bff4c0ed4a9e09188615717d271f180083e192a4108420afd76faba8f8233",
+   "name": "나팔의 헌신",
+   "descHash": "전투 시작 시 [승격]을 <nobr>#1[i]</nobr>스택 획득하고, 특성의 효과 최대 중첩수가 <nobr>#2[i]</nobr>스택 증가한다",
+   "params": [
+    2,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "b3da3b7c1bad81301cf0787502a0995efd267ee52c56b08e6c67c602ad30b704",
+   "artPath": "ca323018dc911deb6097ff0e2d08531d5cd5da74674d5d2ed3b646166ee8035e",
+   "name": "우주 어딘가의 눈",
+   "descHash": "필살기 레벨+2, 최대 Lv.<nobr>15</nobr>. 일반 공격 레벨+1, 최대 Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "9d3053d297b61918a0be6f37982a2a33d7b10dc6e0cd4f43673c373cdf085139",
+   "artPath": "7373f2838c7f8ad825ab3b5a7b3b5a7c79e378b2f82ff7122c5215ce083850bd",
+   "name": "「그분」의 빛",
+   "descHash": "필살기 발동 시 적의 방어력을 <nobr>#1[i]%</nobr> 무시한다",
+   "params": [
+    0.3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   14813
+  ],
+  [
+   98754
+  ],
+  [
+   182695,
+   529701
+  ],
+  [
+   529700
+  ],
+  [
+   814227
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "단일 공격",
+   "descHash": "지정된 단일 적에게 아젠티 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 준다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 14813,
+   "name": "덧없는 향기",
+   "iconPath": "2469046b34dea5aade9871d123984d295d1f70c4dc21a6f8aacd59fd2b70202f",
+   "typeDescHash": "일반 공격",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "범위 공격",
+   "descHash": "모든 적에게 아젠티 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 준다",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 98754,
+   "name": "공정, 이곳에 피어나다",
+   "iconPath": "e42f9363e49b32e82520761e0f34e1715c50c22b9445a52f537f4d9404519bde",
+   "typeDescHash": "전투 스킬",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "범위 공격",
+   "descHash": "에너지를 <nobr>#2[i]</nobr>pt 소모하고, 모든 적에게 아젠티 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 준다",
+   "ultimateCost": 90,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 182695,
+   "name": "정원에서 선사하는 극한의 미",
+   "iconPath": "e42e1a9084f7c5e304ef012ad2bf45e1875efd25bd8ef068684fa093fe793123",
+   "typeDescHash": "필살기",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.96,
+      90
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.024,
+      90
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.088,
+      90
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.152,
+      90
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.216,
+      90
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.28,
+      90
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      90
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      90
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      90
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      90
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.664,
+      90
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.728,
+      90
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      90
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.856,
+      90
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92,
+      90
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "강화",
+   "descHash": "일반 공격, 전투 스킬, 필살기 발동 시 적을 1기 명중할 때마다 아젠티의 에너지가 <nobr>#1[i]</nobr>pt 회복되고, [승격]을 1스택 획득하며, 아젠티의 치명타 확률이 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> 증가한다. 해당 효과 최대 중첩수: <nobr>#3[i]</nobr>스택",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 529700,
+   "name": "숭고한 객체",
+   "iconPath": "b8d2c36bbeb8a49857b6f630e0021998f74c037dc82b84eda3b866df7f8a7a12",
+   "typeDescHash": "특성",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      3,
+      0.01,
+      10
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.0115,
+      10
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.013,
+      10
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.0145,
+      10
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.015999999,
+      10
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.0175,
+      10
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.019375,
+      10
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.02125,
+      10
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.023125,
+      10
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.025,
+      10
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.0265,
+      10
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.027999999,
+      10
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.0295,
+      10
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.031,
+      10
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.0325,
+      10
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 소모시킨다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 730286,
+   "name": "공격",
+   "iconPath": "2469046b34dea5aade9871d123984d295d1f70c4dc21a6f8aacd59fd2b70202f",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "방해",
+   "descHash": "비술 사용 후 일정 구역 내의 적을 <nobr>#1[i]</nobr>초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.<br />현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 아젠티 공격력의 <nobr>#2[i]%</nobr>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 가하고, 아젠티의 에너지가 <nobr>#3[i]</nobr>pt 회복된다",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 814227,
+   "name": "순수하고 고결한 선언",
+   "iconPath": "71658fd902f842318d11c341f0cb711ff5940abc7603b14eac4e2b232ea3e947",
+   "typeDescHash": "비술",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0.8,
+      15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "범위 공격",
+   "descHash": "에너지를 <nobr>#4[i]</nobr>pt 소모하고 모든 적에게 아젠티 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 준다. 추가로 피해를 <nobr>#2[i]</nobr>회 주며, 피해를 가할 때마다 랜덤 단일 적에게 아젠티 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 준다",
+   "ultimateCost": 180,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 529701,
+   "name": "정원에서 <nobr>「내」가 수여한 공훈</nobr>",
+   "iconPath": "4a4109f350db1176295db69c83f5ea67939a31110ab6b1eea569d68a273fa5ae",
+   "typeDescHash": "필살기",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.68,
+      6,
+      0.57,
+      180
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      6,
+      0.608,
+      180
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.904,
+      6,
+      0.646,
+      180
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.016,
+      6,
+      0.684,
+      180
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.128,
+      6,
+      0.722,
+      180
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.24,
+      6,
+      0.76,
+      180
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.38,
+      6,
+      0.8075,
+      180
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.52,
+      6,
+      0.855,
+      180
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.66,
+      6,
+      0.9025,
+      180
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.8,
+      6,
+      0.95,
+      180
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.912,
+      6,
+      0.988,
+      180
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.024,
+      6,
+      1.026,
+      180
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.136,
+      6,
+      1.064,
+      180
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.248,
+      6,
+      1.102,
+      180
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.36,
+      6,
+      1.14,
+      180
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1302101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1302202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1302203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 451529,
+        "name": "공격 강화",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "공격력",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920202,
+          "count": 3
+         },
+         {
+          "id": 633379,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1302204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 451526,
+        "name": "HP 강화",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920202,
+          "count": 3
+         },
+         {
+          "id": 633379,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 451528,
+      "name": "피해 강화•물리",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#FFFFFF;\">물리</span> 속성 피해 증가",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635675,
+        "count": 3
+       },
+       {
+        "id": 549438,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "턴 시작 시 즉시 [승격]을 <nobr>#1[i]</nobr>스택 획득한다",
+    "ultimateCost": 0,
+    "id": 451432,
+    "name": "경건",
+    "iconPath": "440293f9a1e4ace14237dff0523f00ac3f7a6b9091a68cc44d8d93fac7f495ea",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635675,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1302102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1302205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1302206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 451524,
+        "name": "피해 강화•물리",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#FFFFFF;\">물리</span> 속성 피해 증가",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836261,
+          "count": 3
+         },
+         {
+          "id": 717320,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1302207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 451525,
+        "name": "공격 강화",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "공격력",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836261,
+          "count": 3
+         },
+         {
+          "id": 717320,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 451527,
+      "name": "공격 강화",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "공격력",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920202,
+        "count": 5
+       },
+       {
+        "id": 633379,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "적이 전투 진입 시 자신의 에너지를 즉시 <nobr>#1[i]</nobr>pt 회복한다",
+    "ultimateCost": 0,
+    "id": 451435,
+    "name": "너그러움",
+    "iconPath": "47b15d85776e47279ff214fd02d6014c87c8b8358839040e91d228b2d579136b",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920202,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1302103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1302208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 451538,
+      "name": "HP 강화",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "164d0d1c7ba81c2ae0af472a7c7bf7954292f201a3a6a59de801043466ab5bbf",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1302209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 451539,
+      "name": "피해 강화•물리",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#FFFFFF;\">물리</span> 속성 피해 증가",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "현재 HP 백분율이 <nobr>#1[i]%</nobr> 이하인 적에게 주는 피해가 <nobr>#2[i]%</nobr> 증가한다",
+    "ultimateCost": 0,
+    "id": 451434,
+    "name": "용기",
+    "iconPath": "c8294e925dd759cf441c4c7617d6dbb685f7982e7f1f5543651d64fc755cf6ac",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1302201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 451531,
+    "name": "공격 강화",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "공격력",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549438,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1302210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 535471,
+    "name": "공격 강화",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "공격력",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836261,
+      "count": 8
+     },
+     {
+      "id": 717320,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "몸통",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "치명타 확률",
+    "propertyIconPath": "97553a857187ab8a25e65909410dc29a20eaab31f016af86419a971c0887e5b8"
+   },
+   {
+    "relicTypeHash": "다리",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "속도",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "차원 구체",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "물리 속성 피해 증가",
+    "propertyIconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176"
+   },
+   {
+    "relicTypeHash": "연결 매듭",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "공격력",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "첫 만남",
+   "text": "전 「미(美)의 기사단」 아젠티입니다. 장미의 이름으로 그대에게 인사 올리죠",
+   "unlockRequirement": "",
+   "cnUrl": "50359dfb1b102428c82138fbfdb804ccc56e7b3739df3eed0a1fcce9951f9130",
+   "jpUrl": "ff2568552e5af6834403d33c78cebd699772a61fac9d4eef95f0e27dca882a7a",
+   "enUrl": "d8e6af7f7e68268193ba77381b82fc432285ec20810e52fef5921edc5e7a69bd",
+   "krUrl": "15f9b861e330b08641ef74552aecab773bd6ac243654978e588d1ca716f7c4e7"
+  },
+  {
+   "id": 2,
+   "title": "인사",
+   "text": "곤란한 일이 생기면 꼭 알려주세요. 제가 안전하게 지켜드릴게요",
+   "unlockRequirement": "",
+   "cnUrl": "0006274c1259a57fea9f25830270815b34f1cf332cd98635f3db5fd8e29d1a94",
+   "jpUrl": "f927968f498488062d2beeba2c5cc07aa40936ca92cf8ebf93443dce7ad3c2f6",
+   "enUrl": "33edc589eed395a978478b2d7336d48e86bdb5ad5cbc18bd3969f055e7aebe02",
+   "krUrl": "3cfd57b7fd19744f38a1dd2009359440d11435dc1a06b3d64aff0f0982c4cf10"
+  },
+  {
+   "id": 3,
+   "title": "작별",
+   "text": "업무를 이유로 은하를 홀로 다녀야 해서 그대와 함께할 수 없는 절 이해해주세요. 우린 우주 어디에서 반드시 마주칠 겁니다",
+   "unlockRequirement": "",
+   "cnUrl": "68c7e7e79fe5f4977f03d6de5f2c34e9be945a6439b78cae29d2cf1ae81212e7",
+   "jpUrl": "56ad33aebeee37e8f1d17612a2fda08be616ea4134be1cb279c97f2366da5f00",
+   "enUrl": "3d5c531ac534886cf6c36bc5526df8e576310ba92f35c28c36f312332bf74ecb",
+   "krUrl": "8596d071535efb1b2cc5877a6d1c8641d01db0ad39d9111c73db1baf87659736"
+  },
+  {
+   "id": 4,
+   "title": "자신에 대해•일생",
+   "text": "전 미(美)의 기사단의 「수훈(受勳) 기사」예요. 말끔히 조각된 갑옷이 저희의 상징이랍니다",
+   "unlockRequirement": "",
+   "cnUrl": "2dcad145cad3e50d7de3ecf0b2ab3b09d6cbd3e3b9a7370301b0adb5c733da75",
+   "jpUrl": "c4dd63bb32db8f81ea01b70efd66add24572f288570fa63474b3cc6268d51360",
+   "enUrl": "2f771c2d210cbc6c5d6a161c923a9ad4c2df5fb24b4af04e25a73668b82a33ef",
+   "krUrl": "223f243dfbc5cbb7306830cc71355c366e335cd35de6b8dca811847041974d31"
+  },
+  {
+   "id": 5,
+   "title": "잡담•미(美)의 기사단",
+   "text": "미(美)의 기사단이 모이는 경우는 극히 드물죠. 하지만 우린 같은 「기사도」를 따라 여러 행성을 오가며 우주 전역에 여신님의 명성을 알리고 있어요",
+   "unlockRequirement": "",
+   "cnUrl": "371211a07385e3e4f2d41ff66a3eadc0b7000f5e287b022becada5f883e80110",
+   "jpUrl": "42a9c574011191546c3d97001e7f379c208f57a3bca478a163b5994d66a9b544",
+   "enUrl": "0f8a9d480a3c95b7a2170518ec8d58e2f6cbf9e32db91fe4744774c6b32588da",
+   "krUrl": "50013a886b2046c7c14eda519f47a98d9dc382dd9be5ae50bd28dca532f43404"
+  },
+  {
+   "id": 6,
+   "title": "잡담•유일무이호",
+   "text": "전 우주선에 「유일무이」라는 이름을 붙여줬어요. 청소하려면 꽤나 힘들죠…. 외관을 이렇게 복잡하게 조각하는 게 아니었어요",
+   "unlockRequirement": "",
+   "cnUrl": "8db5d78dcc593f10dee8400ed4a8475e4de20a3b27562b5cc0c8c4ef20e60f85",
+   "jpUrl": "27b233443d5f3542ad11c94b7e58ea75bc67523ccc6562d77411eaab1a532694",
+   "enUrl": "6bee7e7c72d6abdd0d4451e5a19f7684b478d6528aba822a0b23421f015864c1",
+   "krUrl": "3c00fed03d73d5a8973f1b8d645bad339e6042ff1e78cd22cc200502492f38f7"
+  },
+  {
+   "id": 7,
+   "title": "취미",
+   "text": "전 두껍고 단단한 바게트를 선호해요. 창으로 썰어서 보관하면 휴대도 편리해서 긴 여정에 빠질 수 없는 좋은 먹거리죠",
+   "unlockRequirement": "",
+   "cnUrl": "6736ac579bdf7b77d5ec96b43be8a73ed687b75c1d049a11ebecf7a6be0d5895",
+   "jpUrl": "35d66dc0085b8ba10d617b3211cb632a2ffe1953e5ebb98102f520b9ab1ce06b",
+   "enUrl": "2b28222aeb2e3ea52a4be2e6bb99b5ea79e5e279b60a4d09f663a7172dbf0bfc",
+   "krUrl": "8f0a2daae900967331da7a47033977e5c73cc1040fab94866d166afdbda34316"
+  },
+  {
+   "id": 8,
+   "title": "고민",
+   "text": "스타피스 컴퍼니가 만든 각종 오락과 미식은 다양하고 놀랍죠. 하지만, 그 비결을 도통 알 수가 없어요. 언젠가 달인의 지도를 받아보고 싶네요",
+   "unlockRequirement": "",
+   "cnUrl": "da4b6e1c57596cd65954d9a3309eaa43bc06197aa0fad685f1236328d6219a68",
+   "jpUrl": "750db7bc609eaf67b883610281ad742c26e7f0260e1d16449a518014fb2f6cf4",
+   "enUrl": "056eb342b448b4d608c9bb814d13153febaef8eba077a2fda3b8cc33aa05ecef",
+   "krUrl": "f9fe4c4882c2c3b422d5a56cb424aef09a779a1b9366dd6efbe2da5c2b212a85"
+  },
+  {
+   "id": 9,
+   "title": "공유",
+   "text": "어떤 행성에서는 전사들이 개조한 의수에 책 페이지를 문질러서 지식을 신경에 직접 주입한다고 하더군요. 깜짝 놀랐지만 꽤 좋은 방법 같아요",
+   "unlockRequirement": "",
+   "cnUrl": "bb9abefd2f692457b573509c2a1ead55453d7a55b7c90fbde33f3f1af365a8d6",
+   "jpUrl": "d126192ab4e9f67a3f20311be77e92404ce73414e3d067a788f9f33f3238a793",
+   "enUrl": "c232f6da3bcf08d8e5ebc35e13f4c4b0883df06fafe7c5d409aaa86cee21161c",
+   "krUrl": "b9e6fe68f27cd418237dd63b575c031351007d6471b03674b5e954b39af17bb8"
+  },
+  {
+   "id": 10,
+   "title": "견문",
+   "text": "「추악함」이 존재하지 않는 행성에 대해 들어보셨나요? 재미있는 게 그 행성 사람들 눈에는 「아름다움」도 존재하지 않는대요",
+   "unlockRequirement": "",
+   "cnUrl": "304b8dba33e5b50be319b5dd2696761e868373e5dc6323dd6c34d04eed3c66f0",
+   "jpUrl": "39a16283d30a925ecb04f17eaba03564307176a28c2d9ce2f2e5f193445ce2eb",
+   "enUrl": "bde49e5e22eb9695a400edcff7ef5d24fb7f4d5efc0a19b1bb13e868964daf56",
+   "krUrl": "cf4409d305519e7704c285d3264de05e05a1c8f514d9f804a7e37caa7f0b43c9"
+  },
+  {
+   "id": 11,
+   "title": "Mar. 7th에 대해",
+   "text": "Mar. 7th 씨의 마음은 순수해요. 이렇게 착한 마음씨와 품행은 아주 귀하죠. 은하에는 본성이 속물적이고 감언이설에 능한 사람도 많아서, 이런 분을 보면 더욱 아껴주고 존중하고 싶답니다",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "fb7b05ec5ba2da9faf320e6f830f6b3656692ceba86fe29b3abf488e4625c182",
+   "jpUrl": "16cccc56dbec9678d4d65a0254614db70e80a1c927f6aae6833e38944ee2c243",
+   "enUrl": "c1f72a92f6df1de3574e906e4fe5177fa8e6b5a7d393f7bb399c96811184ebdf",
+   "krUrl": "d12eb2bbb7db7c7bd436cae75a5e7b79bf51ee5cb3cf2366740e6b38299a5de2"
+  },
+  {
+   "id": 12,
+   "title": "히메코에 대해",
+   "text": "이분의 영혼은 참으로 고귀해요. 개척의 여정은 길고 험한데 그녀는 여유와 용기를 잃은 적이 없으니, 참 마음에 들더군요. 전 이런 이상적인 품성을 본받아, 제 자신을 더욱 엄격하게 대하고 악에 저항하는 마음을 다잡겠어요",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "28ec3be524c09216e7e3be2884a43ceeed93aa7f6bab2157970d243d751fa153",
+   "jpUrl": "73e66c912d9f90cd84a7607d69e1f330f7f8836cfc6b6ddbdb29d7d7cfde41ee",
+   "enUrl": "033b00936cad36577f3d37faa9cdd1e22b90e77df911b15542a7ecf65a0ec73c",
+   "krUrl": "b96061a661b36d252d41dcd1278ed34f34acbf215e9c38a3b16b20e4719da5ab"
+  },
+  {
+   "id": 13,
+   "title": "단항에 대해",
+   "text": "단항 씨는 늘 사람을 경계하고 있지만, 행동은 언제나 점잖고 본인에 대한 잣대도 기사도 정신을 지키듯 엄격해요. 이 또한 「아름다움」이라고 여길 수 있게 해 주시죠",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "75fa981e81ec2899a8bdc189753385cb3faf37effd5eeb9dace803810b3dd18f",
+   "jpUrl": "f1b97b62f98d7409f63e97d64d6d9def9d33919b952d4746e4b03decce838168",
+   "enUrl": "b54e1a83bfc3b5424113ffd5ff647ef5d74c4865332e9910f89570f71b621f97",
+   "krUrl": "055ae33d7a21248c5619eb146b819cb49b3a530e93afbb57f64d26df18679324"
+  },
+  {
+   "id": 14,
+   "title": "웰트에 대해",
+   "text": "시간이 흘러도 천진한 마음으로 인생을 가장 순수하게 즐기는 분이에요——그런 성숙한 모습이 웰트 씨의 매력이죠",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "e14668e2adfd47ee1cb0be51c9b89cabacc322825e43a58166e1bdafc1455271",
+   "jpUrl": "844b2ffcba8c682cb2bf393556ac108ca93b1dce6d88b20ee6665b8e21064947",
+   "enUrl": "5f4b7dccfec034213c2e21c6cf16eb233432887b7bf915abfa1cfcc734fe30bb",
+   "krUrl": "24be4545cb0760baa8f93fca70a5fe59439ac7d8e59851012dedaa45add5fb1e"
+  },
+  {
+   "id": 15,
+   "title": "폼폼에 대해",
+   "text": "참으로 「매력적인」 솜덩어리에요. 갑옷 입은 기사의 어깨 위에 앉아 있으면 「명예」의 상징으로 잘 어울릴 것 같아요",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "1414c90ce709bb9745b41cc2bd46c594c47ed995887a8c7976714b0905ae1f49",
+   "jpUrl": "4fb151c70cf05a5aaa89966debf498706dcde575775caf30243f23082360f049",
+   "enUrl": "ba987e33668c6cf6cb2457803987f46d9ab9bd3342cf4e5132b42ae6e47b5ad5",
+   "krUrl": "1b1b452a335f21e8e1cbbf5bf190d3027e97bc2dfad466332bc38617958fa69f"
+  },
+  {
+   "id": 16,
+   "title": "울보 유령에 대해",
+   "text": "아, 「매력」 넘치는 동글이에요",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "63c572b924d90a5f51ac9fb04b801139bf64adaf570110f268d34912f54ae3a6",
+   "jpUrl": "8e6cfcf4b55d89d11a24fcdd281af185da4814f4768ec2ed79956067f931eb58",
+   "enUrl": "42ffb73463f1c9c3021889c414cae5936b09ffbd89fc3c0db21a6f335c1d935e",
+   "krUrl": "ae3213206045f8da434384fb3ee805bf792b0d39e4209000a218cf3ba395b666"
+  },
+  {
+   "id": 17,
+   "title": "개척자에 대해",
+   "text": "개척자의 타고 난 기질은 항상 우리가 처음 만났던 날처럼 신기하고 흥미로워요",
+   "unlockRequirement": "동행 임무 「우주 환각의 밤」 완료 후 개방",
+   "cnUrl": "481e8cd9796a79dc1abc5f018c68d43717d4e4767ca362ee4c65b09ddd5c58e0",
+   "jpUrl": "5596feeb4a5b6f57088e0977839fae930f568e6b54d6c4a4a497be9ae163d933",
+   "enUrl": "10491d22ef1fa45282179a9efadb7357f6694bce48bed6a6fa203a3b3eeb0971",
+   "krUrl": "e65a8af01f2b56afd926f7930ca5e9d4bb7bf16e56de295f6b345cf984ffe7f3"
+  },
+  {
+   "id": 18,
+   "title": "성혼 활성화",
+   "text": "「미(美)」는 어디에나 존재하죠——지척에도, 아름다운 은하 너머에도요",
+   "unlockRequirement": "",
+   "cnUrl": "5d4d9336c63696ded9816a6f834b4bd8d75eba150bab25d854b95851ceaf4568",
+   "jpUrl": "7537ea3071fbdd69f28fbeb76af925071df8e2c467b524c65b917ccabad754e6",
+   "enUrl": "19c8bce93f55be7c367961b2874e140278b75c5f9bab359a3107ffc13ed6320a",
+   "krUrl": "b16e682ffe8724b60bc739372a2dc765d653f47b46adf40210623d5290783529"
+  },
+  {
+   "id": 19,
+   "title": "캐릭터 승급",
+   "text": "한걸음씩 가면 늪에 빠질 염려가 없죠",
+   "unlockRequirement": "",
+   "cnUrl": "866b0e4c0bba1799c10028f93b9ae72a58b0d89fef76d14ed18c4f04cce5dbff",
+   "jpUrl": "6f4ddf7107a1242692ac531db832acbba92e4728c73bd35af0ebeb8402b198b0",
+   "enUrl": "f5c474a2c676a6c5f08d7ed090747121c0147f3f82a2a81c6ac858c542dea9cd",
+   "krUrl": "02cec685491da05a828ab6591a0dfeb4f8abfbdda041815885d4f4310dbd527f"
+  },
+  {
+   "id": 20,
+   "title": "캐릭터 최고 레벨",
+   "text": "죽을 때까지 「미(美)」의 명성을 우주 널리 알릴 것을 맹세하죠",
+   "unlockRequirement": "",
+   "cnUrl": "de490fee5aa60d73bf98554816f820c490600dc5d132a801715103f0b96f15f1",
+   "jpUrl": "90548229cca109a03990873b356e76e6c17ed584b1f4de110d0e05abe0a35fe0",
+   "enUrl": "ddb43c22407fefcaab9e0cd15530933e447cab892f285b297ad2f36c1f119a19",
+   "krUrl": "3a90517ec6e2f1b5a1e569db771ed56098b6afbec99e47350357dd6c5e4605b0"
+  },
+  {
+   "id": 21,
+   "title": "행적 활성화",
+   "text": "기사단 여러분과 행적이 다를지라도, 우린 종점에서 만나게 될 거예요",
+   "unlockRequirement": "",
+   "cnUrl": "551a8fb6a0e563211cb34c925ef8f4f01918bec661fbac848a6fad4f7c74f8b4",
+   "jpUrl": "26c99a9b3bb3cf84b8da107227fd0603113c0c4294b4650e9f5a4eb30de029dd",
+   "enUrl": "9f497899488d5f2f418d9d1d7a9be463968912609b808f5f519cc4f2974c2f0e",
+   "krUrl": "999e65b0ad1c613cd200ce9d32e1391767e447787319ae6c01094bc14a9e7b0a"
+  },
+  {
+   "id": 22,
+   "title": "파티 편성•개척자",
+   "text": "당신 같이 고상한 분과 한 팀이 되다니, 개척자, 영광입니다",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "파티 편성•Mar. 7th",
+   "text": "Mar. 7th, 미약한 힘이지만 당신을 위해 어둠을 물리치게 해주시죠!",
+   "unlockRequirement": "",
+   "cnUrl": "ed1ddb6aad97feda97fac30351fd1a26229ce6eb2c5185b0c27df5a0de461301",
+   "jpUrl": "68e4776a38c1b5a9b9e03905ad91ccb0718d0ee437bd75309a0f0a6a06d5afa6",
+   "enUrl": "e693ee0de4e4bbe650f21ffac08c5a593c57e090b88e65ecc2a37632b5098eb5",
+   "krUrl": "8227287d50b5f69836d33a9f339d63b2e6271b7f90a125d94af3969ac4b8304c"
+  },
+  {
+   "id": 24,
+   "title": "파티 편성•단항",
+   "text": "이곳은 무력이 아니라 지략을 겨루는 곳이죠. 단항 씨, 당신과 함께하게 돼서 영광입니다",
+   "unlockRequirement": "",
+   "cnUrl": "2c6c44c68ec2e15a3d0d0d10128456d2fe5ea598161a04b6307cc05926d51b44",
+   "jpUrl": "fe85a2720b57f6ec19094f2e2f876092b4464768d3c60f07fa27cb0db6efd5bc",
+   "enUrl": "a0dad0022553b20cda41a8054c3da612a7ca41776eca7eeb07e8b4e693f7ae26",
+   "krUrl": "955e88fd75331547f253111272b2fe98ec73bb28b8946b48ce2b574adb5935f0"
+  },
+  {
+   "id": 25,
+   "title": "파티 편성•히메코",
+   "text": "당신인가요, 히메코 씨? 역시 당신의 용기가 닿는 곳에는 별이 빛나는군요",
+   "unlockRequirement": "",
+   "cnUrl": "496d2f6212d7ce39c6340a1e47717105033035c3d30bb39bb94f05f33da04066",
+   "jpUrl": "ea84253743d379511bc7af50033e63cb8634f71f4fbd8e87cc86437b9b26884c",
+   "enUrl": "55054f1c836a4c05069c8ed6f7328ac5eaffe614060384be6d8620722b070277",
+   "krUrl": "72cd749c6cb2b2b80668caad5ba26f09cf6ae42157c0f7218809add13d95c3fd"
+  },
+  {
+   "id": 26,
+   "title": "파티 편성•웰트",
+   "text": "웰트 씨——구름처럼 종잡을 수 없는 기교와, 좋은 술처럼 달콤한 지략으로 절 좀 도와주세요",
+   "unlockRequirement": "",
+   "cnUrl": "93a013877982973cdedd670d75bafb17dd3c8b9a41fc11e97396e3e7866814e2",
+   "jpUrl": "820405f78d381e2153753c2c9bad7762071825d0e6282dd3f9214e942cf594f4",
+   "enUrl": "2e9176bb442c8118186fb0cc2b348d12844c1a12861fc52f836758b46b34da2c",
+   "krUrl": "161f6b3ab357c8be31a0fa74d0ba6230ac192dc72aaa32823347196f766e46cd"
+  },
+  {
+   "id": 51,
+   "title": "전투 시작•약점 격파",
+   "text": "선을 행하시죠",
+   "unlockRequirement": "",
+   "cnUrl": "8c58a943161e30c69285c7cd199e7581ddc748966512d8aecaa3af654e32374d",
+   "jpUrl": "0b193bbf6f032c943b63ef322dcc09991cb571edf2d0251d515907e04796c8a1",
+   "enUrl": "20b28e066ce7643ce16f28ee7d5c1c2f9b4c2222fe0f5ecc1fb3f413164a990d",
+   "krUrl": "b14b47641b6ea6bcf95760f05dbe73f566ab5ccf56c08f3e6b00cc2e69e2d33b"
+  },
+  {
+   "id": 52,
+   "title": "전투 시작•위험 경보",
+   "text": "찰나의 먹구름일 뿐",
+   "unlockRequirement": "",
+   "cnUrl": "6a8ff64027cadb4641687026402569ca499d5af5742a5d993993dc97072043eb",
+   "jpUrl": "006d0618e51fd5ea4b325b17cbc782c129410b96780e1a325dbb1a2f443f5106",
+   "enUrl": "710fcc9f557014f40f6a814e5bd2e87d0d8efcee5b6a0a9c8b008076967d870d",
+   "krUrl": "9e7f2ec2f766972e17d550a9549ac597a12ccfd3ddc63774bb10c6bb43acade6"
+  },
+  {
+   "id": 53,
+   "title": "턴 시작•1",
+   "text": "장미에 대고 맹세하죠",
+   "unlockRequirement": "",
+   "cnUrl": "d07c4d7aadf43549ac9ff2fedf74efd3d430eaec3242b85da46134e84b895909",
+   "jpUrl": "52aa710d8999de3d244024b92f68a6b862380c643154676eb2ccf021bf063fac",
+   "enUrl": "d892ba9178067d52a9fd15a5798d6a7db91251c5dc84b07f6e230172874cf5ac",
+   "krUrl": "4a5555fa5206b210566da33639e0d81fe2090ef1e255972781483f98d5e88bb5"
+  },
+  {
+   "id": 54,
+   "title": "턴 시작•2",
+   "text": "미의 기사단의 직무에 따라",
+   "unlockRequirement": "",
+   "cnUrl": "f1e6bc9d68a99de253b35b4c0f2d6285bf492e295075cc77ccbdb86f31949aec",
+   "jpUrl": "40847d4f493f28c4380f3b63d13c65ece62c71333e52fe09f23d9d07d26d6884",
+   "enUrl": "6c3954d4f185d9abfaebb262e559f6368eb18841b4ec18313e3de5932f92a24c",
+   "krUrl": "2c7d93d157161ad56399298fe20738a2d27769c5addeac553b7862fb1661ac6e"
+  },
+  {
+   "id": 55,
+   "title": "턴 대기",
+   "text": "방황하는 님이여, 어딜 보고 있나요?",
+   "unlockRequirement": "",
+   "cnUrl": "947cbf24b3169891d93d50e67ed35ed55f68a4bda2ca658a2b5f8676a9d288f7",
+   "jpUrl": "7ea58ffd6ae5d86d3ffecade5e8706de9c23fdb699e1ea09457e568cfb309557",
+   "enUrl": "cb06b7196ca36e5ff9004669b4b07205a28c111e8fbc262483c1e634bdf9dc6c",
+   "krUrl": "ffd2b6360c5c73e6b8eecffb3dbbb8983aa45d319588c63b4fafb7482402afaf"
+  },
+  {
+   "id": 56,
+   "title": "전투 스킬•1",
+   "text": "미는 영원하리",
+   "unlockRequirement": "",
+   "cnUrl": "b4c5979b71bf846b030cf121af312935ea8211f50f46640254104bd079925ddf",
+   "jpUrl": "07c88a6f6cf889686dd3af3c0d1597fe37b3422b92ae7098cb2e393843cd30b9",
+   "enUrl": "443fdcbf2c081766f563586dddc550901f3b8740b7f612e72cef2aa88c1af045",
+   "krUrl": "ae4c36e364aad4e0f75ca5395f8cf9536b8f3a273b15ce614c457ff1ba43cc06"
+  },
+  {
+   "id": 57,
+   "title": "전투 스킬•2",
+   "text": "추함은 소멸하라",
+   "unlockRequirement": "",
+   "cnUrl": "8609eb07a7d2fae7bc9d650afcfad4e45ce38722bc5605ba72fb3e429e73ba34",
+   "jpUrl": "637771fc13515ffc59b91a644288c0b304667ce1653d484a3db968055b3c33d5",
+   "enUrl": "b156d140e38b03a800c2d3f9278cf2a06bbe0ad50187efb478c71e99e6b11d9c",
+   "krUrl": "0591fe393bdaa1bb14ed2bddf8d2740cc45e407155b33e2b42f2355258bfeb56"
+  },
+  {
+   "id": 58,
+   "title": "약공격 피격",
+   "text": "간지럽군요",
+   "unlockRequirement": "",
+   "cnUrl": "d6690383f958615de4c308b4ea6df31d1a545d09b1a341bb03ccb27d541440a5",
+   "jpUrl": "d3da1e7c9c73582a14269c06ec2dc3a600a6172a382244b10815fef3c9ca0849",
+   "enUrl": "bea5119954198219f5fe6b8a0a282158905b36da3ed6084696db5b131c4e29c0",
+   "krUrl": "3aa70faadb8a53b9eda48a18fcc91e6f9387b0ec543d3826336da68cee349b53"
+  },
+  {
+   "id": 59,
+   "title": "강공격 피격",
+   "text": "기사의 시련……",
+   "unlockRequirement": "",
+   "cnUrl": "18076062f2a71acd1166a468d17f00613db9d3cd1a7785e09a233be116f4f2e3",
+   "jpUrl": "2ad9b08993a283a42b53051e77eb7b73f48cb20b825f2fd92a8cf310087a7da9",
+   "enUrl": "08618c5edf3c6fbedf4e2580a7741ecc40db1241c300232d9c1e8f79243f27fc",
+   "krUrl": "923481ffcf26100d0e2938cafcf1153e161e547d8544e95c56cb2ff87e47e2dd"
+  },
+  {
+   "id": 60,
+   "title": "필살기•활성화",
+   "text": "다시 그 빛을 보기 전까지……",
+   "unlockRequirement": "",
+   "cnUrl": "0eae4ff72cfb81447ffd7b0d8f61d0979120235911851d5356501f26fbffa055",
+   "jpUrl": "92496800350b5075a749f8167b5650f8284a748a90ffe64ab53f2c9bcf6e8fcc",
+   "enUrl": "55ed84a3efa950ce2ef261c932edc1a647d8e3f2cc70941ae1cf74cedc7acbaf",
+   "krUrl": "c719d2121649a50e6b3e182606e5266fd96a930dd1c4fd1dba069ae5041f426a"
+  },
+  {
+   "id": 61,
+   "title": "필살기•발동",
+   "text": "마지막 순간까지, 은하의 미를 수호하리",
+   "unlockRequirement": "",
+   "cnUrl": "0e709fa109d331d449662b58d12fb887c96edd38c53646ef5ec55816a9dd8652",
+   "jpUrl": "6a6dee4b6de4c3ac0c34061a6cefcd8c9ea873408cba1d51fc72e08fac641819",
+   "enUrl": "da46c91d4d9f643264c74ebaa9a959f23a437301fcd731c1718d0e8731219c87",
+   "krUrl": "b2b11a8fa02ba8c065d5045e30931ac96b8f57df1845d4099f6c22c23123a2b9"
+  },
+  {
+   "id": 62,
+   "title": "강화 필살기•발동",
+   "text": "……이드릴라 님을 위하여",
+   "unlockRequirement": "",
+   "cnUrl": "7ed671d61abbfb7245b094fd115089e4aaf0c64f0866ec913c6cc59543d9b7a5",
+   "jpUrl": "61032c9a7d92c0600b8eab8b63187e899c424ca97d423d38cf928a29ecac5298",
+   "enUrl": "9d631edd7c55c86283a75b773a01064e2004742a769072b3544a8656e1c987d7",
+   "krUrl": "cb5c6169dbd537b720162d13c435cbb1e6b550e689a2779713128bc687b821de"
+  },
+  {
+   "id": 63,
+   "title": "전투 불능",
+   "text": "「그분」은… 어디에……",
+   "unlockRequirement": "",
+   "cnUrl": "a5cfa77c89939dbc0301e6a2b032a5e6fa1e8328100cfd548d7eb6dddd2f9771",
+   "jpUrl": "945d5547fd746246d44265998408d9dfb25fdbb2cd882995d965177b99fc320d",
+   "enUrl": "2deebdac8879c5964c8132d8d3c1d40406f1c6208101cce9083da8fa645aa654",
+   "krUrl": "8893e844a93ce52fa6bf2450d436fe554299b8b55165372022c574ba621bdf0d"
+  },
+  {
+   "id": 64,
+   "title": "전투 복귀",
+   "text": "신념은 깨지지 않죠",
+   "unlockRequirement": "",
+   "cnUrl": "73d83ec18d48b770078ca18c67640d0992760b9c28894fe0b1c6a378c264dbe9",
+   "jpUrl": "7d4cc60743f18234721e73bbadb94aea218964803a80308b12f6fda57eeca909",
+   "enUrl": "17889fde54376f1758e29cdc5fb70247c6621814b01aba3d862dc007e636a84a",
+   "krUrl": "d43b1112c4c1175bbdd84ef9525d083661ed93e45f316c49eb7bec7d3c1f6d4e"
+  },
+  {
+   "id": 65,
+   "title": "HP 회복",
+   "text": "감사합니다, 마음에 새겨둘게요",
+   "unlockRequirement": "",
+   "cnUrl": "50d4414157afd25d0dafbda829e219fe2291ab36d16dc2802afcaa145bdfca7e",
+   "jpUrl": "f7e56a9ff734b375cc161eb850afe7bcdd29bbda02bfad912a5882b7ded8ab6a",
+   "enUrl": "eb11a6dc3555338a7896c71fa96844517d3c7deddf3295cfb4df6d4b8a8729d3",
+   "krUrl": "29c6437df85862a7c5227c854b719c4446d7845cb2a4fd2e93a14a9ee882c7cb"
+  },
+  {
+   "id": 66,
+   "title": "비술",
+   "text": "영광이 있도다",
+   "unlockRequirement": "",
+   "cnUrl": "12b2a7e62ef3227f2fb18e2084dd41159cf4df9b66989244ae18a78afb959b0a",
+   "jpUrl": "a7aa19fdbfb276c11b75a0390258159f7488881c83cdfce5ff00675dcd037ecd",
+   "enUrl": "ae4f6a033ba2aeb20bd6e6a3c1e33f5d3fa3ad4474c5261cbf5a8fe8cfba083c",
+   "krUrl": "249bb04081d965c275fd2f9acb1a85ce91d317a4d7b6a9841d615d39eef7f983"
+  },
+  {
+   "id": 67,
+   "title": "전투 승리",
+   "text": "어둠은 여기까지",
+   "unlockRequirement": "",
+   "cnUrl": "d32c26c25e083ec795bc7a4b360da593c503f8ad7d377bf63f3294d9d42ba617",
+   "jpUrl": "db2f45643e9f557a864a03fba5544b77eb1be8de5ff6c24d05d756247aad84c0",
+   "enUrl": "b22de8b8c84c9a5d3b14dcf2f2e4df692127d6ee892a12bf3946de8fb1463160",
+   "krUrl": "a5439b42f311e6ef4f69ad3b0f28691a6779ab9d4c8f657abec38b0cd3584f25"
+  },
+  {
+   "id": 68,
+   "title": "전리품 오픈•1",
+   "text": "호? 마음에 드는 이벤트군요",
+   "unlockRequirement": "",
+   "cnUrl": "08498b4045f256f53adaa7c82ebc96270b3b70ef6d94766c380122fbd063e797",
+   "jpUrl": "ef34af2eac94dfb66247e9e19559ecb3e09bafc9a170477a9cd6ed65671c86d2",
+   "enUrl": "5983e36de44ff0b995afb95d5b00a9cb9777ec32dcc7bfc2c7d04dde8ab88b56",
+   "krUrl": "8a60f34100e97defe58f86c2ee2b179daafd587a90edecf8859963e5d6b6a3cb"
+  },
+  {
+   "id": 69,
+   "title": "전리품 오픈•2",
+   "text": "제가 답례로 드릴 수 있는 건 장미의 향기뿐입니다",
+   "unlockRequirement": "",
+   "cnUrl": "3d524b80f3f6caaf51263aea8bd6488cdeefaf6365cc40e420c7f4524ffc6576",
+   "jpUrl": "8fa8358e951efe3b8c7ceb4dbf3b34f16504bea5c7b835c320d8c0909a99d3b5",
+   "enUrl": "5f1dbfb38708d0c8675e2a056ac474e8782b7d24ad9d48f6147172afcf5ee04e",
+   "krUrl": "96d8242c0ef4e40be58af00b677fa97549c7c4964eb80fbd63beb554a7ec62e4"
+  },
+  {
+   "id": 70,
+   "title": "진귀한 전리품 오픈",
+   "text": "빛나는 아름다움은 사람의 마음을 움직이죠……",
+   "unlockRequirement": "",
+   "cnUrl": "48c28f81d2cd051c8a83c907434f9b4c6d35acf64ce6515fc89fd34909b09b39",
+   "jpUrl": "a977d83f95c551410bbb82056ffbf6b7198c6ef8577810d08ff1830952a9dc76",
+   "enUrl": "e61ceccb48c0e3461c55f2e4fbf090c7fba43b3ee6e2150bdb41ba95ed617c6e",
+   "krUrl": "273ca15a848e0a946e290294b0a4f33523d2b3ae4dc2d766fa36b73456079250"
+  },
+  {
+   "id": 71,
+   "title": "수수께끼 풀이 성공•1",
+   "text": "현명한 판단이군요",
+   "unlockRequirement": "",
+   "cnUrl": "bef2a00743d3343e5a03abf1ae4c636ad6c5c26d701240f3016447bf2a4f805b",
+   "jpUrl": "610e3eec7ff3fe43296623cc2077fadf9e720d4c3bf7c5fd6178dc0d760f93c6",
+   "enUrl": "3493e76c8d339b5d7f87f6fc1aa166269c3a8cdb5662e2adc1bbe9b0a2a99050",
+   "krUrl": "d72df83016efd27fcc8b5496606e2b90a80a818358829e35ea512051d71f7be4"
+  },
+  {
+   "id": 72,
+   "title": "수수께끼 풀이 성공•2",
+   "text": "걱정 마세요, 제가 대신하죠",
+   "unlockRequirement": "",
+   "cnUrl": "a92f214993adeb5357dde0e1bd337848ca759aab6c2bbbdfec97de753c4dccab",
+   "jpUrl": "79c5af518a1783696466a861d83748db45397fcd8f58b6a1c731b9b85f8e2c6d",
+   "enUrl": "55b8f8779395074d6ad3fb5d9b36be8cc9618814c61ea6a060a8caa1b5304c97",
+   "krUrl": "0051a166b55a8375b48109cbc526c1e5320dcec88fa28ad4a7febc037d3d8051"
+  },
+  {
+   "id": 73,
+   "title": "적 발견",
+   "text": "한번 겨뤄볼까요?",
+   "unlockRequirement": "",
+   "cnUrl": "316400ada38e74a8569e926f8685969a96a2cc84882593f7075c60481fc00fcb",
+   "jpUrl": "6b5a31d8a7141d86b363d739b22c4aebb61e8b3e0cd0ef23a911f506429b8977",
+   "enUrl": "cd487c12c640ed3ab9c3e77a696c328f66cd0a16351b128773405af3bf1d8768",
+   "krUrl": "b7a27adc2b510958a7e32dbccbd3543b1956ceba49661477ac48a95b414046a8"
+  },
+  {
+   "id": 74,
+   "title": "도시로 복귀",
+   "text": "익숙한 바람은… 그리움을 부르죠",
+   "unlockRequirement": "",
+   "cnUrl": "b61c53e3e3c10c4bb04e3d2ef2ccb2cef558358f67465f39659a83e5e18b6360",
+   "jpUrl": "12c8cd2aabe04a91fdb159129e4b6a0857d1615478c0b9073758eed5b1e9ff11",
+   "enUrl": "6e221b0377492b71ad349de9f074698bf06cf416a5130b7b70c71e0a727800eb",
+   "krUrl": "aee60e38c532d9a76b2ba135bfd569b6c1d4df1a08f8c202f4e8e7c05171e8f6"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "캐릭터 상세",
+   "text": "「미(美)의 기사단」의 고전적인 기사.<br />사람들은 그의 정직하고 당당하며 고귀한 천성에 탄복한다. 그는 홀로 우주를 누비며 「미」의 길을 꿋꿋이 걷고 있다.<br />우주에서 「미」의 명예를 지키는 것이 아젠티의 직책이다. 이 의무를 수행하기 위해 창을 들 땐 경건해야 하고, 창을 내릴 땐 상대를 진심으로 승복시켜야 한다.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "캐릭터 스토리•1",
+   "text": "그의 고향은 수년간의 전쟁을 겪었다. 포화가 난무하는 가운데, 그의 어린 시절 기억은 피와 연기로 얼룩져 있다. 어느 날 지하에서 포격을 피하다가 그는 벽돌 밑에서 오카리나를 발견했다.<br />그는 흐르는 공기를 멜로디로 바꾸려 했다.<br />그러나 그의 음악은 정말 끔찍했다.<br /><br />하지만 그때의 오카리나 소리는 그에게 유일한 「정신적 도피처」였다.<br /><br />선율은 시간이 지나면서 그의 기억 속에 녹아들어 「신비한」 순간이 되었다. 수년 후, 그는 음유하던 중 전쟁의 포화 속에서 아이를 구하고 진귀한 오카리나를 선물로 받았을 때, 그때의 기억이 떠올랐다.<br />그는 오카리나를 손에 들고 자세히 살펴봤다. 하얗고 흠잡을 데 없는 질감에 공기가 구멍을 통과해 기압으로 선율을 만들어 냈다. 음이 다시 조합되자 추억 속의 감정이 되살아났다.<br />그러나 그의 음악은 여전히 형편없었다.<br /><br />「난 너무 어리석어서 이걸 제대로 다루지 못해……」<br />당혹감과 불안함에 한참 생각하는데 무시무시한 용기가 다시 생겨났다. 그는 다시 흐르는 공기를 선율로 만들고자 시도했다——<br />선율은 여전했지만 그는 활짝 웃었다.<br /><br />「하지만 난 이게 정말 좋아. 이게 『아름답다』고 믿어」<br />그는 오카리나를 조심히 챙긴 뒤 더는 망설이지 않고 앞으로 나아갔다.",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>20</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•2",
+   "text": "고향을 떠난 후 그는 연로한 스승을 따랐다.<br />일상적인 육체적, 정신적 수행 외에 가끔 오후에 휴식을 취할 때면 스승은 그가 본 적 없는 시대——고대의 우주 음유시인들이 「미(美)」를 목격했다고 주장하는 순간들을 이야기하곤 했다.<br /><br />「그곳은 멈춰있는 마노의 세계로, 모든 사람들이 그 안에 갇힌 기이하고 아름다운 현상에 눈물을 흘렸다」<br />「이드릴라는 죽고 나서 여러 차례 <nobr>13</nobr>앰버기원의 윤회를 거쳐 <nobr>13</nobr>번째 달에 우주 어딘가로 돌아온다고 전해진다」<br /><br />당시 스승은 매일 그에게 「미」의 정신을 가르쳤다.<br />「시」 낭송을 대신하여 경건한 「전투」로 「미」의 정신을 관철시키는 방법이 그 내용이었다.<br /><br />——그는 그것이 「기사」라는 존재의 준칙이자 품격이라는 것을 알았다.<br /><br />하지만 스승은 그에게 많은 이야기를 하기도 전에 세상을 떠났다. 그는 다시 혼자가 되어 일찍이 막 고향을 떠났을 때처럼 자신의 존재에 대해 깊이 생각했다. 다만 그는 더 이상 고독을 「걱정」하지 않고, 어떻게 「기사」가 될 수 있을지를 고민했다.<br /><br />그는 오래된 성에 머물며 더러운 거리를 마치 햇살을 듬뿍 받는 아기처럼 새롭게 만들었다.<br />그는 악몽 같은 괴물을 토벌했고 이듬해 봄, 토끼들이 다시 숲속에서 뛰어다니기 시작했다.<br />그는 잠시 다른 「기사」 하나와 세계를 돌아다닌 적도 있는데, 그 기사의 말에 따르면, 그는 갑옷에 여신의 축복이 깃들어 있다고 굳게 믿는다고 했다.<br /><br />「영혼을 바친다는 것은 '매번 돌아오지 못할 수 있으나, 결코 물러서지 않는다'는 뜻이네」<br />「힘내게, 친구여」<br /><br />그가 창의 얼룩을 응시하는 것은 「미」를 수호하는 증거이다.<br />그가 창의 얼룩을 닦는 것은 「미」의 길에 오르는 증거이다.",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>40</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•3",
+   "text": "그가 「미(美)」의 운명의 길에 접어든 후, 고행의 길에 여러 「시련」이 점차 모습을 드러냈다——<br />시련은 희망이나 참회, 또는 삼중 마귀의 속삭임으로 나타나 혼란을 주었다.<br /><br />그가 두려움 없는 「창」으로 긍지를 품고 삼중 마귀의 유혹을 베어내자 나약함, 탐욕, 잡념이 모두 사라졌다.<br />그는 영혼과 생명을 미의 에이언즈의 발밑에 바칠 것이다.<br /><br />삼중 마귀의 속삭임은 형태가 제각각인 헛소리 같았다. 그것들은 어지러운 안개 속에서 다양한 인간의 욕망으로 변했다.<br />그것들은 비속한 이익 추구이자 파렴치한 죄업, 권력의 왕관이자 매혹적인 목소리가 되었다.<br />그것들은 정점에 이른 살육이자 식탐, 참회에 대한 망각이자 흔한 감정이 되었다.<br /><br />그의 피는 명예와 함께 전장에 흩뿌려질 것이고, 검붉은 핏방울은 긴 머리카락과 함께 엉켜 있을 것이다. 그의 창은 이곳에 놓여 있고, 신은 그 창이 영원히 날카롭기를 축복한다.<br />떠나간 스승과 동행자의 목소리가 귓가에 맴돈다. 그의 주인이 고개 숙이지 않는 한 그 창은 영원히 부러지지 않을 것이다.<br /><br />피에 젖어 의식을 거의 잃었을 때, 그는 마침내 어디선가 들려오는 속삭임을 들었다.<br /><br />「그대들은 악명을 근절하고 명예를 선양한다. 그대들은 『미의 기사단』이다.<br />승리를 거둘 때마다 자신을 보고 악을 저지르고 싶어하는 자신의 마음을 봐야 한다」<br /><br />「축하한다. 또 한 번 『거울의 시련』을 통과했구나」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>60</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•4",
+   "text": "기사단이 「미(美)」를 견지하는 태도는 다양하다.<br />누군가는 일생으로 자신의 신념을 관철하고, 또 누군가는 끊임없이 가설을 세우고 절망하며 다시 그 가설을 뒤집는다.<br />누군가는 훈장을 받고 전장에서 싸우고, 누군가는 자신을 시계탑의 추한 자라고 여기며 「미」의 의복을 받는 걸 부끄럽게 생각한다.<br /><br />변하지 않는 것은 모든 사람이 우주에서 「이드릴라」의 실체를 찾기 위해 애쓰고 있다는 사실이다.<br />그는 겸손, 연민, 공정을 마음에 새기겠다고 맹세했고, 이를 어긴 적이 없다. 그는 「미」의 계명을 마음에 새겼고, 믿음도 점차 고집스럽게 변했다.<br />「괴짜… 미의 기사는 다 괴짜야!」<br /><br />「이드릴라」가 죽었을지도 모른다는 소문이 우주에 퍼지자 그들의 당혹감은 더욱 심해졌다.<br />경건해질수록 의문도 커져 갔고, 더 크게 웃을수록 이상해져 갔다.<br />혼돈 속에서 돌이켜보니, 온갖 「명예」, 「미명」, 「악명」은 모두 긴 시간 속에 소멸되었다.<br /><br />결국,<br /><br />그가 이전에 동행했던 「기사」를 다시 만났을 때 상대는 이미 힘을 추구하는 길에 빠져 버렸다.<br />과거 전설의 무기를 들고 하늘을 삼킨 괴물을 잡은 영웅의 갑옷은 괴물의 비늘이 되었고, 그의 무기는 떼어낼 수 없는 발톱과 이빨이 되었으며, 그의 피는 끈적한 화염이 되었다. 지혜가 담겨 있던 그의 눈에는 야성만 남았다. 자신을 「친구」라고 불렀던 그의 목소리도 쇳소리 나는 울음소리로 변했다.<br /><br />시련의 말은 「종말」의 예언이 되어 눈앞으로 다가왔다.<br />자신도… 마찬가지로 「흉조」가 되어 타락하게 되는 것은 아닐까?",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>80</nobr> 개방"
+  }
+ ],
+ "archive": {
+  "cvCn": "梁达伟",
+  "cvJp": "立花慎之介",
+  "cvKr": "최승훈",
+  "cvEn": "Adam Michael Gold",
+  "camp": "미(美)의 기사단"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "아젠티",
+ "rarity": 5,
+ "descHash": "「미(美)의 기사단」의 고전적인 기사. 실종된 「미」의 에이언즈 이드릴라를 경건한 마음으로 흠모하고 있다. 정직하고 당당하며, 우주를 유람하면서 이드릴라의 명성을 널리 알린다",
+ "artPath": "6c804977de23b574e08b45a1dd1fa4f11ff66ea0f23ebfded42906fa9386d47e",
+ "miniIconPath": "b8b9eb745b1949f108d32c7248e1a7c6046be294909fea2823657f2f51f48c2b",
+ "damageType": {
+  "id": 1,
+  "iconPath": "9b77aa4b13a80228e6db8023c086a6dd43ffe89e318aa52e790528beb4e5ea20",
+  "color": "#FFFFFF",
+  "name": "물리",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "a1916e75aa6a99295aa01786a946ae601da457b578603446740cbe30bc5fba5a",
+  "altIconPath": "01710b94c5c1a7c525cfaedc0ea8f32901c99aa71a28896a16d52656c3ce3654",
+  "color": "#FFFFFF",
+  "name": "지식",
+  "rarity": 0
+ },
+ "pageId": "argenti"
+}

@@ -1,0 +1,2964 @@
+{
+ "spRequirement": 130,
+ "iconPath": "964fad345ab51a77077bce75f248ebb94290df59eece5f4b2d109e6a50eae854",
+ "bgPath": "87f77b9da1f2167e89d13ddcde7d908d274f465c5fca0c5634e8d63db792eb52",
+ "figPath": "768d41deed5fddb203b19ae6f4596d9e5b4c8172f2c3dbac4552c76671609d94",
+ "fgPath": "713da05189557f9a27e96f82704ccfb1e263f7a9b313a9504d500e431fd02159",
+ "splashIconPath": "5ded512bc76c708e9a0e96cb9fd8a1e987436fa941a5ec5273270551e2b33fda",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRq4CAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSA4BAAABkGpt27FN1/u8v//0D5ptM5tpkm1ls9q281TPJHs2wLb1vs91hg/bEBEToJLDxicqu6ZJ2uq0uymEUCJR71V3fsNRpVJaLGjAWWIWmaHBY6SkQBo++jEx8mP32C8bGlS0ybiw/ybxP5ea/mCSqgpqNr+Nb7D5NOUd19sqlVIte3Ysw0Se/YgcrVdQpVbtWwc2EZxxTUrU48oTbGyicc7Zugqt+v4eY8DGzpmm6tvYGBtjx4wdmvfXERcrzDjY7HyGCyjA/GfOknPktnG0bWJG7D0TYm7HHJvsH7BA7d//A3Iw5PD68XpJbTpPu/+X75sGDR05aMrSNpKUSAq9p7RU6URSEoIkhRDSkFYkkgRWUDggegEAAJAHAJ0BKhQAFAA+bTCUR6QioiEoCACADYlkAJ0ygxg1y22A70D3ctNG3iLyQCmDeMFFmDhwSZVKXe6+fcvgv0iiz6f+AAD+9sog9QmD5hEUPz7vsVNDzp018poOvc3c2cf25xa5eGcVSaAfo4t+1P3yaYzkHOS2q870HbFnjWXBlhbbIZeRr/n93z3SrzbSncEJuiNBzjc0REyH8wWc7cx4/u4oM2bBgOHLFq75v0jrKJn5N+IGv5Flpjs76nIXMK62WjNhj0SqZgKlKlDFt1bw/adkJi7s7Go3hAlR/35R20dP9nKTKRoFJJCPOPcWl21BrWDbl1TUlZErSTqF0MFuXDcms6/5KeQXWNiB+yrJ0DvuWx/in7+IBTT73yK/4v77aw533dsj1h/e4mVnq+JoWDJsN2lG2GCV9+EOVP4h+2QH+qISYP/ij9dPMFffowPLqY+tgrVZ9MF2Vf12Bb+r/rylDibJxXLR7Ekpphhktcrujg8yqlAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "4b4b5f13f6588e7fb1c030c28f9b9b67a7a8c4bab77c05e38d5c9f64eb0d99e7",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "5f5d136a26ef31f77e957533a35243f3fe1773b3167eb996dd3bc3e9508165cb",
+   "name": "เครดิต",
+   "desc": "สกุลเงินที่องค์กรสันติภาพแห่งดวงดาวใช้ในการชำระบัญชีแก่ลูกค้า ซึ่งปัจจุบันได้กลายเป็นสกุลเงินหลัก ที่ใช้กันอย่างแพร่หลายสำหรับการเดินทางในอวกาศ",
+   "lore": "\"ผู้คนดิ้นรน ต่อสู้ และแลกเปลี่ยนเพื่อตัวเลขที่แสดงในเทอร์มินัล แต่สิ่งล้ำค่าที่แท้จริงนั้น ไม่สามารถซื้อได้ด้วยตัวเลขจากองค์กร\"",
+   "purpose": "สกุลเงินทั่วไป",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Calyx (Artisanship Commission)",
+    "Calyx (โรงแรม Reverie - แดนฝัน)",
+    "รางวัลภารกิจ",
+    "รางวัลคำขอ",
+    "ร้าน Ember"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "999db0943876bc45d70e793bb21b7368b799f16b9b9b5ec98f87ab3a999ca059",
+   "name": "Tracks of Destiny",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "ความพ่ายแพ้ซ้ำแล้วซ้ำเล่าจะนำไปสู่ชัยชนะ ก้าวไปข้างหน้าก้าวแล้วก้าวเล่าจะนำไปสู่จุดเปลี่ยนของโชคชะตา",
+   "purpose": "วัสดุ Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "รางวัลคะแนนสะสม Simulated Universe",
+    "เกียรติยศนิรนาม",
+    "แลกเปลี่ยน Ember",
+    "ร้าน Starlight",
+    "รางวัลกิจกรรมจำกัดเวลา"
+   ]
+  },
+  "186254": {
+   "id": 186254,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "9794d4b9cee70ded671331e6e9eec06326dcb9428d59540d9960f2a0bbea00e1",
+   "name": "Regret of Infinite Ochema",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "ไม่ว่าจะอีกกี่ร่างก็ยังไม่สมดั่งใจ เช่นเดียวกับผู้คนที่แสวงหายาวิเศษ มันปรารถนาจะมีร่างกายที่มีชีวิตยืนยาว โดยไม่ต้องกลัวการ \"ทำลายล้าง\" อีกต่อไป มันรู้ว่า นี่เป็นเพียงความเพ้อฝันที่ไม่มีทางเป็นจริง<br /><br />\"ฉันเคยเห็นโลกที่ถูกเปลวไฟของเทพแห่งสามานย์ กลืนกินมานับไม่ถ้วน และฉันก็เคยเป็นหนึ่งในเปลวเพลิงเหล่านั้น ฉันเต้นรำไปตามปลายนิ้วของเขา โดยรู้ดีว่าถ้าฟืนหมดแล้ว ไฟก็จะมอดดับลง...\"",
+   "purpose": "วัสดุ Trace",
+   "rarity": 4,
+   "rewardPath": "/material/186254",
+   "comeFrom": [
+    "Echo of War: Scalegorge Waterscape"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "93e57927857330492588a5988471221f81a568e9405e453a4ec1a35e080e58ab",
+   "name": "คู่มือการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>20000</nobr> หน่วย",
+   "lore": "หนังสือชุดเกี่ยวกับการผจญภัยที่จำเป็นต่อการสำรวจโลก กดปุ่มอ่านเพื่อฟังเสียงที่น่าฟังในภาษาที่คุณเข้าใจ ซึ่งจะบอกเล่าเกี่ยวกับประสบการณ์การผจญภัยในโลกต่างๆ ของเหล่านักผจญภัยที่มีชื่อเสียง รวมถึงภูมิปัญญาอันล้ำค่าที่พวกเขาได้รับจากดาวแต่ละดวงด้วย<br /><br />\"คู่มือการเดินทางชุดใหม่ 'การทำอาหารระหว่างดวงดาว' จะวางจำหน่ายเร็วๆ นี้ โปรดติดตามกันให้ดี\"<br />\"สำหรับการส่งผลงาน โปรดติดต่อกับ Synesthesia Beacon ERD<nobr>-23</nobr>θ เพื่อติดต่อตัวแทนของสถาบันแห่งปัญญา โดยวิธีการจ่ายค่าต้นฉบับนั้น สามารถจัดการได้ตามความสะดวกของคุณ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5bc0f70fa042018eea0146f55ad54f669516480a6c85e57e3a7d15596ae23894",
+   "name": "บันทึกการผจญภัย",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>5000</nobr> หน่วย",
+   "lore": "บันทึกการผจญภัยที่ได้รับการจัดการอย่างเป็นระเบียบ และมีคุณค่าต่อการศึกษา ซึ่งประกอบไปด้วยภาพประกอบและข้อความที่เกี่ยวกับการผจญภัยตั้งแต่ต้นจนจบ ตลอดจนข้อมูลที่มีคุณค่าและเทคนิคที่เกี่ยวข้องกับการเอาชีวิตรอด<br /><br />\"ทำไมไม่แปลงข้อมูลใส่ลงไปในดิสก์ล่ะ? สะดวกกว่าตั้งเยอะ\"<br />\"เมื่อเผชิญกับพายุดาว และการปะทุของกระแสนิวตรอนแล้ว เทคโนโลยีขั้นสูงนั้นมีความเปราะบางมากกว่าที่คิด นอกจากนี้ คนทำหนังสือเล่มนี้คงอยากจะให้คนอ่าน สามารถอ่านได้ด้วยวิธีที่ง่ายที่สุด\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "การฝึกประจำวัน",
+    "ร้าน Ember"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "210df022ef9d45e28825002eae2111550ad34186eae4cefed470e45f6ec7c563",
+   "name": "ความรู้จากการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>1000</nobr> หน่วย",
+   "lore": "ไดอารี่การเดินทางที่เขียนด้วยลายมือสุดยุ่งเหยิงและมีเนื้อหาตามใจชอบ ซึ่งไม่ค่อยมีประโยชน์สำหรับคุณสักเท่าไหร่<br /><br />\"Dan Heng อ่านจบแล้วก็รีบเอากระดาษพวกนี้ไปทิ้งเถอะ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Calyx (Cloudford)",
+    "Calyx (พรมแดนสร้างฝัน)",
+    "รางวัลคำขอ"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "28d0ba947e29fa63210d8ae2c432cb80339f98427c8655a9ca050184f69c4819",
+   "name": "Ancient Part",
+   "desc": "ชิ้นส่วนเครื่องจักรที่หลงเหลือมาจากโลกยุคเก่า เป็นวัสดุพื้นฐานที่ใช้สำหรับเสริมพลัง",
+   "lore": "แม้ว่าจะมีขนาดเล็ก แต่กลับถูกสร้างขึ้นด้วยเทคโนโลยีที่คนในยุคปัจจุบันยากจะทำซ้ำขึ้นมาได้<br /><br />\"สกรูตัวเล็กๆ ในโลกยุคเก่านั้นแข็งแกร่งกว่าเกราะของเราเสียอีก\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "ดรอปจาก Automaton",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "รางวัลคำขอ",
+    "แลกเปลี่ยน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ",
+    "Calyx (Golden)"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "7089e982e18575f3824ab28ae0e91f40c8214edf6253a7162142bdc7fc0acdbe",
+   "name": "Ancient Spindle",
+   "desc": "เพลาของเครื่องจักรที่หลงเหลือมาจากโลกยุคเก่า เป็นวัสดุธรรมดาที่ใช้สำหรับเสริมพลัง",
+   "lore": "ชิ้นส่วนที่ประกอบเข้าด้วยกันอย่างแม่นยำแล้ว หากถอดออกมาจะไม่สามารถประกอบกลับเข้าไปใหม่ได้อีก แม้แต่ช่างซ่อมผู้ชำนาญในแผนกเทคโนโลยีของ Belobog ก็ยังต้องคิดให้รอบคอบก่อนที่จะแตะต้องมัน<br /><br />\"เจ้าบื้อ เอาของแบบนี้ไปให้เจ้าชุดเกราะสีน้ำเงิน ก็เหมือนกับว่าให้กระป๋องที่ไร้ค่าสองสามอันแค่นั้น เอาไปให้ท่าน Svarog เถอะ รับรองเลยว่าเรื่องกินเรื่องใช้สบายใจหายห่วง\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "ดรอปจาก Automaton เมื่อระดับความสมดุลถึง Lv.2",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "271b1f9a291c44b698190683f224996bae3b49e8e596c227b819b72c3a2b82dd",
+   "name": "Obsidian of Dread",
+   "desc": "เศษของวัตถุแห่งความมืดที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้เล็กน้อย",
+   "lore": "ไม่ว่าวิธีใดก็ไม่สามารถพิสูจน์ถึงรูปร่างของมันได้<br />หากสัมผัสเบาๆ จะได้ยินเสียงกระซิบที่คลุมเครือจากเศษชิ้นส่วนนั้น<br /><br />\"████ ██ █ █\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4ef8700321d72ae07d3b931df6b9f6567d87f4035e2afed42d53e7c53aa09ceb",
+   "name": "Ancient Engine",
+   "desc": "เครื่องยนต์ของจักรกลที่หลงเหลือมาจากโลกยุคเก่า เป็นวัสดุชั้นสูงที่ใช้สำหรับเสริมพลัง",
+   "lore": "มันใช้ Geomarrow เป็นแหล่งพลังงาน เมื่อขับเคลื่อน มันจะไม่ได้เปล่งประกายไฟออกมา แต่เป็นแสงที่กระจัดกระจายไปทั่ว<br /><br />\"มีเพียงแผนกเทคโนโลยีที่อยู่ภายใต้การควบคุมของผู้พิทักษ์สูงสุดโดยตรงเท่านั้น ที่มีสิทธิ์เข้าถึงข้อมูลเกี่ยวกับโลกยุคเก่าได้ ส่วนฉัน หลังจากที่ถูกไล่ออกก็เข้าไม่ได้แล้วน่ะ\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "ดรอปจาก Automaton เมื่อระดับความสมดุลถึง Lv.4",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34d88252515cd13ab58b6f5aae7329794a4a330a0147e1c5f755c8a2f4444bff",
+   "name": "Obsidian of Obsession",
+   "desc": "วัตถุแห่งความมืดเต็มชิ้นที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้เป็นอย่างมาก",
+   "lore": "คนที่จิตใจอ่อนแอ แค่ชำเลืองมองเพียงครั้งเดียว ก็จะจมดิ่งสู่ความโกลาหลตลอดไป<br /><br />\" \"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "866633": {
+   "id": 866633,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "8e0cd81aa41c7849a5da687f6b40c0b3ccec417ef1924c802b70c03021e69317",
+   "name": "Broken Teeth of Iron Wolf",
+   "desc": "ชิ้นส่วนฟันเลื่อยที่ Automaton ทิ้งเอาไว้ วัสดุเลื่อนขั้นของตัวละครประเภทกายภาพ",
+   "lore": "ว่ากันว่าเทคโนโลยีการผสมโลหะของผู้สร้างเมือง สามารถสร้างเลื่อยไฟฟ้าที่ผ่าแยกหินออกมาได้ แต่ปัจจุบัน งานฝีมือที่ประณีตเช่นนี้ไม่อาจเลียนแบบได้อีกแล้ว<br /><br />\"ท่าน Svarog บอกว่าใบมีดนั้นบางจนตัดถึงช่องว่างระหว่างโมเลกุลได้เลย... ว่าแต่โมเลกุลคืออะไรกันนะ?\"",
+   "purpose": "วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/866633",
+   "comeFrom": [
+    "Stagnant Shadow (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1a896480b5f6ee84644db112069845e85930f6dbc0f428a3f8a6de2b187702af",
+   "name": "Obsidian of Desolation",
+   "desc": "ชิ้นส่วนของวัตถุแห่งความมืดที่ได้มาจากความว่างเปล่า สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ลบล้าง</span>ได้ปานกลาง",
+   "lore": "พื้นผิวที่ดำสนิทจนไม่สามารถสะท้อนแสงใดๆ ได้เลย มันไม่เพียงดูดซับแสงเท่านั้น แต่ดูเหมือนจะดูดซับความรู้สึกของผู้ที่ครอบครอง จนเหลือเพียงความว่างเปล่าอันเวิ้งว้าง<br /><br />\"...\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 79.2,
+   "attackAdd": 3.96,
+   "hpBase": 124.8,
+   "hpAdd": 6.24,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "attackBase": 110.88,
+   "attackAdd": 3.96,
+   "hpBase": 174.72,
+   "hpAdd": 6.24,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 224.64,
+   "hpAdd": 6.24,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633349,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 3.96,
+   "hpBase": 274.56,
+   "hpAdd": 6.24,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633349,
+     "count": 8
+    },
+    {
+     "id": 866633,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 205.92,
+   "attackAdd": 3.96,
+   "hpBase": 324.48,
+   "hpAdd": 6.24,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717290,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 15
+    }
+   ]
+  },
+  {
+   "attackBase": 237.6,
+   "attackAdd": 3.96,
+   "hpBase": 374.4,
+   "hpAdd": 6.24,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717290,
+     "count": 7
+    },
+    {
+     "id": 866633,
+     "count": 28
+    }
+   ]
+  },
+  {
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 424.32,
+   "hpAdd": 6.24,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 103,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "ec9ebc43a58cbdc4f270483765a56680e38223338cc68ce79ef4ede0cd2e8d31",
+   "artPath": "5a5381f1c7107078f44b65f56a73bfc69289ae3fb6fb53759971aedf257ac892",
+   "name": "Fighting Endlessly",
+   "descHash": "เมื่อ Luka แอ็กชัน หากศัตรูเป้าหมายที่กำหนด ติดสถานะเสียเลือดอยู่ Luka จะสร้าง DMG เพิ่มขึ้น <nobr>#1[i]%</nobr> เป็นเวลา <nobr>#2[i]</nobr> เทิร์น",
+   "params": [
+    0.15,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "3f29fd954447217ea7b48b44a0440f331a44fff2d4affe72aaa33f7362d0ec39",
+   "artPath": "17fa85cb27d8b83e1d231443f9c6a09884c8db2c1f34b86d782288139fc19e2b",
+   "name": "The Enemy is Weak, I am Strong",
+   "descHash": "หากสกิลต่อสู้โจมตีโดนศัตรูเป้าหมาย ที่มีจุดอ่อนกายภาพ จะได้รับ Fighting Will <nobr>#1[i]</nobr> ชั้น",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "af1128ef92a49dfd90360f6bbff1e0662f9fed638d9222e84623c73c695fce5b",
+   "artPath": "67541b99e67b7f1ae279d828d3db6bb645b6e4458e247a9992e7ab63c2453125",
+   "name": "Born for the Ring",
+   "descHash": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "de13c8d9014b925bf3f10e01b844835b775a82710e73e8acad85d1a86a1b8596",
+   "artPath": "bd44694196dedd1093a35b4635202c32d639fd46e6b001a05d2e8a0b0fb10bc2",
+   "name": "Never Turning Back",
+   "descHash": "ทุกครั้งที่ได้รับ \"Fighting Will\" 1 ชั้น ATK จะเพิ่มขึ้น <nobr>#1[i]%</nobr> โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด <nobr>#2[i]</nobr> ชั้น",
+   "params": [
+    0.05,
+    4
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "a3ec372c4657c7282890232162ae6f67c456f45c43926fa4f5940abc33a62032",
+   "artPath": "28556fabc7726ab02aec538f56d529070c13a531f0faf5e9c47b3edff197b35f",
+   "name": "The Spirit of Wildfire",
+   "descHash": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "9afc0a2ee0f76d4a129d4d18fe0745e6f3f2e84845a0b4d3a144aa059a098400",
+   "artPath": "33d4cac26a8b9c9b093d48e853ec3db49455b333fc5d4f0717110484516f2876",
+   "name": "A Champion's Applause",
+   "descHash": "หลังจาก \"Rising Uppercut\" ของการโจมตีปกติแบบเสริมพลัง โจมตีโดนศัตรูเป้าหมาย ที่ติดสถานะเสียเลือดแล้ว \"Direct Punch\" ทุกๆ 1 ครั้ง ที่ปล่อยในการโจมตีปกติแบบเสริมพลังนี้ จะทำให้สถานะเสียเลือด ที่เป้าหมายดังกล่าวได้รับในปัจจุบัน สร้าง DMG <nobr>#1[i]%</nobr> ของ DMG เดิมเพิ่มเติม 1 ครั้งทันที",
+   "params": [
+    0.08
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   635769,
+   489350
+  ],
+  [
+   920296
+  ],
+  [
+   836355
+  ],
+  [
+   351242
+  ],
+  [
+   435183
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "สร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Luka แก่ศัตรูที่กำหนดหนึ่งตัว",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 635769,
+   "name": "Direct Punch",
+   "iconPath": "9cf7e0c0fae19150c7b7e41521e3d03debcc42bada348884545af8bdfab7db0e",
+   "typeDescHash": "โจมตีปกติ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "สร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Luka แก่ศัตรูที่กำหนดหนึ่งตัว จากนั้นจะมี <u>โอกาสพื้นฐาน</u> <nobr>#2[i]%</nobr> ที่จะทำให้เป้าหมายติดสถานะเสียเลือด เป็นเวลา <nobr>#5[i]</nobr> เทิร์น<br />โดยขณะที่ติดสถานะเสียเลือด เมื่อเริ่มต้นในแต่ละเทิร์น ศัตรูเป้าหมายจะได้รับ DMG <span style=\"color:#FFFFFF;\">กายภาพ</span>ต่อเนื่อง <nobr>#3[f1]%</nobr> ของ HP สูงสุดของตัวเอง สูงสุดไม่เกิน <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> ของ ATK ของ Luka",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "30",
+   "id": 920296,
+   "name": "Lacerating Fist",
+   "iconPath": "af1128ef92a49dfd90360f6bbff1e0662f9fed638d9222e84623c73c695fce5b",
+   "typeDescHash": "สกิลต่อสู้",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      1,
+      0.24,
+      1.3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66,
+      1,
+      0.24,
+      1.43,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72,
+      1,
+      0.24,
+      1.56,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78,
+      1,
+      0.24,
+      1.69,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      1,
+      0.24,
+      1.82,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      1,
+      0.24,
+      2.015,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975,
+      1,
+      0.24,
+      2.275,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      1,
+      0.24,
+      2.6,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125,
+      1,
+      0.24,
+      2.99,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2,
+      1,
+      0.24,
+      3.38,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26,
+      1,
+      0.24,
+      3.549,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      1,
+      0.24,
+      3.718,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38,
+      1,
+      0.24,
+      3.887,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44,
+      1,
+      0.24,
+      4.056,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5,
+      1,
+      0.24,
+      4.225,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "ได้รับ \"Fighting Will\" <nobr>#5[i]</nobr> ชั้น และมี <u>โอกาสพื้นฐาน</u> <nobr>#2[i]%</nobr> ที่จะทำให้ศัตรูที่กำหนดหนึ่งตัวได้รับ DMG เพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> เป็นเวลา <nobr>#4[i]</nobr> เทิร์น จากนั้นจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Luka แก่เป้าหมายดังกล่าว",
+   "ultimateCost": 130,
+   "break": "90",
+   "energy": "5",
+   "id": 836355,
+   "name": "Coup de Grâce",
+   "iconPath": "9b5831e72d8299d2149b03ec91da19f0837834c0521124442e6ea8bd8840b67e",
+   "typeDescHash": "ท่าไม้ตาย",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.98,
+      1,
+      0.12,
+      3,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.112,
+      1,
+      0.128,
+      3,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.244,
+      1,
+      0.13599999,
+      3,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.376,
+      1,
+      0.144,
+      3,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.508,
+      1,
+      0.152,
+      3,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.64,
+      1,
+      0.16,
+      3,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2.805,
+      1,
+      0.17,
+      3,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2.97,
+      1,
+      0.18,
+      3,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.135,
+      1,
+      0.19,
+      3,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.3,
+      1,
+      0.2,
+      3,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.432,
+      1,
+      0.208,
+      3,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.564,
+      1,
+      0.216,
+      3,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.696,
+      1,
+      0.224,
+      3,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.828,
+      1,
+      0.232,
+      3,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.96,
+      1,
+      0.24,
+      3,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "เสริมพลัง",
+   "descHash": "หลังจาก Luka ปล่อยการโจมตีปกติ \"Direct Punch\" และสกิลต่อสู้ \"Lacerating Fist\" จะได้รับ \"Fighting Will\" <nobr>#1[i]</nobr> ชั้น โดยสามารถมี \"Fighting Will\" ได้มากสุด 4 ชั้น เมื่อมี \"Fighting Will\" มากกว่าหรือเท่ากับ 2 ชั้น การโจมตีปกติ \"Direct Punch\" จะเสริมพลังเป็น \"Sky-Shatter Fist\" และหลังจาก \"Rising Uppercut\" ของการโจมตีปกติแบบเสริมพลัง โจมตีถูกศัตรูเป้าหมายที่ติดสถานะเสียเลือด จะทำให้สถานะเสียเลือด ที่เป้าหมายดังกล่าวได้รับในปัจจุบัน สร้าง DMG <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ DMG เดิม 1 ครั้งทันที เมื่อเริ่มการต่อสู้ Luka จะมี \"Fighting Will\" อยู่ 1 ชั้น",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 351242,
+   "name": "Flying Sparks",
+   "iconPath": "98bb563972dac9a50209ad03fcb05b0b6588b2290bc2b9c9e59958a34f108c99",
+   "typeDescHash": "พรสวรรค์",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.68
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.697
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.714
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.731
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.748
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.765
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.78625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.8075
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 186254,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.82875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.85
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 186254,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.867
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.884
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.901
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.918
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.935
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "หลังจากโจมตีศัตรูและเข้าสู่การต่อสู้ จะลดทอนความทนทานของประเภทที่สอดคล้องกับศัตรูเป้าหมาย",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 551828,
+   "name": "Attack",
+   "iconPath": "9cf7e0c0fae19150c7b7e41521e3d03debcc42bada348884545af8bdfab7db0e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "เมื่อโจมตีศัตรูทันทีและเข้าสู่การต่อสู้ จะสุ่มสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <nobr>#1[i]%</nobr> ของ ATK ของ Luka แก่ศัตรูหนึ่งตัว และจะมี <u>โอกาสพื้นฐาน</u> <nobr>#2[i]%</nobr> ที่จะทำให้เป้าหมายติดสถานะเสียเลือด ที่เทียบเท่ากับสกิลต่อสู้ จากนั้น Luka จะได้รับ \"Fighting Will\" เพิ่มเติม 1 ชั้น",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 435183,
+   "name": "Anticipator",
+   "iconPath": "886e2a41f9c38843102a2c413613cae0e973b7df6bf941f713f3f105d5432fda",
+   "typeDescHash": "เทคนิค",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "ใช้ \"Fighting Will\" 2 ชั้น และจะใช้ \"Direct Punch\" เพื่อปล่อยการโจมตี 3 ครั้ง โดยการโจมตีแต่ละครั้งจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Luka แก่ศัตรูที่กำหนดหนึ่งตัว<br />จากนั้นจะใช้ \"Rising Uppercut\" เพื่อปล่อยการโจมตี 1 ครั้ง ซึ่งสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ ATK ของ Luka แก่ศัตรูที่กำหนดหนึ่งตัว",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "20",
+   "id": 489350,
+   "name": "Sky-Shatter Fist",
+   "iconPath": "d8aeebbeabb54544371569fe8b225636fed98de99af8a744ecedcd0444ad2ca9",
+   "typeDescHash": "โจมตีปกติ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.1,
+      0.4
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.12,
+      0.48
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14,
+      0.56
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16,
+      0.64
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0.72
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0.8
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.22,
+      0.88
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.24,
+      0.96
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.26,
+      1.04
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1111101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1111203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1111204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 276172,
+          "name": "เสริมการป้องกัน",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+          "statusList": [
+           {
+            "key": "DEF",
+            "value": 0.05
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633349,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 276173,
+        "name": "เสริมการโจมตี",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633349,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 276174,
+      "name": "เสริมอัตราสร้างสถานะ",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "อัตราสร้างสถานะ",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549408,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "เมื่อปล่อยสกิลต่อสู้ จะลบเอฟเฟกต์ Buff <nobr>#1[i]</nobr> เอฟเฟกต์ ของศัตรูเป้าหมายทันที",
+    "ultimateCost": 0,
+    "id": 276014,
+    "name": "Kinetic Overload",
+    "iconPath": "d4f3d7976c9e4a9c9537084d77ce5a938e0bee73a3ed84953c1ef890fe0ac85f",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1111206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1111207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 276169,
+          "name": "เสริมการโจมตี",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+          "statusList": [
+           {
+            "key": "ATK",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717290,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 276170,
+        "name": "เสริมอัตราสร้างสถานะ",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+        "statusList": [
+         {
+          "key": "อัตราสร้างสถานะ",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717290,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 276171,
+      "name": "เสริมการโจมตี",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633349,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "ทุกครั้งที่ได้รับ \"Fighting Will\" 1 ชั้น จะฟื้นฟูพลังงาน <nobr>#1[i]</nobr> หน่วย",
+    "ultimateCost": 0,
+    "id": 276015,
+    "name": "Cycle Braking",
+    "iconPath": "9d625744e5a0a02917ab17c5fadc5850ae79f50a5b067382aaab491578911b6e",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1111208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 276184,
+      "name": "เสริมการป้องกัน",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "4145abc71eb094c43193b14852a3911acd6c31a8794f0926333d40591d47e68a",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1111209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 276183,
+      "name": "เสริมอัตราสร้างสถานะ",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "14a0ed2b3e0b7b7f9f36bb9d022ac332700fc1ff076d3863bf07ba8222fe582f",
+      "statusList": [
+       {
+        "key": "อัตราสร้างสถานะ",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "เมื่อปล่อยการโจมตีปกติแบบเสริมพลัง การโจมตีในแต่ละครั้งของ \"Direct Punch\" จะมีโอกาสคงที่ <nobr>#1[i]%</nobr> ที่จะทำให้ Luka ปล่อยการโจมตีเพิ่มเติม 1 ครั้ง แต่เอฟเฟกต์นี้จะไม่มีผลกับการโจมตี ที่เพิ่มเติมขึ้นมา",
+    "ultimateCost": 0,
+    "id": 276016,
+    "name": "Crush Fighting Will",
+    "iconPath": "85dfb76bf09582ba72cb056e802cc2c0fe166ca86e7061df75faa10e55b209e8",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1111201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1111210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 192235,
+      "name": "เสริมการโจมตี",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 276175,
+    "name": "เสริมการโจมตี",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549408,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "ลำตัว",
+    "relicTypeIcon": "7cdd73c69d57cff12ca459e477351d1ec645014fa575a833c1fb951817406ded",
+    "propertyName": "ATK",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   },
+   {
+    "relicTypeHash": "เท้า",
+    "relicTypeIcon": "6c3a335a5f0dd4656c1ce0372050b402c9f976ad41c3fb2081c32cf4d9fe62fd",
+    "propertyName": "ความเร็ว",
+    "propertyIconPath": "d2b176adeb8097fc3f01d478f82fff261dad429779f39f086ef41d70055b1079"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "209a5985c2f388410b60f750db551f9989b98ede3ff461400699529ea782d7bf",
+    "propertyName": "เพิ่ม DMG กายภาพ",
+    "propertyIconPath": "17a936e642ddc644dbb666c4a1279dd2386321a74cf73b0332a33c7f209c2176"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "90b4e54c05e72419429deb45cee82a6a39f3ac5eb45cc98b4684c9ea262bb578",
+    "propertyName": "ATK",
+    "propertyIconPath": "f98c343064155d89d324fd80f64152aa2c08db8bce64460cb81fd2322458bb9c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "พบกันครั้งแรก",
+   "text": "โย่ว สวัสดี! ฉันชื่อ Luka เป็นสมาชิกของ \"Wildfire\" การจัดการวายร้าย และปกป้องชาวเมือง... ก็คืองานประจำวันของฉันเอง",
+   "unlockRequirement": "",
+   "cnUrl": "760669d134f302f91a4c95942aac6d8c43068557040247d3facc491a27b8badf",
+   "jpUrl": "f501079f72f5b1c47e5d3168a0c0f1e68d01715df9ecb28e34ca8ba31433b46b",
+   "enUrl": "41049c0424c64294bc01f1694670e35c2d32b5d0da4af1ee3b70bf2564e4cea4",
+   "krUrl": "02f0235f11f2efbeaae79459970ce72755b5df6f8e62748d2e14d6636c4ecf32"
+  },
+  {
+   "id": 2,
+   "title": "ทักทาย",
+   "text": "การแข่งขันใกล้จะเริ่มแล้วงั้นเหรอ? เยี่ยมเลย! งั้นฉันวอร์มร่างกายก่อนละนะ",
+   "unlockRequirement": "",
+   "cnUrl": "8cc7a09bdf298765c7a10f4cab4ab7e83ecc650c6eb1ebb658c7075407bcaebb",
+   "jpUrl": "311f9887872a18df5431b3a4f6610aa4ec838f9be5a8d473f68035e48b7144b2",
+   "enUrl": "e57099ac70afc276120cc517d18a529c1040ed1b8c1a5534b04f0ef4afed4770",
+   "krUrl": "89f9a0b20cf231c2f00e9ffd3bce7f4dcff7905f7441ebc93fcea8b915c55b4c"
+  },
+  {
+   "id": 3,
+   "title": "บอกลา",
+   "text": "อยากพักสักเดี๋ยวงั้นเหรอ? ไปสิ! จะบอกอะไรให้อย่างนะ เคล็ดลับของแชมป์เปี้ยน ก็คือการฝึกหนักในระหว่างที่คนอื่นพักกันนี่แหละ",
+   "unlockRequirement": "",
+   "cnUrl": "f9a265278e7d5f4a907c75178acf5e9893b395429da3924adc292b2c3adb5034",
+   "jpUrl": "5b31df8bc740e73a076706a3b3113640a258da12eb804b7331a4533faaa57300",
+   "enUrl": "f0cce7c45ce9b5322ea7864dce5a24e52e11e060941cc029f70cc4709c40fc8e",
+   "krUrl": "c0d5c6d238738f7228298bf92a3dc42811c2750c0ed5a98db7eb1aa6ca0e2fc9"
+  },
+  {
+   "id": 4,
+   "title": "เกี่ยวกับตัวเอง",
+   "text": "ที่ฉันต่อสู้ไม่ใช่เพราะชอบความรุนแรง และที่คว้าแชมป์ก็ไม่ใช่เพื่ออวดใคร... ฉันแค่รู้สึกว่าในเมืองด้านล่าง มีพวกชั่วร้ายเยอะเกินไป เลยต้องเป็นตัวอย่างที่ดีให้กับพวกเด็กๆ น่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "f07f39ecadc3f73824956b6e749bf0b83e2f0cdb143b8e394750702b891e1296",
+   "jpUrl": "d2912ec2c5f6b9782ef82e087a153dcf458ace5d07ec79c4c70b12db75054109",
+   "enUrl": "ff5a80c67b9c1b05f599be3de144d228e7109db117376533b03e11b58cdcd2f6",
+   "krUrl": "c9e701ea3517d733ede7b57e7b1d72e46de9df4fc97c0f17153b9b39bf9da835"
+  },
+  {
+   "id": 5,
+   "title": "พูดคุยทั่วไป - แขนเทียม",
+   "text": "อาจารย์เคยบอกว่า: อย่ามัวคิดว่าตัวเองสูญเสียอะไรไป แต่ให้คิดว่าตัวเองได้รับอะไรบ้าง ทุกครั้งที่ฉันมองแขนเทียมข้างนี้ ฉันก็จะจำคำพูดนี้ได้เสมอ",
+   "unlockRequirement": "",
+   "cnUrl": "8f1540f9104672cbce7922164ecc43765449d6a64325285edfeb4d4d92680c0a",
+   "jpUrl": "c6c93414757988f19e95bc71b0b9a2b200af0fb52004e2b9b1d980b49a910b7b",
+   "enUrl": "af970afe1286ff2f7b44f9dd7b7bc9f78cf27f3565fa04406f077af3037d6816",
+   "krUrl": "6a482b6f1c0a1916f9c04267285dac64c7c96d3f53cc501a7bbc512a39043530"
+  },
+  {
+   "id": 6,
+   "title": "พูดคุยทั่วไป - Overworld",
+   "text": "Overworld? ก็ไม่ได้น่าสนใจอะไร เว้นแต่ว่าที่นั่นจะมียอดฝีมือที่คุ้มค่าให้ฉันท้าทาย... หรือคนชั่วที่ต้องถูกลงโทษ",
+   "unlockRequirement": "",
+   "cnUrl": "56ef88030512e4cb9d00deb9177a4437941a65c8eba805b00306a056c8f646f3",
+   "jpUrl": "5288b1acbb882420424036ebdd313596525360390b0db202fb87307946ff5e9e",
+   "enUrl": "d6a477a70e4a4342b5294b6342d02b17635c155588fc6f7b8c8b80fbd317b8c0",
+   "krUrl": "99fc8f841dda221072b56eadbe5cc6723ee91dcaf4d51a7b7717d2c221599b57"
+  },
+  {
+   "id": 7,
+   "title": "งานอดิเรก",
+   "text": "ใน Fight Club นิยมพูดกันว่า: \"จงเป็นเพื่อนกับคนที่อัดตัวเองได้น่วมที่สุด\"... อ้อ มิน่าล่ะ ทุกคนถึงอยากเป็นเพื่อนกับฉัน!",
+   "unlockRequirement": "",
+   "cnUrl": "48e813719c91adb730560b0f50be3aac53e33f897d0eb80e1998e82755f43645",
+   "jpUrl": "f8a7341358660d680ece28954ae696dc6362bf11956fd4351434f8cb8984901a",
+   "enUrl": "63b188bf52bdfff0b1bb4bdd548bd2fd03cd86a7a51cab5ee7b469db19f96341",
+   "krUrl": "60f685d9a6d78eeb4ebe73a7774e771f7d6bacb4be1d6b3c73865e2ef2a1820d"
+  },
+  {
+   "id": 8,
+   "title": "เรื่องกลุ้มใจ",
+   "text": "ผัก... เห็ด... สยองชะมัด ทำไมของพรรค์นี้ถึงไม่สูญพันธุ์ไปสักทีนะ?",
+   "unlockRequirement": "",
+   "cnUrl": "ba905ae022134b236c045a1ae4dbef269014f48cdff04810822dca7c203db62b",
+   "jpUrl": "083c4f0f04eaa44a7d6c995602feefbbe0b8612be167299286e87f46d29ca614",
+   "enUrl": "eb22139a7452519f238b9c2d7668784aebd0c3415583c33fd61d5948af2b7c78",
+   "krUrl": "ffc959c94d86675a2dfbc6f381b86c1f4cd6ddc7d2c758b692a3668a6d008831"
+  },
+  {
+   "id": 9,
+   "title": "เรื่องที่อยากจะแบ่งปัน",
+   "text": "เคยได้ยินรึเปล่า? สามสิ่งที่ขึ้นชื่อของ Underworld ก็คือ Geomarrow, หัวหน้าคนงานเหมืองใจร้าย และกำปั้นที่ใหญ่เท่ากระสอบทรายของ Luka!",
+   "unlockRequirement": "",
+   "cnUrl": "30ccd8ec4e0377edeac254bc04b946f1c311f977699e4e81d74a6fc603b24f65",
+   "jpUrl": "ffa0d98223a840a76975fc1e46c831b86e58e8de9be404bae9a65c5b62fe84a6",
+   "enUrl": "7f4d30a7935a271036868ade3851c4f1badd2745f27e2b6967a3a3f2d5f31fee",
+   "krUrl": "f8549ce9da3b966725a9e81cd0985fe43d92d181c8c58f3e7a4cebb2c01200ee"
+  },
+  {
+   "id": 10,
+   "title": "ความรู้",
+   "text": "บางครั้งฉันก็รู้สึกเหลือเชื่อนะ ไม่นึกว่าจะมีคนที่ยอมตีเหล็กหรือทำเหมืองทั้งชีวิต... ฉันเข้าใจว่าไม่ใช่ทุกคนจะมีสิทธิ์ได้ฝัน แต่ถ้าไม่มีมัน... ฉันก็คงไม่มีวันนี้หรอก",
+   "unlockRequirement": "",
+   "cnUrl": "a01236044de8a30bb443765a0bd7976eeea83af8a8036408bb04b70669e70fa0",
+   "jpUrl": "4b4012c4adaaa3f9ee893a33c32a8a719cba3174f353e0429007bed640971234",
+   "enUrl": "202e969d42bd5a6b712eb290a66ad91dad300d659a2f7651a3fadc53916fd838",
+   "krUrl": "d72079f1b1f6e081821a73d30528b91897f959213e1d54bbf1f6ac4310e1efe6"
+  },
+  {
+   "id": 11,
+   "title": "เกี่ยวกับ Natasha",
+   "text": "ถ้าไม่ได้เป็นโรคร้ายแรงอะไร ฉันจะพยายามไม่ไปรบกวนคุณ Natasha เพราะคนที่ต้องการให้เธอช่วยมีเยอะมาก และฉันก็ไม่อยากทำให้พวกเขาลำบากเพราะความประมาทเลินเล่อของตัวเอง",
+   "unlockRequirement": "",
+   "cnUrl": "64875f23605fc1dfc92a21e67c3892b655da28dcf18ba9a069e885073d27b121",
+   "jpUrl": "c461bc375a145dbbccff943fb90f464c565062348b695be93ef8ffdae82e9f24",
+   "enUrl": "f749b5a2e3511eb0a85e46243ce9f310b0cd93d996961a108c522e6433909d21",
+   "krUrl": "7cd202d827cb62ac275572c0afb04b5e55a273ffbf4b8b031ab023e37e5d944c"
+  },
+  {
+   "id": 12,
+   "title": "เกี่ยวกับ Seele",
+   "text": "Seele เหรอ... ควรหว่านล้อมยังไงเธอถึงจะยอมเข้าร่วมการแข่งขันนะ? ด้วยความแข็งแกร่งของเธอ จะต้องคว้าแชมป์มาได้สบายๆ แน่... เว้นแต่จะมาเจอฉันนะ ฮ่า!",
+   "unlockRequirement": "",
+   "cnUrl": "7c4f1010d5b727dec75a4247a079ac27edc4e156fa7a606d7a9869b2137584c7",
+   "jpUrl": "e0b52ce04aa07e9c517dd0ab432de876837ca002e45aa3438a3456b8b097ab49",
+   "enUrl": "384c8ab887d47fc1c1be3645c48478fbe96f9188b6febdce34a4e5a447ad5cb9",
+   "krUrl": "8fdf9ef0606038e127fa7944fffacfd7fa8966f89c248f9675f50455fc849fcf"
+  },
+  {
+   "id": 13,
+   "title": "เกี่ยวกับ Svarog",
+   "text": "ต้องหาโอกาสดวลกับเจ้าเหล็กยักษ์นั่นสักตั้ง... ดวลงัดข้อไงล่ะ ทำไม? ฉันไม่ได้บื้อนะ ต่อให้กล้ามเนื้อจะแข็งแรงยังไง แต่ก็งัดกับปืนใหญ่ไม่ไหวหรอกน่า",
+   "unlockRequirement": "",
+   "cnUrl": "af8476e43efb6b63539d09474a71aa4bc2100aa858bec5c9c5776b134c1f32a8",
+   "jpUrl": "863f587682163db44999469619536434b7e1a5162b5e3d3ba3bdfbe67ede3677",
+   "enUrl": "50c58d365d4bf23664b01cc2523a126b0a184bbf97a7bf70c0a3eedc4d2e1fe8",
+   "krUrl": "aa15512330759bffd99e1e7d4553f779bc8764dbcef00f2db13314eaf24bec16"
+  },
+  {
+   "id": 14,
+   "title": "เกี่ยวกับ Sampo",
+   "text": "ฉันไม่ต้องการคนกลางอะไรทั้งนั้น อีกอย่าง... ฉันไม่ไว้ใจคนที่ตั้งฉายาให้ตัวเองว่า \"ชายหนุ่มผมสีน้ำเงินสุดหล่อเหลา\" หรอกนะ",
+   "unlockRequirement": "",
+   "cnUrl": "a18a1cf867603dbccd4918515324f0bf8ff3ec2a79279c786185a3eb63cea04c",
+   "jpUrl": "7c2e45381ff034f92a8d28ded12c7c1fc67555599696f67c3faf71413660a3ce",
+   "enUrl": "d381099522bb19a0dd66425da24692a4926f8066a29e187409d5f57202dbcfc9",
+   "krUrl": "3e18f314e93780f03d4f218b5057be3e3637a72a89ad04c007d6dfc62353d988"
+  },
+  {
+   "id": 15,
+   "title": "เกี่ยวกับ Hook",
+   "text": "ทุกคนบอกว่า Hook ซนมาก แต่ฉันกลับคิดว่าเธอเป็นเด็กดีและมีความสามารถ เอ่อ... หลักฐานเหรอ ไม่มีหรอก... ความรู้สึกล้วนๆ เลย ก็ฉันเป็นสมาชิกกิตติมศักดิ์ของแก๊งตัวตุ่นนี่นา!",
+   "unlockRequirement": "",
+   "cnUrl": "47bc705024f433971f9149b1b6711707d7c66e496d522e961fcdd653a21b59e5",
+   "jpUrl": "91a67222e0697840583d00546820bb1a35f0a16fb4b6c46eefd7d1134876d0b7",
+   "enUrl": "c99cd3b2bb0cd63cefb7a5e24a721af514e89d1f02a36f68ff26c13a7b303f26",
+   "krUrl": "8ab52832e04ed6e836b3f4ec89ddf086bb98b53d5aa6d8e0d8bf0f409aac13b0"
+  },
+  {
+   "id": 16,
+   "title": "เกี่ยวกับ Oleg",
+   "text": "...อ่า ก็ไม่มีอะไรหรอก ฉันแค่กำลังคิดว่าตัวเองต้องฝึกอีกนานแค่ไหน ถึงจะเอาชนะอาจารย์ Oleg ได้ ก่อนที่เขาจะแก่จนทำอะไรไม่ไหว ฉันต้องทำเป้าหมายนี้ให้สำเร็จให้ได้เลย",
+   "unlockRequirement": "",
+   "cnUrl": "7e383a64eea7dcf604fa02284e6ce8bd9273760e993f5753545e8b906c99e59c",
+   "jpUrl": "5442ffd388ced77940c81e0efa9f826d0a854581c01a2b6a012bc93e77ac8aaf",
+   "enUrl": "37ecf44bbe30f2bf3ea8c4341d7f3c116d47020cdeec3d399acb7083fff24ef8",
+   "krUrl": "39c7b53324152c8412f9f7e0610116f5063f8287235ad1696f28f2588efd493f"
+  },
+  {
+   "id": 17,
+   "title": "เปิดใช้งาน Eidolon",
+   "text": "ความรู้สึกแบบนี้... ปะทุขึ้นมาแล้ว!",
+   "unlockRequirement": "",
+   "cnUrl": "dcdb7795234782bc849e7fa7cff70d8d40608912cb02c721db77c01ed5c65d5c",
+   "jpUrl": "d2f86946a1aa8721a5e15c6ddb092c00716d9793238c37a5c31c48e856c58cd2",
+   "enUrl": "32029001bd515c4da1b30cb342e939af131ea37ac81e431c75ef87ebc09eef0f",
+   "krUrl": "d1cfb608b9125b1b6684a6efe78388718e953b7320c2cbd8d8bd9358b3b9938f"
+  },
+  {
+   "id": 18,
+   "title": "เลื่อนขั้นตัวละคร",
+   "text": "ฝึกวันละครั้ง? ยังไม่พอหรอก ต้องฝึกเพิ่มอีก!",
+   "unlockRequirement": "",
+   "cnUrl": "db584f7a978015e5b1185804ddfad3d048147fe35e8ae968a30236e7d1c6a2c4",
+   "jpUrl": "4bf5d054cc01a4b55f873b19d90e72c54dbc0cebd5cdc36e9f0e5e38817d12f5",
+   "enUrl": "aeb3cdd7bcc3eec372a0db90a2d9288a5307f0c4a830c46723c958615d0adc31",
+   "krUrl": "188a485fb8da218f0319e31edf84da68c73ca83268fa0ad482d0fd81a69e662f"
+  },
+  {
+   "id": 19,
+   "title": "ตัวละครถึงเลเวลสูงสุด",
+   "text": "นี่ก็คือขีดจำกัดของฉันเหรอ? ฮ่า ไม่มีทาง!",
+   "unlockRequirement": "",
+   "cnUrl": "d29076c1a8862e9168d5335b7929f3e686149982b066c2f34b9fd091901722eb",
+   "jpUrl": "5a2d3619a5ef2652a3f3cbcf030680c56de9af8699b4ef9537cf97291c6fb55c",
+   "enUrl": "07e85ab5c6c3e5d82e2f8d7d1aec28be079fbae82c50838ebbfda732c6a27cd9",
+   "krUrl": "a106ef3dcda2e0cea631059129384cc15736844f0e529b23568370d12bf37637"
+  },
+  {
+   "id": 20,
+   "title": "เปิดใช้งาน Trace",
+   "text": "เทคนิคที่ใช้ได้จริง เยี่ยมมาก!",
+   "unlockRequirement": "",
+   "cnUrl": "44867dd2e36a255b38daf19ea42244be584c6ab66f067253a397857fac98c23d",
+   "jpUrl": "32c6c4db6b8f4fc2d8d1e94a153650706e45620387f498f1df63a3dccdc81d93",
+   "enUrl": "a2abcf570d2d2973f314d686846d7c7ee1f8fca2f5b7b9ee64b5beb81998c2f5",
+   "krUrl": "7f90a8a4ba4c9b46ddd1adbcedb83f8ce286decc0e082c1c8c3ef29333103f83"
+  },
+  {
+   "id": 21,
+   "title": "สมาชิกทีม - Seele",
+   "text": "Seele! ถ้าเราสองคนร่วมมือกัน ก็ไม่มีอะไรที่เอาชนะไม่ได้หรอก",
+   "unlockRequirement": "",
+   "cnUrl": "de891fb84cd4c36ef7e0a6ea7d03e2a279492c9e2cb95fc0e1820edfa7a530a3",
+   "jpUrl": "0f0055cd1fd1085eba8e43cb8f2ed6547dae6c33ad2a596c9062b2f65c397465",
+   "enUrl": "cde55dc30e4f99b0c21398c047406ff24dfc9a9e540f375af2bddcaf4c6fcfc7",
+   "krUrl": "ba4b8cee172c26f7de74c58ca1c23cd17da539b85c47ab90835c9a41af6024d2"
+  },
+  {
+   "id": 22,
+   "title": "สมาชิกทีม - Natasha",
+   "text": "ไม่ต้องห่วง คุณหมอ! ฉันไม่ล้มลงบนสังเวียนหรอก",
+   "unlockRequirement": "",
+   "cnUrl": "168d8dd05e61bc7dc4c9751da327a62379d5688b16a0f884b1ba898f017246fa",
+   "jpUrl": "adada2c2f40b1989e8f60c33655e32d7c6774d7f5174c0a9d1934c0e17a83c81",
+   "enUrl": "1f3f83f7d1cad3578f62b631a87d31efa30840dbd66e7e7c722e03fc30f97c96",
+   "krUrl": "44d140abc72460d19e67dc454737964d7743036e6c8b296b45e9bbbe6ebea8de"
+  },
+  {
+   "id": 23,
+   "title": "สมาชิกทีม - Hook",
+   "text": "Hook ถ้าไม่กินเนื้อเยอะๆ ระวังจะไม่สูงนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "918c0db8c18cb2553874f188e43203d0325f6887e1b2d95012972b67e758b6e5",
+   "jpUrl": "acb6c281a9f22d47dd5d0e78eab69bd8e452808c6745d22100feec2f9f8f2a7a",
+   "enUrl": "5e59db4af81aa89e4aa762c884f1089bd3a15a3a40a6bee2a70ea0948536a8e3",
+   "krUrl": "f747157f968326caa383e40cfc77226f1b6bf50b54ae9ebe23f25a7f8279469c"
+  },
+  {
+   "id": 24,
+   "title": "สมาชิกทีม - Clara",
+   "text": "Clara ให้คุณ Svarog ช่วยสอนฉันหน่อยได้มั้ย?",
+   "unlockRequirement": "",
+   "cnUrl": "90de1bf58b324e0fae33f102f56844fb9529cd71b7a86f8ae649a8aae73b3210",
+   "jpUrl": "930071900f842463a17262c593a4842aa625b30af0652342da70fe585f03af94",
+   "enUrl": "50253d0e87d1d5094763fa59060e19b0a08f2312eab0b7e84ed2942e06675667",
+   "krUrl": "ed4eb0b01db1b13eb2be073cc64bd424a89d849fd58877f0483b392614291e81"
+  },
+  {
+   "id": 51,
+   "title": "เริ่มการต่อสู้ - ทำลายจุดอ่อน",
+   "text": "เป็นไง? ยอมแพ้รึยังล่ะ?",
+   "unlockRequirement": "",
+   "cnUrl": "9ffd3d5df5521251dc0c29ce9a3192100a839ed9ae0f7b2ce8a8dd05d14bb8dd",
+   "jpUrl": "8a844c26631aa17eecd297b1cd7fa9ef6ba02e3ecf63f7321b36887c95a94107",
+   "enUrl": "d7679e9fdb8b03c32da81d4b6cfa2ee386e55df4a71e400e1cd89ae8e94dd6bb",
+   "krUrl": "d13dd284150e51e1e935ca10bf9bc2617ceb450689ac0962190eb95689fecc29"
+  },
+  {
+   "id": 52,
+   "title": "เริ่มการต่อสู้ - เตือนภัย",
+   "text": "นี่มันเพิ่งจะเริ่ม!",
+   "unlockRequirement": "",
+   "cnUrl": "596685e14cb80f3a23f3791034fd02b5467b58282d4f1a76cf21ff903da1e84d",
+   "jpUrl": "c74e91d52e8b3cc4dfe64e9543d34d651f8d908dedb4bd227291c6203d0f60ad",
+   "enUrl": "d4aff2b71b6380390e9f77b7815f28d608d833f6444d66b88d5047b207db4bb5",
+   "krUrl": "576f939871002f9167922f72ceb7ded9171360a40c878a72fb4ad7cb99bcd465"
+  },
+  {
+   "id": 53,
+   "title": "เริ่มเทิร์น 1",
+   "text": "จัดการแก หมัดเดียวก็เกินพอแล้ว!",
+   "unlockRequirement": "",
+   "cnUrl": "6525d09663027b22f7c92e027963c18611501b1d06e3a6143804a89b1287938c",
+   "jpUrl": "330faad1a0dc4327123391d1265f2b5b7952dca087518dd2be8fe41f059cec1f",
+   "enUrl": "920f665ecef0796cc7e2a3fed21d72b640030d3261e1bfd08bdb70ee87a2937f",
+   "krUrl": "395ba80ff72468393e6e3312b05fb58b37de3565de84477f31b21eb27e645f38"
+  },
+  {
+   "id": 54,
+   "title": "เริ่มเทิร์น 2",
+   "text": "ฮ่า ก็แค่ปลาซิวปลาสร้อย!",
+   "unlockRequirement": "",
+   "cnUrl": "20704e33ed87fc29009f64095982fbdb4816d07b3edbb2a41c773e47c73e917f",
+   "jpUrl": "843ce4d690d8b83712373184f6f4eeb6de6888525a1107bb71177127fc9cd4a6",
+   "enUrl": "bb567dd8d0873c260635182cd0750a87d69596ebee3b3ae180d8490e6074aab3",
+   "krUrl": "7431c7b371912b476471da05e98f60fc27bed5f1b72c079b350a3203096db40d"
+  },
+  {
+   "id": 55,
+   "title": "เทิร์นสแตนด์บาย",
+   "text": "ถ้ายังไม่ออกหมัดจะสายไปนะ เพื่อนยาก",
+   "unlockRequirement": "",
+   "cnUrl": "d2da70944a44a118e7c26de3fa77937de126f33f1fd4817e56f3ff5085229f6b",
+   "jpUrl": "f471d7a17046fb2083988e3b04294fe9b1f5438691d04de3ca690792c2343067",
+   "enUrl": "d204fa4a03bd9cea06967eb2ff492cc9d41d072466829363df91b30201a1e33d",
+   "krUrl": "f03121184503a129ea92b4d97d36be9259eb698ce34535992c50c5a199f031e4"
+  },
+  {
+   "id": 56,
+   "title": "โจมตีปกติแบบเสริมพลัง",
+   "text": "หมัดนี้... ฉันจะส่งแกกลับบ้านเก่า!",
+   "unlockRequirement": "",
+   "cnUrl": "2b9e7e0bbc95e0c21c5a244692a1513599a603e55084917ed56c71b6d6e258c1",
+   "jpUrl": "da43ab9fcf7bafec864901c582d4f4f76b794551fcc090125724fb5c0fc27dc3",
+   "enUrl": "a9ecea4da28658db2c65409f2880461f8412319c3c6f07f83a2bf81f3ae63b31",
+   "krUrl": "e506a2ecce4399e84683ad17dc34168601cab663f9f5d3eb541d6ca9dcf8356d"
+  },
+  {
+   "id": 57,
+   "title": "สกิลต่อสู้ 1",
+   "text": "อวดเก่งนักนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "88241359dc8173798e3fce9c49b9fcbc2d1e72c9d1da1c856fcf837f4bbdd5b8",
+   "jpUrl": "9d438bfa2cb6de1febd8a07e10697b6be8b7b9f68ffb344188e7fca1d1e03416",
+   "enUrl": "c4f8d114215fdca6de38ea55071c8f75a4413299f0f574bf30f3f58f3dee5315",
+   "krUrl": "7451b511e02d0e44cdbc6f7a8b290551d5b948f5d62fea827907b1cfb148fdd7"
+  },
+  {
+   "id": 58,
+   "title": "สกิลต่อสู้ 2",
+   "text": "อย่าใจลอยสิ!",
+   "unlockRequirement": "",
+   "cnUrl": "561be153a4812cab70e8a331dc8a704dcef80eae6a78c82a6e06fe0941511f80",
+   "jpUrl": "4448cb1b1bbba2be0086c75f521a71ffdce607b9a2f9696a1b03579bc8975b47",
+   "enUrl": "e16ecb745fff2b2cfe28772cdedeb1eed706533e0f6bf563ce200e92824a7977",
+   "krUrl": "eba946e48525e33956600457a63194fc0a56cc1f22460b462e55b69ea88543b0"
+  },
+  {
+   "id": 59,
+   "title": "โดนโจมตีเล็กน้อย",
+   "text": "...แค่นี้จิ๊บๆ น่า!",
+   "unlockRequirement": "",
+   "cnUrl": "b061fa59eb5e81fbb5cbf2400a7f356286ebfdc8626aac64d17549c55c89ad50",
+   "jpUrl": "c72def54f1a86001959786a741712512983818d51596736a64b48f0adc519a6f",
+   "enUrl": "3bad140ee16af97d7ceaa2e2f18d0d17ab71de36b9d2eb8bfc47ab30ecba42f5",
+   "krUrl": "b469ac1ba7d57d6812cd9fbba16f204aba44dac633de0466d43ee53bb06aeb19"
+  },
+  {
+   "id": 60,
+   "title": "โดนโจมตีอย่างรุนแรง",
+   "text": "...น่าสนใจดีนี่!",
+   "unlockRequirement": "",
+   "cnUrl": "dc1259afaff781301a179e2a5d1151a56d982802acd6af876683d8b54dff3936",
+   "jpUrl": "c20f7ad83f7445f3f8daff87e23c7490a33e22a6bdc47bba8908aaa410b1c916",
+   "enUrl": "b56f97d8c9d1c8397a61674a18a975a7137fc71f227033fff1fdd1cd6e516572",
+   "krUrl": "f3d1ed9a3b2eeef8f0e6b756b867894eae13d716d1a02f58aef987784b7d89cd"
+  },
+  {
+   "id": 61,
+   "title": "ท่าไม้ตาย - เปิดใช้งาน",
+   "text": "เสียงเชียร์ไปไหนหมด?",
+   "unlockRequirement": "",
+   "cnUrl": "c0b28d8b25d4351d93f1aa24aa3ac45b8c56bdacbd4c6dde3181ae08326e0942",
+   "jpUrl": "5c28e29629631ca2ecdff6407c59d041edde133dd32973fd8c6588a0b8f2d8b1",
+   "enUrl": "84f4e17c077e81056eff7936e541e525bce2ffe66a7906df00852ae416998684",
+   "krUrl": "1a5262c511450ae6b578c6767123c0af49cb90f9e5b98820ca6a5a2438499537"
+  },
+  {
+   "id": 62,
+   "title": "ท่าไม้ตาย - ปล่อย",
+   "text": "คู่ต่อสู้ที่คู่ควรให้ฉันได้จริงจัง... มาดูประกายไฟกันหน่อยเถอะ!",
+   "unlockRequirement": "",
+   "cnUrl": "a67067000724da17baf2b78657688e5e5b20c2f440b6c73221e9048b93b45da6",
+   "jpUrl": "58c093902f9d6e20fbf259b41d22a5c80ebfc5202c4ea117daee0f7c7db6ad95",
+   "enUrl": "731083cd943f1f944df585952b6625a8b96584172fefa96f97c1970362634815",
+   "krUrl": "a5a3331bfc9644e96df6bab09a9e7d278a41e026e930d028d58c96d0873ac4f9"
+  },
+  {
+   "id": 63,
+   "title": "หมดสติ",
+   "text": "จะหมดสภาพแบบนี้ไม่ได้...",
+   "unlockRequirement": "",
+   "cnUrl": "a79a1a2eca9dc7ac421f89e3ac716d17eac8dfe9954defbc883708952ccd0acf",
+   "jpUrl": "606289b6fd2104509cd4b8a380353d9b0fbedf2d16fddb0bb4670d5abe21c352",
+   "enUrl": "82cda434608cc284e197ae6eff0465ad0c317251cd6d1793d599d32aaa0a7572",
+   "krUrl": "0594e24cf1b47f5cc0ab0eb4440d285880ed86c5c5e2dae8aacd3e5d2b536459"
+  },
+  {
+   "id": 64,
+   "title": "กลับสู่การต่อสู้",
+   "text": "Luka กลับมาแล้ว!",
+   "unlockRequirement": "",
+   "cnUrl": "4d71d4b06bbb199151aea99cc012bdf132054655e9dbae1e8ac18a28c96130bf",
+   "jpUrl": "72391bfc21d2214529be1bf28d5a977f03dd052c403654be8b08627c5d5286f0",
+   "enUrl": "7199cfef79a4443adc87b79e88967cb070c3c9335fadb7c06ec30d16cfea3da3",
+   "krUrl": "473079ed8cbaf0c0305f1b121dd41c4717154f95753ce31179f04b5479192b8b"
+  },
+  {
+   "id": 65,
+   "title": "ฟื้นฟูพลังชีวิต",
+   "text": "ฝากข้างหลังด้วยนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "8c61f62c1eecd954c8d32372d5c13cc1ba480f4b236244b6e25de33cab756e74",
+   "jpUrl": "e620845eacb2523e9c09d3cff3fe52cf12dfdb64c8794a478a5eced08769e2d9",
+   "enUrl": "93cd3ea7a4cceff1128d252e9203e03e7356b2d9b61b3afc20121c9c33336a1b",
+   "krUrl": "c4bcff6a32f8ef491cb20acd68034d3431572de180521a387544011982d5b5ec"
+  },
+  {
+   "id": 66,
+   "title": "เทคนิค",
+   "text": "ลงมือก่อนได้เปรียบ!",
+   "unlockRequirement": "",
+   "cnUrl": "2bda296de17bbd6dc645a23ff86fdfeae67345529090bff03fe589e48e025b0a",
+   "jpUrl": "4db4434fbcf1a4fff6d02042bb5ed39938c3c6ffd39b74dfcd778a1b4616e259",
+   "enUrl": "21eca8169d6c4c3fd8ff90533f372eec7a17274d0005db487937db8419d45fa8",
+   "krUrl": "ebce73eeab6885a5d73281fc59a651d5d98b93ddbcee09c3caa3d278e3a91886"
+  },
+  {
+   "id": 67,
+   "title": "ชนะการต่อสู้",
+   "text": "รู้ซึ้งถึงพลังของแชมป์เปี้ยนรึยังล่ะ?",
+   "unlockRequirement": "",
+   "cnUrl": "a3d84a508d4379b9ef38e11664f67fe2700a2e09096045e727edd1b30623fc67",
+   "jpUrl": "d785b056db049a87e8cdf96829f3a6757ef0f86e6088dd423b1f246dd1d2d173",
+   "enUrl": "79a6d9db3136436bae8611e9bd5c7d1aeb0a3ffab36bcedace41ccb0a9adf367",
+   "krUrl": "c343ea120c35947dfd02532f1fbe9ae3917b443cbf5cbb7f39e82010330c48c1"
+  },
+  {
+   "id": 68,
+   "title": "เปิดสมบัติ 1",
+   "text": "หืม มีเซอร์ไพรส์ด้วยเหรอ?",
+   "unlockRequirement": "",
+   "cnUrl": "c6ebd988e5b502789cf0f4f8d608d5b339b96ae2eadcf0fe4c2a17d43e00d9f5",
+   "jpUrl": "bbab737fa8015bf7808aa265a1aed6a0c0140a8c22f758396e6fadf13318453e",
+   "enUrl": "189f4cd0b3e3a810427c2f082acac4c827d8712589f363a58712aee110fec7f1",
+   "krUrl": "cacc3d78ba5e7e46e280f66e857858a3b6e0d86e39822564f8405ff522eb5afd"
+  },
+  {
+   "id": 72,
+   "title": "เปิดสมบัติ 2",
+   "text": "ฮะ? แค่นี้เองเหรอ?",
+   "unlockRequirement": "",
+   "cnUrl": "5670489f193b6ac9a06dad04e874ba8a31b98ec51bf23f1ef3e0c1c0abace672",
+   "jpUrl": "6cf43cf71868660a2cf7b33667d658f0ace8bd88567b44afe8d1fdca5485ebe6",
+   "enUrl": "c0bbb8e96ec02df03ab3c2454b17188f47cb6f685dc0c1f579c5b68d38f0b736",
+   "krUrl": "a2f8dd700dfdaa9374e455b5216e0f0de872eaad63ba6bba3986146d0a05825c"
+  },
+  {
+   "id": 73,
+   "title": "เปิดสมบัติล้ำค่า",
+   "text": "คราวนี้รวยเละแล้ว!",
+   "unlockRequirement": "",
+   "cnUrl": "6cfd2f63298a80ed7d66500f3a6dcfdf5b9a9461747a9ce7da9cc02310f7fec9",
+   "jpUrl": "86d8b1ab23e608c4e0978aa0a039d3e219439fd2eec54254319308f93ff59a85",
+   "enUrl": "b073ea76cf1a8e15d55f4f9d4660675d8b7592cb13135d63eaae45045410bba6",
+   "krUrl": "11ae729292ee45b9838b8f0de46ef23c6d0706d6f1471fb5e08a9e72af9add1f"
+  },
+  {
+   "id": 69,
+   "title": "ไขปริศนาสำเร็จ 1",
+   "text": "แขนขาแข็งแรง สมองก็ไม่ธรรมดา",
+   "unlockRequirement": "",
+   "cnUrl": "59b19d41a73d24569dcfacd7840d58cf32a6f75a81d902e83be92182ab9f0289",
+   "jpUrl": "d502d1522cc112b9c070a490514f0c9a50628bc88cf42a0e9c4a2b63e351b842",
+   "enUrl": "f97fb86198f8dc53f1934457aa6ee14eeed4448b1e4cfb36b7386b3cbcd92f28",
+   "krUrl": "496ec06efd73d61169c106ea5f83b23ad12d81dc2662ba66c15aced27cd95a88"
+  },
+  {
+   "id": 74,
+   "title": "ไขปริศนาสำเร็จ 2",
+   "text": "อื้ม ก็ไม่เลวนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "f3f58305c572c1064fc0123f405f9f195633e8143342d1708e92aa406b058904",
+   "jpUrl": "6d8524762c7cdb0afea16ff721acb44a45ff25b11566e9353833d087b68a7ff2",
+   "enUrl": "9ba80b8296f7547634aaa02e74eb8f3f5a8bbea3bcfc57d02bebf4809c174b3a",
+   "krUrl": "a18cd18eb7a66b87aca9b5e4a1fa77cfe07f574e662483c54888d445c224ca42"
+  },
+  {
+   "id": 70,
+   "title": "พบศัตรูเป้าหมาย",
+   "text": "ฮ่า มาเรียกน้ำย่อยกันหน่อย!",
+   "unlockRequirement": "",
+   "cnUrl": "1b17ec32add70ee1865765a5ad6c080c8513ce68b9620e6136d2e8af54dd361f",
+   "jpUrl": "8572fe13f63d605d339267a8286d316a6862e697d1ae4caf533d8698d0185786",
+   "enUrl": "3025046a7c5ba4fc7a278734b3532212a4608493098c5a1a3ef711b1fde8cac8",
+   "krUrl": "71aa8b3823ce5351e5b214a94ec937857dd451bf8d6e0495e604871424ef34c8"
+  },
+  {
+   "id": 71,
+   "title": "กลับเข้าเมือง",
+   "text": "อยากหาที่นอนสักพัก ผ่อนคลายสักหน่อย",
+   "unlockRequirement": "",
+   "cnUrl": "13d08e7f6d5c0421045acab48c73ce82877add016158cf7f91379aebc5aac3ad",
+   "jpUrl": "c813fcd61f87fe9ef113e4e0a361d0a4f7e565739a6a3a5f8df667590cee0dd1",
+   "enUrl": "07ec2d529273f403e1447054d202353591405f875f3f2230fe8cf3104300e328",
+   "krUrl": "55cda9f4c8f6c33cc3ac69cd50eedcd8c1ab94bfab51e7efd3bcd533d4f3bdc6"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "รายละเอียดตัวละคร",
+   "text": "นักสู้อิสระที่มาพร้อมกับแขนกล หนึ่งในสมาชิกของ \"Wildfire\" ผู้สดใส คิดบวก และไม่ยึดติดกับเรื่องเล็กๆ น้อยๆ<br />จากสังเวียนสู่สมรภูมิ จากนักสู้สู่นักรบ Luka ใช้พลังของเขาเพื่อปกป้องผู้คนใน Underworld<br />เพราะว่าตัวเองเคยพบกับความสิ้นหวังมาก่อน ดังนั้นเขาจึงปรารถนาที่จะมอบความหวังให้กับผู้อื่น",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 1",
+   "text": "เขาเหวี่ยงค้อนเหล็ก ซ้ำแล้วซ้ำเล่า<br /><br />ประกายไฟปะทุขึ้นตรงหน้า เสียงโลหะกระทบกันดังกลบเสียงกล้ามเนื้อ และข้อต่อที่เคลื่อนไหว เด็กหนุ่มยังสูงไม่พอที่จะเอื้อมถึงอุปกรณ์บนตู้เหล็ก แต่พลังในการเหวี่ยงค้อนของเขา ก็สามารถเทียบได้กับช่างฝีมือที่มีทักษะยอดเยี่ยมที่สุด<br /><br />ร้านค้าแห่งนี้คือทุกอย่างในชีวิตของเขา พ่อของเขานั่งยองๆ เช็ดป้ายประตูที่ขึ้นสนิมซ้ำๆ ตรงหน้าร้าน บางครั้งเขาก็จะนอนอยู่บนเตียงแข็งๆ ของตนแล้วเพ้อฝันถึงอนาคตของตัวเอง... แต่ไม่ว่าจิตใจของเขาจะล่องลอยไปถึงที่ไหน แผ่นหลังของพ่อ ก็จะปรากฏขึ้นที่ปลายทางของความคิดเสมอ<br /><br />เสียงฝีเท้าดังเข้ามา เขาหยุดงานทุกอย่างที่ทำอยู่ชั่วคราว พ่อก็ลุกขึ้นยืนเช่นกัน ร่างหนาแต่หลังค่อมของบิดา แสดงท่าทีเคารพนอบน้อมออกมา นั่นคือพวก \"Wildfire\" อีกแล้ว... ตั้งแต่ที่เมือง Moltammerville ประกาศภาวะฉุกเฉิน พวกเขาก็มักจะมาที่ร้านการช่างแห่งนี้บ่อยๆ พร้อมกับใบสั่งทำอาวุธชนิดต่างๆ ที่เพิ่มขึ้นมาไม่น้อย<br /><br />เด็กชายกำลังครุ่นคิดเรื่องในใจอยู่ แล้วสายตาก็ไปประสานกับลูกค้าประจำ ที่เป็นหัวหน้าคนนั้นโดยไม่ได้ตั้งใจ เขามีผิวคล้ำและรูปร่างสูงใหญ่ สายตาที่เดิมทีเฉียบคมก็พลันอ่อนลง เมื่อเหลือบมาเห็นเด็กหนุ่ม จากนั้นเขาก็พยักหน้าเบาๆ มาให้<br /><br />\"ยินดีต้อนรับหัวหน้า Oleg! วันนี้ต้องการอะไรเป็นพิเศษไหม?\"<br />\"ไม่ต้องรีบหรอกอาจารย์ วันนี้ฉันแค่อยากจะมาคุยเล่นกับคุณเฉยๆ\" เขาชี้ไปที่ Luka \"คุยเกี่ยวกับเรื่องของลูกชายคุณน่ะ\"",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>20</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 2",
+   "text": "เปลวเพลิงล้อมรอบอยู่ทุกด้าน ฝุ่นและควันกระจายปกคลุมทัศนวิสัยของเขา เสียงกรีดร้องดังเข้ามาให้ได้ยินอย่างต่อเนื่อง กลิ่นน้ำมันเครื่องและกลิ่นของเลือดปะปนกันจนทำเอา Luka แทบจะสะกดกลั้นความอยากอาเจียนออกมาไม่ไหว<br /><br />เมื่อเขาเหวี่ยงหมัดตรงอย่างสมบูรณ์แบบ ออกมาเป็นครั้งแรก รอยยิ้มบนใบหน้าของอาจารย์ Oleg ก็ทำให้เขามีกำลังใจขึ้นมา อย่างไรก็ตาม หลังจากที่ได้สัมผัสกับความโหดร้ายที่แนวหน้ามากับตัว เขาก็ไม่เคยตามหาความรู้สึกแสนอบอุ่นนั่นอีก ทุกครั้งที่ต้องจัดแถวรบ เขาก็จะแอบสังเกตสีหน้าของเพื่อนร่วมรบทั้งหลาย... ความไม่สบายใจที่อ่านได้จากบนใบหน้าของแต่ละคน กลับสามารถสยบความกังวลของเขาลงไปได้<br /><br />เสียงกรีดร้องลั่นดึงให้ Luka กลับมาสู่ความเป็นจริง เขาพุ่งไปยังที่มาของเสียงทันที และเห็นเด็กน้อยที่ไร้ทางสู้ กำลังถูกมอนสเตอร์ต้อนเข้ามุม สัญชาตญาณกระตุ้นให้เขากระโจนเข้าไป แล้วเอาตัวเข้าไปขวางระหว่างร่างกายอันแสนบอบบางของเด็กน้อย และขวานด้ามคม<br /><br />เสียงอึกทึกกึกก้องดังมาจากข้างหลัง Luka กอดเด็กชายที่ตื่นตระหนกไว้แน่นด้วยมือข้างเดียว แล้วค่อยๆ หันหน้ากลับไปมอง มอนสเตอร์รูปร่างประหลาดล้มตึงอยู่บนพื้น เหมือนจะถูกกระสุนลูกหลงจากสนามรบยิงเข้าใส่<br /><br />\"ขะ...ขอบคุณนะพี่ชาย...\"<br /><br />\"ไม่เป็นไรใช่มั้ย?\"<br /><br />\"พี่...มะ...มือของพี่\"<br /><br />เขามองไปที่แขนข้างขวาของตัวเอง ตามที่นิ้วของเด็กชายชี้ไป... บริเวณเสื้อที่ควรจะปกคลุมแขนด้านบน กลับเหลือเพียงเศษผ้าที่ปลิวไสวไปตามลม และใต้เศษผ้านั้น ก็มีเลือดไหลออกมามากมาย<br /><br />แต่ก่อนที่ความเจ็บปวดจะช่วงชิงสติสัมปชัญญะของเขาไป กระแสความอบอุ่นก็ไหลเข้ามาสู่ห้องหัวใจของเขาอีกครั้ง",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>40</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 3",
+   "text": "ครั้งแรกที่ได้เข้าร่วมการแข่งขัน Luka ก็ล้มลงบนสังเวียนในรอบชิงชนะเลิศ<br /><br />\"ฮ่าฮ่าฮ่า เจ้าคนไร้ประโยชน์! นี่คือโลกที่ผู้อ่อนแอ ย่อมตกเป็นเหยื่อของผู้ที่แข็งแกร่งกว่าไงล่ะ... ไก่อ่อนอย่างแกน่ะ ไม่ควรมาปรากฏตัวต่อหน้าฉันด้วยซ้ำ!\"<br /><br />Luka ไม่สนใจการหยามเหยียดจากเขา คู่ต่อสู้ในรอบชิงชนะเลิศคืออันธพาลที่คนทั้งเมืองรู้จักกันดี และเวลาลงมือ เขาก็จะใช้กลอุบายที่โหดเหี้ยมไร้ปรานี ถ้าต้องใช้วิธีที่เลวร้ายแบบนี้เพื่อเป็นแชมป์ เขาคิดในใจ... ต่อให้เป็นเข็มขัดทอง ฉันก็ขอไม่เอาดีกว่า<br /><br />เย็นวันต่อมา เขาเห็นเด็กน้อยกลุ่มหนึ่งอยู่ที่มุมหนึ่งของคลับ โดยที่เด็กชายร่างผอม กำลังนอนขดตัวอยู่บนพื้นอย่างเจ็บปวด และมีรอยช้ำอยู่ทั่วตัว ขณะที่มีพวกเด็กตัวโตรายล้อมเขาอยู่ ด้วยท่าทีหยิ่งผยอง และมีสีหน้าพึงพอใจนักหนา<br /><br />\"ฮ่าๆ เจ้าคนไร้ประโยชน์!\" อันธพาลที่เป็นหัวหน้าแก๊งชี้ไปยังเด็กชายผู้บาดเจ็บ \"นี่คือโลกที่ผู้อ่อนแอ ย่อมตกเป็นเหยื่อของผู้ที่แข็งแกร่งกว่าไงล่ะ... แกน่ะ ไม่ควรมาปรากฏตัวต่อหน้าฉันด้วยซ้ำ!\"<br /><br />ตั้งแต่นั้นมา เขาก็สาบานว่าจะต้องกลายเป็นแชมป์ของ Underworld ให้ได้... โดยใช้วิธีการตามแบบฉบับของเขา อย่างถูกต้องและสมศักดิ์ศรี",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>60</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 4",
+   "text": "\"วันนี้ฝึกเท่านี้ก่อนแล้วกัน มาสิ เจ้าหนู นั่งลงก่อน\"<br /><br />\"...แค่นี้เหรอ? วันนี้ผมว่าจะฝึกเพิ่มอีกสักสองสามเซ็ตสักหน่อย!\"<br /><br />\"เจ้าหนู อย่าหักโหมนักเลย รีบมานี่เร็วเข้า!\"<br /><br />\"ฮ่าฮ่าฮ่า มาแล้วๆ\"<br /><br />\"นี่เจ้าหนู... ขอถามอะไรหน่อยสิ แล้วก็ตอบตรงๆ ด้วยล่ะ\"<br /><br />\"หืม? อะไรกันเนี่ย ศิษย์อาจารย์จะเปิดใจคุยกันงั้นเหรอ? งั้นก็ว่ามาเลย ท่านอาจารย์\"<br /><br />\"ฉันจะถามว่า เรื่องชกมวยน่ะ... นายชอบมันจากใจจริงๆ ใช่มั้ย?\"<br /><br />\"ฮ่าฮ่าฮ่า ทำไมจู่ๆ ก็ถามแบบนี้ล่ะ? ก็ต้องชอบอยู่แล้วสิ! ไม่งั้นผมจะอยู่ข้างคุณมาตั้งนานแบบนี้ได้ยังไงกัน?\"<br /><br />\"เจ้าหนู อย่ามาล้อกันเล่นนะ ตอบให้มันจริงๆ จังๆ หน่อย เข้าใจมั้ย?\"<br /><br />\"ต้องเข้มเบอร์นี้เลยเหรอ... ก็ได้ๆ ถ้าจะให้พูดจากใจจริง... ก็ไม่ได้ชอบขนาดนั้นหรอก\"<br /><br />\"...อืม ได้ฟังความจริงซักที งั้นฉันขอถามหน่อย... ถ้าวันหนึ่ง Underworld ไม่จำเป็นต้องให้ 'Wildfire' คอยปกป้องแล้ว... นายจะยังฝึกการต่อสู้อยู่มั้ย?\"<br /><br />\"อืม ขอคิดดูหน่อยนะ... ก็น่าจะฝึกต่อล่ะมั้ง?\"<br /><br />\"ทำไมล่ะ? ที่นายขึ้นสังเวียนไม่ใช่เพื่อชิงเข็มขัดทองอะไรนั่นสักหน่อย อย่าคิดว่าฉันดูไม่ออกนะ ถ้าเมืองด้านล่างสงบสุขแล้วจริงๆ... นายจะยังมีเหตุผลให้เหวี่ยงหมัดอยู่อีกรึไง?\"<br /><br />\"อาจารย์ ก่อนหน้านี้คุณก็เคยพูดนี่นาว่า ไม่ว่าจะในยุคสมัยไหนก็มีคนเลวอยู่ทั้งนั้น ต่อให้มอนสเตอร์ใน Fragmentum ตายไปจนหมด มนุษย์ก็ยังจะสู้กันจนตายไปข้าง เพียงเพราะเรื่องหยุมหยิมเล็กน้อยอยู่ดี\"<br /><br />\"อืม... เหมือนว่าฉันจะเคยพูดแบบนั้นจริงๆ\"<br /><br />\"ตราบใดที่โลกนี้ยังมีคนเลวอยู่ และตราบใดที่ยังมีคนดีให้ปกป้อง...\" Luka ยืนขึ้น \"...ผมก็จะเหวี่ยงหมัดต่อไป\"",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "萧翟",
+  "cvJp": "梶原岳人",
+  "cvKr": "이주승",
+  "cvEn": "Howard Wang",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "name": "Luka",
+ "rarity": 4,
+ "descHash": "แชมป์นักมวยของ Underworld แห่ง Belobog หนึ่งในสมาชิกที่เปี่ยมไปด้วยความสามารถของ \"Wildfire\" แชมป์เปี้ยนหลายสมัยติดต่อกันของ Fight Club ความกระตือรือร้นของเขา ได้กลายเป็นแรงบันดาลให้กับเด็กๆ ใน Underworld ที่มีความฝัน",
+ "artPath": "22fe1d85da647081a7020c5d3f6cdec5f585da751d5ac221e421de98693859d1",
+ "miniIconPath": "61b8b675bd32da196574175aa1f21165e79196dd77afb6436717fb4089383b2b",
+ "damageType": {
+  "id": 1,
+  "iconPath": "9b77aa4b13a80228e6db8023c086a6dd43ffe89e318aa52e790528beb4e5ea20",
+  "color": "#FFFFFF",
+  "name": "กายภาพ",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "96c3b8dd457b98955d440531986a23d509f705c13d7aa794d1e97bcfd03d5701",
+  "altIconPath": "b55d340138ed77756cd939d0d9ee2103a5398f999202c1ed19d092ac87333155",
+  "color": "#FFFFFF",
+  "name": "ลบล้าง",
+  "rarity": 0
+ },
+ "pageId": "luka"
+}

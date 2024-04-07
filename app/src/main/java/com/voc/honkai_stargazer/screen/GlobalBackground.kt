@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.layout.ContentScale
@@ -19,6 +20,7 @@ import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha20
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha80
 import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
+import dev.chrisbanes.haze.HazeState
 
 
 val gradient = Brush.verticalGradient(
@@ -30,6 +32,7 @@ val gradient = Brush.verticalGradient(
 
 @Composable
 fun MakeBackground(modifier: Modifier = Modifier) {
+    val hazeState = remember { HazeState() }
     Box{
         Image(
             painterResource(R.drawable.test_bg),
