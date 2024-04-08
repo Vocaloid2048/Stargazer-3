@@ -7,29 +7,33 @@
 package com.voc.honkai_stargazer.types
 
 import android.content.Context
+import android.graphics.Bitmap
+import androidx.compose.ui.platform.LocalContext
 import com.voc.honkai_stargazer.util.UtilTools
 import java.io.BufferedReader
 
 enum class Gender{
     Male, Female
 }
-class Character(
-    var officialId : Int? = 1006,
-    var name : String? = "Silver Wolf",
-    var fileName : String? = "silverwolf",
-    var displayName : String? = "?",
-    var rarity : Int,
-    var level : Int,
-    var ascensionPhase : Int, //Rank 突破等級
-    var path : Path,
-    var combatType: CombatType,
-    var characterIcon : Int,
-    var gender : Gender
-){
 
+
+class Character(
+    var officialId : Int = 1006,
+    var registName : String? = "Silver Wolf",
+    var fileName : String? = "silverwolf",
+    var rarity : Int = 5,
+    var path : Path = Path.Harmony,
+    var combatType: CombatType = CombatType.Quantum,
+    var gender : Gender = Gender.Female,
+    var releaseVersion : String = "1.0.0",
+){
     companion object {
         fun getCharacterListFromJSON(context: Context) : String {
-            return UtilTools().getAssetsByContext(context, "data/character_data/character_list.json")
+            return UtilTools().getAssetsJsonByContext(context, "data/character_data/character_list.json")
+        }
+
+        fun getCharacterImageFromJSON(context: Context, imageFolderType: UtilTools.ImageFolderType, characterName : String) : Bitmap {
+            return UtilTools().getAssetsWebpByContext(context, "images/"+imageFolderType.folderPath+characterName+imageFolderType.suffix)
         }
     }
 }

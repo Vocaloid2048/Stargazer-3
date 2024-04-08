@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.voc.honkai_stargazer.component.CharacterCard
 import com.voc.honkai_stargazer.component.ListHeader
 import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.util.RootContent
@@ -36,7 +37,9 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController : NavControll
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-
+            items(count = charList.length()){
+               // CharacterCard
+            }
         }
         ListHeader(navController = navController, )//hazeState = hazeState)
     }
