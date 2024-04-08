@@ -9,17 +9,22 @@ package com.voc.honkai_stargazer.component
 import android.graphics.Bitmap
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.layout.requiredHeightIn
 import androidx.compose.foundation.layout.requiredWidth
 import androidx.compose.foundation.layout.requiredWidthIn
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,6 +36,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
@@ -65,35 +71,61 @@ fun CharacterCard(
     ascensionPhase: Int? = -1, //Rank 突破等級
     displayName: String? = "?",
 ) {
-    Column(
+    Box(
         modifier = Modifier
-            .requiredWidth(80.dp)
-            .requiredHeight(102.dp)
-            .clip(RoundedCornerShape(topEnd = 15.dp))
+            .width(80.dp)
+            .height(102.dp)
+            .clip(RoundedCornerShape(topEnd = 15.dp, topStart = 2.dp, bottomEnd = 2.dp, bottomStart = 2.dp))
             .background(
                 Brush.verticalGradient(
                     colors = getCCBCByRare(character.rarity)
                 )
             )
     ) {
-        Image(
-            bitmap = characterIcon!!.asImageBitmap(),
-            contentDescription = "Character Icon",
-            modifier = Modifier
-                .requiredWidth(80.dp)
-                .requiredHeight(80.dp)
-        )
-        Text(
-            text = displayName!!,
-            modifier = Modifier.height(20.dp)
-                .width(80.dp)
-                .background(Color(0xFF222222))
-                .align(Alignment.CenterHorizontally),
-            textAlign = TextAlign.Center,
-            color = TextColorNormalDim,
-            fontSize = 12.sp,
-            maxLines = 1
-        )
+        Column(modifier = Modifier) {
+            Image(
+                bitmap = characterIcon!!.asImageBitmap(),
+                contentDescription = "Character Icon",
+                modifier = Modifier
+                    .requiredWidth(80.dp)
+                    .requiredHeight(80.dp)
+            )
+            Row(
+                Modifier
+                    .height(20.dp)
+                    .fillMaxWidth()
+                    .background(Color(0xFF222222)),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = displayName!!,
+                    textAlign = TextAlign.Center,
+                    color = TextColorNormalDim,
+                    fontSize = 12.sp,
+                    maxLines = 1
+                )
+            }
+        }
+        Column (modifier = Modifier.padding(2.dp)){
+            Image(
+                painter = painterResource(id = character.combatType.iconColor),
+                contentDescription = "Character Icon",
+                modifier = Modifier
+                    .requiredWidth(16.dp)
+                    .requiredHeight(16.dp)
+                    .background(Color(0x66000000), CircleShape)
+            )
+            Spacer(modifier = Modifier.height(2.dp))
+            Image(
+                painter = painterResource(id = character.path.iconWhite),
+                contentDescription = "Character Icon",
+                modifier = Modifier
+                    .requiredWidth(16.dp)
+                    .requiredHeight(16.dp)
+                    .background(Color(0x66000000), CircleShape)
+            )
+        }
     }
 }
 
@@ -114,9 +146,9 @@ fun CharacterCardPreview() {
             ), characterIcon = Character.getCharacterImageFromJSON(
                 context,
                 UtilTools.ImageFolderType.CHAR_ICON,
-                "seele"
+                "silver_wolf"
             ),
-            displayName = "希兒"
+            displayName = "銀狼"
         )
     }
 }

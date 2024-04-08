@@ -11,7 +11,7 @@ import com.voc.honkai_stargazer.R
 /**
  * 屬性 CombatType
  */
-enum class CombatType (var chName : String, iconWhite : Int, iconColor : Int, localeStringId : Int = R.string.app_name){
+enum class CombatType (var chName : String, var iconWhite : Int, var iconColor : Int, localeStringId : Int = R.string.app_name){
     Imaginary("虛數", R.drawable.ic_imaginary, R.drawable.element_imaginary),
     Quantum("毀滅", R.drawable.ic_quatumn, R.drawable.element_quantum),
     Lightning("智識", R.drawable.ic_lightning, R.drawable.element_lightning),

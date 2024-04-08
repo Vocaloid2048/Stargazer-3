@@ -23,11 +23,12 @@ import com.voc.honkai_stargazer.component.ListHeader
 import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.util.RootContent
 import org.json.JSONArray
+import org.json.JSONObject
 
 @Composable
 fun CharacterListPage(modifier: Modifier = Modifier, navController : NavController) {
     //val hazeState = remember { HazeState() }
-    val charList = JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
+    val charList : JSONArray = JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
     Box{
         LazyVerticalGrid(
             modifier = Modifier
@@ -37,7 +38,11 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController : NavControll
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            items(count = charList.length()){
+            items(count = charList.length()){index ->
+                var charData : JSONObject = charList.getJSONObject(index)
+                var character = Character(
+                    //officialId = charData.getString()
+                )
                // CharacterCard
             }
         }
