@@ -12,8 +12,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -82,13 +84,13 @@ fun CharacterCard(
                 )
             )
     ) {
-        Column(modifier = Modifier) {
+        Column(modifier = Modifier.fillMaxSize()) {
             Image(
                 bitmap = characterIcon!!.asImageBitmap(),
                 contentDescription = "Character Icon",
                 modifier = Modifier
-                    .requiredWidth(80.dp)
-                    .requiredHeight(80.dp)
+                    .fillMaxWidth()
+                    .height(80.dp)
             )
             Row(
                 Modifier
@@ -106,6 +108,7 @@ fun CharacterCard(
                     maxLines = 1
                 )
             }
+            Spacer(modifier = Modifier.height(2.dp))
         }
         Column (modifier = Modifier.padding(2.dp)){
             Image(
@@ -140,7 +143,7 @@ fun CharacterCardPreview() {
                 fileName = "silverwolf",
                 registName = "Silver Wolf",
                 rarity = 5,
-                combatType = CombatType.Quantum,
+                combatType = CombatType.valueOf("Quantum"),
                 path = Path.Nihility,
                 gender = Gender.Female,
             ), characterIcon = Character.getCharacterImageFromJSON(

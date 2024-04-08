@@ -9,18 +9,45 @@ package com.voc.honkai_stargazer.util
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import com.voc.honkai_stargazer.R
 import java.io.BufferedReader
+import java.io.IOException
 
 class UtilTools {
 
     //App語言 Language for App (R.string)
     enum class AppLanguage(var localeName: String, var folderName: String){
-
+        VOCCHINESE("Vocchinese","yue"),
+        EN("English","en"),
+        ZH_CN("简体中文","zh_cn"),
+        ZH_HK("繁體中文","zh_hk"),
+        JP("日本語","jp"),
+        FR("Français","fr"),
+        RU("Русский","ru"),
+        DE("Deutsch","de"),
+        PT("Português","pt-PT"),
+        VI("tiếng Việt","vi"),
+        ES("Español","es-ES"),
+        KR("한국어","kr"),
+        TH("ภาษาไทย","th"),
+        JYU_YAM("ㄓㄨˋ ㄧㄣ","zh"),
+        UK("Українська","uk");
     }
 
     //文本語言 Language for Text (assets/data)
     enum class TextLanguage(var localeName: String, var folderName: String){
-
+        EN("English","en"),
+        ZH_CN("简体中文","zh_cn"),
+        ZH_HK("繁體中文","zh_hk"),
+        JP("日本語","jp"),
+        FR("Français","fr"),
+        RU("Русский","ru"),
+        DE("Deutsch","de"),
+        PT("Português","pt-PT"),
+        VI("tiếng Việt","vi"),
+        ES("Español","es-ES"),
+        KR("한국어","kr"),
+        TH("ภาษาไทย","th"),
     }
 
     enum class ImageFolderType(var folderPath : String, var suffix : String){
@@ -53,6 +80,11 @@ class UtilTools {
             .use(BufferedReader::readText)
     }
     fun getAssetsWebpByContext(context: Context, fileName: String) : Bitmap {
-        return BitmapFactory.decodeStream(context.assets.open(fileName))
+        try {
+            val openedFile = context.assets.open(fileName);
+            return BitmapFactory.decodeStream(openedFile)
+        }catch (ex : IOException){
+            return BitmapFactory.decodeResource(context.resources,R.drawable.pom_pom)
+        }
     }
 }

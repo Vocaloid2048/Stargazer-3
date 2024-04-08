@@ -7,6 +7,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlinx-serialization")
 }
 
 android {
@@ -93,4 +94,5 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.7") //Navigation Compose
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0") //System UI Controller
     implementation("dev.chrisbanes.haze:haze:0.6.2") //Haze's BlurView https://github.com/chrisbanes/haze
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3") //Kotlin Serialization
 }
