@@ -1,3 +1,10 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+import org.jetbrains.kotlin.konan.file.File
+import org.jetbrains.kotlin.konan.properties.Properties
+import org.jetbrains.kotlin.konan.properties.saveToFile
+import java.io.FileOutputStream
+import java.io.OutputStreamWriter
+
 /*
  * Project Honkai Stargazer and app Stargazer (星穹觀星者) were
  * Organized & Develop by Coding Band.
@@ -10,6 +17,20 @@ plugins {
     id("kotlinx-serialization")
 }
 
+//input this versionCode
+val propsFile = file("version.properties")
+var props = Properties()
+props.load(propsFile.inputStream())
+
+//declare
+var versionCodeLocal = props.getProperty("versionCode").toInt()
+var versionNameLocal = "2.4.0"
+var versionInnerCodeLocal = "Clara"
+
+//output the next versionCode
+props.setProperty("versionCode",(versionCodeLocal + 1).toString())
+props.store(propsFile.outputStream(), null)
+
 android {
     namespace = "com.voc.honkai_stargazer"
     compileSdk = 34
@@ -18,12 +39,49 @@ android {
         applicationId = "com.voc.honkai_stargazer"
         minSdk = 28
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = versionCodeLocal
+        versionName = versionNameLocal
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
+        }
+    }
+
+    flavorDimensions("version")
+    productFlavors {
+        // For Google Play Store
+        create("dev") {
+            versionCode = versionCodeLocal
+            versionNameSuffix = "-dev" + " (" + versionCodeLocal + ")"
+            applicationId = "com.voc.honkai_stargazer_gp"
+        }
+        // For Google Play Store
+        create("gp") {
+            versionCode = versionCodeLocal
+            versionNameSuffix = "-prod" + " (" + versionCodeLocal + ")"
+            applicationId = "com.voc.honkai_stargazer_gp"
+            bundle {
+                language {
+                    enableSplit = false
+                }
+            }
+        }
+        // For Develop Testing
+        create("XBeta") {
+            versionCode = versionCodeLocal
+            versionNameSuffix = "-beta" + " (" + versionCodeLocal + ")"
+            applicationId = "com.voc.honkai_stargazer_beta"
+
+
+        }
+        // For iOS
+        create("ios") {
+            versionCode = versionCodeLocal
+            versionNameSuffix = "-prod" + " (" + versionCodeLocal + ")"
+            applicationId = "com.voc.honkaistargazer"
+
+
         }
     }
 
@@ -54,6 +112,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
 
     /*
 
