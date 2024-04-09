@@ -52,9 +52,11 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.voc.honkai_stargazer.R
+import com.voc.honkai_stargazer.component.HeaderData
 import com.voc.honkai_stargazer.component.HomePageBlock1x1
 import com.voc.honkai_stargazer.component.HomePageBlock2x1
 import com.voc.honkai_stargazer.component.HomePageBlocks
+import com.voc.honkai_stargazer.component.defaultHeaderData
 import com.voc.honkai_stargazer.types.Constants.Companion.HOME_PAGE_ITEMS
 import com.voc.honkai_stargazer.screen.ui.theme.BlackAlpha30
 import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal
@@ -64,9 +66,10 @@ import com.voc.honkai_stargazer.screen.ui.theme.ProgressLevelPrimary
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 import com.voc.honkai_stargazer.util.RootContent
+import com.voc.honkai_stargazer.util.Screen
 
 @Composable
-fun HomePage(modifier: Modifier = Modifier, navController: NavController) {
+fun HomePage(modifier: Modifier = Modifier, navController: NavController, headerData: HeaderData = defaultHeaderData) {
     Box(modifier = Modifier
         .statusBarsPadding()
     ) {
@@ -253,5 +256,5 @@ fun BottomView(modifier: Modifier = Modifier){
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun HomePagePreview() {
-    RootContent(navController = rememberNavController(), page = { HomePage(navController = rememberNavController())})
+    RootContent(screen = Screen.HomePage, navController = rememberNavController(), page = { HomePage(navController = rememberNavController())})
 }

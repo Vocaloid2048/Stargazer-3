@@ -58,66 +58,70 @@ import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.types.CombatType
 import com.voc.honkai_stargazer.types.Constants.Companion.getCardBgColorByRare
 import com.voc.honkai_stargazer.types.Gender
+import com.voc.honkai_stargazer.types.Lightcone
 import com.voc.honkai_stargazer.types.Path
 import com.voc.honkai_stargazer.util.UtilTools
 import java.net.URLEncoder
 
 //Start to End, Top to Bottom
-val CHAR_CARD_HEIGHT = 102.dp
-val CHAR_CARD_WIDTH = 80.dp
-val CHAR_CARD_TITLE_HEIGHT = 20.dp
+val LC_CARD_HEIGHT = 120.dp
+val LC_CARD_WIDTH = 80.dp
+val LC_CARD_TITLE_HEIGHT = 20.dp
 
 @Composable
-fun CharacterCard(
-    character: Character,
+fun LightconeCard(
+    lightcone: Lightcone,
     level: Int? = -1,
     ascensionPhase: Int? = -1, //Rank 突破等級
     displayName: String? = "?",
-    isMultiDisplay: Boolean? = false, //展示推薦隊伍
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     Box(
         modifier = Modifier
-            .defaultMinSize(CHAR_CARD_WIDTH, CHAR_CARD_HEIGHT)
-            .clip(
-                RoundedCornerShape(
-                    topEnd = 15.dp,
-                    topStart = 4.dp,
-                    bottomEnd = 4.dp,
-                    bottomStart = 4.dp
-                )
-            )
-            .background(
-                Brush.verticalGradient(
-                    colors = getCardBgColorByRare(character.rarity)
-                )
-            )
+            .defaultMinSize(LC_CARD_WIDTH, LC_CARD_HEIGHT)
             .clickable(
                 onClick = { /* Ignoring onClick */ },
                 indication = rememberRipple(),
                 interactionSource = interactionSource
             )
     ) {
-        //val path = LocalContext.current.assets.open("images/character_icon/${Character.getCharacterImageNameByRegistName(character.registName!!)}.webp")
-        //val painter = rememberAsyncImagePainter(model = path)
-        Column(modifier = Modifier.fillMaxSize()) {
-            Image(
-                bitmap = Character.getCharacterImageFromJSON(
-                    LocalContext.current,
-                    UtilTools.ImageFolderType.CHAR_ICON,
-                    character.registName!!
-                ).asImageBitmap(),
-                contentDescription = "Character Icon",
+
+
+        Column {
+            Column(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .height(CHAR_CARD_WIDTH),
-                contentScale = ContentScale.Crop
-            )
+                    .defaultMinSize(LC_CARD_WIDTH, LC_CARD_WIDTH)
+                    .clip(
+                        RoundedCornerShape(
+                            topEnd = 15.dp,
+                            topStart = 4.dp,
+                            bottomEnd = 4.dp,
+                            bottomStart = 4.dp
+                        )
+                    )
+                    .background(
+                        Brush.verticalGradient(
+                            colors = getCardBgColorByRare(lightcone.rarity)
+                        )
+                    )
+            ) {
+                Image(
+                    bitmap = Lightcone.getLightconeImageFromJSON(
+                        LocalContext.current,
+                        UtilTools.ImageFolderType.LC_ICON,
+                        lightcone.registName!!
+                    ).asImageBitmap(),
+                    contentDescription = "Lightcone Icon",
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(LC_CARD_WIDTH),
+                    contentScale = ContentScale.Crop
+                )
+            }
             Row(
                 Modifier
-                    .height(CHAR_CARD_TITLE_HEIGHT)
-                    .fillMaxWidth()
-                    .background(Color(0xFF222222)),
+                    .height(LC_CARD_TITLE_HEIGHT)
+                    .fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
@@ -126,25 +130,15 @@ fun CharacterCard(
                     textAlign = TextAlign.Center,
                     color = TextColorNormalDim,
                     fontSize = 12.sp,
-                    maxLines = 1
+                    maxLines = 2
                 )
             }
             Spacer(modifier = Modifier.height(2.dp))
         }
-        Column (modifier = Modifier.padding(2.dp)){
+        Column(modifier = Modifier.padding(2.dp)) {
             Image(
-                painter = painterResource(id = character.combatType.iconColor),
-                contentDescription = "Character Icon",
-                modifier = Modifier
-                    .requiredWidth(20.dp)
-                    .requiredHeight(20.dp)
-                    .background(Color(0x66000000), CircleShape)
-                    .padding(2.dp)
-            )
-            Spacer(modifier = Modifier.height(2.dp))
-            Image(
-                painter = painterResource(id = character.path.iconWhite),
-                contentDescription = "Character Icon",
+                painter = painterResource(id = lightcone.path.iconWhite),
+                contentDescription = "Lightcone Icon",
                 modifier = Modifier
                     .requiredWidth(20.dp)
                     .requiredHeight(20.dp)
@@ -157,20 +151,18 @@ fun CharacterCard(
 
 @Preview
 @Composable
-fun CharacterCardPreview() {
+fun LightconeCardPreview() {
     val context = LocalContext.current
     Box {
-        CharacterCard(
-            character = Character(
-                officialId = 1006,
-                fileName = "silverwolf",
-                registName = "Silver Wolf",
-                rarity = 5,
-                combatType = CombatType.valueOf("Quantum"),
-                path = Path.Nihility,
-                gender = Gender.Female,
+        LightconeCard(
+            lightcone = Lightcone(
+                officialId = 21018,
+                registName = "Dance! Dance! Dance!",
+                fileName = "21018",
+                rarity = 4,
+                path = Path.Harmony,
             ),
-            displayName = "銀狼",
+            displayName = "舞！舞！舞！",
         )
     }
 }

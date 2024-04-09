@@ -30,11 +30,14 @@ import com.voc.honkai_stargazer.component.CHAR_CARD_HEIGHT
 import com.voc.honkai_stargazer.component.CHAR_CARD_WIDTH
 import com.voc.honkai_stargazer.component.CharacterCard
 import com.voc.honkai_stargazer.component.HeaderData
+import com.voc.honkai_stargazer.component.LC_CARD_HEIGHT
 import com.voc.honkai_stargazer.component.LISTHEADER_HEIGHT
+import com.voc.honkai_stargazer.component.LightconeCard
 import com.voc.honkai_stargazer.component.ListHeader
 import com.voc.honkai_stargazer.component.defaultHeaderData
 import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.types.CombatType
+import com.voc.honkai_stargazer.types.Lightcone
 import com.voc.honkai_stargazer.types.Path
 import com.voc.honkai_stargazer.util.RootContent
 import com.voc.honkai_stargazer.util.Screen
@@ -43,39 +46,17 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 @Composable
-fun CharacterListPage(modifier: Modifier = Modifier, navController: NavController, headerData : HeaderData = defaultHeaderData) {
+fun LightconeListPage(modifier: Modifier = Modifier, navController: NavController, headerData: HeaderData = defaultHeaderData) {
     //val hazeState = remember { HazeState() }
-    val charListJSON: JSONArray = JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
-    val charNameList: ArrayList<String> = arrayListOf()
-    for ( x in (0..<charListJSON.length())){
-        charNameList.add(JSONObject(Character.getCharacterDataFromJSON(
+    val lcListJSON: JSONArray = JSONArray(Lightcone.getLightconeListFromJSON(LocalContext.current))
+    val lcNameList: ArrayList<String> = arrayListOf()
+    for ( x in (0..<lcListJSON.length())){
+        lcNameList.add(JSONObject(Lightcone.getLightconeDataFromJSON(
             LocalContext.current,
-            charListJSON.getJSONObject(x).getString("fileName"),
+            lcListJSON.getJSONObject(x).getString("fileName"),
             UtilTools.TextLanguage.ZH_HK
         )).getString("name"))
     }
-    /*
-       val charList = arrayListOf<Character>()
-    val charBitmaps : ArrayList<Bitmap> = arrayListOf<Bitmap>()
-
-    for( x in (0..<charListJSON.length())){
-        val charListItem : JSONObject = charListJSON.getJSONObject(x)
-        charList.add(Character(
-            registName = charListItem.getString("name"),
-            fileName = charListItem.getString("fileName"),
-            combatType = CombatType.valueOf(charListItem.getString("element")),
-            rarity = charListItem.getInt("rare"),
-            path = Path.valueOf(charListItem.getString("path")),
-        ))
-        charBitmaps.add(
-            Character.getCharacterImageFromJSON(
-                LocalContext.current,
-                UtilTools.ImageFolderType.CHAR_ICON,
-                charListItem.getString("name")
-            )
-        )
-    }
-     */
 
     Box {
         LazyVerticalGrid(
@@ -94,17 +75,16 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController: NavControlle
                         .height(LISTHEADER_HEIGHT)
                 )
             }
-            items(count = charListJSON.length()) { index ->
-                val charListItem = charListJSON.getJSONObject(index)
-                CharacterCard(
-                    character = Character(
-                        registName = charListItem.getString("name"),
-                        fileName = charListItem.getString("fileName"),
-                        combatType = CombatType.valueOf(charListItem.getString("element")),
-                        rarity = charListItem.getInt("rare"),
-                        path = Path.valueOf(charListItem.getString("path")),
+            items(count = lcListJSON.length()) { index ->
+                val lcListItem = lcListJSON.getJSONObject(index)
+                LightconeCard(
+                    lightcone = Lightcone(
+                        registName = lcListItem.getString("name"),
+                        fileName = lcListItem.getString("fileName"),
+                        rarity = lcListItem.getInt("rare"),
+                        path = Path.valueOf(lcListItem.getString("path")),
                     ),
-                    displayName = charNameList[index]
+                    displayName = lcNameList[index]
                 )
             }
             item(span = { GridItemSpan(maxLineSpan) }) {
@@ -121,9 +101,9 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController: NavControlle
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun CharacterListPagePreview() {
+fun LightconeListPagePreview() {
     RootContent(
-        screen = Screen.CharacterListPage,
+        screen = Screen.LightconeListPage,
         navController = rememberNavController(),
-        page = { CharacterListPage(navController = rememberNavController()) })
+        page = {LightconeListPage(navController = rememberNavController()) })
 }

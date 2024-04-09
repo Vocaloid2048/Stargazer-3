@@ -16,10 +16,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
+import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.voc.honkai_stargazer.screen.HomePage
 import com.voc.honkai_stargazer.screen.ui.theme.Stargazer3Theme
 import com.voc.honkai_stargazer.util.Navigation
 import com.voc.honkai_stargazer.util.RootContent
+import com.voc.honkai_stargazer.util.Screen
 
 class MainActivity : ComponentActivity() {
     private lateinit var activity: Activity
@@ -27,12 +29,15 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
+            //val systemUiController = rememberSystemUiController()
+
             Navigation()
         }
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.light(
                 android.graphics.Color.TRANSPARENT,
-                android.graphics.Color.TRANSPARENT
+                android.graphics.Color.TRANSPARENT,
             ),
             navigationBarStyle = SystemBarStyle.light(
                 android.graphics.Color.TRANSPARENT,
@@ -48,6 +53,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MainActivityPreview() {
     Stargazer3Theme {
-        RootContent(navController = rememberNavController(), page = {HomePage(navController = rememberNavController())})
+        RootContent(screen = Screen.HomePage, navController = rememberNavController(), page = {HomePage(navController = rememberNavController())})
     }
 }

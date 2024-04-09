@@ -57,11 +57,17 @@ import dev.chrisbanes.haze.haze
 import dev.chrisbanes.haze.hazeChild
 
 val LISTHEADER_HEIGHT = 64.dp
+val defaultHeaderData = HeaderData("?",R.drawable.phorphos_sun_fill)
 
 enum class BackIcon(var id: Int) {
     BACK(id = R.drawable.ui_icon_back),
     CANCEL(id = R.drawable.ui_icon_close)
 }
+
+class HeaderData(
+    var title: String,
+    var titleIconId: Int
+)
 
 @Composable
 fun ListHeader(
@@ -70,8 +76,7 @@ fun ListHeader(
     backIconId: BackIcon = BackIcon.BACK,
     onForward: (() -> Unit) = {},
     forwardIconId: Int = R.drawable.bg_transparent,
-    title: String = "?",
-    titleIconId: Int = R.drawable.phorphos_sun_dim_fill,
+    headerData: HeaderData = defaultHeaderData
     //hazeState: HazeState = HazeState()
 ) {
     //Background
@@ -119,7 +124,7 @@ fun ListHeader(
                 verticalArrangement = Arrangement.Center
             ) {
                 Image(
-                    painter = painterResource(id = titleIconId),
+                    painter = painterResource(id = headerData.titleIconId),
                     contentDescription = "Title Icon",
                     modifier = Modifier.size(32.dp),
                     colorFilter = ColorFilter.tint(Color.White)
@@ -133,7 +138,7 @@ fun ListHeader(
                             .align(Alignment.CenterVertically),
                     )
                     Text(
-                        text = title,
+                        text = headerData.title,
                         color = TextColorNormal,
                         style = FontSizeNormal,
                         modifier = Modifier.padding(start = 12.dp, end = 12.dp)

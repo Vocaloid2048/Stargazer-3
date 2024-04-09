@@ -51,6 +51,9 @@ class UtilTools {
     }
 
     enum class ImageFolderType(var folderPath : String, var suffix : String){
+        AVATAR_ICON("avatar_icon/",".webp"),
+        BGS("bgs/",".webp"),
+
         CHAR_EIDOLON("character_eidolon/","_eidolon_${1}.webp"),
         CHAR_EIDOLON_BORDER("character_eidolon_border/",".svg"),
         CHAR_FADE("character_fade/","_fade.webp"),
@@ -81,7 +84,7 @@ class UtilTools {
     }
     fun getAssetsWebpByContext(context: Context, fileName: String) : Bitmap {
         try {
-            val openedFile = context.assets.open(fileName);
+            val openedFile = context.assets.open(fileName)
             return BitmapFactory.decodeStream(openedFile)
         }catch (ex : IOException){
             return BitmapFactory.decodeResource(context.resources,R.drawable.pom_pom)

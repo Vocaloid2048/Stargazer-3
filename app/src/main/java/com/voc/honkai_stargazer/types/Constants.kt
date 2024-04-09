@@ -6,12 +6,33 @@
 
 package com.voc.honkai_stargazer.types
 
+import androidx.compose.ui.graphics.Color
 import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.component.HomePageBlocks
 import com.voc.honkai_stargazer.util.Screen
 
 class Constants {
     companion object {
+
+        //From top to bottom
+        val CARD_BG_COLOR_RARE_1 = listOf(Color(0xFF191621), Color(0xFF8F8F95))
+        val CARD_BG_COLOR_RARE_2 = listOf(Color(0xFF374860), Color(0xFF3F797C))
+        val CARD_BG_COLOR_RARE_3 = listOf(Color(0xFF393A5C), Color(0xFF497AB8))
+        val CARD_BG_COLOR_RARE_4 = listOf(Color(0xFF404165), Color(0xFF9763CE))
+        val CARD_BG_COLOR_RARE_5 = listOf(Color(0xFF905A52), Color(0xFFC8A471))
+        val CARD_BG_COLOR_RARE_UNKNOWN = listOf(Color(0xFF905273), Color(0xFF71B8C8))
+
+        fun getCardBgColorByRare(rare: Int): List<Color> {
+            when (rare) {
+                1 -> return CARD_BG_COLOR_RARE_1
+                2 -> return CARD_BG_COLOR_RARE_2
+                3 -> return CARD_BG_COLOR_RARE_3
+                4 -> return CARD_BG_COLOR_RARE_4
+                5 -> return CARD_BG_COLOR_RARE_5
+            }
+            return CARD_BG_COLOR_RARE_UNKNOWN
+        }
+
         var HOME_PAGE_ITEMS = arrayListOf<HomePageBlocks.HomePageBlockItem>(
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "角色",
@@ -21,7 +42,7 @@ class Constants {
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "光錐",
                 itemIconId = R.drawable.phorphos_sword_fill,
-                itemOnClickAction = { println("WTFFFF") },
+                itemOnClickToNavigate = Screen.LightconeListPage,
             ),
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "遺器",
