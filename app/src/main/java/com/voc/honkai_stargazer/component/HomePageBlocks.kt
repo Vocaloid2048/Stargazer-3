@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -45,6 +47,9 @@ import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 import com.voc.honkai_stargazer.util.Screen
 
 class HomePageBlocks {
+    val HOME_PAGE_BLOCK_WIDTH_1x1 = 80.dp
+    val HOME_PAGE_BLOCK_WIDTH_2x1 = 180.dp
+    val HOME_PAGE_BLOCK_HEIGHT = 90.dp
     class HomePageBlockItem(
         var itemTitle: String = "",
         var itemIconId: Int = R.drawable.phorphos_cake_fill,
@@ -97,8 +102,8 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20, RoundedCornerShape(8.dp))
-            .height(90.dp)
-            .width(80.dp),
+            .defaultMinSize(HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT)
+            .fillMaxSize(),
         border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
         Column {
@@ -147,8 +152,8 @@ fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20, RoundedCornerShape(8.dp))
-            .height(90.dp)
-            .width(172.dp),
+            .defaultMinSize(HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT)
+            .fillMaxSize(),
         border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
         Row {
@@ -206,7 +211,7 @@ fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
     }
 }
 
-@Preview(showBackground = true)
+@Preview
 @Composable
 fun HomePageBlockPreview() {
     Stargazer3Theme {

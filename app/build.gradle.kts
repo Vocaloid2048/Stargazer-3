@@ -95,4 +95,5 @@ dependencies {
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0") //System UI Controller
     implementation("dev.chrisbanes.haze:haze:0.6.2") //Haze's BlurView https://github.com/chrisbanes/haze
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3") //Kotlin Serialization
+    implementation("io.coil-kt:coil-compose:2.6.0") //Coil Image Loader
 }
