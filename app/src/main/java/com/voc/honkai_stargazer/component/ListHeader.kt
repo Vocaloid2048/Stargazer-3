@@ -16,9 +16,11 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
@@ -54,6 +56,7 @@ import dev.chrisbanes.haze.HazeStyle
 import dev.chrisbanes.haze.haze
 import dev.chrisbanes.haze.hazeChild
 
+val LISTHEADER_HEIGHT = 64.dp
 
 enum class BackIcon(var id: Int) {
     BACK(id = R.drawable.ui_icon_back),
@@ -75,6 +78,8 @@ fun ListHeader(
     Box(
         Modifier
             .background(Color(0x66FFFFFF))
+            .statusBarsPadding()
+            .requiredHeight(LISTHEADER_HEIGHT)
         /*
             .hazeChild(
                 state = hazeState,
@@ -87,8 +92,8 @@ fun ListHeader(
         //Now will use Pure Color Background
         Row(
             Modifier
-                .statusBarsPadding()
                 .padding(start = 16.dp, end = 16.dp)
+                .fillMaxSize()
         ) {
             OutlinedButton(
                 contentPadding = PaddingValues(0.dp),
@@ -109,7 +114,7 @@ fun ListHeader(
                     )
             }
             Column(
-                Modifier.weight(1f),
+                Modifier.weight(1f).fillMaxSize(),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
@@ -165,7 +170,7 @@ fun ListHeader(
     }
 }
 
-@Preview
+@Preview()
 @Composable
 fun ListHeaderPreview() {
     ListHeader(rememberNavController())
