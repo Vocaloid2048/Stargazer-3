@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
@@ -39,20 +40,31 @@ import com.voc.honkai_stargazer.types.Path
 import com.voc.honkai_stargazer.util.RootContent
 import com.voc.honkai_stargazer.util.Screen
 import com.voc.honkai_stargazer.util.UtilTools
+import dev.chrisbanes.haze.HazeState
+import dev.chrisbanes.haze.haze
 import org.json.JSONArray
 import org.json.JSONObject
 
 @Composable
-fun CharacterListPage(modifier: Modifier = Modifier, navController: NavController, headerData : HeaderData = defaultHeaderData) {
-    //val hazeState = remember { HazeState() }
-    val charListJSON: JSONArray = JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
+fun CharacterListPage(
+    modifier: Modifier = Modifier,
+    navController: NavController,
+    headerData: HeaderData = defaultHeaderData
+) {
+    val hazeState = remember { HazeState() }
+    val charListJSON: JSONArray =
+        JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
     val charNameList: ArrayList<String> = arrayListOf()
-    for ( x in (0..<charListJSON.length())){
-        charNameList.add(JSONObject(Character.getCharacterDataFromJSON(
-            LocalContext.current,
-            charListJSON.getJSONObject(x).getString("fileName"),
-            UtilTools.TextLanguage.ZH_HK
-        )).getString("name"))
+    for (x in (0..<charListJSON.length())) {
+        charNameList.add(
+            JSONObject(
+                Character.getCharacterDataFromJSON(
+                    LocalContext.current,
+                    charListJSON.getJSONObject(x).getString("fileName"),
+                    UtilTools.TextLanguage.ZH_HK
+                )
+            ).getString("name")
+        )
     }
     /*
        val charList = arrayListOf<Character>()
@@ -80,8 +92,8 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController: NavControlle
     Box {
         LazyVerticalGrid(
             modifier = Modifier
-                .padding(start = 16.dp, end = 16.dp),
-            //.haze(state = hazeState),
+                .padding(start = 16.dp, end = 16.dp)
+                .haze(state = hazeState),
             columns = GridCells.Adaptive(CHAR_CARD_WIDTH),
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -115,7 +127,7 @@ fun CharacterListPage(modifier: Modifier = Modifier, navController: NavControlle
                 )
             }
         }
-        ListHeader(navController = navController, headerData = headerData)//hazeState = hazeState)
+        ListHeader(navController = navController, headerData = headerData, hazeState = hazeState)
     }
 }
 
@@ -125,5 +137,10 @@ fun CharacterListPagePreview() {
     RootContent(
         screen = Screen.CharacterListPage,
         navController = rememberNavController(),
-        page = { CharacterListPage(navController = rememberNavController()) })
+        page = {
+            CharacterListPage(
+                headerData = Screen.CharacterListPage.headerData,
+                navController = rememberNavController()
+            )
+        })
 }

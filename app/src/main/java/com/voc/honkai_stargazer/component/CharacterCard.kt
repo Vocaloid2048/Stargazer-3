@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
@@ -30,6 +31,8 @@ import androidx.compose.foundation.layout.requiredWidth
 import androidx.compose.foundation.layout.requiredWidthIn
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.ripple.rememberRipple
@@ -43,6 +46,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
@@ -50,14 +54,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import coil.compose.rememberAsyncImagePainter
-import coil.compose.rememberImagePainter
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormalDim
 import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.types.CombatType
 import com.voc.honkai_stargazer.types.Constants.Companion.getCardBgColorByRare
 import com.voc.honkai_stargazer.types.Gender
+import com.voc.honkai_stargazer.types.Lightcone
 import com.voc.honkai_stargazer.types.Path
 import com.voc.honkai_stargazer.util.UtilTools
 import java.net.URLEncoder
@@ -110,7 +113,7 @@ fun CharacterCard(
                 contentDescription = "Character Icon",
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(CHAR_CARD_WIDTH),
+                    .aspectRatio(1f),
                 contentScale = ContentScale.Crop
             )
             Row(
@@ -160,18 +163,26 @@ fun CharacterCard(
 fun CharacterCardPreview() {
     val context = LocalContext.current
     Box {
-        CharacterCard(
-            character = Character(
-                officialId = 1006,
-                fileName = "silverwolf",
-                registName = "Silver Wolf",
-                rarity = 5,
-                combatType = CombatType.valueOf("Quantum"),
-                path = Path.Nihility,
-                gender = Gender.Female,
-            ),
-            displayName = "銀狼",
-        )
+        LazyVerticalGrid(
+            columns = GridCells.Adaptive(80.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            items(count = 4) {
+                CharacterCard(
+                    character = Character(
+                        officialId = 1006,
+                        fileName = "silverwolf",
+                        registName = "Silver Wolf",
+                        rarity = 5,
+                        combatType = CombatType.valueOf("Quantum"),
+                        path = Path.Nihility,
+                        gender = Gender.Female,
+                    ),
+                    displayName = "銀狼",
+                )
+            }
+        }
     }
 }
 

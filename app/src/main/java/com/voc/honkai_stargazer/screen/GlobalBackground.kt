@@ -63,7 +63,7 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
             bitmap = backgroundBitmap.asImageBitmap(),
             contentDescription = "",
             contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize().blur(0.dp)
+            modifier = Modifier.fillMaxSize().blur(if (isBlur) 20.dp else 0.dp)
         )
         Box(modifier = Modifier.matchParentSize().background(gradient))
     }
