@@ -154,4 +154,5 @@ dependencies {
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0") //System UI Controller
     implementation("dev.chrisbanes.haze:haze:0.6.2") //Haze's BlurView https://github.com/chrisbanes/haze
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3") //Kotlin Serialization
+    implementation("com.github.zed-alpha.shadow-gadgets:compose:2.2.1") //Compose Shadow (shown like Figma) https://github.com/zed-alpha/shadow-gadgets#download
 }
