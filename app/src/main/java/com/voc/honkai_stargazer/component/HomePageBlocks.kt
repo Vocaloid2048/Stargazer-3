@@ -30,6 +30,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -50,8 +51,10 @@ class HomePageBlocks {
     val HOME_PAGE_BLOCK_WIDTH_1x1 = 80.dp
     val HOME_PAGE_BLOCK_WIDTH_2x1 = 180.dp
     val HOME_PAGE_BLOCK_HEIGHT = 90.dp
+
     class HomePageBlockItem(
-        var itemTitle: String = "",
+        var itemTitle: String? = null,
+        var itemTitleRId: Int? = null,
         var itemIconId: Int = R.drawable.phorphos_cake_fill,
         var itemType: HomePageBlockItemType = HomePageBlockItemType.W1H1,
         var itemTopHighlight: String? = "",
@@ -61,11 +64,11 @@ class HomePageBlocks {
         var itemOnClickToNavigate: Screen? = null,
     ) {
         enum class HomePageBlockItemType(val width: Int, val height: Int) {
-            W1H1( 1, 1), W2H1(2, 1)
+            W1H1(1, 1), W2H1(2, 1)
         }
 
         override fun toString(): String {
-            return "HomePageBlockItem(itemTitle='$itemTitle', itemIconId=$itemIconId, itemType=$itemType, itemTopHightlight='$itemTopHighlight', itemTop='$itemTop', itemBottom='$itemBottom')"
+            return "HomePageBlockItem(itemTitle='$itemTitle', itemTitleRId='$itemTitleRId', itemIconId=$itemIconId, itemType=$itemType, itemTopHightlight='$itemTopHighlight', itemTop='$itemTop', itemBottom='$itemBottom')"
         }
     }
 }
@@ -78,7 +81,11 @@ val gradient = Brush.verticalGradient(
 )
 
 @Composable
-fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier, navController: NavController) {
+fun HomePageBlock1x1(
+    blockData: HomePageBlocks.HomePageBlockItem,
+    modifier: Modifier = Modifier,
+    navController: NavController
+) {
     val config = LocalConfiguration.current
     var isLandscape = false;
 
@@ -92,7 +99,7 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
         contentPadding = PaddingValues(10.dp),
         onClick = {
             if (blockData.itemOnClickToNavigate !== null) {
-                println("Ok I'm Navigating to "+blockData.itemOnClickToNavigate)
+                println("Ok I'm Navigating to " + blockData.itemOnClickToNavigate)
                 navController.navigate(blockData.itemOnClickToNavigate!!.route)
             } else {
                 println("Ok I'm OnClick la")
@@ -102,7 +109,10 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20, RoundedCornerShape(8.dp))
-            .defaultMinSize(HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT)
+            .defaultMinSize(
+                HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,
+                HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT
+            )
             .fillMaxSize(),
         border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
@@ -117,7 +127,12 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
             )
             Spacer(modifier = Modifier.height(7.dp))
             Text(
-                text = blockData.itemTitle,
+                text =
+                if (blockData.itemTitle === null)
+                    if (blockData.itemTitleRId === null) LocalContext.current.getString(R.string.AppStatusLostConnect) else LocalContext.current.getString(
+                        blockData.itemTitleRId!!
+                    )
+                else blockData.itemTitle!!,
                 Modifier
                     .align(Alignment.CenterHorizontally),
                 color = TextColorNormal,
@@ -129,7 +144,11 @@ fun HomePageBlock1x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
 }
 
 @Composable
-fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modifier = Modifier, navController: NavController) {
+fun HomePageBlock2x1(
+    blockData: HomePageBlocks.HomePageBlockItem,
+    modifier: Modifier = Modifier,
+    navController: NavController
+) {
     val navController = rememberNavController();
     val config = LocalConfiguration.current
     var isLandscape = false;
@@ -152,7 +171,10 @@ fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier
             .background(BlackAlpha20, RoundedCornerShape(8.dp))
-            .defaultMinSize(HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT)
+            .defaultMinSize(
+                HomePageBlocks().HOME_PAGE_BLOCK_WIDTH_1x1,
+                HomePageBlocks().HOME_PAGE_BLOCK_HEIGHT
+            )
             .fillMaxSize(),
         border = BorderStroke(2.dp, Color(0x66907C54))
     ) {
@@ -169,7 +191,12 @@ fun HomePageBlock2x1(blockData: HomePageBlocks.HomePageBlockItem, modifier: Modi
                 )
                 Spacer(modifier = Modifier.height(7.dp))
                 Text(
-                    text = blockData.itemTitle,
+                    text =
+                    if (blockData.itemTitle === null)
+                        if (blockData.itemTitleRId === null) LocalContext.current.getString(R.string.AppStatusLostConnect) else LocalContext.current.getString(
+                            blockData.itemTitleRId!!
+                        )
+                    else blockData.itemTitle!!,
                     Modifier
                         .align(Alignment.CenterHorizontally),
                     color = TextColorNormal,

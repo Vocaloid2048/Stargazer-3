@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!--
   ~ Project Honkai Stargazer and app Stargazer (星穹觀星者) were
   ~ Organized & Develop by Coding Band.
@@ -6,11 +8,10 @@
 
 <resources>
 
-    <string name="app_name" translatable="false">"Stargazer 3"</string>
     <!--server-->
-    <string name="asia">"Asia"</string>
+    <string name="asia">"Asie"</string>
     <string name="europe">"Europe"</string>
-    <string name="america">"America"</string>
+    <string name="america">"Amérique"</string>
     <string name="twhkmo">"TW HK MO"</string>
     <string name="cn1">"星穹列车"</string>
     <string name="cn2">"无名客"</string>
@@ -26,13 +27,13 @@
     <string name="Preservation">"Preservation"</string>
 
     <!--element (combat type)-->
-    <string name="Physical">"Physical"</string>
-    <string name="Wind">"Wind"</string>
-    <string name="Ice">"Ice"</string>
-    <string name="Fire">"Fire"</string>
-    <string name="Lightning">"Lightning"</string>
-    <string name="Quantum">"Quantum"</string>
-    <string name="Imaginary">"Imaginary"</string>
+    <string name="Physical">"Physique"</string>
+    <string name="Wind">"Vent"</string>
+    <string name="Ice">"Glace"</string>
+    <string name="Fire">"Feu"</string>
+    <string name="Lightning">"Foudre"</string>
+    <string name="Quantum">"Quantique"</string>
+    <string name="Imaginary">"Imaginaire"</string>
 
     <!--relic-->
     <string name="RelicPropBody">"Body"</string>
@@ -45,15 +46,15 @@
     <string name="RelicPropLinkRopeShort">"Rope"</string>
 
     <!--ui - main page-->
-    <string name="Character">"Characters"</string>
-    <string name="CharacterList">"Character List"</string>
+    <string name="Character">"Personnages"</string>
+    <string name="CharacterList">"Liste des personnages"</string>
     <string name="Lightcone">"Lightcones"</string>
     <string name="LightconeList">"Lightcone List"</string>
-    <string name="Relic">"Relics"</string>
-    <string name="RelicList">"Relic List"</string>
-    <string name="Stamina">"Stamina"</string>
-    <string name="StaminaIsFull">"Full"</string>
-    <string name="Map">"Map"</string>
+    <string name="Relic">"Reliques"</string>
+    <string name="RelicList">"Liste des reliques"</string>
+    <string name="Stamina">"Énergie"</string>
+    <string name="StaminaIsFull">"Pleine"</string>
+    <string name="Map">"Carte"</string>
     <string name="Login">"Login"</string>
     <string name="Logout">"Logout"</string>
     <string name="Expedition">"Exped."</string>
@@ -64,19 +65,19 @@
     <string name="IsDone">"Done"</string>
     <string name="PlayerLevel">"Level."</string>
     <string name="AccountLogin">"Login"</string>
-    <string name="ModifyHomePage">"Modify Home Page"</string>
+    <string name="ModifyHomePage">"Modifier la page d'accueil"</string>
     <string name="SimulatedUniverse">"Simulated Universe"</string>
     <string name="Event">"Event"</string>
     <string name="Codes">"Codes"</string>
 
     <!--ui - filter and sort-->
-    <string name="SortByTime">"Release Date"</string>
+    <string name="SortByTime">"Date de sortie"</string>
     <string name="SortByName">"Name (EN)"</string>
-    <string name="SortByAtk">"ATK"</string>
+    <string name="SortByAtk">"ATQ"</string>
     <string name="SortByDef">"DEF"</string>
-    <string name="SortByHp">"HP"</string>
-    <string name="SortByEnergy">"Energy Max"</string>
-    <string name="SortByRare">"Rarity"</string>
+    <string name="SortByHp">"PV"</string>
+    <string name="SortByEnergy">"Énergie max"</string>
+    <string name="SortByRare">"Rareté"</string>
     <string name="Reset">"Reset"</string>
     <string name="OK">"Agree"</string>
     <string name="NotOK">"Disagree"</string>
@@ -108,7 +109,7 @@
     <!--ui - Memory Of Chaos-->
     <string name="PlayersBattleReport">"${1}'s Battle Chronic"</string>
     <string name="PlayersRemainRounds">"${1} Round(s) Remained"</string>
-    <string name="PlayersAverageRounds">"${1} Round(s) in Average"</string>
+    <string name="PlayersAverageRounds">"${1} Round(s) Average"</string>
     <string name="PlayersRounds">"${1} Round(s)"</string>
 
     <!--ui - Setting Page-->
@@ -116,12 +117,12 @@
     <string name="SwitchOn">"ON"</string>
     <string name="SwitchOff">"OFF"</string>
     <string name="AccountSetup">"Account Setup (${1})"</string>
-    <string name="UseInviteCode">"Use the Invite Code"</string>
-    <string name="HaveNotUsed">"Haven't Used it yet"</string>
-    <string name="LanguageSetup">"Language Setup"</string>
-    <string name="DocumentLanguage">"Document Language"</string>
-    <string name="AppLanguage">"App Language"</string>
-    <string name="Customize">"Customize"</string>
+    <string name="UseInviteCode">"Use Invite Code"</string>
+    <string name="HaveNotUsed">"Haven't Used"</string>
+    <string name="LanguageSetup">"Configuration de la langue"</string>
+    <string name="DocumentLanguage">"Langue du document"</string>
+    <string name="AppLanguage">"Langue de l'application"</string>
+    <string name="Customize">"Personnaliser"</string>
     <string name="UseHSRFont">"Use in-Game Font"</string>
     <string name="WallPaper">"Wallpaper"</string>
     <string name="ChangeWallPaper">"Change Wallpaper"</string>
@@ -141,9 +142,9 @@
     <string name="SpecialThanks">"Special Thanks"</string>
     <string name="SpecialThanksDevs">"Developers"</string>
     <string name="SpecialThanksOpenSource">"Open Source Thanks"</string>
-    <string name="SelectAccountInServer">"Please select the server you are playing on."</string>
+    <string name="SelectAccountInServer">"Please select the server you are playing."</string>
     <string name="ManuallySetup">"Setup Manually"</string>
-    <string name="SelectServerTitle">"Select the Server"</string>
+    <string name="SelectServerTitle">"Select Server"</string>
     <string name="RemarksInLogin">"Login Remarks"</string>
     <string name="CopyToClipBoard">"Copied to Clipboard ~"</string>
     <string name="FailToCopy">"Failed to Copy</string>
@@ -156,7 +157,7 @@
     <string name="HasCopy">"Copied"</string>
 
     <!--toast-->
-    <string name="PleaseLogin">"Please login first!"</string>
+    <string name="PleaseLogin">"Veuillez d'abord vous connecter !"</string>
 
     <!--Add in 20240114 - User Info Page
     E.g. 10 Days Before / 30mins Before || In the User Info Page -> Status, which shows how long does he/she offline-->
@@ -168,7 +169,7 @@
 
     <!--Equilibrium level-->
     <string name="UserInfoGameWorldLevel">"Equili. Lvl."</string>
-    <string name="UserInfoLastOnlineTime">"Last Online Time"</string>
+    <string name="UserInfoLastOnlineTime">"Last Online At"</string>
     <string name="UserInfoOwnedCharacters">"Characters"</string>
     <string name="UserInfoGameActiveDays">"Active Days"</string>
     <string name="UserInfoGameAchievements">"Achievements"</string>
@@ -214,10 +215,10 @@
     <string name="UnLockAll">"Unlock All"</string>
     <string name="BlurOn">"Blur</string>
     <string name="BlurOff">"Blur</string>
-    <string name="GetCharAndUnLock">"Unlock when u get that character."</string>
+    <string name="GetCharAndUnLock">"Unlock when owned he/her"</string>
     <string name="Leaderboard">"Leaderboard"</string>
     <string name="UIDSearch">"UID Search"</string>
-    <string name="PublicChars">"Disclose owned characters"</string>
+    <string name="PublicChars">"Disclose characters"</string>
     <string name="Switch">"Switch"</string>
 
     <!--Add in 20240118 - User Character Info Page-->
@@ -253,12 +254,12 @@
 
     <!--In the User Character's Info Page, showing percentage of character's graduation-->
     <string name="CharGradRate">"Char. Grad%"</string>
-    <string name="LackOfUserData">"This leaderboard has no results due to lack of user data"</string>
+    <string name="LackOfUserData">"No leaderboard since lack of user data"</string>
     <string name="LeaderboardOver">"Over ${1}% Users"</string>
-    <string name="LeaderboardDataFrom">"(Data were from All logged in users)"</string>
+    <string name="LeaderboardDataFrom">"(Data from All logged in user)"</string>
     <string name="AppStatusLoading">"PomPom is Praying"</string>
     <string name="AppStatusLostConnect">"Lost connection with Train..."</string>
-    <string name="AppStatusPlayerNoReleaseData">"The player didn't disclose his/her data"</string>
+    <string name="AppStatusPlayerNoReleaseData">"Player didn't disclose his/her data"</string>
     <string name="AppStatusNoDataFound">"No Data Found ..."</string>
     <string name="CharSoul">"Eidolon ${1}"</string>
     <string name="StatusNow">"Now"</string>
@@ -289,18 +290,18 @@
     <!--Memory Of Chaos (Leaderboard, MOC info)-->
     <string name="MOCMissionInfoTitle">"Mission Info"</string>
     <string name="MOCSkipped">"Skipped"</string>
-    <string name="MOCMissionPart1">"Part I"</string>
-    <string name="MOCMissionPart2">"Part II"</string>
-    <string name="MOCMissionPart3">"Part III"</string>
-    <string name="MOCMissionPart4">"Part IV"</string>
-    <string name="MOCMissionPart5">"Part V"</string>
-    <string name="MOCMissionPart6">"Part VI"</string>
-    <string name="MOCMissionPart7">"Part VII"</string>
-    <string name="MOCMissionPart8">"Part VIII"</string>
-    <string name="MOCMissionPart9">"Part IX"</string>
-    <string name="MOCMissionPart10">"Part X"</string>
-    <string name="MOCMissionPart11">"Part XI"</string>
-    <string name="MOCMissionPart12">"Part XII"</string>
+    <string name="MOCMissionPart1">"Partie I"</string>
+    <string name="MOCMissionPart2">"Partie II"</string>
+    <string name="MOCMissionPart3">"Partie III"</string>
+    <string name="MOCMissionPart4">"Partie IV"</string>
+    <string name="MOCMissionPart5">"Partie V"</string>
+    <string name="MOCMissionPart6">"Partie VI"</string>
+    <string name="MOCMissionPart7">"Partie VII"</string>
+    <string name="MOCMissionPart8">"Partie VIII"</string>
+    <string name="MOCMissionPart9">"Partie IX"</string>
+    <string name="MOCMissionPart10">"Partie X"</string>
+    <string name="MOCMissionPart11">"Partie XI"</string>
+    <string name="MOCMissionPart12">"Partie XII"</string>
     <string name="MOCEffect">"Effect"</string>
     <string name="MOCMyBattleReport">"My Battle Report"</string>
     <string name="MOCPart1">"(Part1)"</string>
@@ -326,8 +327,8 @@
     <string name="SettingPersonalPage">"Show Personal Page"</string>
     <string name="SettingPersonalPageShow">"Show"</string>
     <string name="SettingPersonalPageDisable">"Disable"</string>
-    <string name="SettingChangedWallpaper">"The wallpaper was set to \"${1}\""</string>
-    <string name="SettingSaveWallpaperSuccess">"Saved the wallpaper successfully"</string>
+    <string name="SettingChangedWallpaper">"Changed wallpaper to \"${1}\""</string>
+    <string name="SettingSaveWallpaperSuccess">"Saved wallpaper successfully"</string>
     <string name="SettingSaveWallpaperError">"Error on saving wallpaper</string>
 
     <!--Toast display / Donation Bar at the Home Page's bottom-->
@@ -338,7 +339,7 @@
     <string name="ShareError">"Share Failed</string>
     <string name="CodeAll">"ALL Servers"</string>
     <string name="CharSoulShort">"E${1}"</string>
-    <string name="PlsDonateUs">"Pls, consider donating to support us, thx!"</string>
+    <string name="PlsDonateUs">"Pls consider to donate for supporting us, thx!"</string>
     <string name="DonateInRandomCount">"Random"</string>
 
     <!--20240122 -> Home Page Button-->
@@ -397,10 +398,10 @@
     Errors when user try to use in-app-purchase in BETA version, deprecated-->
     <string name="ErrorDonationInBeta">"Donation is not available in BETA"</string>
     <string name="ErrorIdentifier">"Unable for find the donation..."</string>
-    <string name="ErrorPurchaseAlready">"Please try again in one minute."</string>
+    <string name="ErrorPurchaseAlready">"Please wait a minute and retry again"</string>
 
     <!--20240219 - Permissions and isNotch ...-->
-    <string name="ErrorscreenshotPermissionRejected">"Permission for accessing the screenshot was rejected, please press the button again/ grant the permission in the system settings."</string>
+    <string name="ErrorscreenshotPermissionRejected">"Permission for accessing screenshot was rejected, please press the button again/ grant the permission in system setting."</string>
 
     <!--The buttom button / geasure bar-->
     <string name="UserCustomHasNotch">"Notch Adaptation"</string>
@@ -410,14 +411,14 @@
 
     <!--20240302 - Wrap Simulator (Record page)-->
     <string name="LotterySimulatorRecord">"Wrap Simulator Record"</string>
-    <string name="LotterySimulatorRecordNotice">"The records shown below are from the emulator and have nothing to do with game data."</string>
+    <string name="LotterySimulatorRecordNotice">"Records shown below are NOT from in-game, only from Simulator"</string>
     <string name="LotteryRecordType">"Type"</string>
     <string name="LotteryRecordName">"Name"</string>
     <string name="LotteryRecordTime">"Time"</string>
 
     <!--20240308 ~ 0311 - Wrap Analysis-->
     <string name="WrapAnalysis">"Wrap Analysis"</string>
-    <string name="WrapNeedInit">"No reviews yet. Please click the button in the bottom-let corner to import the Wrap URL."</string>
+    <string name="WrapNeedInit">"No reviews yet. Please click the button in the bottom-let corner to import the wrap URL."</string>
     <string name="WrapCharPool">"Character Event Wrap"</string>
     <string name="WrapLcPool">"Lightcone Event Wrap"</string>
     <string name="WrapStaticPool">"Regular Wrap"</string>
@@ -433,16 +434,17 @@
 
     <!--Show when u don't enter the URL / token in Toast-->
     <string name="WrapPopUpURLToast">"Please enter the Wrap URL!"</string>
-    <string name="WrapPopUpURLTextArea">"Please enter the Wrap URL here"</string>
+    <string name="WrapPopUpURLTextArea">"Pleas put the Wrap URL in there"</string>
     <string name="WrapPopUpURLTutorial">"How to get the Wrap URL?"</string>
     <string name="WrapPopUpURLAnalysisButton">"Analysis"</string>
     <string name="WrapPopUpURLProgress">"Analysis Progess</string>
 
-    <!--20240325 - Codename (Just like Android's Mashmellow, Nought, Pie, etc...), for devs to know which version easily-->
+    <!--Show when it's reading your Wrap Record one-by-one from official server
+    20240325 - Codename (Just like Android's Mashmellow, Nought, Pie, etc...), for devs to know which version easily-->
     <string name="AppInnerVersionCode">"Codename"</string>
 
     <!--20240328 - Wrap Analysis-->
-    <string name="VisitToDCServer">"Please visit our Discord Server to get solutions/help"</string>
+    <string name="VisitToDCServer">"Please visit our Discord Server for getting solutions / help"</string>
 
     <!--20240403 - New Update
     Replaced "ManuallySetup"-->

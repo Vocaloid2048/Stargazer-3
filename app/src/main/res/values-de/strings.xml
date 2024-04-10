@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!--
   ~ Project Honkai Stargazer and app Stargazer (星穹觀星者) were
   ~ Organized & Develop by Coding Band.
@@ -6,7 +8,6 @@
 
 <resources>
 
-    <string name="app_name" translatable="false">"Stargazer 3"</string>
     <!--server-->
     <string name="asia">"Asia"</string>
     <string name="europe">"Europe"</string>
@@ -438,7 +439,8 @@
     <string name="WrapPopUpURLAnalysisButton">"Analysis"</string>
     <string name="WrapPopUpURLProgress">"Analysis Progess</string>
 
-    <!--20240325 - Codename (Just like Android's Mashmellow, Nought, Pie, etc...), for devs to know which version easily-->
+    <!--Show when it's reading your Wrap Record one-by-one from official server
+    20240325 - Codename (Just like Android's Mashmellow, Nought, Pie, etc...), for devs to know which version easily-->
     <string name="AppInnerVersionCode">"Codename"</string>
 
     <!--20240328 - Wrap Analysis-->

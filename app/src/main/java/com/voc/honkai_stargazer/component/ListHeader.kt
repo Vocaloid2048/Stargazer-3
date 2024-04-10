@@ -46,6 +46,7 @@ import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.layout
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -149,7 +150,14 @@ fun ListHeader(
                                 .align(Alignment.CenterVertically),
                         )
                         Text(
-                            text = headerData.title,
+                            text =
+                            if (headerData.title === null)
+                                LocalContext.current.getString(
+                                    if (headerData.titleRId === null)
+                                        R.string.AppStatusLostConnect
+                                    else headerData.titleRId!!
+                                )
+                            else headerData.title!!,
                             color = TextColorNormal,
                             style = FontSizeNormal,
                             modifier = Modifier.padding(start = 12.dp, end = 12.dp)

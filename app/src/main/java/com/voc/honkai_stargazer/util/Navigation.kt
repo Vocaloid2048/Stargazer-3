@@ -23,12 +23,13 @@ import com.voc.honkai_stargazer.screen.CharacterListPage
 import com.voc.honkai_stargazer.screen.HomePage
 import com.voc.honkai_stargazer.screen.LightconeListPage
 import com.voc.honkai_stargazer.screen.MakeBackground
+import com.voc.honkai_stargazer.screen.RelicListPage
 
 sealed class Screen(val route: String, val headerData: HeaderData = defaultHeaderData){
-    object HomePage : Screen("HomeScreen" , HeaderData("首頁", R.drawable.phorphos_house_fill))
-    object CharacterListPage  : Screen("CharacterListPage",HeaderData("角色列表", R.drawable.phorphos_person_fill))
-    object LightconeListPage  : Screen("LightconeListPage",HeaderData("光錐列表", R.drawable.phorphos_sword_fill))
-    object RelicListPage  : Screen("RelicListPage",HeaderData("遺器列表", R.drawable.phorphos_baseball_cap_fill))
+    object HomePage : Screen("HomeScreen" , HeaderData(titleIconId = R.drawable.phorphos_house_fill))
+    object CharacterListPage  : Screen("CharacterListPage",HeaderData(titleRId = R.string.CharacterList, titleIconId = R.drawable.phorphos_person_fill))
+    object LightconeListPage  : Screen("LightconeListPage",HeaderData(titleRId = R.string.LightconeList, titleIconId = R.drawable.phorphos_sword_fill))
+    object RelicListPage  : Screen("RelicListPage",HeaderData(titleRId = R.string.RelicList, titleIconId = R.drawable.phorphos_baseball_cap_fill))
 }
 @Composable
 fun Navigation(){
@@ -42,6 +43,9 @@ fun Navigation(){
         }
         composable(route = Screen.LightconeListPage.route, enterTransition = { EnterTransition.None} , exitTransition = { ExitTransition.None }){
             RootContent(screen = Screen.LightconeListPage, navController = navController, page = { LightconeListPage(navController = navController, headerData = Screen.LightconeListPage.headerData) })
+        }
+        composable(route = Screen.RelicListPage.route, enterTransition = { EnterTransition.None} , exitTransition = { ExitTransition.None }){
+            RootContent(screen = Screen.RelicListPage, navController = navController, page = { RelicListPage(navController = navController, headerData = Screen.RelicListPage.headerData) })
         }
     }
 }
