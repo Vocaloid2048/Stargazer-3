@@ -46,7 +46,8 @@ class Constants {
             ),
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "遺器",
-                itemIconId = R.drawable.phorphos_baseball_cap_fill
+                itemIconId = R.drawable.phorphos_baseball_cap_fill,
+                itemOnClickToNavigate = Screen.RelicListPage,
             ),
             HomePageBlocks.HomePageBlockItem(
                 itemTitle = "UID查詢",

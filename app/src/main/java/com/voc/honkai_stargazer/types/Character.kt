@@ -37,32 +37,12 @@ class Character(
         }
 
         fun getCharacterImageFromJSON(context: Context, imageFolderType: UtilTools.ImageFolderType, characterName : String) : Bitmap {
-            println("images/"
-                    +imageFolderType.folderPath
-                    +getCharacterImageNameByRegistName(characterName)
-                    +imageFolderType.suffix)
             return UtilTools().getAssetsWebpByContext(context,
                 "images/"
                         +imageFolderType.folderPath
-                        +getCharacterImageNameByRegistName(characterName)
+                        +UtilTools().getImageNameByRegistName(characterName)
                         +imageFolderType.suffix
             )
-        }
-
-        fun getCharacterImageNameByRegistName(registName: String) : String {
-            return registName
-                .replace("Trailblazer Boy (Physical)","trailblazer_physical_male")
-                .replace("Trailblazer Girl (Physical)","trailblazer_physical_female")
-                .replace("Trailblazer Boy (Fire)","trailblazer_fire_male")
-                .replace("Trailblazer Girl (Fire)","trailblazer_fire_female")
-                .replace("Topaz & Numby","topaz")
-                .replace("Dan Heng • Imbibitor Lunae","dan_heng_il")
-
-                .lowercase()
-                .replace("(","")
-                .replace(")","")
-                .replace(" ","_")
-                .replace(".","")
         }
     }
 }

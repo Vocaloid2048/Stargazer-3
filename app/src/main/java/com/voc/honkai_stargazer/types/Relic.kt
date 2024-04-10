@@ -13,28 +13,27 @@ import com.voc.honkai_stargazer.util.UtilTools
 import java.io.BufferedReader
 
 
-class Lightcone(
+class Relic(
     var officialId : Int? = 21018,
     var registName : String? = "Dance! Dance! Dance!",
     var fileName : String? = "21018",
-    var rarity : Int = 4,
-    var path : Path = Path.Harmony,
+    var rarity : Int? = 5, //其實沒甚麼用 因爲肯定是五星的
     var releaseVersion : String = "1.0.0",
 ){
     companion object {
-        fun getLightconeListFromJSON(context: Context) : String {
-            return UtilTools().getAssetsJsonByContext(context, "data/lightcone_data/lightcone_list.json")
+        fun getRelicListFromJSON(context: Context) : String {
+            return UtilTools().getAssetsJsonByContext(context, "data/relic_data/relic_list.json")
         }
 
-        fun getLightconeDataFromJSON(context: Context, lightconeFileName : String, textLanguage: UtilTools.TextLanguage) : String {
-            return UtilTools().getAssetsJsonByContext(context,"data/lightcone_data/${textLanguage.folderName}/${lightconeFileName}.json")
+        fun getRelicDataFromJSON(context: Context, relicFileName : String, textLanguage: UtilTools.TextLanguage) : String {
+            return UtilTools().getAssetsJsonByContext(context,"data/relic_data/${textLanguage.folderName}/${relicFileName}.json")
         }
 
-        fun getLightconeImageFromJSON(context: Context, imageFolderType: UtilTools.ImageFolderType, lightconeName : String) : Bitmap {
+        fun getRelicImageFromJSON(context: Context, imageFolderType: UtilTools.ImageFolderType, imageFileName : String) : Bitmap {
             return UtilTools().getAssetsWebpByContext(context,
                 "images/"
                         +imageFolderType.folderPath
-                        +UtilTools().getImageNameByRegistName(lightconeName)
+                        + UtilTools().getImageNameByRegistName(imageFileName)
                         +imageFolderType.suffix
             )
         }
