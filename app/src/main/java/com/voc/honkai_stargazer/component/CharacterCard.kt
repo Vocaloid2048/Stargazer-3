@@ -82,14 +82,6 @@ fun CharacterCard(
     Box(
         modifier = Modifier
             .defaultMinSize(CHAR_CARD_WIDTH, CHAR_CARD_HEIGHT)
-            .clip(
-                RoundedCornerShape(
-                    topEnd = 15.dp,
-                    topStart = 4.dp,
-                    bottomEnd = 4.dp,
-                    bottomStart = 4.dp
-                )
-            )
             .background(
                 Brush.verticalGradient(
                     colors = getCardBgColorByRare(character.rarity)

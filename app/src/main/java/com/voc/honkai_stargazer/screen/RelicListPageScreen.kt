@@ -32,12 +32,17 @@ import com.voc.honkai_stargazer.component.CHAR_CARD_HEIGHT
 import com.voc.honkai_stargazer.component.CHAR_CARD_WIDTH
 import com.voc.honkai_stargazer.component.CharacterCard
 import com.voc.honkai_stargazer.component.HeaderData
+import com.voc.honkai_stargazer.component.LC_CARD_HEIGHT
 import com.voc.honkai_stargazer.component.LISTHEADER_HEIGHT
+import com.voc.honkai_stargazer.component.LightconeCard
 import com.voc.honkai_stargazer.component.ListHeader
+import com.voc.honkai_stargazer.component.RelicCard
 import com.voc.honkai_stargazer.component.defaultHeaderData
 import com.voc.honkai_stargazer.types.Character
 import com.voc.honkai_stargazer.types.CombatType
+import com.voc.honkai_stargazer.types.Lightcone
 import com.voc.honkai_stargazer.types.Path
+import com.voc.honkai_stargazer.types.Relic
 import com.voc.honkai_stargazer.util.RootContent
 import com.voc.honkai_stargazer.util.Screen
 import com.voc.honkai_stargazer.util.UtilTools
@@ -47,48 +52,17 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 @Composable
-fun CharacterListPage(
-    modifier: Modifier = Modifier,
-    navController: NavController,
-    headerData: HeaderData = defaultHeaderData
-) {
+fun RelicListPage(modifier: Modifier = Modifier, navController: NavController, headerData: HeaderData = defaultHeaderData) {
     val hazeState = remember { HazeState() }
-    val charListJSON: JSONArray =
-        JSONArray(Character.getCharacterListFromJSON(LocalContext.current))
-    val charNameList: ArrayList<String> = arrayListOf()
-    for (x in (0..<charListJSON.length())) {
-        charNameList.add(
-            JSONObject(
-                Character.getCharacterDataFromJSON(
-                    LocalContext.current,
-                    charListJSON.getJSONObject(x).getString("fileName"),
-                    UtilTools.TextLanguage.ZH_HK
-                )
-            ).getString("name")
-        )
+    val relicListJSON: JSONArray = JSONArray(Relic.getRelicListFromJSON(LocalContext.current))
+    val relicNameList: ArrayList<String> = arrayListOf()
+    for ( x in (0..<relicListJSON.length())){
+        relicNameList.add(JSONObject(Relic.getRelicDataFromJSON(
+            LocalContext.current,
+            relicListJSON.getJSONObject(x).getString("fileName"),
+            UtilTools.TextLanguage.ZH_HK
+        )).getString("name"))
     }
-    /*
-       val charList = arrayListOf<Character>()
-    val charBitmaps : ArrayList<Bitmap> = arrayListOf<Bitmap>()
-
-    for( x in (0..<charListJSON.length())){
-        val charListItem : JSONObject = charListJSON.getJSONObject(x)
-        charList.add(Character(
-            registName = charListItem.getString("name"),
-            fileName = charListItem.getString("fileName"),
-            combatType = CombatType.valueOf(charListItem.getString("element")),
-            rarity = charListItem.getInt("rare"),
-            path = Path.valueOf(charListItem.getString("path")),
-        ))
-        charBitmaps.add(
-            Character.getCharacterImageFromJSON(
-                LocalContext.current,
-                UtilTools.ImageFolderType.CHAR_ICON,
-                charListItem.getString("name")
-            )
-        )
-    }
-     */
 
     Box {
         LazyVerticalGrid(
@@ -107,17 +81,15 @@ fun CharacterListPage(
                         .height(LISTHEADER_HEIGHT)
                 )
             }
-            items(count = charListJSON.length()) { index ->
-                val charListItem = charListJSON.getJSONObject(index)
-                CharacterCard(
-                    character = Character(
-                        registName = charListItem.getString("name"),
-                        fileName = charListItem.getString("fileName"),
-                        combatType = CombatType.valueOf(charListItem.getString("element")),
-                        rarity = charListItem.getInt("rare"),
-                        path = Path.valueOf(charListItem.getString("path")),
+            items(count = relicListJSON.length()) { index ->
+                val relicListItem = relicListJSON.getJSONObject(index)
+                RelicCard(
+                    relic = Relic(
+                        registName = relicListItem.getString("name"),
+                        fileName = relicListItem.getString("fileName"),
+                        officialId = relicListItem.getString("fileName").toInt(),
                     ),
-                    displayName = charNameList[index]
+                    displayName = relicNameList[index]
                 )
             }
             item(span = { GridItemSpan(maxLineSpan) }) {
@@ -134,14 +106,9 @@ fun CharacterListPage(
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun CharacterListPagePreview() {
+fun RelicListPagePreview() {
     RootContent(
-        screen = Screen.CharacterListPage,
+        screen = Screen.LightconeListPage,
         navController = rememberNavController(),
-        page = {
-            CharacterListPage(
-                headerData = Screen.CharacterListPage.headerData,
-                navController = rememberNavController()
-            )
-        })
+        page = {RelicListPage(navController = rememberNavController()) })
 }

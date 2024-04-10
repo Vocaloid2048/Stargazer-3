@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
@@ -37,11 +38,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -51,13 +55,16 @@ import com.voc.honkai_stargazer.R
 import com.voc.honkai_stargazer.screen.ui.theme.FontSizeNormal
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorLevel
 import com.voc.honkai_stargazer.screen.ui.theme.TextColorNormal
+import com.voc.honkai_stargazer.types.Constants
+import com.voc.honkai_stargazer.util.UtilTools
+import com.zedalpha.shadowgadgets.compose.clippedShadow
 import dev.chrisbanes.haze.HazeState
 import dev.chrisbanes.haze.HazeStyle
 import dev.chrisbanes.haze.haze
 import dev.chrisbanes.haze.hazeChild
 
 val LISTHEADER_HEIGHT = 64.dp
-val defaultHeaderData = HeaderData("?",R.drawable.phorphos_sun_fill)
+val defaultHeaderData = HeaderData(title = "?", titleIconId = R.drawable.phorphos_sun_fill)
 
 enum class BackIcon(var id: Int) {
     BACK(id = R.drawable.ui_icon_back),
@@ -65,8 +72,9 @@ enum class BackIcon(var id: Int) {
 }
 
 class HeaderData(
-    var title: String,
-    var titleIconId: Int
+    var title: String? = null,
+    var titleRId: Int? = null,
+    var titleIconId: Int = R.drawable.phorphos_sun_fill
 )
 
 @Composable
@@ -76,102 +84,107 @@ fun ListHeader(
     backIconId: BackIcon = BackIcon.BACK,
     onForward: (() -> Unit) = {},
     forwardIconId: Int = R.drawable.bg_transparent,
-    headerData: HeaderData = defaultHeaderData
-    //hazeState: HazeState = HazeState()
+    headerData: HeaderData = defaultHeaderData,
+    hazeState: HazeState? = HazeState()
 ) {
     //Background
     Box(
         Modifier
-            .background(Color(0x66FFFFFF))
-            .statusBarsPadding()
-            .requiredHeight(LISTHEADER_HEIGHT)
-        /*
             .hazeChild(
-                state = hazeState,
-                shape = RoundedCornerShape(16.dp),
+                state = hazeState!!,
                 style = HazeStyle(Color.Unspecified, 20.dp, Float.MIN_VALUE)
             )
-         */
+            .background(Color(0x66FFFFFF))
+            .clippedShadow(elevation = 2.dp)
+            .statusBarsPadding()
+            .requiredHeight(LISTHEADER_HEIGHT)
+
     ) {
         //BlurView can place in there
         //Now will use Pure Color Background
-        Row(
-            Modifier
-                .padding(start = 16.dp, end = 16.dp)
-                .fillMaxSize()
-        ) {
-            OutlinedButton(
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .size(40.dp)
-                    .align(Alignment.CenterVertically),
-                onClick = { onBack(navController) },
-                border = BorderStroke(0.dp, Color(0x00FFFFFF))
+        Column {
+            Row(
+                Modifier
+                    .padding(start = 16.dp, end = 16.dp)
+                    .fillMaxSize()
+                    .weight(1f)
             ) {
-                Image(
-                    painter = painterResource(id = backIconId.id),
-                    contentDescription = "Back Icon",
+                OutlinedButton(
+                    contentPadding = PaddingValues(0.dp),
                     modifier = Modifier
                         .size(40.dp)
                         .align(Alignment.CenterVertically),
-                    colorFilter = ColorFilter.tint(Color.White),
+                    onClick = { onBack(navController) },
+                    border = BorderStroke(0.dp, Color(0x00FFFFFF))
+                ) {
+                    Image(
+                        painter = painterResource(id = backIconId.id),
+                        contentDescription = "Back Icon",
+                        modifier = Modifier
+                            .size(40.dp)
+                            .align(Alignment.CenterVertically),
+                        colorFilter = ColorFilter.tint(Color.White),
 
-                    )
-            }
-            Column(
-                Modifier.weight(1f).fillMaxSize(),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                Image(
-                    painter = painterResource(id = headerData.titleIconId),
-                    contentDescription = "Title Icon",
-                    modifier = Modifier.size(32.dp),
-                    colorFilter = ColorFilter.tint(Color.White)
-                )
-                Row {
-                    Spacer(
-                        modifier = Modifier
-                            .height(2.dp)
-                            .width(50.dp)
-                            .background(Color(0x66FFFFFF))
-                            .align(Alignment.CenterVertically),
-                    )
-                    Text(
-                        text = headerData.title,
-                        color = TextColorNormal,
-                        style = FontSizeNormal,
-                        modifier = Modifier.padding(start = 12.dp, end = 12.dp)
-                    )
-                    Spacer(
-                        modifier = Modifier
-                            .height(2.dp)
-                            .width(50.dp)
-                            .background(Color(0x66FFFFFF))
-                            .align(Alignment.CenterVertically),
-                    )
+                        )
                 }
+                Column(
+                    Modifier
+                        .weight(1f)
+                        .fillMaxSize(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    Image(
+                        painter = painterResource(id = headerData.titleIconId),
+                        contentDescription = "Title Icon",
+                        modifier = Modifier.size(32.dp),
+                        colorFilter = ColorFilter.tint(Color.White)
+                    )
+                    Row {
+                        Spacer(
+                            modifier = Modifier
+                                .height(2.dp)
+                                .width(50.dp)
+                                .background(Color(0x66FFFFFF))
+                                .align(Alignment.CenterVertically),
+                        )
+                        Text(
+                            text = headerData.title,
+                            color = TextColorNormal,
+                            style = FontSizeNormal,
+                            modifier = Modifier.padding(start = 12.dp, end = 12.dp)
+                        )
+                        Spacer(
+                            modifier = Modifier
+                                .height(2.dp)
+                                .width(50.dp)
+                                .background(Color(0x66FFFFFF))
+                                .align(Alignment.CenterVertically),
+                        )
+                    }
 
-            }
-            OutlinedButton(
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .size(40.dp)
-                    .align(Alignment.CenterVertically),
-                onClick = { onForward },
-                border = BorderStroke(0.dp, Color(0x00FFFFFF))
-            ) {
-                Image(
-                    painter = painterResource(id = forwardIconId),
-                    contentDescription = "Forward Icon",
+                }
+                OutlinedButton(
+                    contentPadding = PaddingValues(0.dp),
                     modifier = Modifier
                         .size(40.dp)
                         .align(Alignment.CenterVertically),
-                    colorFilter = ColorFilter.tint(Color.White),
+                    onClick = { onForward },
+                    border = BorderStroke(0.dp, Color(0x00FFFFFF))
+                ) {
+                    Image(
+                        painter = painterResource(id = forwardIconId),
+                        contentDescription = "Forward Icon",
+                        modifier = Modifier
+                            .size(40.dp)
+                            .align(Alignment.CenterVertically),
+                        colorFilter = ColorFilter.tint(Color.White),
 
-                    )
+                        )
+                }
             }
         }
+
     }
 }
 

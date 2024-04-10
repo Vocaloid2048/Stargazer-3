@@ -70,17 +70,18 @@ import com.voc.honkai_stargazer.types.Constants.Companion.getCardBgColorByRare
 import com.voc.honkai_stargazer.types.Gender
 import com.voc.honkai_stargazer.types.Lightcone
 import com.voc.honkai_stargazer.types.Path
+import com.voc.honkai_stargazer.types.Relic
 import com.voc.honkai_stargazer.util.UtilTools
 import java.net.URLEncoder
 
 //Start to End, Top to Bottom
-val LC_CARD_HEIGHT = 120.dp
-val LC_CARD_WIDTH = 80.dp
-val LC_CARD_TITLE_HEIGHT = 20.dp
+val RELIC_CARD_HEIGHT = 102.dp
+val RELIC_CARD_WIDTH = 80.dp
+val RELIC_CARD_TITLE_HEIGHT = 20.dp
 
 @Composable
-fun LightconeCard(
-    lightcone: Lightcone,
+fun RelicCard(
+    relic: Relic,
     level: Int? = -1,
     ascensionPhase: Int? = -1, //Rank 突破等級
     displayName: String? = "?",
@@ -88,7 +89,12 @@ fun LightconeCard(
     val interactionSource = remember { MutableInteractionSource() }
     Box(
         modifier = Modifier
-            .defaultMinSize(LC_CARD_WIDTH, LC_CARD_HEIGHT)
+            .defaultMinSize(RELIC_CARD_WIDTH, RELIC_CARD_HEIGHT)
+            .clickable(
+                onClick = { /* Ignoring onClick */ },
+                indication = rememberRipple(),
+                interactionSource = interactionSource
+            )
             .clip(
                 RoundedCornerShape(
                     topEnd = 15.dp,
@@ -97,16 +103,11 @@ fun LightconeCard(
                     bottomStart = 4.dp
                 )
             )
-            .clickable(
-                onClick = { /* Ignoring onClick */ },
-                indication = rememberRipple(),
-                interactionSource = interactionSource
-            )
     ) {
         Column {
             Box(
                 modifier = Modifier
-                    .defaultMinSize(LC_CARD_WIDTH, LC_CARD_WIDTH)
+                    .defaultMinSize(RELIC_CARD_WIDTH, RELIC_CARD_WIDTH)
                     .clip(
                         RoundedCornerShape(
                             topEnd = 15.dp,
@@ -117,18 +118,18 @@ fun LightconeCard(
                     )
             ) {
                 Image(
-                    bitmap = Lightcone.getLightconeImageFromJSON(
+                    bitmap = Relic.getRelicImageFromJSON(
                         LocalContext.current,
-                        UtilTools.ImageFolderType.LC_ICON,
-                        lightcone.registName!!
+                        if(relic.officialId!! < 300) UtilTools.ImageFolderType.RELIC_PC_ICON else UtilTools.ImageFolderType.ORMANENT_PC_ICON,
+                        relic.registName!!
                     ).asImageBitmap(),
-                    contentDescription = "Lightcone Icon",
+                    contentDescription = "Relic Icon",
                     modifier = Modifier
                         .fillMaxWidth()
                         .aspectRatio(1f)
                         .background(
                             Brush.verticalGradient(
-                                colors = getCardBgColorByRare(lightcone.rarity)
+                                colors = getCardBgColorByRare(if(relic.rarity === null) 5 else relic.rarity!!)
                             )
                         ),
                     contentScale = ContentScale.Crop
@@ -137,7 +138,7 @@ fun LightconeCard(
             }
             Row(
                 Modifier
-                    .height(LC_CARD_TITLE_HEIGHT)
+                    .height(RELIC_CARD_TITLE_HEIGHT)
                     .fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
@@ -152,23 +153,12 @@ fun LightconeCard(
             }
             Spacer(modifier = Modifier.height(2.dp))
         }
-        Column(modifier = Modifier.padding(2.dp)) {
-            Image(
-                painter = painterResource(id = lightcone.path.iconWhite),
-                contentDescription = "Lightcone Icon",
-                modifier = Modifier
-                    .requiredWidth(20.dp)
-                    .requiredHeight(20.dp)
-                    .background(Color(0x66000000), CircleShape)
-                    .padding(2.dp)
-            )
-        }
     }
 }
 
 @Preview(backgroundColor = 0xFF156434, showBackground = true)
 @Composable
-fun LightconeCardPreview() {
+fun RelicCardPreview() {
     val context = LocalContext.current
     LazyVerticalGrid(
         columns = GridCells.Adaptive(80.dp),
@@ -176,15 +166,13 @@ fun LightconeCardPreview() {
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         items(count = 4) {
-            LightconeCard(
-                lightcone = Lightcone(
-                    officialId = 21018,
-                    registName = "Dance! Dance! Dance!",
-                    fileName = "21018",
-                    rarity = 4,
-                    path = Path.Harmony,
+            RelicCard(
+                relic = Relic(
+                    officialId = 312,
+                    registName = "Penacony, Land of the Dreams",
+                    fileName = "312",
                 ),
-                displayName = "舞！舞！舞！",
+                displayName = "夢想之地匹諾康尼",
             )
         }
     }

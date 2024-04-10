@@ -27,6 +27,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.voc.honkai_stargazer.component.BackIcon
 import com.voc.honkai_stargazer.component.CHAR_CARD_HEIGHT
 import com.voc.honkai_stargazer.component.CHAR_CARD_WIDTH
 import com.voc.honkai_stargazer.component.CharacterCard
@@ -98,7 +99,7 @@ fun LightconeListPage(modifier: Modifier = Modifier, navController: NavControlle
                 )
             }
         }
-        ListHeader(navController = navController, headerData = headerData, hazeState = hazeState)
+        ListHeader(navController = navController, headerData = headerData, hazeState = hazeState, backIconId = BackIcon.CANCEL)
     }
 }
 

@@ -53,7 +53,7 @@ enum class BackgroundDisplayEnum{
 fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
     val hazeState = remember { HazeState() }
     var isBlur = true;
-    var backgroundBitmap = UtilTools().getAssetsWebpByContext(context = LocalContext.current, "images/${UtilTools.ImageFolderType.BGS.folderPath}221000.webp")
+    var backgroundBitmap = UtilTools().getAssetsWebpByContext(context = LocalContext.current, "images/${UtilTools.ImageFolderType.BGS.folderPath}1006.webp")
     when(screen){
         Screen.HomePage -> {isBlur = false;}
         else -> {}
