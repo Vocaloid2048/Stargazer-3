@@ -1,25 +1,32 @@
-/*
- * Project Honkai Stargazer and app Stargazer (星穹觀星者) were
- * Organized & Develop by Coding Band.
- * Copyright © 2024 Coding Band 版權所有
- */
+rootProject.name = "Stargazer3"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        google {
+            mavenContent {
+                includeGroupAndSubgroups("androidx")
+                includeGroupAndSubgroups("com.android")
+                includeGroupAndSubgroups("com.google")
+            }
+        }
         mavenCentral()
-        maven { url = uri("https://www.jitpack.io" ) }
+        maven("https://jogamp.org/deployment/maven")
     }
 }
 
-rootProject.name = "Stargazer 3"
-include(":app")
- 
+include(":composeApp")
