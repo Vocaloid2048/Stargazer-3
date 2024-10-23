@@ -214,7 +214,7 @@ fun Navigation() {
     pomPomPopupInstance = remember { mutableStateOf(PomPomPopup()) }
     docCountDown = remember { mutableStateOf(0) }
     swipeProperties = remember { SwipeProperties(
-        spaceToSwipe = Constants.SCREEN_SAVE_PADDING,
+        //spaceToSwipe = Constants.SCREEN_SAVE_PADDING,
         positionalThreshold = { distance -> distance * 0.5f },
         velocityThreshold = { 10.dp.toPx() }
     ) }

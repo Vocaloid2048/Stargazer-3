@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -60,7 +61,7 @@ fun MaterialCard(
             )
             .clickable(
                 onClick = onClick,
-                indication = rememberRipple(),
+                indication = ripple(),
                 interactionSource = interactionSource
             )
     ) {

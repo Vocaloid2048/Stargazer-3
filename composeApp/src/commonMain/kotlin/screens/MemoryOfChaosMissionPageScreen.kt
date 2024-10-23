@@ -30,6 +30,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.DropdownMenuItem
 import androidx.compose.material.SnackbarHostState
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
@@ -290,7 +291,7 @@ fun MemoryOfChaosContent(
                     modifier = Modifier.clickable(
                         enabled = true,
                         interactionSource = remember { MutableInteractionSource() },
-                        indication = rememberRipple(radius = 4.dp),
+                        indication = ripple(radius = 4.dp),
                         onClick = {
                             mocInfoDisplayIndex.value = (mocInfoDisplayIndex.value + 1) % usageList.size
                         }

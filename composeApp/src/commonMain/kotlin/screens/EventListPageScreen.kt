@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -166,7 +167,7 @@ fun EventItemCard(eventItem: EventItem, isDateOutside: MutableState<Boolean>, na
 
         Box(modifier = Modifier
             .wrapContentHeight().weight(1f)
-            .clickable(interactionSource = interactionSource, indication = rememberRipple(), onClick = {})
+            .clickable(interactionSource = interactionSource, indication = ripple(), onClick = {})
         ) {
             AsyncImage(
                 model = imageRequest,

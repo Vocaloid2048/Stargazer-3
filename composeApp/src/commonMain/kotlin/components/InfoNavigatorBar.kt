@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -165,7 +166,7 @@ fun InfoNavigatorBar(
 
                                             }
                                         },
-                                        indication = rememberRipple(),
+                                        indication = ripple(),
                                         interactionSource = MutableInteractionSource()
                                     )
                             ) {

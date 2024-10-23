@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -88,7 +89,7 @@ fun RelicCard(
                         )
                     ).clickable(
                         onClick = { onClick() },
-                        indication = rememberRipple(),
+                        indication = ripple(),
                         interactionSource = interactionSource
                     )
             ) {
@@ -156,7 +157,7 @@ fun RelicSmallCard(
                 ))
                 .clickable(
                     onClick = { onClick() },
-                    indication = rememberRipple(),
+                    indication = ripple(),
                     interactionSource = remember { MutableInteractionSource() }
                 )
             ){

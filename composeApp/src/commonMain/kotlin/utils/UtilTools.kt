@@ -8,7 +8,6 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.unit.Dp
 import coil3.ImageLoader
 import coil3.PlatformContext
-import coil3.addLastModifiedToFileCacheKey
 import coil3.disk.DiskCache
 import coil3.memory.MemoryCache
 import coil3.request.CachePolicy
@@ -520,7 +519,7 @@ class UtilTools {
                 .build()
         }
         .logger(DebugLogger())
-        .addLastModifiedToFileCacheKey(true)
+        //.addLastModifiedToFileCacheKey(true)
         .build()
 
     fun newImageRequest(context: PlatformContext, data: Any, crossFade : Boolean = true) = ImageRequest.Builder(context)

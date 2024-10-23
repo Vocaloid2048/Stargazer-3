@@ -14,7 +14,7 @@ import java.util.Properties
 val appVersion = "2.3.2"
 val appVersionCodeName = "Dan Heng"
 
-val appVersionBeta = "2.6.0"
+val appVersionBeta = "2.6.1"
 val appVersionCodeNameBeta = "Rappa"
 
 plugins {
@@ -93,7 +93,7 @@ kotlin {
 
             implementation(libs.okio)
 
-            implementation(libs.coil.network.ktor)
+            implementation("io.coil-kt.coil3:coil-network-ktor3:3.0.0-rc01")
             implementation(libs.coil.compose.core)
 
             //Ktor - Web Request I/O
@@ -135,7 +135,7 @@ kotlin {
 
         }
         nativeMain.dependencies {
-            implementation(libs.ktor.client.darwin)
+            implementation("io.ktor:ktor-client-darwin:3.0.0")
         }
     }
 

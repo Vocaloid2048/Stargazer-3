@@ -35,6 +35,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.SnackbarHostState
 import androidx.compose.material.Text
+import androidx.compose.material.ripple
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -389,7 +390,7 @@ fun RelicSetsCardDisplay(
                                     )
                                 ).clickable(
                                     onClick = { },
-                                    indication = rememberRipple(),
+                                    indication = ripple(),
                                     interactionSource = remember { MutableInteractionSource() }
                                 )
                             ) {
