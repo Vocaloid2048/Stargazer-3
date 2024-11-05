@@ -153,24 +153,24 @@ fun CharacterEidolonBox(eidolonList: ArrayList<Eidolon>, selectIndex : MutableSt
 
             ){
 
+                /*
                 Image(
                     bitmap = UtilTools().getAssetsWebpByFileName(UtilTools.ImageFolderType.CHAR_EIDOLON, eidolon.eidolonImgName),
                     modifier = Modifier.size(Constants.EIDOLON_IMG_BASE_SIZE * eidolonScale),
                     contentDescription = "Character Eidolon${eidolon.eidolonIndex}'s Image"
                 )
+                 */
 
-                /*
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.CHAR_EIDOLON, eidolon.eidolonImgName),
-                        false
+                        UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.CHAR_EIDOLON, eidolon.eidolonImgName)
                     ),
                     modifier = Modifier.size(Constants.EIDOLON_IMG_BASE_SIZE * eidolonScale),
                     contentDescription = "Character Eidolon${eidolon.eidolonIndex}'s Image",
                     imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
-                 */
+
 
                 if((selectIndex.value == eidolon.eidolonIndex) && dialogLastTrigTypeLocal.value == lastTrigTypeTag) {
                     Image(
@@ -215,11 +215,24 @@ fun EidolonDialogComponent(eidolon: Eidolon){
                 modifier = Modifier.size(64.dp).align(Alignment.Center)
             )
 
+            AsyncImage(
+                model = UtilTools().newImageRequest(
+                    LocalPlatformContext.current,
+                    UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.CHAR_SOUL, eidolon.soulIconName),
+                    false
+                ),
+                modifier = Modifier.size(50.5.dp).align(Alignment.Center),
+                contentDescription = "Character Eidolon${eidolon.eidolonIndex}'s Soul Icon",
+                imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
+            )
+
+            /*
             Image(
                 bitmap = UtilTools().getAssetsWebpByFileName(UtilTools.ImageFolderType.CHAR_SOUL, eidolon.soulIconName),
                 contentDescription = "Character Eidolon${eidolon.eidolonIndex}'s Soul Icon",
                 modifier = Modifier.size(50.5.dp).align(Alignment.Center)
             )
+             */
         }
 
         Spacer(Modifier.width(6.dp))

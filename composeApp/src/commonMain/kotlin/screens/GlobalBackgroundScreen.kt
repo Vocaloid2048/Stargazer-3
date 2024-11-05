@@ -18,6 +18,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
 import com.russhwolf.settings.Settings
 import dev.chrisbanes.haze.HazeState
 import dev.chrisbanes.haze.haze
@@ -57,6 +59,10 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
         UtilTools.ImageFolderType.BGS,
         Settings().getString("backgroundImage", "221000")
     );
+    val backgroundImageByteArray = UtilTools().getAssetsWebpByteArrayByFileName(
+        UtilTools.ImageFolderType.BGS,
+        Settings().getString("backgroundImage", "221000")
+    );
     //var backgroundBitmap = UtilTools().getAssetsWebpByContext(context = LocalContext.current, "images/${UtilTools.ImageFolderType.BGS.folderPath}1006.webp")
     when(screen){
         Screen.HomePage -> {isBlur = false;}
@@ -68,6 +74,23 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
     Box(
         Modifier.haze(backgroundScreenHazeState)
     ){
+        AsyncImage(
+            model = UtilTools().newImageRequest(
+                LocalPlatformContext.current,
+                when(screen){
+                    Screen.BackgroundSettingScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "bg_light")
+                    Screen.MemoryOfChaosMissionPageScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "memory_of_chaos_bg")
+                    Screen.PureFictionMissionPageScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "pure_fiction_bg")
+                    else -> backgroundImageByteArray
+                }
+            ),
+            contentDescription = "",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize().blur(if (isBlur) 20.dp else 0.dp),
+            imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
+
+        )
+        /*
         Image(
             bitmap = when(screen){
                 Screen.BackgroundSettingScreen -> UtilTools().getAssetsWebpByFileName(UtilTools.ImageFolderType.BGS, "bg_light")
@@ -79,6 +102,7 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize().blur(if (isBlur) 20.dp else 0.dp)
         )
+         */
         Box(
             modifier = Modifier.matchParentSize().background(
                 if (isGradient) gradientBottom else Brush.linearGradient(listOf(Color.Transparent,Color.Transparent))

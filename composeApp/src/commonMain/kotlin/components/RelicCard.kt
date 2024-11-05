@@ -39,6 +39,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
 import types.Constants
 import types.Constants.Companion.RELIC_CARD_HEIGHT
 import types.Constants.Companion.RELIC_CARD_WIDTH
@@ -93,6 +95,7 @@ fun RelicCard(
                         interactionSource = interactionSource
                     )
             ) {
+                /*
                 Image(
                     bitmap = Relic.getRelicImageFromJSON(
                         if(relic.officialId!! < 300) UtilTools.ImageFolderType.RELIC_PC_ICON else UtilTools.ImageFolderType.ORMANENT_PC_ICON,
@@ -109,6 +112,28 @@ fun RelicCard(
                         ),
                     contentScale = ContentScale.Crop
 
+                )
+                 */
+
+                AsyncImage(
+                    model = UtilTools().newImageRequest(
+                        LocalPlatformContext.current,
+                        UtilTools().getAssetsWebpByteArrayByFileName(
+                            if(relic.officialId!! < 300) UtilTools.ImageFolderType.RELIC_PC_ICON else UtilTools.ImageFolderType.ORMANENT_PC_ICON,
+                            UtilTools().getImageNameByRegistName(relic.registName!!)
+                        )
+                    ),
+                    contentDescription = "Relic Icon",
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .aspectRatio(1f)
+                        .background(
+                            Brush.verticalGradient(
+                                colors = getCardBgColorByRare(if(relic.rarity === null) 5 else relic.rarity!!)
+                            )
+                        ),
+                    contentScale = ContentScale.Crop,
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
             }
             Row(
@@ -161,6 +186,7 @@ fun RelicSmallCard(
                     interactionSource = remember { MutableInteractionSource() }
                 )
             ){
+                /*
                 Image(
                     bitmap = Relic.getRelicImageFromJSON(
                         if (pieceIndex < 5) UtilTools.ImageFolderType.RELIC_ICON else UtilTools.ImageFolderType.ORMANENT_ICON,
@@ -173,6 +199,25 @@ fun RelicSmallCard(
                         )
                     ).padding(8.dp).aspectRatio(1f),
                     contentScale = ContentScale.Crop
+                )
+                 */
+
+                AsyncImage(
+                    model = UtilTools().newImageRequest(
+                        LocalPlatformContext.current,
+                        UtilTools().getAssetsWebpByteArrayByFileName(
+                            if (pieceIndex < 5) UtilTools.ImageFolderType.RELIC_ICON else UtilTools.ImageFolderType.ORMANENT_ICON,
+                            UtilTools().getImageNameByRegistName("${relic.registName!!}${if(pieceIndex > 0) {"_${pieceIndex}"} else ""}")
+                        )
+                    ),
+                    contentDescription = "Relic Icon",
+                    modifier = Modifier.fillMaxWidth().aspectRatio(1f).background(
+                        Brush.verticalGradient(
+                            colors = getCardBgColorByRare(relic.rarity!!)
+                        )
+                    ).padding(8.dp).aspectRatio(1f),
+                    contentScale = ContentScale.Crop,
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
             }
             Spacer(modifier = Modifier.height(8.dp))

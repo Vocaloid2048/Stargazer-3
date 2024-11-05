@@ -39,6 +39,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
@@ -123,17 +124,22 @@ fun CharacterCard(
 
         Column(modifier = Modifier.fillMaxSize()) {
             Box {
-                /*
                 AsyncImage(
-                    model = imageRequest,
+                    model = UtilTools().newImageRequest(LocalPlatformContext.current,
+                        Character.getCharacterImageByteArrayFromFileName(
+                            UtilTools.ImageFolderType.CHAR_ICON,
+                            UtilTools().getImageNameByRegistName(character.registName!!)
+                        )
+                    ),
                     contentDescription = "Character Icon",
                     modifier = Modifier
                         .fillMaxWidth()
                         .aspectRatio(1f),
                     contentScale = ContentScale.Crop,
-                    imageLoader = imageLoader
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
-                 */
+
+                /*
                 Image(
                     bitmap = Character.getCharacterImageFromFileName(
                         UtilTools.ImageFolderType.CHAR_ICON,
@@ -144,6 +150,7 @@ fun CharacterCard(
                         .fillMaxWidth()
                         .aspectRatio(1f),
                 )
+                 */
 
                 if(character.characterStatus != null && character.characterStatus!!.characterLevel != -1 && !isDisplayLevel){
                     Text(

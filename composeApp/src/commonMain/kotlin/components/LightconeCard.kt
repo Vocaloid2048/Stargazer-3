@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.layout.requiredWidth
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -42,8 +43,11 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
+import types.Constants
 import types.Constants.Companion.LC_CARD_HEIGHT
 import types.Constants.Companion.LC_CARD_WIDTH
 import types.Constants.Companion.getCardBgColorByRare
@@ -99,6 +103,7 @@ fun LightconeCard(
                         interactionSource = interactionSource
                     )
             ) {
+                /*
                 Image(
                     bitmap = Lightcone.getLightconeImageFromJSON(
                         UtilTools.ImageFolderType.LC_ICON,
@@ -115,6 +120,28 @@ fun LightconeCard(
                         ),
                     contentScale = ContentScale.Crop
 
+                )
+                 */
+
+                AsyncImage(
+                    model = UtilTools().newImageRequest(
+                        LocalPlatformContext.current,
+                        UtilTools().getAssetsWebpByteArrayByFileName(
+                            UtilTools.ImageFolderType.LC_ICON,
+                            UtilTools().getImageNameByRegistName(lightcone.registName!!)
+                        )
+                    ),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .aspectRatio(1f)
+                        .background(
+                            Brush.verticalGradient(
+                                colors = getCardBgColorByRare(lightcone.rarity)
+                            )
+                        ),
+                    contentScale = ContentScale.Crop,
+                    contentDescription = "Lightcone Icon",
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
             }
 

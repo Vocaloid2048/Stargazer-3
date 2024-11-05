@@ -28,12 +28,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
 import types.Constants
 import types.Constants.Companion.MATERIAL_CARD_HEIGHT
 import types.Constants.Companion.MATERIAL_CARD_WIDTH
+import types.Constants.Companion.getCardBgColorByRare
 import types.Material
 import utils.FontSizeNormal12
 import utils.TextColorNormalDim
+import utils.UtilTools
 
 @Composable
 fun MaterialCard(
@@ -70,6 +74,22 @@ fun MaterialCard(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Box(modifier = Modifier.fillMaxWidth().weight(1f)){
+                /* Reason : Unsupported type: ImageBitmap
+                AsyncImage(
+                    model = UtilTools().newImageRequest(
+                        LocalPlatformContext.current,
+                        Material.getMaterialImageById(material.officialId)
+                    ),
+                    modifier = Modifier
+                        .padding(6.dp)
+                        .aspectRatio(1f)
+                        .align(Alignment.Center),
+                    contentScale = ContentScale.Crop,
+                    contentDescription = "Material Icon",
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
+                )
+                 */
+
                 Image(
                     bitmap = Material.getMaterialImageById(material.officialId),
                     contentDescription = "Material Icon",

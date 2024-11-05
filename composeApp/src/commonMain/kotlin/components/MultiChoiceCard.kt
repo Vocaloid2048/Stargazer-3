@@ -39,6 +39,8 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
 import com.voc.honkai_stargazer.component.CharacterCard
 import files.MatchRequirementChar
 import files.PressToView
@@ -233,6 +235,22 @@ fun getIconByInfo(infoId : String){
                 val characterSearch =
                     Character.charListJson.jsonArray.find { char -> char.jsonObject["charId"]!!.jsonPrimitive.content == infoId }
                         ?: return
+
+                AsyncImage(
+                    model = UtilTools().newImageRequest(
+                        LocalPlatformContext.current,
+                        UtilTools().getAssetsWebpByteArrayByFileName(
+                            UtilTools.ImageFolderType.CHAR_ICON,
+                            UtilTools().getImageNameByRegistName(characterSearch.jsonObject["name"]!!.jsonPrimitive.content))
+                    ),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .background(Color(0x66000000), shape = CircleShape).wrapContentHeight()
+                        .aspectRatio(1f).clip(CircleShape),
+                    imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
+                )
+
+                /*
                 Image(
                     contentDescription = null,
                     modifier = Modifier
@@ -243,6 +261,7 @@ fun getIconByInfo(infoId : String){
                         characterSearch.jsonObject["name"]!!.jsonPrimitive.content
                     )
                 )
+                 */
             } else {
                 Image(
                     contentDescription = null,

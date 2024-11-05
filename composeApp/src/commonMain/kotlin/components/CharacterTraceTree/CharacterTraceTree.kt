@@ -321,6 +321,7 @@ fun TraceTreeBtn(
                 },
             )
     ) {
+        /*
         Image(
             bitmap = if (selfId <= 5) {
                 UtilTools().getAssetsWebpByFileName(
@@ -336,8 +337,8 @@ fun TraceTreeBtn(
             contentDescription = "Skill Icon",
             modifier = Modifier.size(imgWidth).align(Alignment.Center)
         )
+         */
 
-        /*
         AsyncImage(
             model = UtilTools().newImageRequest(
                 LocalPlatformContext.current,
@@ -358,7 +359,7 @@ fun TraceTreeBtn(
             modifier = Modifier.size(imgWidth).align(Alignment.Center),
             imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
         )
-        */
+
     }
 }
 

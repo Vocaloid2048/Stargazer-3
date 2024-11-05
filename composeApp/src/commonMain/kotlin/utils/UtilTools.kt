@@ -334,7 +334,7 @@ class UtilTools {
 
             .lowercase()
 
-            .replace("sam",if (registName.startsWith("sam") || registName.lowercase() === "sam") "firefly" else "sam")
+            .replace("sam",if ((registName.startsWith("sam") || registName.lowercase() === "sam") && !registName.startsWith("sampo")) "firefly" else "sam")
 
             .replace("(","")
             .replace(")","")
