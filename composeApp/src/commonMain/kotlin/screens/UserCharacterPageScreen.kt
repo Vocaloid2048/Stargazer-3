@@ -676,7 +676,7 @@ fun LightconeInfo(character: Character){
                     val context = LocalPlatformContext.current
                     val imageRequest = remember { UtilTools().newImageRequest(
                         context = context,
-                        data = UtilTools().getAssetsWebpByteArrayByFileName(
+                        data = UtilTools().getAssetsURLByFileName(
                             UtilTools.ImageFolderType.LC_ARTWORK,
                             UtilTools().getImageNameByRegistName(lightcone.registName!!)
                         ))

@@ -239,7 +239,7 @@ fun getIconByInfo(infoId : String){
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(
+                        UtilTools().getAssetsURLByFileName(
                             UtilTools.ImageFolderType.CHAR_ICON,
                             UtilTools().getImageNameByRegistName(characterSearch.jsonObject["name"]!!.jsonPrimitive.content))
                     ),

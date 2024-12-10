@@ -59,7 +59,7 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
         UtilTools.ImageFolderType.BGS,
         Settings().getString("backgroundImage", "221000")
     );
-    val backgroundImageByteArray = UtilTools().getAssetsWebpByteArrayByFileName(
+    val backgroundImageByteArray = UtilTools().getAssetsURLByFileName(
         UtilTools.ImageFolderType.BGS,
         Settings().getString("backgroundImage", "221000")
     );
@@ -78,9 +78,9 @@ fun MakeBackground(modifier: Modifier = Modifier, screen: Screen) {
             model = UtilTools().newImageRequest(
                 LocalPlatformContext.current,
                 when(screen){
-                    Screen.BackgroundSettingScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "bg_light")
-                    Screen.MemoryOfChaosMissionPageScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "memory_of_chaos_bg")
-                    Screen.PureFictionMissionPageScreen -> UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.BGS, "pure_fiction_bg")
+                    Screen.BackgroundSettingScreen -> UtilTools().getAssetsURLByFileName(UtilTools.ImageFolderType.BGS, "bg_light")
+                    Screen.MemoryOfChaosMissionPageScreen -> UtilTools().getAssetsURLByFileName(UtilTools.ImageFolderType.BGS, "memory_of_chaos_bg")
+                    Screen.PureFictionMissionPageScreen -> UtilTools().getAssetsURLByFileName(UtilTools.ImageFolderType.BGS, "pure_fiction_bg")
                     else -> backgroundImageByteArray
                 }
             ),

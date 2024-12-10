@@ -44,6 +44,7 @@ import org.jetbrains.compose.resources.stringResource
 import types.Character
 import utils.annotation.DoItLater
 import utils.annotation.VersionUpdateCheck
+import utils.starbase.StarbaseAPI
 import kotlin.math.pow
 import kotlin.math.roundToInt
 
@@ -128,6 +129,10 @@ class UtilTools {
             job.await()
             job.getCompleted()
         }
+    }
+
+    fun getAssetsURLByFileName(folderType: ImageFolderType, fileName: String): String {
+        return StarbaseAPI().getGitHubStaticAssetURL() + "/images/${folderType.folderName}/${fileName}${folderType.suffix}"
     }
 
 
@@ -504,20 +509,15 @@ class UtilTools {
 
     fun newImageLoader(context : PlatformContext, logger: DebugLogger? = null): ImageLoader = ImageLoader.Builder(context)
         .networkCachePolicy(CachePolicy.ENABLED)
-        .memoryCachePolicy(CachePolicy.ENABLED)
-        .memoryCache {
-            MemoryCache.Builder()
-                .maxSizePercent(context, 0.1)
-                .strongReferencesEnabled(true)
-                .build()
-        }
+        .memoryCachePolicy(CachePolicy.DISABLED)
         .diskCachePolicy(CachePolicy.ENABLED)
         .diskCache {
             DiskCache.Builder()
-                .maxSizePercent(0.03)
+                .maxSizeBytes(1024L * 1024 * 1024)
                 .directory(FileSystem.SYSTEM_TEMPORARY_DIRECTORY.resolve("image_cache"))
                 .build()
         }
+        .crossfade(true)
         .logger(DebugLogger())
         //.addLastModifiedToFileCacheKey(true)
         .build()
@@ -525,6 +525,7 @@ class UtilTools {
     fun newImageRequest(context: PlatformContext, data: Any, crossFade : Boolean = true) = ImageRequest.Builder(context)
         .data(data)
         .networkCachePolicy(CachePolicy.ENABLED)
+        .memoryCachePolicy(CachePolicy.DISABLED)
         .crossfade(crossFade)
         .diskCachePolicy(CachePolicy.ENABLED)
         .build()

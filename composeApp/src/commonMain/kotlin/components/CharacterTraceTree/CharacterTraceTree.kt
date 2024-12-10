@@ -343,12 +343,12 @@ fun TraceTreeBtn(
             model = UtilTools().newImageRequest(
                 LocalPlatformContext.current,
                 if (selfId <= 5) {
-                    UtilTools().getAssetsWebpByteArrayByFileName(
+                    UtilTools().getAssetsURLByFileName(
                         UtilTools.ImageFolderType.CHAR_SKILL,
                         UtilTools().getImageNameByRegistName(traceTreeItem[0].iconPath, isCharNoGen = true)
                     )
                 } else {
-                    UtilTools().getAssetsWebpByteArrayByFileName(
+                    UtilTools().getAssetsURLByFileName(
                         UtilTools.ImageFolderType.CHAR_SKILL_TREE,
                         traceTreeItem[0].iconPath
                     )

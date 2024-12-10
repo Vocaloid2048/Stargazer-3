@@ -80,6 +80,9 @@ open class Character(
         fun getCharacterImageFromFileName(imageFolderType: UtilTools.ImageFolderType, characterName : String) : ImageBitmap {
             return UtilTools().getAssetsWebpByFileName(imageFolderType, UtilTools().getImageNameByRegistName(characterName, (imageFolderType === UtilTools.ImageFolderType.CHAR_FULL)))
         }
+        fun getCharacterURLFromFileName(imageFolderType: UtilTools.ImageFolderType, characterName : String) : String {
+            return UtilTools().getAssetsURLByFileName(imageFolderType, UtilTools().getImageNameByRegistName(characterName, (imageFolderType === UtilTools.ImageFolderType.CHAR_FULL)))
+        }
 
         fun getCharacterImageByteArrayFromFileName(imageFolderType: UtilTools.ImageFolderType, characterName : String) : ByteArray {
             return UtilTools().getAssetsWebpByteArrayByFileName(imageFolderType, UtilTools().getImageNameByRegistName(characterName, (imageFolderType === UtilTools.ImageFolderType.CHAR_FULL)))

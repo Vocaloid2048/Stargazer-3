@@ -126,7 +126,7 @@ fun CharacterCard(
             Box {
                 AsyncImage(
                     model = UtilTools().newImageRequest(LocalPlatformContext.current,
-                        Character.getCharacterImageByteArrayFromFileName(
+                        Character.getCharacterURLFromFileName(
                             UtilTools.ImageFolderType.CHAR_ICON,
                             UtilTools().getImageNameByRegistName(character.registName!!)
                         )
@@ -245,7 +245,7 @@ fun CharacterLcInfoDisplay(character: Character){
                 model = UtilTools().newImageRequest(
                     LocalPlatformContext.current,
                     if(character.characterStatus != null && character.characterStatus!!.equippingLightcone != null){
-                        UtilTools().getAssetsWebpByteArrayByFileName(
+                        UtilTools().getAssetsURLByFileName(
                             UtilTools.ImageFolderType.LC_ICON,
                             UtilTools().getImageNameByRegistName(character.characterStatus!!.equippingLightcone!!.registName!!)
                         )

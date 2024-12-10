@@ -126,7 +126,7 @@ fun LightconeCard(
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(
+                        UtilTools().getAssetsURLByFileName(
                             UtilTools.ImageFolderType.LC_ICON,
                             UtilTools().getImageNameByRegistName(lightcone.registName!!)
                         )

@@ -164,7 +164,7 @@ fun CharacterEidolonBox(eidolonList: ArrayList<Eidolon>, selectIndex : MutableSt
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.CHAR_EIDOLON, eidolon.eidolonImgName)
+                        UtilTools().getAssetsURLByFileName(UtilTools.ImageFolderType.CHAR_EIDOLON, eidolon.eidolonImgName)
                     ),
                     modifier = Modifier.size(Constants.EIDOLON_IMG_BASE_SIZE * eidolonScale),
                     contentDescription = "Character Eidolon${eidolon.eidolonIndex}'s Image",
@@ -218,7 +218,7 @@ fun EidolonDialogComponent(eidolon: Eidolon){
             AsyncImage(
                 model = UtilTools().newImageRequest(
                     LocalPlatformContext.current,
-                    UtilTools().getAssetsWebpByteArrayByFileName(UtilTools.ImageFolderType.CHAR_SOUL, eidolon.soulIconName),
+                    UtilTools().getAssetsURLByFileName(UtilTools.ImageFolderType.CHAR_SOUL, eidolon.soulIconName),
                     false
                 ),
                 modifier = Modifier.size(50.5.dp).align(Alignment.Center),

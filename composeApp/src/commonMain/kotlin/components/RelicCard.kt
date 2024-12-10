@@ -118,7 +118,7 @@ fun RelicCard(
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(
+                        UtilTools().getAssetsURLByFileName(
                             if(relic.officialId!! < 300) UtilTools.ImageFolderType.RELIC_PC_ICON else UtilTools.ImageFolderType.ORMANENT_PC_ICON,
                             UtilTools().getImageNameByRegistName(relic.registName!!)
                         )
@@ -205,7 +205,7 @@ fun RelicSmallCard(
                 AsyncImage(
                     model = UtilTools().newImageRequest(
                         LocalPlatformContext.current,
-                        UtilTools().getAssetsWebpByteArrayByFileName(
+                        UtilTools().getAssetsURLByFileName(
                             if (pieceIndex < 5) UtilTools.ImageFolderType.RELIC_ICON else UtilTools.ImageFolderType.ORMANENT_ICON,
                             UtilTools().getImageNameByRegistName("${relic.registName!!}${if(pieceIndex > 0) {"_${pieceIndex}"} else ""}")
                         )
