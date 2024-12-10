@@ -1,0 +1,523 @@
+{
+ "name": "Pergamino ninja: Azote deslumbrante del mal",
+ "rarity": 5,
+ "descHash": "En algún lugar del reino ninja, un velo gris lúgubre cubre la ciudad.<br /><br />\"¡Iaaaa!\".<br />Una joven se lanza entre los monstruos. Su silueta vibrante corta la oscuridad como un trazo de pintura contra una tierra sin luna.<br /><br />En medio del humo, los ninjas malvados se estremecen de agonía e incredulidad.<br />\"¿Quién... eres tú?...\".<br />\"¡Soy la ninja Rappa! Un dechado de determinación que erradica el mal y defiende la justicia\".<br />Los ninjas malvados intercambian miradas vacilantes con los ojos muy abiertos mientras intentan huir.<br />\"¿Están listos para decir sus poemas de muerte, villanos?\".<br />Su shuriken baila por el aire como una ráfaga de luz y acero que abruma a sus adversarios con su velocidad cegadora.<br />\"Técnica secreta: ¡Matriz de aniquilación deslumbrante!\".<br /><br />La explosión a sus espaldas destroza la noche y revela las heridas de la ciudad.<br />Inspirando profundamente, se lanza a la distancia iluminada por luces de neón vibrantes que gritan como un coro de metal.<br />\"Qué espíritus malignos tan repugnantes. La cacería magnífica de la Ninja Deslumbrante continuará...\".",
+ "iconPath": "b80daa00ead7b9587af1fc547fe53c18afc3477f56f32bcf537abdc212e999b7",
+ "artPath": "1c9e4f0845b48a7f7da750862fcb2a8c5962c7938d81d62cff2630113229c8b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRiICAABXRUJQVlA4IBYCAABQCgCdASoUABwAPm0qkUWkIqGYBABABsS2AE6ZQjqD3ThDN4zB2EBtr/El6gG8AegB0kDf2rpduA78HN39BewH+qHWAG17/XxKVOves0Z4JKBVedMX4HBQd+EAAP72/nwfPB3/B6rlNS8+wsX8MHdKm+ddQvzP2lqqv8/8aXcgp4q5/Pj5u92hrQtM8Z5+mOcOaPyBVyGEtZg/IYSakrjQ9/r88s+CvlvlqRnP5HphX9CJG8NO2H+bdBa6f7/kXhTMFNbmkzX/cglsAVt7UFplExYbO3X0+Af/z8exdE4XDKY0sQg9OOb+JewB+YdM6d9x4xj5/NSo+M/P/7R0ml25Ds1o/8DFjH23/Q/5hel4uggY62umBSvs3L5pJ2Q2WZ2X6bV6Sf2fX+xld33JNPejQMXR+mwydM/zTB1mD9De4ZVdyd2ry3MaUnfvQQN39sAbOkSdQlGYh/4+OZyXBqXDkHb/zD5zWaJQzfsiSnyvCQDNtx7w/e0aCvP5yZAxE9fP6WyqQxRkPziO9uoLz25jJmV1pep0ZSkC7M5wQ6X/hMgKpgSyG9O8OI7KjjH9JpMW95A4Z9uol2d6o+luY3xfhv1Ondlup/0XFrIszuKu56/SX3/5FIbIHrzGCp9/HkmjYzixVcfoju3I+5OW7I+LHZPAQ8JFPSE3aOf/WUcPy/Ihd236R5s2v+bL52rliZY/pQAAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "2a1dcacc8aa4b484326d1c3b45b5c3c27ae74fe6bf63e96a314587394a85b88c",
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "color": "#FFFFFF",
+  "name": "Erudición",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "549209": {
+   "id": 549209,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "33a6bf2f66916e8e8ea5bc74e0978504ed51c02ab53087aa9a6fd874dee2c5cc",
+   "name": "Componente del acumulador de sueños",
+   "desc": "Dispositivo de almacenamiento para las creaciones del paisaje onírico. Material simple que se usa en la potenciación.",
+   "lore": "Dispositivo de almacenamiento para fragmentos de sueño. Provee una fuente de energía fundamental para las creaciones del paisaje onírico.<br /><br />\"Obtén un miembro de la Compañía Dulces Sueños con la instalación de este dispositivo\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/549209",
+   "comeFrom": [
+    "De Compañía Teatral de Terrores",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "Esbozo dinámico",
+   "desc": "Un dibujo del contorno de Relojito que claramente representa la silueta de un sueño en el papel. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "El dibujo de Relojito se ve mejor una vez que se eliminaron los trazos innecesarios. La sensatez del animador es evidente en cada cuadro del baile de Relojito.<br /><br />\"¡Tic-tac, tic-tac! ¡Eso es, sigue así!\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "Cáliz del Gran Teatro de Colonipenal",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de materiales"
+   ]
+  },
+  "633150": {
+   "id": 633150,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5a20aed87ac7511880b93005850863b0b0180a4f07d7d956c0da8458a7ed8d7",
+   "name": "Válvula del flujo de sueños",
+   "desc": "Componente de control para las creaciones del paisaje onírico. Material corriente que se usa en la potenciación.",
+   "lore": "Dispositivo de regulación que controla los deseos y emociones para las creaciones del paisaje onírico.<br /><br />\"En caso de fallo del dispositivo, obtendrás un miembro de la Compañía Teatral de Terrores\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/633150",
+   "comeFrom": [
+    "De Compañía Teatral de Terrores (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "Borrador con colores bellos",
+   "desc": "Un dibujo de Relojito que da vida al sueño con colores brillantes. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "El dibujo de Relojito está lleno de colores, y tomó la forma de una caricatura famosa. La historia de Relojito inspiró a millones de buscasueños, ya que su fantástica aventura iluminó a cada uno de ellos.<br /><br />\"¡Me llamo Relojito y soy una superestrella de Villa Ensueño en Colonipenal!\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "Cáliz del Gran Teatro de Colonipenal",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de materiales"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter refinado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>6000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Un bote de éter extraído y destilado usando un proceso especial.<br /><br />\"El Jardín desea recrear una gloria pasada, pero una que elijan ellos, ¿lo entiendes?\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Salón olvidado"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter condensado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>2000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Recipiente con éter procesado mediante una técnica especial.<br /><br />\"Transpórtese con cuidado. No debe caerse al suelo ni recibir presión. Si se produce un daño o una fuga, consulte el capítulo II del «Manual de respuesta a los accidentes de fuga»\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter disperso",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>500</nobr> pts. de EXP de cono de luz.",
+   "lore": "Sustancia imaginaria que no debería existir en la realidad. Es el material básico para crear conos de luz.<br />Al inyectar esta sustancia en el cono de luz, las imágenes que contienen se vuelven más nítidas.<br /><br />\"Oh, así que esto es la materia consciente del Jardín de los Recuerdos. No me extraña que los Guardamemorias se lleven recuerdos en sus viajes galácticos\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Recompensa de encargo"
+   ]
+  },
+  "717091": {
+   "id": 717091,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c037982ba533a1195e74ac14bc2c91d28d39959dd698a4d802b500d6172355fc",
+   "name": "Motor creasueños",
+   "desc": "Núcleo de energía para las creaciones del paisaje onírico. Material avanzado que se usa en la potenciación.",
+   "lore": "Dispositivo de fabricación que crea fantasías y otorga almas a las creaciones del paisaje onírico.<br /><br />\"Si este dispositivo falla... intenta despertar antes de caer en una pesadilla\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/717091",
+   "comeFrom": [
+    "De Compañía Teatral de Terrores (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "Bosquejo",
+   "desc": "Un boceto de Relojito que esboza la forma de un sueño con unos trazos. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Erudición</span>.",
+   "lore": "Varios bocetos originales de Relojito son ampliamente distribuidos en Colonipenal. ¿Exactamente quién capturó la efímera chispa de inspiración e hizo sonar el primer \"tic-tac\" en el lienzo?<br /><br />\"¡Tic-tac! ¿Puedes... verme?\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "Cáliz del Gran Teatro de Colonipenal",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de materiales"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 549209,
+     "count": 8
+    }
+   ],
+   "attackBase": 26.4,
+   "attackAdd": 3.96,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 24,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 874343,
+     "count": 4
+    },
+    {
+     "id": 549209,
+     "count": 12
+    }
+   ],
+   "attackBase": 58.08,
+   "attackAdd": 3.96,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 52.8,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 589816,
+     "count": 4
+    },
+    {
+     "id": 633150,
+     "count": 8
+    }
+   ],
+   "attackBase": 100.32,
+   "attackAdd": 3.96,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 91.2,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 589816,
+     "count": 8
+    },
+    {
+     "id": 633150,
+     "count": 12
+    }
+   ],
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 129.6,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 673757,
+     "count": 5
+    },
+    {
+     "id": 717091,
+     "count": 6
+    }
+   ],
+   "attackBase": 184.8,
+   "attackAdd": 3.96,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 168,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 673757,
+     "count": 10
+    },
+    {
+     "id": 717091,
+     "count": 8
+    }
+   ],
+   "attackBase": 227.04,
+   "attackAdd": 3.96,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 206.4,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 244.8,
+   "defenseAdd": 3.6
+  }
+ ],
+ "skill": {
+  "id": 23033,
+  "name": "Exorcismo",
+  "descHash": "El efecto de Ruptura del portador aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Al entrar en combate, recupera inmediatamente <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]</nobr></span> pts. de energía. Tras lanzar la habilidad definitiva, el portador obtiene Elemento <span style=\"color:#c75de2;\">Rayo</span>. Tras lanzar 2 veces el ATQ básico, la acción del portador se adelanta un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> y Elemento <span style=\"color:#c75de2;\">Rayo</span> se disipa. Elemento <span style=\"color:#c75de2;\">Rayo</span> se restablece después de que el portador lance la habilidad definitiva.",
+  "levelData": [
+   {
+    "params": [
+     0.6,
+     30,
+     0.5
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.7,
+     32.5,
+     0.55
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.8,
+     35,
+     0.6
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.9,
+     37.5,
+     0.65
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1,
+     40,
+     0.7
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23033"
+}

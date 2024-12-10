@@ -1,0 +1,523 @@
+{
+ "name": "인사록•음률 사냥",
+ "rarity": 4,
+ "descHash": "은하인법은 천변만화, 음률•사냥은 위풍당당. 들어라——<br /><br />기타 스트로크 연주, 심장을 울리는 베이스, 전자음의 윤무가 순식간에 공연장을 뜨겁게 달군다!<br />땀은 거짓말을 하지 않고 이어질 파란을 기록하며 건반의 음표가 되어 울려퍼지리.<br />요란하게 노래해라. 적극적으로 나서라. 상처투성이가 된다 해도.<br />「요란!」「요란!」「요란!」<br />헤헤, 귀공, 이 거친 파도 같은 세상에서 노래 정도는 목청껏 불러도 되지 않을까?",
+ "iconPath": "e7f6d63a7a3694b19b2154d40d9451770de20ab5ea69a31cc31247159bc0ea74",
+ "artPath": "e43afbee32be5965b1ac1b911ac5d5ee232a5063cae2d80e23369e11c1c99b45",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRhYCAABXRUJQVlA4IAoCAAAQCQCdASoUABwAPm0skkWkIqGYBABABsS2AE6ZQjgTQZx2MttgNwBvIHoAeWN7F37lekzR8T8DM3zz4LLKlYw2GKiatBSYNJ21w3aZCfryrgAA/u0tcSHUMg8sUccVnK/eOOwInn2JEZnx1zk7BtsRILMt0HUI4Q+fO7VOseE7E079gOOurUmQssgvaTzX5fgXzoFrwCZUSFKzKu6/5rZ9Z0/6T6fqIo147hTl8yUdLZf+qlMCpc+mXv0HCu1ZSc+J4WXFO8NdbHuT/Ls+kR7ZbQ34z1wduBefhvWRnqH9ZTjO9HNtaqin8WY86ZHLJCfnQqsX9mAkBFE8qMad/mz9iP6Md/N1xnBfbu2g8Xjg6+MGTy5UrTv6zO3/4IkJrdDnO6raXF3fq+82dqDn7gvnAg8dCPf/6HJnRiate70G1kGSmBSyvQZGGHRT7iVS3erIQv51rLfF2tC1t45IOdgrtokE+v/KzdUzDX+Sy4uT5pk4JnWECBsXqibG1FtKs7N57pe85otp/YmpPmBup/kfHqboGBpfXR/GVKz+pbLHaBhqZG3mqgnUIOTAQ+DZk5QLeydisN5pllX1fsUNUlXlQg7IuFl8/DdQ4P6d3HM+jhJvfZAO9q0WD6FyFwQUGm0unIhv+fOaWdneHD8L/04tfRuUfBMI1u4reFXaywsPCog0FKmOBZQAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "4eb7b208afd3f7c8ff4e60d14819cec3520e725561759f65f065951f3250a59a",
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "color": "#FFFFFF",
+  "name": "파멸",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "신용 포인트",
+   "desc": "스타피스 컴퍼니가 고객과 결산을 위해 사용하던 화폐. 오늘날 우주여행에 널리 쓰이는 경화가 되었다",
+   "lore": "「사람들이 그저 단말 장치에 표시된 숫자를 위해 분주히 뛰고, 싸우고, 거래한다. 하지만 정작 정말로 소중한 것은 컴퍼니의 숫자로 살 수 없다」",
+   "purpose": "통용 화폐",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "모조 꽃받침 [큰 광산구역]",
+    "모조 꽃받침 [공조사]",
+    "모조 꽃받침 [「레버리」 호텔-꿈세계]",
+    "임무 보상",
+    "의뢰 보상",
+    "잔화 교환"
+   ]
+  },
+  "549210": {
+   "id": 549210,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4a6fc3718f67a82eef238f5d111c12b6bea9b9f321b3ad14f4f938f63952053c",
+   "name": "생각의 가루",
+   "desc": "짧은 생각의 기억 물질 조각. 강화에 필요한 기본 재료",
+   "lore": "기억의 영역에서는 수많은 생각이 먼지처럼 흩날린다. 조각난 단서가 쌓이면 밈의 재료가 된다.<br /><br />「찰나의 생각은 순식간에 사라지거나 쌓여서 장애물이 된다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/549210",
+   "comeFrom": [
+    "기억의 영역 밈 드랍",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "의뢰 보상",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환",
+    "모조 꽃받침(금)"
+   ]
+  },
+  "633151": {
+   "id": 633151,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d75355ebd700f841542175f51954110701eecbc0972f55f514d8bd4a9e11b88c",
+   "name": "인상의 파편",
+   "desc": "깊게 남은 인상의 기억 물질 조각. 강화에 필요한 일반 재료",
+   "lore": "기억의 영역 속에서 기억은 수면에 비친 그림자처럼 금세 사라진다. 마음 깊이 새겨진 단편만이 결정으로 응고되어 밈의 초석이 된다.<br /><br />「기억은 과거의 감각을 복각하는 것이 아닌 지난날의 인상을 재구성하는 것이다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/633151",
+   "comeFrom": [
+    "균형 레벨 Lv.2까지 돌파 후 기억의 영역 밈 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "보리인의 송곳니",
+   "desc": "보리인이 출정할 때 남긴 부서진 이빨. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">파멸</span> 캐릭터의 운명의 길 행적이 소폭 상승한다",
+   "lore": "보리인은 날카로운 이빨을 예리한 칼날로 삼는다.<br />보리인은 강한 힘을 가진 전사를 숭배한다. 약육강식의 「사냥단 부락」에서 썩은 이빨은 버림받을 뿐이다.<br /><br />「소부님, 저희에게 날카로운 송곳니와 발톱을 내려주소서」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "모조 꽃받침 [인연경]",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "정제한 에테르",
+   "desc": "광추 강화 재료. 광추 경험치를 <nobr>6,000</nobr>pt 획득한다",
+   "lore": "특수한 기술로 정제된 에테르 한 통.<br /><br />「기억의 정원은 과거의 영광을 재현하기를 간절히 바란다. 하지만 그것은 그들이 선택한 『과거의 영광』이다, 알겠는가?」",
+   "purpose": "광추 경험치 재료",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "모조 꽃받침 [변방 통로]",
+    "모조 꽃받침 [태복사]",
+    "모조 꽃받침 [어린아이의 꿈]",
+    "「망각의 정원」"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "응축한 에테르",
+   "desc": "광추 강화 재료. 광추 경험치를 <nobr>2,000</nobr>pt 획득한다",
+   "lore": "특수 기술로 정제한 에테르 한 병.<br /><br />「취급 주의, 파손 주의. 파손 또는 유출 시 ≪누출 재난 대응 매뉴얼≫ 제2장의 지시에 따라 대처하세요」",
+   "purpose": "광추 경험치 재료",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "모조 꽃받침 [변방 통로]",
+    "모조 꽃받침 [태복사]",
+    "모조 꽃받침 [어린아이의 꿈]",
+    "잔화 교환"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "희박한 에테르",
+   "desc": "광추 강화 재료. 광추 경험치를 <nobr>500</nobr>pt 획득한다",
+   "lore": "현실에 존재하지 않는 가상의 매개체이자 광추 제작의 기본 재료.<br />이를 광추에 주입하면 그 속에 밀봉된 사상이 더욱 뚜렷해진다.<br /><br />「그렇구나, 기억의 정원의 『기억 물질』이 바로 이거였어. 그래서 기억하는 자가 기억을 가지고 우주를 여행할 수 있었던 거야」",
+   "purpose": "광추 경험치 재료",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "모조 꽃받침 [변방 통로]",
+    "모조 꽃받침 [태복사]",
+    "모조 꽃받침 [어린아이의 꿈]",
+    "의뢰 보상"
+   ]
+  },
+  "717092": {
+   "id": 717092,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4366e9814d1d923187cc30cf4becfaddbece031abe85a00d8470ec51068c07e8",
+   "name": "욕망의 거울 조각",
+   "desc": "오랜 욕망의 기억 물질 조각. 강화에 필요한 고급 재료",
+   "lore": "기억의 영역 속에서 욕망의 기억 물질은 계속해서 증식한다. 그것들은 생각과 인상을 집어삼키고, 욕망의 거울을 키우며, 밈의 섬뜩한 그림자를 비춘다.<br /><br />「기억은 과거를 가리키고, 욕망은 미래를 나타낸다. 기억 속에서 욕망을 추구하면, 꿈이 뒤섞이고 심마가 생겨난다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/717092",
+   "comeFrom": [
+    "균형 레벨 Lv.4까지 돌파 후 기억의 영역 밈 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "달의 광기 이빨",
+   "desc": "보리인이 출정할 때 남긴 무시무시한 긴 이빨. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">파멸</span> 캐릭터의 운명의 길 행적이 대폭 상승한다",
+   "lore": "보리인은 타고난 「달의 광기」로 신체를 강화한다.<br />전투광들은 놀라운 치유 능력을 가지고 있는데, 증식하는 뼈와 근육으로 핏빛 안갯속을 종횡무진한다.<br /><br />「소부님, 저희에게 신과 같은 힘을 허락하소서」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "모조 꽃받침 [인연경]",
+    "「만능 합성기」- 재료 합성",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "늑대 독 송곳니",
+   "desc": "보리인이 출정할 때 남긴 흡혈 송곳니. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">파멸</span> 캐릭터의 운명의 길 행적이 중폭 상승한다",
+   "lore": "보리인은 날카로운 이빨을 예리한 칼날로 삼는다.<br />보리인의 피에는 광적인 충동이 흐르고 있다. 늑대 독의 작용 아래 그들은 피를 마시며 적진을 뚫고 나아간다.<br /><br />「소부님, 저희에게 강철같은 근육과 뼈를 내려주소서」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "모조 꽃받침 [인연경]",
+    "「만능 합성기」- 재료 합성",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549210,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635680,
+     "count": 3
+    },
+    {
+     "id": 549210,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920207,
+     "count": 3
+    },
+    {
+     "id": 633151,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920207,
+     "count": 6
+    },
+    {
+     "id": 633151,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836266,
+     "count": 4
+    },
+    {
+     "id": 717092,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836266,
+     "count": 8
+    },
+    {
+     "id": 717092,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 22003,
+  "name": "공연 시작!",
+  "descHash": "장착한 캐릭터의 HP 최대치가 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> 증가하고, 자신의 HP를 잃거나 회복하면 치명타 피해가 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> 증가한다, 지속 시간: <nobr>#3[i]</nobr>턴, 해당 효과는 턴마다 1회만 발동한다",
+  "levelData": [
+   {
+    "params": [
+     0.12,
+     0.18,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.15,
+     0.225,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.18,
+     0.27,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.21,
+     0.315,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.24,
+     0.36,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "22003"
+}

@@ -1,0 +1,523 @@
+{
+ "name": "Eu Me Aventuro para Caçar",
+ "rarity": 5,
+ "descHash": "\"Escravos miseráveis e ridículos...\"<br />A legião dos Cidadãos da Abundância chegou destruindo tudo como uma avalanche, com a Lupitoxina correndo em direção aos Cavaleiros Verdejantes como uma onda, tentando despertar o medo oculto no coração dos soldados. Ilusões de medo vieram e abalaram a força de vontade dos guerreiros, os levando a soltar suas lâminas e instaurando a hesitação.<br />Mas a linha de frente permanece firme como uma parede de bronze, impermeável às palavras de desdém dos Borisins. Entre os soldados, uma figura solitária se aproxima.<br />Ela movimenta o corpo lentamente, e as bandeiras atrás dela murmuram sob uma intenção assassina oculta.<br />\"A general... é a general...\"<br />\"General Feixiao...\"<br />\"A Garra de Merlin!\"<br />Esses pequenos aplausos e gritos se fundem em um grito de guerra estrondoso.<br /><br />\"Sempre em vigilância! Triunfando eternamente!\"<br />Ela permanece ali, só. Uma figura solitária, mas imbuída com o poder de um exército inteiro.",
+ "iconPath": "d4e16b89b429a4a5a72078496568acde4d0dca736a1d8541c5af9fc2ac8f630d",
+ "artPath": "64eca284ec84773da84a4bb3c2d46fec614c70c3331b8bdf393943a4a66fb41c",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRrwBAABXRUJQVlA4ILABAADwCACdASoUABwAPm0uk0akIqGhMBgIAIANiWQAnTKEdyaCvAbYD9cunK0wDecZ8EK1bgazsYhzhzmKME95n4OhnYh6PzmfoklLGiiA2v4QAAD+7bPntOG+O1PnQU4do+E+GEgIHwOstr3Ur9AXMi6gLqkfXD7We6nlU89TDpMDLlnR/rguJK36GlPc3/NimfBN44pWkXjweWZKRexOBXp+34B5WLBmtrwRl086JYIzmaGFfgxkJbSNMJ0zY8piAfojoLxId7rSpG7ps+ripMJx2N96G3xk0YPHMcoS7qbxXTN+Kaz1q1S/L/1qT6CLx3KRMKx4EkwUFNDCdVYhrEBNkvFhRDx/QY/yDhNuAA55LQyHH7rCfOXvnEqrMKlwvKeXdZzhNRLL6ZvfzEN7vDg5ikyIDL2mzk78NG3OjbgD5Tm733h5T6kV2RIR07GOqWrZFiLV+wKx4ZivydQbHNxRU1NsAaGNriWCsLONpYBGZxxnoDjRvPVixTS7SMtW4blOq1yf/bTfzcfo3NNfJH7q75B+2bwrb1nnG3FiJ122jyi7kClu5nJad2HYw/7R4AA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "7d413ac04ff9cb15ab28448572f5156485c3ff76a8cc4b8a0e587edbe4041c1e",
+ "baseType": {
+  "id": 0,
+  "iconPath": "c124f823c629312e7f010bce17fa8d215b4bcb1087ca1e7a3f746a24c4198b76",
+  "color": "#FFFFFF",
+  "name": "A Caça",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Esta moeda, usada pela Corporação da Paz Interastral para acertar contas com seus clientes, agora é amplamente aceita como moeda para viagens espaciais.",
+   "lore": "\"As pessoas lutam e negociam tanto apenas por números em um terminal, mas o que é precioso de verdade não pode ser comprado.\"",
+   "purpose": "Moeda Comum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cálice: Grande Mina",
+    "Cálice: Comissão de Artesanato",
+    "Cálice: Devaneio (Mundonírico)",
+    "Recompensas de Missão",
+    "Recompensas de Atribuição",
+    "Troca de Brasas"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c882a4a257973586d5e97dc76a45a6458e0840d76dcf307df5f766cbbc3f5d79",
+   "name": "Módulo de Artífice",
+   "desc": "Componentes usados nas criações de Engenho do Xianzhou. Material bruto usado para o aprimoramento.",
+   "lore": "A base da tecnologia de Engenho do Xianzhou, sendo o menor componente de todas as peças de máquinas. Tentar parti-lo seria o equivalente a destruir a estrutura celular de um ser vivo.<br /><br />\"A Guilda de Intelectuais oferece uma recompensa de dois milhões de créditos por planos técnicos capazes de desmontar com perfeição os MechAutômatos do Xianzhou.\"<br />\"Se você conhece o Screwllum, então esses dois milhões basicamente já têm dono...\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "Magi-Engenhos",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Recompensas de Atribuição",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material",
+    "Cálice (Dourado)"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f93530b3977436a857d92a97e3adf2ba3a0fb9d6a278d14aa2f66fe4226ccc66",
+   "name": "Engrenagem de Artífices",
+   "desc": "Peças das máquinas do Xianzhou. Material normal usado para aprimoramentos.",
+   "lore": "Componentes conectores usados na tecnologia de Engenho do Xianzhou. Os dentes finos e intrincados das engrenagens são do tamanho de sementes de mostarda, mas se interconectam de modo a formar um corpo complexo, fazendo com que a máquina pareça um ser vivo.<br /><br />\"Sua forma é harmônica, um paralelo com a natureza. Seus movimentos são cíclicos, refletindo o cosmo.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "Magi-Engenhos no Nível de Equilíbrio 2 ou superior",
+    "Sintetizador Omni — Síntese de Material",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "635681": {
+   "id": 635681,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34ff25f0d7aec3e211042af53b5ecf82f2320beb5164052b2bee26cedb2e6198",
+   "name": "Bala Meteórica",
+   "desc": "Bolotas de ferro forjadas para caçar monstros. Cada uma possue arranhões que parecem registrar o número de presas que pereceram sob elas. Use para aumentar levemente o nível dos Rastros para personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Caça</span>.",
+   "lore": "Os Arqueólogos Armados descobriram essas bolotas de ferro entre vários tipos de fósseis e ossos de monstros. A datação radioativa confirmou que elas originavam de uma era que a humanidade ainda não existia, e que as criaturas que receberam tiros delas foram os últimos remanescentes de uma certa espécie de monstros.<br /><br />\"A morte por velhice não é diferente da morte por um tiro. O caminho do caçador não leva a nenhum fim sagrado ou pecaminoso.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/635681",
+   "comeFrom": [
+    "Cálice: Local das Audições FelizAlma da Brasareia",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter Refinado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>6000</nobr> de EXP de Cone de Luz.",
+   "lore": "Uma lata de éter que foi extraída e destilada usando procedimentos especiais.<br /><br />\"O Jardim espera poder recriar uma glória do passado, mas é uma 'glória do passado' selecionada por eles. Você entende?\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Salão Esquecido"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter Condensado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>2.000</nobr> de EXP de Cone de Luz.",
+   "lore": "Lata de éter refinado com técnicas especiais.<br /><br />\"Manuseie com cuidado, não deixe cair nem faça pressão sobre ela. Caso ocorra algum vazamento, consulte o capítulo II do \"Manual de Respostas a Desastres de Vazamentos\" para respostas de emergência.\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Troca de Brasas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter Espalhado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>500</nobr> de EXP de Cone de Luz.",
+   "lore": "Substância imaginária que não deveria existir. O material básico usado para criar Cones de Luz.<br />As imagens dos Cones de Luz se tornam ainda mais claras quando imbuídas dessa substância.<br /><br />\"Entendi, então essa é a suposta 'memória' do Jardim da Recordação. É por isso que os Memoriadores conseguem fazer viagens galácticas com lembranças\".",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Recompensas de Atribuição"
+   ]
+  },
+  "717385": {
+   "id": 717385,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fbf56f8a4e065552df601ba11f3bd53391c2df45b6f1aff360aa18943e5fb54e",
+   "name": "Coração de Giro de Artífices",
+   "desc": "Componentes usados nas criações de Engenho do Xianzhou. Material bruto usado para o aprimoramento.",
+   "lore": "O núcleo da tecnologia de Engenho do Xianzhou. A esfera armilar revolve e vibra como a essência de um coração, tornando a máquina pensante como um ser vivo.<br /><br />\"Não se assuste. Tirar o coração faria com que ele... ou seria ela...? Faria com que este ser perdesse a consciência e retornasse à sua essência mecânica.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/717385",
+   "comeFrom": [
+    "Magi-Engenhos no Nível de Equilíbrio 4 ou superior",
+    "Sintetizador Omni — Síntese de Material",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "836267": {
+   "id": 836267,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e33a9c34ab89b9315339791c792f2a07174330390c95c5c8a44b6b46d3c46158",
+   "name": "Tiro Contra-Temporal",
+   "desc": "Uma bala espiral eternamente contra a flecha do tempo, como um cão perseguindo eternamente o imortal que desafia o tempo. Use para aumentar significativamente o nível dos Rastros para personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Caça</span>.",
+   "lore": "Outrora as brasas de um Senhor Devastador, o botão para apagar a civilização e o lamento final de um gigante ancestral... Quantas mortes esses materiais devem ter coletado para forjar tal munição? E que tipo de arma de fogo pode impulsionar isso no passado? É a resposta para tudo. Não é uma pergunta em si.<br /><br />\"Corra. Fuja para o interstício de qualquer momento. Ela sempre te encontrará, prendendo você ao tecido do destino.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/836267",
+   "comeFrom": [
+    "Cálice: Local das Audições FelizAlma da Brasareia",
+    "Sintetizador Omni — Síntese de Material",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "920208": {
+   "id": 920208,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "635d4a30e82aaec978a5957e89c85bd611d2d58fa2bad72d2c175c430d9b3521",
+   "name": "Expiração do Destino",
+   "desc": "Embutida na testa do falecido, atravessando a fenda da matéria, esta bala reside para sempre onde seu buraco de bala deveria estar. Use para aumentar moderadamente o nível dos Rastros para personagens de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">A Caça</span>.",
+   "lore": "Atravessou os caminhos sinuosos em meio às legiões de soldados, penetrou o ponto mais fraco dos elmos mais robustos e finalmente descansou no centro do crânio do tirano invencível, emitindo um suspiro similar a um sussurro. Sua vinda chegou como uma coincidência fatal. Sua vinda foi um ponto final que todos estavam fadados a encontrar.<br /><br />\"Às vezes, o buraco da bala precede a trajetória.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/920208",
+   "comeFrom": [
+    "Cálice: Local das Audições FelizAlma da Brasareia",
+    "Sintetizador Omni — Síntese de Material",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 549503,
+     "count": 8
+    }
+   ],
+   "attackBase": 28.8,
+   "attackAdd": 4.32,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 21,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 635681,
+     "count": 4
+    },
+    {
+     "id": 549503,
+     "count": 12
+    }
+   ],
+   "attackBase": 63.36,
+   "attackAdd": 4.32,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 46.2,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 920208,
+     "count": 4
+    },
+    {
+     "id": 633444,
+     "count": 8
+    }
+   ],
+   "attackBase": 109.44,
+   "attackAdd": 4.32,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 79.8,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 920208,
+     "count": 8
+    },
+    {
+     "id": 633444,
+     "count": 12
+    }
+   ],
+   "attackBase": 155.52,
+   "attackAdd": 4.32,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 836267,
+     "count": 5
+    },
+    {
+     "id": 717385,
+     "count": 6
+    }
+   ],
+   "attackBase": 201.6,
+   "attackAdd": 4.32,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 147,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 836267,
+     "count": 10
+    },
+    {
+     "id": 717385,
+     "count": 8
+    }
+   ],
+   "attackBase": 247.68,
+   "attackAdd": 4.32,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 180.6,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 293.76,
+   "attackAdd": 4.32,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15
+  }
+ ],
+ "skill": {
+  "id": 23031,
+  "name": "Intimidação",
+  "descHash": "Aumenta a Chance de CRIT do usuário em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>. Quando o usuário utiliza um Ataque Extra, ganha 1 acúmulo de \"Luminiflux\", acumulando até um máximo de <nobr>#3[i]</nobr> vez(es). Cada acúmulo de \"Luminiflux\" permite que o Dano de Perícia Suprema causado pelo usuário ignore <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> da DEF do alvo. Quando a rodada do usuário termina, remove 1 acúmulo de \"Luminiflux\".",
+  "levelData": [
+   {
+    "params": [
+     0.15,
+     0.27,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.175,
+     0.3,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.2,
+     0.33,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.225,
+     0.36,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.25,
+     0.39,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23031"
+}

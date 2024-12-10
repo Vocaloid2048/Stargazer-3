@@ -1,0 +1,523 @@
+{
+ "name": "Registro Ninja: Caça ao Som",
+ "rarity": 4,
+ "descHash": "No reino do ninjutsu cósmico, constante mudança,<br /><br />Ouçam os ecos da minha caça pela abundância!<br />Sintam o batimento, o chamado ritmado,<br />O som das guitarras e a atmosfera, ambos encantados.<br />Notas de baixo com uma tenra tonalidade,<br />O eletroacústico atiça a minha habilidade.<br />Testemunho do suor, verdade não revelada,<br />A cada reviravolta, uma melodia é fabricada.<br />Meu som ascende, alcançando o céu,<br />Com ferimentos e batalhas, eu cumpro meu papel.<br />\"A Deslumbrante!\" \"A Deslumbrante!\" Uma canção tão ousada.<br />\"A Deslumbrante!\" \"A Deslumbrante!\" Em histórias não contadas,<br />\"A Deslumbrante!\" \"A Deslumbrante!\" Uma história épica ditada!<br />Yo. Yo. Nesse mundo selvagem. Que os corações se acendam.<br />Cantem alto, entoem suas almas e abracemos a loucura!",
+ "iconPath": "e7f6d63a7a3694b19b2154d40d9451770de20ab5ea69a31cc31247159bc0ea74",
+ "artPath": "e43afbee32be5965b1ac1b911ac5d5ee232a5063cae2d80e23369e11c1c99b45",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRhYCAABXRUJQVlA4IAoCAAAQCQCdASoUABwAPm0skkWkIqGYBABABsS2AE6ZQjgTQZx2MttgNwBvIHoAeWN7F37lekzR8T8DM3zz4LLKlYw2GKiatBSYNJ21w3aZCfryrgAA/u0tcSHUMg8sUccVnK/eOOwInn2JEZnx1zk7BtsRILMt0HUI4Q+fO7VOseE7E079gOOurUmQssgvaTzX5fgXzoFrwCZUSFKzKu6/5rZ9Z0/6T6fqIo147hTl8yUdLZf+qlMCpc+mXv0HCu1ZSc+J4WXFO8NdbHuT/Ls+kR7ZbQ34z1wduBefhvWRnqH9ZTjO9HNtaqin8WY86ZHLJCfnQqsX9mAkBFE8qMad/mz9iP6Md/N1xnBfbu2g8Xjg6+MGTy5UrTv6zO3/4IkJrdDnO6raXF3fq+82dqDn7gvnAg8dCPf/6HJnRiate70G1kGSmBSyvQZGGHRT7iVS3erIQv51rLfF2tC1t45IOdgrtokE+v/KzdUzDX+Sy4uT5pk4JnWECBsXqibG1FtKs7N57pe85otp/YmpPmBup/kfHqboGBpfXR/GVKz+pbLHaBhqZG3mqgnUIOTAQ+DZk5QLeydisN5pllX1fsUNUlXlQg7IuFl8/DdQ4P6d3HM+jhJvfZAO9q0WD6FyFwQUGm0unIhv+fOaWdneHD8L/04tfRuUfBMI1u4reFXaywsPCog0FKmOBZQAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "4eb7b208afd3f7c8ff4e60d14819cec3520e725561759f65f065951f3250a59a",
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "color": "#FFFFFF",
+  "name": "A Destruição",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Esta moeda, usada pela Corporação da Paz Interastral para acertar contas com seus clientes, agora é amplamente aceita como moeda para viagens espaciais.",
+   "lore": "\"As pessoas lutam e negociam tanto apenas por números em um terminal, mas o que é precioso de verdade não pode ser comprado.\"",
+   "purpose": "Moeda Comum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cálice: Grande Mina",
+    "Cálice: Comissão de Artesanato",
+    "Cálice: Devaneio (Mundonírico)",
+    "Recompensas de Missão",
+    "Recompensas de Atribuição",
+    "Troca de Brasas"
+   ]
+  },
+  "549210": {
+   "id": 549210,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4a6fc3718f67a82eef238f5d111c12b6bea9b9f321b3ad14f4f938f63952053c",
+   "name": "Farrapos de Pensamentos",
+   "desc": "Fragmento de memória de um pensamento passageiro. Material bruto usado para aprimoramentos.",
+   "lore": "Dentro da Zona da Memória, milhares de pensamentos flutuam como poeira. Pensamentos incompletos se acumulam, servindo de alimento e componentes para mimemas.<br /><br />\"Um pensamento passageiro pode se dissipar no ar ou se aglomerar em obsessões.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/549210",
+   "comeFrom": [
+    "Obtenção de Mimema da Zona da Memória",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Recompensas de Atribuição",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material",
+    "Cálice (Dourado)"
+   ]
+  },
+  "633151": {
+   "id": 633151,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d75355ebd700f841542175f51954110701eecbc0972f55f514d8bd4a9e11b88c",
+   "name": "Fragmentos de Impressão",
+   "desc": "Um fragmento de memória de profunda impressão. Material normal usado para aprimoramento.",
+   "lore": "Dentro da Zona da Memória, as memórias formadas flutuam como raios de luz brilhantes, e apenas fragmentos profundos e memoráveis podem condensá-las em cristais.<br /><br />\"A memória não é uma simples réplica de sensações do passado, mas sim a reconstrução das impressões do passado.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/633151",
+   "comeFrom": [
+    "Mimema da Zona da Memória no Nível de Equilíbrio 2 ou superior",
+    "Sintetizador Omni — Síntese de Material",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Dentes de Borisin",
+   "desc": "Fragmentos de dentes quebrados deixados para trás durante as conquistas dos Borisins. Usados para aumentar levemente o nível dos Rastros para os personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Os Borisins consideram seus dentes como as lâminas e armas de um guerreiro.<br />Os Borisins veneram os guerreiros que possuem poderes supremos. Em suas tribos, onde os mais fortes se sobressaem aos mais fracos, aqueles com cáries dentárias só serão descartados do grupo.<br /><br />\"Ó, Senhor da Ninhada, nos conceda dentes e garras afiadas.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter Refinado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>6000</nobr> de EXP de Cone de Luz.",
+   "lore": "Uma lata de éter que foi extraída e destilada usando procedimentos especiais.<br /><br />\"O Jardim espera poder recriar uma glória do passado, mas é uma 'glória do passado' selecionada por eles. Você entende?\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Salão Esquecido"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter Condensado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>2.000</nobr> de EXP de Cone de Luz.",
+   "lore": "Lata de éter refinado com técnicas especiais.<br /><br />\"Manuseie com cuidado, não deixe cair nem faça pressão sobre ela. Caso ocorra algum vazamento, consulte o capítulo II do \"Manual de Respostas a Desastres de Vazamentos\" para respostas de emergência.\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Troca de Brasas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter Espalhado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>500</nobr> de EXP de Cone de Luz.",
+   "lore": "Substância imaginária que não deveria existir. O material básico usado para criar Cones de Luz.<br />As imagens dos Cones de Luz se tornam ainda mais claras quando imbuídas dessa substância.<br /><br />\"Entendi, então essa é a suposta 'memória' do Jardim da Recordação. É por isso que os Memoriadores conseguem fazer viagens galácticas com lembranças\".",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Recompensas de Atribuição"
+   ]
+  },
+  "717092": {
+   "id": 717092,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4366e9814d1d923187cc30cf4becfaddbece031abe85a00d8470ec51068c07e8",
+   "name": "Fragmentos de Desejos",
+   "desc": "Um fragmento de memória de desejos obsessivos. Material avançado usado para aprimoramentos.",
+   "lore": "Dentro da Zona da Memória, a memória de desejos se desenvolve sem cessar. Ela absorve os pensamentos e impressões, nutre espelhos mágicos dos desejos, e reflete as sombras sinistras de entidades meméticas.<br /><br />\"A memória aponta para o passado, enquanto o desejo aponta para o futuro. Buscar os desejos da memória só fará com que seus sonhos se tornem invertidos, e seus demônios internos irão nascer naturalmente.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/717092",
+   "comeFrom": [
+    "Mimema da Zona da Memória no Nível de Equilíbrio 4 ou maior",
+    "Sintetizador Omni — Síntese de Material",
+    "Espólio deixado por inimigos no Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Canino de Loucura da Lua",
+   "desc": "Presas amedrontadoras deixadas para trás durante as conquistas dos Borisins. Usadas para aumentar significativamente o nível dos Rastros dos personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Borisins podem aprimorar seus corpos por meio de sua inata \"Loucura da Lua\".<br />Em estado de frenesi da batalha, os guerreiros exibem habilidades de cura incríveis, derramando o sangue dos inimigos em um banquete.<br /><br />\"Ó, Senhor da Ninhada, conceda-nos Sua força divina.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Sintetizador Omni — Síntese de Material",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Dente de Serra com Lupitoxina",
+   "desc": "Caninos afiados para sugar sangue deixadas para trás durante as conquistas dos Borisins. Usadas para aumentar moderadamente o nível dos Rastros dos personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Os Borisins consideram seus dentes como as lâminas e armas de um guerreiro.<br />Um impulso enlouquecedor flui através do sangue dos Borisin. Movidos pela Lupitoxina, eles subjugam seus inimigos com seus dentes serrados, sugam seu sangue e se mantém imbatíveis.<br /><br />\"Ó, Senhor da Ninhada, nos conceda pele e ossos de aço.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Sintetizador Omni — Síntese de Material",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549210,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635680,
+     "count": 3
+    },
+    {
+     "id": 549210,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920207,
+     "count": 3
+    },
+    {
+     "id": 633151,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920207,
+     "count": 6
+    },
+    {
+     "id": 633151,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836266,
+     "count": 4
+    },
+    {
+     "id": 717092,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836266,
+     "count": 8
+    },
+    {
+     "id": 717092,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 22003,
+  "name": "Ação!",
+  "descHash": "Aumenta os PV máximos do usuário em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Ao perder ou restaurar PV desta unidade, aumenta o Dano CRIT em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>, durando por <nobr>#3[i]</nobr> rodada(s). Este efeito só pode ser ativado 1 vez por rodada.",
+  "levelData": [
+   {
+    "params": [
+     0.12,
+     0.18,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.15,
+     0.225,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.18,
+     0.27,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.21,
+     0.315,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.24,
+     0.36,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "22003"
+}

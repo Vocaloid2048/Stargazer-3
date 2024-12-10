@@ -1,0 +1,3537 @@
+{
+ "spRequirement": 140,
+ "iconPath": "504f31679576ed14e6fefe48929d90402350531e6f9679adda44da594ead1554",
+ "bgPath": "f7911491f5110b260379fb045b3e040565938f30ad769877d81b8e52889d09e5",
+ "figPath": "7720a1eda42cd285d6601faf7e544d8fac57975157581f68cc820e58f202d3a4",
+ "fgPath": "",
+ "splashIconPath": "98ad62e0616601fe6675854746d9139d4d271c3a92edda4397db1ed1ab07ff1f",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRvYCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAwBAAABkLNt2/m34u/3j9g2Z9u2k8m2k6+QI6OtdnS7acxW2/YcW89d/hoREwCNLgb8pwIQkQSlScHGAjadMOpMNcAyEjZV1xwD3fyh/mbA1Ej6h7WnD7J8ysOd/6JH4c4hubPJV+dWcqAAGFAopJyQe2w1GvUK0CFtjyciwtMTDpTMBAEK4Zs85h8iPHiUBwCBmzymCIVyyvV6KAD6ZYpQSKHweMUOAEydFo4pQqEIV93xd8+vPBUR4fYPpkAPwMzR9y0PTynC9eHT7j8UKm9d3CBPRHg0cHMICn/G5U6cfcOTIz5ziRw0QKPvHXLrqTP87f+m0ys9zKse8t5VM2hWgFV/cvMQlBZADyhUWAMAVlA4IMQBAAAwCQCdASoUABQAPm0ukkakIqGhKA1QgA2JbAy0AMxABZg9aBZvmbxc6ADxL/WZ0wD9gPYA/Sv0svYi/bz0dymAeKBMl/SsOjCT0ngcsxtoiDuAAP773SyDXdeo8PWGaz9+j70Fo/L8o53mAwCu9J1aLJctWekpwE6J/uXEWCKCkJi4TzQP1u4eXe5wFj+yBFVfVB9LOh/0KsfKkIPq/L2QJ6s6NcTUMiJKqfRI2/9EX7BK5+TuM/PfL4ZFdjjHbB4F84Rr4apOszEo8PnOnxkuLbKY4bXaL6NFHTlX+xVd9RZ7oPTWqr74BzfLFdXQrcpO3cEf4pUlEhp5ZuwP4PbTrAHuf8NnEcy2yS/5O773P9YL8V9tYffEMnP9i09bSPTlJvpRPggOz9ZvFf6wixZc5JOTUr99Wkd/kwM8yrKjfML5p2jBcPmdmTU5C8E9L4NiYm1VutBrApjKa5i6SqosjKARZWzqF35n7j86dJnPQLoPfO4P4ragHG67dcf83x9N2IOjCsf6uTIYaL6qqwJimrRf+FQzahH5pD+aIv7px/xv/CNdWX/y4y5PYaLW5ZNfDji/yDpSzztbYRPg9ulSwgAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "633a6ca33d14c5abcb6de00aff6015572582260725229eb798d8b2dfde476c99",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Điểm Tín Dụng",
+   "desc": "Tiền mà Công ty Hành Tinh Hòa Bình (IPC) dùng để giao dịch với khách, nay đã trở thành đồng tiền chính khi đi lại trong vũ trụ.",
+   "lore": "\"Người ta bôn ba, tranh đấu, mua bán, cũng chỉ vì những con số xuất hiện trên thiết bị đầu cuối. Nhưng thứ quý giá thật sự, thì con số của công ty lại không thể mua được.\"",
+   "purpose": "Tiền Tệ Thường",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Khu Mỏ Khổng Lồ",
+    "Đài Hoa Nhân Tạo: Sở Công Nghiệp",
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Phần thưởng nhiệm vụ",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Dấu Chân Vận Mệnh",
+   "desc": "Nguyên liệu cấp cao dùng để tăng cấp Vết Tích",
+   "lore": "Những thất bại liên tiếp đã giúp bạn giành được chiến thắng, từng bước tiến về phía trước đã đưa bạn đến bước ngoặt của vận mệnh.",
+   "purpose": "Nguyên Liệu Vết Tích",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Thưởng Điểm Vũ Trụ Mô Phỏng",
+    "Vinh Dự Vô Danh",
+    "Đổi Tro Tàn",
+    "Đổi Ánh Sao",
+    "Phần Thưởng Sự Kiện Hạn Giờ"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "Dư Âm Đồng Nguyện",
+   "desc": "Vật liệu cao cấp để tăng cấp Vết Tích.",
+   "lore": "Ngài độc tấu giai điệu vô thượng, cho đến khi giai điệu đó chìm trong sự hợp tấu của các Ngài.<br />Nhưng thính giả của ngài không muốn im lặng, người mơ mộng mù quáng đoạt lấy sợi dây đàn Đồng Nguyện, người chơi đàn viển vông diễn tấu lại bản nhạc phủ bụi.<br /><br />\"Ngôi sao phác họa đầu ngón tay, dùng luật lệ và quyền hạn để dẫn dắt chúng sinh... Giấc mơ ngọt ngào giờ đã thành hiện thực, hàng tỉ luật lệ cũ biến mất.\"",
+   "purpose": "Nguyên Liệu Vết Tích",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "Dư Âm Chiến Đấu - Nhà Hát Lớn Penacony",
+    "Dư Âm Chiến Đấu: Nhà Hát Lớn Penacony"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Hướng Dẫn Dạo Chơi",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>20000</nobr> điểm EXP nhân vật.",
+   "lore": "Tập sách thám hiểm cần thiết cho việc đi qua các thế giới. Nhấn nút đọc và giọng nói từ tính sẽ nói bằng ngôn ngữ bạn có thể hiểu được, để giảng cho bạn nghe những trải nghiệm huyền thoại của các nhà thám hiểm nổi tiếng ở các thế giới khác nhau, cũng như trí tuệ quý giá mà họ có được trên các hành tinh khác nhau.<br /><br />\"Bộ sách mới \"Hướng Dẫn Ẩm Thực Hành Tinh\" của Hướng Dẫn Dạo Chơi sắp được bán, mong mọi người ủng hộ.\"<br />\"Nộp bản thảo vui lòng kết nối với nhân viên <nobr>230</nobr> Máy Phát Liên Kết Trực Giác Hội Trí Thức, thù lao sẽ được trả bằng bất kỳ hình thức nào mà bạn có thể chấp nhận.\"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Sảnh Đường Lãng Quên"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Nhật Ký Thám Hiểm",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>5000</nobr> điểm EXP nhân vật.",
+   "lore": "Một ghi chú thám hiểm mang tính giáo dục, được đóng gọn gàng. Những câu chuyện minh họa từ đầu đến cuối về hành động thám hiểm, có thông tin giá trị và mẹo sinh tồn.<br /><br />\"Tại sao không kỹ thuật hóa đưa nó vào thẻ quang? Tiện mang theo hơn nhiều.\"<br />\"Đối mặt trước cơn bão hằng tinh và sự phun trào neutron, công nghệ cao mong manh hơn bạn tưởng. Huống chi người làm ra quyển sách này chắc hẳn đã hy vọng mọi người sẽ đọc nó với cách đơn giản nhất. \"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Huấn Luyện Mỗi Ngày",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Kiến Thức Du Hành",
+   "desc": "Nguyên liệu EXP nhân vật, có thể nhận <nobr>1000</nobr> điểm EXP nhân vật.",
+   "lore": "Nhật ký ghi lại mọi thứ trên đường đi, chữ viết đã bị mờ, nội dung thích gì viết đó, không giúp ích gì nhiều cho bạn.<br /><br />\"Xem xong rồi thì dọn dẹp đống giấy lộn này đi, Dan Heng?\"",
+   "purpose": "Nguyên Liệu EXP Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Cánh Đồng Tuyết Ngoại Thành",
+    "Đài Hoa Nhân Tạo: Cảng Lưu Vân",
+    "Đài Hoa Nhân Tạo: Ranh Giới Xây Mộng",
+    "Thưởng Ủy Thác"
+   ]
+  },
+  "468393": {
+   "id": 468393,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ca4a65b8c3d9436a1d62230058cbbf37131686ac1ef0b2755fc9876449c0889d",
+   "name": "Ảo Cảnh Hợp Âm",
+   "desc": "Đàn đỏ dây bạc của người biểu diễn trong đoàn kịch, nguyên liệu tăng bậc của nhân vật thuộc tính Số Ảo.",
+   "lore": "Bản nhạc đơn giản dệt nên những mảnh vụn của quá khứ, âm nhạc dẫn dắt tương lai đầy hy vọng. Tiếng đàn vang lên, hàng ngàn thế giới hội tụ về đây, tiếng cười của khoảnh khắc này và giọt nước mắt phai nhạt, ước nguyện vĩnh hằng và giấc mơ dang dở.<br /><br />\"Nhặt lấy hồi ức chôn vùi giữa đống đổ nát và biến chúng thành giai điệu.\"",
+   "purpose": "Nguyên Liệu Nâng Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/468393",
+   "comeFrom": [
+    "Hư Ảnh Ngưng Đọng - Nhà Hát Lớn Penacony",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "549209": {
+   "id": 549209,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "33a6bf2f66916e8e8ea5bc74e0978504ed51c02ab53087aa9a6fd874dee2c5cc",
+   "name": "Thiết Bị Lưu Giữ Giấc Mơ",
+   "desc": "Thiết bị lưu trữ năng lượng của Tạo Vật Cõi Mộng, vật liệu đơn giản để cường hóa.",
+   "lore": "Rương Xây Mộng chứa những giấc mơ tan vỡ, cung cấp năng lượng cơ bản cho Tạo Vật Cõi Mộng.<br /><br />\"Nếu cài đặt thứ này sẽ nhận được một thành viên của Đoàn Kịch Mộng Đẹp.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/549209",
+   "comeFrom": [
+    "Đoàn Kịch Ác Mộng",
+    "Rớt từ kẻ địch trong Vũ Trụ Sai Phân",
+    "Rớt từ kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu",
+    "Đài Hoa Nhân Tạo (Vàng)"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "Bản Phác Thảo Nét Động",
+   "desc": "Bản phác thảo đường nét nhân vật Cậu Bé Đồng Hồ, dáng dấp của giấc mơ đã xuất hiện trên giấy. Có thể tăng tương đối Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Tri Thức</span>.",
+   "lore": "Bản vẽ Cậu Bé Đồng Hồ trông tinh tế hơn sau khi xóa đi những nét vẽ không cần thiết. Có thể thấy rõ họa sĩ diễn hoạt đã đưa trí tuệ vào từng bước nhảy hiện hữu trong những khung hình của Cậu Bé Đồng Hồ.<br /><br />\"Tích tắc, tích tắc! Mau đi theo, mau đi theo, bạn của tôi!\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Nhà Hát Lớn Penacony\"",
+    "\"Máy Ghép Vạn Năng\"- Ghép Nguyên Liệu",
+    "Đổi Tro Tàn",
+    "\"Máy Ghép Vạn Năng\"- Đổi Nguyên Liệu"
+   ]
+  },
+  "633150": {
+   "id": 633150,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5a20aed87ac7511880b93005850863b0b0180a4f07d7d956c0da8458a7ed8d7",
+   "name": "Van Dòng Chảy Giấc Mơ",
+   "desc": "Bộ phận điều khiển của Tạo Vật Cõi Mộng, nguyên liệu thường dùng để cường hóa.",
+   "lore": "Thiết bị xây dựng giấc mơ điều chỉnh dục vọng, kiểm soát cảm xúc bên trong của Tạo Vật Cõi Mộng.<br /><br />\"Nếu thứ này mất tác dụng sẽ nhận được một thành viên Đoàn Kịch Ác Mộng.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/633150",
+   "comeFrom": [
+    "Đoàn Kịch Ác Mộng khi đạt Cân Bằng cấp 2",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Rớt từ kẻ địch trong Vũ Trụ Sai Phân",
+    "Rớt từ kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "Bản Phác Thảo Màu Tinh Tế",
+   "desc": "Bản phác họa màu nhân vật Cậu Bé Đồng Hồ, những ước mơ trở nên sống động với màu sắc rực rỡ. Có thể tăng mạnh Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Tri Thức</span>.",
+   "lore": "Cậu Bé Đồng Hồ tràn ngập màu sắc sặc sỡ, trở thành dáng vẻ mà ai ai cũng quen thuộc. Câu chuyện về Cậu Bé Đồng Hồ đã truyền cảm hứng cho hàng ngàn Khách Tìm Mộng, ai cũng được khai sáng trong cuộc phiêu lưu.<br /><br />\"Tôi là Cậu Bé Đồng Hồ, là siêu sao của Thị Trấn Mộng Đẹp Penacony!\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Nhà Hát Lớn Penacony\"",
+    "\"Máy Ghép Vạn Năng\"- Ghép Nguyên Liệu",
+    "\"Máy Ghép Vạn Năng\"- Đổi Nguyên Liệu"
+   ]
+  },
+  "717091": {
+   "id": 717091,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c037982ba533a1195e74ac14bc2c91d28d39959dd698a4d802b500d6172355fc",
+   "name": "Động Cơ Tạo Giấc Mơ",
+   "desc": "Cốt lõi sức mạnh của Tạo Vật Cõi Mộng, vật liệu cao cấp để cường hóa.",
+   "lore": "Cỗ máy xây mộng tạo ra những ảo ảnh và thổi linh hồn vào các Tạo Vật Cõi Mộng.<br /><br />\"Nếu phát hiện thứ này gặp trục trặc... bạn của tôi, hãy thức dậy trước khi rơi vào ác mộng.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/717091",
+   "comeFrom": [
+    "Đoàn Kịch Ác Mộng khi đạt Cân Bằng cấp 4",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Rớt từ kẻ địch trong Vũ Trụ Sai Phân",
+    "Rớt từ kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "Bản Phác Thảo Lộn Xộn",
+   "desc": "Bản phác thảo nhân vật Cậu Bé Đồng Hồ, một vài nét vẽ tạo nên hình dạng của giấc mơ. Có thể tăng nhẹ Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Tri Thức</span>.",
+   "lore": "Có rất nhiều bản thảo nhân vật \"Cậu Bé Đồng Hồ\" lưu truyền ở Penacony, rốt cuộc ai đã nắm bắt được nguồn cảm hứng thoáng qua đó, và thổi lên tiếng \"tích tắc\" đầu tiên trên giấy vẽ.<br /><br />\"Tích tắc! Bạn... nhìn thấy tôi sao?\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Nhà Hát Lớn Penacony\"",
+    "Đổi Tro Tàn",
+    "\"Máy Ghép Vạn Năng\"- Đổi Nguyên Liệu"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 97.68,
+   "attackAdd": 4.884,
+   "hpBase": 147.84,
+   "hpAdd": 7.392,
+   "defenseBase": 62.7,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549209,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 136.752,
+   "attackAdd": 4.884,
+   "hpBase": 206.976,
+   "hpAdd": 7.392,
+   "defenseBase": 87.78,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549209,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 175.824,
+   "attackAdd": 4.884,
+   "hpBase": 266.112,
+   "hpAdd": 7.392,
+   "defenseBase": 112.86,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633150,
+     "count": 6
+    },
+    {
+     "id": 468393,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 214.896,
+   "attackAdd": 4.884,
+   "hpBase": 325.248,
+   "hpAdd": 7.392,
+   "defenseBase": 137.94,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633150,
+     "count": 9
+    },
+    {
+     "id": 468393,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 253.968,
+   "attackAdd": 4.884,
+   "hpBase": 384.384,
+   "hpAdd": 7.392,
+   "defenseBase": 163.02,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717091,
+     "count": 6
+    },
+    {
+     "id": 468393,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 293.04,
+   "attackAdd": 4.884,
+   "hpBase": 443.52,
+   "hpAdd": 7.392,
+   "defenseBase": 188.1,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717091,
+     "count": 9
+    },
+    {
+     "id": 468393,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 332.112,
+   "attackAdd": 4.884,
+   "hpBase": 502.656,
+   "hpAdd": 7.392,
+   "defenseBase": 213.18,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "20d9cbefd83a36af4ae3892cb8539d790db645045620c7834be1469697d95ba6",
+   "artPath": "d86967b4b8a27994ced4f4626e157c58feba07f6b40d3cf0a4a0df4527cae834",
+   "name": "Không Đủ Sáu Tiền, Trở Về Từ Âm Giới",
+   "descHash": "Trong thời gian thi triển Tuyệt Kỹ để vào trạng thái Kết Ấn, sát thương Rappa gây ra bỏ qua <nobr>#1[i]%</nobr> Phòng Thủ của mục tiêu. Sau khi thoát trạng thái Kết Ấn sẽ hồi <nobr>#2[i]</nobr> điểm Năng Lượng.",
+   "params": [
+    0.15,
+    20
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "01397a907758e5645f0dcb8b2e5f7093d0ad92b6f68ccf27f44392d069cefb22",
+   "artPath": "cad88301f8c01062f6e55c0d9ace789d8dc4999dbd70af7ee3ca74705b60ba5f",
+   "name": "Haiku Khai Tâm Trí, Tự Do Không Vướng Bận",
+   "descHash": "2 đòn tấn công đầu tiên của Tấn Công Thường Cường Hóa sẽ tăng <nobr>#1[i]%</nobr> Giảm Sức Bền của 1 kẻ địch chỉ định.",
+   "params": [
+    0.5
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "8885dc11542f37558ee147497c4ffcfdebe887bc8398655c060bd0f66617cc0f",
+   "artPath": "8b591519937d28500fa9187640f160a865ce6c45df0418d827c361e828c2db41",
+   "name": "Đền Miếu Bao La, Cũng Không Đẩy Lùi Địa Ngục",
+   "descHash": "Cấp Chiến Kỹ +2, tối đa không vượt quá cấp <nobr>15</nobr>; Cấp Thiên Phú +2, tối đa không vượt quá cấp <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "60edd03206e5ce49ec667b1fc33fe0dd8aa325cede667280f769f7557b641314",
+   "artPath": "951657a95530eb21fde7d8b7b49ff8e4c6b99c05820731c438864f16a4ff0325",
+   "name": "Thời Gian Ăn Mòn Chính Đạo Của Nhẫn Hiệp",
+   "descHash": "Trong thời gian Kết Ấn, Tốc Độ của toàn bộ phe ta tăng <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.12
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "80200909e758f4ae18c8f3f8feeb334b81a4b756ee7eeeaa7a9f2ad085cd00d0",
+   "artPath": "e5d9a95fe4414058cd7c72bb1c8909e88b15850762a4f96417f6d8287cd0a5cc",
+   "name": "Nhất Tâm Bất Loạn, Mũi Tên Không Chệch Hướng",
+   "descHash": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp <nobr>15</nobr>, cấp Tấn Công Thường +1, tối đa không quá cấp <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "bbff5f42891c230f65e38cb8a034e52e127fbb71daa3bc37153c70f0a5adc34e",
+   "artPath": "739b5781dd77f03d80843d41bc32fae41854e69de4bf792145860ed01c634f4b",
+   "name": "Phá Tà Hiển Chính, Báo Ứng Không Thương Xót",
+   "descHash": "Khi bắt đầu chiến đấu, Rappa nhận được <nobr>#1[i]</nobr> điểm Nạp Năng Lượng của hiệu ứng Thiên Phú, đồng thời giới hạn Nạp Năng Lượng tăng <nobr>#2[i]</nobr> điểm. Sau khi phát động đòn tấn công thứ 3 của Nhẫn Cụ: Lưỡi Xoáy Hàng Ma, sẽ nhận được <nobr>#1[i]</nobr> điểm Nạp Năng Lượng.",
+   "params": [
+    5,
+    5
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   451237,
+   304818,
+   567881,
+   735763,
+   304817
+  ],
+  [
+   735764
+  ],
+  [
+   651823
+  ],
+  [
+   936350
+  ],
+  [
+   20291
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Đánh Đơn",
+   "descHash": "Gây Sát Thương <span style=\"color:#F4D258;\">Số Ảo</span> cho 1 kẻ địch chỉ định tương đương <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> Tấn Công của Rappa.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 451237,
+   "name": "Nhẫn Thuật: Gan Vàng Dạ Sắt",
+   "iconPath": "942a1bc58ea24f334a7c24cfdef599ce219865eed4c593941d004abb89b58dcb",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Đánh Lan",
+   "descHash": "Gây Sát Thương <span style=\"color:#F4D258;\">Số Ảo</span> cho toàn bộ phe địch tương đương với <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> Tấn Công của Rappa.",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 735764,
+   "name": "Nhẫn Thiết: Quán Triệt Tín Niệm",
+   "iconPath": "8885dc11542f37558ee147497c4ffcfdebe887bc8398655c060bd0f66617cc0f",
+   "typeDescHash": "Chiến Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cường Hóa",
+   "descHash": "Vào trạng thái Kết Ấn, nhận ngay 1 <u>hiệp tăng thêm</u> và nhận <nobr>#3[i]</nobr> điểm Sắc Mực, đồng thời Hiệu Suất Phá Vỡ Điểm Yếu tăng <nobr>#1[i]%</nobr>, Tấn Công Kích Phá tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. <br />Tấn Công Thường ở trạng thái Kết Ấn nhận Cường Hóa đồng thời không thể thi triển Chiến Kỹ và Tuyệt Kỹ. Sau khi thi triển Tấn Công Thường Cường Hóa sẽ tiêu hao 1 điểm Sắc Mực, tiêu hao hết sẽ thoát trạng thái Kết Ấn.",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 651823,
+   "name": "Nhẫn Đạo Tối Cao: Aishiteru",
+   "iconPath": "b062445a2828381bd5df3e88cc3fc29c07787cc6bc2465da8dc1f860c16d94f1",
+   "typeDescHash": "Tuyệt Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.12,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.14,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.16,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.18,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.2,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.225,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.25,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.275,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.32,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.34,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.36,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.38,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.4,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cường Hóa",
+   "descHash": "Khi điểm yếu của mục tiêu phe địch bị phá vỡ, Rappa sẽ nhận 1 điểm Nạp Năng Lượng, tối đa có <nobr>#1[i]</nobr> điểm Nạp Năng Lượng. Vào lần tiếp theo khi Rappa phát động đòn tấn công thứ 3 của Nhẫn Cụ: Lưỡi Xoáy Hàng Ma sẽ gây thêm cho toàn bộ phe địch Sát Thương Phá Vỡ bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> Sát Thương Phá Vỡ <span style=\"color:#F4D258;\">Số Ảo</span> của Rappa, sát thương này có thể bỏ qua thuộc tính điểm yếu và làm giảm <nobr>#4[i]</nobr> điểm Sức Bền, đồng thời tiêu hao tất cả Nạp Năng Lượng, mỗi điểm Nạp Năng Lượng sẽ khiến Bội Số Sát Thương Phá Vỡ lần này tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, đồng thời tăng <nobr>#6[i]</nobr> điểm Giảm Sức Bền bỏ qua thuộc tính điểm yếu.<br />Khi Phá Vỡ Điểm Yếu sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu <span style=\"color:#F4D258;\">Số Ảo</span>.",
+   "ultimateCost": 0,
+   "break": "6",
+   "energy": "0",
+   "id": 936350,
+   "name": "Nhẫn-Khoa Học: Túi Kiên Nhẫn",
+   "iconPath": "f3de2bacbb71500f99ecc3ab0e13569c54a8a4d328faf608591095462886f254",
+   "typeDescHash": "Thiên Phú",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0,
+      0.3,
+      2,
+      0.25,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.33,
+      2,
+      0.275,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.36,
+      2,
+      0.3,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.39,
+      2,
+      0.325,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.42,
+      2,
+      0.35,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.45,
+      2,
+      0.375,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.4875,
+      2,
+      0.40625,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.525,
+      2,
+      0.4375,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.5625,
+      2,
+      0.46875,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.6,
+      2,
+      0.5,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.63,
+      2,
+      0.525,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.66,
+      2,
+      0.55,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.69,
+      2,
+      0.575,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.72,
+      2,
+      0.6,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.75,
+      2,
+      0.625,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm suy yếu Sức Bền thuộc tính tương ứng của mục tiêu phe địch.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 136936,
+   "name": "Tấn Công",
+   "iconPath": "942a1bc58ea24f334a7c24cfdef599ce219865eed4c593941d004abb89b58dcb",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Cường Hóa",
+   "descHash": "Sau khi sử dụng Bí Kỹ sẽ vào trạng thái Graffiti trong <nobr>#1[i]</nobr> giây liên tục. Ở trạng thái Graffiti sẽ di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc. Trong quá trình di chuyển nhanh, có thể đỡ tất cả tấn công của kẻ địch. Thi triển tấn công ở trạng thái Graffiti có thể kết thúc sớm thời gian duy trì. Sau khi chủ động tấn công kẻ địch vào chiến đấu, gây <nobr>#5[i]</nobr> điểm Giảm Sức Bền bỏ qua Thuộc Tính Điểm Yếu cho mỗi mục tiêu phe địch, đồng thời gây Sát Thương Phá Vỡ tương đương với <nobr>#2[i]%</nobr> Sát Thương Phá Vỡ thuộc tính <span style=\"color:#F4D258;\">Số Ảo</span> của Rappa, và gây Sát Thương Phá Vỡ tương đương với <nobr>#3[i]%</nobr> Sát Thương Phá Vỡ thuộc tính <span style=\"color:#F4D258;\">Số Ảo</span> của Rappa cho mục tiêu lân cận kẻ đó. Đồng thời khiến bản thân nhận <nobr>#4[i]</nobr> điểm Năng Lượng.",
+   "ultimateCost": 0,
+   "break": "90",
+   "energy": "0",
+   "id": 20291,
+   "name": "Nhẫn Bộ: Nhảy Vọt",
+   "iconPath": "06d5b46afbb83fecc4e73ce18e255c355d3b65602bdb8c36ed303e9b59344dd3",
+   "typeDescHash": "Bí Kỹ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      2,
+      1.8,
+      10,
+      30
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Khuếch Tán",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "5",
+   "id": 304818,
+   "name": "Nhẫn Cụ: Lưỡi Xoáy Hàng Ma",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3,
+      0.6,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34,
+      0.68,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38,
+      0.76,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42,
+      0.84,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46,
+      0.92,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5,
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54,
+      1.08,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58,
+      1.16,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62,
+      1.24,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Khuếch Tán",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "5",
+   "id": 567881,
+   "name": "Nhẫn Cụ: Lưỡi Xoáy Hàng Ma",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Đánh Lan",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "15/hit",
+   "energy": "10",
+   "id": 735763,
+   "name": "Nhẫn Cụ: Lưỡi Xoáy Hàng Ma",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Khuếch Tán",
+   "descHash": "Phát động Nhẫn Cụ: Lưỡi Xoáy Hàng Ma, 2 đòn tấn công đầu tiên gây Sát Thương <span style=\"color:#F4D258;\">Số Ảo</span> bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> tấn công của Rappa cho 1 kẻ địch chỉ định đồng thời gây Sát Thương <span style=\"color:#F4D258;\">Số Ảo</span> bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> tấn công của Rappa cho mục tiêu lân cận kẻ đó, đòn thứ 3 gây Sát Thương <span style=\"color:#F4D258;\">Số Ảo</span> bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> tấn công của Rappa cho toàn bộ kẻ địch.<br />Tấn Công Thường Cường Hóa không thể hồi Điểm Chiến Kỹ, tấn công kẻ địch không có điểm yếu <span style=\"color:#F4D258;\">Số Ảo</span> cũng có thể làm giảm Sức Bền, hiệu ứng bằng <nobr>#4[i]%</nobr> điểm Giảm Sức Bền ban đầu. Khi phá vỡ Điểm Yếu, sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu <span style=\"color:#F4D258;\">Số Ảo</span>.",
+   "ultimateCost": 0,
+   "break": "75/hit",
+   "energy": "0",
+   "id": 304817,
+   "name": "Nhẫn Cụ: Lưỡi Xoáy Hàng Ma",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "Tấn Công Thường",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3,
+      0.6,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34,
+      0.68,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38,
+      0.76,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42,
+      0.84,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46,
+      0.92,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5,
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54,
+      1.08,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58,
+      1.16,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62,
+      1.24,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1317101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1317203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91641,
+        "name": "Cường Hóa Tấn Công",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "Tấn Công",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 633150,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1317204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91640,
+        "name": "Cường Hóa Kích Phá",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2f652a2e091ec1a28dde16dfec5968a959804447eb99f746b6f2cba53dedfc2c",
+        "statusList": [
+         {
+          "key": "Tấn Công Kích Phá",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 633150,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 91642,
+      "name": "Cường Hóa Tốc Độ",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "Tốc Độ",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 549209,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Khi điểm yếu của kẻ địch cấp Tinh Anh trở lên bị phá vỡ, Rappa sẽ nhận thêm <nobr>#2[i]</nobr> điểm Nạp Năng Lượng, và hồi phục <nobr>#1[i]</nobr> điểm Năng Lượng.",
+    "ultimateCost": 0,
+    "id": 91482,
+    "name": "Bí Kíp Nhẫn Pháp: Ma Thiên",
+    "iconPath": "336eea38304f162811f7b965c1055619eee540868d69022612f1241bdb9189ea",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       10,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1317206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91638,
+        "name": "Cường Hóa Tốc Độ",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "Tốc Độ",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 717091,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1317207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91637,
+        "name": "Cường Hóa Tấn Công",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "Tấn Công",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 717091,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 91639,
+      "name": "Cường Hóa Tấn Công",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "Tấn Công",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 633150,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Trong thời gian Kết Ấn, sau khi Rappa thi triển Tấn Công Thường Cường Hóa gây sát thương cho mục tiêu phe địch ở <u>trạng thái Phá Vỡ Điểm Yếu</u>, sẽ khiến điểm Giảm Sức Bền của lần sát thương này chuyển hóa thành 1 lần <u>Siêu Sát Thương Phá Vỡ</u> <nobr>#1[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 91483,
+    "name": "Bí Kíp Nhẫn Pháp: Biển Rền",
+    "iconPath": "a55aae877db53fe8774d1713c2150e254589d66a7c3e22f891d78b273879bd5e",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 91652,
+      "name": "Cường Hóa Kích Phá",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2f652a2e091ec1a28dde16dfec5968a959804447eb99f746b6f2cba53dedfc2c",
+      "statusList": [
+       {
+        "key": "Tấn Công Kích Phá",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 717091,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1317209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 91651,
+      "name": "Cường Hóa Tốc Độ",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "Tốc Độ",
+        "value": 4,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 717091,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Khi điểm yếu của mục tiêu phe địch bị phá vỡ, <u>Sát Thương Phá Vỡ</u> phải chịu tăng <nobr>#1[i]%</nobr>, nếu Tấn Công hiện tại của Rappa trên <nobr>#2[i]</nobr> điểm, cứ vượt quá <nobr>100</nobr> điểm tấn công có thể khiến trị số này tăng thêm <nobr>#3[i]%</nobr>, tối đa tăng thêm <nobr>#4[i]%</nobr>. Hiệu ứng duy trì <nobr>#5[i]</nobr> hiệp.",
+    "ultimateCost": 0,
+    "id": 91484,
+    "name": "Bí Kíp Nhẫn Pháp: Lá Khô",
+    "iconPath": "92e56d1babdfa77e241e55452dcfd2441cb0a9a7415acaabc002ac6e2adf916a",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.02,
+       2400,
+       0.01,
+       0.08,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 91643,
+    "name": "Cường Hóa Tấn Công",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "Tấn Công",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549209,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 7703,
+    "name": "Cường Hóa Tấn Công",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "Tấn Công",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 673757,
+      "count": 8
+     },
+     {
+      "id": 717091,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Lần Đầu Gặp Mặt",
+   "text": "Đã lâu không gặp, Ninja Gậy Bóng Chày! Nhẫn Đạo của các hạ như ánh sáng vạn trượng, Bí Kíp Nhẫn Pháp Vũ Trụ có viết: \"Nơi tận cùng của địa ngục chắc chắn có ánh sáng, soi sáng cả thế gian tối tăm.\"",
+   "unlockRequirement": "",
+   "cnUrl": "d02889c99d4a67270a9c5937a316fa16b3a08d9cf911927b9a70cf45c2044526",
+   "jpUrl": "aa6c9d91064103b87e2b598e0ccf46bbc8648ce81b8d26d05825f453dd5137c3",
+   "enUrl": "6acf8df4f629f495e100462ee8fbae528c1794e9202a4b58df95a58ab40bccfe",
+   "krUrl": "479cad25f641e9ef999e401c3a23d40675763e498e94ade3945ba8dadb4d9887"
+  },
+  {
+   "id": 2,
+   "title": "Thăm Hỏi",
+   "text": "Cuộc sống mong manh như sương đêm, khó thoát khỏi sinh lão bệnh tử... Ninja Gậy Bóng Chày, Yoroshiku.",
+   "unlockRequirement": "",
+   "cnUrl": "e6edc21383da76806929755e3bf3d7b92360e26aedfe9a39b1d9f22d7ea4724a",
+   "jpUrl": "b029d7a2b866a9b7e359f95c4196e3576c36723d836a13026afd0bdadab43290",
+   "enUrl": "d64e4adf52d198956019cc499ca4c80d744b5f4e641e9c6c07c49dffd02bbb7c",
+   "krUrl": "cb0be49df3cb9449129cda87688b27e25ede84a263b3e416896918c6ad75f67c"
+  },
+  {
+   "id": 3,
+   "title": "Tạm Biệt",
+   "text": "Chư hành vô thường, lần chia tay này có lẽ sẽ là vĩnh biệt. Mong cho Nhẫn Đạo của các hạ dũng khí ngời ngời, thịnh vượng bất diệt. Tạm biệt!",
+   "unlockRequirement": "",
+   "cnUrl": "016c0bda2727499556ddb1e5a94b0eacf8aae6dbece07c52fb27a93eacf6adac",
+   "jpUrl": "0696c38d2ba8a31bfd009d13a247932a8f8d4034b85947b61c7799c1034e0a7a",
+   "enUrl": "c4fafdb90929c69ccfb08b2052f21d3865d077a32dc57ae599016ba30f3889b1",
+   "krUrl": "33275ed181102744896e6e0b1d67b0e1bd003917e132356d5c8c38b38c974b47"
+  },
+  {
+   "id": 4,
+   "title": "Về Bản Thân-Thân Phận",
+   "text": "Nhẫn Hiệu của tại hạ là Rappa, tức là \"nhất tâm bất loạn, phá tà hiển chính\", giống như mũi tên của Thần Lan Vĩ Đại, không gì là không thể ngăn cản, làm gì ở đâu cũng thuận lợi.",
+   "unlockRequirement": "",
+   "cnUrl": "aa2ea40d10010f4bc69d5c0107ec1902063f9cfbb137fd85f5a97cd726feb88b",
+   "jpUrl": "ef46c5e344b71911dd4c9e9f4558e7fe7cdb8e755b3b9cddb7286b86bfbadf09",
+   "enUrl": "d61d4eb82c4e78519d15615b4c43425c441faa1107545cf3864ba6ef3e9f1db1",
+   "krUrl": "17e0d373c945af3b8af3c5230df9ed7f35ab07e47b7fd7f81b616ccf2f44d6eb"
+  },
+  {
+   "id": 5,
+   "title": "Về Bản Thân-Nhẫn Pháp",
+   "text": "Nhẫn Pháp vũ trụ thiên biến vạn hóa, nhưng Nhẫn-Tín Niệm thanh tẩy cái ác sẽ không bao giờ thay đổi cho dù tương lai có bao nhiêu kiếp nạn.",
+   "unlockRequirement": "",
+   "cnUrl": "b3f35ca907f90c73797a9696fcea07640da42fcad0894953e581a8c2b68c01d1",
+   "jpUrl": "7b15a8df4139dad0633a2af3f3302c407181d7524e15d511eb5c7b258d8303ba",
+   "enUrl": "f29caa186f4e9aeb72fb0c2aebeb138afa5dab34242c934e17cc1eccc9790ed4",
+   "krUrl": "ace426e8e5052ad3d4e0918dd79a992bfef1650d3d4cbdc47bcd070628fbdf6c"
+  },
+  {
+   "id": 6,
+   "title": "Về Bản Thân-Nhẫn Cụ",
+   "text": "Sushi chắc chắn không phải cơm, thơ Haiku chắc chắn không phải ca từ, binh khí trong tay tại hạ cũng không phải là máy móc, mà là Nhẫn-Khoa Học được đúc từ Nhẫn Pháp, được thấm nhuần Nhẫn Hồn, được điều khiển bằng Nhẫn Thuật, được sử dụng đúng với Nhẫn Đạo.",
+   "unlockRequirement": "",
+   "cnUrl": "a139a46e49f7d1b189c774ad19e10789786e52f3632c4d488f2851d57938df92",
+   "jpUrl": "52be4cec41e862e8b7c9165b491a6e4d6e002e0a07ef164222823042447ea4da",
+   "enUrl": "dacb401a0c1223db48d5912635b9a35714022b82e11f680622c0b57080559c3b",
+   "krUrl": "a80ac323e001736f99634021fff62cd68a4fe50e30d2d1c16986a8936314bd7e"
+  },
+  {
+   "id": 7,
+   "title": "Tán Gẫu-Nhẫn Đạo-Chân Ngôn",
+   "text": "Dưới bầu trời này, ác niệm bay bay, những người bất lực đang vùng vẫy, trong bóng tối loay hoay. Nhẫn Pháp không chữ được viết bằng máu và nước mắt, Nhẫn Hiệp không vụ lợi được màn đêm cất nhắc. Ngôn từ bị phá vỡ, Nhẫn Pháp Dazzling rực rỡ, bọn ác ma vô đạo only way tan vỡ. Giữa thủy triều cuồng loạn, cái ác bị dìm vỡ toang, để hừng đông sáng choang, những tia lửa lại bùng lên sáng loáng.",
+   "unlockRequirement": "",
+   "cnUrl": "8f43c3a00f75617e10337441995de9d248b46888f10aaf6ad8e4be2a7d694515",
+   "jpUrl": "208af10320b50bde76be43ce5bd9d16877e395c58446c35e57c482460dbb8348",
+   "enUrl": "04e0415fe66ce961563b045274077ae985c6fd188dd022e8a71b7cc2de2fc6fb",
+   "krUrl": "fb37dd03f5068b1e17cbf9fd76b01f8c34cf0c492b0cc1d56ef006d4ffbc4c7f"
+  },
+  {
+   "id": 8,
+   "title": "Sở Thích",
+   "text": "Ngày bình yên cũng không thể chậm trễ việc tu luyện. Ngâm <ruby>Nhẫn-Chân Ngôn<rt>Rap</rt></ruby>, vẽ <ruby>Nhẫn Phù-Dazzling<rt>Graffiti</rt></ruby>, tu tập <ruby>Nhẫn Thuật Bí Pháp<rt>Manga</rt></ruby>, đây gọi là ba thú vui hữu ích.",
+   "unlockRequirement": "",
+   "cnUrl": "cdc3ea0f543e8b5ea54a6836d3c33575835023a9675d3ee2dcc4bf2b02ce2fe8",
+   "jpUrl": "1e5f568f29a9c785c220bfab93e43cfb9c25c0a998d1024566abdaa081877767",
+   "enUrl": "3773badcb72f2fd01e5b0656aa4324c8016ca4551f3de4de33d2642029823426",
+   "krUrl": "bf061084e719aa776646c90bdab4cac1a325cac9ab4a3c208415532c4ba25409"
+  },
+  {
+   "id": 9,
+   "title": "Phiền Não",
+   "text": "Các viên chức xấu xa ở khắp nơi đều không thích tại hạ vẽ Nhẫn Phù-Dazzling, tại hạ từng đối đầu với một người thi hành trong trạm dịch ở tàu-điện-ngầm bảy ngày bảy đêm, chuyện đó hình như đã được ai đó làm thành <ruby>Siêu-Ảo Cảnh<rt>game</rt></ruby>.",
+   "unlockRequirement": "",
+   "cnUrl": "c3375dd5638d30a3ae2abc02221039683660ea317d852dda08ed9e6db3d6b543",
+   "jpUrl": "3e9984c1b7fbbca90188299f6698113a6389639e7bae928a5d705094c996d3cc",
+   "enUrl": "b5f8d5e2c44a8fbb2c65b8ef1c718d51d305e721060ae5dbf60354a17f337e41",
+   "krUrl": "5e4b19c121ace3430e379d9ad5b16e04efbfe0b601452ea3fd0d6f9981842e94"
+  },
+  {
+   "id": 10,
+   "title": "Chia Sẻ-Cuộc Sống",
+   "text": "Đời người chỉ là những thứ vay mượn, hà cớ gì không tận hưởng rồi trả lại trời cao? Bí Kíp Nhẫn Pháp Vũ Trụ có nói: \"Mượn năm, trả bốn, vốn dĩ ngay từ đầu chẳng có gì, thì khi kết thúc cũng đừng nên có.\"",
+   "unlockRequirement": "",
+   "cnUrl": "ca525be66f096735b4425d2c7ae57f8f4f01876b6fcd05168096bc012c3d28ef",
+   "jpUrl": "a34789b0b0a70ae13a09ec832826c9d551f132d7aae1364f162b682351a2832c",
+   "enUrl": "23d005010a75134636e0022b02e74f17ac4a8170958bf2a8646cd20fcbfe345c",
+   "krUrl": "ed68049eff98d77895a596826bc99492626fc0ecd7b9b7714179a7a2797b69ee"
+  },
+  {
+   "id": 11,
+   "title": "Hiểu Biết-Yêu",
+   "text": "Đại Sư Trà Đắng từng dạy tại hạ, tình yêu chính là ngọn nguồn của sức mạnh ninja tạo nên thiên địa vạn vật. Tìm kiếm người cùng chung chí hướng, biết yêu thương, dũng cảm, chính là ý nghĩa sâu sắc của Nhẫn Pháp-Aishiteru.",
+   "unlockRequirement": "",
+   "cnUrl": "bb255f7191288f94c973e3ee1802cb8d213a5c0691457a5f723014fd93ee15ff",
+   "jpUrl": "1ba3da5f05d84abe83dde7b3fa35a92aa1eccc2c3eca53102d53f5ec137b9d12",
+   "enUrl": "d187c2a21f9578f4b1b5e2f627ed78a7e255bdabe1ab26e8215c3bc582e5f474",
+   "krUrl": "92cf910b4ef5303e1ef358b44fdbc4ecfea52c9308a1b67ff1acc2ec64cfa522"
+  },
+  {
+   "id": 12,
+   "title": "Về Điện Hạ Tu La-Súng Bạc",
+   "text": "Viên đạn của Điện Hạ Tu La-Súng Bạc, phong ấn yết hầu vạn dặm, ý chí của Điện Hạ Tu La-Súng Bạc, kim cang bất hoại. Nếu dùng viên đạn của Điện Hạ Tu La-Súng Bạc bắn ý chí của anh ấy... xin lỗi, hình như không nên triển khai chủ đề theo hướng này.",
+   "unlockRequirement": "",
+   "cnUrl": "a5ee71421391d218dceed8ac756224631e17fa65fb2527656a9c973486f253d1",
+   "jpUrl": "0d979b84383102b8a7d8b77c0e21e6ce44a4302968fc7855e4628f5885a502c8",
+   "enUrl": "3e7a6e3dc586fe1b4f2548f165d97f543ccbb66e18e7c56e8fab6d32b0f4708d",
+   "krUrl": "5613c0fda878fcd2274fc7ea425c6a4452a45cbee1257674a1eb99fa0cdc12b1"
+  },
+  {
+   "id": 13,
+   "title": "Về Ninja Hiryū",
+   "text": "Người này Nhẫn Pháp cao siêu, nói chuyện phi phàm, có thể gọi là Đại Sư Ninja văn võ song toàn. Tại hạ vẫn chưa thể đuổi kịp tâm cảnh của anh ấy, vẫn phải tu hành thêm!",
+   "unlockRequirement": "",
+   "cnUrl": "44719cd9692cf235b412ec90b7bb6debdc210cb2ed2a10528a95ba997612bff7",
+   "jpUrl": "e6f4c0747edbba162319018c3187fd063c886c8da4749ac0ca79b8bdf28fe1ce",
+   "enUrl": "a4019c85bc56a0723b966210d1a1afeb2c4449e387d9c96a1cc98d71bf778562",
+   "krUrl": "20bac477122a3b8eae7cd1e9954fa8952d7d06b317bd781a90f5d6cf5dc52045"
+  },
+  {
+   "id": 14,
+   "title": "Về Ninja Ruri",
+   "text": "Cô ấy từng đau khổ vì không biết về quá khứ của mình, nhưng vẫn kiên trì tiến về phía trước. Bí Kíp Nhẫn Pháp Vũ Trụ có nói: \"Cuộc sống là phù du, nó tồn tại bên trong chứ không phải bên ngoài, đang ở hiện tại chứ không phải đang đến, ở đây chứ không phải ở nơi nào khác.\"",
+   "unlockRequirement": "",
+   "cnUrl": "335fa93154cae14d872a2af6c15d04735f6355841c7d54a0e856d6b742fa874c",
+   "jpUrl": "add3984953dd2f3bf11e268cd3163c368ed09728b2ba191fedd5dc845e4bf8af",
+   "enUrl": "38cd916046a7d4f70acd4290db6d7d06b01fb9525c8c1a57ba9fe6b45f208a4a",
+   "krUrl": "fa3ef5e278708315b7d570f9e56bf5c7c4380c755c73825b6354ebca1a2f2459"
+  },
+  {
+   "id": 15,
+   "title": "Về Ninja Gama",
+   "text": "Anh ấy đi khắp thế giới hữu hình, thu thập vạn vật để tìm kiếm Nhẫn Đạo chính pháp. Nhưng mọi hiện tượng chỉ là ảo ảnh, Bí Kíp Nhẫn Pháp Vũ Trụ có nói: \"Mộng tức vô mộng, không tức bất không, không đến cũng không đi, chỉ đang ở trong chính nó.\"",
+   "unlockRequirement": "",
+   "cnUrl": "a6a68fdea38bbf8fa816aaa9b5a1fcb0f015f8dca32f9eab8f488670ac87d0b7",
+   "jpUrl": "b2d5d536a6f19cb4d17c6ecf0b1cf7e513532f4325ba31fa92dc43bb3f4c51a7",
+   "enUrl": "b5999cc71eb24388f73560130276764387cb03ad484d140455354ed8a98754fe",
+   "krUrl": "eff545d627c40359c985a2bbfd9e7ca193a17e51997a5f9647d9ddfc52b683a3"
+  },
+  {
+   "id": 16,
+   "title": "Về Ninja Ca Múa",
+   "text": "Giai điệu đẹp đẽ như thế nào? Khi tiếng hát vang lên, tại hạ cũng khóc than trên mặt đất. Một đời người một khắc vinh hoa, hoa nở hoa rơi, người vẫn là người, woohoo!",
+   "unlockRequirement": "",
+   "cnUrl": "7501a8ae10172d2d2173dacd24e8f09787f35b7ebefc9f3d19cfbe0bf123b72a",
+   "jpUrl": "e3b898e78d5b256ef616bb123771f685dbfe4a1d29a10aba12571b5c3a6b0e23",
+   "enUrl": "004f63759cf319ef2f86efd13a3579f93840e87af9f15644cf325ddf00186392",
+   "krUrl": "58f04daaceb72bca07d2b342cf152c594890d117e484873373d3e885e2b634bf"
+  },
+  {
+   "id": 17,
+   "title": "Về Tà Nhẫn-Osaru",
+   "text": "Trong thời đại Mạt Pháp, Tà Nhẫn thịnh vượng. May mắn thay, cho dù Tà Nhẫn-Osaru có lớn mạnh cỡ nào, đều khó thoát khỏi vòng sinh tử. Người sống rồi cũng sẽ chết, nhưng tội nghiệt sẽ mãi mãi còn đó, thần uy của Thần Lan Vĩ Đại cuối cùng sẽ hiển hiện.",
+   "unlockRequirement": "",
+   "cnUrl": "7af3c045b046a28262e728281ccc49fe0d1fd9fcddb2eb51ee108a651e87cbac",
+   "jpUrl": "c62981c2ef88f070c5aa4886caaa404086bd0d16c1304c58f2b6d8907819de7d",
+   "enUrl": "3572f25800d3d8828f4eab28a40ddb1edea8a95a8fc928d2c140d1e45604c31d",
+   "krUrl": "36fef9a9cfe10b17b7af58ce0dde44e11298ad3b3f37b751c5e6221652aacc8c"
+  },
+  {
+   "id": 18,
+   "title": "Về Trào Lưu Cơ Giới",
+   "text": "Giai Điệu-Nhẫn Âm đến từ Vương Quốc Tuyết! Âm thanh này chắc chắn có thể khiến gió xuân tản mác, lặng lẽ đáp mây trời.",
+   "unlockRequirement": "",
+   "cnUrl": "48773c0887379ede9881b02ad12358c5bf7eb77cfa3fb7b835e8452370fb5fe4",
+   "jpUrl": "36e8ad4e741d97e31639ea231f81f9dcb225f3a34727814b30b968fac586a343",
+   "enUrl": "b4899952965f4ca8961acff8f0f31f44e3c4573a91fc0afa2931e9de6e4ee23c",
+   "krUrl": "32951ca79046a030da71a3d94aa39bc87917544def2843ce3aca5898b64b6531"
+  },
+  {
+   "id": 19,
+   "title": "Về Quỷ Đỏ-Tay Giả",
+   "text": "Để chiêm ngưỡng trận quyết đấu của Điện Hạ Tu La-Súng Bạc, tại hạ từng đích thân đến Xianzhou Luofu. Đối thủ của anh ấy là một ninja Quỷ Đỏ dùng tay giả ninja, ý chí chiến đấu thuần khiết không chút tạp niệm, tuyệt đối không phải người tầm thường.",
+   "unlockRequirement": "",
+   "cnUrl": "1b03a87e6c9b4504e2b33226b81348c54872de666cacd984ea2ed6487b1583a6",
+   "jpUrl": "bd3698c4f760e2186f85744318b90114322c362390143925de0df0e83682a613",
+   "enUrl": "ac78172b3f0b4bf415e6ca4a9b7a7f8bf4d4dc6bf902b563475698d1421be626",
+   "krUrl": "92ef7af8825aee3bf0a2315243d20afd61d06f73d6aac6b79609bbebec4d8501"
+  },
+  {
+   "id": 20,
+   "title": "Kích Hoạt Tinh Hồn",
+   "text": "Ossu! Không đến không đi, không chết không sống.",
+   "unlockRequirement": "",
+   "cnUrl": "ad1201c50fe1f8440b15c17eef2379f4ff699dae1214f254a336eb76251c4989",
+   "jpUrl": "7cb1bf9d3943c2bc1603b2a8d2d7fc96d331060cbf35e920b7890c1a3d26453c",
+   "enUrl": "15d690f9adb6ff77c8b234f26ff48bbf09072297b18e84f499070d802fc83205",
+   "krUrl": "279dce81cc4917aa15b7a7ded19cf6090c113c95f9be117c80ad9c7d837b7d02"
+  },
+  {
+   "id": 21,
+   "title": "Nâng Bậc Nhân Vật",
+   "text": "Ossu! Đời là bể khổ, thăng trầm được mất.",
+   "unlockRequirement": "",
+   "cnUrl": "fc9515200c3d13541ba38d26db4c814fab2eaaeb560bdfdcedaf9d58a98e9d99",
+   "jpUrl": "9a4ee255b821c4a799e3f6b2eddc9f42e7edcf7ebc0092e40735ee5750b20f3e",
+   "enUrl": "8ff7551e71ad335f312cd5605db6c24e82b679297fc3829e116ebcde918f35b9",
+   "krUrl": "3c933eb42c0da57c81c534a97ecca29255269d5c975203503c7219d8df7c3f40"
+  },
+  {
+   "id": 22,
+   "title": "Nhân Vật Đầy Cấp",
+   "text": "Thân này như mây khó lưu danh, chẳng qua là ánh sáng của sương sớm.",
+   "unlockRequirement": "",
+   "cnUrl": "767641ec352bbb319c70f72e5289240a98f6d82f0790cf5569336147ec4766c2",
+   "jpUrl": "bc16c92092ad65ec3f3cdf3ddc63473cf8cddcfc406f4ee41f6a53b34fb615ab",
+   "enUrl": "52d3e9dea2bba2eda180981b2db259f751bb470e4523dce64bd193f1e1b5ad5d",
+   "krUrl": "456bf7e6094aa5e2f23dbe9676a4b531d25306e22ea9f1dc278dbae288fd3ae8"
+  },
+  {
+   "id": 23,
+   "title": "Kích Hoạt Vết Tích",
+   "text": "Vô tình! Hóa hận thành hoa mù tiêu tan.",
+   "unlockRequirement": "",
+   "cnUrl": "9091424d14c18f1b5b292efe606c2acd34ec62579a9dd675c3a5df7cf2b76b5c",
+   "jpUrl": "17d2376344316b72c3677dba9fb21c71be98704f12555b54b02aa03565417b9b",
+   "enUrl": "0179d3e1d18f34a3e88f3578a02587c466c096bc02607d48ae78188673f03087",
+   "krUrl": "803a5c52daf9284d5f667a55fb9dd0ceb4f0a5776e2f64a36f182aa5f41baff3"
+  },
+  {
+   "id": 24,
+   "title": "Điều Chỉnh Đội-Nhà Khai Phá",
+   "text": "Ninja Nhà Khai Phá, xin chỉ giáo.",
+   "unlockRequirement": "",
+   "cnUrl": "b067a94886b328e8859ad49c233ae91675941a7cfa61be949de5ae714f24bde7",
+   "jpUrl": "a90196b6d4340899a5a1468182c661c1768e40cfe1b88a5aef39ce8534581249",
+   "enUrl": "54a4016a05c48445ca83382e1bd4f7697243b103088dd2c444f9019091c27143",
+   "krUrl": "06b7c2e726d693ceb276b66f038ee7c5158d63515a3effb06def2f6aad654d34"
+  },
+  {
+   "id": 25,
+   "title": "Điều Chỉnh Đội-Boothill",
+   "text": "Điện Hạ Tu La-Súng Bạc, hãy để tà ma nếm thử sức mạnh liên thủ ninja chói lọi của chúng ta!",
+   "unlockRequirement": "",
+   "cnUrl": "215b49f5299e3ad214eea4cf9e8ac26111b563aad5aa70c205924df1a2f48dfe",
+   "jpUrl": "19feb0511f184b5d3e32dace45494e1af2600eb084a93d2a91cc00b883eba074",
+   "enUrl": "d5e8f181ff06a18f12a73a5a49058f851d76aa5022c316d57d826363c226e769",
+   "krUrl": "65e47028639a09f88e8a1115589fc542c1e3ee7529a6c4cce563a86eb3cc0f08"
+  },
+  {
+   "id": 26,
+   "title": "Điều Chỉnh Đội-Dan Heng",
+   "text": "Ninja Hiryū, có các hạ tương trợ như có được sức mạnh của trăm người.",
+   "unlockRequirement": "",
+   "cnUrl": "5bdf48c539a3802475f0c6292833048865603c644a43307e53bf17fc8f26d010",
+   "jpUrl": "437d6f8de5e31adb3fd83ca2650cac6637a3ace2673ccf75e6edab42091b2e57",
+   "enUrl": "cd6bf0e883f0211af15e11de90b18fd4e786f30534175ecb6ec71cfe557df92a",
+   "krUrl": "4cb843b6ff5451a2be43cd5dc5cb68b5eb0816b49180134f44d0484a071c8a99"
+  },
+  {
+   "id": 27,
+   "title": "Điều Chỉnh Đội-March 7th",
+   "text": "Nhẫn Pháp-Ẩn Băng thành thạo như vậy, thật không hổ danh là ninja Ruri.",
+   "unlockRequirement": "",
+   "cnUrl": "ca532bae0682a8d79d4ef4aba60bb92703c4bd98e275fd489e48789182a805e4",
+   "jpUrl": "95f6691589cd224df57f0c8325786819bcf6b8705b6b88305cf080e1789d9e85",
+   "enUrl": "a7369badbf2be38a08786dd216111f1afda435dd940d81f0749726d82abdaafa",
+   "krUrl": "f914f8b76732e7d06ba50432fd6def4254e3ae424ca8840941435713fc093bcc"
+  },
+  {
+   "id": 28,
+   "title": "Điều Chỉnh Đội-Robin",
+   "text": "Có Nhẫn Pháp-Âm Luật của các hạ đồng hành, tôi chắc chắn có thể phá vỡ tất cả tà chướng.",
+   "unlockRequirement": "",
+   "cnUrl": "5eb0c81522210889c74d05ed9c3262fe80485ef1ed0b333d75d603798ca1d20d",
+   "jpUrl": "2094ee19b072762c171afe14fb78dca5dfa9046744d2483d8c3945c849a9ee22",
+   "enUrl": "01f23ab2019951c75414f4dd4ed012a8042e65e8749b31f708fbf3fc1d8a77d5",
+   "krUrl": "5d49e0432fc5765b4091c07ac6ede8f8a1c52bd82665244a1a6094d397ffcb17"
+  },
+  {
+   "id": 51,
+   "title": "Chiến Đấu Bắt Đầu-Phá Vỡ Điểm Yếu",
+   "text": "Giáp Mặt-Vỡ Nát!",
+   "unlockRequirement": "",
+   "cnUrl": "3d8698431c62978e468ccbd20371c651a40dd6c39ec334f7ce999f3334128c43",
+   "jpUrl": "aa16226c229185cb7bd9defceb69481e999d8c59930b62af4cd7bf568ee61185",
+   "enUrl": "a0ece4c9931c41ee1a7daa9a2a506c478e404e0258321a1f05c39a3de86098f1",
+   "krUrl": "90ad7c763b343a568ab0ea923abeefaefb7d23bc07bb2e4340518765b64b8217"
+  },
+  {
+   "id": 52,
+   "title": "Chiến Đấu Bắt Đầu-Cảnh Báo Nguy Hiểm",
+   "text": "Nơi này sắp trở thành điểm bắt đầu của cuộc săn bắt vĩ đại!",
+   "unlockRequirement": "",
+   "cnUrl": "1dfe878fac3192d55c753794d3a6075f6ca2994bebf58ec960dff3c7f97b64e8",
+   "jpUrl": "2c55defd3750ea3686fc054315a10093a6931ce1bcde5650b52d6cec4d9a49f5",
+   "enUrl": "1a503cbee60038ba7512140c08c5d4b7d844e2bfa670058cd822aff471acdcaf",
+   "krUrl": "453f5211e8d89cd523d68529ab06a011a7e7b7e77694e5af150b4d00cecb029d"
+  },
+  {
+   "id": 53,
+   "title": "Bắt Đầu Hiệp 1",
+   "text": "<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>, thanh trừng!",
+   "unlockRequirement": "",
+   "cnUrl": "88b33428aebfaf5e3ea6c8d7d858f13d55b489a52b46bcc1cf36359e104717a4",
+   "jpUrl": "7040a9b77a8fccf5ccafabda1347dae6721f2f9d0a238f668f3238415a2b0d64",
+   "enUrl": "a0428453640060a7df11aea876d9b91a2ad812bcef3725c9ef3a2fbefd4da0eb",
+   "krUrl": "ad96cf76d1c90ff5b7fc475893a0076e2d53fc97813d2a78250fb73d0307d206"
+  },
+  {
+   "id": 54,
+   "title": "Bắt Đầu Hiệp 2",
+   "text": "Tà ma bốn phương, mau lui ra!",
+   "unlockRequirement": "",
+   "cnUrl": "a4332a3cebf54057d54bc063d8845e998e644d98549c81ad3d5be2d04a2b94cc",
+   "jpUrl": "cdb746dcdb1c380b52493f4d5eee8f1750129de2e48e2e44225f1ebe131b8514",
+   "enUrl": "7d216e68c0ebae2d59ebb3609073b9821586a689b8b414873d6b9c8172cecad3",
+   "krUrl": "e7b39d037095728fad4318b2b7591630e46a4683b0026616140fdebf76d09db6"
+  },
+  {
+   "id": 55,
+   "title": "Chờ Lượt",
+   "text": "Bí Kíp Nhẫn Pháp Vũ Trụ có nói: Thời cơ chưa đến, kiên nhẫn chờ đợi.",
+   "unlockRequirement": "",
+   "cnUrl": "690c4909c6b057f9431780fa89f1e7f3ccc31c27dd0789edc41a986397ec5972",
+   "jpUrl": "634d075481878bce1a74181368e2776292b66637d900153e6a6c570a5852dba8",
+   "enUrl": "66426cfdfc24afc96024d33d77079a97892bdff9f7350ab10969e75a38d3542b",
+   "krUrl": "00e06836a4b483c94c0e9a24580a438fb1c4d768e1e22ecba859d65e73bd4e93"
+  },
+  {
+   "id": 56,
+   "title": "Tấn Công Thường",
+   "text": "Iai!",
+   "unlockRequirement": "",
+   "cnUrl": "8810b6e4f060cde1d395cb977ccfd7ec00efa9ff44cba510c02d30e0f1aa4ae7",
+   "jpUrl": "1653cc9335062c66c5a157c37523e6ebcced69811f43299edf1a172c61e0d719",
+   "enUrl": "5ab4e5ff4c3bc69c2322a117b1d44f67c3b164031cedd16c1a75d31edd7ef204",
+   "krUrl": "bd61fc5605fdc9e577e09bf459d67ae32e62d0bd78c0757be6c1e3fa9a9811bb"
+  },
+  {
+   "id": 57,
+   "title": "Chiến Kỹ 1",
+   "text": "Nhẫn Pháp-Dazzling-Tranh Thủy Mặc",
+   "unlockRequirement": "",
+   "cnUrl": "6e7d3c8471714c8dd68aded5d00b4532d0fd3d5260499b38b40c9f216a622ab4",
+   "jpUrl": "69cb4f7328169dba30cd9fe3ce9858dfbbcbef3f2053b7d753b271bc9beb213c",
+   "enUrl": "965a60f5a99da2fc36c34958aea7fec978af7eced3e4d5c5bf63622177126fdf",
+   "krUrl": "3f1aa515eecddf66f26ac007f0536b44a6cbf18fc7029da0aeedf36e93ffd4cb"
+  },
+  {
+   "id": 58,
+   "title": "Chiến Kỹ 2",
+   "text": "Nhẫn Pháp-Dazzling-Sắc Màu Bùng Nổ!",
+   "unlockRequirement": "",
+   "cnUrl": "61ff064dbd9bbdd5c8bb58cc68c49ae8f518eb5bc13ee0a5f2affd953744159e",
+   "jpUrl": "6ef83f69dd02772aaab729328f8bf6a4aa1590e945ffe67053a82c231a65316c",
+   "enUrl": "dc53764d31a5aa1f35892421503a94a1b670620f953079631f99054e8598aa1c",
+   "krUrl": "57b08bf804a1b1a876e40ca1f9a1b9a038348c44155268f3f9766d4dc65c211c"
+  },
+  {
+   "id": 59,
+   "title": "Bị Tấn Công Nhẹ",
+   "text": "Vô dụng!",
+   "unlockRequirement": "",
+   "cnUrl": "4fe18941395dc6ded46ac3dc16b6b3edbed44f56fa52804bef9f4314ea48bf41",
+   "jpUrl": "c0e313e9a993e5a2baf5d6aca0d7de682756c8e16b8c337d86c634e04b6aaeea",
+   "enUrl": "a036ef9773d5988ffb41711904c71ad2cc68539d98ca51963fc4f09957c5c5bb",
+   "krUrl": "e949ad38945d9a20216c1cad5b985c17ce1f26734380baf6782c4df002019491"
+  },
+  {
+   "id": 60,
+   "title": "Bị Tấn Công Nặng",
+   "text": "Ây da không tệ!",
+   "unlockRequirement": "",
+   "cnUrl": "92009f5ddf247311a65ee1ee8637b70437ee21a1cf9a798e094430186b051663",
+   "jpUrl": "5ffd09fe98bfcfd31773a8271506f4aa998a86cfa9629e767b19fe1960049e0b",
+   "enUrl": "ff096213d34a141f92e183830bd0ec576cb6c29d051684d7e61740c31aff7fd4",
+   "krUrl": "4a2b338de23ac5a42534bca645806e1dd3513e8f381b9cf6c2db51b08d7b5966"
+  },
+  {
+   "id": 61,
+   "title": "Tuyệt Kỹ-Kích Hoạt",
+   "text": "Nhẫn Pháp vũ trụ, thiên biến vạn hóa.",
+   "unlockRequirement": "",
+   "cnUrl": "99693f31e0f5d8840bde06a5276b13e10ad752a6ee14ae5cafac66ce06727fdf",
+   "jpUrl": "74e1f1523e1f2ea517c3f7abc200eb12dc583bf27aee10b72c5e468f7c434523",
+   "enUrl": "d678b43276d6963a053d7832e88d0feaa1252b792d49449c263516c8893dbea2",
+   "krUrl": "b708c46206fdb32f4f9f19f46b1f75c358e90355d810a3d7611993cc94e896f2"
+  },
+  {
+   "id": 62,
+   "title": "Kích Hoạt Tuyệt Kỹ",
+   "text": "Đây chính là Bí Thuật-Nhẫn Pháp-Dazzling Sát Trận Hủy Diệt!",
+   "unlockRequirement": "",
+   "cnUrl": "4509860b6c44ae33ce6f6d63ff67745da1af5b2a4f1847ffb29ab4b400089ced",
+   "jpUrl": "b1b28ac0fadc4cb75bd2a01a0a1eaa4a92a727d579e59153c7a37e505ac704bd",
+   "enUrl": "a39c1c0dd22b9df6b9b92e3a56666fe9fd30a16c79d7b1ca6344de1372feaee9",
+   "krUrl": "f489346511e853eddb5248ecfd7e88f7869408b9aa52fcb25e014629f8923f83"
+  },
+  {
+   "id": 63,
+   "title": "Tuyệt Kỹ-Thi Triển",
+   "text": "Trảm! Đoạn! Phá!",
+   "unlockRequirement": "",
+   "cnUrl": "170d84f837a4a214f37997df4790d61c3a69c0aa034dd76fe2285c8dae876e63",
+   "jpUrl": "16c4c0e0e5d037081a80a7155271d2f3b5261b33566089eb95c26e80a352f2d3",
+   "enUrl": "6196d07672499cbc9eaefcede14e8daa02364be10521396875dcc45e413dbdba",
+   "krUrl": "9469628dffd1e28323ea0eeb4823c95217025092e76ebda6e94bd0a291900be9"
+  },
+  {
+   "id": 64,
+   "title": "Không Thể Chiến Đấu",
+   "text": "Xin tạm biệt, tại đây...",
+   "unlockRequirement": "",
+   "cnUrl": "e2963a490f21955a4f6616fd9229c2d0e7a512aa8d5ee15156b739c7d1611b50",
+   "jpUrl": "3f5e514e1258e7253c1d133889e39f22dc4a5d36858500fcc0a14df370f1fb4a",
+   "enUrl": "9533eb7401eb2f79927c67747280bc98e6db1aa515027af6bd4f14895c6f07e0",
+   "krUrl": "126b6bd9677bd439345a80254b361a7369fc1b4706350cc7707deab8c4e349f4"
+  },
+  {
+   "id": 65,
+   "title": "Trở Lại Chiến Đấu",
+   "text": "Nhẫn Pháp-Chuyển Sinh? Hoàn hảo vô địch!",
+   "unlockRequirement": "",
+   "cnUrl": "b5f64ef5acce39aed35a49cd4f2da2f49ac70a76e0889fe0412cab730a1111d6",
+   "jpUrl": "12add55b990bfe050d0a840dcbf30057252d09f59766eb8fe71f243397c08954",
+   "enUrl": "c9ed46b146e9aff37c97292147da66df81f4acbeda737780b687f15027c26470",
+   "krUrl": "cb6855370e747754012abcd9b70f1a4a784647ca0c58da161af83dd9391d1cab"
+  },
+  {
+   "id": 66,
+   "title": "Hồi Phục HP",
+   "text": "Thích vô cùng! Nhẫn-Y Thuật!!",
+   "unlockRequirement": "",
+   "cnUrl": "f7cba2dd0d20b7de5cef20169a3eabafb5eb5aae33485dc06680a4006a1e0cfc",
+   "jpUrl": "cea25f3e5fdc57e39e453545bfd4cf433a4c80291f7b7a0393596d58e4f60d8d",
+   "enUrl": "785e3a5dabbdbe4b0e3b6c17fab8d2b90d0c55aded0d215a748c76a2dd322c20",
+   "krUrl": "0e7fa101782c887170b624cb56f71c79aad31fc199dbc36d2e56ed88e014a6aa"
+  },
+  {
+   "id": 67,
+   "title": "Bí Kỹ",
+   "text": "Nhẫn bộ bạo tẩu!",
+   "unlockRequirement": "",
+   "cnUrl": "b3373bb2094b1477733e6135f6fa9da7436f546aaeda98f6d051940249865087",
+   "jpUrl": "fa7348f60748bff99b65231160b8d7521d1347a9e22bfca63d1708088c34003a",
+   "enUrl": "da7819e59de4ea6b4ce6e5ff0c527be88eedf904e70e68fd5985cd8020950201",
+   "krUrl": "44a66af4319a22d813be90e92e05796bc61098abc1dc6dacf1b49059be0e4595"
+  },
+  {
+   "id": 68,
+   "title": "Chiến Thắng",
+   "text": "Tại hạ sẽ khắc ghi lời từ biệt của mọi người, cáo từ.",
+   "unlockRequirement": "",
+   "cnUrl": "52b3824defd23bbb073fa5e21b2a7a2ff1e4b16354d5da9b362e497897f87788",
+   "jpUrl": "d8a9569eb658190276a1bd035cb96e4ebce6e564ca165741305641e9e4239a7b",
+   "enUrl": "73988a09e10acbb279032a827ef7d9e3f8e862d2350651736400b517ab25b9a2",
+   "krUrl": "e83b8bf07d9dd4245c8d11b2de624c48af576ad8a4cc7259d9f029c52a6fb527"
+  },
+  {
+   "id": 69,
+   "title": "Mở Chiến Lợi Phẩm 1",
+   "text": "Nhẫn Hiệp không thể tham tiền... nhưng vẫn cần tiền.",
+   "unlockRequirement": "",
+   "cnUrl": "56e19973fafe5bbbd6ee6d3704dc9d81bd9e11e77073dba75458a46e74783ac0",
+   "jpUrl": "b2a2b5f4a7dda1a7994a21bb879347d949acfbc5045b3239ae731805e1702772",
+   "enUrl": "052b578d99663c55aa4719791a9531d10e0f60de0eaa5038236edb2b270b6c50",
+   "krUrl": "8d20023492ffea261aa3dff3aa9720c3835fffc15b9070b16e13cc44798975e0"
+  },
+  {
+   "id": 70,
+   "title": "Mở Chiến Lợi Phẩm 2",
+   "text": "Phần thưởng của Thần Lan Vĩ Đại ban tặng, tại hạ xin nhận.",
+   "unlockRequirement": "",
+   "cnUrl": "6017f0a1180d32bf13d5072ec742ffcea716af392a60f6a483e04412df394760",
+   "jpUrl": "b27c801f068cb07fede41bac5429da9187ca9282468fc8f3a146cc2c2a795c8f",
+   "enUrl": "d8a485ba1a45b2f099f94f70f8716dc07f5fa60e4fd7142a98a50bbf889c139b",
+   "krUrl": "df0f0ad68c3c3b99631960be0ffd4d47438ce678fb2a09f4612ee55592700c67"
+  },
+  {
+   "id": 71,
+   "title": "Mở Chiến Lợi Phẩm Quý",
+   "text": "Bảo vật ninja được nhắc đến trong Bí Kíp Nhẫn Pháp Vũ Trụ đây ư!",
+   "unlockRequirement": "",
+   "cnUrl": "068c5630880a3ab30b8de2cc7af430209e1a1336e9358e16a1657d29f516cf5c",
+   "jpUrl": "0be9a474ac8bc697330cfed4e80478be1baf1e9bfface84d2eeeff3600a31e24",
+   "enUrl": "06295528ab77e423ea2f7f26313f322a93647c379c685511066ccdf1e8a3de14",
+   "krUrl": "d9850f60dfa59ecd61950472c53bd94dfedeea95b77e75ea33a9fdaa3b255f2f"
+  },
+  {
+   "id": 72,
+   "title": "Giải Đố Thành Công 1",
+   "text": "Cơ quan Nhẫn Pháp tuyệt diệu, nhưng không làm khó được tại hạ.",
+   "unlockRequirement": "",
+   "cnUrl": "60ba0459d2b5b56618efb5c67e9c49067f9073ccc086ba9916b1eacb90feb5dd",
+   "jpUrl": "99edd329d2b51174f87fa6efbe88c8d293d248c8646d5ed795290b76b897e97f",
+   "enUrl": "d12e5f0c0920175f066a4ab4131213193dc0ac10ba10693f54516049d83fdd59",
+   "krUrl": "651422e6081f60513b31e6869c66a173280056d1d7ceb1fc667fa18ad363f5e8"
+  },
+  {
+   "id": 73,
+   "title": "Giải Đố Thành Công 2",
+   "text": "Thử thách trí tuệ, cũng là thí luyện mà ninja phải vượt qua.",
+   "unlockRequirement": "",
+   "cnUrl": "e297f2f19fc98f4347da3057d8a249f0456df4beb7b78a11855801b9ef09f9ab",
+   "jpUrl": "0a7db650bd3a223074cf95f4c8fb0341fc1e232cd74eecf4ff8a9c530dfd821c",
+   "enUrl": "0c9b8e38dec332cb07ff712a49d5b003f9bc925c5c06e04d1df9b44b882b8b95",
+   "krUrl": "03cdb595dc9720a6ac4a94f40a11545f811ac62e93fab3d8a4d0ee959ad80376"
+  },
+  {
+   "id": 74,
+   "title": "Phát Hiện Kẻ Địch",
+   "text": "Thần Lan Vĩ Đại, tà ma thật mạnh mẽ...",
+   "unlockRequirement": "",
+   "cnUrl": "7801ab508d224cafa618c50c6ef407e28537310a78e19c27a817f2860cc0d34b",
+   "jpUrl": "9224c37c5a12628560738aa1ae47e2ad8f158e89c2a7de7877770c63c74a5cb6",
+   "enUrl": "c4467fc29f08d8bac991a74d241e34a68d4e75127285d1b8cb3900c5cdd956b5",
+   "krUrl": "979c3217b80638eb72e77f95b30a886ab1d25a7b43d8a6fb77f649d3ae5c8aa9"
+  },
+  {
+   "id": 75,
+   "title": "Về Thành",
+   "text": "Nhẫn Lực ở nơi này quá u ám, hãy để tôi thể hiện sắc màu của Nhẫn Pháp-Dazzling nào!",
+   "unlockRequirement": "",
+   "cnUrl": "11c723aa69c473e95034903dcbc891e762a07dc942e3f41c52d3e18ce7cfc222",
+   "jpUrl": "6ffe996965aee820543a25ad16499ee644a071fbeaa6567b8dd4ead1d9a92d49",
+   "enUrl": "7e5b324e7acfee46ce5a4f2602f31caafbe6ef0cd4ad559907da663df6d5ef50",
+   "krUrl": "2170924a0035f6138e8c1fc713ce76873dbdebae745e4951a09af7c4388dad43"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Chi Tiết Nhân Vật",
+   "text": "Giống như một quả lựu đạn gây choáng xuất hiện vào lúc 3 giờ sáng ở Penacony, một cô gái kỳ lạ tự xưng là Ninja, quy kết tất cả mọi thứ trên đời thành \"Nhẫn Pháp\".<br />Quán triệt Nhẫn Đạo trong Nhẫn-Chân Ngôn, vẽ Nhẫn Phù-Dazzling và tu tập Nhẫn Thuật Bí Pháp... tức là rap, graffiti và manga... Rèn luyện ý chí bản thân, rong ruổi khắp vũ trụ để bảo vệ công lý.<br />Là một thành viên của Cảnh Binh Thiên Hà, từ đầu đến cuối một lòng săn đuổi kẻ ác độc mang tên Tà Nhẫn-Osaru đến tận cùng thiên hà.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 1",
+   "text": "<b>Bí Kíp Nhẫn Pháp Vũ Trụ: Dazzling Phá Ma Truyền Kỳ - Khu vực rèn luyện: Shuriken Tàn Nhẫn</b><br /> >>Khởi tạo hệ thống>><br />>>Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> kết nối hoàn tất>><br />>>Đang xác minh cấp ninja>><br />>>Chào mừng đến với Game Ninja của riêng bạn!>><br /><br />Hệ thống rèn luyện: Đường phố Kinh Đô Ninja bị bao phủ trong ánh trăng xanh dị thường. Bên trong Nhà Osaru, chất nhầy có mùi hôi rỉ ra từ lọ thủy tinh vỡ nát, những tiếng hú kỳ lạ văng vẳng bên tai.<br />Hệ thống rèn luyện: Bạn mang theo Nhẫn Cụ-Sắc Mực Dazzling được đại sư tặng, băng qua màn mưa axit vô tình, xẻ đôi bầu không khí ô nhiễm, lao về phía trung tâm của Nhà Osaru.<br />Hệ thống rèn luyện: Các Tà Nhẫn đã phát hiện ra bạn, họ nói những lời bạn không thể hiểu được và lao về phía bạn.<br /><br />???: \"Các mẫu vật thí nghiệm đang nổi loạn rồi!\"<br />???: \"Ôi trời, hỏng hết các thiết bị đắt tiền rồi!\"<br />???: \"Ai đã bơm loại virus chết tiệt này vào đầu cô ấy vậy!\"<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>: \"Heeeeeeya...\"<br />Thông báo hệ thống: Ninja đã tung ra một luồng ánh sáng huyền ảo từ trong tay!<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>: \"Whoaaa...\"<br />Thông báo hệ thống: Ninja đã tận dụng địa hình để thoát khỏi vòng vây của lũ Tà Nhẫn!<br />Tin nhắn hệ thống: Thần Đại Bát Nhã tại thượng! Sự sống của ninja đã giảm xuống mức cảnh báo! Nguy hiểm thực sự!<br />Thông báo hệ thống: Ninja đã đột phá vòng vây!<br />Thông báo hệ thống: Ninja đã đứng ở nơi cao nhất Kinh Đô Ninja!<br />Thông báo hệ thống: Ánh sáng của ninja đã soi sáng cho thành phố đổ nát này!<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>: \"Lũ ác độc kia, hãy nói lời từ biệt sau cuối đi...\"<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>: \"Bí Thuật-Nhẫn Pháp-Dazzling Sát Trận Hủy Diệt!\"<br />Hệ thống rèn luyện: Trận pháp của Nhà Osaru vỡ vụn như những bông tuyết tan chảy, và cuối cùng bạn cũng đã mở được cánh cửa lớn của Kinh Đô Ninja.<br />Hệ thống rèn luyện: Bạn thất vọng khi phát hiện ngoài cửa không có kẻ chủ mưu Tà Nhẫn-Osaru.<br />Hệ thống rèn luyện: Bạn ngạc nhiên khi phát hiện ra thế giới bên ngoài Kinh Đô Ninja rất rộng lớn, rộng lớn đến mức khiến bạn cảm thấy sợ hãi.<br />Hệ thống rèn luyện: Bạn quay đầu nhìn lại, trong lòng đã âm thầm đưa ra quyết định.<br /><b>Lựa chọn:<br />       1. Đi về phía trước.<br />       2. Lùi về phía sau.</b><br />Thông báo hệ thống: Ninja còn 5 giây để đưa ra lựa chọn.<br />Thông báo hệ thống: 5<br />Thông báo hệ thống: 4<br />Thông báo hệ thống: Ninja đã chọn [Đi về phía trước].<br />Hệ thống rèn luyện: Thần Lan Vĩ Đại tại thượng! Ninja không còn đường quay lại! Huống hồ, không một ai có thể từ chối việc trở thành huyền thoại anh hùng cứu thế.<br />Hệ thống rèn luyện: Hãy mở ra \"Dazzling Phá Ma Truyền Kỳ\" của riêng bạn nhé!<br />Thông báo hệ thống: Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> có <nobr>10.000</nobr> kinh nghiệm và nhận được <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Lưỡi Xoáy Hàng Ma</span> giúp tăng sức tấn công mạnh mẽ.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>20</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 2",
+   "text": "<b>Bí Kíp Nhẫn Pháp Vũ Trụ: Dazzling Phá Ma Truyền Kỳ - Khu vực rèn luyện: Trái Tim To Lớn Của Ninja</b><br />>>Khởi tạo hệ thống>><br />>>Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> kết nối hoàn tất>><br />>>Đang xác minh cấp ninja>><br />>>Chào mừng đến với Game Ninja của riêng bạn!>><br /><br />Hệ thống rèn luyện: Sau khi phá hủy tà trận của Nhà Osaru, bạn thề sẽ tiêu diệt Tà Nhẫn-Osaru.<br />Hệ thống rèn luyện: Bạn đang du hành đến một ngôi làng xa lạ, giải cứu một \"lữ khách\" đang bị vượn chiến đấu truy đuổi.<br />Hệ thống rèn luyện: Bạn phát hiện, hóa ra cậu ấy từng là người ghi chép chịu sự quản lý của Nhà Osaru. Không còn nghi ngờ gì nữa, Tà Nhẫn-Osaru sẽ truy sát cậu ấy đến cùng.<br /><br />Người ghi chép bị thương nặng: \"Thật buồn cười, không ngờ lại được cô giải cứu.\"<br />Người ghi chép bị thương nặng: \"Vẫn trung thành với cái trò ninja đó à, cô biết không? Đó chỉ là một Virus Meme.\"<br />Người ghi chép bị thương nặng: \"Siêu nhân? Ninja? Cảnh Binh?... Cho dù là một kiểu tương lai nào đi chăng nữa, đều cũng sẽ do người khác quyết định. Cô sẽ không bao giờ có thể quay lại \"thế giới\" thực sự.\"<br />Thông báo hệ thống: Ninja đang cân nhắc quan điểm của người ghi chép.<br />Thông báo hệ thống: Thần Lan Vĩ Đại tại thượng! Sĩ khí của ninja bắt đầu giảm sút.<br />Hệ thống rèn luyện: Ôi ôi ôi! Thật là một sự thật tàn khốc. Bạn đã biết điều đó từ lâu, nhưng không muốn đối mặt với nó.<br />Hệ thống rèn luyện: Nhưng lúc này, bạn phải đưa ra lựa chọn... Tay chân của Tà Nhẫn lại tiếp tục truy đuổi, bạn có cần cứu kẻ vong ơn bội nghĩa, lấy oán báo ân này không?<br /><b>Lựa chọn:<br />       1. Cứu một mạng người.</b><br />       Hệ thống rèn luyện: \"Con đường tương lai của tôi đại đạo vô biên, Tà Nhẫn chẳng qua chỉ là dấu chân trên bờ, lựa chọn duy nhất là cuộc săn bắn vì chính nghĩa!\"<br />        Hệ thống rèn luyện: Bạn ngân nga Nhẫn-Chân Ngôn, giải quyết con khỉ độc ác đó một cách dễ dàng. Bạn không quan tâm cái tên \"Ninja\" có thật hay không, bởi bạn biết rằng những gì mình làm đều xuất phát từ suy nghĩ chân thật.<br />      <b> 2. Tôi mặc kệ.</b><br />         Hệ thống rèn luyện: \"Lại là những lời Độc Đoán-Cuồng Ngôn của Tà Nhẫn!\" Bạn khịt mũi khinh bỉ lời nói của hắn, nhưng bạn thực sự rất ghét những con khỉ phía sau, vì thế, bạn vừa phớt lờ hắn, vừa giải quyết những tên đã đuổi kịp.<br />Thông báo hệ thống: Ninja đã chọn [Cứu một mạng người].<br />Thông báo hệ thống: Sĩ khí của ninja tăng lên nhanh chóng!<br />Thông báo hệ thống: Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> +<nobr>20.000</nobr> kinh nghiệm, nhận được <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn-Tâm</span> giúp tăng giới hạn sĩ khí!<br />Hệ thống rèn luyện: Bạn không còn nghi ngờ, hay thậm chí quan tâm đến những lời Độc Đoán-Cuồng Ngôn đang cố gắng phán xét bạn đó.<br />Hệ thống rèn luyện: Họ nói bạn là con côn trùng đáng thương đắm chìm trong ảo tưởng của riêng mình.<br />Hệ thống rèn luyện: Nhưng chính họ chẳng phải cũng không khác gì sao?",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>40</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 3",
+   "text": "<b>Bí Kíp Nhẫn Pháp Vũ Trụ: Dazzling Phá Ma Truyền Kỳ - Khu vực rèn luyện: Đạo của Nhẫn Hiệp là đạo gì?</b><br />>>Khởi tạo hệ thống>><br />>>Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> kết nối hoàn tất>><br />>>Đang xác minh cấp ninja>><br />>>Chào mừng đến với Game Ninja của riêng bạn!>><br /><br />Hệ thống rèn luyện: Đây là trận chiến thứ <nobr>33</nobr> của bạn kể từ khi trở thành Nhẫn Hiệp-Dazzling, bạn đang truy đuổi dấu vết của Tà Nhẫn-Osaru, để giải cứu từng thế giới một ra khỏi bàn tay độc ác của hắn.<br />Hệ thống rèn luyện: Bạn nhìn vào hầm đất bị mình làm nổ tung trước mắt, ánh nắng mặt trời xuyên qua lỗ hổng trên tường, làn gió xuân lần đầu tiên tràn vào hang động khổng lồ này.<br />Hệ thống rèn luyện: Trước mắt là một thôn trang-vũ khí từng bị Tà Nhẫn-Osaru lừa dối suốt <nobr>20</nobr> năm. Sống dưới lòng đất, người dân nơi đây tin rằng thế giới bên ngoài đầy rẫy chiến tranh, nên đã cam tâm trở thành công cụ sản xuất vũ khí.<br />Hệ thống rèn luyện: Ái chà! Nhưng bạn hoàn toàn hiểu được suy nghĩ thực sự của người dân. Họ dựa vào lời nói dối về chiến tranh đó để xây dựng một cảm giác hạnh phúc và thỏa mãn giả tạo trong lòng.<br />Hệ thống rèn luyện: Vì vậy, họ cảm thấy đầy nghi ngờ về tương lai.<br /><br />Người dân địa phương: \"Khi chúng tôi tin rằng chiến tranh trên mặt đất vẫn chưa kết thúc, nhưng chúng tôi lại có thể tổ chức đám cưới hoặc đám tang một cách an toàn, chúng tôi liền cảm thấy hạnh phúc vì được chia sẻ cuộc sống hiếm hoi mà người khác khó có được.\"<br />Người dân địa phương: \"Khi chúng tôi được thông báo rằng quân đội trên mặt đất cần phải dựa vào vũ khí được chế tạo \"dưới đất\" để giành chiến thắng trong cuộc chiến, chúng tôi cảm thấy hạnh phúc vì chúng tôi cũng có giá trị khi sinh ra làm người.\"<br />Người dân địa phương: \"Cô nói chiến tranh đã kết thúc từ lâu? Cuộc sống trước đây là lời dối trá của những kẻ buôn bán vũ khí? Vậy, vậy thì tất cả những gì chúng tôi đã hy sinh trong <nobr>20</nobr> năm qua là vì điều gì!?\"<br />Thông báo hệ thống: Ninja đang bị người dân địa phương không rõ danh tính chất vấn.<br />Thông báo hệ thống: Sĩ khí của Ninja đang dần suy giảm.<br />Hệ thống rèn luyện: Nhưng giống như tất cả các thế giới bị Tà Nhẫn-Osaru hãm hại, nếu mặc kệ họ không thèm ngó ngàng, thì họ và con cháu cuối cùng sẽ phải hứng chịu thêm nhiều đau đớn thông qua các loại thí nghiệm.<br />Hệ thống rèn luyện: Giống như bạn đã từng.<br />Hệ thống rèn luyện: Cho hỏi, bây giờ bạn chọn thế nào?<br /><b>Lựa chọn:<br />       1. Kiên trì với Nhẫn Đạo của mình.</b><br />        Hệ thống rèn luyện: \"Đạo của Nhẫn Hiệp, phò trợ chính nghĩa tiêu diệt gian tà, là bầu trời cao mà tại hạ muốn leo đến.\"<br />        Hệ thống rèn luyện: Bạn dùng karate làm sụp một bức tường khác của căn hầm, nhiều tia sáng mặt trời tràn vào hơn, có một số người lùi sâu hơn vào trong, có một số người tiến ra phía bên ngoài.<br />       <b>2. Bỏ mặc không quan tâm.</b><br />        Hệ thống rèn luyện: Bạn không còn tranh cãi vì \"chân tướng\" nữa, bạn tôn trọng ý kiến ​​của họ. Bạn rời đi một cách chán nản, sẵn tiện giải quyết Quân-Tà Nhẫn Hỏa trên mặt đất. Bạn thầm nghĩ, bức tường đã bị phá vỡ, rồi đây họ cũng sẽ bị thu hút bởi ánh mặt trời.<br />Thông báo hệ thống: Ninja đã chọn [Kiên trì với Nhẫn Đạo của mình].<br />Thông báo hệ thống: Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> kinh nghiệm +<nobr>30.000</nobr>, nhận được <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Dazzling-Nhẫn Đạo</span> giúp tăng giới hạn sức bền!<br />Hệ thống rèn luyện: Những sinh mệnh mới ra đời ở thôn trang-vũ khí đang thích nghi với thế giới thực bằng tốc độ đáng kinh ngạc. Bạn rất vui khi thấy họ có thể trưởng thành một cách hạnh phúc và không phiền lo.<br />Hệ thống rèn luyện: Chúc mừng bạn, lại có một ngôi làng thoát khỏi tà ác... Nhưng tốc độ vân du trừ tà của bạn, còn lâu mới bằng được hiệu suất gây hại khắp nơi của Tà Nhẫn-Osaru.<br />Hệ thống rèn luyện: Bạn không có thời gian để cảm thấy mệt mỏi, tiếp theo bạn nên đi đến đâu đây?",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>60</nobr> mở khóa"
+  },
+  {
+   "title": "Câu Chuyện Nhân Vật 4",
+   "text": "<b>Bí Kíp Nhẫn Pháp Vũ Trụ: Dazzling Phá Ma Truyền Kỳ - Khu vực rèn luyện: Khởi Đầu Và Tương Lai</b><br />>>Khởi tạo hệ thống>><br />>>Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> kết nối hoàn tất>><br />>>Đang xác minh cấp ninja>><br />>>Chào mừng đến với Game Ninja của riêng bạn!>><br /><br />Hệ thống rèn luyện: Voila! Nhiệm vụ hạn giờ!<br />Hệ thống rèn luyện: Bạn ngạc nhiên khi phát hiện mình đã rơi vào một lỗ hổng kỳ lạ trong vũ trụ, và bước vào một mạch truyện giả tưởng đặc biệt... \"Nếu tôi chưa từng là ninja\".<br />Hệ thống rèn luyện: Bạn của thời thơ ấu không cần phải uống loại thuốc bí ẩn chứa hàm lượng Nhẫn-Lực quá mức nữa, không cần phải chịu đựng sự hành hạ của Nhẫn Pháp Lôi Độn nữa, tâm trí không còn bị Virus Meme trói buộc nữa.<br />Hệ thống rèn luyện: Giả sử bạn không phải là ninja, bạn sẽ muốn trở thành người như thế nào, và cuộc sống của bạn sẽ có khác biệt ra sao?<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span>: \"Không biết, tôi chưa bao giờ nghĩ đến vấn đề này.\"<br />Hệ thống rèn luyện: Chắc chắn rồi, săn đuổi Tà Nhẫn, phát huy tinh thần Nhẫn Đạo... Nguyên tắc hành động này đơn giản là đã được khắc sâu vào từng thớ thịt của bạn. Vì vậy, hãy để tôi đưa ra cho bạn lựa chọn nhé:<br /><br /><b>Lựa chọn: <br />       1. Họa sĩ truyện tranh nhiệt huyết.</b><br />        Hệ thống rèn luyện: Vẽ tranh là sở thích của bạn từ khi còn nhỏ, bạn đã đọc nhiều loại truyện tranh và sách tranh khác nhau, và dần dần bị thu hút bởi những màu sắc lộng lẫy và những câu chuyện tuyệt vời, bạn muốn tạo ra những nhân vật và cuộc sống cũng khiến người khác náo nức sục sôi. Bạn đã trở thành một họa sĩ truyện tranh nhiệt huyết và nổi tiếng.<br />      <b> 2. Rapper nổi loạn.</b><br />        Hệ thống rèn luyện: Bạn sống trong một viện nghiên cứu có quy mô nghiên cứu rộng khắp, họ mở miệng là nói về những thuật ngữ xa lạ, hoặc dùng những từ ngữ hoa mỹ không cần thiết. Họ dè dặt, nghiêm khắc về ngữ pháp và tâng bốc quyền lực... Điều này khiến bạn mệt mỏi với những từ ngữ giả dối và tầm thường. Bạn đem Chân Ngôn của mình ngân nga thành một bài hát, và trở thành ca sĩ nổi loạn.<br />       <b>3. Huấn luyện viên võ thuật.</b><br />       Hệ thống rèn luyện: Bạn sinh ra đã có thể chất phi thường hơn người khác, tập trung vào sự kích thích tinh thần do rèn luyện cơ thể mang lại... Bạn đã trở thành huấn luyện viên võ thuật và một bậc thầy karate vũ trụ.<br />Hệ thống rèn luyện: Đối mặt với những khả năng khác nhau mà cuộc sống lẽ ra phải có, bạn cảm thấy bối rối. Chúng không đi kèm với sự thù hận, cũng không bị sứ mệnh ràng buộc, không cần phải phân biệt thiện ác chi cho phức tạp, hãy ôm lấy cuộc sống do chính mình lựa chọn. Nếu có những lựa chọn và khả năng giống như thế này, bạn vẫn muốn trở thành ninja chứ?<br />Thông báo hệ thống: Ở ải này, ninja sẽ có đủ thời gian để lựa chọn.<br /><br />>>Game đang tạm dừng>><br /><br />Cô tháo kính xuống, cúi đầu trầm ngâm.<br />\"Siêu-Ảo Cảnh ở Khu Vườn Hồi Ức quả thực đã đặt ra một câu hỏi thú vị, nếu như tôi chưa từng bước chân lên Nhẫn Đạo Dazzling...\"<br />Bản vẽ thiết kế giả tưởng đó khiến cô rơi vào trạng thái mơ màng ngắn ngủi trong một lúc, nhưng cô ngay lập tức gạt bỏ vấn đề này sang một bên...<br />\"Nhưng trừ phi tất cả các linh hồn tà ác đều bị tiêu diệt khỏi thế giới, nếu không giả định này sẽ chỉ là một ý tưởng vô ích.\"<br />Các ngôi sao băng trên bầu trời đã bay lên, trước khi cuộc săn lùng của ninja hoàn thành, cần phải chuyên tâm nhất trí, ngoài điều này ra, tất cả chỉ là tạp niệm nhất thời.<br />Nhẫn Hiệp-Dazzling kéo vành mũ xuống, không chút do dự, nhảy về phía thử thách thực sự.<br /><br />>>Game đang lưu>><br /><br />Thông báo hệ thống: Người dùng <span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">Nhẫn Hiệp-Dazzling</span> đã tạm thời thoát game.",
+   "unlockRequirement": "Nhân vật đạt cấp <nobr>80</nobr> mở khóa"
+  }
+ ],
+ "archive": {
+  "cvCn": "金娜",
+  "cvJp": "潘めぐみ",
+  "cvKr": "김유림",
+  "cvEn": "Kendell Byrd",
+  "camp": "Cảnh Binh Thiên Hà"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "735764": 2,
+    "936350": 2
+   },
+   "5": {
+    "304817": 1,
+    "304818": 1,
+    "451237": 1,
+    "567881": 1,
+    "651823": 2,
+    "735763": 1
+   }
+  }
+ },
+ "name": "Rappa",
+ "rarity": 5,
+ "descHash": "Giống như một quả lựu đạn gây choáng xuất hiện vào lúc 3 giờ sáng ở Penacony, một cô gái kỳ lạ tự xưng là Ninja, quy kết tất cả mọi thứ trên đời thành \"Nhẫn Pháp\". Quán triệt Nhẫn Đạo trong Nhẫn-Chân Ngôn, vẽ Nhẫn Phù-Dazzling và tu tập Nhẫn Thuật Bí Pháp... tức là rap, graffiti và manga... Rèn luyện ý chí bản thân, rong ruổi khắp vũ trụ để bảo vệ công lý. Là một thành viên của Cảnh Binh Thiên Hà, từ đầu đến cuối một lòng săn đuổi kẻ ác độc mang tên Tà Nhẫn-Osaru đến tận cùng thiên hà.",
+ "artPath": "cdc633b598a172e6cba24f9e1d1d9e3e6bef4d6d6f991c261a58663fefd80d03",
+ "miniIconPath": "11cecc91dbea4445455e90c17aaae20752349e03532a8614614afab77ac67286",
+ "damageType": {
+  "id": 64,
+  "iconPath": "c94859ea8f2bb3f3ba61bd9d9aec35660e7f16ffa91705e51e1258c118bdaff2",
+  "color": "#F4D258",
+  "name": "Số Ảo",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "altIconPath": "005fa14e04e2704b43c3b215129260d7abe1bc8f9ebc3918ecc85a27d0247fbb",
+  "color": "#FFFFFF",
+  "name": "Tri Thức",
+  "rarity": 0
+ },
+ "pageId": "rappa"
+}

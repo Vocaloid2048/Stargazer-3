@@ -1,0 +1,523 @@
+{
+ "name": "Traummontage",
+ "rarity": 4,
+ "descHash": "„Die Stadt der Träume, die Brutstätte der Sünde oder das Verheißene Land ...“<br /><br />Er entzieht vielen ihre Erinnerungen. Er untersucht die eindrucksvollen Momente, zertrennt sie, ordnet sie neu an und schneidet sie neu zusammen.<br />„Die Erinnerungen der meisten Leute sind nichts als eine Sammlung unbedeutender und monotoner Fragmente, zwischen denen nur eine Handvoll wertvoller Momente herausstechen. Der Rest von ihnen ist völlig unnötig.“<br /><br />Bild für Bild gleitet durch seine Hand und wird allmählich zu einem glänzenden Meisterwerk.<br />„Wir transportieren keine Erinnerungen. Wir erschaffen bloß die Vergangenheit.“",
+ "iconPath": "c0592b7aa9f3cbbf19d910139dae39a3ea54250a85a383518f63b32f3489c054",
+ "artPath": "98ac930f3b0037ad7ea1bb559d367bc3c64b4f4ac606348b2dce5caa9c3f20a1",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRmwBAABXRUJQVlA4IGABAACQBwCdASoUABwAPm0sk0akIiGhMBgIAIANiWwAnTLiusy+DXayVQ+Qn5735JWbbgBir/uWsiRguKujcCRvhizBSGPPcAAA/v5Z4ZE+Bpm1xRYsgTl7gsFStAjY20jEsFcvKJ6v+fIE/p28vOvexg7yzE/HmpW9xpI78f7Ce/bGb+9b92tjk3ITQJI46ubejgco6SLeVBV/4Eq+XJjZI5Rv+vjb/2gQXyz3YwEBGJ6PIK8hxBYdF4gsOFFMVOmBno95OcTkXxskznIpNnSdnlSKHgzAYPkKl1ZRggIZN6YkHON5PDPHOw8TeAXa+8cWLblj9o5E0rihCkqakb4BfOQQJ77vHjltuE4ChTNGMxXHXcbH5osPjOGF+ixPf5NQKPlh4HeIDiKZcN1LP3WaB/b31hZCwMwPrp/6ux532PB4eu1XaIK5Zkg3eleI0cxyEMmYgAB3B977//6n5mUMQAAA",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "91087b3d3a17c79cb3a451aaeded018443de8ae90565be413a90a6f7a2592b15",
+ "baseType": {
+  "id": 0,
+  "iconPath": "1441508de5b76ca06a80b5df249b528307baa752ef396fb01e2e194aefcce798",
+  "color": "#FFFFFF",
+  "name": "Der Überfluss",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "Diese Währung, die von der Interastralen Friedenskorporation für die Abrechnung mit ihren Kunden verwendet wird, ist heute als hartes Zahlungsmittel für Weltraumreisende akzeptiert.",
+   "lore": "„Die Leute laufen herum, streiten sich und handeln für Zahlen auf einem Bildschirm, aber was wirklich von Wert ist, kann man nicht kaufen.“",
+   "purpose": "Gemeinsame Währung",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Blütenkelch: Große Mine",
+    "Blütenkelch: Kunsthandwerkskommission",
+    "Blütenkelch: Hotel Reverie (Traumlandschaft)",
+    "Missionsbelohnungen",
+    "Auftragsbelohnungen",
+    "Glut-Tausch"
+   ]
+  },
+  "549209": {
+   "id": 549209,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "33a6bf2f66916e8e8ea5bc74e0978504ed51c02ab53087aa9a6fd874dee2c5cc",
+   "name": "Komponente der Traumkollektion",
+   "desc": "Ein Speicher für Geschöpfe der Traumlandschaft. Ein Rohmaterial zur Verstärkung.",
+   "lore": "Ein Speicher für zerbrochene Träume, der eine fundamentale Energiequelle für Geschöpfe der Traumlandschaft darstellt.<br /><br />„Installiere dieses Gerät und du erhältst ein Mitglied der Truppe der Wunschträume.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/549209",
+   "comeFrom": [
+    "Truppe der Albträume",
+    "Gegner in Divergentes Universum",
+    "Universum-Simulation-Gegner",
+    "Auftragsbelohnungen",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch",
+    "Blütenkelch (Golden)"
+   ]
+  },
+  "589812": {
+   "id": 589812,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "940a4f454173d250651cd81d71c3e2a8e7a17e150be4be06768119036adb7c27",
+   "name": "Nährender Honig",
+   "desc": "Dieser Honig aus dem Nektar der Blüten des Herzbaumes im heiligen Wald von Vonwacq kann Leben schneller heranreifen lassen. Damit können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Überflusses</span> hochgestuft werden.",
+   "lore": "Wenn der Teufel aus der fruchtbaren Erde steigt, ist er bloß eine runde Frucht, deren Stängel die Länge eines Unterarms hat. Aus irgendeinem Grund muss er erst seine Geschwister besiegen, bevor er Nektar trinken und wachsen kann.<br /><br />„Du kannst den Saft jedes Baumes in diesem Wald trinken, nur nicht diesen hier.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/589812",
+   "comeFrom": [
+    "Blütenkelch: Fuchsfeengarten",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "633150": {
+   "id": 633150,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5a20aed87ac7511880b93005850863b0b0180a4f07d7d956c0da8458a7ed8d7",
+   "name": "Traumflussventil",
+   "desc": "Eine Steuerungskomponente für Geschöpfe der Traumlandschaft. Ein normales Material zur Verstärkung.",
+   "lore": "Ein Manipulationsgerät, das die Begierden und Emotionen von Geschöpfen der Traumlandschaft steuert.<br /><br />„Wenn dieses Gerät versagt, erhältst du ein Mitglied der Truppe der Albträume.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/633150",
+   "comeFrom": [
+    "Truppe der Albträume auf Balance-Stufe 2 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Universum-Simulation-Gegner",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "673753": {
+   "id": 673753,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "6b6b166677784489ca6da2bd7ba9f2de41a35994cab6449f5e753c05e8b2ca33",
+   "name": "Myriadenfrucht",
+   "desc": "Frucht von den Ästen des Herzbaumes im heiligen Wald von Vonwacq. Damit können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Überflusses</span> stark hochgestuft werden.",
+   "lore": "Einen Tag, nachdem sie vom Nektar des göttlichen Baumes getrunken hat, wächst die ulkige runde Frucht zu einem Teufel heran. Er trägt eine Rüstung aus Fasern und führt einen hölzernen Speer und einen Schild aus Blättern. Wo seine Füße ihn hintragen, bieten ihm die Lebensformen des Waldes ihre Gene dar, auf dass er sie kosten, von ihnen lernen und sich verwandeln möge. Danach zieht der Teufel von dannen, um sich dem Meer und dem Himmel von Vonwacq zu stellen.<br /><br />„Auf diese Weisen haben die Weisen der Vorzeit die furchterregendsten Dinge in einem gar lächerlichen Spiel eingefangen.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/673753",
+   "comeFrom": [
+    "Blütenkelch: Fuchsfeengarten",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Raffinierter Äther",
+   "desc": "Verstärkungsmaterial für Lichtkegel, enthält <nobr>6.000</nobr> Lichtkegel-EP.",
+   "lore": "Ein Behälter mit Äther, der durch ein spezielles Verfahren gereinigt wurde.<br /><br />„Der Garten freut sich darauf, seine frühere Pracht wiederherzustellen. Aber es ist eine ‚frühere Pracht‘, die sie selbst ausgewählt haben. Verstehst du?“",
+   "purpose": "Material zu Lichtkegel-EP",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Blütenkelch: Abgelegener Pass",
+    "Blütenkelch: Wahrsagekommission",
+    "Blütenkelch: Der Traum eines Kindes",
+    "Vergessene Halle"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Verdichteter Äther",
+   "desc": "Verstärkungsmaterial für Lichtkegel, enthält <nobr>2.000</nobr> Lichtkegel-EP.",
+   "lore": "Ein Behälter mit Äther, der durch ein spezielles Verfahren gereinigt wurde.<br /><br />„Behälter mit Vorsicht handhaben, nicht fallen lassen oder unter Druck setzen. Bei Beschädigung oder undichten Stellen bitte Kapitel II der ‚Anweisungen für den Umgang mit Leckagen‘ befolgen.“",
+   "purpose": "Material zu Lichtkegel-EP",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Blütenkelch: Abgelegener Pass",
+    "Blütenkelch: Wahrsagekommission",
+    "Blütenkelch: Der Traum eines Kindes",
+    "Glut-Tausch"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Verdünnter Äther",
+   "desc": "Verstärkungsmaterial für Lichtkegel, enthält <nobr>500</nobr> Lichtkegel-EP.",
+   "lore": "Eine imaginäre Substanz, die eigentlich nicht in der Realität existieren dürfte und als Grundstoff zur Herstellung von Lichtkegeln verwendet wird.<br />Die in Lichtkegeln enthaltenen Bilder werden klarer, wenn sie mit dieser Substanz angereichert werden.<br /><br />„Aha, das ist also die sogenannte Erinnerung des Gartens des Gedächtnisses. Kein Wunder, dass die Wahrer der Erinnerungen durch die Galaxie reisen können.“",
+   "purpose": "Material zu Lichtkegel-EP",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Blütenkelch: Abgelegener Pass",
+    "Blütenkelch: Wahrsagekommission",
+    "Blütenkelch: Der Traum eines Kindes",
+    "Auftragsbelohnungen"
+   ]
+  },
+  "717091": {
+   "id": 717091,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c037982ba533a1195e74ac14bc2c91d28d39959dd698a4d802b500d6172355fc",
+   "name": "Traummaschine",
+   "desc": "Ein Energiekern für Geschöpfe der Traumlandschaft. Ein fortschrittliches Material zur Verstärkung.",
+   "lore": "Ein Konstruktionsgerät, das Fantasien erschafft und den Geschöpfen der Traumlandschaft eine Seele gibt.<br /><br />„Wenn dieses Gerät eine Fehlfunktion hat ... dann versuche aufzuwachen, bevor du einen Albtraum erlebst, mein Freund.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/717091",
+   "comeFrom": [
+    "Truppe der Albträume auf Balance-Stufe 4 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Universum-Simulation-Gegner",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "874339": {
+   "id": 874339,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "9afbc4c101f961174a6034cf91eef002544ee3ea58f6f2bb31603000a379c9c7",
+   "name": "Samen des fremden Baumes",
+   "desc": "Samen aus der Frucht des Herzbaumes im heiligen Wald von Vonwacq, der die Gene verschiedener Lebensformen in sich trägt. Damit können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Überflusses</span> ein wenig hochgestuft werden.",
+   "lore": "Der gewaltige fremdartige Baum im heiligen Wald von Vonwacq zeichnet die Evolution des Ökosystems über unzählige Zyklen auf. In seinem Inneren wächst der ideale „Teufel“ heran, wobei die Gene der verschiedenen Lebensformen als Samen dienen.<br /><br />„Öffne diese harte Frucht, nimm den Samen aus dem Fruchtfleisch, und pflanze ihn in die geheiligte Erde. Im kommenden Jahr wirst du Dutzende Rudelführer ernten. Dann musst du nur abwarten, und sie werden sich gegenseitig zerfleischen, bis ein Sieger hervortritt!“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/874339",
+   "comeFrom": [
+    "Blütenkelch: Fuchsfeengarten",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549209,
+     "count": 5
+    }
+   ],
+   "attackBase": 19.2,
+   "attackAdd": 2.88,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 874339,
+     "count": 3
+    },
+    {
+     "id": 549209,
+     "count": 10
+    }
+   ],
+   "attackBase": 42.24,
+   "attackAdd": 2.88,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 589812,
+     "count": 3
+    },
+    {
+     "id": 633150,
+     "count": 6
+    }
+   ],
+   "attackBase": 72.96,
+   "attackAdd": 2.88,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 589812,
+     "count": 6
+    },
+    {
+     "id": 633150,
+     "count": 9
+    }
+   ],
+   "attackBase": 103.68,
+   "attackAdd": 2.88,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 673753,
+     "count": 4
+    },
+    {
+     "id": 717091,
+     "count": 5
+    }
+   ],
+   "attackBase": 134.4,
+   "attackAdd": 2.88,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 673753,
+     "count": 8
+    },
+    {
+     "id": 717091,
+     "count": 7
+    }
+   ],
+   "attackBase": 165.12,
+   "attackAdd": 2.88,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 195.84,
+   "attackAdd": 2.88,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 21048,
+  "name": "Akademischer Schnitt",
+  "descHash": "Erhöht die GES des Trägers um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Stellt nach Angriffen auf Gegner mit Schwächebruch <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]</nobr></span> Pkt. Energie wieder her. Dieser Effekt kann bis zu <nobr>#3[i]</nobr>-mal pro Runde ausgelöst werden.",
+  "levelData": [
+   {
+    "params": [
+     0.08,
+     3,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.09,
+     3.5,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.1,
+     4,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.11,
+     4.5,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.12,
+     5,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21048"
+}

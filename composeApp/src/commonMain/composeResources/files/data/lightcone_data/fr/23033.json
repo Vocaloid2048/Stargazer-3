@@ -1,0 +1,523 @@
+{
+ "name": "Écritures ninjutsu : Justice éblouissante",
+ "rarity": 5,
+ "descHash": "Quelque part dans le royaume ninja, un voile gris assombrit la ville.<br /><br />« Hiyyya ! »<br />Une jeune femme fonce à travers les monstres, sa silhouette vive fend les ténèbres tel un coup de pinceau sur une terre sans lune.<br /><br />Au milieu de la brume, les ninjas maléfiques grimacent d'agonie et de doute.<br />« – Qui... êtes-vous...?<br />– Je suis la ninja Rappa ! Symbole de détermination, éradiquant le mal et faisant respecter la justice. »<br />Les ninjas maléfiques échangent des regards hésitants, les yeux grands ouverts tandis qu'ils cherchent à fuir.<br />« Vous êtes prêts à réciter vos poèmes mortuaires, mécréants ? »<br />Son shuriken virevolte dans les airs tel un tourbillon de lumière et d'acier, submergeant ses adversaires de son aveuglante rapidité.<br />« Technique ninja secrète de l'oblitération éblouissante ! »<br /><br />L'explosion derrière elle fracasse la nuit, dévoilant les blessures de la ville.<br />Prenant une grande respiration, elle s'élance au loin sous les néons, là où les lumières éclatantes crient tel un refrain de heavy metal.<br />« Des esprits maléfiques aussi détestables. La chasse ultime de la ninja éblouissante n'est pas terminée... »",
+ "iconPath": "b80daa00ead7b9587af1fc547fe53c18afc3477f56f32bcf537abdc212e999b7",
+ "artPath": "1c9e4f0845b48a7f7da750862fcb2a8c5962c7938d81d62cff2630113229c8b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRiICAABXRUJQVlA4IBYCAABQCgCdASoUABwAPm0qkUWkIqGYBABABsS2AE6ZQjqD3ThDN4zB2EBtr/El6gG8AegB0kDf2rpduA78HN39BewH+qHWAG17/XxKVOves0Z4JKBVedMX4HBQd+EAAP72/nwfPB3/B6rlNS8+wsX8MHdKm+ddQvzP2lqqv8/8aXcgp4q5/Pj5u92hrQtM8Z5+mOcOaPyBVyGEtZg/IYSakrjQ9/r88s+CvlvlqRnP5HphX9CJG8NO2H+bdBa6f7/kXhTMFNbmkzX/cglsAVt7UFplExYbO3X0+Af/z8exdE4XDKY0sQg9OOb+JewB+YdM6d9x4xj5/NSo+M/P/7R0ml25Ds1o/8DFjH23/Q/5hel4uggY62umBSvs3L5pJ2Q2WZ2X6bV6Sf2fX+xld33JNPejQMXR+mwydM/zTB1mD9De4ZVdyd2ry3MaUnfvQQN39sAbOkSdQlGYh/4+OZyXBqXDkHb/zD5zWaJQzfsiSnyvCQDNtx7w/e0aCvP5yZAxE9fP6WyqQxRkPziO9uoLz25jJmV1pep0ZSkC7M5wQ6X/hMgKpgSyG9O8OI7KjjH9JpMW95A4Z9uol2d6o+luY3xfhv1Ondlup/0XFrIszuKu56/SX3/5FIbIHrzGCp9/HkmjYzixVcfoju3I+5OW7I+LHZPAQ8JFPSE3aOf/WUcPy/Ihd236R5s2v+bL52rliZY/pQAAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "2a1dcacc8aa4b484326d1c3b45b5c3c27ae74fe6bf63e96a314587394a85b88c",
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "color": "#FFFFFF",
+  "name": "L'Érudition",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "549209": {
+   "id": 549209,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "33a6bf2f66916e8e8ea5bc74e0978504ed51c02ab53087aa9a6fd874dee2c5cc",
+   "name": "Composant de stockage des rêves",
+   "desc": "Appareil de stockage pour les créations du Pays des rêves. Matériau commun utilisé pour le renforcement.",
+   "lore": "Appareil de stockage destiné aux rêves brisés. Fournit une source énergétique fondamentale pour les créations du Pays des rêves.<br /><br />« Installez cet appareil pour obtenir un membre de la Troupe Beaux rêves. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/549209",
+   "comeFrom": [
+    "Troupe Chocmar",
+    "Butin d'ennemis dans l'Univers parallèle",
+    "Ennemi de l'Univers simulé",
+    "Récompense d'affectation",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "Croquis dynamique",
+   "desc": "Un dessin de Chronou dont l'éclat onirique transperce le papier. Permet d'améliorer modérément les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Érudition</span>.",
+   "lore": "Le dessin de Chronou paraît plus raffiné une fois les traits inutiles effacés. La sagesse des animateurs transparaît dans toutes les images de la danse de Chronou.<br /><br />« Tic-tac, tic-tac ! Allez, on garde le rythme ! »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "Calice du Grand théâtre de Penacony",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "633150": {
+   "id": 633150,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5a20aed87ac7511880b93005850863b0b0180a4f07d7d956c0da8458a7ed8d7",
+   "name": "Valve de débit onirique",
+   "desc": "Composant de contrôle pour les créations du Pays des rêves. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Appareil de construction de rêves qui régule les désirs et contrôle les émotions des créations du Pays des rêves.<br /><br />« Si l'appareil rencontre un défaut, vous obtiendrez un membre de la Troupe Chocmar. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/633150",
+   "comeFrom": [
+    "Troupe Chocmar au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Butin d'ennemis dans l'Univers parallèle",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "Dessin coloré exquis",
+   "desc": "Dans ce croquis de Chronou, le rêve prend vie grâce à des couleurs vives. Permet d'améliorer considérablement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Érudition</span>.",
+   "lore": "Ce dessin de Chronou très coloré prend la forme d'une figure bien connue. L'histoire de Chronou a inspiré des millions de chasseurs de rêves grâce à son aventure fantastique.<br /><br />« Je m'appelle Chronou et je suis une superstar de Rêvopolis ! »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "Calice du Grand théâtre de Penacony",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éther purifié",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 6 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« Le Jardin se félicite de recréer une gloire passée, mais c'est une \"gloire passée\" qu'ils ont choisie. Tu comprends ? »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Salle oubliée"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éther condensé",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 2 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« À manier avec précaution, ne pas faire tomber, ne pas appliquer de pression. En cas de dommage ou de fuite, se référer au chapitre II du \"Manuel de prise en charge des désastres\" pour une solution d'urgence. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Échange de braises immortelles"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éther dilué",
+   "desc": "Matériau de renforcement de cône de lumière. Confère <nobr>500</nobr> points d'EXP de cône de lumière.",
+   "lore": "Substance imaginaire qui ne devrait pas exister dans le monde réel. Il s'agit du matériau de base pour fabriquer les cônes de lumière.<br />Les images des cônes de lumière sont plus nettes avec cette substance.<br /><br />« Je vois... Alors c'est ça la « mémorine » du Jardin de la mémoire. Pas étonnant que les protecteurs de la mémoire puissent embarquer pour des voyages galactiques avec des souvenirs. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Récompense d'affectation"
+   ]
+  },
+  "717091": {
+   "id": 717091,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c037982ba533a1195e74ac14bc2c91d28d39959dd698a4d802b500d6172355fc",
+   "name": "Moteur de création des rêves",
+   "desc": "Noyau d'énergie pour les créations du Pays des rêves. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Appareil de construction de rêves servant à bâtir des fantasmes et accordant des âmes aux créations du Pays des rêves.<br /><br />« Si l'appareil connaît un dysfonctionnement... essayez de vous réveiller avant de sombrer dans un cauchemar. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/717091",
+   "comeFrom": [
+    "Troupe Chocmar au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Butin d'ennemis dans l'Univers parallèle",
+    "Ennemi de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "Esquisse rudimentaire",
+   "desc": "Un croquis de Chronou qui en quelques traits façonnent la fabrique d'un rêve. Permet d'améliorer légèrement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Érudition</span>.",
+   "lore": "Différents croquis de Chronou circulent à Penacony. Qui est parvenu à capturer la brève étincelle d'inspiration et à faire résonner le premier « tic-tac » sur papier ?<br /><br />« Tic-tac ! Vous... me voyez ? »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "Calice du Grand théâtre de Penacony",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 549209,
+     "count": 8
+    }
+   ],
+   "attackBase": 26.4,
+   "attackAdd": 3.96,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 24,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 874343,
+     "count": 4
+    },
+    {
+     "id": 549209,
+     "count": 12
+    }
+   ],
+   "attackBase": 58.08,
+   "attackAdd": 3.96,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 52.8,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 589816,
+     "count": 4
+    },
+    {
+     "id": 633150,
+     "count": 8
+    }
+   ],
+   "attackBase": 100.32,
+   "attackAdd": 3.96,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 91.2,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 589816,
+     "count": 8
+    },
+    {
+     "id": 633150,
+     "count": 12
+    }
+   ],
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 129.6,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 673757,
+     "count": 5
+    },
+    {
+     "id": 717091,
+     "count": 6
+    }
+   ],
+   "attackBase": 184.8,
+   "attackAdd": 3.96,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 168,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 673757,
+     "count": 10
+    },
+    {
+     "id": 717091,
+     "count": 8
+    }
+   ],
+   "attackBase": 227.04,
+   "attackAdd": 3.96,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 206.4,
+   "defenseAdd": 3.6
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 244.8,
+   "defenseAdd": 3.6
+  }
+ ],
+ "skill": {
+  "id": 23033,
+  "name": "Exorcisme",
+  "descHash": "Augmente l'effet de Rupture du porteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Régénère immédiatement <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]</nobr></span> points d'énergie en entrant en combat. Le porteur obtient l'effet Raijin après avoir utilisé son ultime. Après avoir utilisé 2 ATQ normales, avance l'action du porteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> et supprime l'effet Raijin. Réinitialise Raijin après utilisation de l'ultime.",
+  "levelData": [
+   {
+    "params": [
+     0.6,
+     30,
+     0.5
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.7,
+     32.5,
+     0.55
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.8,
+     35,
+     0.6
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.9,
+     37.5,
+     0.65
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1,
+     40,
+     0.7
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23033"
+}

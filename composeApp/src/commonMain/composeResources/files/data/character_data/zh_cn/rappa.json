@@ -1,0 +1,3536 @@
+{
+ "spRequirement": 140,
+ "iconPath": "504f31679576ed14e6fefe48929d90402350531e6f9679adda44da594ead1554",
+ "bgPath": "f7911491f5110b260379fb045b3e040565938f30ad769877d81b8e52889d09e5",
+ "figPath": "7720a1eda42cd285d6601faf7e544d8fac57975157581f68cc820e58f202d3a4",
+ "fgPath": "",
+ "splashIconPath": "98ad62e0616601fe6675854746d9139d4d271c3a92edda4397db1ed1ab07ff1f",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRvYCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAwBAAABkLNt2/m34u/3j9g2Z9u2k8m2k6+QI6OtdnS7acxW2/YcW89d/hoREwCNLgb8pwIQkQSlScHGAjadMOpMNcAyEjZV1xwD3fyh/mbA1Ej6h7WnD7J8ysOd/6JH4c4hubPJV+dWcqAAGFAopJyQe2w1GvUK0CFtjyciwtMTDpTMBAEK4Zs85h8iPHiUBwCBmzymCIVyyvV6KAD6ZYpQSKHweMUOAEydFo4pQqEIV93xd8+vPBUR4fYPpkAPwMzR9y0PTynC9eHT7j8UKm9d3CBPRHg0cHMICn/G5U6cfcOTIz5ziRw0QKPvHXLrqTP87f+m0ys9zKse8t5VM2hWgFV/cvMQlBZADyhUWAMAVlA4IMQBAAAwCQCdASoUABQAPm0ukkakIqGhKA1QgA2JbAy0AMxABZg9aBZvmbxc6ADxL/WZ0wD9gPYA/Sv0svYi/bz0dymAeKBMl/SsOjCT0ngcsxtoiDuAAP773SyDXdeo8PWGaz9+j70Fo/L8o53mAwCu9J1aLJctWekpwE6J/uXEWCKCkJi4TzQP1u4eXe5wFj+yBFVfVB9LOh/0KsfKkIPq/L2QJ6s6NcTUMiJKqfRI2/9EX7BK5+TuM/PfL4ZFdjjHbB4F84Rr4apOszEo8PnOnxkuLbKY4bXaL6NFHTlX+xVd9RZ7oPTWqr74BzfLFdXQrcpO3cEf4pUlEhp5ZuwP4PbTrAHuf8NnEcy2yS/5O773P9YL8V9tYffEMnP9i09bSPTlJvpRPggOz9ZvFf6wixZc5JOTUr99Wkd/kwM8yrKjfML5p2jBcPmdmTU5C8E9L4NiYm1VutBrApjKa5i6SqosjKARZWzqF35n7j86dJnPQLoPfO4P4ragHG67dcf83x9N2IOjCsf6uTIYaL6qqwJimrRf+FQzahH5pD+aIv7px/xv/CNdWX/y4y5PYaLW5ZNfDji/yDpSzztbYRPg9ulSwgAAAA==",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "633a6ca33d14c5abcb6de00aff6015572582260725229eb798d8b2dfde476c99",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用点",
+   "desc": "星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。",
+   "lore": "「人们奔波、争斗、贸易，为的不过是个终端里显示的数字。但真正珍贵之物，公司的数字是买不到的。」",
+   "purpose": "通用货币",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "拟造花萼【大矿区】",
+    "拟造花萼【工造司】",
+    "拟造花萼【「白日梦」酒店-梦境】",
+    "任务奖励",
+    "委托奖励",
+    "余烬兑换"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "命运的足迹",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "一次又一次的败北成就了你的胜利，一步又一步的前进让你抵达了命运的拐点。",
+   "purpose": "行迹材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模拟宇宙」积分奖励",
+    "无名勋礼",
+    "余烬兑换",
+    "星芒兑换",
+    "限时活动奖励"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "同愿的遗音",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "祂独奏无上的律，直到那律湮于祂们的合奏。<br />但祂的听众不愿就此噤声，愚昧的梦者夺过同愿的弦，虚妄的奏者重演蒙尘的歌篇。<br /><br />「星辰勾勒指尖，挥引众生的法与权…美梦今日都成真，亿与兆的旧法皆退却不见。」",
+   "purpose": "行迹材料",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "历战余响【匹诺康尼大剧院】"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫游指南",
+   "desc": "角色的经验材料，可以获得<nobr>20000</nobr>点角色经验。",
+   "lore": "跨越诸界必备的冒险丛书。按下阅读键，充满磁性的声音将以你能听懂的语言讲述知名冒险家们在不同世界间的传奇经历，以及他们在各个星球上获得的珍贵智慧。<br /><br />「漫游指南全新书系《星际美食烹饪导览》开售在即，敬请支持。」<br />「投稿请接入博识学会联觉信标<nobr>23</nobr>θ联络员，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色经验材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "「忘却之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒险记录",
+   "desc": "角色的经验材料，可以获得<nobr>5000</nobr>点角色经验。",
+   "lore": "装订严整，一看就颇有教育意义的冒险札记。图文并茂地描述了冒险行动的始末、有价值的信息和生存相关的技巧。<br /><br />「干嘛不数据化放进光刻片里？便携多了。」<br />「面对恒星风暴和中子流喷发时，高科技比你想象的还要脆弱。何况，制作这本书的人一定希望人们用最简单的方式阅读它。」",
+   "purpose": "角色经验材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "每日实训",
+    "余烬兑换"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅情见闻",
+   "desc": "角色的经验材料，可以获得<nobr>1000</nobr>点角色经验。",
+   "lore": "记录旅途见闻的日志，字迹漫漶不清，内容随心所欲，对你并没有太大的帮助。<br /><br />「看完了就赶紧把这堆废纸处理掉吧，丹恒？」",
+   "purpose": "角色经验材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "委托奖励"
+   ]
+  },
+  "468393": {
+   "id": 468393,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ca4a65b8c3d9436a1d62230058cbbf37131686ac1ef0b2755fc9876449c0889d",
+   "name": "一曲合弦的幻景",
+   "desc": "剧团奏者身上的红琴银弦，虚数属性角色的晋升素材。",
+   "lore": "简谱编织破碎过往，乐声引领期盼未来。琴弦拨动，万千世界在此汇聚，此间的欢笑与逝去的泪，永恒的愿景与未尽的梦。<br /><br />「捡起埋藏在废墟间的回忆，将它们化作旋律。」",
+   "purpose": "角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/468393",
+   "comeFrom": [
+    "凝滞虚影【匹诺康尼大剧院】",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "549209": {
+   "id": 549209,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "33a6bf2f66916e8e8ea5bc74e0978504ed51c02ab53087aa9a6fd874dee2c5cc",
+   "name": "蓄梦元件",
+   "desc": "梦境造物的储能装置，强化所需的简单材料。",
+   "lore": "储存碎梦的筑梦容器，为梦境造物提供了基本的能源。<br /><br />「如果装上这个玩意儿，就会得到一位美梦剧团的成员。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/549209",
+   "comeFrom": [
+    "惊梦剧团掉落",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "委托奖励",
+    "余烬兑换",
+    "「万能合成机」- 材料置换",
+    "拟造花萼（金）"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "动态线稿",
+   "desc": "钟表小子的角色线稿，梦想的轮廓已跃然纸上。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">智识</span>角色的命途行迹。",
+   "lore": "「钟表小子」擦除冗余的笔触，变得干净利落。动画师将智慧藏在钟表小子逐帧的舞步之中，清晰可见。<br /><br />「滴答，滴答！快跟上，快跟上，我的朋友！」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "拟造花萼【匹诺康尼大剧院】",
+    "「万能合成机」- 材料合成",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "633150": {
+   "id": 633150,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "e5a20aed87ac7511880b93005850863b0b0180a4f07d7d956c0da8458a7ed8d7",
+   "name": "流梦阀门",
+   "desc": "梦境造物的控制部件，强化所需的普通材料。",
+   "lore": "调节欲念的筑梦装置，控制着梦境造物内心的情绪。<br /><br />「如果这玩意儿失灵了，就会得到一位惊梦剧团的成员。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/633150",
+   "comeFrom": [
+    "突破至均衡等级2后，惊梦剧团掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "精致色稿",
+   "desc": "钟表小子的角色色稿，梦想染上色彩栩栩如生。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">智识</span>角色的命途行迹。",
+   "lore": "「钟表小子」填充缤纷的色彩，变成家喻户晓的模样。钟表小子的故事激励了千万个逐梦客，每个人都可以在光影冒险中收获启迪。<br /><br />「我叫钟表小子，是美梦小镇匹诺康尼的大明星！」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "拟造花萼【匹诺康尼大剧院】",
+    "「万能合成机」- 材料合成",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "717091": {
+   "id": 717091,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "c037982ba533a1195e74ac14bc2c91d28d39959dd698a4d802b500d6172355fc",
+   "name": "造梦马达",
+   "desc": "梦境造物的动力核心，强化所需的高级材料。",
+   "lore": "创造幻想的筑梦机械，赋予梦境造物灵魂的发动机。<br /><br />「如果发现这玩意儿出了故障…朋友，在陷入噩梦前快醒过来吧。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/717091",
+   "comeFrom": [
+    "突破至均衡等级4后，惊梦剧团掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "凌乱草图",
+   "desc": "钟表小子的角色草稿，寥寥数笔赋予梦想以形状。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">智识</span>角色的命途行迹。",
+   "lore": "匹诺康尼里流传众多「钟表小子」的角色原稿，究竟是谁摘下了那灵光一闪的火花，在画纸上鸣响最初的「滴答」。<br /><br />「滴答！——你…能看得到我？」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "拟造花萼【匹诺康尼大剧院】",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 97.68,
+   "attackAdd": 4.884,
+   "hpBase": 147.84,
+   "hpAdd": 7.392,
+   "defenseBase": 62.7,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549209,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 136.752,
+   "attackAdd": 4.884,
+   "hpBase": 206.976,
+   "hpAdd": 7.392,
+   "defenseBase": 87.78,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549209,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 175.824,
+   "attackAdd": 4.884,
+   "hpBase": 266.112,
+   "hpAdd": 7.392,
+   "defenseBase": 112.86,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633150,
+     "count": 6
+    },
+    {
+     "id": 468393,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 214.896,
+   "attackAdd": 4.884,
+   "hpBase": 325.248,
+   "hpAdd": 7.392,
+   "defenseBase": 137.94,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633150,
+     "count": 9
+    },
+    {
+     "id": 468393,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 253.968,
+   "attackAdd": 4.884,
+   "hpBase": 384.384,
+   "hpAdd": 7.392,
+   "defenseBase": 163.02,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717091,
+     "count": 6
+    },
+    {
+     "id": 468393,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 293.04,
+   "attackAdd": 4.884,
+   "hpBase": 443.52,
+   "hpAdd": 7.392,
+   "defenseBase": 188.1,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717091,
+     "count": 9
+    },
+    {
+     "id": 468393,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 332.112,
+   "attackAdd": 4.884,
+   "hpBase": 502.656,
+   "hpAdd": 7.392,
+   "defenseBase": 213.18,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "20d9cbefd83a36af4ae3892cb8539d790db645045620c7834be1469697d95ba6",
+   "artPath": "d86967b4b8a27994ced4f4626e157c58feba07f6b40d3cf0a4a0df4527cae834",
+   "name": "常世道返三途无六钱",
+   "descHash": "施放终结技进入【结印】状态期间，乱破造成的伤害无视目标<nobr>#1[i]%</nobr>的防御，退出【结印】状态后恢复<nobr>#2[i]</nobr>点能量。",
+   "params": [
+    0.15,
+    20
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "01397a907758e5645f0dcb8b2e5f7093d0ad92b6f68ccf27f44392d069cefb22",
+   "artPath": "cad88301f8c01062f6e55c0d9ace789d8dc4999dbd70af7ee3ca74705b60ba5f",
+   "name": "俳句暗记有识无挂碍",
+   "descHash": "强化普攻的前2段攻击对指定敌方单体的削韧值提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.5
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "8885dc11542f37558ee147497c4ffcfdebe887bc8398655c060bd0f66617cc0f",
+   "artPath": "8b591519937d28500fa9187640f160a865ce6c45df0418d827c361e828c2db41",
+   "name": "堂塔伽蓝末法无间狱",
+   "descHash": "战技等级+2，最多不超过<nobr>15</nobr>级，天赋等级+2，最多不超过<nobr>15</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "60edd03206e5ce49ec667b1fc33fe0dd8aa325cede667280f769f7557b641314",
+   "artPath": "951657a95530eb21fde7d8b7b49ff8e4c6b99c05820731c438864f16a4ff0325",
+   "name": "经年劣化任侠无忍义",
+   "descHash": "【结印】状态期间，我方全体速度提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.12
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "80200909e758f4ae18c8f3f8feeb334b81a4b756ee7eeeaa7a9f2ad085cd00d0",
+   "artPath": "e5d9a95fe4414058cd7c72bb1c8909e88b15850762a4f96417f6d8287cd0a5cc",
+   "name": "一心不乱鸣弦无徒矢",
+   "descHash": "终结技等级+2，最多不超过<nobr>15</nobr>级，普攻等级+1，最多不超过<nobr>10</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "bbff5f42891c230f65e38cb8a034e52e127fbb71daa3bc37153c70f0a5adc34e",
+   "artPath": "739b5781dd77f03d80843d41bc32fae41854e69de4bf792145860ed01c634f4b",
+   "name": "破邪显正应报无慈悲",
+   "descHash": "战斗开始时乱破获得<nobr>#1[i]</nobr>点天赋效果的充能，且充能上限增加<nobr>#2[i]</nobr>点。发动【忍具•降魔花弁】第3段攻击后获得<nobr>#1[i]</nobr>点充能。",
+   "params": [
+    5,
+    5
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   451237,
+   304818,
+   567881,
+   735763,
+   304817
+  ],
+  [
+   735764
+  ],
+  [
+   651823
+  ],
+  [
+   936350
+  ],
+  [
+   20291
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "单攻",
+   "descHash": "对指定敌方单体造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻击力的<span style=\"color:#F4D258;\">虚数</span>属性伤害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 451237,
+   "name": "忍术•七转八起",
+   "iconPath": "942a1bc58ea24f334a7c24cfdef599ce219865eed4c593941d004abb89b58dcb",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "群攻",
+   "descHash": "对敌方全体造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻击力的<span style=\"color:#F4D258;\">虚数</span>属性伤害。",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 735764,
+   "name": "忍切•初志贯彻",
+   "iconPath": "8885dc11542f37558ee147497c4ffcfdebe887bc8398655c060bd0f66617cc0f",
+   "typeDescHash": "战技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.66
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.78
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.975
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.26
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.38
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.44
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "进入【结印】状态，立即获得1个<u>额外回合</u>并获得<nobr>#3[i]</nobr>点【彩墨】，同时弱点击破效率提高<nobr>#1[i]%</nobr>，击破特攻提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>。<br />【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 651823,
+   "name": "忍道•极•爱死天流",
+   "iconPath": "b062445a2828381bd5df3e88cc3fc29c07787cc6bc2465da8dc1f860c16d94f1",
+   "typeDescHash": "终结技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.12,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.14,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.16,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.18,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.2,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.225,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.25,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.275,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      0.32,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.34,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.36,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.38,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.4,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "每当敌方目标的弱点被击破时，乱破获得1点充能，最多拥有<nobr>#1[i]</nobr>点充能。乱破下一次发动【忍具•降魔花弁】的第3段攻击时，额外对敌方全体造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span><span style=\"color:#F4D258;\">虚数</span>属性击破伤害的击破伤害，该伤害可无视弱点属性削减<nobr>#4[i]</nobr>点韧性，并消耗所有充能，每点充能使本次击破伤害倍率提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>，并使无视弱点属性的削韧值提高<nobr>#6[i]</nobr>点。<br />击破弱点时，触发<span style=\"color:#F4D258;\">虚数</span>属性的弱点击破效果。",
+   "ultimateCost": 0,
+   "break": "6",
+   "energy": "0",
+   "id": 936350,
+   "name": "忍•科学•堪忍袋",
+   "iconPath": "f3de2bacbb71500f99ecc3ab0e13569c54a8a4d328faf608591095462886f254",
+   "typeDescHash": "天赋",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0,
+      0.3,
+      2,
+      0.25,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.33,
+      2,
+      0.275,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549209,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.36,
+      2,
+      0.3,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.39,
+      2,
+      0.325,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.42,
+      2,
+      0.35,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.45,
+      2,
+      0.375,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 633150,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.4875,
+      2,
+      0.40625,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.525,
+      2,
+      0.4375,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.5625,
+      2,
+      0.46875,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.6,
+      2,
+      0.5,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.63,
+      2,
+      0.525,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.66,
+      2,
+      0.55,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.69,
+      2,
+      0.575,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.72,
+      2,
+      0.6,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10,
+      0,
+      0.75,
+      2,
+      0.625,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 136936,
+   "name": "攻击",
+   "iconPath": "942a1bc58ea24f334a7c24cfdef599ce219865eed4c593941d004abb89b58dcb",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "使用秘技后进入持续<nobr>#1[i]</nobr>秒的【涂鸦】状态。【涂鸦】状态下会快速向前移动一段距离并攻击接触到的敌人，在快速移动的过程中可抵挡敌人的所有攻击。【涂鸦】状态下施放攻击可以提前结束持续时间，主动攻击敌人进入战斗后，对每个敌方目标造成<nobr>#5[i]</nobr>点无视弱点属性的削韧，以及等同于乱破<nobr>#2[i]%</nobr><span style=\"color:#F4D258;\">虚数</span>属性击破伤害的击破伤害，并对其相邻目标造成等同于乱破<nobr>#3[i]%</nobr><span style=\"color:#F4D258;\">虚数</span>属性击破伤害的击破伤害，同时使自身获得<nobr>#4[i]</nobr>点能量。",
+   "ultimateCost": 0,
+   "break": "90",
+   "energy": "0",
+   "id": 20291,
+   "name": "忍步•血义理",
+   "iconPath": "06d5b46afbb83fecc4e73ce18e255c355d3b65602bdb8c36ed303e9b59344dd3",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      2,
+      1.8,
+      10,
+      30
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "扩散",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "5",
+   "id": 304818,
+   "name": "忍具•降魔花弁",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3,
+      0.6,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34,
+      0.68,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38,
+      0.76,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42,
+      0.84,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46,
+      0.92,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5,
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54,
+      1.08,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58,
+      1.16,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62,
+      1.24,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "扩散",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "5",
+   "id": 567881,
+   "name": "忍具•降魔花弁",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "群攻",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "15/hit",
+   "energy": "10",
+   "id": 735763,
+   "name": "忍具•降魔花弁",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "扩散",
+   "descHash": "发动【忍具•降魔花弁】，前2段攻击对指定敌方单体造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻击力的<span style=\"color:#F4D258;\">虚数</span>属性伤害，并对其相邻目标造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>攻击力的<span style=\"color:#F4D258;\">虚数</span>属性伤害，第3段对敌方全体造成等同于乱破<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>攻击力的<span style=\"color:#F4D258;\">虚数</span>属性伤害。<br />强化普攻无法恢复战技点，攻击没有<span style=\"color:#F4D258;\">虚数</span>弱点的敌人也可以削减韧性，效果等同于原削韧值的<nobr>#4[i]%</nobr>。击破弱点时，触发<span style=\"color:#F4D258;\">虚数</span>属性的弱点击破效果。",
+   "ultimateCost": 0,
+   "break": "75/hit",
+   "energy": "0",
+   "id": 304817,
+   "name": "忍具•降魔花弁",
+   "iconPath": "bd4f76872f039e74d490c82d9315886af12ee428f35438112c3c7018ba479149",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.6,
+      0.3,
+      0.6,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.68,
+      0.34,
+      0.68,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 549209,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.76,
+      0.38,
+      0.76,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 633150,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      0.42,
+      0.84,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 633150,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.92,
+      0.46,
+      0.92,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 717091,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5,
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 717091,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.08,
+      0.54,
+      1.08,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.16,
+      0.58,
+      1.16,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.24,
+      0.62,
+      1.24,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1317101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1317203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91641,
+        "name": "攻击强化",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "攻击力",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 633150,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1317204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91640,
+        "name": "击破强化",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2f652a2e091ec1a28dde16dfec5968a959804447eb99f746b6f2cba53dedfc2c",
+        "statusList": [
+         {
+          "key": "击破特攻",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 633150,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 91642,
+      "name": "速度强化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 549209,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "精英级别及以上的敌方目标的弱点被击破时，乱破额外获得<nobr>#2[i]</nobr>点充能，并恢复<nobr>#1[i]</nobr>点能量。",
+    "ultimateCost": 0,
+    "id": 91482,
+    "name": "忍法帖•魔天",
+    "iconPath": "336eea38304f162811f7b965c1055619eee540868d69022612f1241bdb9189ea",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       10,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1317206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91638,
+        "name": "速度强化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "速度",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 717091,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1317207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 91637,
+        "name": "攻击强化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "攻击力",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 717091,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 91639,
+      "name": "攻击强化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "攻击力",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 633150,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "【结印】状态期间，乱破施放强化普攻对处于<u>弱点击破状态</u>下的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次<nobr>#1[i]%</nobr>的<u>超击破伤害</u>。",
+    "ultimateCost": 0,
+    "id": 91483,
+    "name": "忍法帖•海鸣",
+    "iconPath": "a55aae877db53fe8774d1713c2150e254589d66a7c3e22f891d78b273879bd5e",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1317208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 91652,
+      "name": "击破强化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2f652a2e091ec1a28dde16dfec5968a959804447eb99f746b6f2cba53dedfc2c",
+      "statusList": [
+       {
+        "key": "击破特攻",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 717091,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1317209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 91651,
+      "name": "速度强化",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 4,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 717091,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "敌方目标的弱点被击破时，受到的<u>击破伤害</u>提高<nobr>#1[i]%</nobr>，若乱破当前攻击力高于<nobr>#2[i]</nobr>点，每超过<nobr>100</nobr>点攻击力可使该数值额外提高<nobr>#3[i]%</nobr>，最多额外提高<nobr>#4[i]%</nobr>。效果持续<nobr>#5[i]</nobr>回合。",
+    "ultimateCost": 0,
+    "id": 91484,
+    "name": "忍法帖•枯叶",
+    "iconPath": "92e56d1babdfa77e241e55452dcfd2441cb0a9a7415acaabc002ac6e2adf916a",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.02,
+       2400,
+       0.01,
+       0.08,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 91643,
+    "name": "攻击强化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "攻击力",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549209,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1317210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 7703,
+    "name": "攻击强化",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "攻击力",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 673757,
+      "count": 8
+     },
+     {
+      "id": 717091,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次见面",
+   "text": "别来无恙，球棒•忍者！阁下之忍道有如万丈光芒，《银河忍法帖》有云：「地狱之端必有光明，照尽世间黑暗。」",
+   "unlockRequirement": "",
+   "cnUrl": "d02889c99d4a67270a9c5937a316fa16b3a08d9cf911927b9a70cf45c2044526",
+   "jpUrl": "aa6c9d91064103b87e2b598e0ccf46bbc8648ce81b8d26d05825f453dd5137c3",
+   "enUrl": "6acf8df4f629f495e100462ee8fbae528c1794e9202a4b58df95a58ab40bccfe",
+   "krUrl": "479cad25f641e9ef999e401c3a23d40675763e498e94ade3945ba8dadb4d9887"
+  },
+  {
+   "id": 2,
+   "title": "问候",
+   "text": "浮生如夜露，难断生老死苦——球棒•忍者，夜露死苦。",
+   "unlockRequirement": "",
+   "cnUrl": "e6edc21383da76806929755e3bf3d7b92360e26aedfe9a39b1d9f22d7ea4724a",
+   "jpUrl": "b029d7a2b866a9b7e359f95c4196e3576c36723d836a13026afd0bdadab43290",
+   "enUrl": "d64e4adf52d198956019cc499ca4c80d744b5f4e641e9c6c07c49dffd02bbb7c",
+   "krUrl": "cb0be49df3cb9449129cda87688b27e25ede84a263b3e416896918c6ad75f67c"
+  },
+  {
+   "id": 3,
+   "title": "道别",
+   "text": "诸行无常，此去一别或许便是永别。愿阁下之忍道勇气凛凛、盛者不衰。再会！",
+   "unlockRequirement": "",
+   "cnUrl": "016c0bda2727499556ddb1e5a94b0eacf8aae6dbece07c52fb27a93eacf6adac",
+   "jpUrl": "0696c38d2ba8a31bfd009d13a247932a8f8d4034b85947b61c7799c1034e0a7a",
+   "enUrl": "c4fafdb90929c69ccfb08b2052f21d3865d077a32dc57ae599016ba30f3889b1",
+   "krUrl": "33275ed181102744896e6e0b1d67b0e1bd003917e132356d5c8c38b38c974b47"
+  },
+  {
+   "id": 4,
+   "title": "关于自己•身份",
+   "text": "在下忍号「乱破」，意指「一心不乱、破邪显正」，恰如大岚神之箭矢，无所不及、无往不利。",
+   "unlockRequirement": "",
+   "cnUrl": "aa2ea40d10010f4bc69d5c0107ec1902063f9cfbb137fd85f5a97cd726feb88b",
+   "jpUrl": "ef46c5e344b71911dd4c9e9f4558e7fe7cdb8e755b3b9cddb7286b86bfbadf09",
+   "enUrl": "d61d4eb82c4e78519d15615b4c43425c441faa1107545cf3864ba6ef3e9f1db1",
+   "krUrl": "17e0d373c945af3b8af3c5230df9ed7f35ab07e47b7fd7f81b616ccf2f44d6eb"
+  },
+  {
+   "id": 5,
+   "title": "关于自己•忍法",
+   "text": "银河忍法千变万化，但祓除恶党的忍•信念，未来永劫不变不移。",
+   "unlockRequirement": "",
+   "cnUrl": "b3f35ca907f90c73797a9696fcea07640da42fcad0894953e581a8c2b68c01d1",
+   "jpUrl": "7b15a8df4139dad0633a2af3f3302c407181d7524e15d511eb5c7b258d8303ba",
+   "enUrl": "f29caa186f4e9aeb72fb0c2aebeb138afa5dab34242c934e17cc1eccc9790ed4",
+   "krUrl": "ace426e8e5052ad3d4e0918dd79a992bfef1650d3d4cbdc47bcd070628fbdf6c"
+  },
+  {
+   "id": 6,
+   "title": "关于自己•忍具",
+   "text": "寿司绝非米饭、俳句绝非歌词，在下手中兵器也绝非器械，乃是以忍法铸造、以忍魂灌注、以忍术驾驭、付诸以忍道的「忍•科学」。",
+   "unlockRequirement": "",
+   "cnUrl": "a139a46e49f7d1b189c774ad19e10789786e52f3632c4d488f2851d57938df92",
+   "jpUrl": "52be4cec41e862e8b7c9165b491a6e4d6e002e0a07ef164222823042447ea4da",
+   "enUrl": "dacb401a0c1223db48d5912635b9a35714022b82e11f680622c0b57080559c3b",
+   "krUrl": "a80ac323e001736f99634021fff62cd68a4fe50e30d2d1c16986a8936314bd7e"
+  },
+  {
+   "id": 7,
+   "title": "闲谈•忍道•真言",
+   "text": "星空之下，遍布恶煞，无助的人呐在暗处挣扎。无字的忍法用血泪写下，无私的忍侠由夜幕接纳。言语道断、忍法缭乱，无道恶逆only way烟消云散。乱潮间将恶党全部抹杀，破晓前来点亮炫目火花。",
+   "unlockRequirement": "",
+   "cnUrl": "8f43c3a00f75617e10337441995de9d248b46888f10aaf6ad8e4be2a7d694515",
+   "jpUrl": "208af10320b50bde76be43ce5bd9d16877e395c58446c35e57c482460dbb8348",
+   "enUrl": "04e0415fe66ce961563b045274077ae985c6fd188dd022e8a71b7cc2de2fc6fb",
+   "krUrl": "fb37dd03f5068b1e17cbf9fd76b01f8c34cf0c492b0cc1d56ef006d4ffbc4c7f"
+  },
+  {
+   "id": 8,
+   "title": "爱好",
+   "text": "承平之日亦不能怠慢修行。吟诵<ruby>忍•真言<rt>说唱</rt></ruby>、绘制<ruby>缭乱•忍符<rt>涂鸦</rt></ruby>、修习<ruby>忍•法帖<rt>漫画</rt></ruby>，这便是「益者三乐」。",
+   "unlockRequirement": "",
+   "cnUrl": "cdc3ea0f543e8b5ea54a6836d3c33575835023a9675d3ee2dcc4bf2b02ce2fe8",
+   "jpUrl": "1e5f568f29a9c785c220bfab93e43cfb9c25c0a998d1024566abdaa081877767",
+   "enUrl": "3773badcb72f2fd01e5b0656aa4324c8016ca4551f3de4de33d2642029823426",
+   "krUrl": "bf061084e719aa776646c90bdab4cac1a325cac9ab4a3c208415532c4ba25409"
+  },
+  {
+   "id": 9,
+   "title": "烦恼",
+   "text": "各地恶代官都不喜欢在下绘制缭乱•忍符，在下曾在名为地•铁的驿站中与一名奉行人周旋了七日七夜，那段往事似乎还被人做成了<ruby>超•幻境<rt>游戏</rt></ruby>。",
+   "unlockRequirement": "",
+   "cnUrl": "c3375dd5638d30a3ae2abc02221039683660ea317d852dda08ed9e6db3d6b543",
+   "jpUrl": "3e9984c1b7fbbca90188299f6698113a6389639e7bae928a5d705094c996d3cc",
+   "enUrl": "b5f8d5e2c44a8fbb2c65b8ef1c718d51d305e721060ae5dbf60354a17f337e41",
+   "krUrl": "5e4b19c121ace3430e379d9ad5b16e04efbfe0b601452ea3fd0d6f9981842e94"
+  },
+  {
+   "id": 10,
+   "title": "分享•生命",
+   "text": "人生一世无非借来之物，何不尽情享用再交还苍天？《银河忍法帖》有云：「借时为五、还时四，本来无一物，休道莫须有。」",
+   "unlockRequirement": "",
+   "cnUrl": "ca525be66f096735b4425d2c7ae57f8f4f01876b6fcd05168096bc012c3d28ef",
+   "jpUrl": "a34789b0b0a70ae13a09ec832826c9d551f132d7aae1364f162b682351a2832c",
+   "enUrl": "23d005010a75134636e0022b02e74f17ac4a8170958bf2a8646cd20fcbfe345c",
+   "krUrl": "ed68049eff98d77895a596826bc99492626fc0ecd7b9b7714179a7a2797b69ee"
+  },
+  {
+   "id": 11,
+   "title": "见闻•爱",
+   "text": "苦茶大师曾教导在下，「爱」乃是构成天地万物的忍力本源。同气相求、爱罗武勇——这便是爱死天流•忍法的奥义。",
+   "unlockRequirement": "",
+   "cnUrl": "bb255f7191288f94c973e3ee1802cb8d213a5c0691457a5f723014fd93ee15ff",
+   "jpUrl": "1ba3da5f05d84abe83dde7b3fa35a92aa1eccc2c3eca53102d53f5ec137b9d12",
+   "enUrl": "d187c2a21f9578f4b1b5e2f627ed78a7e255bdabe1ab26e8215c3bc582e5f474",
+   "krUrl": "92cf910b4ef5303e1ef358b44fdbc4ecfea52c9308a1b67ff1acc2ec64cfa522"
+  },
+  {
+   "id": 12,
+   "title": "关于银枪•修罗殿下",
+   "text": "银枪•修罗殿下的弹丸，万里封喉；银枪•修罗殿下的意志，金刚不坏。若用银枪•修罗殿下的弹丸射击他的意志…抱歉，话题似乎不该是这个流向。",
+   "unlockRequirement": "",
+   "cnUrl": "a5ee71421391d218dceed8ac756224631e17fa65fb2527656a9c973486f253d1",
+   "jpUrl": "0d979b84383102b8a7d8b77c0e21e6ce44a4302968fc7855e4628f5885a502c8",
+   "enUrl": "3e7a6e3dc586fe1b4f2548f165d97f543ccbb66e18e7c56e8fab6d32b0f4708d",
+   "krUrl": "5613c0fda878fcd2274fc7ea425c6a4452a45cbee1257674a1eb99fa0cdc12b1"
+  },
+  {
+   "id": 13,
+   "title": "关于飞龙•忍者",
+   "text": "此人忍法高超、谈吐不凡，可称得上是文武两道的忍者•大师。在下尚不能追及彼等心境，仍当修行！",
+   "unlockRequirement": "",
+   "cnUrl": "44719cd9692cf235b412ec90b7bb6debdc210cb2ed2a10528a95ba997612bff7",
+   "jpUrl": "e6f4c0747edbba162319018c3187fd063c886c8da4749ac0ca79b8bdf28fe1ce",
+   "enUrl": "a4019c85bc56a0723b966210d1a1afeb2c4449e387d9c96a1cc98d71bf778562",
+   "krUrl": "20bac477122a3b8eae7cd1e9954fa8952d7d06b317bd781a90f5d6cf5dc52045"
+  },
+  {
+   "id": 14,
+   "title": "关于琉璃•忍者",
+   "text": "她曾因不知来路而痛苦，但依旧砥砺前行。《银河忍法帖》有云：「浮生一刹，在内不在外、在去不在来、在此不在彼。」",
+   "unlockRequirement": "",
+   "cnUrl": "335fa93154cae14d872a2af6c15d04735f6355841c7d54a0e856d6b742fa874c",
+   "jpUrl": "add3984953dd2f3bf11e268cd3163c368ed09728b2ba191fedd5dc845e4bf8af",
+   "enUrl": "38cd916046a7d4f70acd4290db6d7d06b01fb9525c8c1a57ba9fe6b45f208a4a",
+   "krUrl": "fa3ef5e278708315b7d570f9e56bf5c7c4380c755c73825b6354ebca1a2f2459"
+  },
+  {
+   "id": 15,
+   "title": "关于虾蟇•忍者",
+   "text": "他遍查显世、辑录万物，只为求得忍道正法。可凡所有相皆是虚妄，《银河忍法帖》有云：「梦是无梦，空是不空，不去不来，惟在当中。 」",
+   "unlockRequirement": "",
+   "cnUrl": "a6a68fdea38bbf8fa816aaa9b5a1fcb0f015f8dca32f9eab8f488670ac87d0b7",
+   "jpUrl": "b2d5d536a6f19cb4d17c6ecf0b1cf7e513532f4325ba31fa92dc43bb3f4c51a7",
+   "enUrl": "b5999cc71eb24388f73560130276764387cb03ad484d140455354ed8a98754fe",
+   "krUrl": "eff545d627c40359c985a2bbfd9e7ca193a17e51997a5f9647d9ddfc52b683a3"
+  },
+  {
+   "id": 16,
+   "title": "关于歌舞•忍者",
+   "text": "何其优美之音律？歌声响起时，在下亦哀嚎在地。一期荣花一世人，花亦花来人亦人，呜呼！",
+   "unlockRequirement": "",
+   "cnUrl": "7501a8ae10172d2d2173dacd24e8f09787f35b7ebefc9f3d19cfbe0bf123b72a",
+   "jpUrl": "e3b898e78d5b256ef616bb123771f685dbfe4a1d29a10aba12571b5c3a6b0e23",
+   "enUrl": "004f63759cf319ef2f86efd13a3579f93840e87af9f15644cf325ddf00186392",
+   "krUrl": "58f04daaceb72bca07d2b342cf152c594890d117e484873373d3e885e2b634bf"
+  },
+  {
+   "id": 17,
+   "title": "关于御猿•邪忍",
+   "text": "末法之世、邪忍强盛。所幸，无论御猿•邪忍多么强大，亦难逃是生灭法。生者必灭，而罪业不灭，大岚神的神威终将示现。",
+   "unlockRequirement": "",
+   "cnUrl": "7af3c045b046a28262e728281ccc49fe0d1fd9fcddb2eb51ee108a651e87cbac",
+   "jpUrl": "c62981c2ef88f070c5aa4886caaa404086bd0d16c1304c58f2b6d8907819de7d",
+   "enUrl": "3572f25800d3d8828f4eab28a40ddb1edea8a95a8fc928d2c140d1e45604c31d",
+   "krUrl": "36fef9a9cfe10b17b7af58ce0dde44e11298ad3b3f37b751c5e6221652aacc8c"
+  },
+  {
+   "id": 18,
+   "title": "关于「机械热潮」",
+   "text": "来自雪国的忍音•繁弦急管！此等绕梁之音，定能令春风骀荡，悄然登至白云上。",
+   "unlockRequirement": "",
+   "cnUrl": "48773c0887379ede9881b02ad12358c5bf7eb77cfa3fb7b835e8452370fb5fe4",
+   "jpUrl": "36e8ad4e741d97e31639ea231f81f9dcb225f3a34727814b30b968fac586a343",
+   "enUrl": "b4899952965f4ca8961acff8f0f31f44e3c4573a91fc0afa2931e9de6e4ee23c",
+   "krUrl": "32951ca79046a030da71a3d94aa39bc87917544def2843ce3aca5898b64b6531"
+  },
+  {
+   "id": 19,
+   "title": "关于忍义手•赤鬼",
+   "text": "为观摩银枪•修罗殿下的决斗，在下曾亲身到访仙舟「罗浮」。其对手是一名使用忍•义手的赤鬼•忍者，战斗意志纯一无杂，绝非等闲之辈。",
+   "unlockRequirement": "",
+   "cnUrl": "1b03a87e6c9b4504e2b33226b81348c54872de666cacd984ea2ed6487b1583a6",
+   "jpUrl": "bd3698c4f760e2186f85744318b90114322c362390143925de0df0e83682a613",
+   "enUrl": "ac78172b3f0b4bf415e6ca4a9b7a7f8bf4d4dc6bf902b563475698d1421be626",
+   "krUrl": "92ef7af8825aee3bf0a2315243d20afd61d06f73d6aac6b79609bbebec4d8501"
+  },
+  {
+   "id": 20,
+   "title": "星魂激活",
+   "text": "押忍！不来不去，无死无生。",
+   "unlockRequirement": "",
+   "cnUrl": "ad1201c50fe1f8440b15c17eef2379f4ff699dae1214f254a336eb76251c4989",
+   "jpUrl": "7cb1bf9d3943c2bc1603b2a8d2d7fc96d331060cbf35e920b7890c1a3d26453c",
+   "enUrl": "15d690f9adb6ff77c8b234f26ff48bbf09072297b18e84f499070d802fc83205",
+   "krUrl": "279dce81cc4917aa15b7a7ded19cf6090c113c95f9be117c80ad9c7d837b7d02"
+  },
+  {
+   "id": 21,
+   "title": "角色晋阶",
+   "text": "押忍！四苦八苦，盛衰枯荣。",
+   "unlockRequirement": "",
+   "cnUrl": "fc9515200c3d13541ba38d26db4c814fab2eaaeb560bdfdcedaf9d58a98e9d99",
+   "jpUrl": "9a4ee255b821c4a799e3f6b2eddc9f42e7edcf7ebc0092e40735ee5750b20f3e",
+   "enUrl": "8ff7551e71ad335f312cd5605db6c24e82b679297fc3829e116ebcde918f35b9",
+   "krUrl": "3c933eb42c0da57c81c534a97ecca29255269d5c975203503c7219d8df7c3f40"
+  },
+  {
+   "id": 22,
+   "title": "角色满级",
+   "text": "此身如云难留名，不过朝露电光。",
+   "unlockRequirement": "",
+   "cnUrl": "767641ec352bbb319c70f72e5289240a98f6d82f0790cf5569336147ec4766c2",
+   "jpUrl": "bc16c92092ad65ec3f3cdf3ddc63473cf8cddcfc406f4ee41f6a53b34fb615ab",
+   "enUrl": "52d3e9dea2bba2eda180981b2db259f751bb470e4523dce64bd193f1e1b5ad5d",
+   "krUrl": "456bf7e6094aa5e2f23dbe9676a4b531d25306e22ea9f1dc278dbae288fd3ae8"
+  },
+  {
+   "id": 23,
+   "title": "行迹激活",
+   "text": "无情！化恨成岚花尽散。",
+   "unlockRequirement": "",
+   "cnUrl": "9091424d14c18f1b5b292efe606c2acd34ec62579a9dd675c3a5df7cf2b76b5c",
+   "jpUrl": "17d2376344316b72c3677dba9fb21c71be98704f12555b54b02aa03565417b9b",
+   "enUrl": "0179d3e1d18f34a3e88f3578a02587c466c096bc02607d48ae78188673f03087",
+   "krUrl": "803a5c52daf9284d5f667a55fb9dd0ceb4f0a5776e2f64a36f182aa5f41baff3"
+  },
+  {
+   "id": 24,
+   "title": "队伍编成•开拓者",
+   "text": "开拓者•忍者，请赐教。",
+   "unlockRequirement": "",
+   "cnUrl": "b067a94886b328e8859ad49c233ae91675941a7cfa61be949de5ae714f24bde7",
+   "jpUrl": "a90196b6d4340899a5a1468182c661c1768e40cfe1b88a5aef39ce8534581249",
+   "enUrl": "54a4016a05c48445ca83382e1bd4f7697243b103088dd2c444f9019091c27143",
+   "krUrl": "06b7c2e726d693ceb276b66f038ee7c5158d63515a3effb06def2f6aad654d34"
+  },
+  {
+   "id": 25,
+   "title": "队伍编成•波提欧",
+   "text": "银枪•修罗殿下，令邪祟尝尝我等眼花缭乱的忍•联手吧！",
+   "unlockRequirement": "",
+   "cnUrl": "215b49f5299e3ad214eea4cf9e8ac26111b563aad5aa70c205924df1a2f48dfe",
+   "jpUrl": "19feb0511f184b5d3e32dace45494e1af2600eb084a93d2a91cc00b883eba074",
+   "enUrl": "d5e8f181ff06a18f12a73a5a49058f851d76aa5022c316d57d826363c226e769",
+   "krUrl": "65e47028639a09f88e8a1115589fc542c1e3ee7529a6c4cce563a86eb3cc0f08"
+  },
+  {
+   "id": 26,
+   "title": "队伍编成•丹恒",
+   "text": "飞龙•忍者，有阁下相助，如得百人之力。",
+   "unlockRequirement": "",
+   "cnUrl": "5bdf48c539a3802475f0c6292833048865603c644a43307e53bf17fc8f26d010",
+   "jpUrl": "437d6f8de5e31adb3fd83ca2650cac6637a3ace2673ccf75e6edab42091b2e57",
+   "enUrl": "cd6bf0e883f0211af15e11de90b18fd4e786f30534175ecb6ec71cfe557df92a",
+   "krUrl": "4cb843b6ff5451a2be43cd5dc5cb68b5eb0816b49180134f44d0484a071c8a99"
+  },
+  {
+   "id": 27,
+   "title": "队伍编成•三月七",
+   "text": "如此娴熟的冰遁•忍法，不愧是琉璃•忍者。",
+   "unlockRequirement": "",
+   "cnUrl": "ca532bae0682a8d79d4ef4aba60bb92703c4bd98e275fd489e48789182a805e4",
+   "jpUrl": "95f6691589cd224df57f0c8325786819bcf6b8705b6b88305cf080e1789d9e85",
+   "enUrl": "a7369badbf2be38a08786dd216111f1afda435dd940d81f0749726d82abdaafa",
+   "krUrl": "f914f8b76732e7d06ba50432fd6def4254e3ae424ca8840941435713fc093bcc"
+  },
+  {
+   "id": 28,
+   "title": "队伍编成•知更鸟",
+   "text": "有阁下的音律•忍法相伴，我等定能击破一切邪瘴。",
+   "unlockRequirement": "",
+   "cnUrl": "5eb0c81522210889c74d05ed9c3262fe80485ef1ed0b333d75d603798ca1d20d",
+   "jpUrl": "2094ee19b072762c171afe14fb78dca5dfa9046744d2483d8c3945c849a9ee22",
+   "enUrl": "01f23ab2019951c75414f4dd4ed012a8042e65e8749b31f708fbf3fc1d8a77d5",
+   "krUrl": "5d49e0432fc5765b4091c07ac6ede8f8a1c52bd82665244a1a6094d397ffcb17"
+  },
+  {
+   "id": 51,
+   "title": "战斗开始•弱点击破",
+   "text": "面甲•粉碎！",
+   "unlockRequirement": "",
+   "cnUrl": "3d8698431c62978e468ccbd20371c651a40dd6c39ec334f7ce999f3334128c43",
+   "jpUrl": "aa16226c229185cb7bd9defceb69481e999d8c59930b62af4cd7bf568ee61185",
+   "enUrl": "a0ece4c9931c41ee1a7daa9a2a506c478e404e0258321a1f05c39a3de86098f1",
+   "krUrl": "90ad7c763b343a568ab0ea923abeefaefb7d23bc07bb2e4340518765b64b8217"
+  },
+  {
+   "id": 52,
+   "title": "战斗开始•危险预警",
+   "text": "此地即将化作壮绝狩猎之起点！",
+   "unlockRequirement": "",
+   "cnUrl": "1dfe878fac3192d55c753794d3a6075f6ca2994bebf58ec960dff3c7f97b64e8",
+   "jpUrl": "2c55defd3750ea3686fc054315a10093a6931ce1bcde5650b52d6cec4d9a49f5",
+   "enUrl": "1a503cbee60038ba7512140c08c5d4b7d844e2bfa670058cd822aff471acdcaf",
+   "krUrl": "453f5211e8d89cd523d68529ab06a011a7e7b7e77694e5af150b4d00cecb029d"
+  },
+  {
+   "id": 53,
+   "title": "回合开始•一",
+   "text": "<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>，前来讨伐！",
+   "unlockRequirement": "",
+   "cnUrl": "88b33428aebfaf5e3ea6c8d7d858f13d55b489a52b46bcc1cf36359e104717a4",
+   "jpUrl": "7040a9b77a8fccf5ccafabda1347dae6721f2f9d0a238f668f3238415a2b0d64",
+   "enUrl": "a0428453640060a7df11aea876d9b91a2ad812bcef3725c9ef3a2fbefd4da0eb",
+   "krUrl": "ad96cf76d1c90ff5b7fc475893a0076e2d53fc97813d2a78250fb73d0307d206"
+  },
+  {
+   "id": 54,
+   "title": "回合开始•二",
+   "text": "诸般邪祟，速速退下！",
+   "unlockRequirement": "",
+   "cnUrl": "a4332a3cebf54057d54bc063d8845e998e644d98549c81ad3d5be2d04a2b94cc",
+   "jpUrl": "cdb746dcdb1c380b52493f4d5eee8f1750129de2e48e2e44225f1ebe131b8514",
+   "enUrl": "7d216e68c0ebae2d59ebb3609073b9821586a689b8b414873d6b9c8172cecad3",
+   "krUrl": "e7b39d037095728fad4318b2b7591630e46a4683b0026616140fdebf76d09db6"
+  },
+  {
+   "id": 55,
+   "title": "回合待机",
+   "text": "《银河忍法帖》有云：时机未现，静候其变。",
+   "unlockRequirement": "",
+   "cnUrl": "690c4909c6b057f9431780fa89f1e7f3ccc31c27dd0789edc41a986397ec5972",
+   "jpUrl": "634d075481878bce1a74181368e2776292b66637d900153e6a6c570a5852dba8",
+   "enUrl": "66426cfdfc24afc96024d33d77079a97892bdff9f7350ab10969e75a38d3542b",
+   "krUrl": "00e06836a4b483c94c0e9a24580a438fb1c4d768e1e22ecba859d65e73bd4e93"
+  },
+  {
+   "id": 56,
+   "title": "普攻",
+   "text": "居合！",
+   "unlockRequirement": "",
+   "cnUrl": "8810b6e4f060cde1d395cb977ccfd7ec00efa9ff44cba510c02d30e0f1aa4ae7",
+   "jpUrl": "1653cc9335062c66c5a157c37523e6ebcced69811f43299edf1a172c61e0d719",
+   "enUrl": "5ab4e5ff4c3bc69c2322a117b1d44f67c3b164031cedd16c1a75d31edd7ef204",
+   "krUrl": "bd61fc5605fdc9e577e09bf459d67ae32e62d0bd78c0757be6c1e3fa9a9811bb"
+  },
+  {
+   "id": 57,
+   "title": "战技•一",
+   "text": "缭乱•忍法•锦墨绘！",
+   "unlockRequirement": "",
+   "cnUrl": "6e7d3c8471714c8dd68aded5d00b4532d0fd3d5260499b38b40c9f216a622ab4",
+   "jpUrl": "69cb4f7328169dba30cd9fe3ce9858dfbbcbef3f2053b7d753b271bc9beb213c",
+   "enUrl": "965a60f5a99da2fc36c34958aea7fec978af7eced3e4d5c5bf63622177126fdf",
+   "krUrl": "3f1aa515eecddf66f26ac007f0536b44a6cbf18fc7029da0aeedf36e93ffd4cb"
+  },
+  {
+   "id": 58,
+   "title": "战技•二",
+   "text": "缭乱•忍法•万彩绽！",
+   "unlockRequirement": "",
+   "cnUrl": "61ff064dbd9bbdd5c8bb58cc68c49ae8f518eb5bc13ee0a5f2affd953744159e",
+   "jpUrl": "6ef83f69dd02772aaab729328f8bf6a4aa1590e945ffe67053a82c231a65316c",
+   "enUrl": "dc53764d31a5aa1f35892421503a94a1b670620f953079631f99054e8598aa1c",
+   "krUrl": "57b08bf804a1b1a876e40ca1f9a1b9a038348c44155268f3f9766d4dc65c211c"
+  },
+  {
+   "id": 59,
+   "title": "轻受击",
+   "text": "无用！",
+   "unlockRequirement": "",
+   "cnUrl": "4fe18941395dc6ded46ac3dc16b6b3edbed44f56fa52804bef9f4314ea48bf41",
+   "jpUrl": "c0e313e9a993e5a2baf5d6aca0d7de682756c8e16b8c337d86c634e04b6aaeea",
+   "enUrl": "a036ef9773d5988ffb41711904c71ad2cc68539d98ca51963fc4f09957c5c5bb",
+   "krUrl": "e949ad38945d9a20216c1cad5b985c17ce1f26734380baf6782c4df002019491"
+  },
+  {
+   "id": 60,
+   "title": "重受击",
+   "text": "诶哟不错！",
+   "unlockRequirement": "",
+   "cnUrl": "92009f5ddf247311a65ee1ee8637b70437ee21a1cf9a798e094430186b051663",
+   "jpUrl": "5ffd09fe98bfcfd31773a8271506f4aa998a86cfa9629e767b19fe1960049e0b",
+   "enUrl": "ff096213d34a141f92e183830bd0ec576cb6c29d051684d7e61740c31aff7fd4",
+   "krUrl": "4a2b338de23ac5a42534bca645806e1dd3513e8f381b9cf6c2db51b08d7b5966"
+  },
+  {
+   "id": 61,
+   "title": "终结技•激活",
+   "text": "银河忍法，千变万化。",
+   "unlockRequirement": "",
+   "cnUrl": "99693f31e0f5d8840bde06a5276b13e10ad752a6ee14ae5cafac66ce06727fdf",
+   "jpUrl": "74e1f1523e1f2ea517c3f7abc200eb12dc583bf27aee10b72c5e468f7c434523",
+   "enUrl": "d678b43276d6963a053d7832e88d0feaa1252b792d49449c263516c8893dbea2",
+   "krUrl": "b708c46206fdb32f4f9f19f46b1f75c358e90355d810a3d7611993cc94e896f2"
+  },
+  {
+   "id": 62,
+   "title": "终结技•激活动画",
+   "text": "此乃——「忍法•奥义•缭乱灭破杀阵」！",
+   "unlockRequirement": "",
+   "cnUrl": "4509860b6c44ae33ce6f6d63ff67745da1af5b2a4f1847ffb29ab4b400089ced",
+   "jpUrl": "b1b28ac0fadc4cb75bd2a01a0a1eaa4a92a727d579e59153c7a37e505ac704bd",
+   "enUrl": "a39c1c0dd22b9df6b9b92e3a56666fe9fd30a16c79d7b1ca6344de1372feaee9",
+   "krUrl": "f489346511e853eddb5248ecfd7e88f7869408b9aa52fcb25e014629f8923f83"
+  },
+  {
+   "id": 63,
+   "title": "终结技•施放",
+   "text": "斩！断！破！",
+   "unlockRequirement": "",
+   "cnUrl": "170d84f837a4a214f37997df4790d61c3a69c0aa034dd76fe2285c8dae876e63",
+   "jpUrl": "16c4c0e0e5d037081a80a7155271d2f3b5261b33566089eb95c26e80a352f2d3",
+   "enUrl": "6196d07672499cbc9eaefcede14e8daa02364be10521396875dcc45e413dbdba",
+   "krUrl": "9469628dffd1e28323ea0eeb4823c95217025092e76ebda6e94bd0a291900be9"
+  },
+  {
+   "id": 64,
+   "title": "无法战斗",
+   "text": "就此，告辞……",
+   "unlockRequirement": "",
+   "cnUrl": "e2963a490f21955a4f6616fd9229c2d0e7a512aa8d5ee15156b739c7d1611b50",
+   "jpUrl": "3f5e514e1258e7253c1d133889e39f22dc4a5d36858500fcc0a14df370f1fb4a",
+   "enUrl": "9533eb7401eb2f79927c67747280bc98e6db1aa515027af6bd4f14895c6f07e0",
+   "krUrl": "126b6bd9677bd439345a80254b361a7369fc1b4706350cc7707deab8c4e349f4"
+  },
+  {
+   "id": 65,
+   "title": "重回战斗",
+   "text": "忍法•转生？完璧无敌！",
+   "unlockRequirement": "",
+   "cnUrl": "b5f64ef5acce39aed35a49cd4f2da2f49ac70a76e0889fe0412cab730a1111d6",
+   "jpUrl": "12add55b990bfe050d0a840dcbf30057252d09f59766eb8fe71f243397c08954",
+   "enUrl": "c9ed46b146e9aff37c97292147da66df81f4acbeda737780b687f15027c26470",
+   "krUrl": "cb6855370e747754012abcd9b70f1a4a784647ca0c58da161af83dd9391d1cab"
+  },
+  {
+   "id": 66,
+   "title": "回复生命",
+   "text": "超绝欢喜！忍•医术！！",
+   "unlockRequirement": "",
+   "cnUrl": "f7cba2dd0d20b7de5cef20169a3eabafb5eb5aae33485dc06680a4006a1e0cfc",
+   "jpUrl": "cea25f3e5fdc57e39e453545bfd4cf433a4c80291f7b7a0393596d58e4f60d8d",
+   "enUrl": "785e3a5dabbdbe4b0e3b6c17fab8d2b90d0c55aded0d215a748c76a2dd322c20",
+   "krUrl": "0e7fa101782c887170b624cb56f71c79aad31fc199dbc36d2e56ed88e014a6aa"
+  },
+  {
+   "id": 67,
+   "title": "秘技",
+   "text": "忍步爆走！",
+   "unlockRequirement": "",
+   "cnUrl": "b3373bb2094b1477733e6135f6fa9da7436f546aaeda98f6d051940249865087",
+   "jpUrl": "fa7348f60748bff99b65231160b8d7521d1347a9e22bfca63d1708088c34003a",
+   "enUrl": "da7819e59de4ea6b4ce6e5ff0c527be88eedf904e70e68fd5985cd8020950201",
+   "krUrl": "44a66af4319a22d813be90e92e05796bc61098abc1dc6dacf1b49059be0e4595"
+  },
+  {
+   "id": 68,
+   "title": "战斗胜利",
+   "text": "在下会铭记汝等的辞世句，告辞。",
+   "unlockRequirement": "",
+   "cnUrl": "52b3824defd23bbb073fa5e21b2a7a2ff1e4b16354d5da9b362e497897f87788",
+   "jpUrl": "d8a9569eb658190276a1bd035cb96e4ebce6e564ca165741305641e9e4239a7b",
+   "enUrl": "73988a09e10acbb279032a827ef7d9e3f8e862d2350651736400b517ab25b9a2",
+   "krUrl": "e83b8bf07d9dd4245c8d11b2de624c48af576ad8a4cc7259d9f029c52a6fb527"
+  },
+  {
+   "id": 69,
+   "title": "开启战利品•一",
+   "text": "忍侠不可贪慕财物…但仍需傍身之财。",
+   "unlockRequirement": "",
+   "cnUrl": "56e19973fafe5bbbd6ee6d3704dc9d81bd9e11e77073dba75458a46e74783ac0",
+   "jpUrl": "b2a2b5f4a7dda1a7994a21bb879347d949acfbc5045b3239ae731805e1702772",
+   "enUrl": "052b578d99663c55aa4719791a9531d10e0f60de0eaa5038236edb2b270b6c50",
+   "krUrl": "8d20023492ffea261aa3dff3aa9720c3835fffc15b9070b16e13cc44798975e0"
+  },
+  {
+   "id": 70,
+   "title": "开启战利品•二",
+   "text": "大岚神赐下的奖赏，在下就收下了。",
+   "unlockRequirement": "",
+   "cnUrl": "6017f0a1180d32bf13d5072ec742ffcea716af392a60f6a483e04412df394760",
+   "jpUrl": "b27c801f068cb07fede41bac5429da9187ca9282468fc8f3a146cc2c2a795c8f",
+   "enUrl": "d8a485ba1a45b2f099f94f70f8716dc07f5fa60e4fd7142a98a50bbf889c139b",
+   "krUrl": "df0f0ad68c3c3b99631960be0ffd4d47438ce678fb2a09f4612ee55592700c67"
+  },
+  {
+   "id": 71,
+   "title": "开启贵重战利品",
+   "text": "是《银河忍法帖》中记叙的忍•宝！",
+   "unlockRequirement": "",
+   "cnUrl": "068c5630880a3ab30b8de2cc7af430209e1a1336e9358e16a1657d29f516cf5c",
+   "jpUrl": "0be9a474ac8bc697330cfed4e80478be1baf1e9bfface84d2eeeff3600a31e24",
+   "enUrl": "06295528ab77e423ea2f7f26313f322a93647c379c685511066ccdf1e8a3de14",
+   "krUrl": "d9850f60dfa59ecd61950472c53bd94dfedeea95b77e75ea33a9fdaa3b255f2f"
+  },
+  {
+   "id": 72,
+   "title": "解谜成功•一",
+   "text": "精妙的忍法机关，但难不倒在下。",
+   "unlockRequirement": "",
+   "cnUrl": "60ba0459d2b5b56618efb5c67e9c49067f9073ccc086ba9916b1eacb90feb5dd",
+   "jpUrl": "99edd329d2b51174f87fa6efbe88c8d293d248c8646d5ed795290b76b897e97f",
+   "enUrl": "d12e5f0c0920175f066a4ab4131213193dc0ac10ba10693f54516049d83fdd59",
+   "krUrl": "651422e6081f60513b31e6869c66a173280056d1d7ceb1fc667fa18ad363f5e8"
+  },
+  {
+   "id": 73,
+   "title": "解谜成功•二",
+   "text": "智慧的考验，亦是忍者必经的试炼。",
+   "unlockRequirement": "",
+   "cnUrl": "e297f2f19fc98f4347da3057d8a249f0456df4beb7b78a11855801b9ef09f9ab",
+   "jpUrl": "0a7db650bd3a223074cf95f4c8fb0341fc1e232cd74eecf4ff8a9c530dfd821c",
+   "enUrl": "0c9b8e38dec332cb07ff712a49d5b003f9bc925c5c06e04d1df9b44b882b8b95",
+   "krUrl": "03cdb595dc9720a6ac4a94f40a11545f811ac62e93fab3d8a4d0ee959ad80376"
+  },
+  {
+   "id": 74,
+   "title": "发现敌方目标",
+   "text": "大岚神在上，何等强劲的邪祟……",
+   "unlockRequirement": "",
+   "cnUrl": "7801ab508d224cafa618c50c6ef407e28537310a78e19c27a817f2860cc0d34b",
+   "jpUrl": "9224c37c5a12628560738aa1ae47e2ad8f158e89c2a7de7877770c63c74a5cb6",
+   "enUrl": "c4467fc29f08d8bac991a74d241e34a68d4e75127285d1b8cb3900c5cdd956b5",
+   "krUrl": "979c3217b80638eb72e77f95b30a886ab1d25a7b43d8a6fb77f649d3ae5c8aa9"
+  },
+  {
+   "id": 75,
+   "title": "返回城镇",
+   "text": "此地的忍力甚是黯淡，就让我等来挥洒缭乱•忍法的色彩吧！",
+   "unlockRequirement": "",
+   "cnUrl": "11c723aa69c473e95034903dcbc891e762a07dc942e3f41c52d3e18ce7cfc222",
+   "jpUrl": "6ffe996965aee820543a25ad16499ee644a071fbeaa6567b8dd4ead1d9a92d49",
+   "enUrl": "7e5b324e7acfee46ce5a4f2602f31caafbe6ef0cd4ad559907da663df6d5ef50",
+   "krUrl": "2170924a0035f6138e8c1fc713ce76873dbdebae745e4951a09af7c4388dad43"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色详情",
+   "text": "如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。<br />贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。<br />身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "<b>银河忍法帖之缭乱破魔传•试炼节点：无慈悲的手里剑</b><br /> >>系统初始化>><br />>>用户<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>接入完成>><br />>>忍者等级验证中>><br />>>欢迎进入属于你自己的忍者•游戏！>><br /><br />试炼系统：忍之都的街头，铺满了绿色的不祥月光。御猿屋内，碎裂的玻璃罐体流出恶臭的粘液，怪异的号叫不绝于耳。<br />试炼系统：你身携大师所赐缭乱•彩墨•忍具，穿梭在无情的酸雨之中，劈开脏污的空气，朝着御猿屋的核心奔去。<br />试炼系统：邪忍们发现了你，他们说着你听不懂的话朝你扑来。<br /><br />？？？：「试验品暴动了！」<br />？？？：「天杀的，你把昂贵的仪器都弄坏了！」<br />？？？：「谁把这该死的病毒灌进了她的脑子！」<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>：「咿呀——」<br />系统消息：忍者释放了手中的异彩！<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>：「咕哇——」<br />系统消息：忍者利用地形甩开邪忍们的包围！<br />系统消息：大般若神在上！忍者的生命值已降低到警戒值！实际危险！<br />系统消息：忍者突破了包围圈！<br />系统消息：忍者站到了忍之都的顶端！<br />系统消息：忍者的光芒照亮了这座破败不堪的城市！<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>：「恶徒们，准备好吟诵辞世句吧——」<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>：「忍法•奥义•缭乱灭破杀阵！」<br />试炼系统：御猿屋的阵法如雪花般崩裂，你终于推开了忍之都的大门。<br />试炼系统：你失望地发现门外没有始作俑者「御猿•邪忍」。<br />试炼系统：你惊讶地发现忍之都外的世界很大，大得有些令你害怕。<br />试炼系统：你回头看了一眼，心中默默地做出了决定。<br /><b>选择：<br />       1、往前走。<br />       2、往后退。</b><br />系统消息：忍者还有五秒做出选择。<br />系统消息：5<br />系统消息：4<br />系统消息：忍者选择了【往前走】。<br />试炼系统：大岚神在上！忍者没有回头的道路！况且，没有一个人能拒绝拯救世界的英雄传奇。<br />试炼系统：开启属于你的《缭乱破魔传》吧！<br />系统消息：用户【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>】经验+<nobr>10000</nobr>，获得可大幅提升攻击力的【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">降魔•花弁</span>】。",
+   "unlockRequirement": "角色等级<nobr>20</nobr>解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "<b>银河忍法帖之缭乱破魔传•试炼节点：忍者之心大肚牛肠</b><br />>>系统初始化>><br />>>用户<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>接入完成>><br />>>忍者等级验证中>><br />>>欢迎进入属于你自己的忍者•游戏！>><br /><br />试炼系统：破除了御猿屋邪阵后，你立誓要消灭御猿•邪忍。<br />试炼系统：你正在游历于一个陌生村庄，顺道救下一位被战斗猿追杀的「旅者」。<br />试炼系统：你发现，他居然是曾隶属于御猿屋的记录员。毫无疑问，御猿•邪忍也要对他赶尽杀绝。<br /><br />重伤的记录员：「太可笑了，没想到是被你救了。」<br />重伤的记录员：「你还在践行忍者那一套，你知道吧？那只是『模因病毒』。」<br />重伤的记录员：「什么超人类、什么忍者、什么游侠…无论哪一个未来，都由别人决定。你永远没法回到真实的『世界』。」<br />系统消息：忍者正在思考记录员的观点。<br />系统消息：大岚神在上！忍者的士气开始下降。<br />试炼系统：哎噫噫！多么残酷的真相。你早就知晓，只是不愿面对。<br />试炼系统：但此时此刻，你必须做出抉择——邪忍的部下再次追来，你是否还要救下这个以怨报德的无恩无义之人？<br /><b>选择：<br />       1、救人一命。</b><br />       试炼系统：「我的未来大道无垠，邪忍不过岸边的足印，唯一选择是正义的猎巡！」<br />        试炼系统：你吟唱忍•真言，轻松解决了邪恶猴子。你不在意「忍者」之名是否为真，因为你知道自己所为之事源于真实所想。<br />      <b> 2、我不管了。</b><br />         试炼系统：「又是邪忍的独断•狂言！」你对他的话嗤之以鼻。可你实在讨厌身后那些猴子，于是你一边冷落他，一边解决了追上来的人。<br />系统消息：忍者选择了【救人一命】。<br />系统消息：忍者的士气快速上升！<br />系统消息：用户【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>】经验+<nobr>20000</nobr>，获得可提升士气上限的【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">忍•心</span>】！<br />试炼系统：你不再怀疑，甚至不再关心这些妄图宣判你的独断•狂言。<br />试炼系统：他们说你是个沉浸在自己世界的可怜虫。<br />试炼系统：但他们自己又何尝不是呢？",
+   "unlockRequirement": "角色等级<nobr>40</nobr>解锁"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "<b>银河忍法帖之缭乱破魔传•试炼节点：忍侠之道是为何道</b><br />>>系统初始化>><br />>>用户<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>接入完成>><br />>>忍者等级验证中>><br />>>欢迎进入属于你自己的忍者•游戏！>><br /><br />试炼系统：这是你成为缭乱忍侠之后第三十三场战斗，你追猎御猿•邪忍的足迹，从他的邪恶之手中拯救出一个个世界。<br />试炼系统 ：你看着眼前被自己炸毁的地窖，阳光穿透墙洞，春风第一次涌入这个巨大的洞穴。<br />试炼系统：眼前是一个被「御猿•邪忍」蒙骗二十年的军•火村。生活于地下的村民认为外界充满战争，甘愿退化成为制造武器的工具。<br />试炼系统：咿呀！但你完全了解居民的真实想法。他们依赖那个战争的谎言，以筑成内心虚假的幸福与满足感。<br />试炼系统：因此，他们对未来充满怀疑。<br /><br />当地居民：「当我们相信地上战争未止，而我们却能在安全地举行婚礼与葬礼时，我们因享受了他人难得的生活而感到幸福。」<br />当地居民：「当我们被告知地上的军队需要靠『地下』的武器制造来赢下战争时，我们因同样有生而为人的价值而感到幸福。」<br />当地居民：「你说战争早已结束？过去的生活是军火商的谎言？那、那这<nobr>20</nobr>年我们付出的一切是为了什么！？」<br />系统消息：忍者正在被不明真相的当地居民质问。<br />系统消息：忍者的士气缓慢下降。<br />试炼系统：但就如所有受到御猿•邪忍残害的世界，倘若置之不顾，他们和后代终将遭受更多实验的痛苦。<br />试炼系统：就像曾经的你一样。<br />试炼系统：请问，现在的你如何选择？<br /><b>选择：<br />       1、坚守忍道。</b><br />        试炼系统：「忍侠之道，扶正祛邪。斩灭世间恶孽，是在下欲攀的高天。」<br />        试炼系统：你使用空手道让地窖又坍塌了一面墙，更多的阳光涌了进来，有些人往里缩得更深，有些人正朝外走去。<br />       <b>2、弃之不顾。</b><br />        试炼系统：你没有再为「真相」辩驳，你尊重他们的想法。你黯然离去，顺便解决了地上的军•火邪忍。你心想，围墙已破，他们终会被阳光吸引。<br />系统消息：忍者选择了【坚守忍道】。<br />系统消息：用户【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>】经验+<nobr>30000</nobr>，获得可提升坚韧度上限的【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍道</span>】！<br />试炼系统：军•火村新出生的生命以惊人的速度适应着真实世界。你欣慰地看到，他们能够幸福无忧地长大成人。<br />试炼系统：恭喜你，又一个村庄摆脱了邪祟——但你云游驱魔的速度，远比不上御猿•邪忍危害四方的效率。<br />试炼系统：你来不及有一丝疲惫，接下来，你该往何处去？",
+   "unlockRequirement": "角色等级<nobr>60</nobr>解锁"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "<b>银河忍法帖之缭乱破魔传•试炼节点：最初的和未来的</b><br />>>系统初始化>><br />>>用户<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>接入完成>><br />>>忍者等级验证中>><br />>>欢迎进入属于你自己的忍者•游戏！>><br /><br />试炼系统：瓦修！限时任务！<br />试炼系统：你惊讶地发现自己掉入了宇宙的奇洞，进入了一段特殊的幻想故事线——「如果我不曾是忍侠」。<br />试炼系统：年幼的你不用再吞服蕴含过量忍•力的密药，不用遭受雷遁忍法的折磨，心智不再受缚于模因病毒。<br />试炼系统：假若你不是忍侠，会想成为什么样的人，会拥有怎样不同的人生？<br /><span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>：「不知道，我从来没想过这个问题。」<br />试炼系统：果然，狩猎邪忍，弘扬忍道——这项行动原则简直是被刻进了你的所有肌骨。所以，还是由我来为你提供选择吧：<br /><br /><b>选择：<br />       1、热血漫画家。</b><br />        试炼系统：绘画是你自幼时便兴起的爱好，你阅览了各式各样的漫画绘本，逐渐被那些绚烂的色彩和精彩的故事吸引，你想创造同样令人热血沸腾的角色与人生。你成为了倍受欢迎的热血漫画家。<br />      <b> 2、金链子歌手。</b><br />        试炼系统：你生活在遍地学究的研究所，他们张口闭口皆是生僻术语，或矫饰过头的辞藻。他们矜持不苟，严明语法，谄媚权威…这使你厌烦了虚假庸常的言语。你将自己的真言吟诵成曲，成为了叛逆的歌手。<br />       <b>3、武道馆教练。</b><br />       试炼系统：你天生拥有超于常人的身体素质，专注于身体运动带来的精神刺激…你成为了武道馆教练和宇宙空手道大师。<br />试炼系统：面对这些人生原本应有的不同可能，你茫然无措。它们没有仇恨伴行，也无使命束缚，不用辨明复杂的善恶，拥抱自己抉择的人生。如果有这样的选择和可能，你还想成为忍者吗？<br />系统消息：忍者在此关中有足够时间进行选择。<br /><br />>>游戏暂停中>><br /><br />她摘下了脸上的目镜，低头若有所思。<br />「流晄忆町的超•幻境真是提出了一个有趣的问题，若在下未踏上缭乱忍道……」<br />那假绘的蓝图让她陷入短暂的遐想，但她马上就将这个问题抛到了脑后——<br />「但除非天下邪祟除尽，否则此番假想也只是无根泡影。」<br />天际的流星已然升起，在忍侠的狩猎完成之前，必须心无旁骛，其余皆为一瞬杂念。<br />缭乱•忍侠压低帽檐，没有任何犹豫，向真正的试炼之处跃去。<br /><br />>>游戏保存中>><br /><br />系统消息：用户【<span style=\"display: inline-block; color: #dbc291ff; font-weight:bold;\">缭乱•忍侠</span>】已暂离游戏。",
+   "unlockRequirement": "角色等级<nobr>80</nobr>解锁"
+  }
+ ],
+ "archive": {
+  "cvCn": "金娜",
+  "cvJp": "潘めぐみ",
+  "cvKr": "김유림",
+  "cvEn": "Kendell Byrd",
+  "camp": "巡海游侠"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "735764": 2,
+    "936350": 2
+   },
+   "5": {
+    "304817": 1,
+    "304818": 1,
+    "451237": 1,
+    "567881": 1,
+    "651823": 2,
+    "735763": 1
+   }
+  }
+ },
+ "name": "乱破",
+ "rarity": 5,
+ "descHash": "如丑时三刻的闪光弹一般现身在匹诺康尼，以忍者自居，将世间一切归因于「忍法」的奇妙少女。 贯彻吟诵忍•真言、绘制缭乱•忍符、修习忍•法帖的「忍•道」——即说唱，涂鸦，漫画——苦炼自身意志，驰骋星间行侠仗义。 身为「巡海游侠」的一员，始终追猎着名为「御猿•邪忍」的恶党，直至银河尽头。",
+ "artPath": "cdc633b598a172e6cba24f9e1d1d9e3e6bef4d6d6f991c261a58663fefd80d03",
+ "miniIconPath": "11cecc91dbea4445455e90c17aaae20752349e03532a8614614afab77ac67286",
+ "damageType": {
+  "id": 64,
+  "iconPath": "c94859ea8f2bb3f3ba61bd9d9aec35660e7f16ffa91705e51e1258c118bdaff2",
+  "color": "#F4D258",
+  "name": "虚数",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "altIconPath": "005fa14e04e2704b43c3b215129260d7abe1bc8f9ebc3918ecc85a27d0247fbb",
+  "color": "#FFFFFF",
+  "name": "智识",
+  "rarity": 0
+ },
+ "pageId": "rappa"
+}

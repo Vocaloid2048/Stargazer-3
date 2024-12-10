@@ -1,0 +1,523 @@
+{
+ "name": "忍事录•音律狩猎",
+ "rarity": 4,
+ "descHash": "银河忍法千变万化，音律•狩猎风云叱咤，且听——<br /><br />吉他扫弦奏响，贝斯拨动心脏，电音轮舞刹那点燃全场！<br />汗水不会说谎，记录下一路跌宕，化作键盘音符回荡。<br />缭乱唱响，当仁不让，就算遍体鳞伤。<br />「缭乱！」「缭乱！」「缭乱！」<br />嘿，阁下，这世界本就荒诞狂浪，纵情高唱又何妨？",
+ "iconPath": "e7f6d63a7a3694b19b2154d40d9451770de20ab5ea69a31cc31247159bc0ea74",
+ "artPath": "e43afbee32be5965b1ac1b911ac5d5ee232a5063cae2d80e23369e11c1c99b45",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRhYCAABXRUJQVlA4IAoCAAAQCQCdASoUABwAPm0skkWkIqGYBABABsS2AE6ZQjgTQZx2MttgNwBvIHoAeWN7F37lekzR8T8DM3zz4LLKlYw2GKiatBSYNJ21w3aZCfryrgAA/u0tcSHUMg8sUccVnK/eOOwInn2JEZnx1zk7BtsRILMt0HUI4Q+fO7VOseE7E079gOOurUmQssgvaTzX5fgXzoFrwCZUSFKzKu6/5rZ9Z0/6T6fqIo147hTl8yUdLZf+qlMCpc+mXv0HCu1ZSc+J4WXFO8NdbHuT/Ls+kR7ZbQ34z1wduBefhvWRnqH9ZTjO9HNtaqin8WY86ZHLJCfnQqsX9mAkBFE8qMad/mz9iP6Md/N1xnBfbu2g8Xjg6+MGTy5UrTv6zO3/4IkJrdDnO6raXF3fq+82dqDn7gvnAg8dCPf/6HJnRiate70G1kGSmBSyvQZGGHRT7iVS3erIQv51rLfF2tC1t45IOdgrtokE+v/KzdUzDX+Sy4uT5pk4JnWECBsXqibG1FtKs7N57pe85otp/YmpPmBup/kfHqboGBpfXR/GVKz+pbLHaBhqZG3mqgnUIOTAQ+DZk5QLeydisN5pllX1fsUNUlXlQg7IuFl8/DdQ4P6d3HM+jhJvfZAO9q0WD6FyFwQUGm0unIhv+fOaWdneHD8L/04tfRuUfBMI1u4reFXaywsPCog0FKmOBZQAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "4eb7b208afd3f7c8ff4e60d14819cec3520e725561759f65f065951f3250a59a",
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "color": "#FFFFFF",
+  "name": "毁灭",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用点",
+   "desc": "星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。",
+   "lore": "「人们奔波、争斗、贸易，为的不过是个终端里显示的数字。但真正珍贵之物，公司的数字是买不到的。」",
+   "purpose": "通用货币",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "拟造花萼【大矿区】",
+    "拟造花萼【工造司】",
+    "拟造花萼【「白日梦」酒店-梦境】",
+    "任务奖励",
+    "委托奖励",
+    "余烬兑换"
+   ]
+  },
+  "549210": {
+   "id": 549210,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4a6fc3718f67a82eef238f5d111c12b6bea9b9f321b3ad14f4f938f63952053c",
+   "name": "思绪末屑",
+   "desc": "短暂思绪的忆质碎片，强化所需的简单材料。",
+   "lore": "忆域之中，万千思绪如尘埃纷扬。破碎端绪沉淀堆积，作为迷因的质料。<br /><br />「刹那心念，或一瞬生灭，或积聚成障。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/549210",
+   "comeFrom": [
+    "忆域迷因掉落",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "委托奖励",
+    "余烬兑换",
+    "「万能合成机」- 材料置换",
+    "拟造花萼（金）"
+   ]
+  },
+  "633151": {
+   "id": 633151,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d75355ebd700f841542175f51954110701eecbc0972f55f514d8bd4a9e11b88c",
+   "name": "印象残晶",
+   "desc": "深刻印象的忆质碎片，强化所需的普通材料。",
+   "lore": "忆域之中，记忆的影像如浮光掠影，唯有刻骨铭心的片段能凝结成晶，化作迷因的基石。<br /><br />「记忆不是在复刻过去的感官，而是在重构往昔的印象。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/633151",
+   "comeFrom": [
+    "突破至均衡等级2后，忆域迷因掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "步离犬牙",
+   "desc": "步离人征战时遗留的零星碎牙。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">毁灭</span>角色的命途行迹。",
+   "lore": "步离人将锐牙视作征战者的砥锋白刃。<br />步离人崇敬拥有至高力量的战士，在弱肉强食的「猎群部落」里，任何龋齿之流只会被族群遗弃。<br /><br />「巢父大人，赐予我等尖牙锐爪。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "拟造花萼【鳞渊境】",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "提纯以太",
+   "desc": "光锥的强化材料，可以获得<nobr>6000</nobr>点光锥经验。",
+   "lore": "一罐经由特殊技术精炼而成的以太。<br /><br />「忆庭盼望重现往日的辉煌，但那是由他们所选择的『往日辉煌』，明白吗？」",
+   "purpose": "光锥经验材料",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "拟造花萼【边缘通路】",
+    "拟造花萼【太卜司】",
+    "拟造花萼【稚子的梦】",
+    "「忘却之庭」"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "凝缩以太",
+   "desc": "光锥的强化材料，可以获得<nobr>2000</nobr>点光锥经验。",
+   "lore": "一罐经由特殊技术精炼而成的以太。<br /><br />「小心轻放，勿压勿摔。破损泄漏后请参照《流溢灾难应对手册》第二章内容进行灾后处置。」",
+   "purpose": "光锥经验材料",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "拟造花萼【边缘通路】",
+    "拟造花萼【太卜司】",
+    "拟造花萼【稚子的梦】",
+    "余烬兑换"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "稀薄以太",
+   "desc": "光锥的强化材料，可以获得<nobr>500</nobr>点光锥经验。",
+   "lore": "本不应存在于现实的假想介质，创造光锥的基本原料。<br />将之注入光锥，能令封装其中的事象更为清晰。<br /><br />「原来如此，流光忆庭的『忆质』就是这东西，怪不得忆者能携带记忆进行星际旅行。」",
+   "purpose": "光锥经验材料",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "拟造花萼【边缘通路】",
+    "拟造花萼【太卜司】",
+    "拟造花萼【稚子的梦】",
+    "委托奖励"
+   ]
+  },
+  "717092": {
+   "id": 717092,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4366e9814d1d923187cc30cf4becfaddbece031abe85a00d8470ec51068c07e8",
+   "name": "欲念碎镜",
+   "desc": "长久欲念的忆质碎片，强化所需的高级材料。",
+   "lore": "忆域之中，欲望的忆质不断滋长。它们吞并思绪与印象，孕育欲望的魔镜，映出迷因的诡影。<br /><br />「记忆指向过去，欲望指向未来。忆中求欲，梦想颠倒，心魔自生。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/717092",
+   "comeFrom": [
+    "突破至均衡等级4后，忆域迷因掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "月狂獠牙",
+   "desc": "步离人征战时遗留的骇人长牙。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">毁灭</span>角色的命途行迹。",
+   "lore": "步离人通过与生俱来的「月狂」进一步强化身躯。<br />战狂们自拥惊人的愈合能力，伴随着骨质与肌肉增生，在血雾中摧枯拉朽。<br /><br />「巢父大人，赐予我等通天神力。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "拟造花萼【鳞渊境】",
+    "「万能合成机」- 材料合成",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "狼毒锯牙",
+   "desc": "步离人征战时遗留的吮血尖牙。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">毁灭</span>角色的命途行迹。",
+   "lore": "步离人将锐牙视作征战者的砥锋白刃。<br />步离人血脉中流淌着疯狂的冲动，在狼毒催化下，他们啮噬吮血，无往不利。<br /><br />「巢父大人，赐予我等铜筋铁骨。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "拟造花萼【鳞渊境】",
+    "「万能合成机」- 材料合成",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549210,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635680,
+     "count": 3
+    },
+    {
+     "id": 549210,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920207,
+     "count": 3
+    },
+    {
+     "id": 633151,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920207,
+     "count": 6
+    },
+    {
+     "id": 633151,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836266,
+     "count": 4
+    },
+    {
+     "id": 717092,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836266,
+     "count": 8
+    },
+    {
+     "id": 717092,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 22003,
+  "name": "开演！",
+  "descHash": "使装备者的生命上限提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，损失或回复自身生命值后，暴击伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，持续<nobr>#3[i]</nobr>回合，该效果每回合只可触发1次。",
+  "levelData": [
+   {
+    "params": [
+     0.12,
+     0.18,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.15,
+     0.225,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.18,
+     0.27,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.21,
+     0.315,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.24,
+     0.36,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "22003"
+}

@@ -1,5 +1,72 @@
 [
   {
+    "name": "Fugue",
+    "element": "Fire",
+    "path": "Nihility",
+    "rare": 5,
+    "sex": "Female",
+    "status": "RELEASED",
+    "fileName": "fugue",
+    "version": "2.7.0",
+    "charId": 1225
+  },
+  {
+    "name": "Sunday",
+    "element": "Imaginary",
+    "path": "Harmony",
+    "rare": 5,
+    "sex": "Male",
+    "status": "RELEASED",
+    "fileName": "sunday",
+    "version": "2.7.0",
+    "charId": 1313
+  },
+  {
+    "name": "Rappa",
+    "element": "Imaginary",
+    "path": "Erudition",
+    "rare": 5,
+    "sex": "Female",
+    "status": "RELEASED",
+    "fileName": "rappa",
+    "version": "2.6.0",
+    "charId": 1317
+  },
+  {
+    "name": "Lingsha",
+    "element": "Fire",
+    "path": "Abundance",
+    "rare": 5,
+    "sex": "Female",
+    "status": "RELEASED",
+    "fileName": "lingsha",
+    "version": "2.5.0",
+    "charId": 1222
+  },
+  {
+    "name": "Feixiao",
+    "element": "Wind",
+    "path": "Hunt",
+    "rare": 5,
+    "sex": "Female",
+    "status": "RELEASED",
+    "fileName": "feixiao",
+    "version": "2.5.0",
+    "charId": 1220
+  },
+  {
+    "name": "Moze",
+    "element": "Lightning",
+    "path": "Hunt",
+    "rare": 4,
+    "sex": "Male",
+    "status": "RELEASED",
+    "fileName": "moze",
+    "version": "2.5.0",
+    "charId": 1223
+  },
+
+  {
     "name": "Jiaoqiu",
     "element": "Fire",
     "path": "Nihility",
