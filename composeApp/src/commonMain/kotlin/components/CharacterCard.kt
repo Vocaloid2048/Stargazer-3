@@ -20,11 +20,15 @@ import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.foundation.layout.requiredWidth
+import androidx.compose.foundation.layout.sizeIn
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
@@ -52,7 +56,9 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 import types.Character
 import types.CombatType
 import types.Constants.Companion.CHAR_CARD_HEIGHT
+import types.Constants.Companion.CHAR_CARD_TITLE_HEIGHT
 import types.Constants.Companion.CHAR_CARD_WIDTH
+import types.Constants.Companion.MATERIAL_CARD_TITLE_HEIGHT
 import types.Constants.Companion.getCardBgColorByRare
 import types.Path
 import utils.FontSizeNormal12
@@ -82,26 +88,12 @@ fun CharacterCard(
 ) {
     val interactionSource = remember { MutableInteractionSource() }
 
-    /* AsyncImage
-    val context = LocalPlatformContext.current
-    val imageRequest =  remember {
-        ImageRequest.Builder(context)
-            .data((Character.getCharacterImageByteArrayFromFileName(
-                UtilTools.ImageFolderType.CHAR_ICON,
-                character.registName!!
-            )))
-            .networkCachePolicy(CachePolicy.ENABLED)
-            .crossfade(true)
-            .diskCachePolicy(CachePolicy.ENABLED)
-            .build()
-    }
-    val imageLoader = remember {
-        UtilTools().newImageLoader(context = context)
-    }
-    */
+    //UI of the Character Card
+    //Container of the Character Card
     Box(
         modifier = Modifier
-            .defaultMinSize(CHAR_CARD_WIDTH, CHAR_CARD_HEIGHT)
+            .widthIn(CHAR_CARD_WIDTH, CHAR_CARD_WIDTH*2)
+            .aspectRatio(CHAR_CARD_WIDTH/ CHAR_CARD_HEIGHT)
             .clip(
                 RoundedCornerShape(
                     topEnd = 15.dp,
@@ -121,7 +113,7 @@ fun CharacterCard(
                 interactionSource = interactionSource
             )
     ) {
-
+        //Character Icon & Name / Level
         Column(modifier = Modifier.fillMaxSize()) {
             Box {
                 AsyncImage(
@@ -133,24 +125,12 @@ fun CharacterCard(
                     ),
                     contentDescription = "Character Icon",
                     modifier = Modifier
-                        .fillMaxWidth()
+                        .widthIn(CHAR_CARD_WIDTH, CHAR_CARD_WIDTH*2)
                         .aspectRatio(1f),
                     contentScale = ContentScale.Crop,
                     imageLoader = UtilTools().newImageLoader(LocalPlatformContext.current)
                 )
 
-                /*
-                Image(
-                    bitmap = Character.getCharacterImageFromFileName(
-                        UtilTools.ImageFolderType.CHAR_ICON,
-                        character.registName!!
-                    ),
-                    contentDescription = "Character Icon",
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .aspectRatio(1f),
-                )
-                 */
 
                 if(character.characterStatus != null && character.characterStatus!!.characterLevel != -1 && !isDisplayLevel){
                     Text(
@@ -166,7 +146,7 @@ fun CharacterCard(
                 }
             }
             Row(
-                Modifier.fillMaxWidth().background(Color(0xFF222222)),
+                Modifier.fillMaxWidth().background(Color(0xFF222222)).height(MATERIAL_CARD_TITLE_HEIGHT),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {

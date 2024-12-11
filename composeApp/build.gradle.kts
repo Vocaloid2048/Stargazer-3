@@ -124,6 +124,9 @@ kotlin {
             //Screen Capture
             //implementation(libs.compose.multiplatform.screen.capture)
 
+            //VerticalGrid
+            implementation("com.cheonjaeung.compose.grid:grid:2.1.0")
+
         }
         desktopMain.dependencies {
             implementation(compose.material3)
@@ -144,7 +147,7 @@ kotlin {
 
 android {
     namespace = "com.voc.honkaistargazer"
-    compileSdk = libs.versions.android.compileSdk.get().toInt()
+    compileSdk = 35
 
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     sourceSets["main"].res.srcDirs("src/androidMain/res")
@@ -198,6 +201,7 @@ android {
     buildFeatures {
         compose = true
     }
+    buildToolsVersion = "35.0.0"
     dependencies {
         debugImplementation(compose.uiTooling)
         implementation(libs.androidx.material3.android)

@@ -39,6 +39,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
+import com.cheonjaeung.compose.grid.SimpleGridCells
+import com.cheonjaeung.compose.grid.VerticalGrid
 import com.voc.honkai_stargazer.component.CharacterCard
 import components.BackIcon
 import components.HeaderData
@@ -133,30 +135,36 @@ fun CharacterListPage(
         }
          */
 
-        LazyVerticalGrid(
-            modifier = Modifier
-                .padding(start = 16.dp, end = 16.dp)
-                .haze(state = hazeState),
-            columns = GridCells.Adaptive(CHAR_CARD_WIDTH),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
-            state = rememberLazyGridState(),
-        ) {
-            item(span = { GridItemSpan(maxCurrentLineSpan) }) {
+        LazyColumn {
+            item{
                 Spacer(
                     modifier = Modifier
                         .statusBarsPadding()
-                        .height(PAGE_HEADER_HEIGHT)
+                        .height(PAGE_HEADER_HEIGHT+12.dp)
                 )
             }
-            items(count = charListSortable.value.size) { index ->
-                CharacterCard(character = charListSortable.value[index])
+            item{
+                VerticalGrid(
+                    modifier = Modifier
+                        .padding(start = 16.dp, end = 16.dp)
+                        .haze(state = hazeState),
+                    columns = SimpleGridCells.Adaptive(CHAR_CARD_WIDTH),
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ){
+
+
+                    for(character in charListSortable.value){
+                        CharacterCard(character = character)
+                    }
+
+                }
             }
-            item(span = { GridItemSpan(maxLineSpan) }) {
+            item{
                 Spacer(
                     modifier = Modifier
                         .navigationBarsPadding()
-                        .height(LIST_FILTER_TOOL_HEIGHT)
+                        .height(LIST_FILTER_TOOL_HEIGHT+12.dp)
                 )
             }
         }
